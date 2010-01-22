@@ -1,21 +1,23 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.2b1dev'
+version = '2.2dev'
 
 setup(name='silva.translations',
       version=version,
-      description="Translation for Silva CMS",
+      description="Translations files in many languages for the Silva CMS",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
+        "Framework :: Zope2",
+        "License :: OSI Approved :: BSD License",
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='silva translations',
       author='Infrae',
       author_email='info@infrae.com',
-      url='',
+      url='http://infrae.com/product/silva',
       license='BSD',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['silva'],
