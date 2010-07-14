@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Jul 13 19:34:21 2010\n"
+"POT-Creation-Date: Wed Jul 14 10:54:36 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -475,7 +475,6 @@ msgid "Add Silva user documentation?"
 msgstr ""
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:71
-#: silva.core.layout:/markers.py:312
 msgid "Add"
 msgstr ""
 
@@ -1943,6 +1942,7 @@ msgstr ""
 
 #: Products.Silva:/views/edit/Container/docma_queue.pt:228
 #: Products.Silva:/views/edit/Container/tab_status_export.pt:537
+#: silva.core.layout:/markers.py:336
 msgid "remove"
 msgstr ""
 
@@ -3965,10 +3965,6 @@ msgid "username"
 msgstr ""
 
 #: Products.Silva:/views/edit/lookup_ui_direct.pt:99
-msgid "add"
-msgstr ""
-
-#: Products.Silva:/views/edit/lookup_ui_direct.pt:99
 #: Products.Silva:/views/edit/lookup_ui.pt:101
 #: Products.Silva:/views/edit/macro_edit_metadata.pt:165
 #: Products.Silva:/views/edit/tab_subscriptions.pt:113
@@ -3980,6 +3976,11 @@ msgstr ""
 #: Products.Silva:/views/public/subscriptor.pt:46
 #: Products.Silva:/browser/object_lookup.pt:109
 msgid "access key: alt-s"
+msgstr ""
+
+#: Products.Silva:/views/edit/lookup_ui_direct.pt:99
+#: silva.core.layout:/markers.py:312
+msgid "add"
 msgstr ""
 
 #: Products.Silva:/views/edit/macro_edit_metadata.pt:154
@@ -5310,10 +5311,6 @@ msgstr ""
 
 #: silva.core.layout:/markers.py:332
 msgid "Remove a marker"
-msgstr ""
-
-#: silva.core.layout:/markers.py:336
-msgid "Remove"
 msgstr ""
 
 #: silva.core.layout:/markers.py:347
