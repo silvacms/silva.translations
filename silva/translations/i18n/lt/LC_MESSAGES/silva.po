@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Mon Oct 18 12:17:07 2010\n"
+"POT-Creation-Date: Mon Dec 20 12:36:21 2010\n"
 "PO-Revision-Date: 2008-05-12 13:40+0000\n"
 "Last-Translator: Andrius Urbanavičius <Unknown>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
@@ -250,6 +250,43 @@ msgstr ""
 msgid "Default legacy layout code installed"
 msgstr ""
 
+#: Products.Silva:/ExtensionService_templates/manageextensions.pt:12
+#: Products.Silva:/ExtensionService_templates/manageextensions.pt:82
+#: Products.Silva:/Indexer_templates/indexerview.pt:4
+#: Products.Silva:/browser/object_lookup.pt:272
+#: Products.Silva:/browser/object_lookup.pt:302
+#: Products.Silva:/resources/sidebar_template.pt:75
+#: Products.Silva:/resources/sidebar_template.pt:92
+#: Products.Silva:/views/macro_index.pt:36
+#: Products.Silva:/views/macro_tabs.pt:93
+#: Products.Silva:/views/macro_tabs.pt:108
+#: Products.Silva:/views/macro_tabs.pt:118
+#: Products.Silva:/views/edit/macro_edit_metadata.pt:98
+#: Products.Silva:/views/edit/macro_edit_metadata.pt:106
+#: Products.Silva:/views/edit/macro_vein_navigation.pt:68
+#: Products.Silva:/views/edit/macro_vein_navigation.pt:125
+#: Products.Silva:/views/edit/macro_vein_navigation.pt:148
+#: Products.Silva:/views/edit/macro_view_metadata.pt:82
+#: Products.Silva:/views/edit/tab_preview_frame_top.pt:30
+#: Products.Silva:/views/edit/Asset/File/tab_edit.pt:75
+#: Products.Silva:/views/edit/Container/tab_addables.pt:87
+#: Products.Silva:/views/edit/Container/tab_addables.pt:90
+#: Products.Silva:/views/edit/Container/tab_status.pt:221
+#: Products.Silva:/views/edit/Container/tab_status.pt:232
+#: Products.Silva:/views/edit/VersionedContent/tab_status.pt:215
+#: Products.Silva:/views/edit/VersionedContent/tab_status_macros.pt:211
+#: Products.Silva:/views/edit/VersionedContent/tab_status_macros.pt:231
+#: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:52
+#: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:119
+#: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:172
+#: silva.core.smi:/navigation_templates/sminavigation.pt:25
+#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:25
+#: silva.core.smi:/smi_templates/smitopmenuitem.pt:2
+#: silva.core.smi:/smi_templates/smitopmenuitem.pt:11
+#: silva.core.smi:/smi_templates/smitopmenuitem.pt:19
+msgid "${DYNAMIC_CONTENT}"
+msgstr ""
+
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:19
 msgid "Configure Silva Extension Products"
 msgstr ""
@@ -308,7 +345,7 @@ msgstr "Parsisiųsti"
 
 #: Products.Silva:/File.py:583
 #: Products.Silva:/views/edit/Asset/upload_form.form:24
-#: Products.SilvaExternalSources:/CSVSource.py:336
+#: Products.SilvaExternalSources:/CSVSource.py:246
 msgid "file"
 msgstr ""
 
@@ -337,16 +374,16 @@ msgid ""
 "Storage for Silva Files and Images converted. Check the log for more details."
 msgstr ""
 
-#: Products.Silva:/Folder.py:366 Products.Silva:/Folder.py:428
+#: Products.Silva:/Folder.py:372 Products.Silva:/Folder.py:434
 msgid "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
 msgstr ""
 
 #. Default: ""
-#: Products.Silva:/Folder.py:387 Products.Silva:/Folder.py:425
+#: Products.Silva:/Folder.py:393 Products.Silva:/Folder.py:431
 msgid "pasted &#xab;${id}&#xbb;"
 msgstr ""
 
-#: Products.Silva:/Folder.py:52
+#: Products.Silva:/Folder.py:58
 msgid ""
 "The presentation of the information within a\n"
 "       publication is structured with folders. They determine the visual\n"
@@ -358,15 +395,15 @@ msgid ""
 "    "
 msgstr ""
 
-#: Products.Silva:/Folder.py:923
+#: Products.Silva:/Folder.py:886
 msgid "first item"
 msgstr ""
 
-#: Products.Silva:/Folder.py:924
+#: Products.Silva:/Folder.py:887
 msgid "Choose an item to be created within the container"
 msgstr ""
 
-#: Products.Silva:/Folder.py:952
+#: Products.Silva:/Folder.py:915
 msgid "This container as no index."
 msgstr ""
 
@@ -433,9 +470,9 @@ msgstr ""
 #: Products.Silva:/views/edit/Asset/Image/tab_edit.pt:123
 #: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:36
 #: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:103
+#: zeam.form.silva:/form_templates/smiaddformtemplate.pt:32
 #: zeam.form.silva:/form_templates/smiformtemplate.pt:30
 #: zeam.form.silva:/form_templates/smisubformtemplate.pt:20
-#: zeam.form.silva:/form_templates/smiaddformtemplate.pt:32
 #: zeam.form.silva:/rest_templates/restformtemplate.cpt:11
 msgid "aspect"
 msgstr ""
@@ -452,18 +489,18 @@ msgstr ""
 #: Products.Silva:/views/edit/Container/tab_status_export.pt:382
 #: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:40
 #: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:107
+#: zeam.form.silva:/form_templates/smiaddformtemplate.pt:35
 #: zeam.form.silva:/form_templates/smiformtemplate.pt:33
 #: zeam.form.silva:/form_templates/smisubformtemplate.pt:23
-#: zeam.form.silva:/form_templates/smiaddformtemplate.pt:35
 #: zeam.form.silva:/rest_templates/restformtemplate.cpt:14
 msgid "content"
 msgstr ""
 
 #: Products.Silva:/GhostFolder_templates/smieditform.pt:74
 #: Products.Silva:/views/edit/macro_edit_metadata.pt:150
+#: zeam.form.silva:/form_templates/smiaddformtemplate.pt:74
 #: zeam.form.silva:/form_templates/smiformtemplate.pt:72
 #: zeam.form.silva:/form_templates/smisubformtemplate.pt:62
-#: zeam.form.silva:/form_templates/smiaddformtemplate.pt:74
 #: zeam.form.silva:/rest_templates/restformtemplate.cpt:53
 msgid "* required"
 msgstr ""
@@ -502,7 +539,7 @@ msgstr ""
 msgid "Low resolution image in original format is not supported"
 msgstr ""
 
-#: Products.Silva:/Image.py:679
+#: Products.Silva:/Image.py:689
 #: Products.Silva:/views/edit/Asset/Image/tab_edit.pt:25
 #: Products.Silva:/views/edit/Asset/Image/tab_edit.pt:41
 #: Products.Silva:/views/edit/Asset/Image/tab_edit.pt:191
@@ -679,7 +716,7 @@ msgid "Zope is running in production mode."
 msgstr ""
 
 #. Default: ""
-#: Products.Silva:/SilvaObject.py:425
+#: Products.Silva:/SilvaObject.py:430
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr ""
 
@@ -711,7 +748,7 @@ msgstr ""
 msgid "last_closed"
 msgstr ""
 
-#: Products.Silva:/Version.py:188 Products.Silva:/ViewCode.py:102
+#: Products.Silva:/Version.py:188 Products.Silva:/ViewCode.py:103
 msgid "approved"
 msgstr ""
 
@@ -719,17 +756,17 @@ msgstr ""
 msgid "public"
 msgstr ""
 
-#: Products.Silva:/Version.py:189 Products.Silva:/ViewCode.py:110
+#: Products.Silva:/Version.py:189 Products.Silva:/ViewCode.py:100
+msgid "pending"
+msgstr ""
+
+#: Products.Silva:/Version.py:189 Products.Silva:/ViewCode.py:111
 #: Products.Silva:/views/edit/Container/tab_status.pt:318
 msgid "closed"
 msgstr ""
 
-#: Products.Silva:/Version.py:189 Products.Silva:/ViewCode.py:96
+#: Products.Silva:/Version.py:189 Products.Silva:/ViewCode.py:97
 msgid "draft"
-msgstr ""
-
-#: Products.Silva:/Version.py:189 Products.Silva:/ViewCode.py:99
-msgid "pending"
 msgstr ""
 
 #: Products.Silva:/Versioning.py:102
@@ -817,12 +854,12 @@ msgstr ""
 msgid "A previous version has that id already (${id})."
 msgstr ""
 
-#: Products.Silva:/ViewCode.py:106
+#: Products.Silva:/ViewCode.py:107
 #: Products.Silva:/views/edit/Container/tab_status.pt:176
 msgid "published"
 msgstr ""
 
-#: Products.Silva:/ViewCode.py:115
+#: Products.Silva:/ViewCode.py:116
 #: Products.Silva:/views/edit/Container/tab_status_export.pt:472
 msgid "none"
 msgstr ""
@@ -839,6 +876,12 @@ msgstr ""
 #: Products.Silva:/adapters/version_management.py:90
 #: Products.Silva:/adapters/version_management.py:98
 msgid "No unapproved version available"
+msgstr ""
+
+#: Products.Silva:/browser/object_lookup.pt:109
+#: Products.Silva:/views/edit/macro_edit_metadata.pt:165
+#: Products.Silva:/views/edit/Asset/macro_asset_edit.pt:73
+msgid "access key: alt-s"
 msgstr ""
 
 #: Products.Silva:/browser/object_lookup.pt:115
@@ -858,16 +901,50 @@ msgstr ""
 msgid "view"
 msgstr ""
 
+#: Products.Silva:/browser/object_lookup.pt:160
+#: Products.Silva:/views/edit/Container/tab_edit.pt:76
+msgid "modified"
+msgstr ""
+
+#: Products.Silva:/browser/object_lookup.pt:163
+#: Products.Silva:/views/edit/Container/tab_edit.pt:79
+msgid "author"
+msgstr ""
+
+#: Products.Silva:/browser/object_lookup.pt:173
+#: Products.Silva:/views/edit/Container/tab_edit.pt:93
+msgid "There is no content here."
+msgstr ""
+
 #: Products.Silva:/browser/object_lookup.pt:244
 msgid "enter"
+msgstr ""
+
+#: Products.Silva:/browser/object_lookup.pt:284
+#: Products.Silva:/browser/object_lookup.pt:314
+#: Products.Silva:/views/edit/Container/tab_edit.pt:175
+#: Products.Silva:/views/edit/Container/tab_status.pt:270
+msgid "n/a"
 msgstr ""
 
 #: Products.Silva:/browser/object_lookup.pt:291
 msgid "content is published"
 msgstr ""
 
+#: Products.Silva:/browser/object_lookup.pt:400
+#: Products.Silva:/views/edit/Container/tab_edit.pt:337
+msgid "unknown"
+msgstr ""
+
 #: Products.Silva:/browser/object_lookup.pt:427
 msgid "cancel operation: alt-c"
+msgstr ""
+
+#: Products.Silva:/browser/object_lookup.pt:427
+#: Products.Silva:/views/edit/promptWindow.pt:34
+#: Products.Silva:/views/edit/Container/tab_edit_rename.pt:128
+#: zeam.form.silva:/actions.py:76
+msgid "cancel"
 msgstr ""
 
 #: Products.Silva:/browser/object_lookup.pt:450
@@ -1336,6 +1413,21 @@ msgid ""
 "object${br} i &nbsp; import${br} e &nbsp; export"
 msgstr ""
 
+#: Products.Silva:/globals/copyright.pt:17
+#: Products.Silva:/globals/reference.pt:22
+msgid "access key: alt-b"
+msgstr ""
+
+#: Products.Silva:/globals/copyright.pt:17
+#: Products.Silva:/globals/reference.pt:22
+msgid "back"
+msgstr ""
+
+#: Products.Silva:/globals/copyright.pt:28
+#: Products.Silva:/globals/reference.pt:33
+msgid "Silva info: alt-s"
+msgstr ""
+
 #: Products.Silva:/globals/reference.pt:10
 msgid "Silva Reference"
 msgstr ""
@@ -1371,21 +1463,6 @@ msgid ""
 "span>${br} &#xa9; Copyright 2001-2010 Infrae. All rights reserved."
 msgstr ""
 
-#: Products.Silva:/globals/reference.pt:22
-#: Products.Silva:/globals/copyright.pt:17
-msgid "access key: alt-b"
-msgstr ""
-
-#: Products.Silva:/globals/reference.pt:22
-#: Products.Silva:/globals/copyright.pt:17
-msgid "back"
-msgstr ""
-
-#: Products.Silva:/globals/reference.pt:33
-#: Products.Silva:/globals/copyright.pt:28
-msgid "Silva info: alt-s"
-msgstr ""
-
 #: Products.Silva:/globals/reference.pt:39
 msgid "${Silva} &#8211; independent content management"
 msgstr ""
@@ -1418,12 +1495,29 @@ msgstr ""
 msgid "Return to where you came from..."
 msgstr ""
 
+#: Products.Silva:/resources/sidebar_template.pt:24
+#: Products.Silva:/resources/sidebar_template.pt:63
+#: Products.Silva:/views/edit/macro_vein_navigation.pt:136
+#: Products.Silva:/views/edit/macro_vein_navigation.pt:178
+#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:12
+#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:42
+msgid "slide to the publish screen"
+msgstr ""
+
 #: Products.Silva:/resources/sidebar_template.pt:30
 msgid "up to top contents of publication"
 msgstr ""
 
 #: Products.Silva:/resources/sidebar_template.pt:37
 msgid "up to top of publication"
+msgstr ""
+
+#: Products.Silva:/resources/sidebar_template.pt:69
+#: Products.Silva:/views/edit/macro_vein_navigation.pt:142
+#: Products.Silva:/views/edit/macro_vein_navigation.pt:185
+#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:18
+#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:49
+msgid "slide to the contents screen"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:26
@@ -1745,10 +1839,11 @@ msgstr ""
 #: Products.Silva:/views/edit/VersionedContent/get_tabs.py:20
 #: Products.Silva:/views/edit/get_authorized_tabs.py:15
 #: Products.Silva:/views/edit/get_authorized_tabs.py:19
+#: Products.Silva:/browser/object_lookup.pt:381
 #: Products.Silva:/views/edit/Container/tab_edit.pt:73
 #: Products.Silva:/views/edit/Container/tab_edit.pt:149
 #: Products.Silva:/views/edit/Container/tab_edit.pt:311
-#: Products.Silva:/browser/object_lookup.pt:381 silva.core.smi:/menu.py:178
+#: silva.core.smi:/menu.py:178 silva.core.smi:/preview.py:20
 msgid "preview"
 msgstr ""
 
@@ -1796,8 +1891,8 @@ msgid "characterization"
 msgstr ""
 
 #: Products.Silva:/views/edit/Asset/tab_status.pt:25
-#: Products.Silva:/views/edit/VersionedContent/tab_status.pt:51
 #: Products.Silva:/views/edit/Content/tab_status.pt:25
+#: Products.Silva:/views/edit/VersionedContent/tab_status.pt:51
 msgid "status of &#xab;${title}&#xbb;"
 msgstr ""
 
@@ -1819,7 +1914,7 @@ msgid "s${e}ttings..."
 msgstr ""
 
 #: Products.Silva:/views/edit/Container/GhostFolder/tab_metadata.pt:25
-#: silva.app.subscriptions:/smi.py:94
+#: silva.app.subscriptions:/smi.py:95
 msgid "manage subscriptions: alt-u"
 msgstr ""
 
@@ -1966,7 +2061,7 @@ msgstr ""
 
 #: Products.Silva:/views/edit/Container/get_tabs.py:21
 #: Products.Silva:/views/edit/get_authorized_tabs.py:14
-#: silva.core.smi:/menu.py:172
+#: silva.core.smi:/menu.py:172 silva.core.smi:/smi.py:97
 msgid "contents"
 msgstr ""
 
@@ -2070,13 +2165,6 @@ msgstr ""
 msgid "Addable settings changed for: ${changed_metadata}"
 msgstr ""
 
-#: Products.Silva:/views/edit/Container/tab_edit.pt:175
-#: Products.Silva:/views/edit/Container/tab_status.pt:270
-#: Products.Silva:/browser/object_lookup.pt:284
-#: Products.Silva:/browser/object_lookup.pt:314
-msgid "n/a"
-msgstr ""
-
 #: Products.Silva:/views/edit/Container/tab_edit.pt:201
 msgid "content approved, or published..."
 msgstr ""
@@ -2097,11 +2185,6 @@ msgstr ""
 
 #: Products.Silva:/views/edit/Container/tab_edit.pt:297
 msgid "editor"
-msgstr ""
-
-#: Products.Silva:/views/edit/Container/tab_edit.pt:337
-#: Products.Silva:/browser/object_lookup.pt:400
-msgid "unknown"
 msgstr ""
 
 #: Products.Silva:/views/edit/Container/tab_edit.pt:370
@@ -2221,23 +2304,8 @@ msgstr ""
 msgid "modify"
 msgstr ""
 
-#: Products.Silva:/views/edit/Container/tab_edit.pt:76
-#: Products.Silva:/browser/object_lookup.pt:160
-msgid "modified"
-msgstr ""
-
-#: Products.Silva:/views/edit/Container/tab_edit.pt:79
-#: Products.Silva:/browser/object_lookup.pt:163
-msgid "author"
-msgstr ""
-
 #: Products.Silva:/views/edit/Container/tab_edit.pt:82
 msgid "shift"
-msgstr ""
-
-#: Products.Silva:/views/edit/Container/tab_edit.pt:93
-#: Products.Silva:/browser/object_lookup.pt:173
-msgid "There is no content here."
 msgstr ""
 
 #: Products.Silva:/views/edit/Container/tab_edit_close.py:14
@@ -3459,12 +3527,6 @@ msgstr ""
 
 #: Products.Silva:/views/edit/macro_edit_metadata.pt:165
 #: Products.Silva:/views/edit/Asset/macro_asset_edit.pt:73
-#: Products.Silva:/browser/object_lookup.pt:109
-msgid "access key: alt-s"
-msgstr ""
-
-#: Products.Silva:/views/edit/macro_edit_metadata.pt:165
-#: Products.Silva:/views/edit/Asset/macro_asset_edit.pt:73
 #: zeam.form.silva:/form.py:366
 msgid "save"
 msgstr ""
@@ -3508,23 +3570,6 @@ msgstr ""
 msgid "siblings"
 msgstr ""
 
-#: Products.Silva:/views/edit/macro_vein_navigation.pt:136
-#: Products.Silva:/views/edit/macro_vein_navigation.pt:178
-#: Products.Silva:/resources/sidebar_template.pt:24
-#: Products.Silva:/resources/sidebar_template.pt:63
-#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:12
-#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:42
-msgid "slide to the publish screen"
-msgstr ""
-
-#: Products.Silva:/views/edit/macro_vein_navigation.pt:142
-#: Products.Silva:/views/edit/macro_vein_navigation.pt:185
-#: Products.Silva:/resources/sidebar_template.pt:69
-#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:18
-#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:49
-msgid "slide to the contents screen"
-msgstr ""
-
 #: Products.Silva:/views/edit/macro_vein_navigation.pt:206
 #: Products.Silva:/views/edit/Container/tab_status.pt:240
 #: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:66
@@ -3550,6 +3595,16 @@ msgstr ""
 msgid "reload screen"
 msgstr ""
 
+#: Products.Silva:/views/edit/macro_view_metadata.pt:108
+#: Products.Silva:/views/edit/tab_settings.pt:120
+msgid "content renderer"
+msgstr ""
+
+#: Products.Silva:/views/edit/macro_view_metadata.pt:117
+#: Products.Silva:/views/edit/tab_settings.pt:127
+msgid "renderer"
+msgstr ""
+
 #: Products.Silva:/views/edit/macro_view_metadata.pt:37
 msgid "${icon} properties ${for_title}"
 msgstr ""
@@ -3568,12 +3623,6 @@ msgstr ""
 
 #: Products.Silva:/views/edit/promptWindow.pt:34
 msgid "cancel the automatic save action: alt-c"
-msgstr ""
-
-#: Products.Silva:/views/edit/promptWindow.pt:34
-#: Products.Silva:/views/edit/Container/tab_edit_rename.pt:128
-#: Products.Silva:/browser/object_lookup.pt:427 zeam.form.silva:/actions.py:76
-msgid "cancel"
 msgstr ""
 
 #. Default: "save"
@@ -3604,23 +3653,23 @@ msgstr ""
 msgid "in"
 msgstr ""
 
+#: Products.Silva:/views/edit/tab_metadata.pt:100
+#: Products.Silva:/views/edit/tab_settings.pt:332
+msgid "for closed version of &#xab;${title}&#xbb;"
+msgstr ""
+
+#: Products.Silva:/views/edit/tab_metadata.pt:63
+#: Products.Silva:/views/edit/tab_settings.pt:293
+msgid "for approved version of &#xab;${title}&#xbb;"
+msgstr ""
+
 #: Products.Silva:/views/edit/tab_metadata.pt:82
 #: Products.Silva:/views/edit/Container/GhostFolder/tab_metadata.pt:66
 msgid "for public version of &#xab;${title}&#xbb;"
 msgstr ""
 
-#: Products.Silva:/views/edit/tab_preview_frame_top.pt:60
+#: Products.Silva:/views/edit/tab_preview_frame_top.pt:54
 msgid "This is a closed version. You see it, but the public won't!"
-msgstr ""
-
-#: Products.Silva:/views/edit/tab_settings.pt:120
-#: Products.Silva:/views/edit/macro_view_metadata.pt:108
-msgid "content renderer"
-msgstr ""
-
-#: Products.Silva:/views/edit/tab_settings.pt:127
-#: Products.Silva:/views/edit/macro_view_metadata.pt:117
-msgid "renderer"
 msgstr ""
 
 #: Products.Silva:/views/edit/tab_settings.pt:131
@@ -3671,18 +3720,8 @@ msgstr ""
 msgid "(The quota for this area is set to ${quota} MB.)"
 msgstr ""
 
-#: Products.Silva:/views/edit/tab_settings.pt:293
-#: Products.Silva:/views/edit/tab_metadata.pt:63
-msgid "for approved version of &#xab;${title}&#xbb;"
-msgstr ""
-
 #: Products.Silva:/views/edit/tab_settings.pt:312
 msgid "for published version of &#xab;${title}&#xbb;"
-msgstr ""
-
-#: Products.Silva:/views/edit/tab_settings.pt:332
-#: Products.Silva:/views/edit/tab_metadata.pt:100
-msgid "for closed version of &#xab;${title}&#xbb;"
 msgstr ""
 
 #: Products.Silva:/views/edit/tab_settings.pt:51
@@ -3791,10 +3830,10 @@ msgstr ""
 msgid "logout"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:118
-#: Products.Silva:/views/macro_index.pt:121
-#: Products.Silva:/views/macro_index.pt:131
-#: Products.Silva:/views/macro_index.pt:135
+#: Products.Silva:/views/macro_index.pt:109
+#: Products.Silva:/views/macro_index.pt:112
+#: Products.Silva:/views/macro_index.pt:122
+#: Products.Silva:/views/macro_index.pt:126
 #: silva.core.smi:/smi_templates/smifooter.pt:5
 #: silva.core.smi:/smi_templates/smifooter.pt:8
 #: silva.core.smi:/smi_templates/smifooter.pt:17
@@ -3802,56 +3841,56 @@ msgstr ""
 msgid "jump to top: alt-t"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:154
+#: Products.Silva:/views/macro_index.pt:145
 #: silva.core.smi:/smi_templates/smifooter.pt:32
 msgid "contact:"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:162
+#: Products.Silva:/views/macro_index.pt:153
 #: silva.core.smi:/smi_templates/smifooter.pt:42
 msgid "no name"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:169
+#: Products.Silva:/views/macro_index.pt:160
 #: silva.core.smi:/smi_templates/smifooter.pt:50
 msgid "Leave Silva and view the public page: alt-:"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:169
+#: Products.Silva:/views/macro_index.pt:160
 #: silva.core.smi:/smi_templates/smifooter.pt:50
 msgid "view public version"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:187
+#: Products.Silva:/views/macro_index.pt:178
 #: silva.core.smi:/smi_templates/smifooter.pt:67
 msgid "Change your settings: alt-~"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:200 silva.core.smi:/userinfo.py:87
+#: Products.Silva:/views/macro_index.pt:191 silva.core.smi:/userinfo.py:87
 #: silva.core.smi:/smi_templates/smifooter.pt:79
 msgid "user settings"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:204
+#: Products.Silva:/views/macro_index.pt:195
 #: silva.core.smi:/smi_templates/smifooter.pt:83
 msgid "Logout of Silva: alt-q"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:214
+#: Products.Silva:/views/macro_index.pt:205
 #: silva.core.smi:/smi_templates/smifooter.pt:93
 msgid "logout ${role} ${userid}"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:227
+#: Products.Silva:/views/macro_index.pt:218
 msgid "loading ..."
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:84
+#: Products.Silva:/views/macro_index.pt:75
 #: Products.Silva:/views/edit/tab_preview_frame_top.pt:38
 msgid "Help with access keys"
 msgstr ""
 
-#: Products.Silva:/views/macro_index.pt:85
+#: Products.Silva:/views/macro_index.pt:76
 #: Products.Silva:/views/edit/tab_preview_frame_top.pt:39
 msgid "Silva copyright info"
 msgstr ""
@@ -3891,43 +3930,6 @@ msgstr ""
 msgid "view..."
 msgstr ""
 
-#: Products.Silva:/views/macro_tabs.pt:93
-#: Products.Silva:/views/macro_tabs.pt:108
-#: Products.Silva:/views/macro_tabs.pt:118
-#: Products.Silva:/views/macro_index.pt:36
-#: Products.Silva:/views/edit/macro_edit_metadata.pt:98
-#: Products.Silva:/views/edit/macro_edit_metadata.pt:106
-#: Products.Silva:/views/edit/macro_vein_navigation.pt:68
-#: Products.Silva:/views/edit/macro_vein_navigation.pt:125
-#: Products.Silva:/views/edit/macro_vein_navigation.pt:148
-#: Products.Silva:/views/edit/tab_preview_frame_top.pt:30
-#: Products.Silva:/views/edit/macro_view_metadata.pt:82
-#: Products.Silva:/views/edit/Asset/File/tab_edit.pt:75
-#: Products.Silva:/views/edit/Container/tab_addables.pt:87
-#: Products.Silva:/views/edit/Container/tab_addables.pt:90
-#: Products.Silva:/views/edit/Container/tab_status.pt:221
-#: Products.Silva:/views/edit/Container/tab_status.pt:232
-#: Products.Silva:/views/edit/VersionedContent/tab_status.pt:215
-#: Products.Silva:/views/edit/VersionedContent/tab_status_macros.pt:211
-#: Products.Silva:/views/edit/VersionedContent/tab_status_macros.pt:231
-#: Products.Silva:/ExtensionService_templates/manageextensions.pt:12
-#: Products.Silva:/ExtensionService_templates/manageextensions.pt:82
-#: Products.Silva:/Indexer_templates/indexerview.pt:4
-#: Products.Silva:/browser/object_lookup.pt:272
-#: Products.Silva:/browser/object_lookup.pt:302
-#: Products.Silva:/resources/sidebar_template.pt:75
-#: Products.Silva:/resources/sidebar_template.pt:92
-#: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:52
-#: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:119
-#: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/tab_edit.pt:172
-#: silva.core.smi:/smi_templates/smitopmenuitem.pt:2
-#: silva.core.smi:/smi_templates/smitopmenuitem.pt:11
-#: silva.core.smi:/smi_templates/smitopmenuitem.pt:19
-#: silva.core.smi:/navigation_templates/sminavigation.pt:25
-#: silva.core.smi:/navigation_templates/sminavigationlistingfornoncontainer.pt:25
-msgid "${DYNAMIC_CONTENT}"
-msgstr ""
-
 #: Products.Silva:/views/render_form_errors.py:44
 msgid "Sorry, there are problems with these form fields:"
 msgstr ""
@@ -3945,20 +3947,7 @@ msgid ""
 "    "
 msgstr ""
 
-#: Products.SilvaDocument:/silvaxml/xmlexport.py:129
-msgid "no external source specified"
-msgstr ""
-
-#: Products.SilvaDocument:/silvaxml/xmlexport.py:152
-#: Products.SilvaDocument:/silvaxml/xmlexport.py:155
-msgid "error message:"
-msgstr ""
-
-#: Products.SilvaDocument:/silvaxml/xmlexport.py:156
-msgid "None returned from source"
-msgstr ""
-
-#: Products.SilvaDocument:/silvaxml/xmlexport.py:336
+#: Products.SilvaDocument:/silvaxml/xmlexport.py:340
 msgid "Referenced image is missing"
 msgstr ""
 
@@ -3972,116 +3961,71 @@ msgstr ""
 msgid "intermingling * is not allowed ${i}"
 msgstr ""
 
-#: Products.SilvaDocument:/transform/kupu/silvaformat.py:474
+#: Products.SilvaDocument:/transform/kupu/silvaformat.py:492
 msgid "external source element is broken"
 msgstr ""
 
-#. Default: ""
-#: Products.SilvaExternalSources:/CSVSource.py:230
-#: Products.SilvaExternalSources:/CodeSource.py:167
-#: Products.SilvaExternalSources:/SQLSource.py:160
-msgid "Unknown encoding ${enc}, not changed! "
-msgstr ""
-
-#. Default: ""
-#: Products.SilvaExternalSources:/CSVSource.py:236
-msgid "Data encoding changed to: ${enc}. "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CSVSource.py:248
-#: Products.SilvaExternalSources:/CodeSource.py:180
-#: Products.SilvaExternalSources:/SQLSource.py:174
-msgid "Title changed. "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CSVSource.py:257
-#: Products.SilvaExternalSources:/CodeSource.py:192
-#: Products.SilvaExternalSources:/SQLSource.py:195
-msgid "Description changed. "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CSVSource.py:261
-#: Products.SilvaExternalSources:/CodeSource.py:196
-#: Products.SilvaExternalSources:/SQLSource.py:200
-msgid "Cacheability setting changed. "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CSVSource.py:265
-#: Products.SilvaExternalSources:/SQLSource.py:205
-msgid "Previewable setting changed. "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CSVSource.py:269
-msgid "Data updated. "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CSVSource.py:284
-msgid "Raw data updated. "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CSVSource.py:337
+#: Products.SilvaExternalSources:/CSVSource.py:247
 #: Products.SilvaExternalSources:/views/edit/Asset/CSVSource/upload_form.form:23
 msgid "File to upload as source data."
 msgstr ""
 
-#: Products.SilvaExternalSources:/CSVSource.py:340
+#: Products.SilvaExternalSources:/CSVSource.py:250
 msgid "character encoding"
 msgstr ""
 
-#: Products.SilvaExternalSources:/CSVSource.py:341
+#: Products.SilvaExternalSources:/CSVSource.py:251
 msgid "Character encoding of the source data."
 msgstr ""
 
-#: Products.SilvaExternalSources:/CodeSource.py:184
-msgid "Script id changed. "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CodeSource.py:200
-msgid "Previewable setting changed."
-msgstr ""
-
-#: Products.SilvaExternalSources:/CodeSource.py:211
-msgid "<b>Warning</b>: "
-msgstr ""
-
-#: Products.SilvaExternalSources:/CodeSource.py:213
-msgid "no script id specified! "
-msgstr ""
-
-#. Default: ""
-#: Products.SilvaExternalSources:/CodeSource.py:215
-msgid ""
-"This code source does not contain an callable object with                    "
-"id \"${id}\"! "
-msgstr ""
-
-#: Products.SilvaExternalSources:/ExternalSource.py:193
+#: Products.SilvaExternalSources:/ExternalSource.py:191
 msgid ""
 "This Code Source has no adjustable settings. Click a button to insert or "
 "remove it."
 msgstr ""
 
-#: Products.SilvaExternalSources:/SQLSource.py:166
+#. Default: ""
+#: Products.SilvaExternalSources:/SQLSource.py:158
+msgid "Unknown encoding ${enc}, not changed! "
+msgstr ""
+
+#: Products.SilvaExternalSources:/SQLSource.py:164
 msgid "Data encoding changed. "
 msgstr ""
 
-#: Products.SilvaExternalSources:/SQLSource.py:179
+#: Products.SilvaExternalSources:/SQLSource.py:172
+msgid "Title changed. "
+msgstr ""
+
+#: Products.SilvaExternalSources:/SQLSource.py:177
 msgid "Connection id changed. "
 msgstr ""
 
-#: Products.SilvaExternalSources:/SQLSource.py:185
+#: Products.SilvaExternalSources:/SQLSource.py:183
 msgid "SQL statement changed. "
 msgstr ""
 
-#: Products.SilvaExternalSources:/SQLSource.py:210
+#: Products.SilvaExternalSources:/SQLSource.py:193
+msgid "Description changed. "
+msgstr ""
+
+#: Products.SilvaExternalSources:/SQLSource.py:198
+msgid "Cacheability setting changed. "
+msgstr ""
+
+#: Products.SilvaExternalSources:/SQLSource.py:203
+msgid "Previewable setting changed. "
+msgstr ""
+
+#: Products.SilvaExternalSources:/SQLSource.py:208
 msgid "Layout object id changed. "
 msgstr ""
 
-#: Products.SilvaExternalSources:/SQLSource.py:215
+#: Products.SilvaExternalSources:/SQLSource.py:213
 msgid "Table rendering pagetemplate reset to default layout. "
 msgstr ""
 
-#: Products.SilvaExternalSources:/SQLSource.py:220
+#: Products.SilvaExternalSources:/SQLSource.py:218
 msgid "Parameters form reset to default. "
 msgstr ""
 
@@ -4254,14 +4198,15 @@ msgstr ""
 
 #: silva.app.subscriptions:/smi.py:49
 msgid ""
-"List of email addresses currently subscribed to this content at this level. "
+"List of email addresses currently subscribed to this content at this level, "
+"one per line. "
 msgstr ""
 
 #: silva.app.subscriptions:/smi.py:64
 msgid "manage subscriptions"
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:93
+#: silva.app.subscriptions:/smi.py:94
 msgid "subscriptions"
 msgstr ""
 
@@ -4712,7 +4657,7 @@ msgid "No matching users were found."
 msgstr ""
 
 #. Default: ""
-#: silva.core.smi:/edit/container.py:149
+#: silva.core.smi:/edit/container.py:152
 msgid "Create a ${addable_name}"
 msgstr ""
 
