@@ -1,12 +1,12 @@
 Changelog
 =========
 
-2.2.1 (unreleased)
-------------------
+2.3 (2010/12/22)
+----------------
 
-* ...
+* Update translations.
 
-2.2 (2010-01-22)
+2.2 (2010/01/22)
 ----------------
 
 * Initial release since split from the Silva core.
