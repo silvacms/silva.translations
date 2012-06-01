@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-11-07 22:56+0000\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:53+0000\n"
 "Last-Translator: walter07 <walteriamartino@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-11-13 12:21+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: es\n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -43,23 +45,23 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:124
 msgid "Silva folder order"
-msgstr ""
+msgstr "orden de carpetas de Silva"
 
 #: Products.Silva:/AutoTOC.py:125
 msgid "Alphabetically"
-msgstr ""
+msgstr "Alfabéticamente"
 
 #: Products.Silva:/AutoTOC.py:126
 msgid "Reverse alphabetically"
-msgstr ""
+msgstr "En orden alfabético inverso"
 
 #: Products.Silva:/AutoTOC.py:127
 msgid "Chronologically by modification date"
-msgstr ""
+msgstr "Cronológicamente por fecha de modificación"
 
 #: Products.Silva:/AutoTOC.py:128
 msgid "Reverse chronologically by modification date"
-msgstr ""
+msgstr "En orden cronológico inverso por fecha de modificación"
 
 #: Products.Silva:/AutoTOC.py:148
 msgid "Types to list"
@@ -71,6 +73,10 @@ msgid ""
 "need to selected container types (e.g. Folder and Publication) in order for "
 "the TOC to display their contents."
 msgstr ""
+"Seleccione aquí los tipos de contenido que desea visualizar en la tabla de "
+"contenidos. Es necesario seleccionar los tipos de contenedores (p. ej. "
+"Carpeta y Publicación) de la tabla de contenidos para poder mostrar sus "
+"contenidos."
 
 #: Products.Silva:/AutoTOC.py:158
 msgid "Depth"
@@ -81,6 +87,8 @@ msgid ""
 "The depth to which the Table of Contents will be rendered (-1 means "
 "unlimited depth.)"
 msgstr ""
+"Aquí se indica el número de niveles que la tabla de contenidos mostrará (-1 "
+"permite utilizar una cantidad ilimitada de niveles)."
 
 #: Products.Silva:/AutoTOC.py:166
 msgid "Display description"
@@ -91,6 +99,8 @@ msgid ""
 "If selected, each item displayed will include its title and metadata "
 "description, if available. "
 msgstr ""
+"Si se selecciona esta opción, cada elemento visualizado incluirá una "
+"descripción con su título y sus metadatos, si están disponibles. "
 
 #: Products.Silva:/AutoTOC.py:173
 msgid "Show icon"
@@ -99,6 +109,7 @@ msgstr ""
 #: Products.Silva:/AutoTOC.py:174
 msgid "If selected, each item displayed will include its icon. "
 msgstr ""
+"Si se selecciona esta opción, cada elemento visualizado incluirá su icono. "
 
 #: Products.Silva:/AutoTOC.py:179
 msgid "Show container link"
@@ -109,6 +120,8 @@ msgid ""
 "If selected, there will be a link to the container (as an H3) before the TOC "
 "list."
 msgstr ""
+"Si se selecciona esta opción, aparecerá un enlace al contenedor (como un H3) "
+"antes de la lista de la tabla de contenidos."
 
 #: Products.Silva:/AutoTOC.py:186
 msgid "Sort order"
@@ -116,7 +129,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:187
 msgid "The order items in a container will be sorted"
-msgstr ""
+msgstr "Los elementos de un contenedor se ordenarán"
 
 #: Products.Silva:/AutoTOC.py:32
 msgid ""
@@ -132,40 +145,56 @@ msgid ""
 "    methods.\n"
 "    "
 msgstr ""
+"Este es un tipo de documento especial que genera automáticamente:\n"
+"    una tabla de contenidos. Por lo general, se utiliza como documento "
+"'índice' de una carpeta.\n"
+"    A continuación, el directorio padre muestra una tabla de contenidos "
+"cuando se acceda al mismo (p. ej.\n"
+"    http://www.x.yz/silva/myFolder). La tabla de contenidos automática es "
+"configurable: puede mostrar\n"
+"    cualquier selección de contenido de Silva, incluidos objetos, incluir "
+"descripciones o\n"
+"    iconos, configurarse para detenerse a una profundidad específica y "
+"utilizar varios métodos\n"
+"    de clasificación.\n"
+"    "
 
 #: Products.Silva:/EmailMessageService.py:162
 msgid "Enable"
-msgstr ""
+msgstr "Habilitado"
 
 #: Products.Silva:/EmailMessageService.py:163
 msgid "Send emails when asked to."
-msgstr ""
+msgstr "Enviar emails cuando se solicite."
 
 #: Products.Silva:/EmailMessageService.py:166
 msgid "From Address"
-msgstr ""
+msgstr "Dirección del remitente"
 
 #: Products.Silva:/EmailMessageService.py:167
 msgid "Email address used to send messages."
-msgstr ""
+msgstr "Dirección de correo electrónico utilizada para enviar mensajes."
 
 #: Products.Silva:/EmailMessageService.py:176
 msgid "Service Message Configuration"
-msgstr ""
+msgstr "Configuración de la mensajería de servicio"
 
 #: Products.Silva:/EmailMessageService.py:177
 msgid ""
 "Configure settings for email messaging between members. The default MailHost "
 "service is used to send messages."
 msgstr ""
+"Configure los parámetros de la mensajería de correos electrónicos entre los "
+"miembros.Un servicio de alojamiento de correo configurado por defecto se "
+"utiliza para enviar mensajes."
 
 #: Products.Silva:/ExtensionService.py:259
 msgid "Absolute path to object to upgrade"
-msgstr ""
+msgstr "Ruta absoluta del objeto que se debe actualizar"
 
 #: Products.Silva:/ExtensionService.py:262
 msgid "Current Silva version of the object"
-msgstr ""
+msgstr "Version Silva actual del objeto"
 
 #: Products.Silva:/ExtensionService.py:272
 msgid "Upgrade site"
@@ -181,18 +210,27 @@ msgid ""
 "upgrade on an object may fail and may even (in some situations) cause the "
 "object to become unusable."
 msgstr ""
+"A continuación encontrará un formulario que le permite especificar el objeto "
+"que desea actualizar así como la versión actual del objeto. Al introducir "
+"los valores en los campos y pulsar el botón 'Actualizar', Silva intentará "
+"actualizar el objeto para adecuarlo a la versión actual de Silva. Tenga en "
+"cuenta que esta función es experimental y que se tiene conocimiento de una "
+"actualización parcial de un objeto podría fallar e incluso (en algunas "
+"situaciones) provocar que el objeto quede inutilizable."
 
 #: Products.Silva:/ExtensionService.py:284
 msgid "Upgrade"
-msgstr ""
+msgstr "Actualizar"
 
 #: Products.Silva:/ExtensionService.py:296
 msgid "Content upgrade succeeded. See event log for details"
 msgstr ""
+"Actualización de contenido finalizada con éxito.Consulte el registro de "
+"eventos si desea obtener más información."
 
 #: Products.Silva:/ExtensionService.py:303
 msgid "Absolute path to reindex"
-msgstr ""
+msgstr "Ruta absoluta para reindexar"
 
 #: Products.Silva:/ExtensionService.py:314
 msgid "Reindex site"
@@ -203,34 +241,36 @@ msgid ""
 "Reindex a subtree of the site in the Silva Catalog.For big trees this may "
 "take a long time."
 msgstr ""
+"Reindexa un subarbol del sitio en el catálogo de Silva. Esto puede requerir "
+"mucho tiempo en árboles grandes."
 
 #: Products.Silva:/ExtensionService.py:318
 msgid "Reindex"
-msgstr ""
+msgstr "Reindexar"
 
 #: Products.Silva:/ExtensionService.py:327
 msgid "Invalid path"
-msgstr ""
+msgstr "Ruta inválida"
 
 #: Products.Silva:/ExtensionService.py:329
 msgid "Partial catalog refreshed"
-msgstr ""
+msgstr "Catálogo actualizado en parte"
 
 #: Products.Silva:/ExtensionService.py:340
 msgid "Silva and all installed extensions have been refreshed"
-msgstr ""
+msgstr "Silva y todas las extensiones instaladoa han sido actualizadas"
 
 #: Products.Silva:/ExtensionService.py:344
 msgid "Catalog refreshed"
-msgstr ""
+msgstr "Catálogo actualizado"
 
 #: Products.Silva:/ExtensionService.py:348
 msgid "Quota sub-system disabled"
-msgstr ""
+msgstr "Subsistema de cuotas deshabilitado"
 
 #: Products.Silva:/ExtensionService.py:352
 msgid "Quota sub-system enabled"
-msgstr ""
+msgstr "Subsistema de cuotas habilitado"
 
 #: Products.Silva:/ExtensionService.py:357
 msgid "Old version of documents purged"
@@ -239,10 +279,12 @@ msgstr ""
 #: Products.Silva:/ExtensionService.py:364
 msgid "Content upgrade succeeded. See log in Logs tab for details"
 msgstr ""
+"Actualización de contenidos correcta. Para obtener más detalles consulte el "
+"registro en la pestaña Registro"
 
 #: Products.Silva:/ExtensionService.py:368
 msgid "Documentation installed"
-msgstr ""
+msgstr "Documentación instalada"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:79
@@ -250,7 +292,7 @@ msgstr ""
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:14
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:16
 msgid "${DYNAMIC_CONTENT}"
-msgstr ""
+msgstr "${DYNAMIC_CONTENT}"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:17
 msgid "Extensions management"
@@ -258,27 +300,27 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:21
 msgid "General actions"
-msgstr ""
+msgstr "Acciones generales"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "actualizar todo"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr ""
+msgstr "Instalar la documentación"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:30
 msgid "rebuild catalog"
-msgstr ""
+msgstr "recompilar catálogo"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:32
 msgid "disable quota subsystem"
-msgstr ""
+msgstr "deshabilitar el subsistema de cuotas"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:35
 msgid "enable quota subsystem"
-msgstr ""
+msgstr "habilitar el subsistema de cuotas"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:38
 msgid "purge old versions"
@@ -286,7 +328,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:40
 msgid "upgrade content"
-msgstr ""
+msgstr "actualizar contenido"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:51
 msgid "Available extensions"
@@ -295,44 +337,50 @@ msgstr ""
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:83
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:94
 msgid "refresh"
-msgstr ""
+msgstr "actualizar"
 
 #: Products.Silva:/File/content.py:152
 msgid "download"
-msgstr "Descarga"
+msgstr "descargar"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
-msgstr ""
+msgstr "Identificador de computadora Invalido"
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
-msgstr ""
+msgstr "ID repetida. Introduzca una ID nueva."
 
 #: Products.Silva:/File/service.py:100
 msgid "Convert all currently stored file to the current set storage"
 msgstr ""
+"Convertir todos los archivos almacenados actualmente según el almacenamiento "
+"configurado actualmente"
 
 #: Products.Silva:/File/service.py:103
 msgid "Convert all files"
-msgstr ""
+msgstr "Convertir todos los archivos"
 
 #: Products.Silva:/File/service.py:115
 msgid ""
 "Storage for Silva Files and Images converted. Check the log for more details."
 msgstr ""
+"Almacenamiento de los archivos e imágenes de Silva convertido. Consulte el "
+"registro para obtener más información."
 
 #: Products.Silva:/File/service.py:80
 msgid "Configure file storage"
-msgstr ""
+msgstr "Configuración del almacenamiento de archivos"
 
 #: Products.Silva:/File/service.py:88
 msgid "Select storage"
-msgstr ""
+msgstr "Seleccionar almacenamiento"
 
 #: Products.Silva:/File/service.py:99
 msgid "Convert stored files"
-msgstr ""
+msgstr "Convertir los archivos almacenados"
 
 #: Products.Silva:/File/smi.py:24
 msgid "File"
@@ -347,7 +395,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -390,6 +439,18 @@ msgid ""
 "       screen.\n"
 "    "
 msgstr ""
+"La presentación de la información de una\n"
+"       publicación se estructura mediante carpetas. Éstas determinan la "
+"jerarquía\n"
+"       visual que el visitante visualiza. Las carpetas del nivel superior\n"
+"       indican las secciones de una publicación, las subcarpetas indican los "
+"capítulos, etc.\n"
+"       Tenga en cuenta que, a diferencia de las publicaciones, las carpetas "
+"son transparentes, por lo que\n"
+"       es posible ver lo que hay en ellas gracias a la navegación por el "
+"árbol de la barra lateral y en la pantalla\n"
+"       Publicar.\n"
+"    "
 
 #: Products.Silva:/Folder/management.py:102
 msgid "You cannot add this content type in this container."
@@ -446,24 +507,27 @@ msgid ""
 "       and stylesheets).\n"
 "    "
 msgstr ""
-"Fantasmas son documentos especiales que funcionan como un\n"
+"Los fantasmas son documentos especiales que funcionan como un\n"
 "       marcador para un objeto en otro lugar (como un alias,\n"
 "       vínculo simbólico, atajo). Distinto de un hipervínculo, el cual "
 "lleva\n"
-"       al Visitante a otra ubicación, un fantasma mantiene al Visitante en\n"
-"       la publicación actual, y presenta el contenido del objeto fantasma.\n"
+"       al Visitante a otra ubicación, un objeto fantasma mantiene al "
+"Visitante en\n"
+"       la publicación actual, y presenta el contenido del elemento "
+"fantasma.\n"
 "       El fantasma hereda las propiedades de su ubicación (por ejemplo, "
 "diseño\n"
 "       y hojas de estilo).\n"
 "    "
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
 #: Products.Silva:/Ghost.py:254
 msgid "The silva object the ghost is mirroring."
-msgstr ""
+msgstr "El objeto de Silva al que el fantasma hace referencia."
 
 #: Products.Silva:/Ghost.py:294
 msgid "Click the Lookup button to select a content to haunt."
@@ -473,8 +537,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -491,22 +557,36 @@ msgid ""
 "       ghosted, assets &#8211; such as Images and Files &#8211; are copied\n"
 "       (physically duplicated) while documents are ghosted."
 msgstr ""
+"Las carpetas fantasma son similares a los fantasmas, pero en vez de servir "
+"de\n"
+"       marcador de un documento, crean marcadores y/o copias de todos\n"
+"       contenidos de la carpeta &#8216;original&#8217;. La ventaja de las "
+"carpetas\n"
+"       fantasma es que los contenidos permanecen sincronizados con el "
+"original, mediante una\n"
+"       resincronización manual o automática. Tenga en cuenta que cuando se "
+"configura una carpeta como\n"
+"       fantasma, los objetos &#8211; como las imágenes y los archivos "
+"&#8211; se copian\n"
+"       (se duplican físicamente) y los documentos se configuran como "
+"fantasmas."
 
 #: Products.Silva:/GhostFolder.py:321
 msgid "The silva object the ghost is mirroring"
-msgstr ""
+msgstr "El objeto de Silva al que el fantasma hace referencia"
 
 #: Products.Silva:/GhostFolder.py:326
 msgid "Synchronize target and ghost folder content"
-msgstr ""
+msgstr "Sincronice el objetivo y el contenido de la carpeta fantasma"
 
 #: Products.Silva:/GhostFolder.py:337
 msgid "Ghost Folder synchronized"
-msgstr ""
+msgstr "Carpeta fantasma sincronizada"
 
 #: Products.Silva:/GhostFolder.py:340
 msgid "Ghost Folder was not synchronized, because the target is invalid."
 msgstr ""
+"La carpeta fantasma no se ha sincronizado porque el objetivo no es válido."
 
 #: Products.Silva:/GhostFolder.py:351
 msgid "Click the Lookup button to select a container to haunt."
@@ -530,8 +610,8 @@ msgstr ""
 msgid ""
 "'${scale} is not a valid scale identifier. At least one number is required."
 msgstr ""
-"'${scale}' no es un identificador de escala válido. Se requiere por lo menos "
-"un número."
+"'${scale}' no es un identificador de escala válido. Falta, como mínimo, un "
+"número."
 
 #. Default: ""
 #: Products.Silva:/Image/content.py:232
@@ -545,19 +625,19 @@ msgstr ""
 
 #: Products.Silva:/Image/content.py:303
 msgid "Low resolution image in original format is not supported"
-msgstr ""
+msgstr "Imagen de resolución baja en formato original no soportada"
 
 #: Products.Silva:/Image/content.py:373
 msgid "square"
-msgstr "cuadrado"
+msgstr "Cuadrado"
 
 #: Products.Silva:/Image/content.py:375
 msgid "landscape"
-msgstr "paisaje"
+msgstr "Horizontal"
 
 #: Products.Silva:/Image/content.py:376
 msgid "portrait"
-msgstr "retrato"
+msgstr "Vertical"
 
 #: Products.Silva:/Image/content.py:88
 msgid ""
@@ -565,6 +645,9 @@ msgid ""
 "       documents, or used as viewable assets.\n"
 "    "
 msgstr ""
+"Gráficos web (gif, jpg, png) pueden ser subidos e insertados en\n"
+"       documentos, o usados para ser vistos.\n"
+"    "
 
 #: Products.Silva:/Image/smi.py:104
 msgid "Change"
@@ -572,7 +655,7 @@ msgstr ""
 
 #: Products.Silva:/Image/smi.py:119
 msgid "Scaling and/or format changed."
-msgstr ""
+msgstr "Escala y/o formato cambiados."
 
 #: Products.Silva:/Image/smi.py:25
 msgid "Image"
@@ -583,7 +666,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -660,7 +744,7 @@ msgstr ""
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:9
 msgid "unknown"
-msgstr ""
+msgstr "desconocido"
 
 #: Products.Silva:/Indexer.py:158
 msgid "Update Silva Indexer"
@@ -671,6 +755,8 @@ msgid ""
 "An index is not editable. However, you can update the index to include "
 "recent added content."
 msgstr ""
+"Un índice no se puede editar. Sin embargo, es posible actualizar el índice "
+"para incluir los contenidos añadidos recientemente."
 
 #: Products.Silva:/Indexer.py:168
 msgid "Update index"
@@ -682,7 +768,7 @@ msgstr ""
 
 #: Products.Silva:/Indexer.py:176
 msgid "Index content have been successfully updated."
-msgstr ""
+msgstr "Los contenidos del índice se han actualizado correctamente."
 
 #: Products.Silva:/Indexer.py:48
 msgid ""
@@ -694,18 +780,29 @@ msgid ""
 "       documents that are published).\n"
 "    "
 msgstr ""
+"Los índices se pueden crear para que funcionen como el índice situado\n"
+"       al final de un libro. Las referencias deben marcarse primero "
+"colocando códigos\n"
+"       de índice en el texto (estos códigos también se exportarán a los "
+"formatos impresos).\n"
+"       Los indexadores se aplican en cascada, indexando todos los elementos "
+"de índice de las carpetas\n"
+"       y publicaciones actuales y subyacentes (tenga en cuenta que sólo se "
+"indexan\n"
+"       documentos que están publicados).\n"
+"    "
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:13
 msgid "Terms"
-msgstr ""
+msgstr "Términos"
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:17
 msgid "Links"
-msgstr ""
+msgstr "Vínculos"
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:43
 msgid "No index items listed or found."
-msgstr ""
+msgstr "No figura o no se encuentra en el índice"
 
 #: Products.Silva:/Link.py:100
 msgid ""
@@ -733,7 +830,7 @@ msgstr ""
 
 #: Products.Silva:/Link.py:123
 msgid "Relative link selected without target."
-msgstr ""
+msgstr "El enlace relativo seleccionado no tiene objetivo."
 
 #: Products.Silva:/Link.py:126
 msgid ""
@@ -741,7 +838,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -754,6 +852,13 @@ msgid ""
 "    within Silva.\n"
 "    "
 msgstr ""
+"Un vínculo Silva hace posible la creación de vínculos que se muestran\n"
+"    en la navegación o una tabla de contenido. Los vínculos pueden ser "
+"absolutos o relativos.\n"
+"    Los vínculos absolutos se dirigen a sitios externos, mientras que los "
+"vínculos relativos se dirigen al contenido\n"
+"    dentro de Silva.\n"
+"    "
 
 #: Products.Silva:/Link.py:99
 msgid "URL"
@@ -772,6 +877,19 @@ msgid ""
 "       complex sites, sub-publications can be nested.\n"
 "    "
 msgstr ""
+"Las publicaciones son carpetas especiales. Funcionan como\n"
+"       bloques de organización principal de un sitio Silva. Son comparables "
+"a\n"
+"       archivadores, y pueden contener carpetas, documentos y objetos.\n"
+"       Las publicaciones son opacas. Sugieren una vista, mostrando\n"
+"       solo los contenidos de la publicación actual. Esto permite mantener "
+"la vista general\n"
+"       las pantallas manejable. Las publicaciones tienen parámetros de "
+"configuración que\n"
+"       determinan qué objetos principales y conectables están disponibles. "
+"En\n"
+"       sitios complejos, las publicaciones se pueden anidar.\n"
+"    "
 
 #: Products.Silva:/Publication/localsite.py:21
 msgid "Already a local site."
@@ -795,72 +913,74 @@ msgstr ""
 
 #: Products.Silva:/Root.py:45
 msgid "Site identifier"
-msgstr ""
+msgstr "Identificador del sitio"
 
 #: Products.Silva:/Root.py:48
 msgid "Site title"
-msgstr ""
+msgstr "Título del sitio"
 
 #: Products.Silva:/Root.py:51
 msgid "Add search functionality?"
-msgstr ""
+msgstr "¿Agregar funcionalidad de búsqueda?"
 
 #: Products.Silva:/Root.py:55
 msgid "Add user documentation?"
-msgstr ""
+msgstr "¿Agregar documentación de usuario?"
 
 #: Products.Silva:/Root.py:76
 msgid "Authenticate first to add a new site"
-msgstr ""
+msgstr "Identifíquese antes para agregar un nuevo sitio"
 
 #: Products.Silva:/Root.py:83
 msgid "Add a new site"
-msgstr ""
+msgstr "Agregar un nuevo sitio"
 
 #. Default: ""
 #: Products.Silva:/Root.py:95
 msgid "New Silva site ${identifier} added."
-msgstr ""
+msgstr "Nuevo Sitio Silva ${identifier} agregado"
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:16
 msgid "Welcome to Silva ${version}"
-msgstr ""
+msgstr "Bienvenido a Silva ${version}"
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:46
 msgid "Add a new Silva site"
-msgstr ""
+msgstr "Agregar un nuevo sitio Silva"
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:89
 msgid "Zope is running in development mode."
-msgstr ""
+msgstr "Zope se está ejecutando en modo desarrollo."
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:92
 msgid "Zope is running in production mode."
-msgstr ""
+msgstr "Zope se está ejecutando en modo producción."
 
 #: Products.Silva:/SimpleMembership.py:203
 msgid "The search input is too short. Please enter two or more characters."
 msgstr ""
+"La entrada de la búsqueda es demasiado corta. Introduzca dos o más "
+"caracteres."
 
 #: Products.Silva:/SimpleMembership.py:271
 msgid "Use direct lookup?"
-msgstr ""
+msgstr "¿Desea utilizar la búsqueda directa?"
 
 #: Products.Silva:/SimpleMembership.py:272
 msgid "Disable search feature to affect a role to a user."
-msgstr ""
+msgstr "Desactivar la función de búsqueda para asignar un rol a un usuario."
 
 #: Products.Silva:/SimpleMembership.py:279
 msgid "Configure member service"
-msgstr ""
+msgstr "Configurar el servicio de membresía"
 
 #: Products.Silva:/SimpleMembership.py:280
 msgid "Update member service settings."
-msgstr ""
+msgstr "Actualizar los parámetros del servicio de membresía."
 
 #: Products.Silva:/SimpleMembership.py:283
 msgid "Update"
-msgstr ""
+msgstr "Actualización"
 
 #. Default: ""
 #: Products.Silva:/Version.py:164
@@ -869,11 +989,11 @@ msgstr ""
 
 #: Products.Silva:/Version.py:169
 msgid "approved"
-msgstr "aprovado"
+msgstr "aprobado"
 
 #: Products.Silva:/Version.py:169
 msgid "last_closed"
-msgstr "ultimo_cerrado"
+msgstr "Ultimo_cierre"
 
 #: Products.Silva:/Version.py:169
 msgid "unapproved"
@@ -881,7 +1001,7 @@ msgstr "desaprobado"
 
 #: Products.Silva:/Version.py:170
 msgid "public"
-msgstr "público"
+msgstr "publico"
 
 #: Products.Silva:/Version.py:170
 msgid "pending"
@@ -923,23 +1043,23 @@ msgstr "No hay versiones  para aprobar"
 
 #: Products.Silva:/Versioning.py:116
 msgid "There already is an approved version."
-msgstr "Ya hay una versión aprobada"
+msgstr "Ya existe un versión aprobada"
 
 #: Products.Silva:/Versioning.py:121
 msgid "Cannot approve version without publication datetime."
-msgstr "No se puede aprobar la versión sin la fecha de publicación."
+msgstr "No se puede aprobar la versión sin fecha de publicación"
 
 #: Products.Silva:/Versioning.py:144
 msgid "This content is not approved."
-msgstr ""
+msgstr "Este contenido no está aprobado."
 
 #: Products.Silva:/Versioning.py:149
 msgid ""
 "Should never happen: unapproved version ${unapproved} found while approved "
 "version ${approved} exists at the same time."
 msgstr ""
-"No debería pasar jamás: Una versión no aprobada $(noaprobada) se encuentre "
-"que una versión aprobada $(aprobada) existe al mismo tiempo."
+"No debería pasar: Se encontró una versión no aprobada ${unapproved} mientras "
+"existe una versión aprobaba ${approved} simultáneamente."
 
 #: Products.Silva:/Versioning.py:169
 msgid "There is no public version to close."
@@ -957,7 +1077,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -966,17 +1087,21 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr "Esta versión ya ha sido solicitada para aprobación"
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr ""
+"No hay ninguna solicitud de aprobación pendiente para este contenido."
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
-msgstr "Ninguna versión desprobada."
+msgstr "Ninguna version desaprobada"
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
-msgstr "Ninguna versión aprobada."
+msgstr "Ninguna version aprobada"
 
 #: Products.Silva:/Versioning.py:334
 msgid "Must specify publication datetime."
@@ -986,7 +1111,8 @@ msgstr "Debe especificar fecha de publicación"
 msgid "No public version."
 msgstr "Ninguna versión púbilca."
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr "Ninguna versión siguiente"
 
@@ -1020,7 +1146,7 @@ msgstr ""
 
 #: Products.Silva:/adapters/zipfileexport.py:29
 msgid "If not checked all versions are exported."
-msgstr ""
+msgstr "Si no se señala se exportan todas las versiones."
 
 #: Products.Silva:/mangle.py:257
 msgid ""
@@ -1068,58 +1194,67 @@ msgstr ""
 
 #: Products.Silva:/roleinfo.py:26
 msgid "zope roles"
-msgstr ""
+msgstr "funciones zope"
 
 #: Products.Silva:/roleinfo.py:27
 msgid "silva roles"
-msgstr ""
+msgstr "funciones silva"
 
 #: Products.Silva:/roleinfo.py:28
 msgid "public silva roles"
-msgstr ""
+msgstr "funciones públicas silva"
 
 #: Products.Silva:/roleinfo.py:29
 msgid "Anonymous"
-msgstr ""
+msgstr "Anónimo"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
-msgstr ""
+msgstr "Autenticado"
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
-msgstr ""
+msgstr "Administrador"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
-msgstr ""
+msgstr "Visor"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
-msgstr ""
+msgstr "Visor +"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
-msgstr ""
+msgstr "Visor ++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
-msgstr ""
+msgstr "Lector"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
-msgstr ""
+msgstr "Editor"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
-msgstr ""
+msgstr "ChiefEditor"
 
 #: Products.Silva:/schema/silva-content.xml:32
 msgid "Title of content."
@@ -1139,7 +1274,7 @@ msgstr "título corto"
 
 #: Products.Silva:/schema/silva-extra.xml:153
 msgid "description"
-msgstr ""
+msgstr "descripción"
 
 #: Products.Silva:/schema/silva-extra.xml:154
 msgid "Description of content in this area."
@@ -1181,7 +1316,7 @@ msgstr "Establecer automáticamente."
 
 #: Products.Silva:/schema/silva-extra.xml:437
 msgid "modification time"
-msgstr ""
+msgstr "hora de la modificación"
 
 #: Products.Silva:/schema/silva-extra.xml:493
 msgid "creator"
@@ -1189,7 +1324,7 @@ msgstr "creador"
 
 #: Products.Silva:/schema/silva-extra.xml:550
 msgid "last author"
-msgstr ""
+msgstr "último autor"
 
 #: Products.Silva:/schema/silva-extra.xml:552
 msgid "User who last edited this content."
@@ -1233,7 +1368,7 @@ msgstr "palabras clave relacionadas al contenido."
 
 #: Products.Silva:/schema/silva-layout.xml:25
 msgid "Select skin or 'look &amp; feel' for this publication."
-msgstr ""
+msgstr "Seleccione la apariencia o 'look &amp; feel' de esta publicación."
 
 #: Products.Silva:/schema/silva-layout.xml:27
 msgid "desktop skin"
@@ -1264,19 +1399,19 @@ msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
-msgstr ""
+msgstr "archivo"
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
-msgstr ""
+msgstr "Archivo que se debe cargar como datos fuente."
 
 #: Products.SilvaExternalSources:/CSVSource.py:236
 msgid "character encoding"
-msgstr ""
+msgstr "codificación de caracteres"
 
 #: Products.SilvaExternalSources:/CSVSource.py:237
 msgid "Character encoding of the source data."
-msgstr ""
+msgstr "Codificación de caracteres de los datos fuente."
 
 #: Products.SilvaExternalSources:/CSVSource.py:262
 msgid "Click the Upload button to replace the current CSV with a new one."
@@ -1347,7 +1482,7 @@ msgstr ""
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:51
 #: silva.app.subscriptions:/service.py:352
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:56
 msgid "There is no installable code sources."
@@ -1367,54 +1502,57 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
 #. Default: ""
 #: Products.SilvaExternalSources:/SQLSource.py:158
 msgid "Unknown encoding ${enc}, not changed! "
-msgstr ""
+msgstr "Codificación desconocida ${enc}, sin cambios. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:164
 msgid "Data encoding changed. "
-msgstr ""
+msgstr "Codificación de datos modificada. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:172
 msgid "Title changed. "
-msgstr ""
+msgstr "Título modificado. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:177
 msgid "Connection id changed. "
-msgstr ""
+msgstr "ID de conexión modificada. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:183
 msgid "SQL statement changed. "
-msgstr ""
+msgstr "Declaración SQL modificada. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:193
 msgid "Description changed. "
-msgstr ""
+msgstr "Descripción modificada. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:198
 msgid "Cacheability setting changed. "
-msgstr ""
+msgstr "Configuración de guardado modificada. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:203
 msgid "Previewable setting changed. "
-msgstr ""
+msgstr "Configuración de vista previa modificada. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:208
 msgid "Layout object id changed. "
-msgstr ""
+msgstr "ID del objeto de distribución modificada. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:213
 msgid "Table rendering pagetemplate reset to default layout. "
 msgstr ""
+"Página/plantilla de procesamiento de tablas reiniciada a la disposición por "
+"defecto. "
 
 #: Products.SilvaExternalSources:/SQLSource.py:218
 msgid "Parameters form reset to default. "
-msgstr ""
+msgstr "Parámetros restaurado a sus valores por defecto. "
 
 #: Products.SilvaExternalSources:/SourceAsset.py:116
 msgid "Select an external source"
@@ -1429,9 +1567,10 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
-msgstr ""
+msgstr "Cambios guardados."
 
 #: Products.SilvaExternalSources:/SourceAsset.py:76
 msgid "Broken or missing source."
@@ -1447,109 +1586,117 @@ msgstr ""
 
 #: silva.app.subscriptions:/service.py:261
 msgid "From address"
-msgstr ""
+msgstr "De"
 
 #: silva.app.subscriptions:/service.py:262
 msgid "Email address used to send notification emails"
 msgstr ""
+"Dirección de correo electrónico utilizada para enviar correos de notificación"
 
 #: silva.app.subscriptions:/service.py:265
 msgid "Service name"
-msgstr ""
+msgstr "Nombre de servicio"
 
 #: silva.app.subscriptions:/service.py:266
 msgid "Service name to report in notification emails"
-msgstr ""
+msgstr "Nombre de servicio que se indica en los correos de notificación"
 
 #: silva.app.subscriptions:/service.py:269
 msgid "Maximum confirmation delay in days"
-msgstr ""
+msgstr "Plazo máximo de confirmación expresado en días"
 
 #: silva.app.subscriptions:/service.py:270
 msgid ""
 "When a confirmation email is sent, it must be validated within that number "
 "of days"
 msgstr ""
+"Cuando se envía un correo de confirmación, éste debe ser aceptado en un "
+"determinado número de días"
 
 #: silva.app.subscriptions:/service.py:282
 msgid "Service Subscriptions Configuration"
-msgstr ""
+msgstr "Configuración de las suscripciones a servicios"
 
 #: silva.app.subscriptions:/service.py:290
 msgid "Activate subscriptions"
-msgstr ""
+msgstr "Suscripciones activadas"
 
 #: silva.app.subscriptions:/service.py:291
 msgid "Activate sending emails notifications"
-msgstr ""
+msgstr "Active el envío de correos de notificación"
 
 #: silva.app.subscriptions:/service.py:296
 msgid "Activate"
-msgstr ""
+msgstr "Activar"
 
 #: silva.app.subscriptions:/service.py:299
 msgid "Subscriptions activated."
-msgstr ""
+msgstr "Suscripciones activadas."
 
 #: silva.app.subscriptions:/service.py:308
 msgid "Configure subscriptions"
-msgstr ""
+msgstr "Configure las suscripciones"
 
 #: silva.app.subscriptions:/service.py:309
 msgid "Modify email notification settings"
-msgstr ""
+msgstr "Modifique la configuración de los correos de notificación"
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
-msgstr ""
+msgstr "Desactive las suscripciones"
 
 #: silva.app.subscriptions:/service.py:321
 msgid "Disable sending emails notifications"
-msgstr ""
+msgstr "Desactive el envío de correos de notificación"
 
 #: silva.app.subscriptions:/service.py:326
 msgid "Disable"
-msgstr ""
+msgstr "Desactivar"
 
 #: silva.app.subscriptions:/service.py:329
 msgid "Subscriptions disabled."
-msgstr ""
+msgstr "Suscripciones desactivadas."
 
 #: silva.app.subscriptions:/service.py:338
 msgid "Install MaildropHost"
-msgstr ""
+msgstr "Instale MaildropHost"
 
 #: silva.app.subscriptions:/service.py:339
 msgid "Install a MaildropHost service to send emails"
-msgstr ""
+msgstr "Instale un servicio MaildropHost para enviar correos"
 
 #: silva.app.subscriptions:/smi.py:30
 msgid "Acquire settings from above"
-msgstr ""
+msgstr "Obtenga los parámetros a partir de lo anterior"
 
 #: silva.app.subscriptions:/smi.py:32
 msgid "Enable subscriptions"
-msgstr ""
+msgstr "Active las suscripciones"
 
 #: silva.app.subscriptions:/smi.py:41
 msgid "subscribable"
-msgstr ""
+msgstr "suscripción posible"
 
 #: silva.app.subscriptions:/smi.py:42
 msgid ""
 "Set the subscribability for this content, or set it to acquire the "
 "subscribability from above (the default)."
 msgstr ""
+"Configure la posibilidad de suscripción a este contenido o determine si dese "
+"adquirir esta posibilidad a partir de lo anterior (por defecto)."
 
 #: silva.app.subscriptions:/smi.py:49
 msgid "subscribed email addresses"
-msgstr ""
+msgstr "direcciones de correo suscritas"
 
 #: silva.app.subscriptions:/smi.py:50
 msgid ""
 "List of email addresses currently subscribed to this content at this level, "
 "one per line. "
 msgstr ""
+"Lista de direcciones de correo electrónico suscritas actualmente a este "
+"contenido en este nivel, una por línea. "
 
 #: silva.app.subscriptions:/smi.py:63
 msgid "Manage subscriptions"
@@ -1561,11 +1708,11 @@ msgstr ""
 
 #: silva.app.subscriptions:/smi.py:82
 msgid "manage subscriptions"
-msgstr ""
+msgstr "gestionar suscripciones"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:11
 msgid "This content can be subscribed to."
-msgstr ""
+msgstr "Es posible suscribirse a este contenido."
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:16
 msgid "Other subscriptions"
@@ -1573,37 +1720,37 @@ msgstr "Otras subcripciones"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:19
 msgid "${count} subscription(s) for this content defined above."
-msgstr ""
+msgstr "Suscripciones a este contenido definido anteriormente: ${count}."
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:23
 msgid "No other subscriptions for this object."
-msgstr ""
+msgstr "No hay otras suscripciones para este objeto."
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:5
 msgid "Subscriptions info"
-msgstr ""
+msgstr "Iinformación de suscripciones"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:7
 msgid "This content can not be subscribed to."
-msgstr ""
+msgstr "No es posible suscribirse a este contenido."
 
 #: silva.app.subscriptions:/templates/confirmationpage.cpt:3
 msgid "subscription result to ${title_or_id}"
-msgstr ""
+msgstr "resultado de la suscripción a ${title_or_id}"
 
 #: silva.app.subscriptions:/views.py:101
 msgid "You are not subscribed to this content."
-msgstr ""
+msgstr "No está suscrito a este contenido."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:103
 msgid "Confirmation request for cancellation has been emailed to ${email}."
-msgstr ""
+msgstr "Solicitud de confirmación de anulación enviada a ${email}."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:120
 msgid "subscribe / unsubscribe to ${title}"
-msgstr ""
+msgstr "suscribirse a / darse de baja de ${title}"
 
 #: silva.app.subscriptions:/views.py:122
 msgid ""
@@ -1611,110 +1758,129 @@ msgid ""
 "whenever a change happen at this URL. You can cancel notification if already "
 "subscribed as well."
 msgstr ""
+"Introduzca su dirección de correo electrónico si desea recibir correos de "
+"notificación cuando se produzcan cambios en esta URL. También tiene la "
+"posibilidad de anular las notificaciones si ya está suscrito."
 
 #: silva.app.subscriptions:/views.py:129
 #: silva.pas.base:/Membership_templates/loginpage.cpt:53
 #: silva.ui:/rest/container/configuration.py:188
 #: zeam.form.silva:/actions.py:111
 msgid "Cancel"
-msgstr ""
+msgstr "Anular"
 
 #: silva.app.subscriptions:/views.py:162
 msgid "Invalid subscription confirmation."
-msgstr ""
+msgstr "Confirmación de suscripción no válida."
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
-msgstr ""
+msgstr "La suscripción no está disponible."
 
 #: silva.app.subscriptions:/views.py:171
 msgid "Subscription failed."
-msgstr ""
+msgstr "La suscripción no se ha podido efectuar."
 
 #: silva.app.subscriptions:/views.py:173
 msgid ""
 "You have been successfully subscribed. You will now receive email "
 "notifications."
 msgstr ""
+"La suscripción se ha efectuado correctamente. A partir de ahora recibirá "
+"correos de notificación."
 
 #: silva.app.subscriptions:/views.py:183
 msgid "Invalid confirmation."
-msgstr ""
+msgstr "Confirmación no válida."
 
 #: silva.app.subscriptions:/views.py:192
 msgid ""
 "Something went wrong in unsubscribing from this page. It might be that the "
 "link you followed expired."
 msgstr ""
+"Algo salió mal en la cancelación de la suscripción de esta página. Puede ser "
+"que el vínculo haya caducado."
 
 #: silva.app.subscriptions:/views.py:196
 msgid "You have been successfully unsubscribed."
-msgstr ""
+msgstr "Ha sido desinscrito satisfactoriamente."
 
 #: silva.app.subscriptions:/views.py:203
 msgid "Subscribe / Unsubscribe"
-msgstr ""
+msgstr "suscribirse / darse de baja"
 
 #: silva.app.subscriptions:/views.py:204
 msgid ""
 "Fill in your email address if you wish to receive email notifications "
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
+"Introduzca su dirección de correo electrónico si desea recibir correos de "
+"notificación cuando se produzcan actualizaciones. Es posible anular las "
+"notificaciones en cualquier momento."
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
-msgstr ""
+msgstr "Dirección de correo electrónico"
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
+"Introduzca su dirección de correo electrónico donde desee recibir correos de "
+"notificación."
 
 #: silva.app.subscriptions:/views.py:33
 msgid "Captcha"
-msgstr ""
+msgstr "Captcha"
 
 #: silva.app.subscriptions:/views.py:34
 msgid ""
 "To submit please enter the characters displayed in this image. You can type "
 "them in lower case."
 msgstr ""
+"Para realizar el envío, introduzca los caracteres mostrados en la siguiente "
+"imagen. Puede escribirlos en minúscula."
 
 #: silva.app.subscriptions:/views.py:55
 msgid "Subscribe"
-msgstr ""
+msgstr "Suscribirse"
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
-msgstr ""
+msgstr "No puede suscribirse a este contenido."
 
 #: silva.app.subscriptions:/views.py:73
 msgid "You are already subscribed to this content."
-msgstr ""
+msgstr "Se ha suscrito a este contenido."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:75
 msgid "Confirmation request for subscription has been emailed to ${email}."
 msgstr ""
+"La solicitud de confirmación de suscripción se ha enviado a ${email}."
 
 #: silva.app.subscriptions:/views.py:83
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Darse de baja"
 
 #: silva.captcha:/formulator.py:18
 msgid "Input is required but no input given."
-msgstr ""
+msgstr "Se necesita una entrada no suministrada."
 
 #: silva.captcha:/formulator.py:19
 msgid "The verification entry is not valid."
-msgstr ""
+msgstr "La entrada de comprobación no es válida."
 
 #: silva.captcha:/zeamform.py:42
 msgid "Invalid captcha input."
-msgstr ""
+msgstr "Introducción de captcha no válida."
 
 #: silva.captcha:/zeamform_templates/captchafieldwidget.cpt:6
 msgid "Audio version"
-msgstr ""
+msgstr "Versión de audio"
 
 #: silva.core.conf:/interfaces.py:16
 msgid "Id"
@@ -1722,7 +1888,7 @@ msgstr ""
 
 #: silva.core.conf:/interfaces.py:17
 msgid "No spaces or special characters besides ‘_’ or ‘-’ or ‘.’"
-msgstr ""
+msgstr "No espacios or símbolo especials al lado de ‘_’ or ‘-’ or ‘.’"
 
 #: silva.core.conf:/interfaces.py:26
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:36
@@ -1735,6 +1901,7 @@ msgstr "Título"
 msgid ""
 "The title will be publicly visible, and is used for the link in indexes."
 msgstr ""
+"El título será visible públicamente, y es usado por el enlace en indices."
 
 #: silva.core.conf:/schema.py:110
 msgid "Invalid crop coordinates."
@@ -1744,7 +1911,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1812,21 +1980,24 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
-msgstr ""
+msgstr "seleccionar:"
 
 #: silva.core.interfaces:/auth.py:130
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
-msgstr ""
+msgstr "función definida anteriormente"
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
-msgstr ""
+msgstr "función definida aquí"
 
 #: silva.core.interfaces:/errors.py:14
 msgid "Invalid ghost target."
@@ -1859,46 +2030,47 @@ msgstr ""
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:102
 msgid "Origin"
-msgstr ""
+msgstr "Origen"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:16
 msgid "Interface"
-msgstr ""
+msgstr "Interfaz"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:32
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:94
 msgid "Layer"
-msgstr ""
+msgstr "Capa"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:59
 msgid "Name of View"
-msgstr ""
+msgstr "Nombre de la vista"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:60
 msgid "Registration Info"
-msgstr ""
+msgstr "Información de registro"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:80
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:84
 msgid "Template"
-msgstr ""
+msgstr "Plantilla"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:90
 msgid "Object"
-msgstr ""
+msgstr "Objeto"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:98
 msgid "Definition"
-msgstr ""
+msgstr "Definición"
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
-msgstr "Lo sentimos, este $(meta_type) no esta disponible"
+msgstr "Lo sentimos, este ${meta_type} no esta disponible"
 
 #: silva.core.references:/widgets/__init__.py:56
 #: silva.core.references:/widgets/zeamform.py:26
@@ -1959,17 +2131,19 @@ msgstr ""
 
 #: silva.core.smi:/content/container.py:57
 msgid "Content"
-msgstr ""
+msgstr "Contenido"
 
 #: silva.core.smi:/content/metadata.py:189
 msgid ""
 "The data that was submitted did not validate properly.  Please adjust the "
 "form values and submit again."
 msgstr ""
+"Los datos enviados no se han validado adecuadamente. Ajuste los valores del "
+"formulario y vuelva a enviarlos."
 
 #: silva.core.smi:/content/metadata.py:194
 msgid "Metadata saved."
-msgstr ""
+msgstr "Metadatos guardados."
 
 #: silva.core.smi:/content/metadata.py:229
 msgid "Approved version content properties"
@@ -2001,7 +2175,7 @@ msgstr ""
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:15
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:18
 msgid "edit content"
-msgstr ""
+msgstr "editar contenido"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this content"
@@ -2013,7 +2187,7 @@ msgstr ""
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:12
 msgid "metadata set"
-msgstr ""
+msgstr "metadatos configurados"
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:37
 msgid "acquirable"
@@ -2054,7 +2228,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publish/management.py:130
 msgid "Approval requested."
-msgstr ""
+msgstr "Petición de aprobación"
 
 #: silva.core.smi:/content/publish/management.py:139
 msgid "Request approval for new version"
@@ -2077,7 +2251,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publish/management.py:184
 msgid "Version approved."
-msgstr ""
+msgstr "Versión aprobada."
 
 #: silva.core.smi:/content/publish/management.py:201
 msgid "Publish new version"
@@ -2116,6 +2290,8 @@ msgid ""
 "This message will remain visible in the status screen for other authors and "
 "editors."
 msgstr ""
+"Este mensaje permanecerá visible en la pantalla de estado para otros autores "
+"y editores."
 
 #: silva.core.smi:/content/publish/management.py:30
 msgid "Publication time"
@@ -2128,7 +2304,7 @@ msgstr ""
 #: silva.core.smi:/content/publish/management.py:301
 #: silva.core.smi:/content/publish/management.py:334
 msgid "The message may be viewed by local users."
-msgstr ""
+msgstr "El mensaje puede ser visto por usuarios locales."
 
 #: silva.core.smi:/content/publish/management.py:308
 #: silva.core.smi:/content/publish/management.py:316
@@ -2145,7 +2321,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publish/management.py:34
 msgid "Empty indicates no expiration."
-msgstr ""
+msgstr "La ausencia de un valor indica que no habrá expiración."
 
 #: silva.core.smi:/content/publish/management.py:343
 #: silva.core.smi:/content/publish/management.py:350
@@ -2161,6 +2337,9 @@ msgid ""
 "If necessary, the published version of this content can be manually closed "
 "(taken offline). It will also be removed from the public index."
 msgstr ""
+"En caso necesario, la versión publicada de este contenido puede cerrarse "
+"manualmente (fuera de línea). Asimismo, también se eliminará del índice "
+"público."
 
 #: silva.core.smi:/content/publish/management.py:383
 msgid "Close published version"
@@ -2172,49 +2351,50 @@ msgstr ""
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:15
 msgid "Content is approved, not published"
-msgstr ""
+msgstr "El contenido está aprobado, no publicado"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:24
 msgid "Published version exists"
-msgstr ""
+msgstr "Existe una versión publicada"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:26
 msgid "Note: an older version of this content is online."
 msgstr ""
+"Observación: una versión anterior de este contenido está disponible en línea."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:30
 msgid "Publishing this version will replace the public version."
-msgstr ""
+msgstr "La publicación de esta versión sustituirá a la versión pública."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:39
 msgid "Content is published"
-msgstr ""
+msgstr "El contenido está publicado"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:4
 msgid "Content is a draft and never published"
-msgstr ""
+msgstr "El contenido es un borrador y no se ha publicado nunca"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:40
 msgid "This content is published (online for the public)."
-msgstr ""
+msgstr "Este contenido está publicado (disponible al público en línea)"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:45
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:56
 msgid "editor"
-msgstr ""
+msgstr "editor"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:45
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:56
 msgid "If you wish you can make an editable copy in the ${editor}."
-msgstr ""
+msgstr "Si lo desea, puede efectuar una copia editable con el ${editor}."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:50
 msgid "Content is closed"
-msgstr ""
+msgstr "El contenido está cerrado"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:51
 msgid "This content was once published but is now closed."
-msgstr ""
+msgstr "Este contenido ya se publicó y actualmente está cerrado."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:65
 msgid "Publication date of the public version"
@@ -2227,7 +2407,7 @@ msgstr ""
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:7
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:18
 msgid "Publication settings can be changed."
-msgstr ""
+msgstr "La configuración de publicación puede cambiarse."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:72
 msgid "Expiration date of the public version"
@@ -2251,9 +2431,10 @@ msgstr ""
 
 #: silva.core.smi:/content/publish/status.py:121
 msgid "Reverted to previous version."
-msgstr ""
+msgstr "Volver a la versión anterior."
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2340,7 +2521,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publishingactions.py:107
 msgid "Approval requested for immediate publication."
-msgstr ""
+msgstr "Aprobación necesaria para la publicación inmediata."
 
 #: silva.core.smi:/content/publishingactions.py:113
 #: silva.ui:/rest/container/configuration.py:369
@@ -2353,7 +2534,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publishingactions.py:129
 msgid "Withdrew request for approval."
-msgstr ""
+msgstr "Retirada de la solicitud de aprobación."
 
 #: silva.core.smi:/content/publishingactions.py:135
 #: silva.ui:/rest/container/configuration.py:355
@@ -2366,7 +2547,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publishingactions.py:151
 msgid "Rejected request for approval."
-msgstr ""
+msgstr "Solicitud de aprobación rechazada."
 
 #: silva.core.smi:/content/publishingactions.py:157
 #: silva.ui:/rest/container/configuration.py:383
@@ -2419,7 +2600,7 @@ msgstr ""
 
 #: silva.core.smi:/content/xml/export.py:44
 msgid "Select the format which will be used for the export."
-msgstr ""
+msgstr "Seleccione el formato que se debe utilizar para la exportación."
 
 #: silva.core.smi:/content/xml/export.py:50
 #: silva.core.smi:/content/xml/export.py:93
@@ -2440,6 +2621,8 @@ msgid ""
 "Locate a zip file containing Assets or a zip file created by a Silva full "
 "media export."
 msgstr ""
+"Localice un archivo zip que contenga los activos o un archivo zip creado "
+"exportar a Silva"
 
 #: silva.core.smi:/content/xml/import.py:30
 msgid "Title for assets"
@@ -2450,6 +2633,8 @@ msgid ""
 "Set a title for all Assets created from the contents of a zip file with "
 "Assets."
 msgstr ""
+"Establecer un título para todos los activos creados a partir de los "
+"contenidos de un archivo zip con activos."
 
 #: silva.core.smi:/content/xml/import.py:36
 msgid "Subdirectories"
@@ -2460,6 +2645,8 @@ msgid ""
 "Recreate the subdirectory structure of a zip file with Assets by adding "
 "Silva Folders."
 msgstr ""
+"Recrea la estructura de subdirectorios de un archivo zip con recursos "
+"añadiendo carpetas Silva."
 
 #: silva.core.smi:/content/xml/import.py:42
 msgid "Replace content"
@@ -2470,6 +2657,9 @@ msgid ""
 "Replace Content Objects with the Objects from the import when they have the "
 "same ids (Note: they will be replaced *even* when published)."
 msgstr ""
+"Reemplazar el Contenido de los Objetos con Objetos de la  importación cuando "
+"tengan los mismos identificadores (Nota: se sustituirán * incluso * cuando "
+"estén publicados)."
 
 #: silva.core.smi:/content/xml/import.py:57
 msgid "Import and extract ZIP archive"
@@ -2486,7 +2676,7 @@ msgstr ""
 
 #: silva.core.smi:/content/xml/import.py:67
 msgid "upload and import file"
-msgstr ""
+msgstr "cargar e importar archivo"
 
 #. Default: ""
 #: silva.core.smi:/content/xml/import.py:88
@@ -2505,7 +2695,7 @@ msgstr ""
 
 #: silva.core.smi:/errors/quota.py:19
 msgid "Over Quota"
-msgstr ""
+msgstr "Superior a la cuota"
 
 #: silva.core.smi:/errors/quota_templates/overquotaerror.cpt:6
 msgid ""
@@ -2519,7 +2709,7 @@ msgstr ""
 
 #: silva.core.smi:/errors/references.py:67
 msgid "Break references"
-msgstr ""
+msgstr "Ruptura de referencias"
 
 #: silva.core.smi:/errors/references.py:87
 msgid "References broken"
@@ -2533,8 +2723,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2548,7 +2738,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2565,7 +2756,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/access.py:101
 msgid "No matching users were found."
-msgstr ""
+msgstr "No se ha encontrado ningún usuario."
 
 #: silva.core.smi:/settings/access.py:114
 msgid "Lookup users"
@@ -2576,6 +2767,8 @@ msgid ""
 "Search for users to assign them roles. Enter as least two characters. "
 "Looukup entire names to limit the number of results."
 msgstr ""
+"Busque usuarios para asignarles funciones. Introduzca dos caracteres como "
+"mínimo. Busque nombres enteros para limitar la cantidad de resultados."
 
 #: silva.core.smi:/settings/access.py:134
 msgid "Role to grant:"
@@ -2592,12 +2785,12 @@ msgstr ""
 #. Default: ""
 #: silva.core.smi:/settings/access.py:159
 msgid "Role \"${role}\" granted to user \"${username}\"."
-msgstr ""
+msgstr "Función \"${role}\" asignada al usuario  \"${username}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:164
 msgid "User \"${username}\" already has the role \"${role}\"."
-msgstr ""
+msgstr "El usuario \"${username}\" ya dispone de la función \"${role}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:169
@@ -2606,7 +2799,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2617,12 +2811,12 @@ msgstr ""
 #. Default: ""
 #: silva.core.smi:/settings/access.py:196
 msgid "Removed role \"${role}\" from user \"${username}\"."
-msgstr ""
+msgstr "Retirar la función  \"${role}\" al usuario \"${username}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:202
 msgid "User \"${username}\" doesn't have any local role."
-msgstr ""
+msgstr "El usuario \"${username}\" no dispone de ninguna función local."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:207
@@ -2643,9 +2837,10 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
-msgstr ""
+msgstr "No se ha asignado ninguna función."
 
 #: silva.core.smi:/settings/access.py:266
 msgid "User clipboard"
@@ -2657,6 +2852,10 @@ msgid ""
 "this user clipboard. Then assign the users roles. Any users on the clipboard "
 "will remain here when you move to other areas of the site."
 msgstr ""
+"Con el fin de asignar funciones a los usuarios, en primer lugar, busque los "
+"usuarios a partir de los enumerados en este portapapeles de usuario. A "
+"continuación, asigne las funciones a los usuarios. Los usuarios del "
+"portapapeles permanecerán allí si se desplaza a otras zonas del sitio."
 
 #: silva.core.smi:/settings/access.py:290
 msgid "Clear clipboard"
@@ -2664,7 +2863,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/access.py:291
 msgid "clear the user clipboard"
-msgstr ""
+msgstr "suprimir el contenido del portapapeles del usuario"
 
 #: silva.core.smi:/settings/access.py:304
 msgid "Is the role acquired from above?"
@@ -2686,6 +2885,8 @@ msgstr ""
 msgid ""
 "Setting an access restriction here affects content on this and lower levels."
 msgstr ""
+"La configuración de una restricción de acceso en este punto afecta al "
+"contenido de este nivel y de los niveles inferiores."
 
 #: silva.core.smi:/settings/access.py:332
 msgid "Acquire restriction"
@@ -2702,17 +2903,19 @@ msgstr ""
 
 #: silva.core.smi:/settings/access.py:341
 msgid "The minimum role setting was already acquired."
-msgstr ""
+msgstr "La configuración mínima de función ya ha sido adquirida."
 
 #: silva.core.smi:/settings/access.py:346
 msgid "Now acquiring the minimum role setting."
-msgstr ""
+msgstr "Adquisición de la configuración mínima de función en curso."
 
 #: silva.core.smi:/settings/access.py:35
 msgid ""
 "This screen lets you authorize or revoke access to this item and all content "
 "it contains."
 msgstr ""
+"Esta pantalla permite autorizar o denegar el acceso a este elemento y a "
+"todos los contenidos presentes en él."
 
 #: silva.core.smi:/settings/access.py:351
 msgid "Set restriction"
@@ -2727,10 +2930,13 @@ msgstr ""
 msgid ""
 "The minimum required role to access this content has been set to \"${role}\"."
 msgstr ""
+"La función mínima necesaria para acceder a este contenido se ha asignado a "
+"\"${role}\"."
 
 #: silva.core.smi:/settings/access.py:370
 msgid "The minimum required role to access this content is acquired."
 msgstr ""
+"La función mínima necesaria para acceder a este contenido se ha adquirido."
 
 #: silva.core.smi:/settings/access.py:43
 #: silva.ui:/rest/container/configuration.py:113
@@ -2749,7 +2955,7 @@ msgstr ""
 #: silva.core.smi:/settings/access.py:219
 #: silva.pas.base:/Membership_templates/loginpage.cpt:35
 msgid "Username"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #: silva.core.smi:/settings/access.py:59
 msgid "Username or part of the username to lookup"
@@ -2761,12 +2967,12 @@ msgstr ""
 
 #: silva.core.smi:/settings/access.py:73
 msgid "Sorry, there were errors."
-msgstr ""
+msgstr "Lo sentimos, se han producido errores."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:95
 msgid "Found ${count} users: ${users}."
-msgstr ""
+msgstr "Usuarios encontrados: ${count}: ${users}."
 
 #: silva.core.smi:/settings/addables.py:35
 msgid "Acquire"
@@ -2777,6 +2983,8 @@ msgid ""
 "If checked, inherit the addables from above. Uncheck this to change the "
 "allowed addables below."
 msgstr ""
+"Si está seleccionado, hereda los agregables desde arriba. Desseleccionar "
+"esto para cambiar los agregables permitidos más abajo"
 
 #: silva.core.smi:/settings/addables.py:41
 #: silva.core.smi:/settings/addables.py:104
@@ -2789,6 +2997,9 @@ msgid ""
 "in this publication. Otherwise the addables are acquired from the "
 "publication above."
 msgstr ""
+"Si 'adquirir' no está marcado, estos ajustes se determinarán por los "
+"elementos permitidos en esta publicación. De lo contrario se usarán de la "
+"publicación citada."
 
 #: silva.core.smi:/settings/addables.py:57
 msgid "Addable settings"
@@ -2804,7 +3015,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/addables.py:82
 msgid "Addable settings have not changed and remain acquired."
-msgstr ""
+msgstr "Los ajustes adquiridos no han cambiado y siguen siendo los mismos."
 
 #: silva.core.smi:/settings/addables.py:88
 msgid "Addable settings are now aquired."
@@ -2817,7 +3028,7 @@ msgstr ""
 #: silva.core.smi:/settings/localsite.py:27
 #: silva.core.smi:/settings/localsite.py:81
 msgid "Local site"
-msgstr ""
+msgstr "Sitio local"
 
 #: silva.core.smi:/settings/localsite.py:28
 msgid ""
@@ -2825,6 +3036,10 @@ msgid ""
 "site, you will be able to add local services to the publication. Those "
 "services will only affect elements inside that publication."
 msgstr ""
+"Aquí se puede habilitar/deshabilitar un sitio local (o sitio local "
+"secundario). Haciendo un sitio local será posible añadir servicios locales a "
+"la publicación. Esos servicios solo afectarán a los elementos presentes "
+"dentro de la publicación."
 
 #: silva.core.smi:/settings/localsite.py:43
 msgid "Make local site"
@@ -2832,7 +3047,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/localsite.py:53
 msgid "Local site activated."
-msgstr ""
+msgstr "Sitio local activado."
 
 #: silva.core.smi:/settings/localsite.py:62
 msgid "Remove local site"
@@ -2840,11 +3055,11 @@ msgstr ""
 
 #: silva.core.smi:/settings/localsite.py:73
 msgid "Local site deactivated."
-msgstr ""
+msgstr "Sitio local desactivado."
 
 #: silva.core.smi:/settings/makers.py:102
 msgid "Available markers"
-msgstr ""
+msgstr "Marcadores disponibles"
 
 #: silva.core.smi:/settings/makers.py:122
 msgid "Interfaces in use which affect the behavior of the content"
@@ -2860,28 +3075,28 @@ msgstr ""
 
 #: silva.core.smi:/settings/makers.py:144
 msgid "mark the content with the selected marker(s)"
-msgstr ""
+msgstr "marque el contenido con el o los marcadores seleccionados"
 
 #: silva.core.smi:/settings/makers.py:149
 #: silva.core.smi:/settings/makers.py:179
 msgid "You need to select a marker."
-msgstr ""
+msgstr "Es necesario seleccionar un marcador."
 
 #: silva.core.smi:/settings/makers.py:155
 msgid "Marker added."
-msgstr ""
+msgstr "Marcador añadido."
 
 #: silva.core.smi:/settings/makers.py:164
 msgid "Remove a marker"
-msgstr ""
+msgstr "Retire un marcador"
 
 #: silva.core.smi:/settings/makers.py:173
 msgid "remove the selected marker(s) from the content"
-msgstr ""
+msgstr "retire uno o varios marcadores seleccionados del contenido"
 
 #: silva.core.smi:/settings/makers.py:185
 msgid "Marker removed."
-msgstr ""
+msgstr "Marcador eliminado."
 
 #: silva.core.smi:/settings/makers.py:29
 msgid "Customization markers"
@@ -2899,25 +3114,27 @@ msgstr ""
 
 #: silva.core.smi:/settings/makers.py:85
 msgid "Used interfaces"
-msgstr ""
+msgstr "Interfaces utilizadas"
 
 #: silva.core.smi:/settings/makers.py:94
 msgid "Used markers"
-msgstr ""
+msgstr "Marcadores utilizados"
 
 #: silva.core.smi:/settings/settings.py:103
 msgid ""
 "This Ghost Folder can be converted to a normal Publication or Folder. All "
 "ghosted content will be duplicated and can then be edited."
 msgstr ""
+"Esta carpeta fantasma puede convertirse en una publicación o en una carpeta "
+"normales. Todos sus contenidos se copiarán y podrán editarse."
 
 #: silva.core.smi:/settings/settings.py:107
 msgid "This Silva Publication can be converted to a Silva Folder"
-msgstr ""
+msgstr "La publicación Silva puede convertirse en una publicación"
 
 #: silva.core.smi:/settings/settings.py:110
 msgid "This Silva Folder can be converted to a Publication"
-msgstr ""
+msgstr "La carpeta Silva puede convertirse en una publicación"
 
 #: silva.core.smi:/settings/settings.py:114
 msgid "Allow feeds"
@@ -2945,11 +3162,11 @@ msgstr ""
 
 #: silva.core.smi:/settings/settings.py:156
 msgid "change feed settings"
-msgstr ""
+msgstr "cambiar configuraciones de canal"
 
 #: silva.core.smi:/settings/settings.py:162
 msgid "Feed settings saved."
-msgstr ""
+msgstr "Configuraciones de canal guardadas."
 
 #: silva.core.smi:/settings/settings.py:167
 msgid "Space used in this folder"
@@ -2978,7 +3195,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/settings.py:68
 msgid "Changed into folder"
-msgstr ""
+msgstr "Transformado a carpeta"
 
 #: silva.core.smi:/settings/settings.py:73
 msgid "Convert to publication"
@@ -2990,7 +3207,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/settings.py:82
 msgid "Changed into publication"
-msgstr ""
+msgstr "Transformado a publicación"
 
 #: silva.core.smi:/settings/settings.py:94
 msgid "Container type"
@@ -3006,7 +3223,7 @@ msgstr ""
 
 #: silva.core.smi:/userinfo.py:45
 msgid "identifier used to authenticate"
-msgstr ""
+msgstr "identificador utilizado para la autenticación"
 
 #: silva.core.smi:/userinfo.py:49
 msgid "Fullname"
@@ -3014,11 +3231,11 @@ msgstr ""
 
 #: silva.core.smi:/userinfo.py:50
 msgid "user full name"
-msgstr ""
+msgstr "nombre completo del usuario"
 
 #: silva.core.smi:/userinfo.py:54
 msgid "contact email address"
-msgstr ""
+msgstr "dirección de correo de contacto"
 
 #: silva.core.smi:/userinfo.py:57
 msgid "Preferred language"
@@ -3026,7 +3243,7 @@ msgstr ""
 
 #: silva.core.smi:/userinfo.py:58
 msgid "language to use the for Silva interface"
-msgstr ""
+msgstr "idioma para la interfaz de Silva"
 
 #: silva.core.smi:/userinfo.py:88
 msgid "User preferences"
@@ -3061,7 +3278,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3098,7 +3316,7 @@ msgstr ""
 
 #: silva.pas.base:/smi.py:207
 msgid "grant role"
-msgstr ""
+msgstr "permitr rol"
 
 #: silva.pas.base:/smi.py:208
 msgid "grant the selected role to the selected groups(s)"
@@ -3115,7 +3333,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3147,13 +3366,14 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
 #: silva.pas.base:/smi.py:337
 msgid "clear clipboard"
-msgstr ""
+msgstr "suprimir el contenido del portapapeles"
 
 #: silva.pas.base:/smi.py:338
 msgid "remove the group lookup results"
@@ -3256,7 +3476,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3355,7 +3576,7 @@ msgstr ""
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:251
 msgid "Added ${meta_type}."
-msgstr ""
+msgstr "${meta_type} añadido."
 
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:276
@@ -3369,7 +3590,7 @@ msgstr ""
 #: zeam.form.silva:/form/smi_templates/smisubtableformtemplate.cpt:20
 #: zeam.form.silva:/form/smi_templates/smitableformtemplate.cpt:18
 msgid "select all"
-msgstr ""
+msgstr "seleccionar todo"
 
 #: zeam.form.silva:/widgets/cropping_templates/cropimageinputwidget.cpt:12
 msgid "keep proportions"
@@ -3393,7 +3614,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:23
 msgid "year"
-msgstr ""
+msgstr "año"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
 msgid "optional hour in 24h format"
@@ -3409,7 +3630,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:40
 msgid "optional minute"
-msgstr ""
+msgstr "minuto opcional"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:5
 msgid "dd"
@@ -3443,1177 +3664,21 @@ msgstr ""
 msgid "Show All Items"
 msgstr ""
 
-#~ msgid "Not connected"
-#~ msgstr "Sin conexión"
-
-#~ msgid "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
-#~ msgstr ""
-#~ "pegar &#xab;${id}&#xbb; no está permitido en este tipo de contenedor"
-
-#~ msgid "pasted &#xab;${id}&#xbb;"
-#~ msgstr "pegado &#xab;${id}&#xbb;"
-
-#~ msgid "first item"
-#~ msgstr "primer artículo"
-
-#~ msgid "aspect"
-#~ msgstr "aspecto"
-
-#~ msgid "* required"
-#~ msgstr "* requerido"
-
-#~ msgid "'${crop}' defines an impossible cropping"
-#~ msgstr "'${crop}' define un recorto imposible"
-
-#~ msgid "No approved version to unapprove."
-#~ msgstr "No hay una versión aprobada que desaprobar"
-
-#~ msgid "No public version to close."
-#~ msgstr "No hay version publica para cerrar"
-
-#~ msgid "There is no unapproved version to request approval for."
-#~ msgstr "No hay ninguna versión desaprobada para pedir aprobación"
-
-#~ msgid "The version is not requested for approval."
-#~ msgstr "Esta versión no ha sido solicitada para aprobación"
-
-#~ msgid "There is no version to add messages for."
-#~ msgstr "No hay version a la cual agregar mensajes"
-
-#~ msgid "There is an approved version already; unapprove it. (${id})"
-#~ msgstr "Hay una versión ya aprobada, desapruebala (${id})"
-
-#~ msgid "There already is an unapproved version (${id})."
-#~ msgstr "Hay una versión no aprobada (${id})."
-
-#~ msgid "The public version has that id already (${id})."
-#~ msgstr "La versión publica ya tiene id (${id})."
-
-#~ msgid "A previous version has that id already (${id})."
-#~ msgstr "La versión previa cuenta con id (${id})."
-
-#~ msgid "published"
-#~ msgstr "publicado"
-
-#~ msgid "Can not delete all versions"
-#~ msgstr "No se pueden borrar todas las versiones."
-
-#~ msgid "no such version ${version}"
-#~ msgstr "ninguna versión ${versión}"
-
-#~ msgid "No unapproved version available"
-#~ msgstr "No existe disponible una versión no aprobada"
-
-#~ msgid "select"
-#~ msgstr "seleccionar"
-
-#~ msgid "view"
-#~ msgstr "vista"
-
-#~ msgid "enter"
-#~ msgstr "entrar"
-
-#~ msgid "content is published"
-#~ msgstr "Contenido publicado"
-
-#~ msgid "cancel operation: alt-c"
-#~ msgstr "Cancelar: alt-c"
-
-#~ msgid "insert a reference to this container: alt-c"
-#~ msgstr "inserte una referencia a este contenedor: alt-c"
-
-#~ msgid "place reference to container..."
-#~ msgstr "lugar de referencia para contenedores..."
-
-#~ msgid "Default Document Policy"
-#~ msgstr "Politica de Docuemntos por Defecto"
-
-#~ msgid "Listing body"
-#~ msgstr "LIstado de cuerpo"
-
-#~ msgid ""
-#~ "${listing_body}${br} p &nbsp; Select list for position number${br} m "
-#~ "&nbsp; move"
-#~ msgstr ""
-#~ "${listing_body}${br} p &nbsp; Seleccionar lista para número de position"
-#~ "${br} m &nbsp; mover"
-
-#~ msgid "Listing footer"
-#~ msgstr "Listado de pie de página."
-
-#~ msgid ""
-#~ "${listing_footer}${br} a &nbsp; select all${br} r &nbsp; rename${br} d "
-#~ "&nbsp; delete${br} x &nbsp; cut${br} c &nbsp; copy${br} v &nbsp; paste"
-#~ "${br} g &nbsp; paste as ghost"
-#~ msgstr ""
-#~ "${listing_footer}${br} a &nbsp; seleccinar todos${br} r &nbsp; renombrar"
-#~ "${br} d &nbsp; borrar${br} x &nbsp; cortar${br} c &nbsp; copiar${br} v "
-#~ "&nbsp; pegar${br} g &nbsp; pegar como fantasma"
-
-#~ msgid "Preview screen"
-#~ msgstr "Pantalla de previsualización"
-
-#~ msgid "; &nbsp; See public preview${br}"
-#~ msgstr "; &nbsp; Ver previsualización pública${br}"
-
-#~ msgid "Publish screen (folder)"
-#~ msgstr "Pantalla Publicada (fichero)"
-
-#~ msgid "${listing_header}${br} i &nbsp; import${br} e &nbsp; Export"
-#~ msgstr "${listing_header}${br} i &nbsp; importar${br} e &nbsp; Exportar"
-
-#~ msgid ""
-#~ "${listing_footer}${br} a &nbsp; select all${br} n &nbsp; create new "
-#~ "vesions${br} j &nbsp; reject (request for approval)${br} v &nbsp; revoke "
-#~ "(request for approval)${br} c &nbsp; close (public version)${br} l &nbsp; "
-#~ "approve for later${br} u &nbsp; update settings${br} p &nbsp; publish now"
-#~ "${br}"
-#~ msgstr ""
-#~ "${listing_footer}${br} a &nbsp; seleccionar todo${br} n &nbsp; crear "
-#~ "nuevas versiones${br} j &nbsp; rechazar (petición para aprobación)${br} v "
-#~ "&nbsp; revocar (petición para aprobación)${br} c &nbsp; cerrar (versión "
-#~ "pública)${br} l &nbsp; aprobar para más tarde${br} u &nbsp; propiedades "
-#~ "de actualización${br} p &nbsp; publicar ahora${br}"
-
-#~ msgid "Add screen"
-#~ msgstr "Agregar pantalla"
-
-#~ msgid "c &nbsp; cancel${br} a &nbsp; add${br} e &nbsp; add and edit/enter"
-#~ msgstr ""
-#~ "c &nbsp; cancelar${br} a &nbsp; añadir${br} e &nbsp; añadir y editar/"
-#~ "entrar"
-
-#~ msgid "Editor screen"
-#~ msgstr "Pantalla de Edición"
-
-#~ msgid ""
-#~ "( &nbsp; forms editor${br} ) &nbsp; Kupu editor${br} ; &nbsp; public "
-#~ "preview${br} p &nbsp; publish now${br}"
-#~ msgstr ""
-#~ "( &nbsp; editor de formas${br} ) &nbsp; Editor de Kupu${br} ; &nbsp; "
-#~ "previsualización pública${br} p &nbsp; publicar ahora${br}"
-
-#~ msgid "Kupu editor"
-#~ msgstr "Editor kupu"
-
-#~ msgid ""
-#~ "${kupu_editor}${br} b &nbsp; bold${br} i &nbsp; italic${br} u &nbsp; "
-#~ "underline${br} - &nbsp; subscript${br} + &nbsp; superscript${br} # &nbsp; "
-#~ "numbered list${br} * &nbsp; bulleted list${br} = &nbsp; definition list"
-#~ "${br} z &nbsp; undo${br} y &nbsp; redo${br} h &nbsp; html source${br}"
-#~ msgstr ""
-#~ "${kupu_editor}${br} b &nbsp; negrita${br} i &nbsp; italica${br} u &nbsp; "
-#~ "subrayado${br} - &nbsp; subíndice${br} + &nbsp; superíndice${br} # &nbsp; "
-#~ "lista numerada${br} * &nbsp; lista con viñetas${br} = &nbsp; lista de "
-#~ "definiciones${br} z &nbsp; deshacer${br} y &nbsp; rehacer${br} h &nbsp; "
-#~ "fuente html ${br}"
-
-#~ msgid "Forms editor"
-#~ msgstr "Editor de formularios"
-
-#~ msgid ""
-#~ "${forms_editor}${br} s &nbsp; save${br} e &nbsp; save and exit${br} i "
-#~ "&nbsp; save and insert${br} tab Use your tab key to edit without using "
-#~ "the mouse. Shift-tab goes backwards."
-#~ msgstr ""
-#~ "${forms_editor}${br} s &nbsp; guardar${br} e &nbsp; guardar y salir${br} "
-#~ "i &nbsp; guardar e insertar${br} Tabulador Usar el tabulador para editar "
-#~ "sin usar el mouse. Shift-tab vuelve atrás."
-
-#~ msgid "Other screens"
-#~ msgstr "Otras pantallas"
-
-#~ msgid "return"
-#~ msgstr "regresar"
-
-#~ msgid "access key: alt-r"
-#~ msgstr "tecla de acceso: alt-r"
-
-#~ msgid ""
-#~ "The Properties, Access, and Publish screens as well as their subscreens "
-#~ "(such as Lookup, Import, and Export) have access keys for most buttons. "
-#~ "Usually the first letter of the button is the access key. You can always "
-#~ "hover over the button to see the tooltip."
-#~ msgstr ""
-#~ "Las ventanas de Propiedades, Acceso y Publicación como también las sub-"
-#~ "ventanas (como Buscar, Importar y Exportar) tienen teclas de acceso para "
-#~ "la mayoría de sus botones. Usualmente la primera letra del botón es la "
-#~ "tecla de acceso. Siempre se puede deslizar con el mouse sobre el botón "
-#~ "para ver la ayuda"
-
-#~ msgid ""
-#~ "If there are two buttons with the same name, the access key for the "
-#~ "second is usually the first letter of the second word (e.g. for &#8220;"
-#~ "get image reference&#8221; and &#8220;get link reference&#8221;, the "
-#~ "access keys are &#8216;g&#8217; and &#8216;l&#8217;). Sometimes there are "
-#~ "multiples of the same button, in which case only the first has an access "
-#~ "key."
-#~ msgstr ""
-#~ "Si hay dos botones con el mismo nombre, la tecla de acceso para la "
-#~ "segunda es usualmente la primera letra de la segunda palabra (por decir: "
-#~ "para &#8220;obtener imágen de referencia&#8221; y &#8220;obtener enlace "
-#~ "de referencia&#8221;, las teclas de accesos  son &#8216;g&#8217; y &#8216;"
-#~ "I&#8217;). Algunas veces hay múltipes botones idénticos, en cuyo caso "
-#~ "solo el primero tiene una tecla de acceso"
-
-#~ msgid "Notes"
-#~ msgstr "Notas"
-
-#~ msgid "Tip: one click editing"
-#~ msgstr "Consejo: un clic para editar."
-
-#~ msgid "Silva edit"
-#~ msgstr "Editar Silva"
-
-#~ msgid "Or, save this link &#8211; ${silva_edit} &#8211; as a bookmark."
-#~ msgstr ""
-#~ "O, guarda este enlace &#8211; ${silva_edit} &#8211; como un marcador."
-
-#~ msgid "manage..."
-#~ msgstr "gestiona..."
-
-#~ msgid "Thanks to ${eth_zuerich} for this trick."
-#~ msgstr "Gracias a ${eth_zuerich} por este truco."
-
-#~ msgid "Tip for Mozilla/Netscape users"
-#~ msgstr "Consejo para usuarios Mozilla/Netscape"
-
-#~ msgid "Silva documentation"
-#~ msgstr "Documentación de Silva"
-
-#~ msgid "Contact"
-#~ msgstr "Contacto"
-
-#~ msgid "Feedback"
-#~ msgstr "Comentarios"
-
-#~ msgid "${br} ${contact}${br} ${feedback} is welcome."
-#~ msgstr "${br} ${contact}${br} ${feedback} es bienvenido."
-
-#~ msgid "Silva info: alt-i"
-#~ msgstr "Información de Silva: alt-i"
-
-#~ msgid "Silva access keys"
-#~ msgstr "Claves de acceso Silva"
-
-#~ msgid ""
-#~ "The access key on your machine may be &#8216;alt&#8217;. On a Mac "
-#~ "it&#8217;s &#8216;ctrl&#8217;."
-#~ msgstr ""
-#~ "La llave de acceso en su equipo puede ser &#8216;alt&#8217;. En un Mac "
-#~ "it&#8217;s &#8216;ctrl&#8217;."
-
-#~ msgid "see below"
-#~ msgstr "ver debajo"
-
-#~ msgid "Global keys that are always available"
-#~ msgstr "Claves globales que están siempre disponibles"
-
-#~ msgid "Changing screens with the tabs"
-#~ msgstr "Cambiar pantallas con las pestañas"
-
-#~ msgid "Silva help"
-#~ msgstr "Ayuda de Silva"
-
-#~ msgid "Contents screen (folder)"
-#~ msgstr "Pantalla de Contenidos (Fichero)"
-
-#~ msgid "access key: alt-b"
-#~ msgstr "clave de acceso alt-b"
-
-#~ msgid "Silva info: alt-s"
-#~ msgstr "Información Silva: alt-s"
-
-#~ msgid "Silva Reference"
-#~ msgstr "Referencia de Silva"
-
-#~ msgid "Thanks to...."
-#~ msgstr "Gracias a..."
-
-#~ msgid "Silva site"
-#~ msgstr "Site de Silva"
-
-#~ msgid "External developers"
-#~ msgstr "Desarrolladores Externos"
-
-#~ msgid "Request processed"
-#~ msgstr "Solicitud Procesada"
-
-#~ msgid "File uploaded."
-#~ msgstr "Archivo cargado."
-
-#~ msgid "message"
-#~ msgstr "mensaje"
-
-#~ msgid "Properties changed: ${changed}"
-#~ msgstr "Propiedades cambiadas: ${changed}"
-
-#~ msgid "${icon} file info"
-#~ msgstr "${icon} información del archivo"
-
-#~ msgid "save text content"
-#~ msgstr "guardar el contenido del texto"
-
-#~ msgid "access key: alt-c"
-#~ msgstr "tecla de acceso: alt-c"
-
-#~ msgid "Text Context"
-#~ msgstr "Texto Contexto"
-
-#~ msgid "predefined sizes"
-#~ msgstr "tamaños predefinidos"
-
-#~ msgid "50x50 pixels"
-#~ msgstr "50x50 pixeles"
-
-#~ msgid "50x50 pixel"
-#~ msgstr "50x50 píxel"
-
-#~ msgid "75x75 pixels"
-#~ msgstr "75x75 pixeles"
-
-#~ msgid "75x75 pixel"
-#~ msgstr "75x75 píxel"
-
-#~ msgid "100x100 pixel"
-#~ msgstr "100x100 píxel"
-
-#~ msgid "100x100 pixels"
-#~ msgstr "100x100 pixeles"
-
-#~ msgid "250x250 pixels"
-#~ msgstr "250x250 pixeles"
-
-#~ msgid "250x250 pixel"
-#~ msgstr "250x250 píxel"
-
-#~ msgid "use coordinates..."
-#~ msgstr "utilizar coordenadas..."
-
-#~ msgid "alt-u"
-#~ msgstr "alt-u"
-
-#~ msgid "web format"
-#~ msgstr "formato web"
-
-#~ msgid "view the original image: alt-v"
-#~ msgstr "ver el tamaño original de la imagen: alt-v"
-
-#~ msgid "orientation"
-#~ msgstr "orientación"
-
-#~ msgid "Problem: ${errors}"
-#~ msgstr "Problema: ${errores}"
-
-#~ msgid "Image updated."
-#~ msgstr "imagen cargada."
-
-#~ msgid "upload file"
-#~ msgstr "cargar archivo"
-
-#~ msgid "characterization"
-#~ msgstr "caracterización"
-
-#~ msgid "Locate a file."
-#~ msgstr "Localizar un archivo."
-
-#~ msgid "list of processed items ${format}"
-#~ msgstr "lista de artículos procesados ${format}"
-
-#~ msgid "import and remove"
-#~ msgstr "importar y remover"
-
-#~ msgid "unknown format"
-#~ msgstr "formato desconocido"
-
-#~ msgid "Silva XML"
-#~ msgstr "Silva XML"
-
-#~ msgid "Select a file for upload."
-#~ msgstr "Seleccionar un archivo para subir."
-
-#~ msgid "added ${succeeded}"
-#~ msgstr "añadido ${logrado}"
-
-#~ msgid "Finished importing: ${msg}"
-#~ msgstr "Importación finalizada: ${msg}"
-
-#~ msgid "version already approved"
-#~ msgstr "versión ya aprobada"
-
-#~ msgid "acquire"
-#~ msgstr "acquire"
-
-#~ msgid "move selected items to"
-#~ msgstr "mover el artículo seleccionado a"
-
-#~ msgid "position:"
-#~ msgstr "posición"
-
-#~ msgid "rename..."
-#~ msgstr "renombrar..."
-
-#~ msgid "rename and retitle items: alt-r"
-#~ msgstr "renombrar y retitular artículos: alt-r"
-
-#~ msgid "cut items: alt-x"
-#~ msgstr "cortar artículos: alt-x"
-
-#~ msgid "copy items: alt-c"
-#~ msgstr "copiar artículos: alt-c"
-
-#~ msgid "paste items: alt-v"
-#~ msgstr "pegar artículos: alt-v"
-
-#~ msgid "publish new versions: alt-p"
-#~ msgstr "publicar nuevas versiones: alt-p"
-
-#~ msgid "publish now"
-#~ msgstr "publicar ahora"
-
-#~ msgid "close published items: alt-l"
-#~ msgstr "cerrar artículos publicados: alt-l"
-
-#~ msgid "is not published"
-#~ msgstr "no se ha publicado"
-
-#~ msgid "Closed: ${ids}"
-#~ msgstr "Cerrado: ${ids}"
-
-#~ msgid "Deleted ${deleted_ids}."
-#~ msgstr "Borrar ${deleted_ids}."
-
-#~ msgid "subdirectories"
-#~ msgstr "subdirectorios"
-
-#~ msgid "replace content"
-#~ msgstr "sustituir el contenido"
-
-#~ msgid "import zip"
-#~ msgstr "importar zip"
-
-#~ msgid "access key: alt-z"
-#~ msgstr "tecla de acceso: alt-z"
-
-#~ msgid "docma icon"
-#~ msgstr "icono docma"
-
-#~ msgid "email address"
-#~ msgstr "direcciòn de email"
-
-#~ msgid "import in &#xab;${title}&#xbb;"
-#~ msgstr "importar en &#xab;${title}&#xbb;"
-
-#~ msgid "import and extract zip archive"
-#~ msgstr "importar y extraer un archivo zip"
-
-#~ msgid "file to upload"
-#~ msgstr "archivo para subir."
-
-#~ msgid "Select one or more items to download"
-#~ msgstr "Seleccionar uno o más artículos para descargar."
-
-#~ msgid "Select one or more jobs to import"
-#~ msgstr "Seleccionar uno o más trabajos para importar"
-
-#~ msgid "Could not import ${newid}"
-#~ msgstr "No se ha podido importar ${newid}"
-
-#~ msgid "Finished importing"
-#~ msgstr "Importación finalizada"
-
-#~ msgid "Finished importing."
-#~ msgstr "Importación finalizada"
-
-#~ msgid "Moved ${id} down."
-#~ msgstr "Movido ${id} abajo."
-
-#~ msgid "Could not move ${id} down."
-#~ msgstr "No se ha podido mover ${id} abajo."
-
-#~ msgid "Object(s) ${ids} moved"
-#~ msgstr "Objeto(s) ${ids} movido"
-
-#~ msgid "Could not move ${ids}."
-#~ msgstr "No se ha podido mover ${ids}."
-
-#~ msgid "Moved ${id} up."
-#~ msgstr "Movido ${id} arriba."
-
-#~ msgid "Could not move ${id} up."
-#~ msgstr "No se ha podido mover ${id} arriba."
-
-#~ msgid "rename"
-#~ msgstr "renombrar"
-
-#~ msgid "${icon} rename objects in &#xab;${title}&#xbb;"
-#~ msgstr "${icon} renombrar objetos en &#xab;${title}&#xbb;"
-
-#~ msgid "attribute"
-#~ msgstr "atributo"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "modify / preview"
-#~ msgstr "modificar/ previsualizar"
-
-#~ msgid "revision"
-#~ msgstr "revisión"
-
-#~ msgid "public version"
-#~ msgstr "versión pública"
-
-#~ msgid "publish time"
-#~ msgstr "publicar tiempo"
-
-#~ msgid "access key: alt-x"
-#~ msgstr "tecla de acceso: alt-x"
-
-#~ msgid "clear&nbsp;expiration"
-#~ msgstr "clear&nbsp;expiration"
-
-#~ msgid "revoke"
-#~ msgstr "revocar"
-
-#~ msgid "close published items: alt-c"
-#~ msgstr "cerrar los artículos publicados: alt-c"
-
-#~ msgid "new version"
-#~ msgstr "nueva versión"
-
-#~ msgid "request immediate approval for new versions: alt-p"
-#~ msgstr "solicitar la aprobación inmediata de nuevas versiones: alt-p"
-
-#~ msgid "request approval now"
-#~ msgstr "solicitar la aprobación ahora"
-
-#~ msgid "request approval for new versions: alt-r"
-#~ msgstr "solicitar la aprobación de nuevas versiones: alt-r"
-
-#~ msgid "select an export format"
-#~ msgstr "seleccionar un formato exportable"
-
-#~ msgid "export pdf"
-#~ msgstr "exportar pdf"
-
-#~ msgid "export xml"
-#~ msgstr "exportar xml"
-
-#~ msgid "export to Docma (.doc)"
-#~ msgstr "exportar a Docma (.doc)"
-
-#~ msgid "choose a template"
-#~ msgstr "elegir una plantilla"
-
-#~ msgid "export to Docma"
-#~ msgstr "exportar a Docma"
-
-#~ msgid "items to export:"
-#~ msgstr "artículos para export:"
-
-#~ msgid "export from &#xab;${title}&#xbb;"
-#~ msgstr "exportar desde &#xab;${title}&#xbb;"
-
-#~ msgid "modify ${meta_type}"
-#~ msgstr "modificar ${meta_type}"
-
-#~ msgid "preview ${id}"
-#~ msgstr "previsualizar ${id}"
-
-#~ msgid "Created a new version for: ${ids}"
-#~ msgstr "Crear una nueva versión para: ${ids}"
-
-#~ msgid "no approval requested"
-#~ msgstr "ninguna aprovación requerida"
-
-#~ msgid "Not yet :)"
-#~ msgstr "No aùn :)"
-
-#~ msgid "version status"
-#~ msgstr "estado de la versión"
-
-#~ msgid "version actions"
-#~ msgstr "acciones de la versión"
-
-#~ msgid "copy for editing"
-#~ msgstr "copiar para editar"
-
-#~ msgid "There is no approved version."
-#~ msgstr "Esta es una versión no aprobada."
-
-#~ msgid "Closed public version."
-#~ msgstr "Versión pública cerrada."
-
-#~ msgid "No versions selected"
-#~ msgstr "Ninguna version seleccionada."
-
-#~ msgid "Can't delete all versions"
-#~ msgstr "No se puede borrar todas las versiones."
-
-#~ msgid "deleted ${id}"
-#~ msgstr "borrar ${id}"
-
-#~ msgid "for new version"
-#~ msgstr "para nueva versión"
-
-#~ msgid "message to editor"
-#~ msgstr "mensaje al editor"
-
-#~ msgid "This content is already public."
-#~ msgstr "Este contenido ya es público."
-
-#~ msgid "day / month / year &nbsp;(23:59)"
-#~ msgstr "día / mes / año &nbsp;(23:59)"
-
-#~ msgid "&#8224; acquireable"
-#~ msgstr "&#8224; acquireable"
-
-#~ msgid "select all: alt-a"
-#~ msgstr "seleccionar todo: alt-a"
-
-#~ msgid " save "
-#~ msgstr " guardar "
-
-#~ msgid "in"
-#~ msgstr "en"
-
-#~ msgid "used space"
-#~ msgstr "espacio utilizado"
-
-#~ msgid "settings for &#xab;${title}&#xbb;"
-#~ msgstr "configuraciones para &#xab;${title}&#xbb;"
-
-#~ msgid "clear expiration"
-#~ msgstr "limpiar expiración"
-
-#~ msgid "contact:"
-#~ msgstr "contacto:"
-
-#~ msgid "no name"
-#~ msgstr "ningún nombre"
-
-#~ msgid "user settings"
-#~ msgstr "configuraciones del usuario"
-
-#~ msgid "subscriptions"
-#~ msgstr "suscripciones"
-
-#~ msgid "revoke role"
-#~ msgstr "revocar rol"
-
-#~ msgid "Create a ${addable_name}"
-#~ msgstr "Crear un ${addable_name}"
-
-#~ msgid "new..."
-#~ msgstr "nuevo..."
-
-#~ msgid "create an object"
-#~ msgstr "crear un  objeto"
-
-#~ msgid "import xml data or a zip file: alt-i"
-#~ msgstr "importar un dato xml o un archivo zip: alt-i"
-
-#~ msgid "preferred language"
-#~ msgstr "idioma preferido"
-
-#~ msgid "save changes"
-#~ msgstr "guardar cambios"
-
-#~ msgid "save + edit"
-#~ msgstr "guardar + editar"
-
-#~ msgid ""
-#~ "This is a special document type that automatically generates\n"
-#~ "       a Table of Contents. Usually it's used as the 'index' document of "
-#~ "a\n"
-#~ "       folder. Then the parent folder displays a TOC when accessed (e.g.\n"
-#~ "       http://www.x.yz/silva/myFolder/). The AutoTOC can display any "
-#~ "selection\n"
-#~ "       of Silva content types including assets."
-#~ msgstr ""
-#~ "Este es un documento de tipo especial que automáticamente genera\n"
-#~ "       una Tabla de Contenido. Normalmente ésta es usada como el "
-#~ "documento 'index' de un\n"
-#~ "       directorio. Luego el directorio padre muestra una TdC cuando es "
-#~ "accedido (ej.\n"
-#~ "       http://www.x.yz/silva/myFolder/). AutoTOC puede mostrar cualquier "
-#~ "selección\n"
-#~ "       de contenidos tipo Silva incluyendo 'assets'."
-
-#~ msgid "Validation error(s)"
-#~ msgstr "Error(es) de validación"
-
-#~ msgid "Changed settings."
-#~ msgstr "Ajustes cambiados."
-
-#~ msgid ""
-#~ "The presentation of the information within a\n"
-#~ "       publication is structured with folders. They determine the visual\n"
-#~ "       hierarchy that a Visitor sees. Folders on the top level\n"
-#~ "       define sections of a publication, subfolders define chapters, "
-#~ "etc.\n"
-#~ "       Note that unlike publications, folders are transparent, meaning "
-#~ "you\n"
-#~ "       can see through them in the sidebar tree navigation and the "
-#~ "Publish \n"
-#~ "       screen.\n"
-#~ "    "
-#~ msgstr ""
-#~ "La presentación de la información dentro de una\n"
-#~ "publicación está organizada en carpetas. Determinan la jerarquía\n"
-#~ "visual que un Visitante ve. Las carpetas en el nivel principal\n"
-#~ "definen las secciones de una publicación, las subcarpetas definen "
-#~ "capítulos, etcétera.\n"
-#~ "Fíjese que a diferencia de las publicaciones, las carpetas son "
-#~ "transparentes, lo que quiere decir\n"
-#~ "que puede verlos en la navegación de la barra lateral en la pantalla\n"
-#~ "de Publicación.\n"
-#~ "    "
-
-#~ msgid ""
-#~ "Ghost Folders are similar to Ghosts, but instead of being a \n"
-#~ "       placeholder for a document, they create placeholders and/or copies "
-#~ "of all \n"
-#~ "       the contents of the &#8216;original&#8217; folder. The advantage "
-#~ "of Ghost \n"
-#~ "       Folders is the contents stay in sync with the original, by manual "
-#~ "or \n"
-#~ "       automatic resyncing. Note that when a folder is\n"
-#~ "       ghosted, assets &#8211; such as Images and Files &#8211; are "
-#~ "copied\n"
-#~ "       (physically duplicated) while documents are ghosted."
-#~ msgstr ""
-#~ "Carpetas de Fantasmas son parecidas a Fantasmas, pero en lugar de ser un\n"
-#~ "       marcador de un documento, crean marcadores y/o copias de todos\n"
-#~ "       los contenidos de la carpeta &#8216;original&#8217;. La ventaja de "
-#~ "Carpetas\n"
-#~ "       Fantasmas es que los contenidos quedan sincronizados con el "
-#~ "original, por resincronización\n"
-#~ "       manual o automática. Fíjese que cuando se hace una fantasma de "
-#~ "una\n"
-#~ "       carpeta, los recursos &#8211; tal como Imágenes y Archivos &#8211; "
-#~ "se copian\n"
-#~ "       (se duplican físicamente) mientras se hacen fantasmas de los "
-#~ "documentos."
-
-#~ msgid ""
-#~ "Web graphics (gif, jpg, png) can be uploaded and inserted in \n"
-#~ "       documents, or used as viewable assets.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Imágenes del web (gif, jpg, png) se pueden cargar e insertar en\n"
-#~ "       los documentos, o usarse como recursos visibles.\n"
-#~ "    "
-
-#~ msgid ""
-#~ "Indexes can be created that function like an index in the \n"
-#~ "       back of a book. References must first be marked by placing index \n"
-#~ "       codes in text (these codes will also export to print formats). \n"
-#~ "       Indexers cascade downwards, indexing all index items in the "
-#~ "current \n"
-#~ "       and underlying folders and publications (note that it only "
-#~ "indexes \n"
-#~ "       documents that are published).\n"
-#~ "    "
-#~ msgstr ""
-#~ "Los índices pueden ser generados para funcionar como en el \n"
-#~ "       reverso de un libro. Las referencias deben ser marcadas primero "
-#~ "por un \n"
-#~ "       código de índice (estos códigos también se exportarán a formatos "
-#~ "de impresión) \n"
-#~ "       Cascada invertida de indexadores, indexando todos los elementos de "
-#~ "índices en el \n"
-#~ "       directorio y publicaciones subyacentes (notar que solo indexa "
-#~ "documentos que se han \n"
-#~ "       publicado)\n"
-#~ "    "
-
-#~ msgid ""
-#~ "A Silva Link makes it possible to include links to external\n"
-#~ "       sites &#8211; outside of Silva &#8211; in a Table of Contents. "
-#~ "The\n"
-#~ "       content of a Link is simply a hyperlink, beginning with\n"
-#~ "       &#8220;http://....&#8221;, or https, ftp, news, and mailto.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Un Vínculo Silva hace posible incluir vínculos a sities externos\n"
-#~ "       &#8211; fuera de Silva &#8211; en una Tabla de Contenidos. El\n"
-#~ "       contenido de un Vínculo es simplemente un Hipervínculo, partiendo "
-#~ "con\n"
-#~ "       &#8220;http://....&#8221;, or https, ftp, Noticias, y Enviar a.\n"
-#~ "    "
-
-#~ msgid "You are overquota."
-#~ msgstr "Ha superado la cuota."
-
-#~ msgid "Minimum role to access has not changed"
-#~ msgstr "El Rol Mínimo para acceso no ha sido cambiado"
-
-#~ msgid "Minimum role to access is now set to ${role}"
-#~ msgstr "Rol Mínimo para acceso se ha configurado a ${role}"
-
-#~ msgid "Minimum role to access is now acquired"
-#~ msgstr "se ha adquirido el Rol Mínimo para acceso"
-
-#~ msgid "Resource location of this content."
-#~ msgstr "Localización de recursos de este contenido."
-
-#~ msgid "meta_type"
-#~ msgstr "meta_type"
-
-#~ msgid "Location of originating document."
-#~ msgstr "Locación del documento originario."
-
-#~ msgid "create ${meta_type}"
-#~ msgstr "crear ${meta_type}"
-
-#~ msgid "Location of originating folder."
-#~ msgstr "Ubicación de la carpeta de origen."
-
-#~ msgid "link type"
-#~ msgstr "tipo de enlace"
-
-#~ msgid "Link url."
-#~ msgstr "Enlace de la url."
-
-#~ msgid "upload ${meta_type}"
-#~ msgstr "cargar ${meta_type}"
-
-#~ msgid "create ${TOC_or_meta_type}"
-#~ msgstr "crear ${TOC_or_meta_type}"
-
-#~ msgid "old_title"
-#~ msgstr "título_antiguo"
-
-#~ msgid "User(s) ${added} added to group."
-#~ msgstr "Usuario(s) ${added} añadido al grupo."
-
-#~ msgid "No users selected, so none added."
-#~ msgstr "Ningún usuario seleccionado, entonces ninguno fue añadido."
-
-#~ msgid "No users selected, so none removed."
-#~ msgstr "Ningún usuario seleccionado, entonces ninguno fue removido."
-
-#~ msgid "User(s) ${removed} removed from group."
-#~ msgstr "Usuario(s) ${removed} removido del grupo."
-
-#~ msgid "copy users from group(s)"
-#~ msgstr "copia los usuarios del grupo(s)"
-
-#~ msgid "group members"
-#~ msgstr "grupo de miembros"
-
-#~ msgid "This group does not have any members."
-#~ msgstr "Este grupo no tiene miembros."
-
-#~ msgid "remove selected user(s) from this group: alt-r"
-#~ msgstr "remover usuario(s) seleccionado de este grupo: alt-r"
-
-#~ msgid "remove users"
-#~ msgstr "remover usuarios"
-
-#~ msgid "add selected users to this group"
-#~ msgstr "añadir los usuarios seleccionados a este grupo"
-
-#~ msgid "Range ${iprange} added to the IP Group"
-#~ msgstr "Rango ${iprange} añadido al grupo IP"
-
-#~ msgid "No group selected, so nothing copied."
-#~ msgstr "Ningún grupo seleccionado, entonces nada ha sido copiado."
-
-#~ msgid "Range(s) ${copied} added."
-#~ msgstr "Rango(s) ${copied} añadido."
-
-#~ msgid "Nothing copied."
-#~ msgstr "Nada copiado."
-
-#~ msgid "Range(s) ${removed} removed from the group."
-#~ msgstr "Rango(s) ${removed} removido del grupo."
-
-#~ msgid "ip range${asterisk}"
-#~ msgstr "rango ip${asterisk}"
-
-#~ msgid "Can be:"
-#~ msgstr "Puede ser:"
-
-#~ msgid "IP&nbsp;(like: 10.1.1.1),"
-#~ msgstr "IP&nbsp;(like: 10.1.1.1),"
-
-#~ msgid "IP-IP&nbsp;(like:&nbsp;10.1.1.1-10.1.1.255) or"
-#~ msgstr "IP-IP&nbsp;(like:&nbsp;10.1.1.1-10.1.1.255) o"
-
-#~ msgid "IP/Netmask&nbsp;(like:&nbsp;10.1.1.0/255.255.255.0)."
-#~ msgstr "IP/Netmask&nbsp;(like:&nbsp;10.1.1.0/255.255.255.0)."
-
-#~ msgid "add an ip or an ip range"
-#~ msgstr "añadir una ip o un rango de ip"
-
-#~ msgid "add ip range"
-#~ msgstr "añadir un rango de ip"
-
-#~ msgid "transfer ip(s) to this ip group"
-#~ msgstr "transfiera ip(s) a ese grupo ip"
-
-#~ msgid "copy ips to ip group"
-#~ msgstr "copiar ips al grupo ip"
-
-#~ msgid "IPs and IP ranges"
-#~ msgstr "IPs y rasgos de IP"
-
-#~ msgid "This IP Group does not contain any IPs."
-#~ msgstr "Este Grupo IP no contiene ninguna IPs."
-
-#~ msgid "remove range(s) from this ip group: alt-r"
-#~ msgstr "remover rango(s) de este grupo ip: alt-r"
-
-#~ msgid "remove ranges"
-#~ msgstr "remover rangos"
-
-#~ msgid "add an IP address"
-#~ msgstr "añadir una dirección IP"
-
-#~ msgid "Group(s) ${added} added to group."
-#~ msgstr "Grupos(s) ${added} añadido al grupo."
-
-#~ msgid "No groups selected, so none added."
-#~ msgstr "Ningún grupo seleccionado, entonces ninguno fue añadido."
-
-#~ msgid "No groups selected, so none removed."
-#~ msgstr "No hay ningún grupo seleccionado, de modo que ninguno fue removido."
-
-#~ msgid "Group(s) ${removed} removed from group."
-#~ msgstr "Grupo(s) ${removed} removidos del grupo."
-
-#~ msgid "add group(s) to this virtual group."
-#~ msgstr "añadir grupo(s) para este grupo virtual."
-
-#~ msgid "add to group"
-#~ msgstr "añadir al grupo"
-
-#~ msgid "Virtual Group &#8216;members&#8217;"
-#~ msgstr "Grupo Virtual &#8216;miembros&#8217;"
-
-#~ msgid "remove selected group(s) from this virtual group: alt-r"
-#~ msgstr "remover grupo(s) seleccionado de este grupo virtual: alt-r"
-
-#~ msgid "remove group"
-#~ msgstr "remover grupo"
-
-#~ msgid "scaled"
-#~ msgstr "escalado"
-
-#~ msgid "problem"
-#~ msgstr "problema"
-
-#~ msgid "save reference"
-#~ msgstr "guardar referencia"
-
-#~ msgid "reference..."
-#~ msgstr "referencia..."
-
-#~ msgid "modifier"
-#~ msgstr "modificador"
-
-#~ msgid "edit this group"
-#~ msgstr "editar este grupo"
-
-#~ msgid "delete selected groups: alt-d"
-#~ msgstr "borrar los grupo seleccionados: alt-d"
-
-#~ msgid "groups in &#xab;${title}&#xbb;"
-#~ msgstr "grupos en &#xab;${title}&#xbb;"
-
-#~ msgid "create a group"
-#~ msgstr "crear un grupo"
-
-#~ msgid "add a new item - alt-n"
-#~ msgstr "añadir un nuevo artículo - alt-n"
-
-#~ msgid "import..."
-#~ msgstr "importar..."
-
-#~ msgid "import silva xml"
-#~ msgstr "importar silva xml"
-
-#~ msgid "Not rejected: ${ids}"
-#~ msgstr "No rechazado: ${ids}"
-
-#~ msgid "${icon} AutoTOC"
-#~ msgstr "${icon} AutoTOC"
-
-#~ msgid "Member is approved"
-#~ msgstr "Miembro es aprobado."
-
-#~ msgid "preferred editor"
-#~ msgstr "editor preferido"
-
-#~ msgid "Nothing changed."
-#~ msgstr "Nada ha cambiado."
-
-#~ msgid "close window: alt-c"
-#~ msgstr "Cerrar ventana: alt-c"
-
-#~ msgid "characteristic"
-#~ msgstr "característica"
-
-#~ msgid "Link changed"
-#~ msgstr "Enlace cambiado"
-
-#~ msgid "link url"
-#~ msgstr "enlace url"
-
-#~ msgid "change link"
-#~ msgstr "cambiar enlace"
-
-#~ msgid "Document published"
-#~ msgstr "Documento publicado"
-
-#~ msgid "view «${version_title}»"
-#~ msgstr "ver «${version_title}»"
-
-#~ msgid "No groups selected."
-#~ msgstr "Ningún grupo seleccionado."
-
-#~ msgid "Role(s) assigned for ${list}"
-#~ msgstr "Role(s) asignado por ${list}"
-
-#~ msgid "No user(s) selected."
-#~ msgstr "Ningún usuario(s) seleccionado."
-
-#~ msgid "Role(s) revoked for ${list}"
-#~ msgstr "Role(s) revocados por ${list}"
-
-#~ msgid "Role(s) revoked"
-#~ msgstr "Role(s) revocados"
-
-#~ msgid "haunted_url"
-#~ msgstr "haunted_url"
-
-#~ msgid "Users selected."
-#~ msgstr "Usuarios seleccionados"
-
-#~ msgid "No users selected."
-#~ msgstr "No hay usuarios seleccionados."
-
-#~ msgid "search results"
-#~ msgstr "buscar resultados"
-
-#~ msgid "remove user"
-#~ msgstr "remover usuario"
-
 #~ msgid "bac${k}..."
 #~ msgstr "bac${k}..."
-
-#~ msgid "of &#xab;${title}&#xbb;"
-#~ msgstr "de &#xab;${title}&#xbb;"
-
-#~ msgid "of &#xab;${title}"
-#~ msgstr "de &#xab;${title}"
-
-#~ msgid "no_groups_available"
-#~ msgstr "no_groups_available"
-
-#~ msgid "select_groups"
-#~ msgstr "seleccionar_grupos"
-
-#~ msgid "select users:"
-#~ msgstr "seleccionar usuarios:"
-
-#~ msgid "select role:"
-#~ msgstr "seleccionar rol:"
-
-#~ msgid "assign role"
-#~ msgstr "asignar rol"
-
-#~ msgid "is approved"
-#~ msgstr "es aprobado"
-
-#~ msgid "assign"
-#~ msgstr "asignar"
-
-#~ msgid "Open to the public"
-#~ msgstr "Abierto al público"
-
-#~ msgid "(acquired)."
-#~ msgstr "(acquired)."
-
-#~ msgid "roles defined here"
-#~ msgstr "roles definidos acá"
-
-#~ msgid "user_id"
-#~ msgstr "user_id"
-
-#~ msgid "sroot..."
-#~ msgstr "sroot..."
-
-#~ msgid "emailaddress not valid"
-#~ msgstr "dirección de e-mail inválida"
-
-#~ msgid "membership"
-#~ msgstr "membresía"
-
-#~ msgid "e-mail address"
-#~ msgstr "dirección email"
-
-#~ msgid " Send request "
-#~ msgstr " Enviar solicitud "
-
-#~ msgid "Error: ${error}"
-#~ msgstr "Error: ${error}"
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
-
-#~ msgid "Subscribe to &#xab;${title_or_id}&#xbb;"
-#~ msgstr "Suscribir a &#xab;${title_or_id}&#xbb;"
-
-#~ msgid ""
-#~ "Publications are special folders. They function as the \n"
-#~ "       major organizing blocks of a Silva site. They are comparable to \n"
-#~ "       binders, and can contain folders, documents, and assets. \n"
-#~ "       Publications are opaque. They instill a threshold of view, "
-#~ "showing\n"
-#~ "       only the contents of the current publication. This keeps the "
-#~ "overview\n"
-#~ "       screens manageable. Publications have configuration settings that\n"
-#~ "       determine which core and pluggable objects are available. For\n"
-#~ "       complex sites, sub-publications can be nested.\n"
-#~ "    "
-#~ msgstr ""
-#~ "las Publicaciones son carpetas especiales. Estas funcionan como los \n"
-#~ "       mayores bloques de organización de un sitio Silva. Son comparables "
-#~ "con \n"
-#~ "       fijaciones, y pueden contener carpetas, documentos y activos. \n"
-#~ "       Las publicaciones son opacas. Ellas incluyen una vista inicial, "
-#~ "mostrando \n"
-#~ "       solo los contenidos de la publicación actual. Esto mantiene una "
-#~ "descripción\n"
-#~ "       general de las ventanas administrables. Las Publicaciones tienen "
-#~ "una configuración\n"
-#~ "       que determina que núcleos y objetos aplicables están disponibles. "
-#~ "Para\n"
-#~ "       sitios complejos, las sub-aplicaciones pueden ser anidadas\n"
-#~ "    "
 
 #~ msgid "add users..."
 #~ msgstr "añadir usuarios..."
 
 #~ msgid ""
 #~ "This is a special document that automagically displays a\n"
-#~ "       table of contents. Usually it&#8217;s used as an &#8216;"
-#~ "index&#8217;\n"
-#~ "       document. In that case the parent folder shows a table of "
-#~ "contents\n"
+#~ "       table of contents. Usually it&#8217;s used as an &#8216;index&#8217;\n"
+#~ "       document. In that case the parent folder shows a table of contents\n"
 #~ "       when accessed (e.g. http://www.x.yz/silva/myFolder/)."
 #~ msgstr ""
 #~ "Este es un documento especial que automáticamente muestra una\n"
-#~ "       tabla de contenidos. Usualmente esto&#8217;es usado como un&#8216;"
-#~ "documento índice&#8217;\n"
+#~ "       tabla de contenidos. Usualmente esto&#8217;es usado como "
+#~ "un&#8216;documento índice&#8217;\n"
 #~ "       . En ese caso el directorio contenedor muestra una tabla de "
 #~ "contenidos \n"
 #~ "       Cuando accese (e.g. http://www.x.yz/silva/myFolder/).vv"

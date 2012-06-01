@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-07-31 07:35+0000\n"
-"Last-Translator: Wajih Letaief <Unknown>\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:21+0000\n"
+"Last-Translator: Sylvain Viollon <sylvain@infrae.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
-"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-11-13 12:21+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: ar\n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -47,11 +49,11 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:125
 msgid "Alphabetically"
-msgstr ""
+msgstr "هجائياً"
 
 #: Products.Silva:/AutoTOC.py:126
 msgid "Reverse alphabetically"
-msgstr ""
+msgstr "أبجديا بالمعكوس"
 
 #: Products.Silva:/AutoTOC.py:127
 msgid "Chronologically by modification date"
@@ -98,7 +100,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:174
 msgid "If selected, each item displayed will include its icon. "
-msgstr ""
+msgstr "عند الاختيار ، سيعرض كل عنصر متضمنا أيقونته "
 
 #: Products.Silva:/AutoTOC.py:179
 msgid "Show container link"
@@ -135,7 +137,7 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:162
 msgid "Enable"
-msgstr ""
+msgstr "فعل"
 
 #: Products.Silva:/EmailMessageService.py:163
 msgid "Send emails when asked to."
@@ -143,15 +145,15 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:166
 msgid "From Address"
-msgstr ""
+msgstr "من العنوان"
 
 #: Products.Silva:/EmailMessageService.py:167
 msgid "Email address used to send messages."
-msgstr ""
+msgstr "عنوان البريد الالكتروني اُستخدم لإرسال الرسائل."
 
 #: Products.Silva:/EmailMessageService.py:176
 msgid "Service Message Configuration"
-msgstr ""
+msgstr "اعدادات رسائل الخدمة"
 
 #: Products.Silva:/EmailMessageService.py:177
 msgid ""
@@ -161,7 +163,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:259
 msgid "Absolute path to object to upgrade"
-msgstr ""
+msgstr "رابط العنصر المراد تحديثة"
 
 #: Products.Silva:/ExtensionService.py:262
 msgid "Current Silva version of the object"
@@ -184,11 +186,11 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:284
 msgid "Upgrade"
-msgstr ""
+msgstr "تحديث"
 
 #: Products.Silva:/ExtensionService.py:296
 msgid "Content upgrade succeeded. See event log for details"
-msgstr ""
+msgstr "تم تحديث المحتوى بنجاح ، يمكنك مراجعة سجل الاحداث لمزيد من التفاصيل"
 
 #: Products.Silva:/ExtensionService.py:303
 msgid "Absolute path to reindex"
@@ -210,27 +212,27 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:327
 msgid "Invalid path"
-msgstr ""
+msgstr "مسار خاطئ"
 
 #: Products.Silva:/ExtensionService.py:329
 msgid "Partial catalog refreshed"
-msgstr ""
+msgstr "تم تحديث الكتالوج الجزئي"
 
 #: Products.Silva:/ExtensionService.py:340
 msgid "Silva and all installed extensions have been refreshed"
-msgstr ""
+msgstr "Silva وباقى الاضافات المتبثت  تم تحديثها"
 
 #: Products.Silva:/ExtensionService.py:344
 msgid "Catalog refreshed"
-msgstr ""
+msgstr "تم تحديث الكتالوج"
 
 #: Products.Silva:/ExtensionService.py:348
 msgid "Quota sub-system disabled"
-msgstr ""
+msgstr "نظام الكوتا الفرعى معطل"
 
 #: Products.Silva:/ExtensionService.py:352
 msgid "Quota sub-system enabled"
-msgstr ""
+msgstr "نظام الكوتا الفرعى مشغل"
 
 #: Products.Silva:/ExtensionService.py:357
 msgid "Old version of documents purged"
@@ -239,10 +241,11 @@ msgstr ""
 #: Products.Silva:/ExtensionService.py:364
 msgid "Content upgrade succeeded. See log in Logs tab for details"
 msgstr ""
+"تم تحديث المحتوى بنجاح. القى نظره على تبويب السجلات لمزيد من التفاصيل"
 
 #: Products.Silva:/ExtensionService.py:368
 msgid "Documentation installed"
-msgstr ""
+msgstr "تم تحميل توثيق النظام بنجاح"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:79
@@ -258,27 +261,27 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:21
 msgid "General actions"
-msgstr ""
+msgstr "المهام العامة"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "اعادة تحميل الكل"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr ""
+msgstr "تثبيت وثائق النظام"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:30
 msgid "rebuild catalog"
-msgstr ""
+msgstr "اعادة بناء الكتالوج"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:32
 msgid "disable quota subsystem"
-msgstr ""
+msgstr "تعطيل  الكوته"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:35
 msgid "enable quota subsystem"
-msgstr ""
+msgstr "تفعيل نظام الكوته"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:38
 msgid "purge old versions"
@@ -286,7 +289,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:40
 msgid "upgrade content"
-msgstr ""
+msgstr "تحديث المحتوى"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:51
 msgid "Available extensions"
@@ -295,17 +298,19 @@ msgstr ""
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:83
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:94
 msgid "refresh"
-msgstr ""
+msgstr "تحديث"
 
 #: Products.Silva:/File/content.py:152
 msgid "download"
-msgstr "تنزيل"
+msgstr "تحميل"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
 msgstr ""
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
 msgstr ""
 
@@ -347,7 +352,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -425,7 +431,7 @@ msgstr ""
 
 #: Products.Silva:/Folder/views.py:37
 msgid "First item"
-msgstr ""
+msgstr "أول عنصر"
 
 #: Products.Silva:/Folder/views.py:38
 msgid "Choose an item to be created within the container."
@@ -447,7 +453,8 @@ msgid ""
 "    "
 msgstr ""
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -463,8 +470,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -511,13 +520,13 @@ msgstr ""
 msgid ""
 "'${scale}' is not a valid scale identifier. Probably a percent symbol is "
 "missing."
-msgstr ""
+msgstr "معرف الوزن '{scale}$' غير مقبول. ربما لم تضع علامة النسبة المئوية."
 
 #. Default: ""
 #: Products.Silva:/Image/content.py:208
 msgid ""
 "'${scale} is not a valid scale identifier. At least one number is required."
-msgstr ""
+msgstr "معرف الوزن '{scale}$' غير مقبول. يجب أن تضع رقماُ واحداُ على الأقل."
 
 #. Default: ""
 #: Products.Silva:/Image/content.py:232
@@ -531,7 +540,7 @@ msgstr ""
 
 #: Products.Silva:/Image/content.py:303
 msgid "Low resolution image in original format is not supported"
-msgstr ""
+msgstr "ليس هناك دعم للصور ذات دقة وضوح ضعيفة في تنسيقها الأصلي"
 
 #: Products.Silva:/Image/content.py:373
 msgid "square"
@@ -569,7 +578,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -683,11 +693,11 @@ msgstr ""
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:13
 msgid "Terms"
-msgstr ""
+msgstr "الشروط"
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:17
 msgid "Links"
-msgstr ""
+msgstr "روابط"
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:43
 msgid "No index items listed or found."
@@ -727,7 +737,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -855,7 +866,7 @@ msgstr ""
 
 #: Products.Silva:/Version.py:169
 msgid "approved"
-msgstr "مصادق عليه"
+msgstr "معتمد"
 
 #: Products.Silva:/Version.py:169
 msgid "last_closed"
@@ -863,7 +874,7 @@ msgstr "آخر_إغلاق"
 
 #: Products.Silva:/Version.py:169
 msgid "unapproved"
-msgstr "غير مصادق عليه"
+msgstr "غير معتمد"
 
 #: Products.Silva:/Version.py:170
 msgid "public"
@@ -941,7 +952,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -950,15 +962,18 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr "قد تم التصديق على الإصدار سابقاً."
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr "لا يوجد إصدار غير مصدق عليه."
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr "لا يوجد إصدار مصدق عليه."
 
@@ -970,7 +985,8 @@ msgstr "يجب تحديد تاريخ نشر."
 msgid "No public version."
 msgstr "لا يوجد إصدار عام."
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr "لا يوجد إصدار تالي."
 
@@ -1064,46 +1080,55 @@ msgstr ""
 
 #: Products.Silva:/roleinfo.py:29
 msgid "Anonymous"
-msgstr ""
+msgstr "مجهول الاسم"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
-msgstr ""
+msgstr "تم التوثيق"
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
-msgstr ""
+msgstr "مدير"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
-msgstr ""
+msgstr "مستعرض"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
-msgstr ""
+msgstr "عارض +"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
-msgstr ""
+msgstr "عارض ++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
-msgstr ""
+msgstr "القارئ"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
-msgstr ""
+msgstr "ألّفه"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
-msgstr ""
+msgstr "الناشر"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
-msgstr ""
+msgstr "رئيس التحرير"
 
 #: Products.Silva:/schema/silva-content.xml:32
 msgid "Title of content."
@@ -1111,7 +1136,7 @@ msgstr "عنوان المحتوى."
 
 #: Products.Silva:/schema/silva-content.xml:35
 msgid "title"
-msgstr ""
+msgstr "عنوان"
 
 #: Products.Silva:/schema/silva-content.xml:89
 msgid "a.k.a. &#8216;navigation title&#8217;."
@@ -1139,7 +1164,7 @@ msgstr "لغة المحتوى في هذه المنطقة."
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
-msgstr ""
+msgstr "تعليق"
 
 #: Products.Silva:/schema/silva-extra.xml:318
 msgid "Internal comments."
@@ -1173,7 +1198,7 @@ msgstr "منشئ"
 
 #: Products.Silva:/schema/silva-extra.xml:550
 msgid "last author"
-msgstr ""
+msgstr "المؤلف الأخير"
 
 #: Products.Silva:/schema/silva-extra.xml:552
 msgid "User who last edited this content."
@@ -1185,7 +1210,7 @@ msgstr "اسم الشخص الذي يمكن الاتصال به."
 
 #: Products.Silva:/schema/silva-extra.xml:608
 msgid "contact name"
-msgstr ""
+msgstr "إسم المراسل"
 
 #: Products.Silva:/schema/silva-extra.xml:662
 msgid "Email address of contact person."
@@ -1193,7 +1218,7 @@ msgstr "عنوان البريد الالكتروني للشخص الذي يمك�
 
 #: Products.Silva:/schema/silva-extra.xml:665
 msgid "contact email"
-msgstr ""
+msgstr "الاتصال عبر البريد الإلكتروني"
 
 #: Products.Silva:/schema/silva-extra.xml:711
 msgid ""
@@ -1203,11 +1228,11 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:713
 msgid "hide from tables of content"
-msgstr ""
+msgstr "إخفاء جداول المحتويات"
 
 #: Products.Silva:/schema/silva-extra.xml:94
 msgid "keywords"
-msgstr ""
+msgstr "الكلمات المفاتيح"
 
 #: Products.Silva:/schema/silva-extra.xml:95
 msgid "Keywords relating to content."
@@ -1228,7 +1253,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-quota.xml:37
 msgid "quota"
-msgstr ""
+msgstr "الحصة الخاصة"
 
 #: Products.Silva:/silvaxml/xmlexport.py:56
 msgid "External references"
@@ -1244,7 +1269,7 @@ msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
-msgstr ""
+msgstr "ملف"
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
@@ -1347,7 +1372,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1409,7 +1435,8 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
 
@@ -1479,7 +1506,8 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1603,7 +1631,8 @@ msgstr ""
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
@@ -1629,7 +1658,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/views.py:196
 msgid "You have been successfully unsubscribed."
-msgstr ""
+msgstr "لقد نجحت في اشتراكك."
 
 #: silva.app.subscriptions:/views.py:203
 msgid "Subscribe / Unsubscribe"
@@ -1641,12 +1670,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1663,7 +1694,8 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1702,14 +1734,14 @@ msgstr ""
 
 #: silva.core.conf:/interfaces.py:17
 msgid "No spaces or special characters besides ‘_’ or ‘-’ or ‘.’"
-msgstr ""
+msgstr "لا يسمح باستخدام مساحات أو أحرف خاصة بجانب ‘_’ أو ‘-’ أو ‘.’"
 
 #: silva.core.conf:/interfaces.py:26
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:36
 #: silva.ui:/rest/container/configuration.py:68
 #: silva.ui:/rest/container/configuration.py:154
 msgid "Title"
-msgstr ""
+msgstr "عنوان"
 
 #: silva.core.conf:/interfaces.py:27
 msgid ""
@@ -1724,7 +1756,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1792,19 +1825,22 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
-msgstr ""
+msgstr "إختر :"
 
 #: silva.core.interfaces:/auth.py:130
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
 msgstr ""
 
@@ -1875,7 +1911,8 @@ msgid "Definition"
 msgstr ""
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr "عذرا ، هذه ${meta_type}  ليست متاحة"
@@ -1939,7 +1976,7 @@ msgstr ""
 
 #: silva.core.smi:/content/container.py:57
 msgid "Content"
-msgstr ""
+msgstr "المحتويات"
 
 #: silva.core.smi:/content/metadata.py:189
 msgid ""
@@ -1981,7 +2018,7 @@ msgstr ""
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:15
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:18
 msgid "edit content"
-msgstr ""
+msgstr "تعديل المحتوى"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this content"
@@ -2181,7 +2218,7 @@ msgstr ""
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:45
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:56
 msgid "editor"
-msgstr ""
+msgstr "المحرر"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:45
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:56
@@ -2233,7 +2270,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2513,8 +2551,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2528,7 +2566,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2586,7 +2625,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2623,7 +2663,8 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -2729,7 +2770,7 @@ msgstr ""
 #: silva.core.smi:/settings/access.py:219
 #: silva.pas.base:/Membership_templates/loginpage.cpt:35
 msgid "Username"
-msgstr ""
+msgstr "أسم المستخدم"
 
 #: silva.core.smi:/settings/access.py:59
 msgid "Username or part of the username to lookup"
@@ -3041,7 +3082,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3095,7 +3137,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3127,7 +3170,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3236,7 +3280,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3422,64 +3467,6 @@ msgstr ""
 #: zeam.form.silva:/widgets/others_templates/comboboxfieldwidget.cpt:5
 msgid "Show All Items"
 msgstr ""
-
-#~ msgid "Not connected"
-#~ msgstr "غير متصل"
-
-#~ msgid "No approved version to unapprove."
-#~ msgstr "لا يوجد إصدار مصادق عليه كي يرفع التصديق عنه."
-
-#~ msgid "No public version to close."
-#~ msgstr "لا يوجد إصدار عام لإقفاله."
-
-#~ msgid "There is no unapproved version to request approval for."
-#~ msgstr "لا يوجد إصدار لم يتم التصديق عليه لطلب التصديق."
-
-#~ msgid "There is no version to add messages for."
-#~ msgstr "لا يوجد إصدار لإضافة له رسائل."
-
-#~ msgid "Can not delete all versions"
-#~ msgstr "لا يمكن حذف كل الإصدارات"
-
-#~ msgid "No unapproved version available"
-#~ msgstr "لا يتوفر إصدار غير مصدق عليه"
-
-#~ msgid "select"
-#~ msgstr "إنتق"
-
-#~ msgid "view"
-#~ msgstr "عرض"
-
-#~ msgid "enter"
-#~ msgstr "دخول"
-
-#~ msgid "content is published"
-#~ msgstr "تم نشر المحتوى"
-
-#~ msgid "cancel operation: alt-c"
-#~ msgstr "الغاء العملية : Alt-C"
-
-#~ msgid "Preview screen"
-#~ msgstr "شاشة المعاينة"
-
-#~ msgid "Add screen"
-#~ msgstr "إضافة الشاشة"
-
-#~ msgid "Notes"
-#~ msgstr "الملاحظات"
-
-#~ msgid "Validation error(s)"
-#~ msgstr "خطأ/أخطاء في المصادقة"
-
-#~ msgid "Changed settings."
-#~ msgstr "الإعدادات مغيرة."
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
 
 #~ msgid "Cannot approve version; not allowed."
 #~ msgstr "لايمكن أعتماد النسخة ، غير مصرح به"

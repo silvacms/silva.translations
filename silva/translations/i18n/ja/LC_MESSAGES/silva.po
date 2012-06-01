@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-10-19 05:07+0000\n"
-"Last-Translator: Katz Kawai <Unknown>\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:49+0000\n"
+"Last-Translator: Sylvain Viollon <sylvain@infrae.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-11-13 12:21+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: ja\n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -301,11 +303,13 @@ msgstr ""
 msgid "download"
 msgstr "ダウンロード"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
 msgstr ""
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
 msgstr ""
 
@@ -347,7 +351,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -446,8 +451,7 @@ msgid ""
 "       and stylesheets).\n"
 "    "
 msgstr ""
-"ゴーストは他の場所(エイリアス、シンボリックリンク、ショートカットなど)にあ"
-"る\n"
+"ゴーストは他の場所(エイリアス、シンボリックリンク、ショートカットなど)にある\n"
 "\n"
 "       アイテムのプレースフォルダとして使うことができる特殊なフォルダです。\n"
 "\n"
@@ -462,7 +466,8 @@ msgstr ""
 "       スタイルシートなど)。\n"
 "    "
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -478,8 +483,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -537,7 +544,7 @@ msgstr ""
 #. Default: ""
 #: Products.Silva:/Image/content.py:232
 msgid "'${crop} is not a valid crop identifier"
-msgstr ""
+msgstr "'${crop} は、 cropの正しい識別子ではありません。"
 
 #. Default: ""
 #: Products.Silva:/Image/content.py:257
@@ -584,7 +591,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -742,7 +750,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -956,7 +965,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -965,15 +975,18 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr ""
 
@@ -985,7 +998,8 @@ msgstr ""
 msgid "No public version."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr ""
 
@@ -1081,42 +1095,51 @@ msgstr ""
 msgid "Anonymous"
 msgstr "匿名"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
 msgstr "認証済み"
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
 msgstr "管理者"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
 msgstr "参照者"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
 msgstr "参照者+"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
 msgstr "参照者++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
 msgstr "読者"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
 msgstr "著者"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
 msgstr "編集者"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
 msgstr "編集長"
 
@@ -1362,7 +1385,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1424,7 +1448,8 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
 
@@ -1494,7 +1519,8 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1618,7 +1644,8 @@ msgstr ""
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
@@ -1656,12 +1683,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1678,7 +1707,8 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1739,7 +1769,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1807,7 +1838,8 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
 msgstr ""
 
@@ -1815,11 +1847,13 @@ msgstr ""
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
 msgstr ""
 
@@ -1890,7 +1924,8 @@ msgid "Definition"
 msgstr ""
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr ""
@@ -2248,7 +2283,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2528,8 +2564,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2543,7 +2579,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2601,7 +2638,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2638,7 +2676,8 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -3056,7 +3095,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3110,7 +3150,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3142,7 +3183,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3251,7 +3293,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3438,340 +3481,47 @@ msgstr ""
 msgid "Show All Items"
 msgstr ""
 
-#~ msgid "file system path"
-#~ msgstr "ファイルシステムパス"
-
-#~ msgid "file size"
-#~ msgstr "ファイルサイズ"
-
-#~ msgid "Not connected"
-#~ msgstr "接続されていません"
-
-#~ msgid "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
-#~ msgstr ""
-#~ "このタイプのコンテナに &#xab;${id}&#xbb; を貼り付けることはできません."
-
-#~ msgid "pasted &#xab;${id}&#xbb;"
-#~ msgstr "&#xab;${id}&#xbb; を貼り付けました."
-
-#~ msgid "content"
-#~ msgstr "内容"
-
-#~ msgid "Default Document Policy"
-#~ msgstr "デフォルト文書ポリシー"
-
-#~ msgid "Preview screen"
-#~ msgstr "プレビュー画面"
-
-#~ msgid "Publish screen (folder)"
-#~ msgstr "公開画面(フォルダ)"
-
-#~ msgid "Add screen"
-#~ msgstr "画面追加"
-
-#~ msgid "Editor screen"
-#~ msgstr "編集画面"
-
-#~ msgid "Kupu editor"
-#~ msgstr "Kupu エディタ"
-
-#~ msgid "Forms editor"
-#~ msgstr "Forms編集"
-
-#~ msgid "Other screens"
-#~ msgstr "他の画面"
-
-#~ msgid "return"
-#~ msgstr "戻る"
-
-#~ msgid "access key: alt-r"
-#~ msgstr "アクセスキー: alt-r"
-
-#~ msgid "Notes"
-#~ msgstr "ノート"
-
-#~ msgid "Silva edit"
-#~ msgstr "Ｓｉｌｖａ 編集"
-
-#~ msgid "Silva documentation"
-#~ msgstr "Silva 文書"
-
-#~ msgid "Contact"
-#~ msgstr "連絡"
-
-#~ msgid "Feedback"
-#~ msgstr "フィードバック"
-
-#~ msgid "see below"
-#~ msgstr "以下参照"
-
-#~ msgid "General"
-#~ msgstr "一般"
-
-#~ msgid "Changing screens with the tabs"
-#~ msgstr "タブで画面を変更"
-
-#~ msgid "Silva help"
-#~ msgstr "ヘルプ"
-
-#~ msgid "access key: alt-b"
-#~ msgstr "アクセスキー: alt-b"
-
-#~ msgid "back"
-#~ msgstr "戻る"
-
-#~ msgid "Silva info: alt-s"
-#~ msgstr "情報: alt-s"
-
-#~ msgid "Silva Reference"
-#~ msgstr "リファレンス"
-
-#~ msgid "File uploaded."
-#~ msgstr "ファイルをアップロードしました."
-
-#~ msgid "Properties changed: ${changed}"
-#~ msgstr "属性を変更: ${changed}"
-
-#~ msgid "file mime type"
-#~ msgstr "mimeタイプ"
-
-#~ msgid "access key: alt-c"
-#~ msgstr "アクセスキー: alt-c"
-
-#~ msgid "Empty or invalid file."
-#~ msgstr "ファイルが空か不正です."
-
-#~ msgid "upload file"
-#~ msgstr "アップロードファイル"
-
-#~ msgid "access key: alt-u"
-#~ msgstr "アクセスキー: alt-u"
-
-#~ msgid "status of &#xab;${title}&#xbb;"
-#~ msgstr "&#xab;${title}&#xbb;のステータス"
-
-#~ msgid "access key: alt-e"
-#~ msgstr "アクセスキー: alt-e"
-
-#~ msgid "save"
-#~ msgstr "保存"
-
-#~ msgid ""
-#~ "This is a special document type that automatically generates\n"
-#~ "       a Table of Contents. Usually it's used as the 'index' document of "
-#~ "a\n"
-#~ "       folder. Then the parent folder displays a TOC when accessed (e.g.\n"
-#~ "       http://www.x.yz/silva/myFolder/). The AutoTOC can display any "
-#~ "selection\n"
-#~ "       of Silva content types including assets."
-#~ msgstr ""
-#~ "これは特別なドキュメントタイプで目次を自動生成します。\n"
-#~ "       通常、あるフォルダの'索引' ドキュメントとして使われます。\n"
-#~ "       そして親のフォルダはアクセスされると(例http://www.x.yz/silva/"
-#~ "myFolder/)\n"
-#~ "       目次を表示します。 AutoTOC はアセットを含めSilviaのコンテンツタイプ"
-#~ "の\n"
-#~ "       どの組合せでも表示することができます。"
-
-#~ msgid "Validation error(s)"
-#~ msgstr "検証エラー"
-
-#~ msgid "Changed settings."
-#~ msgstr "設定変更しました."
-
-#~ msgid "Resource location of this content."
-#~ msgstr "このコンテンツのリソースの場所"
-
-#~ msgid "Location of originating document."
-#~ msgstr "オリジナル文書の場所"
-
-#~ msgid "Location of originating folder."
-#~ msgstr "オリジナルのフォルダの場所"
-
-#~ msgid "link type"
-#~ msgstr "リンクタイプ"
-
-#~ msgid "Link url."
-#~ msgstr "url にリンク."
-
-#~ msgid "User(s) ${added} added to group."
-#~ msgstr "ユーザ ${added} をグループに追加しました。"
-
-#~ msgid "No users selected, so none added."
-#~ msgstr "ユーザが選択されていないので、何も追加しません."
-
-#~ msgid "No users selected, so none removed."
-#~ msgstr "ユーザが選択されていないので、削除しません."
-
-#~ msgid "User(s) ${removed} removed from group."
-#~ msgstr "ユーザ ${removed} をグループから削除しました."
-
-#~ msgid "transfer members from selected groups"
-#~ msgstr "選択したグループからメンバーを移動"
-
-#~ msgid "copy users from group(s)"
-#~ msgstr "グループからユーザをコピー"
-
-#~ msgid "group members"
-#~ msgstr "グループのメンバー"
-
-#~ msgid "This group does not have any members."
-#~ msgstr "グループにメンバーがいません."
-
-#~ msgid "remove selected user(s) from this group: alt-r"
-#~ msgstr "グループから選択したユーザを削除: alt-r"
-
-#~ msgid "remove users"
-#~ msgstr "ユーザ削除"
-
-#~ msgid "add selected users to this group"
-#~ msgstr "選択したユーザをグループに追加"
-
-#~ msgid "No ip range was provided, so nothing was added."
-#~ msgstr "IP アドレスの範囲が与えられていないので、何も追加しません."
-
-#~ msgid "Range ${iprange} added to the IP Group"
-#~ msgstr "範囲 ${iprange} をIPアドレスグループに追加しました."
-
-#~ msgid "No group selected, so nothing copied."
-#~ msgstr "グループが選択されていないので、何もコピーしません."
-
-#~ msgid "Range(s) ${copied} added."
-#~ msgstr "範囲 ${copied} を追加しました."
-
-#~ msgid "Nothing copied."
-#~ msgstr "何もコピーしません."
-
-#~ msgid "No ip ranges were selected, so nothing was removed."
-#~ msgstr "IPアドレスの範囲が選択されてい無いので, 何も削除しません."
-
-#~ msgid "add an ip or an ip range"
-#~ msgstr "IPアドレスかIPアドレスの範囲を追加"
-
-#~ msgid "add ip range"
-#~ msgstr "IPアドレスの範囲を追加"
-
-#~ msgid "transfer ip(s) to this ip group"
-#~ msgstr "IPアドレスをIPアドレスグループに移動"
-
-#~ msgid "copy ips to ip group"
-#~ msgstr "IPアドレスをIPアドレスグループにコピー"
-
-#~ msgid "IPs and IP ranges"
-#~ msgstr "IPアドレスとIPアドレスの範囲"
-
-#~ msgid "This IP Group does not contain any IPs."
-#~ msgstr "IPアドレスグループにIPアドレスがひとつも含まれていません."
-
-#~ msgid "remove range(s) from this ip group: alt-r"
-#~ msgstr "IPアドレスグループから範囲を削除: alt-r"
-
-#~ msgid "remove ranges"
-#~ msgstr "範囲を削除"
-
-#~ msgid "add an IP address"
-#~ msgstr "IPアドレスを追加"
-
-#~ msgid "add to group"
-#~ msgstr "グループに追加"
-
-#~ msgid "problem"
-#~ msgstr "問題"
-
-#~ msgid "save reference"
-#~ msgstr "参照を保存"
-
-#~ msgid "attributes"
-#~ msgstr "属性"
-
-#~ msgid "reference..."
-#~ msgstr "参照..."
-
-#~ msgid "link"
-#~ msgstr "リンク"
-
-#~ msgid "notes"
-#~ msgstr "ノート"
-
-#~ msgid "full name"
-#~ msgstr "氏名"
-
-#~ msgid "e-mail address"
-#~ msgstr "メールアドレス"
-
-#~ msgid " Send request "
-#~ msgstr " 送信 "
-
-#~ msgid "Error: ${error}"
-#~ msgstr "エラー: ${error}"
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
-
-#~ msgid "Subscribe to &#xab;${title_or_id}&#xbb;"
-#~ msgstr "&#xab;${title_or_id}&#xbb; に登録する"
-
-#~ msgid "subscribe"
-#~ msgstr "登録"
-
-#~ msgid "unsubscribe"
-#~ msgstr "登録解除"
-
-#~ msgid "Return to &#xab;${title_or_id}&#xbb;"
-#~ msgstr "&#xab;${title_or_id}&#xbb; に戻る"
-
 #~ msgid "; &nbsp; See public preview<br />"
 #~ msgstr "; &nbsp; 公開プレビューの参照<br />"
 
 #~ msgid "${listing_header}<br /> i &nbsp; import<br /> e &nbsp; Export"
-#~ msgstr ""
-#~ "${listing_header}<br /> i &nbsp; インポート<br /> e &nbsp; エクスポート"
+#~ msgstr "${listing_header}<br /> i &nbsp; インポート<br /> e &nbsp; エクスポート"
 
 #~ msgid ""
 #~ "( &nbsp; forms editor<br /> ) &nbsp; Kupu editor<br /> ; &nbsp; public "
 #~ "preview<br /> p &nbsp; publish now<br />"
 #~ msgstr ""
-#~ "( &nbsp; forms エディタ<br /> ) &nbsp; Kupu エディタ<br /> ; &nbsp; 公開プ"
-#~ "レビュー<br /> p &nbsp; 公開する<br />"
+#~ "( &nbsp; forms エディタ<br /> ) &nbsp; Kupu エディタ<br /> ; &nbsp; 公開プレビュー<br /> p "
+#~ "&nbsp; 公開する<br />"
 
 #~ msgid ""
 #~ "${kupu_editor}<br /> b &nbsp; bold<br /> i &nbsp; italic<br /> u &nbsp; "
-#~ "underline<br /> - &nbsp; subscript<br /> + &nbsp; superscript<br /> # "
-#~ "&nbsp; numbered list<br /> * &nbsp; bulleted list<br /> = &nbsp; "
-#~ "definition list<br /> z &nbsp; undo<br /> y &nbsp; redo<br /> h &nbsp; "
-#~ "html source<br />"
+#~ "underline<br /> - &nbsp; subscript<br /> + &nbsp; superscript<br /> # &nbsp; "
+#~ "numbered list<br /> * &nbsp; bulleted list<br /> = &nbsp; definition list<br "
+#~ "/> z &nbsp; undo<br /> y &nbsp; redo<br /> h &nbsp; html source<br />"
 #~ msgstr ""
-#~ "${kupu_editor}<br /> b &nbsp; 太字<br /> i &nbsp; 斜体<br /> u &nbsp; 下線"
-#~ "<br /> - &nbsp; 下付き<br /> + &nbsp; 上付き<br /> # &nbsp; 番号付きリスト"
-#~ "<br /> * &nbsp; 番号なしリスト<br /> = &nbsp; 定義リスト<br /> z &nbsp; ア"
-#~ "ンドゥ<br /> y &nbsp; リドゥ<br /> h &nbsp; html ソース<br />"
+#~ "${kupu_editor}<br /> b &nbsp; 太字<br /> i &nbsp; 斜体<br /> u &nbsp; 下線<br /> - "
+#~ "&nbsp; 下付き<br /> + &nbsp; 上付き<br /> # &nbsp; 番号付きリスト<br /> * &nbsp; "
+#~ "番号なしリスト<br /> = &nbsp; 定義リスト<br /> z &nbsp; アンドゥ<br /> y &nbsp; リドゥ<br /> h "
+#~ "&nbsp; html ソース<br />"
 
 #~ msgid ""
 #~ "${forms_editor}<br /> s &nbsp; save<br /> e &nbsp; save and exit<br /> i "
-#~ "&nbsp; save and insert<br /> tab Use your tab key to edit without using "
-#~ "the mouse. Shift-tab goes backwards."
+#~ "&nbsp; save and insert<br /> tab Use your tab key to edit without using the "
+#~ "mouse. Shift-tab goes backwards."
 #~ msgstr ""
-#~ "${forms_editor}<br /> s &nbsp; 保存<br /> e &nbsp; 保存＋出る<br /> i "
-#~ "&nbsp; 保存＋挿入<br /> tab マウスを使わずに編集するにはタブキーを使いま"
-#~ "す.Shift-tab で戻ります."
+#~ "${forms_editor}<br /> s &nbsp; 保存<br /> e &nbsp; 保存＋出る<br /> i &nbsp; "
+#~ "保存＋挿入<br /> tab マウスを使わずに編集するにはタブキーを使います.Shift-tab で戻ります."
 
 #~ msgid ""
 #~ "The most up to date documentation can be found at:<br /> "
 #~ "${silva_documentation_link}"
-#~ msgstr ""
-#~ "最新の文書のほとんどは以下で見つけることができます:<br /> "
-#~ "${silva_documentation_link}"
+#~ msgstr "最新の文書のほとんどは以下で見つけることができます:<br /> ${silva_documentation_link}"
 
 #~ msgid ""
 #~ "The most useful access keys are for screen navigation, <a title=\"x\" "
 #~ "href=\"#nav\">x</a>."
-#~ msgstr ""
-#~ "画面を操作するのにもっとも便利なアクセスキーは,<a title=\"x\" href=\"#nav"
-#~ "\">x</a>です."
+#~ msgstr "画面を操作するのにもっとも便利なアクセスキーは,<a title=\"x\" href=\"#nav\">x</a>です."
 
 #~ msgid "${footer_page_info_row}<br /> : &nbsp; See public page<br />"
 #~ msgstr "${footer_page_info_row}<br /> : &nbsp; こう改ページを参照<br />"

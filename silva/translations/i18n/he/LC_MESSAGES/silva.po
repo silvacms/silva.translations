@@ -2,24 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2010-06-07 10:27+0100\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:51+0000\n"
 "Last-Translator: Wim Boucquaert <wim@infrae.com>\n"
 "Language-Team: Ofer Weisglass <ofer@plone.org.il>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-23 12:09+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
 "Language-code: he\n"
 "Domain: silva\n"
+"Language: \n"
 "Language-name: Hebrew\n"
 "Preferred-encodings: utf-8\n"
 "Generated-By: zope/app/translation_files/extract.py\n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -262,7 +264,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "רעננן הכל"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
@@ -301,11 +303,13 @@ msgstr ""
 msgid "download"
 msgstr "הורדה"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
 msgstr ""
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
 msgstr ""
 
@@ -347,7 +351,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -447,7 +452,8 @@ msgid ""
 "    "
 msgstr ""
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -463,8 +469,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -569,7 +577,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -683,7 +692,7 @@ msgstr ""
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:13
 msgid "Terms"
-msgstr ""
+msgstr "תנאים"
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:17
 msgid "Links"
@@ -727,7 +736,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -785,7 +795,7 @@ msgstr ""
 
 #: Products.Silva:/Root.py:48
 msgid "Site title"
-msgstr ""
+msgstr "כותרת האתר"
 
 #: Products.Silva:/Root.py:51
 msgid "Add search functionality?"
@@ -941,7 +951,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -950,15 +961,18 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr "אין גירסה לא מאושרת."
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr "אין גירסה מאושרת."
 
@@ -970,7 +984,8 @@ msgstr ""
 msgid "No public version."
 msgstr "אין גירסה ציבורית."
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr "אין גירסה הבאה."
 
@@ -1066,42 +1081,51 @@ msgstr ""
 msgid "Anonymous"
 msgstr "אנונימי"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
 msgstr ""
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
 msgstr "מנהל"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
 msgstr "צפוי"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
 msgstr "צופה +"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
 msgstr "צופה ++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
 msgstr "קורא"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
 msgstr "מחבר"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
 msgstr "עורך"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
 msgstr ""
 
@@ -1347,7 +1371,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1409,7 +1434,8 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
 
@@ -1479,7 +1505,8 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1603,7 +1630,8 @@ msgstr ""
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
@@ -1641,12 +1669,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1663,7 +1693,8 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1724,7 +1755,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1792,7 +1824,8 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
 msgstr "בחר:"
 
@@ -1800,11 +1833,13 @@ msgstr "בחר:"
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
 msgstr ""
 
@@ -1875,7 +1910,8 @@ msgid "Definition"
 msgstr ""
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr ""
@@ -2233,7 +2269,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2513,8 +2550,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2528,7 +2565,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2586,7 +2624,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2623,7 +2662,8 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -2797,7 +2837,7 @@ msgstr ""
 #: silva.core.smi:/settings/localsite.py:27
 #: silva.core.smi:/settings/localsite.py:81
 msgid "Local site"
-msgstr ""
+msgstr "אתר מקומי"
 
 #: silva.core.smi:/settings/localsite.py:28
 msgid ""
@@ -2812,7 +2852,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/localsite.py:53
 msgid "Local site activated."
-msgstr ""
+msgstr "אתר מקומי הופעל"
 
 #: silva.core.smi:/settings/localsite.py:62
 msgid "Remove local site"
@@ -3041,7 +3081,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3095,7 +3136,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3127,7 +3169,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3236,7 +3279,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3423,1245 +3467,6 @@ msgstr ""
 msgid "Show All Items"
 msgstr ""
 
-#~ msgid "file system path"
-#~ msgstr "נתיב קבצי מערכת"
-
-#~ msgid "file size"
-#~ msgstr "גודל קובץ"
-
-#~ msgid "depth"
-#~ msgstr "עומק"
-
-#~ msgid "Not connected"
-#~ msgstr "לא מחובר"
-
-#~ msgid "first item"
-#~ msgstr "פריט ראשון"
-
-#~ msgid "aspect"
-#~ msgstr "אספקט"
-
-#~ msgid "content"
-#~ msgstr "תוכן"
-
-#~ msgid "image"
-#~ msgstr "תמונה"
-
-#~ msgid "update index"
-#~ msgstr "עדכן אינדקס"
-
-#~ msgid "url"
-#~ msgstr "כתובת קישור"
-
-#~ msgid "No public version to close."
-#~ msgstr "אין גירסה ציבורית לסגור."
-
-#~ msgid "The version is not requested for approval."
-#~ msgstr "הגירסה לא התבקשה לאישור"
-
-#~ msgid "There is no version to add messages for."
-#~ msgstr "אין גרסה להוספת הודעות עבור."
-
-#~ msgid "There already is an unapproved version (${id})."
-#~ msgstr "קיימת גירסה לא מאושרת  (${id})."
-
-#~ msgid "published"
-#~ msgstr "פורסם"
-
-#~ msgid "none"
-#~ msgstr "אף אחד"
-
-#~ msgid "Can not delete all versions"
-#~ msgstr "בלתי אפשרי למחוק את כל הגירסאות"
-
-#~ msgid "no such version ${version}"
-#~ msgstr "אין גירסה כזו ${version}"
-
-#~ msgid "No unapproved version available"
-#~ msgstr "אין גירסה לא מאושרת זמינה"
-
-#~ msgid "access key: alt-s"
-#~ msgstr "מקש גישה: : alt-s"
-
-#~ msgid "select a new item: alt-s"
-#~ msgstr "בחר פריט חדש: alt-s"
-
-#~ msgid "select"
-#~ msgstr "בחר"
-
-#~ msgid "view"
-#~ msgstr "צפיה"
-
-#~ msgid "modified"
-#~ msgstr "עודכן"
-
-#~ msgid "author"
-#~ msgstr "כותב"
-
-#~ msgid "There is no content here."
-#~ msgstr "אין תוכן שם"
-
-#~ msgid "enter"
-#~ msgstr "אנטר"
-
-#~ msgid "content is published"
-#~ msgstr "התוכן פורסם"
-
-#~ msgid "cancel operation: alt-c"
-#~ msgstr "פעולת ביטול: : alt-c"
-
-#~ msgid "cancel"
-#~ msgstr "ביטול"
-
-#~ msgid "Default Document Policy"
-#~ msgstr "פו"
-
-#~ msgid "Listing body"
-#~ msgstr "גוף הרשימה"
-
-#~ msgid "Preview screen"
-#~ msgstr "מסך קודם"
-
-#~ msgid "Publish screen (folder)"
-#~ msgstr "מסך פרסום (ספריה)"
-
-#~ msgid "Add screen"
-#~ msgstr "הוסף מסך"
-
-#~ msgid "Editor screen"
-#~ msgstr "מסך עורך"
-
-#~ msgid "Kupu editor"
-#~ msgstr "עורך קופו"
-
-#~ msgid "Forms editor"
-#~ msgstr "עורך טפסים"
-
-#~ msgid "Other screens"
-#~ msgstr "מסכים אחרים."
-
-#~ msgid "return"
-#~ msgstr "חזרה"
-
-#~ msgid "access key: alt-r"
-#~ msgstr "מקש גישה: alt-r"
-
-#~ msgid "Notes"
-#~ msgstr "הערות"
-
-#~ msgid "Tip: one click editing"
-#~ msgstr "טיפ: עריכת לחיצה אחת"
-
-#~ msgid "Silva edit"
-#~ msgstr "עריכת סילוה"
-
-#~ msgid "manage..."
-#~ msgstr "ניהול..."
-
-#~ msgid "Tip for Mozilla/Netscape users"
-#~ msgstr "טיפ למשתמשי מוזילה/נייטסקייפ"
-
-#~ msgid "Silva documentation"
-#~ msgstr "תיעוד סילווה"
-
-#~ msgid "Contact"
-#~ msgstr "יצירת קשר"
-
-#~ msgid "Feedback"
-#~ msgstr "משוב"
-
-#~ msgid "Silva info: alt-i"
-#~ msgstr "מידע סילווה : alt-i"
-
-#~ msgid "Silva access keys"
-#~ msgstr "מקשי גישה לסילווה"
-
-#~ msgid "see below"
-#~ msgstr "ראה להלן"
-
-#~ msgid "General"
-#~ msgstr "כללי"
-
-#~ msgid "Changing screens with the tabs"
-#~ msgstr "שינוי מסכים בעזרת טאבים"
-
-#~ msgid "Footer page info row"
-#~ msgstr "שורת מידע תחתית עמוד"
-
-#~ msgid "Silva help"
-#~ msgstr "עזרת סילווה"
-
-#~ msgid "Listing header"
-#~ msgstr "ראש רשימה"
-
-#~ msgid "back"
-#~ msgstr "חזרה"
-
-#~ msgid "Silva info: alt-s"
-#~ msgstr "מידע סילווה : alt-s"
-
-#~ msgid "Thanks to...."
-#~ msgstr "תודות ל..."
-
-#~ msgid "Silva site"
-#~ msgstr "אתר סילווה"
-
-#~ msgid "Credits"
-#~ msgstr "כרדיטים"
-
-#~ msgid "External developers"
-#~ msgstr "מפתחים חיצוניים"
-
-#~ msgid "Return to where you came from..."
-#~ msgstr "חזור חזרה למקום שהגעת ממנו"
-
-#~ msgid "File uploaded."
-#~ msgstr "קובץ הועלה."
-
-#~ msgid "message"
-#~ msgstr "הודעה"
-
-#~ msgid "${old_title} to ${new_title}"
-#~ msgstr "${old_title} ל ${new_title}"
-
-#~ msgid "Properties changed: ${changed}"
-#~ msgstr "הגדרות שונו ל: ${changed}"
-
-#~ msgid "${icon} file info"
-#~ msgstr "${icon} מידע קובץ"
-
-#~ msgid ""
-#~ "Text content is too large to be edited through Silva. Please upload "
-#~ "changes."
-#~ msgstr "תוכן טקסט גדול מדי על מנת להערוך תוך סילווה.  בבקשה העלה שינויים."
-
-#~ msgid "save text content"
-#~ msgstr "שמור תוכן טקסט"
-
-#~ msgid "access key: alt-c"
-#~ msgstr "מקש גישה: alt-c"
-
-#~ msgid "Empty or invalid file."
-#~ msgstr "ריק או קובץ שאינו תקין"
-
-#~ msgid "instructions"
-#~ msgstr "הוראות"
-
-#~ msgid "50x50 pixels"
-#~ msgstr "50x50 פיקסלים"
-
-#~ msgid "50x50 pixel"
-#~ msgstr "50x50 פיקסל"
-
-#~ msgid "75x75 pixels"
-#~ msgstr "75x75 פיקסלים"
-
-#~ msgid "75x75 pixel"
-#~ msgstr "75x75 פיקסל"
-
-#~ msgid "100x100 pixel"
-#~ msgstr "100x100 פיקסל"
-
-#~ msgid "100x100 pixels"
-#~ msgstr "100x100 פיקסלים"
-
-#~ msgid "250x250 pixels"
-#~ msgstr "250x250 פיקסלים"
-
-#~ msgid "250x250 pixel"
-#~ msgstr "250x250 פיקסלים"
-
-#~ msgid "drag window"
-#~ msgstr "גרור חלון"
-
-#~ msgid "web format"
-#~ msgstr "פורמט ווב"
-
-#~ msgid "scaling"
-#~ msgstr "שינוי גודל"
-
-#~ msgid "format and scaling"
-#~ msgstr "פורמט וגודל"
-
-#~ msgid "change"
-#~ msgstr "שנה"
-
-#~ msgid "format"
-#~ msgstr "פורמט"
-
-#~ msgid "dimensions"
-#~ msgstr "מימדים"
-
-#~ msgid "original"
-#~ msgstr "מקורי"
-
-#~ msgid "The file is empty or invalid."
-#~ msgstr "הקובץ ריק או לא נמצא"
-
-#~ msgid "Problem: ${errors}"
-#~ msgstr "בעיה: ${errors}"
-
-#~ msgid "Image updated."
-#~ msgstr "תמונה הועלתה."
-
-#~ msgid "edit"
-#~ msgstr "ערוך"
-
-#~ msgid "preview"
-#~ msgstr "תצוגה מקדימה"
-
-#~ msgid "properties"
-#~ msgstr "מאפיינים"
-
-#~ msgid "access"
-#~ msgstr "גישה"
-
-#~ msgid "upload"
-#~ msgstr "העלאה"
-
-#~ msgid "upload file"
-#~ msgstr "העלאת קובץ"
-
-#~ msgid "Locate a file."
-#~ msgstr "מצא קובץ."
-
-#~ msgid "type"
-#~ msgstr "סוג"
-
-#~ msgid "current job"
-#~ msgstr "עבודה נוכחית"
-
-#~ msgid "owner"
-#~ msgstr "בעלים"
-
-#~ msgid "remove"
-#~ msgstr "הסר"
-
-#~ msgid "import and remove"
-#~ msgstr "יבא ומחק"
-
-#~ msgid "import"
-#~ msgstr "יבוא"
-
-#~ msgid "queue of items to process"
-#~ msgstr "תור של פריטים לעיבוד"
-
-#~ msgid "job id"
-#~ msgstr "מספר עבודה"
-
-#~ msgid "job owner"
-#~ msgstr "בעלי עבודה"
-
-#~ msgid "estimated time"
-#~ msgstr "זמן מעורך"
-
-#~ msgid "status"
-#~ msgstr "מצב"
-
-#~ msgid "Select one or more jobs to delete"
-#~ msgstr "בחר עבודה אחת או יותר למחיקה"
-
-#~ msgid "Job deleted"
-#~ msgstr "עבודה נמחקה"
-
-#~ msgid "unknown format"
-#~ msgstr "פורמט לא ידוע"
-
-#~ msgid "Silva XML"
-#~ msgstr "סילווה XML"
-
-#~ msgid "Word document"
-#~ msgstr "מסמך ורד"
-
-#~ msgid "contents"
-#~ msgstr "תכנים"
-
-#~ msgid "publish"
-#~ msgstr "פרסם"
-
-#~ msgid "Select a file for upload."
-#~ msgstr "בחר קובץ להעלאה."
-
-#~ msgid "Something bad with the zipfile;"
-#~ msgstr "משהו פגום בקובץ זיפ;"
-
-#~ msgid "added ${succeeded}"
-#~ msgstr "הוסף ${succeeded}"
-
-#~ msgid "Finished importing: ${msg}"
-#~ msgstr "סיים יבוא: ${msg}"
-
-#~ msgid "version already approved"
-#~ msgstr "גרסה כבר אושרה"
-
-#~ msgid "version already published"
-#~ msgstr "גירסה פורסמה בעבר"
-
-#~ msgid "addables"
-#~ msgstr "ניתנים להוספה"
-
-#~ msgid "content approved, or published..."
-#~ msgstr "תוכן עודכן, או פורסם..."
-
-#~ msgid "content approved or published"
-#~ msgstr "תוכן אושר או פורסם"
-
-#~ msgid "move up"
-#~ msgstr "הזז מעלה"
-
-#~ msgid "move down"
-#~ msgstr "הזז מטה"
-
-#~ msgid "content actions"
-#~ msgstr "פעולות תוכן"
-
-#~ msgid "publishing actions"
-#~ msgstr "פעולות פרסום"
-
-#~ msgid "move selected items to"
-#~ msgstr "הזז פריטים שנבחרו ל"
-
-#~ msgid "position:"
-#~ msgstr "מיקום:"
-
-#~ msgid "end"
-#~ msgstr "סוף"
-
-#~ msgid "access key: alt-o"
-#~ msgstr "מקש גישה: alt-o"
-
-#~ msgid "move"
-#~ msgstr "הזז"
-
-#~ msgid "rename..."
-#~ msgstr "שנה שם..."
-
-#~ msgid "cut"
-#~ msgstr "גזור"
-
-#~ msgid "cut items: alt-x"
-#~ msgstr "גזור פריטים: alt-x"
-
-#~ msgid "copy items: alt-c"
-#~ msgstr "העתק פריטים: alt-c"
-
-#~ msgid "copy"
-#~ msgstr "העתק"
-
-#~ msgid "paste items: alt-v"
-#~ msgstr "העתק פריטים: alt-v"
-
-#~ msgid "paste"
-#~ msgstr "הדבק"
-
-#~ msgid "Really delete?"
-#~ msgstr "באמת למחוק?"
-
-#~ msgid "delete"
-#~ msgstr "מחק"
-
-#~ msgid "publish new versions: alt-p"
-#~ msgstr "פרסם גרסאות חדשות : alt-p"
-
-#~ msgid "publish now"
-#~ msgstr "פרסם עכשיו"
-
-#~ msgid "close"
-#~ msgstr "סגור"
-
-#~ msgid "modify"
-#~ msgstr "שינה"
-
-#~ msgid "shift"
-#~ msgstr "שינוי"
-
-#~ msgid "Nothing was selected, so nothing was closed."
-#~ msgstr "לא נבחר דבר, לכן לא נסגר דבר"
-
-#~ msgid "is not published"
-#~ msgstr "לא פורסם."
-
-#~ msgid "Closed: ${ids}"
-#~ msgstr "נסגר: ${ids}"
-
-#~ msgid "Nothing was selected, so nothing was copied."
-#~ msgstr "דבר לא נבחר, ולכן דבר לא הועתק."
-
-#~ msgid "Nothing was selected, so nothing was deleted."
-#~ msgstr "לא נבחר דבר, ולכן לא נמחק דבר."
-
-#~ msgid "Deleted ${deleted_ids}."
-#~ msgstr "מחק ${deleted_ids}."
-
-#~ msgid "browse for a file on your disk"
-#~ msgstr "סרוק למציאת קובץ על הדיסק שלך"
-
-#~ msgid "title for assets"
-#~ msgstr "כותרת לנכסים"
-
-#~ msgid "replace content"
-#~ msgstr "החלף תוכן"
-
-#~ msgid "import zip"
-#~ msgstr "יבא זיפ"
-
-#~ msgid "access key: alt-z"
-#~ msgstr "מקש גישה: : alt-z"
-
-#~ msgid "note"
-#~ msgstr "הערה"
-
-#~ msgid "email address"
-#~ msgstr "כתובת תיבת דואר אלקטרוני"
-
-#~ msgid "An e-mail will be sent to you when the item is processed."
-#~ msgstr "דואר אלקטרוני ישלח לך כאשר הפריט יעובד."
-
-#~ msgid "upload a word document from your local drive: alt-u"
-#~ msgstr "העלה קובץ וורד מהדיסק המקומי שלך: alt-u"
-
-#~ msgid "export..."
-#~ msgstr "יצא..."
-
-#~ msgid "import and extract zip archive"
-#~ msgstr "מייבא ופותח קובץ ארכיב זיפ"
-
-#~ msgid "file to upload"
-#~ msgstr "קבצים להעלאה"
-
-#~ msgid "Select a file for upload"
-#~ msgstr "בחר בקובץ להעלאה"
-
-#~ msgid "You must enter your e-mail address"
-#~ msgstr "הנך חייב להקליד את כתובת דואר האלקטרוני שלך"
-
-#~ msgid "Select one or more items to download"
-#~ msgstr "בחר בפריט אחד או יותר להורדה"
-
-#~ msgid "Select one or more jobs to import"
-#~ msgstr "בחר בעבודה אחת או יותר ליבוא"
-
-#~ msgid "Could not import ${newid}"
-#~ msgstr "לא יכל ליבא ${newid}"
-
-#~ msgid "Finished importing"
-#~ msgstr "יבוא הסתיים"
-
-#~ msgid "Finished importing."
-#~ msgstr "סיים יבוא."
-
-#~ msgid "Moved ${id} down."
-#~ msgstr "הוזז ${id} מטה"
-
-#~ msgid "Could not move ${id} down."
-#~ msgstr "לא יכול להזיז  ${id} מטה"
-
-#~ msgid "First choose a position number."
-#~ msgstr "קודם בחר מספר מיקום"
-
-#~ msgid "Could not move ${ids}."
-#~ msgstr "לא יכל להזיז ${ids}."
-
-#~ msgid "Moved ${id} up."
-#~ msgstr "הזז ${id} מעלה."
-
-#~ msgid "Could not move ${id} up."
-#~ msgstr "לא ניתן להעביר${id} מעלה."
-
-#~ msgid "Nothing was selected, so nothing was approved."
-#~ msgstr "דבר לא נבחר, ולכן דבר לא אושר."
-
-#~ msgid "No content available to paste."
-#~ msgstr "אין תוכן זמין להעתקה"
-
-#~ msgid "rename"
-#~ msgstr "שנה שם"
-
-#~ msgid "attribute"
-#~ msgstr "תכונה"
-
-#~ msgid "old"
-#~ msgstr "ישן"
-
-#~ msgid "new"
-#~ msgstr "חדש"
-
-#~ msgid "no title"
-#~ msgstr "אין כותרת"
-
-#~ msgid "Nothing was selected, so nothing can be renamed."
-#~ msgstr "לא נבחר דבר, ולכן לא יכול לשנות שם למשהו"
-
-#~ msgid "Can only change Publications into Folders"
-#~ msgstr "יכול לשנות רק פרסומים לתוך ספריות"
-
-#~ msgid "Can only change Folders into Publications"
-#~ msgstr "יכול לשנות ספריות לפרסומים"
-
-#~ msgid "modify / preview"
-#~ msgstr "עדכן / תצוגה מוקדמת"
-
-#~ msgid "public version"
-#~ msgstr "גירסה ציבורית"
-
-#~ msgid "There are no publishable items here."
-#~ msgstr "אין פריטים שפורסמו כאן."
-
-#~ msgid "access key: alt-m"
-#~ msgstr "מקש גישה: alt-m"
-
-#~ msgid "publish time"
-#~ msgstr "זמן פרסום"
-
-#~ msgid "access key: alt-x"
-#~ msgstr "מקש גישה: : alt-x"
-
-#~ msgid "expiration time"
-#~ msgstr "זמן שהסתיים"
-
-#~ msgid "approve for future"
-#~ msgstr "אשר לעתיד"
-
-#~ msgid "update timing"
-#~ msgstr "עדכן תיזמון"
-
-#~ msgid "reject"
-#~ msgstr "דחה"
-
-#~ msgid "new version"
-#~ msgstr "גירסה חדשה"
-
-#~ msgid "request approval now"
-#~ msgstr "בקש אישור כרגע"
-
-#~ msgid "request approval"
-#~ msgstr "מבקש אישור"
-
-#~ msgid "version already public"
-#~ msgstr "גרסה כבר ציבורית"
-
-#~ msgid "no publication time was set"
-#~ msgstr "לא עודכן תאריך פרסום"
-
-#~ msgid "Changed settings on: ${ids}"
-#~ msgstr "שונה הגדרות ל : ${ids}"
-
-#~ msgid "no next or public version available"
-#~ msgstr "אין גרסה הבאה או ציבורית זמינה"
-
-#~ msgid "no unapproved version"
-#~ msgstr "אין גירסה לא מאושרת"
-
-#~ msgid "export"
-#~ msgstr "יצא"
-
-#~ msgid "options"
-#~ msgstr "אפשרויות"
-
-#~ msgid "setting"
-#~ msgstr "הגדרות"
-
-#~ msgid "include sub publications?"
-#~ msgstr "כולל תת פירסומים?"
-
-#~ msgid "export newest versions?"
-#~ msgstr "יצא גרסאות חדשות ביותר?"
-
-#~ msgid "export pdf"
-#~ msgstr "יצא PDF"
-
-#~ msgid "access key: alt-p"
-#~ msgstr "מקש גישה: alt-o"
-
-#~ msgid "export xml"
-#~ msgstr "יצא XML"
-
-#~ msgid "access key: alt-e"
-#~ msgstr "מקש גישה: : alt-e"
-
-#~ msgid "export closed content?"
-#~ msgstr "יצא תוכן סגור?"
-
-#~ msgid "choose a template"
-#~ msgstr "בחר תבנית"
-
-#~ msgid "export the selection to word: alt-d"
-#~ msgstr "ייצא את הבחירה לוורד: alt-d"
-
-#~ msgid "items to export:"
-#~ msgstr "פריטים ליצוא:"
-
-#~ msgid "preview ${id}"
-#~ msgstr "תצוגה מקדימה ${id}"
-
-#~ msgid "already has a next version"
-#~ msgstr "כבר יש גירסה הבאה"
-
-#~ msgid "Created a new version for: ${ids}"
-#~ msgstr "צור גירסה חדשה ל: ${ids}"
-
-#~ msgid "could not create a new version for: ${ids}"
-#~ msgstr "לא יכל ליצר גירסה חדשה ל: ${ids}"
-
-#~ msgid "no approval requested"
-#~ msgstr "לא נידרש אישור"
-
-#~ msgid "approval already requested"
-#~ msgstr "הוגשה בקשה לאישור"
-
-#~ msgid "no publication time set"
-#~ msgstr "לא עודכן תאריך פרסום"
-
-#~ msgid "No items were selected, so nothing is exported"
-#~ msgstr "לא נבחרו פריטים, ולכן לא יוצא דבר"
-
-#~ msgid "No description"
-#~ msgstr "אין תיאור"
-
-#~ msgid "You have not entered your e-mail address"
-#~ msgstr "לא עדכנת את כתובת תיבת דואר אלקטרונית שלך"
-
-#~ msgid "Not yet :)"
-#~ msgstr "עדיין לא :)"
-
-#~ msgid "settings"
-#~ msgstr "הגדרות"
-
-#~ msgid "publication time"
-#~ msgstr "זמן פרסום"
-
-#~ msgid "version status"
-#~ msgstr "מצב גירסה"
-
-#~ msgid "version actions"
-#~ msgstr "פעולות גירסה"
-
-#~ msgid "copy for editing"
-#~ msgstr "העתק לעריכה"
-
-#~ msgid "compare..."
-#~ msgstr "השווה..."
-
-#~ msgid "${icon} document info"
-#~ msgstr "${icon} מידע מסמך"
-
-#~ msgid "content-editor"
-#~ msgstr "עורך תוכן"
-
-#~ msgid "There is no approved version."
-#~ msgstr "אין גירסה מאושרת."
-
-#~ msgid "Changed publication settings."
-#~ msgstr "הגדרות פירסום שונו."
-
-#~ msgid "There is no public version to close"
-#~ msgstr "אין גירסה ציבורית לסגור."
-
-#~ msgid "Closed public version."
-#~ msgstr "גירסה ציבורית סגורה."
-
-#~ msgid "No versions selected"
-#~ msgstr "לא ניבחרו גירסאות."
-
-#~ msgid "Can't delete all versions"
-#~ msgstr "לא יכול למחוק את כל הגירסאות."
-
-#~ msgid "could not delete ${id}: ${error}"
-#~ msgstr "לא יכול למחוק ${id}: ${error}"
-
-#~ msgid "deleted ${id}"
-#~ msgstr "נמחק ${id}"
-
-#~ msgid "for new version"
-#~ msgstr "לגירסה חדשה"
-
-#~ msgid "message to editor"
-#~ msgstr "הודעה לעורך"
-
-#~ msgid "publish new version"
-#~ msgstr "פרסם גירסה חדשה"
-
-#~ msgid "publish closed version"
-#~ msgstr "פרסם גירסה סגורה"
-
-#~ msgid "withdraw"
-#~ msgstr "משיכה"
-
-#~ msgid "request"
-#~ msgstr "בקשה"
-
-#~ msgid "add message on"
-#~ msgstr "הוסף הודעה ל"
-
-#~ msgid "manual close"
-#~ msgstr "סגור ידנית"
-
-#~ msgid "messages"
-#~ msgstr "הודעות"
-
-#~ msgid "There is no unapproved version."
-#~ msgstr "אין גרסה מאושרת"
-
-#~ msgid "Older version (${version_id})"
-#~ msgstr "גרסה ישנה"
-
-#~ msgid "Newer version (${version_id})"
-#~ msgstr "גרסה חדשה יותר  (${version_id})"
-
-#~ msgid "You didn't select any versions."
-#~ msgstr "לא בחרת אף גירסאות"
-
-#~ msgid "day / month / year &nbsp;(23:59)"
-#~ msgstr "יום / חודש/ שנה&nbsp;(23:59)"
-
-#~ msgid "save"
-#~ msgstr "שמור"
-
-#~ msgid "element"
-#~ msgstr "אלמנט"
-
-#~ msgid "select all: alt-a"
-#~ msgstr "בחר הכל: alt-a"
-
-#~ msgid "index:"
-#~ msgstr "אינדקס:"
-
-#~ msgid "reload screen"
-#~ msgstr "העלה מחדש את המסך"
-
-#~ msgid " save "
-#~ msgstr " שמור "
-
-#~ msgid "in"
-#~ msgstr "בתוך"
-
-#~ msgid "used space"
-#~ msgstr "מקום בשימוש"
-
-#~ msgid "container type"
-#~ msgstr "סוג קונטיינר"
-
-#~ msgid "convert to publication"
-#~ msgstr "המר לפירסום"
-
-#~ msgid "convert to folder"
-#~ msgstr "המר לספריה"
-
-#~ msgid "logout"
-#~ msgstr "התנתק"
-
-#~ msgid "contact:"
-#~ msgstr "איש קשר:"
-
-#~ msgid "no name"
-#~ msgstr "אין שם"
-
-#~ msgid "view public version"
-#~ msgstr "צפה בגירסה ציבורית"
-
-#~ msgid "Change your settings: alt-~"
-#~ msgstr "שנה את הגדרותיך : alt-~"
-
-#~ msgid "user settings"
-#~ msgstr "הגדרות משתמש"
-
-#~ msgid "Help with access keys"
-#~ msgstr "עזרה עם מקשי גישה"
-
-#~ msgid "Silva copyright info"
-#~ msgstr "מידע זכויות יוצרים סילווה"
-
-#~ msgid "Silva info: alt-|"
-#~ msgstr "מידע סילווה: alt-|"
-
-#~ msgid "&middot; manage..."
-#~ msgstr "&middot; נהל..."
-
-#~ msgid "view..."
-#~ msgstr "צפיה..."
-
-#~ msgid "Optional, but useful."
-#~ msgstr "אפשרות, אולם חיוני."
-
-#~ msgid "set restriction"
-#~ msgstr "עדכן הגבלות"
-
-#~ msgid "lookup users..."
-#~ msgstr "חיפוש משתמשים..."
-
-#~ msgid "username"
-#~ msgstr "שם משתמש"
-
-#~ msgid "Create a ${addable_name}"
-#~ msgstr "צור ${addable_name}"
-
-#~ msgid "Content type"
-#~ msgstr "סוגי תוכן"
-
-#~ msgid "new..."
-#~ msgstr "חדש..."
-
-#~ msgid "create an object"
-#~ msgstr "צור אובייקט."
-
-#~ msgid "publish this document: alt-p"
-#~ msgstr "פרסם מסמך זה: : alt-p"
-
-#~ msgid "add"
-#~ msgstr "הוסף"
-
-#~ msgid "preferred language"
-#~ msgstr "שפה מעודפת"
-
-#~ msgid "save changes"
-#~ msgstr "שמור שינויים"
-
-#~ msgid "save + edit"
-#~ msgstr "שמור+ערוך"
-
-#~ msgid "Changed settings."
-#~ msgstr "הגדרות שונו."
-
-#~ msgid "Resource location of this content."
-#~ msgstr "מיקום הצלה לתוכן זה"
-
-#~ msgid "meta_type"
-#~ msgstr "סוג_מטה"
-
-#~ msgid "Choose an item to be created within the folder."
-#~ msgstr "בחר פריט להווצר בספריה זו."
-
-#~ msgid "create ${meta_type}"
-#~ msgstr "צור ${meta_type}"
-
-#~ msgid "creation may take a while"
-#~ msgstr "יצירה יכולה לקחת זמן"
-
-#~ msgid "link type"
-#~ msgstr "סוג קישור"
-
-#~ msgid "Link url."
-#~ msgstr "כתובת קישור."
-
-#~ msgid "upload ${meta_type}"
-#~ msgstr "העלה ${meta_type}"
-
-#~ msgid "create ${TOC_or_meta_type}"
-#~ msgstr "צור ${TOC_or_meta_type}"
-
-#~ msgid "old_title"
-#~ msgstr "כותרת ישנה"
-
-#~ msgid "User(s) ${added} added to group."
-#~ msgstr "משתמש(ים) ${added} נוספו לקבוצה"
-
-#~ msgid "No users selected, so none added."
-#~ msgstr "לא נבחרו משתמשים, ולכן לא הוסף אף אחד."
-
-#~ msgid "No users selected, so none removed."
-#~ msgstr "לא נבחרו משתמשים, ולכן לא הוסר אף אחד"
-
-#~ msgid "copy users from group(s)"
-#~ msgstr "העתק משתמשים מקבוצה(ות)"
-
-#~ msgid "group members"
-#~ msgstr "חברי קבוצה"
-
-#~ msgid "This group does not have any members."
-#~ msgstr "אין חברים בקבוצה זו"
-
-#~ msgid "remove users"
-#~ msgstr "הסר משתמשים"
-
-#~ msgid "add selected users to this group"
-#~ msgstr "הוסף משתמשים שנבחרו לקבוצה זו"
-
-#~ msgid "Nothing copied."
-#~ msgstr "לא הועתק דבר."
-
-#~ msgid "Can be:"
-#~ msgstr "יכול להיות:"
-
-#~ msgid "add ip range"
-#~ msgstr "הוסף טווח IP"
-
-#~ msgid "remove ranges"
-#~ msgstr "טווח הסרה"
-
-#~ msgid "add an IP address"
-#~ msgstr "הוסף כתובת IP"
-
-#~ msgid "No groups selected, so none removed."
-#~ msgstr "לא נבחרו קבוצות, ולכן לא הוסרו אף אחד"
-
-#~ msgid "add to group"
-#~ msgstr "הוסף לקבוצה"
-
-#~ msgid "copy from virtual group(s)"
-#~ msgstr "העתק מקבוצה(ות( וירטואליות"
-
-#~ msgid "Group name"
-#~ msgstr "שם קבוצה"
-
-#~ msgid "remove group"
-#~ msgstr "הסר קבוצה"
-
-#~ msgid "groups"
-#~ msgstr "קבוצות"
-
-#~ msgid "image info"
-#~ msgstr "מידע של התמונה"
-
-#~ msgid "problem"
-#~ msgstr "בעיה"
-
-#~ msgid "save reference"
-#~ msgstr "שמור אסמכתא"
-
-#~ msgid "metadata"
-#~ msgstr "מטה דאטה"
-
-#~ msgid "attributes"
-#~ msgstr "מאפיינים"
-
-#~ msgid "path"
-#~ msgstr "נתיב"
-
-#~ msgid "reference..."
-#~ msgstr "רפרפנס..."
-
-#~ msgid "link"
-#~ msgstr "קישור"
-
-#~ msgid "Group: a group defined by a list of users"
-#~ msgstr "קבוצה: קבוצה מוגדרת על ידי רשימה של משתמשים"
-
-#~ msgid "groups located in this folder"
-#~ msgstr "קבוצות הממוקמות בספריה זו"
-
-#~ msgid "name"
-#~ msgstr "שם"
-
-#~ msgid "edit this group"
-#~ msgstr "ערוך קבוצה זו"
-
-#~ msgid "No groups have been defined in this location."
-#~ msgstr "לא הוגדרה קבוצה במיקום זה."
-
-#~ msgid "delete selected groups: alt-d"
-#~ msgstr "מחק קבוצות שנבחרו: אלט+D"
-
-#~ msgid "create a group"
-#~ msgstr "צור קבוצה"
-
-#~ msgid "Could not delete ${not_deleted_ids}."
-#~ msgstr "לא ניתן למחיקה ${not_deleted_ids}."
-
-#~ msgid "add a new item - alt-n"
-#~ msgstr "הוסף פריט חדש - alt-n"
-
-#~ msgid "import..."
-#~ msgstr "ייבוא..."
-
-#~ msgid "access key: alt-i"
-#~ msgstr "מקש גישה : alt-i"
-
-#~ msgid "import silva xml"
-#~ msgstr "ייבא סילווה XML"
-
-#~ msgid "notes"
-#~ msgstr "הערות"
-
-#~ msgid "preview screen"
-#~ msgstr "מסך מקדים"
-
-#~ msgid "Index updated"
-#~ msgstr "אינדקס עודכן"
-
-#~ msgid "Both a name and e-mail address are required to approve someone."
-#~ msgstr "שם משתמש וכתובת דואר אלקטרוני חיוניים לאישור מישהו."
-
-#~ msgid "Sorry, content is missing:"
-#~ msgstr "מצטערים, תוכן חסר:"
-
-#~ msgid "Member is approved"
-#~ msgstr "חבר אושר"
-
-#~ msgid "preferred editor"
-#~ msgstr "עורך מעודף"
-
-#~ msgid "Full name updated"
-#~ msgstr "שם מלא עודכן"
-
-#~ msgid "Email updated"
-#~ msgstr "דואר אלקטרוני נוסף"
-
-#~ msgid "Editor updated"
-#~ msgstr "עורך עודכן"
-
-#~ msgid "Language updated"
-#~ msgstr "שפה עודכנה"
-
-#~ msgid "Nothing changed."
-#~ msgstr "לא השתנה דבר."
-
-#~ msgid "save member data: alt-s"
-#~ msgstr "שמור נתוני חבר: alt-s"
-
-#~ msgid "close window: alt-c"
-#~ msgstr "סגור חלון: alt-c"
-
-#~ msgid "Link changed"
-#~ msgstr "קישור השתנה"
-
-#~ msgid "link url"
-#~ msgstr "כתובת קישור"
-
-#~ msgid "change link"
-#~ msgstr "שנה קישור"
-
-#~ msgid "break lock"
-#~ msgstr "שבור נעילה"
-
-#~ msgid "Note:"
-#~ msgstr "הערה:"
-
-#~ msgid "Document published"
-#~ msgstr "מסמך פורסם"
-
-#~ msgid "Version already approved"
-#~ msgstr "גירסה אושרה בעבר"
-
-#~ msgid "Document already published"
-#~ msgstr "מסמך כבר פורסם"
-
-#~ msgid "Lock broken"
-#~ msgstr "קישור שבור"
-
-#~ msgid "No user(s) selected."
-#~ msgstr "לא נבחרו משתמש(ים)"
-
-#~ msgid "map cleared"
-#~ msgstr "מפה נוקתה"
-
-#~ msgid "You have to enter a path here."
-#~ msgstr "עליך להזין נתן כאן."
-
-#~ msgid "Users selected."
-#~ msgstr "משתמשים נבחרו."
-
-#~ msgid "No users selected."
-#~ msgstr "לא נבחרו משתמשים."
-
-#~ msgid "No username supplied."
-#~ msgstr "לא סופק שם משתמש."
-
-#~ msgid "No users removed."
-#~ msgstr "לא הוסרו משתמשים."
-
-#~ msgid "Searched for '${string}'."
-#~ msgstr "חיפש '${string}'"
-
-#~ msgid "search"
-#~ msgstr "חפש"
-
-#~ msgid "add to clipboard"
-#~ msgstr "הוסף לקליפבורד"
-
-#~ msgid "search results"
-#~ msgstr "תוצאות חיפוש"
-
-#~ msgid "user"
-#~ msgstr "שם משתמש"
-
-#~ msgid "email"
-#~ msgstr "דואר אלקטרוני"
-
-#~ msgid "No search results."
-#~ msgstr "אין תוצאות חיפוש"
-
-#~ msgid "user search"
-#~ msgstr "חיפוש משתמש"
-
-#~ msgid "remove user"
-#~ msgstr "הסר משתמש"
-
-#~ msgid "no_groups_available"
-#~ msgstr "אין קבוצות זמינות"
-
-#~ msgid "existing ${type} groups"
-#~ msgstr "קבוצות  ${type} קיימות"
-
-#~ msgid "select_groups"
-#~ msgstr "בחר קבוצות"
-
-#~ msgid "select users:"
-#~ msgstr "בחר משתמשים:"
-
-#~ msgid "No users on clipboard"
-#~ msgstr "אין משתמשים בקליפ בורד"
-
-#~ msgid "is approved"
-#~ msgstr "מאושר"
-
-#~ msgid "access key: alt-d"
-#~ msgstr "מקשי גישה:: alt-d"
-
-#~ msgid "access key: alt-g"
-#~ msgstr "מקשי גישה: : alt-g"
-
-#~ msgid "A Groups Service is not installed"
-#~ msgstr "שירותי קבוצות לא הותקנו"
-
-#~ msgid "groupname"
-#~ msgstr "שם קבוצה"
-
-#~ msgid "Open to the public"
-#~ msgstr "פתוח לציבור"
-
-#~ msgid "email addresses for"
-#~ msgstr "כתובת דואר אלקטרוני ל"
-
-#~ msgid "sservices..."
-#~ msgstr "שירותים..."
-
-#~ msgid "request access"
-#~ msgstr "בקשת גישה"
-
-#~ msgid "Subscription failed"
-#~ msgstr "רישום נכשל"
-
-#~ msgid "membership"
-#~ msgstr "חברות"
-
-#~ msgid "full name"
-#~ msgstr "שם מלא"
-
-#~ msgid "e-mail address"
-#~ msgstr "כתובת דואר אלקטרוני"
-
-#~ msgid " Send request "
-#~ msgstr " שלח בקשה "
-
-#~ msgid "You must enter your full name and your e-mail address"
-#~ msgstr "הינך חייב להזין את שמך המלא וכתובת הדואר אלקטרוני שלך"
-
-#~ msgid "Error: ${error}"
-#~ msgstr "שגיאה : ${error}"
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
-
-#~ msgid "subscribe"
-#~ msgstr "הירשם"
-
-#~ msgid "lookup users: alt-l"
-#~ msgstr "חיפוש משתמשים: alt-l"
-
 #~ msgid "add users..."
 #~ msgstr "הוסף משתמשים..."
 
@@ -4675,8 +3480,8 @@ msgstr ""
 #~ "( &nbsp; forms editor<br /> ) &nbsp; Kupu editor<br /> ; &nbsp; public "
 #~ "preview<br /> p &nbsp; publish now<br />"
 #~ msgstr ""
-#~ "( &nbsp; עורך טפסים<br /> ) &nbsp; עורך קופו<br /> ; &nbsp; צפיה "
-#~ "ציבורית<br /> p &nbsp; פרסם עכשיו <br />"
+#~ "( &nbsp; עורך טפסים<br /> ) &nbsp; עורך קופו<br /> ; &nbsp; צפיה ציבורית<br "
+#~ "/> p &nbsp; פרסם עכשיו <br />"
 
 #~ msgid "file info"
 #~ msgstr "פריט קובץ"
@@ -4758,18 +3563,6 @@ msgstr ""
 
 #~ msgid "cleanup"
 #~ msgstr "נקיון"
-
-#~ msgid "external source"
-#~ msgstr "מקור חיצוני"
-
-#~ msgid "citation"
-#~ msgstr "קריטריון"
-
-#~ msgid "table"
-#~ msgstr "טבלה"
-
-#~ msgid "table of contents"
-#~ msgstr "תוכן עיניינים"
 
 #~ msgid "Kupu 1.4b1"
 #~ msgstr "1.4b1 קופו"

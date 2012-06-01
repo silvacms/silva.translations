@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-02-08 16:13+0000\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:46+0000\n"
 "Last-Translator: Formichelle <for1018@yahoo.com.tw>\n"
 "Language-Team: Chinese (Taiwan) <zh_TW@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-11-13 12:21+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: \n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -47,7 +49,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:125
 msgid "Alphabetically"
-msgstr ""
+msgstr "依字母順序"
 
 #: Products.Silva:/AutoTOC.py:126
 msgid "Reverse alphabetically"
@@ -301,11 +303,13 @@ msgstr ""
 msgid "download"
 msgstr "下載"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
 msgstr ""
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
 msgstr ""
 
@@ -347,7 +351,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -446,16 +451,14 @@ msgid ""
 "       and stylesheets).\n"
 "    "
 msgstr ""
-"Ghosts 是一種特殊的文件，主要的功能是當做儲存在它處項目的置物櫃 "
-"(placeholder) （\n"
-"        就像別名、符號連結、捷徑等功能）。不過不像超連結的功能，將 Visitor 帶"
-"到另一位置，\n"
-"        ghost 物件會將 Visitor 留在目前的出版品之中，而將被 ghost 的項目的內"
-"容顯示出來。\n"
+"Ghosts 是一種特殊的文件，主要的功能是當做儲存在它處項目的置物櫃 (placeholder) （\n"
+"        就像別名、符號連結、捷徑等功能）。不過不像超連結的功能，將 Visitor 帶到另一位置，\n"
+"        ghost 物件會將 Visitor 留在目前的出版品之中，而將被 ghost 的項目的內容顯示出來。\n"
 "        ghost 物件會繼承其所指向位置的屬性（例如 layout 及 stylesheets ）\n"
 "    "
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -471,8 +474,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -577,7 +582,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -735,7 +741,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -931,9 +938,7 @@ msgstr "這個內容不經過認可。"
 msgid ""
 "Should never happen: unapproved version ${unapproved} found while approved "
 "version ${approved} exists at the same time."
-msgstr ""
-"應該不會發生：因為未證實版本 ${unapproved} 與 已驗證版本 ${approved} 同時存"
-"在。"
+msgstr "應該不會發生：因為未證實版本 ${unapproved} 與 已驗證版本 ${approved} 同時存在。"
 
 #: Products.Silva:/Versioning.py:169
 msgid "There is no public version to close."
@@ -951,7 +956,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -960,15 +966,18 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr "這個版本已經提出驗證需求。"
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr "此內容無任可懸置的批准要求。"
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr "無未驗證版本"
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr "無已驗證版本"
 
@@ -980,7 +989,8 @@ msgstr "必須指明出版日期"
 msgid "No public version."
 msgstr "無公眾版本"
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr "無下一個版本"
 
@@ -1076,42 +1086,51 @@ msgstr "公開的 silva  角色"
 msgid "Anonymous"
 msgstr "匿名者"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
 msgstr "授權使用者"
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
 msgstr "管理者"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
 msgstr "瀏灠者"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
 msgstr "瀏灠者 ＋"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
 msgstr "瀏灠者 ＋＋"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
 msgstr "讀者"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
 msgstr "作者"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
 msgstr "編輯者"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
 msgstr "總編輯"
 
@@ -1209,9 +1228,7 @@ msgstr "連絡人旳e-mail 信箱"
 msgid ""
 "If this is enabled, this content (and anything it contains!) will not show "
 "up in tables of content."
-msgstr ""
-"若勾選此功能則此內容及其所含的任何東西均會顯示在目次 (table of content) 之"
-"中。"
+msgstr "若勾選此功能則此內容及其所含的任何東西均會顯示在目次 (table of content) 之中。"
 
 #: Products.Silva:/schema/silva-extra.xml:713
 msgid "hide from tables of content"
@@ -1359,7 +1376,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1421,7 +1439,8 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
 
@@ -1491,7 +1510,8 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1615,7 +1635,8 @@ msgstr ""
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
@@ -1653,12 +1674,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1675,7 +1698,8 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1736,7 +1760,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1804,7 +1829,8 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
 msgstr "選擇："
 
@@ -1812,11 +1838,13 @@ msgstr "選擇："
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
 msgstr ""
 
@@ -1887,7 +1915,8 @@ msgid "Definition"
 msgstr ""
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr "抱歉，這個 ${meta_type} 是無法預覽的。"
@@ -1993,7 +2022,7 @@ msgstr ""
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:15
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:18
 msgid "edit content"
-msgstr ""
+msgstr "編輯內容"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this content"
@@ -2152,8 +2181,7 @@ msgstr ""
 msgid ""
 "If necessary, the published version of this content can be manually closed "
 "(taken offline). It will also be removed from the public index."
-msgstr ""
-"如有需要，此內容的發表版本可採取手工關閉(透過離線)。同時從公眾索引中移除。"
+msgstr "如有需要，此內容的發表版本可採取手工關閉(透過離線)。同時從公眾索引中移除。"
 
 #: silva.core.smi:/content/publish/management.py:383
 msgid "Close published version"
@@ -2246,7 +2274,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr "復原早先版本。"
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2526,8 +2555,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2541,7 +2570,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2599,7 +2629,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2636,7 +2667,8 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -2769,8 +2801,7 @@ msgstr ""
 msgid ""
 "If checked, inherit the addables from above. Uncheck this to change the "
 "allowed addables below."
-msgstr ""
-"若勾選，將會繼承上層可增加項目。 不勾選則會影嚮其下對可增項目的存取權。"
+msgstr "若勾選，將會繼承上層可增加項目。 不勾選則會影嚮其下對可增項目的存取權。"
 
 #: silva.core.smi:/settings/addables.py:41
 #: silva.core.smi:/settings/addables.py:104
@@ -2782,9 +2813,7 @@ msgid ""
 "If 'acquire' is not checked, these settings will determine the items allowed "
 "in this publication. Otherwise the addables are acquired from the "
 "publication above."
-msgstr ""
-"如果 'acquire' 沒有勾選，這些設定將會決定此出版品的項目。反之，上述出版品的可"
-"增項目將會被要要求含入。"
+msgstr "如果 'acquire' 沒有勾選，這些設定將會決定此出版品的項目。反之，上述出版品的可增項目將會被要要求含入。"
 
 #: silva.core.smi:/settings/addables.py:57
 msgid "Addable settings"
@@ -2905,9 +2934,7 @@ msgstr ""
 msgid ""
 "This Ghost Folder can be converted to a normal Publication or Folder. All "
 "ghosted content will be duplicated and can then be edited."
-msgstr ""
-"Ghost 資料夾可以被轉換成出版品或一般目錄。 所有的 ghosted 內容都會被複製，而"
-"且也都可以編輯。"
+msgstr "Ghost 資料夾可以被轉換成出版品或一般目錄。 所有的 ghosted 內容都會被複製，而且也都可以編輯。"
 
 #: silva.core.smi:/settings/settings.py:107
 msgid "This Silva Publication can be converted to a Silva Folder"
@@ -3059,7 +3086,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3113,7 +3141,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3145,7 +3174,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3254,7 +3284,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3441,2615 +3472,8 @@ msgstr ""
 msgid "Show All Items"
 msgstr ""
 
-#~ msgid "file system path"
-#~ msgstr "檔案系統路徑"
-
-#~ msgid "file size"
-#~ msgstr "檔案大小"
-
-#~ msgid "Not connected"
-#~ msgstr "未連線"
-
-#~ msgid "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
-#~ msgstr "這個型態的 container (容納器) 不允許貼入 #xab;${id}»"
-
-#~ msgid "pasted &#xab;${id}&#xbb;"
-#~ msgstr "已貼入  &#xab;${id}&#xbb;"
-
-#~ msgid "first item"
-#~ msgstr "第一個項目"
-
-#~ msgid "aspect"
-#~ msgstr "各別"
-
-#~ msgid "content"
-#~ msgstr "內容"
-
-#~ msgid "'${crop}' defines an impossible cropping"
-#~ msgstr "'${crop}' 定義錯誤"
-
-#~ msgid "image"
-#~ msgstr "圖片"
-
-#~ msgid "update index"
-#~ msgstr "更新索引"
-
-#~ msgid "url"
-#~ msgstr "url"
-
-#~ msgid "No approved version to unapprove."
-#~ msgstr "沒有驗證版本，直接記為未證實。"
-
-#~ msgid "No public version to close."
-#~ msgstr "沒有關閉公眾版本。"
-
-#~ msgid "There is no unapproved version to request approval for."
-#~ msgstr "沒有未證實版本提出驗證需求。"
-
-#~ msgid "The version is not requested for approval."
-#~ msgstr "這個版本未提出驗證需求。"
-
-#~ msgid "There is no version to add messages for."
-#~ msgstr "無適合的版本來增加訊息"
-
-#~ msgid "There is an approved version already; unapprove it. (${id})"
-#~ msgstr "已有證實版本存在，可更改為未驗證。 (${id})"
-
-#~ msgid "There already is an unapproved version (${id})."
-#~ msgstr "已有未證實版本 (${id})"
-
-#~ msgid "The public version has that id already (${id})."
-#~ msgstr "這個 id 的公開版本已存在 (${id})。"
-
-#~ msgid "A previous version has that id already (${id})."
-#~ msgstr "這個 id 的前一版本已存在 (${id})。"
-
-#~ msgid "published"
-#~ msgstr "已發表"
-
-#~ msgid "none"
-#~ msgstr "無"
-
-#~ msgid "Can not delete all versions"
-#~ msgstr "不能刪除所有版本"
-
-#~ msgid "no such version ${version}"
-#~ msgstr "沒有這個版本 ${version}"
-
-#~ msgid "No unapproved version available"
-#~ msgstr "沒有未證實版本可用。"
-
-#~ msgid "access key: alt-s"
-#~ msgstr "存取鍵：alt-s"
-
-#~ msgid "select a new item: alt-s"
-#~ msgstr "選擇新項目: alt-s"
-
-#~ msgid "select"
-#~ msgstr "選擇"
-
-#~ msgid "view"
-#~ msgstr "預覽"
-
-#~ msgid "modified"
-#~ msgstr "修改"
-
-#~ msgid "author"
-#~ msgstr "作者"
-
-#~ msgid "There is no content here."
-#~ msgstr "無內容。"
-
-#~ msgid "n/a"
-#~ msgstr "無"
-
-#~ msgid "cancel operation: alt-c"
-#~ msgstr "取消操作：alt-c"
-
-#~ msgid "cancel"
-#~ msgstr "取消"
-
-#~ msgid "Default Document Policy"
-#~ msgstr "預設的文件策略"
-
-#~ msgid "Listing body"
-#~ msgstr "列出主體"
-
-#~ msgid "Listing footer"
-#~ msgstr "頁尾表列"
-
-#~ msgid "Preview screen"
-#~ msgstr "預覽螢幕"
-
-#~ msgid "Publish screen (folder)"
-#~ msgstr "出版螢幕 （目錄）"
-
-#~ msgid "Add screen"
-#~ msgstr "增加畫面"
-
-#~ msgid "Editor screen"
-#~ msgstr "校編者畫面"
-
-#~ msgid "Kupu editor"
-#~ msgstr "Kupu 編輯器"
-
-#~ msgid "Forms editor"
-#~ msgstr "Forms 編輯器"
-
-#~ msgid "Other screens"
-#~ msgstr "其他畫面"
-
-#~ msgid "return"
-#~ msgstr "返回"
-
-#~ msgid "access key: alt-r"
-#~ msgstr "存取鍵：alt-r"
-
-#~ msgid ""
-#~ "The Properties, Access, and Publish screens as well as their subscreens "
-#~ "(such as Lookup, Import, and Export) have access keys for most buttons. "
-#~ "Usually the first letter of the button is the access key. You can always "
-#~ "hover over the button to see the tooltip."
-#~ msgstr ""
-#~ "Properties, Access, 及 Publish 畫面以及其下的次畫面（例如 Lookup, Import "
-#~ "以及 Export ）均有存取鍵來取代按按鈕。通常按鈕的第一個字母即是存取鍵。你可"
-#~ "以將滑鼠移到按鈕上即可看到輔助說明。"
-
-#~ msgid ""
-#~ "If there are two buttons with the same name, the access key for the "
-#~ "second is usually the first letter of the second word (e.g. for &#8220;"
-#~ "get image reference&#8221; and &#8220;get link reference&#8221;, the "
-#~ "access keys are &#8216;g&#8217; and &#8216;l&#8217;). Sometimes there are "
-#~ "multiples of the same button, in which case only the first has an access "
-#~ "key."
-#~ msgstr ""
-#~ "若有兩個按鈕同名，第二個按鈕將會第二個字的第一個字母為存取鍵值（例如 "
-#~ "&#8220; 為取得圖像參照，而 &#8221; and &#8220; 為取得連結參照&#8221; 存取"
-#~ "將會是 &#8216;g&#8217; 及 &#8216;l&#8217; ）。有時候若有單一按鈕有多重值的"
-#~ "情形，則只有第一個會有存取鍵值。"
-
-#~ msgid "Notes"
-#~ msgstr "備註"
-
-#~ msgid ""
-#~ "Some access keys can conflict with browser menus. However the key works "
-#~ "if the focus is in the page (a form element is active or just click in "
-#~ "the page)."
-#~ msgstr ""
-#~ "有些存取鍵值會與瀏灠器的選單相衝突。但是只要該頁為主視窗，這些鍵值仍舊有效"
-#~ "（如滑鼠停在 form 元素上或是點選該頁）"
-
-#~ msgid ""
-#~ "Mozilla and Internet Explorer handle access keys for hyperlinks "
-#~ "differently. Mozilla initiates the action (same as clicking the link), "
-#~ "whereas Explorer just highlights the link, and then you have to hit "
-#~ "return to activate it. Both browsers treat form buttons the same, "
-#~ "initiating the action immediately."
-#~ msgstr ""
-#~ "Mozilla 與 IE 瀏灠器對於超連結存取鍵的處理方式不同。Mozilla 會啟動一個對應"
-#~ "方式（就像點選連結的動作），而 IE 僅會反白這個連結，你必須按 return 鍵才會"
-#~ "有作用。但對於 form 按鈕，兩者均馬上執行相應的動作。"
-
-#~ msgid ""
-#~ "Don&#8217;t forget that most browsers use alt-left arrow to go back, and "
-#~ "alt-right arrow to go forward. On the Mac, command-left arrow and command-"
-#~ "right arrow do this."
-#~ msgstr ""
-#~ "別忘了大部份的瀏灠器都用 alt + 左方向鍵做為回到上一頁，alt + 右方向鍵為往"
-#~ "下一頁。在 Mac 系統中則使用 command 鍵＋左方向鍵以及 command 鍵＋右方向"
-#~ "鍵。"
-
-#~ msgid ""
-#~ "If you wish to create additional docs, the hyperlink of the Silva help "
-#~ "link can be changed by altering the the 'help_url' property in the Silva "
-#~ "root. See the properties tab in the Zope Management Interface."
-#~ msgstr ""
-#~ "如果想建立其他新的說明文件，Silva 說明的超連結也必須更改，請由 Silva root "
-#~ "下的 “help_url“屬性來設定。參閱 Zope Management Interface 中的 properties "
-#~ "tab."
-
-#~ msgid "Tip: one click editing"
-#~ msgstr "要訣：點選編輯"
-
-#~ msgid ""
-#~ "When viewing a public Silva page, switching to the SMI is is easiest if "
-#~ "there's a bookmark on your toolbar. Add a bookmark with the following "
-#~ "javascript:"
-#~ msgstr ""
-#~ "當瀏覽Silva公眾頁面時，如果您的工具列上有書籤去轉換SMI是最簡單的。利用"
-#~ "javascript來設書籤："
-
-#~ msgid "Silva edit"
-#~ msgstr "Silva 校定"
-
-#~ msgid "Or, save this link &#8211; ${silva_edit} &#8211; as a bookmark."
-#~ msgstr "或是儲存這個連結  &#8211; ${silva_edit} &#8211; 當作書籤"
-
-#~ msgid "Tip for Mozilla/Netscape users"
-#~ msgstr "Mozilla/Netscape 使用者的要訣"
-
-#~ msgid "Silva documentation"
-#~ msgstr "Silva 文件"
-
-#~ msgid ""
-#~ "The technical documentation is included in the Silva product in &#8216;"
-#~ "plain&#8217; structured text, gracefully degraded for text mode (no "
-#~ "links, unicode entities, etc.)."
-#~ msgstr ""
-#~ "技術說明文件附在Silva 產品之中，並以純文字模式提供，亦即已除去其中的連結、"
-#~ "unicode 實體等等。"
-
-#~ msgid "Contact"
-#~ msgstr "連絡"
-
-#~ msgid "Feedback"
-#~ msgstr "回饋"
-
-#~ msgid "Silva info: alt-i"
-#~ msgstr "Silva 資訊：alt-i"
-
-#~ msgid "Silva access keys"
-#~ msgstr "Silva 存取鍵值"
-
-#~ msgid ""
-#~ "The access key on your machine may be &#8216;alt&#8217;. On a Mac "
-#~ "it&#8217;s &#8216;ctrl&#8217;."
-#~ msgstr ""
-#~ "您機器上的存取鍵也許是  &#8216;alt&#8217;，若在 Mac  系統則為 it&#8217;s "
-#~ "&#8216;ctrl&#8217;"
-
-#~ msgid ""
-#~ "Hover over the link or button and a tooltip will popup with the access "
-#~ "key."
-#~ msgstr "當滑鼠移到按鈕或連結上時，則會有彈出視窗顯示存取鍵值及其說明"
-
-#~ msgid "Save time, energy, and wrists by keying to your destination."
-#~ msgstr "直接鍵入目的地可以節省時間、精力以及手腕的運動。"
-
-#~ msgid "see below"
-#~ msgstr "參見以下說明"
-
-#~ msgid "Global keys that are always available"
-#~ msgstr "汎用鍵都會有作用。"
-
-#~ msgid "The following access keys are available in every Silva screen."
-#~ msgstr "以下的存取鍵在每一個Silva 畫面均有作用。"
-
-#~ msgid "General"
-#~ msgstr "共用項"
-
-#~ msgid "Changing screens with the tabs"
-#~ msgstr "用 tab 鍵改變畫面"
-
-#~ msgid "Footer page info row"
-#~ msgstr "頁尾資訊列"
-
-#~ msgid "Footer user row"
-#~ msgstr "頁尾使用者列"
-
-#~ msgid "Silva help"
-#~ msgstr "Silva 輔助"
-
-#~ msgid "Contents screen (folder)"
-#~ msgstr "內容畫面（目錄）"
-
-#~ msgid "Listing header"
-#~ msgstr "列出表頭"
-
-#~ msgid "access key: alt-b"
-#~ msgstr "存取鍵：alt-b"
-
-#~ msgid "back"
-#~ msgstr "返回"
-
-#~ msgid "Silva info: alt-s"
-#~ msgstr "Silva 資訊：alt-s"
-
-#~ msgid "Silva Reference"
-#~ msgstr "Silva 參照"
-
-#~ msgid "Thanks to...."
-#~ msgstr "感謝 ...感謝..."
-
-#~ msgid ""
-#~ "The people at ${eth_zuerich} for their feedback, contributions, and "
-#~ "innovation."
-#~ msgstr "在 ${eth_zuerich} 的人們提供他們的回饋、貢獻以及創意。"
-
-#~ msgid ""
-#~ "Jan Smith at ${ozzope} for advice, hosting the documentation wiki, and "
-#~ "her tutorials."
-#~ msgstr "在  ${ozzope}  的 Jan Smith 提供咨詢、建立wiki 文件以及示範。"
-
-#~ msgid ""
-#~ "Many thanks go to Hans Verster at the ${eur} for his vision and support."
-#~ msgstr "特別感謝 ${eur} 的 Hans Verster，謝謝他的支持及眼光。"
-
-#~ msgid "Silva site"
-#~ msgstr "Silva 站台"
-
-#~ msgid "${Silva} &#8211; independent content management"
-#~ msgstr "${Silva} &#8211; 獨立的內容管理"
-
-#~ msgid "Credits"
-#~ msgstr "榮譽"
-
-#~ msgid "Infrae Silva crew"
-#~ msgstr "Infrae Silva 工作人員"
-
-#~ msgid "External developers"
-#~ msgstr "外部的開發者"
-
-#~ msgid "Request processed"
-#~ msgstr "要求已在處理中"
-
-#~ msgid "Return to where you came from..."
-#~ msgstr "返回上一頁"
-
-#~ msgid "slide to the publish screen"
-#~ msgstr "跳至發表畫面"
-
-#~ msgid "up to top contents of publication"
-#~ msgstr "回到出版品內容的最頂層"
-
-#~ msgid "up to top of publication"
-#~ msgstr "跳至出版品的頂層"
-
-#~ msgid "slide to the contents screen"
-#~ msgstr "跳到內容畫面"
-
-#~ msgid "File uploaded."
-#~ msgstr "檔案上傳。"
-
-#~ msgid "message"
-#~ msgstr "訊息"
-
-#~ msgid "${old_title} to ${new_title}"
-#~ msgstr "${old_title} 到 ${new_title}"
-
-#~ msgid "Properties changed: ${changed}"
-#~ msgstr "屬性更改：${changed}"
-
-#~ msgid "file mime type"
-#~ msgstr "檔案的 MIME Type"
-
-#~ msgid "access key: alt-c"
-#~ msgstr "存取鍵：alt-c"
-
-#~ msgid "Empty or invalid file."
-#~ msgstr "空白或是不正確的檔案。"
-
-#~ msgid "This is just a placeholder so this directory won't get pruned."
-#~ msgstr "這只是一個放置容器，所以這個目錄不能被刪減。"
-
-#~ msgid "instructions"
-#~ msgstr "指令"
-
-#~ msgid ""
-#~ "Drag the window below to the image region which should be cropped. You "
-#~ "can resize the window with the handle on the lower right corner. If "
-#~ "you're done, you can click the submit button below or double click in the "
-#~ "window to set your coordinates and close the cropping tool."
-#~ msgstr ""
-#~ "拖曳視窗至需裁切圖片的區域。您可從右下角拉出所需範圍的視窗。如果您完成這步"
-#~ "驟，便可按下完成鍵，或是在視窗內雙擊滑鼠鍵去設定您的座標，並關閉剪裁工具"
-#~ "列。"
-
-#~ msgid "predefined sizes"
-#~ msgstr "預定尺寸"
-
-#~ msgid "50x50 pixels"
-#~ msgstr "50X50 像素"
-
-#~ msgid "50x50 pixel"
-#~ msgstr "50X50 像素"
-
-#~ msgid "75x75 pixels"
-#~ msgstr "75X75 像素"
-
-#~ msgid "75x75 pixel"
-#~ msgstr "75X75 像素"
-
-#~ msgid "100x100 pixel"
-#~ msgstr "100X100 像素"
-
-#~ msgid "100x100 pixels"
-#~ msgstr "100X100 像素"
-
-#~ msgid "250x250 pixels"
-#~ msgstr "250X250 像素"
-
-#~ msgid "250x250 pixel"
-#~ msgstr "250X250 像素"
-
-#~ msgid "use coordinates..."
-#~ msgstr "使用比例限制"
-
-#~ msgid "alt-u"
-#~ msgstr "alt-u"
-
-#~ msgid "drag window"
-#~ msgstr "拖曳視窗"
-
-#~ msgid "web format"
-#~ msgstr "網頁格式"
-
-#~ msgid "scaling"
-#~ msgstr "比例"
-
-#~ msgid ""
-#~ "\n"
-#~ "\t  Image scaling for web: use width x height in pixels, or one axis "
-#~ "length, or a percentage (100x200, 100x*, *x200, 40%)."
-#~ msgstr ""
-#~ "\n"
-#~ "\t  網頁圖像縮放：使用 寬X高 像素 或是 軸長 或是百分比（100X200, 100X*, "
-#~ "*X200, 40%)"
-
-#~ msgid "cropping"
-#~ msgstr "裁切中"
-
-#~ msgid ""
-#~ "\n"
-#~ "              Image cropping for web: use the &#8216;set crop "
-#~ "coordinates&#8217; button, or enter X1xY1-X2xY2 to define the cropping "
-#~ "box.\n"
-#~ "          "
-#~ msgstr ""
-#~ "\n"
-#~ "              適合網頁使用的圖像裁切： 使用 &#8216;set crop "
-#~ "coordinates&#8217; 按鈕 或是輸入 X1xY1-X2xY2 以定義裁切框大小。\n"
-#~ "          "
-
-#~ msgid "format and scaling"
-#~ msgstr "格式和比例"
-
-#~ msgid "set crop coordinates..."
-#~ msgstr "設定裁切標"
-
-#~ msgid ""
-#~ "specify the center of the area to crop by clicking in the image: alt-o"
-#~ msgstr "指定中央區域後點擊圖片即進行裁切：alt-o"
-
-#~ msgid "change"
-#~ msgstr "改變"
-
-#~ msgid "format"
-#~ msgstr "格式"
-
-#~ msgid "dimensions"
-#~ msgstr "尺寸"
-
-#~ msgid "original"
-#~ msgstr "原始"
-
-#~ msgid "view the original image: alt-v"
-#~ msgstr "檢視原始圖片：alt-v"
-
-#~ msgid "view unscaled image"
-#~ msgstr "檢視不定尺寸的圖片"
-
-#~ msgid "orientation"
-#~ msgstr "導向"
-
-#~ msgid "The file is empty or invalid."
-#~ msgstr "此檔案空白或無效。"
-
-#~ msgid "Problem: ${errors}"
-#~ msgstr "問題： ${errors}"
-
-#~ msgid "Image updated."
-#~ msgstr "圖片更新。"
-
-#~ msgid "edit"
-#~ msgstr "編輯"
-
-#~ msgid "preview"
-#~ msgstr "預覽"
-
-#~ msgid "properties"
-#~ msgstr "屬性"
-
-#~ msgid "access"
-#~ msgstr "存取"
-
-#~ msgid "upload"
-#~ msgstr "上傳"
-
-#~ msgid "upload file"
-#~ msgstr "上傳檔案"
-
-#~ msgid "access key: alt-u"
-#~ msgstr "存取鍵：alt-u"
-
-#~ msgid "characterization"
-#~ msgstr "描述"
-
-#~ msgid "status of &#xab;${title}&#xbb;"
-#~ msgstr "&#xab;${title}&#xbb; 的狀態"
-
-#~ msgid "Locate a file."
-#~ msgstr "尋找一份檔案。"
-
-#~ msgid "miscellaneous settings: alt-e"
-#~ msgstr "雜項設定:alt-e"
-
-#~ msgid "manage subscriptions: alt-u"
-#~ msgstr "訂閱管理： alt-u"
-
-#~ msgid "There are no jobs in the queue."
-#~ msgstr "沒有工作在等候。"
-
-#~ msgid "list of processed items ${format}"
-#~ msgstr "已處理的項目名單 ${format}"
-
-#~ msgid "type"
-#~ msgstr "型態"
-
-#~ msgid "current job"
-#~ msgstr "目前工作"
-
-#~ msgid "There are no processed jobs."
-#~ msgstr "沒有被處理的工作。"
-
-#~ msgid "owner"
-#~ msgstr "所有者"
-
-#~ msgid "there's no undo: alt-x"
-#~ msgstr "無法復原：alt-x"
-
-#~ msgid "remove"
-#~ msgstr "移除"
-
-#~ msgid "import to the current location and remove from the list: alt-m"
-#~ msgstr "匯入至目前位置並從清單中移除：alt-m"
-
-#~ msgid "import and remove"
-#~ msgstr "匯入和移除"
-
-#~ msgid "import to the current location: alt-p"
-#~ msgstr "匯入至目前位置： alt-p"
-
-#~ msgid "import"
-#~ msgstr "匯入"
-
-#~ msgid "reload to update the queue lists: alt-r"
-#~ msgstr "重新更新等候列表：alt-r"
-
-#~ msgid "queue of items to process"
-#~ msgstr "佇列處理項目"
-
-#~ msgid "job id"
-#~ msgstr "工作 id"
-
-#~ msgid "job owner"
-#~ msgstr "工作擁有者"
-
-#~ msgid "estimated time"
-#~ msgstr "預計時間"
-
-#~ msgid "status"
-#~ msgstr "狀態"
-
-#~ msgid "${estimated_time} &nbsp;seconds"
-#~ msgstr "${estimated_time} &nbsp; 秒"
-
-#~ msgid "No items were selected, so no content will be exported"
-#~ msgstr "沒有選擇任何項目，因此沒有內容被輸出"
-
-#~ msgid "Currently, fullmedia export only supports one item at a time."
-#~ msgstr "目前，多媒體輸出一次只支援一個項目。"
-
-#~ msgid "Select one or more jobs to delete"
-#~ msgstr "選擇一個或多個工作進行刪除"
-
-#~ msgid "Job deleted"
-#~ msgstr "工作已刪除"
-
-#~ msgid "unknown format"
-#~ msgstr "未知的格式"
-
-#~ msgid "Silva XML"
-#~ msgstr "Silva XML"
-
-#~ msgid "Word document"
-#~ msgstr "Word 文件"
-
-#~ msgid "contents"
-#~ msgstr "內容"
-
-#~ msgid "publish"
-#~ msgstr "發表"
-
-#~ msgid "Select a file for upload."
-#~ msgstr "選擇一份檔案進行上傳。"
-
-#~ msgid "Something bad with the zipfile;"
-#~ msgstr "此壓縮檔案已損壞。"
-
-#~ msgid "added ${succeeded}"
-#~ msgstr "已增加  ${succeeded}"
-
-#~ msgid "Finished importing: ${msg}"
-#~ msgstr "匯入完成： ${msg}"
-
-#~ msgid "version already approved"
-#~ msgstr "版本已經同意"
-
-#~ msgid "Approval on: ${ids}"
-#~ msgstr "同意 : ${ids}"
-
-#~ msgid "save addable settings for this publication: alt-a"
-#~ msgstr "儲存此出版品可增加的設定值：alt-a"
-
-#~ msgid "save addables settings"
-#~ msgstr "儲存可增加的設定參數"
-
-#~ msgid "addable settings for &#xab;${title}&#xbb;"
-#~ msgstr "&#xab;${title}&#xbb; 的可增加設定"
-
-#~ msgid "acquire"
-#~ msgstr "要求"
-
-#~ msgid "addables"
-#~ msgstr "可增項目"
-
-#~ msgid "Addable settings changed for: ${changed_metadata}"
-#~ msgstr "可增設定已因 ${changed_metadata} 改變"
-
-#~ msgid "content approved, or published..."
-#~ msgstr "內容已經同意，或已發表...."
-
-#~ msgid "content approved or published"
-#~ msgstr "內容已驗證或出版"
-
-#~ msgid "move up"
-#~ msgstr "往上移動"
-
-#~ msgid "move down"
-#~ msgstr "往下移動"
-
-#~ msgid "publishing actions"
-#~ msgstr "發表動作"
-
-#~ msgid "move selected items to"
-#~ msgstr "移動所選項目至"
-
-#~ msgid "end"
-#~ msgstr "結束"
-
-#~ msgid "access key: alt-o"
-#~ msgstr "存取鍵：alt-o"
-
-#~ msgid "move selected items into position: alt-m"
-#~ msgstr "移動所選項目位置：alt-m"
-
-#~ msgid "move"
-#~ msgstr "移動"
-
-#~ msgid "rename..."
-#~ msgstr "重新命名"
-
-#~ msgid "rename and retitle items: alt-r"
-#~ msgstr "重新命名和更改標題：alt-r"
-
-#~ msgid "cut"
-#~ msgstr "剪下"
-
-#~ msgid "cut items: alt-x"
-#~ msgstr "剪下項目：alt-x"
-
-#~ msgid "copy items: alt-c"
-#~ msgstr "複製項目：alt-c"
-
-#~ msgid "copy"
-#~ msgstr "複製"
-
-#~ msgid "paste items: alt-v"
-#~ msgstr "貼上項目：alt-v"
-
-#~ msgid "paste"
-#~ msgstr "貼上"
-
-#~ msgid "paste (items on clipboard) as ghost objects: alt-g"
-#~ msgstr "貼上(剪貼簿上的文件) 作為ghost主題：alt-g"
-
-#~ msgid "paste ghost"
-#~ msgstr "貼上ghost"
-
-#~ msgid "there's no undo: alt-d"
-#~ msgstr "沒有復原：alt-d"
-
-#~ msgid "delete"
-#~ msgstr "刪除"
-
-#~ msgid "publish new versions: alt-p"
-#~ msgstr "發表新版本：alt-p"
-
-#~ msgid "publish now"
-#~ msgstr "現在出版"
-
-#~ msgid "close published items: alt-l"
-#~ msgstr "關閉已發表項目：alt-l"
-
-#~ msgid "close"
-#~ msgstr "關閉"
-
-#~ msgid "modify"
-#~ msgstr "修改"
-
-#~ msgid "shift"
-#~ msgstr "轉換"
-
-#~ msgid "Nothing was selected, so nothing was closed."
-#~ msgstr "沒有選取任何項目，所以無法關閉。"
-
-#~ msgid "is not published"
-#~ msgstr "沒有發表"
-
-#~ msgid "Closed: ${ids}"
-#~ msgstr "關閉：${ids}"
-
-#~ msgid "Nothing was selected, so nothing was copied."
-#~ msgstr "沒有選擇任何項目，所以無法複製。"
-
-#~ msgid "Placed ${ids} on the clipboard for copying."
-#~ msgstr "將 ${ids} 放到剪貼薄中以便於複製。"
-
-#~ msgid "Nothing was selected, so nothing was cut."
-#~ msgstr "沒有選取任何項目，所以無法剪下。"
-
-#~ msgid "Placed ${cut_ids} on clipboard for cutting."
-#~ msgstr "將 ${cut_ids} 放到剪裁用的剪貼薄中"
-
-#~ msgid "Could not place ${not_cut_ids} on clipboard for cutting."
-#~ msgstr "無法將 ${not_cut_ids} 放到剪裁用的剪貼薄"
-
-#~ msgid "Nothing was selected, so nothing was deleted."
-#~ msgstr "沒有選擇項目，所以無法刪除。"
-
-#~ msgid "Deleted ${deleted_ids}."
-#~ msgstr "已刪除 ${deleted_ids}。"
-
-#~ msgid ""
-#~ "Could not delete ${not_deleted_ids}. Possibly there is a published "
-#~ "version, which must be closed before it can be deleted. Or, the document "
-#~ "is approved (the link will be green), and approval needs to be revoked. "
-#~ "Change the status in the Publish screen (alt-5)."
-#~ msgstr ""
-#~ "無法刪除 ${not_deleted_ids}。可能是已發表版本，須先關閉才可刪除。或是文件"
-#~ "已經過認可(連結會是綠色的)，也得先撤回。從發表畫面去更改狀態(alt-5)。"
-
-#~ msgid "browse for a file on your disk"
-#~ msgstr "從您的電腦內瀏覽文件"
-
-#~ msgid "title for assets"
-#~ msgstr "素材的標題"
-
-#~ msgid "Optional title for all assets"
-#~ msgstr "全部素材的可選擇性標題"
-
-#~ msgid "subdirectories"
-#~ msgstr "次目錄"
-
-#~ msgid "import zip"
-#~ msgstr "匯入壓縮檔"
-
-#~ msgid "access key: alt-z"
-#~ msgstr "存取鍵：alt-z"
-
-#~ msgid "docma icon"
-#~ msgstr "docma  圖案"
-
-#~ msgid "docma facilities"
-#~ msgstr "docma  設施"
-
-#~ msgid "upload a document in word format (.doc) for conversion"
-#~ msgstr "上傳一種以word為格式的文件(.doc)來轉換"
-
-#~ msgid "note"
-#~ msgstr "備註"
-
-#~ msgid ""
-#~ "Locate a Word file to upload. It'll be converted and appear in the list "
-#~ "of processed items below. It can be imported anywhere in Silva."
-#~ msgstr ""
-#~ "找尋 Word  檔來上傳。它將會被轉換並出現在以下的已處理項目之中。 同樣地，也"
-#~ "可以被滙入到Silva 的任何地方。"
-
-#~ msgid "email address"
-#~ msgstr "電子郵件地址"
-
-#~ msgid "An e-mail will be sent to you when the item is processed."
-#~ msgstr "當項目處理時將發送電子郵件通知您。"
-
-#~ msgid ""
-#~ "This description will be shown in the queue and the list of processed "
-#~ "items."
-#~ msgstr "此描述將會顯示在等待和處理項目名單上。"
-
-#~ msgid "upload a word document from your local drive: alt-u"
-#~ msgstr "從您的電腦中上傳word文件: alt-u"
-
-#~ msgid "import in &#xab;${title}&#xbb;"
-#~ msgstr "匯入至 &#xab；${title}&#xbb；"
-
-#~ msgid "over to the export screen: alt-e"
-#~ msgstr "跳過匯出畫面：alt-e"
-
-#~ msgid "export..."
-#~ msgstr "輸出...."
-
-#~ msgid "import and extract zip archive"
-#~ msgstr "匯入並對壓縮檔案進行解壓縮"
-
-#~ msgid "file to upload"
-#~ msgstr "檔案上傳"
-
-#~ msgid "Select a file for upload"
-#~ msgstr "選擇一份檔案上傳"
-
-#~ msgid "You must enter your e-mail address"
-#~ msgstr "您必須輸入您的電子郵件地址"
-
-#~ msgid "Your job is ${status}. The id of your job is ${id}."
-#~ msgstr "您的職位是 ${status}。在您工作中所使用的id為 ${id}。"
-
-#~ msgid "Select one or more items to download"
-#~ msgstr "選擇一項或多項項目進行下載"
-
-#~ msgid "Select one or more jobs to import"
-#~ msgstr "選擇一項或多項工作進行匯入"
-
-#~ msgid "Could not import ${newid}"
-#~ msgstr "無法匯入 ${newid}"
-
-#~ msgid "Finished importing"
-#~ msgstr "匯入完畢"
-
-#~ msgid "Data is not valid Silva XML"
-#~ msgstr "這是無效的Silva XML"
-
-#~ msgid "Finished importing."
-#~ msgstr "匯入完畢。"
-
-#~ msgid "Moved ${id} down."
-#~ msgstr "${id} 向下移"
-
-#~ msgid "Could not move ${id} down."
-#~ msgstr "${id} 無法向下移"
-
-#~ msgid "Nothing was selected, so nothing was moved."
-#~ msgstr "沒有選擇任何項目，所以無法移動。"
-
-#~ msgid "First choose a position number."
-#~ msgstr "首先選擇一個位置號碼"
-
-#~ msgid "Object(s) ${ids} moved"
-#~ msgstr "${ids} 物件己移動"
-
-#~ msgid "Could not move ${ids}."
-#~ msgstr "無法移動  ${ids}。"
-
-#~ msgid "Moved ${id} up."
-#~ msgstr "${id} 向上移。"
-
-#~ msgid "Could not move ${id} up."
-#~ msgstr "${id} 無法向上移。"
-
-#~ msgid "Nothing was selected, so nothing was approved."
-#~ msgstr "沒有選擇任何項目，所以無法認同。"
-
-#~ msgid "No content available to paste."
-#~ msgstr "沒有內容可貼上。"
-
-#~ msgid "rename"
-#~ msgstr "重新命名"
-
-#~ msgid "attribute"
-#~ msgstr "屬性"
-
-#~ msgid "old"
-#~ msgstr "舊"
-
-#~ msgid "new"
-#~ msgstr "新"
-
-#~ msgid "id"
-#~ msgstr "id帳號"
-
-#~ msgid "no title"
-#~ msgstr "無標題"
-
-#~ msgid "Nothing was selected, so nothing can be renamed."
-#~ msgstr "沒有選擇任何項目，所以無法重新命名。"
-
-#~ msgid "&#xab;${item}&#xbb; could not be renamed to ${new} (invalid id)"
-#~ msgstr "&#xab;${item}&#xbb;無法重新命名為 ${new} (無效id)"
-
-#~ msgid "&#xab;${item}&#xbb; renamed successfully"
-#~ msgstr "&#xab;${item}&#xbb；重新命名成功"
-
-#~ msgid ""
-#~ "&#xab;${item}&#xbb; could not be renamed to &#xab;${new}&#xbb; (${status})"
-#~ msgstr "&#xab;${item}&#xbb; 無法重新命名 &#xab;${new}&#xbb; (${status})"
-
-#~ msgid "&#xab;${item}&#xbb; could not be renamed"
-#~ msgstr "&#xab;${item}&#xbb; 無法重新命名"
-
-#~ msgid "Can only change Publications into Folders"
-#~ msgstr "只能將出版品改成檔案夾"
-
-#~ msgid "Can only change Folders into Publications"
-#~ msgstr "只能將檔案夾改成出版品"
-
-#~ msgid "modify / preview"
-#~ msgstr "修改 / 預覽"
-
-#~ msgid "revision"
-#~ msgstr "修訂"
-
-#~ msgid "publication due"
-#~ msgstr "出版品期限至"
-
-#~ msgid "expiration due"
-#~ msgstr "截止日期為"
-
-#~ msgid "public version"
-#~ msgstr "公開版本"
-
-#~ msgid "There are no publishable items here."
-#~ msgstr "沒有可發表的項目"
-
-#~ msgid "access key: alt-m"
-#~ msgstr "存取鍵：alt-m"
-
-#~ msgid "publish time"
-#~ msgstr "發表時間"
-
-#~ msgid "access key: alt-x"
-#~ msgstr "存取鍵：alt-x"
-
-#~ msgid "expiration time"
-#~ msgstr "無效時間"
-
-#~ msgid "clear&nbsp;expiration"
-#~ msgstr "清除&nbsp;失效"
-
-#~ msgid "change publish and expiration times: alt-u"
-#~ msgstr "改變發表和失效時效：alt-u"
-
-#~ msgid "update timing"
-#~ msgstr "更新時間"
-
-#~ msgid "reject pending request for approval: alt-j"
-#~ msgstr "拒絕懸置的驗証要求；alt-j"
-
-#~ msgid "reject"
-#~ msgstr "拒絕"
-
-#~ msgid "revoke"
-#~ msgstr "撤回"
-
-#~ msgid "withdraw approval of approved versions: alt-v"
-#~ msgstr "取消對驗證版本的認同：alt-v"
-
-#~ msgid "close published items: alt-c"
-#~ msgstr "關閉已發表項目： alt-c"
-
-#~ msgid "create new versions of published docs: alt-n"
-#~ msgstr "新增一個發表文件的版本：alt-n"
-
-#~ msgid "new version"
-#~ msgstr "建立版本"
-
-#~ msgid "request approval now"
-#~ msgstr "現在請求同意"
-
-#~ msgid "request approval for new versions: alt-r"
-#~ msgstr "同意新版本請求：alt-r"
-
-#~ msgid "request approval"
-#~ msgstr "請求同意"
-
-#~ msgid "change publish and expiration times: alt-s"
-#~ msgstr "改變發表和失效時間： alt-s"
-
-#~ msgid "version already public"
-#~ msgstr "版本已公開"
-
-#~ msgid "no publication time was set"
-#~ msgstr "發表時間未設定"
-
-#~ msgid "Changed settings on: ${ids}"
-#~ msgstr "改變設定在：${ids}"
-
-#~ msgid "Nothing was selected, so no settings were changed."
-#~ msgstr "沒有選擇任何項目，所以無法改變設定。"
-
-#~ msgid "No publication nor expiration time nor any of the flags were set."
-#~ msgstr "沒有出版品也沒有逾期時間或其他相關 flags 的設定。"
-
-#~ msgid "no next or public version available"
-#~ msgstr "無下一個或其他公開版本"
-
-#~ msgid "cannot change publication time of already public versions."
-#~ msgstr "無法改變已經公開版本的發表時間。"
-
-#~ msgid "no unapproved version"
-#~ msgstr "沒有未經驗證的版本"
-
-#~ msgid "export"
-#~ msgstr "匯出"
-
-#~ msgid "options"
-#~ msgstr "選項"
-
-#~ msgid "include sub publications?"
-#~ msgstr "包含次出版品？"
-
-#~ msgid "export to Silva xml (.xml) ${or_pdf}"
-#~ msgstr "輸出成Silva xml (.xml) ${or_pdf}"
-
-#~ msgid "export newest versions?"
-#~ msgstr "匯出最新版本?"
-
-#~ msgid "If not checked the published version is exported."
-#~ msgstr "若沒勾選則已出版的版本會被輸出。"
-
-#~ msgid "export pdf"
-#~ msgstr "輸出pdf"
-
-#~ msgid "access key: alt-p"
-#~ msgstr "存取鍵：alt-p"
-
-#~ msgid "export xml"
-#~ msgstr "輸出xml"
-
-#~ msgid "access key: alt-e"
-#~ msgstr "存取鍵：alt-e"
-
-#~ msgid "export to Docma (.doc)"
-#~ msgstr "輸出成 Docma (.doc)"
-
-#~ msgid "export closed content?"
-#~ msgstr "輸出已關閉的內容？"
-
-#~ msgid "Check to include closed content in the export."
-#~ msgstr "勾選將已關閉的內容含入輸出中。"
-
-#~ msgid "choose a template"
-#~ msgstr "選擇樣板"
-
-#~ msgid "export the selection to word: alt-d"
-#~ msgstr "將所選項目匯出轉成WORD格式： alt-d"
-
-#~ msgid "export to Docma"
-#~ msgstr "輸出成 Docma"
-
-#~ msgid "items to export:"
-#~ msgstr "匯出項目"
-
-#~ msgid "export from &#xab;${title}&#xbb;"
-#~ msgstr "從 &#xab;${title}&#xbb;  匯出"
-
-#~ msgid "modify ${meta_type}"
-#~ msgstr "修改 ${meta_type}"
-
-#~ msgid "${id} of ${parent_id}"
-#~ msgstr "${ids} 的  ${ids}"
-
-#~ msgid "preview ${id}"
-#~ msgstr "預覽 ${id}"
-
-#~ msgid "Nothing was selected, so no new version was created."
-#~ msgstr "沒有選擇任何項目，所以無法新增版本。"
-
-#~ msgid "already has a next version"
-#~ msgstr "已有下一個版本"
-
-#~ msgid "Created a new version for: ${ids}"
-#~ msgstr "增加一個新版本給：${ids}"
-
-#~ msgid "could not create a new version for: ${ids}"
-#~ msgstr "無法增加一個新版本給：${ids}"
-
-#~ msgid "Nothing was selected, so no approval was rejected."
-#~ msgstr "沒有選擇任何項目，所以無認同被拒絕"
-
-#~ msgid "no approval requested"
-#~ msgstr "沒有同意請求"
-
-#~ msgid "Rejected request for approval for: ${ids}"
-#~ msgstr "拒絕 ${ids} 的同意請求"
-
-#~ msgid "Nothing was selected, so no approval was requested."
-#~ msgstr "沒有選擇任何項目，因此認同未被請求。"
-
-#~ msgid "approval already requested"
-#~ msgstr "已要求驗證"
-
-#~ msgid "no publication time set"
-#~ msgstr "沒有出版時間設定"
-
-#~ msgid "Request approval for: ${ids}"
-#~ msgstr "${ids} 驗證請求"
-
-#~ msgid "Nothing was selected, so no approval was revoked."
-#~ msgstr "沒有選擇任何項目，因此認同未被取消。"
-
-#~ msgid "it's not approved, or it's already published"
-#~ msgstr "此項目沒有被驗證，或是已發表"
-
-#~ msgid "Revoked approval of: ${ids}"
-#~ msgstr "撤回  ${ids} 的驗證"
-
-#~ msgid "No items were selected, so nothing is exported"
-#~ msgstr "沒有選擇任何項目，所以無法輸出。"
-
-#~ msgid "No description"
-#~ msgstr "沒有描述"
-
-#~ msgid "You have not entered your e-mail address"
-#~ msgstr "您尚未填寫您的電子郵件地址"
-
-#~ msgid "Your job is ${status}. The id of your job is ${job_id}."
-#~ msgstr "您的工作為 ${status}。您的工作帳號為 ${status}。"
-
-#~ msgid "Nothing was selected, so no approval was withdrawn."
-#~ msgstr "沒有選擇任何項目，所以認同未被撤除。"
-
-#~ msgid "Withdrawn request for approval for: ${list}"
-#~ msgstr "取回驗証要求：${list}"
-
-#~ msgid "Not yet :)"
-#~ msgstr "還沒有：)"
-
-#~ msgid "settings"
-#~ msgstr "設定"
-
-#~ msgid "of public version of &#xab;${title}&#xbb;"
-#~ msgstr "的公開版本的&#xab;${title}&#xbb;"
-
-#~ msgid "manage versions of &#xab;${export_id}&#xbb;"
-#~ msgstr "處理版本的 &#xab;${export_id}&#xbb；"
-
-#~ msgid "publication time"
-#~ msgstr "發表時間"
-
-#~ msgid "version status"
-#~ msgstr "版本狀態"
-
-#~ msgid "create a new editable version of the selected old one: alt-f"
-#~ msgstr "從已選取的舊版本中建立新的可編輯版本：alt-f"
-
-#~ msgid "copy for editing"
-#~ msgstr "編輯上的複製"
-
-#~ msgid "compare..."
-#~ msgstr "比較...."
-
-#~ msgid "view the selected versions next to each other: alt-="
-#~ msgstr "逐一檢視已選擇的版本：alt-="
-
-#~ msgid "content-editor"
-#~ msgstr "內容編輯者"
-
-#~ msgid "There is no approved version."
-#~ msgstr "未經驗證版本。"
-
-#~ msgid "Changed publication settings."
-#~ msgstr "更改公開設定。"
-
-#~ msgid "There is no public version to close"
-#~ msgstr "沒有公開版本可關閉"
-
-#~ msgid "Closed public version."
-#~ msgstr "關閉公開版本。"
-
-#~ msgid "No versions selected"
-#~ msgstr "沒有選擇版本"
-
-#~ msgid "Can't delete all versions"
-#~ msgstr "無法刪除所有版本"
-
-#~ msgid "could not delete ${id}: ${error}"
-#~ msgstr "無法刪除 ${id}：${error}"
-
-#~ msgid "deleted ${id}"
-#~ msgstr "已刪除${id}"
-
-#~ msgid "request approval ${for_new_version}"
-#~ msgstr "請求同意 ${for_new_version}"
-
-#~ msgid "for new version"
-#~ msgstr "給新版本"
-
-#~ msgid "message to editor"
-#~ msgstr "編輯訊息"
-
-#~ msgid "current timings"
-#~ msgstr "目前時間"
-
-#~ msgid "publish new version"
-#~ msgstr "發表新版本"
-
-#~ msgid "publish closed version"
-#~ msgstr "發表不公開版本"
-
-#~ msgid "withdraw"
-#~ msgstr "取回"
-
-#~ msgid "request"
-#~ msgstr "請求"
-
-#~ msgid "add message on"
-#~ msgstr "新增訊息"
-
-#~ msgid "rejection"
-#~ msgstr "拒絕"
-
-#~ msgid "withdrawal"
-#~ msgstr "撤回"
-
-#~ msgid "Publication time of public version"
-#~ msgstr "公眾版本的發表時間"
-
-#~ msgid "reject approval request"
-#~ msgstr "拒絕驗証要求"
-
-#~ msgid "access key: alt-j"
-#~ msgstr "存取鍵：alt-j"
-
-#~ msgid "withdraw approval request"
-#~ msgstr "撤回驗證要求"
-
-#~ msgid "revoke approval"
-#~ msgstr "取消同意"
-
-#~ msgid "If further editing is required, first revoke the approval."
-#~ msgstr "如需進一步編輯，需先取消驗證要求。"
-
-#~ msgid "Publication and expiration time of public version"
-#~ msgstr "公開版本的發行與逾期期間"
-
-#~ msgid "access key: alt-v"
-#~ msgstr "存取鍵： alt-v"
-
-#~ msgid "manual close"
-#~ msgstr "關閉指南"
-
-#~ msgid "close published version"
-#~ msgstr "關閉公開的版本"
-
-#~ msgid "messages"
-#~ msgstr "訊息"
-
-#~ msgid "${author_id} sent a message on ${some_date} ${with_comments}"
-#~ msgstr "${author_id} 發送訊息於 ${some_date} ${with_comments}"
-
-#~ msgid ""
-#~ "A previous request for approval has been rejected / withdrawn by "
-#~ "${requester} on ${some_date}. The last message regarding this issue is:"
-#~ msgstr ""
-#~ "先前的驗証請求已被 ${requester} 在 ${some_date} 時拒絕／撤回。 有關此問題"
-#~ "的最後訊息是："
-
-#~ msgid "There is no unapproved version."
-#~ msgstr "沒有未經驗證的版本。"
-
-#~ msgid "Approval has already been requested."
-#~ msgstr "已通過驗證。"
-
-#~ msgid "No version selected to copy."
-#~ msgstr "沒有選擇要複製的版本。"
-
-#~ msgid "Can only set 1 version as editable."
-#~ msgstr "只能設定一種版本為可編輯。"
-
-#~ msgid "Older version (${version_id})"
-#~ msgstr "較舊版本(${version_id})"
-
-#~ msgid "Newer version (${version_id})"
-#~ msgstr "較新版本(${version_id})"
-
-#~ msgid "You didn't select any versions."
-#~ msgstr "您沒有選擇任何版本。"
-
-#~ msgid "Please select exactly two versions."
-#~ msgstr "請正確地選擇兩種版本。"
-
-#~ msgid ""
-#~ "This content is already public. You can close the current public version."
-#~ msgstr "內容已公開。您可以關閉此公眾版本。"
-
-#~ msgid "This content is already public."
-#~ msgstr "內容已公開。"
-
-#~ msgid "This content is already approved. You can revoke the approval."
-#~ msgstr "此內容已驗證。您可以撤回驗證要求。"
-
-#~ msgid "Rejected request for approval"
-#~ msgstr "拒絕驗證的要求"
-
-#~ msgid "Withdrew request for approval"
-#~ msgstr "撤回驗證的要求"
-
-#~ msgid "day / month / year &nbsp;(23:59)"
-#~ msgstr "日/月/年 (23:59)"
-
-#~ msgid "save"
-#~ msgstr "儲存"
-
-#~ msgid "element"
-#~ msgstr "元素"
-
-#~ msgid "acquired content"
-#~ msgstr "請求的內容"
-
-#~ msgid "select all: alt-a"
-#~ msgstr "全選：alt-a"
-
-#~ msgid "siblings"
-#~ msgstr "群組成員"
-
-#~ msgid "index:"
-#~ msgstr "主頁："
-
-#~ msgid "up one level: alt-]"
-#~ msgstr "上移一層：alt-]"
-
-#~ msgid "up to containing publication: alt-["
-#~ msgstr "上移至含出版品的位置：alt-["
-
-#~ msgid "reload screen"
-#~ msgstr "重新整理畫面"
-
-#~ msgid "content renderer"
-#~ msgstr "內容算圖器（renderer）"
-
-#~ msgid "renderer"
-#~ msgstr "算圖器（renderer）"
-
-#~ msgid "session timeout"
-#~ msgstr "會議時間結束"
-
-#~ msgid ""
-#~ "In about 5 minutes, the working session is going to expire for the "
-#~ "document you are currently editing. This means that any unsaved work will "
-#~ "be lost. Press &#8216;save&#8217; (alt-s) to save any changes, or &#8216;"
-#~ "cancel&#8217; (alt-c) to do nothing, or save manually."
-#~ msgstr ""
-#~ "再過五分鐘，您目前的正在進行編輯文件的工作連線將逾時。亦即任何未儲存的工作"
-#~ "將會遺失。請按 &#8216;save&#8217; (alt-s) 儲存任何的更動，或是按 &#8216;"
-#~ "cancel&#8217; (alt-c) 取消，或是請手動儲存。"
-
-#~ msgid "cancel the automatic save action: alt-c"
-#~ msgstr "取消自動儲存：alt-c"
-
-#~ msgid " save "
-#~ msgstr " 儲存 "
-
-#~ msgid "save the document you were working on: alt-s"
-#~ msgstr "儲存您正在處理的文件：alt-s"
-
-#~ msgid "This is the ${meta_type} \"${id}\""
-#~ msgstr "此為 ${meta_type} \"${id帳號}\""
-
-#~ msgid "in"
-#~ msgstr "在"
-
-#~ msgid "for closed version of &#xab;${title}&#xbb;"
-#~ msgstr "&#xab;${title}&#xbb; 的隱藏版本"
-
-#~ msgid "for approved version of &#xab;${title}&#xbb;"
-#~ msgstr "&#xab;${title}&#xbb; 的驗證版本"
-
-#~ msgid "for public version of &#xab;${title}&#xbb;"
-#~ msgstr "給 &#xab;${title}&#xbb; 的公開版本"
-
-#~ msgid "This is a closed version. You see it, but the public won't!"
-#~ msgstr "此為封閉版本。您可對其檢視，但一般大眾無法!"
-
-#~ msgid "Select a renderer to render this content."
-#~ msgstr "為此內容選擇一算圖器（renderer）"
-
-#~ msgid "change renderer: alt-c"
-#~ msgstr "改變算圖器（renderer）: alt-c"
-
-#~ msgid "change renderer"
-#~ msgstr "改變算圖器（renderer）"
-
-#~ msgid "for published version of &#xab;${title}&#xbb;"
-#~ msgstr "&#xab;${title}&#xbb; 的公開版本"
-
-#~ msgid "settings for &#xab;${title}&#xbb;"
-#~ msgstr "&#xab;${title}&#xbb; 設定"
-
-#~ msgid "container type"
-#~ msgstr "容器（container）的格式"
-
-#~ msgid "convert to publication"
-#~ msgstr "轉換成出版品"
-
-#~ msgid "change container type to a publication: alt-p"
-#~ msgstr "改變容器（container）格式為出版品: alt-p"
-
-#~ msgid "change container type to a folder: alt-f"
-#~ msgstr "將容器（container）的格式改成資料夾：alt-f"
-
-#~ msgid "convert to folder"
-#~ msgstr "轉換成資料夾"
-
-#~ msgid "Renderer setting saved."
-#~ msgstr "算圖器（renderer）設定已儲存。"
-
-#~ msgid "There's no editable version to set the renderer on."
-#~ msgstr "沒有可編輯的版本提供給算圖器（renderer ）"
-
-#~ msgid "If this document should expire, set the time."
-#~ msgstr "如果此文件應該已過期，請設定其時間。"
-
-#~ msgid "clear expiration"
-#~ msgstr "清除逾期"
-
-#~ msgid "up a level: alt-${key}"
-#~ msgstr "跳至上一層：alt-${key}"
-
-#~ msgid "up to top of publication: alt-${key}"
-#~ msgstr "跳至訂閱頂端：alt-${key}"
-
-#~ msgid "access key: alt-${key}"
-#~ msgstr "存取鍵：alt-${key}"
-
-#~ msgid "accesskey: alt-l"
-#~ msgstr "存取鍵：: alt-l"
-
-#~ msgid "logout"
-#~ msgstr "登出"
-
-#~ msgid "jump to top: alt-t"
-#~ msgstr "跳至頂端：alt-t"
-
-#~ msgid "contact:"
-#~ msgstr "連線："
-
-#~ msgid "no name"
-#~ msgstr "匿名"
-
-#~ msgid "Leave Silva and view the public page: alt-:"
-#~ msgstr "離開Silva並檢視公開頁面：alt-:"
-
-#~ msgid "view public version"
-#~ msgstr "檢視公開版本"
-
-#~ msgid "Change your settings: alt-~"
-#~ msgstr "改變您的設定： alt-~"
-
-#~ msgid "user settings"
-#~ msgstr "使用者設定"
-
-#~ msgid "Logout of Silva: alt-q"
-#~ msgstr "登出Silva：alt-q"
-
-#~ msgid "logout ${role} ${userid}"
-#~ msgstr "登出 ${role} ${userid}"
-
-#~ msgid "Help with access keys"
-#~ msgstr "存取鍵的使用說明"
-
-#~ msgid "Silva copyright info"
-#~ msgstr "Silva 版權說明"
-
-#~ msgid "Silva info: alt-|"
-#~ msgstr "Silva說明：: alt-|"
-
-#~ msgid "Silva top: alt-/"
-#~ msgstr "Silva 頂端：alt-/"
-
-#~ msgid "&middot; manage..."
-#~ msgstr "&middot; 管理..."
-
-#~ msgid "Zope manage_main: alt-."
-#~ msgstr "Zope 管理_主頁：alt-."
-
-#~ msgid "Silva access keys: alt-?"
-#~ msgstr "Silva 存取鍵: alt-?"
-
-#~ msgid "Sorry, there are problems with these form fields:"
-#~ msgstr "抱歉，這些表單欄位有問題。"
-
-#~ msgid "Optional, but useful."
-#~ msgstr "選項，但有用。"
-
-#~ msgid "revoke role"
-#~ msgstr "移除角色"
-
-#~ msgid "user clipboard"
-#~ msgstr "使用者剪貼簿"
-
-#~ msgid "acquire restriction"
-#~ msgstr "請求限制"
-
-#~ msgid "set restriction"
-#~ msgstr "限制設定"
-
-#~ msgid "lookup users..."
-#~ msgstr "搜尋使用者..."
-
-#~ msgid "username"
-#~ msgstr "使用者名稱"
-
-#~ msgid "Create a ${addable_name}"
-#~ msgstr "增加一個 ${addable_name}"
-
-#~ msgid "new..."
-#~ msgstr "新增..."
-
-#~ msgid "create an object"
-#~ msgstr "建立一個物件"
-
-#~ msgid "publish this document: alt-p"
-#~ msgstr "出版此文件：alt-p"
-
-#~ msgid "withdraw request"
-#~ msgstr "撤回要求"
-
-#~ msgid "change the addables allowed in this publication: alt-d"
-#~ msgstr "在此出版品中改變允許加入的設定：alt-d"
-
-#~ msgid "various settings: alt-e"
-#~ msgstr "雜項設定：alt-e"
-
-#~ msgid "import xml data or a zip file: alt-i"
-#~ msgstr "匯入 xml 資料或壓縮檔案：alt-i"
-
-#~ msgid "preferred language"
-#~ msgstr "優先語言"
-
-#~ msgid "save + edit"
-#~ msgstr "儲存 + 編輯"
-
-#~ msgid "Validation error(s)"
-#~ msgstr "驗證時的錯誤"
-
-#~ msgid "Changed settings."
-#~ msgstr "已變更的設定"
-
-#~ msgid ""
-#~ "The presentation of the information within a\n"
-#~ "       publication is structured with folders. They determine the visual\n"
-#~ "       hierarchy that a Visitor sees. Folders on the top level\n"
-#~ "       define sections of a publication, subfolders define chapters, "
-#~ "etc.\n"
-#~ "       Note that unlike publications, folders are transparent, meaning "
-#~ "you\n"
-#~ "       can see through them in the sidebar tree navigation and the "
-#~ "Publish \n"
-#~ "       screen.\n"
-#~ "    "
-#~ msgstr ""
-#~ "一個出版品內的資訊呈現是利用結構化的目錄來達成。其決定了Visitor 所看到的視"
-#~ "覺化階層式架構。\n"
-#~ "        目錄的最頂層定義了出版品的章節、次目錄定義了段落，依此類推。\n"
-#~ "        要注意的是與出版品的不同之處，目錄是'透明'的，亦即你可以從'出版'的"
-#~ "螢幕畫面及側邊樹狀瀏覽之中，\n"
-#~ "        檢視目錄之中的內容物。\n"
-#~ "    "
-
-#~ msgid ""
-#~ "Ghost Folders are similar to Ghosts, but instead of being a \n"
-#~ "       placeholder for a document, they create placeholders and/or copies "
-#~ "of all \n"
-#~ "       the contents of the &#8216;original&#8217; folder. The advantage "
-#~ "of Ghost \n"
-#~ "       Folders is the contents stay in sync with the original, by manual "
-#~ "or \n"
-#~ "       automatic resyncing. Note that when a folder is\n"
-#~ "       ghosted, assets &#8211; such as Images and Files &#8211; are "
-#~ "copied\n"
-#~ "       (physically duplicated) while documents are ghosted."
-#~ msgstr ""
-#~ "Ghost 檔案夾類似 Ghost, 不同的是用來當作文件的存放處，亦即可以新設此類型的"
-#~ "檔案夾或是複製“原始“檔案夾的所有內容。使用 Ghost 檔案夾的好處是可以與原始"
-#~ "檔案夾“同步“（可經由手動設定或是自動同步）。必須注意的是當檔案夾被"
-#~ "ghosted，其內的物件如影像及檔案會被真實的複製一份（亦即不是捷徑）。"
-
-#~ msgid ""
-#~ "Web graphics (gif, jpg, png) can be uploaded and inserted in \n"
-#~ "       documents, or used as viewable assets.\n"
-#~ "    "
-#~ msgstr ""
-#~ "可上傳及插入文件中的網頁圖檔格式（gif, jpg, png），亦可作為可預覽的線上資"
-#~ "源。\n"
-#~ "    "
-
-#~ msgid ""
-#~ "Indexes can be created that function like an index in the \n"
-#~ "       back of a book. References must first be marked by placing index \n"
-#~ "       codes in text (these codes will also export to print formats). \n"
-#~ "       Indexers cascade downwards, indexing all index items in the "
-#~ "current \n"
-#~ "       and underlying folders and publications (note that it only "
-#~ "indexes \n"
-#~ "       documents that are published).\n"
-#~ "    "
-#~ msgstr ""
-#~ "索引的功能就像書籍最末的索引頁。文章內容中的索引碼標示可以參照到參考資源，"
-#~ "而這些索引碼也會出現在印出格式中。\n"
-#~ "索引器（Indexers）會逐一向下做索引，亦即會從目前的項目及其下的檔案夾、出版"
-#~ "品（僅止於已出版者）向下依次做索引。\n"
-#~ "    "
-
-#~ msgid ""
-#~ "A Silva Link makes it possible to include links to external\n"
-#~ "       sites &#8211; outside of Silva &#8211; in a Table of Contents. "
-#~ "The\n"
-#~ "       content of a Link is simply a hyperlink, beginning with\n"
-#~ "       &#8220;http://....&#8221;, or https, ftp, news, and mailto.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Silva Link 可以用來連結外在的站台，也就是目錄（Table of Contents）之外的其"
-#~ "他資源。例如 http, https, ftp, news 及 mailto 等等，\n"
-#~ "使用格式如 &#8220;http://....&#8221\n"
-#~ "    "
-
-#~ msgid "Minimum role to access has not changed"
-#~ msgstr "最低存取角色已變更"
-
-#~ msgid "Minimum role to access is now set to ${role}"
-#~ msgstr "最低存取角色被設定為 ${role}"
-
-#~ msgid "Minimum role to access is now acquired"
-#~ msgstr "需要最低的角色來存取"
-
-#~ msgid "Resource location of this content."
-#~ msgstr "此內容的來源位置"
-
-#~ msgid "Silva info on the Infrae site: alt-i"
-#~ msgstr "Infrae 網站的 Silva 資訊: alt-i"
-
-#~ msgid "Choose an item to be created within the folder."
-#~ msgstr "選擇要放入目錄夾的新建立項目"
-
-#~ msgid "find the content this ghost should refer to: alt-r"
-#~ msgstr "找出此 ghost 所參照內容的所在 ：alt-r"
-
-#~ msgid "Location of originating document."
-#~ msgstr "原始文件的所在"
-
-#~ msgid "create ${meta_type}"
-#~ msgstr "建立 ${meta_type}"
-
-#~ msgid "find the folder this ghost should refer to: alt-r"
-#~ msgstr "找出此 ghost 所參照的目錄所在：alt-r"
-
-#~ msgid "Location of originating folder."
-#~ msgstr "原始目錄的所在。"
-
-#~ msgid "link type"
-#~ msgstr "連結型態"
-
-#~ msgid "Link url."
-#~ msgstr "連結 url。"
-
-#~ msgid "What type of object should be added after creating the folder."
-#~ msgstr "在建立目錄夾之後，何種型態的物件應該被加入。"
-
-#~ msgid "create ${TOC_or_meta_type}"
-#~ msgstr "建立 ${TOC_or_meta_type}"
-
-#~ msgid "No group(s) selected, so nothing to use to add users."
-#~ msgstr "沒有選擇群體（group）,所以沒有加到新增的使用者。"
-
-#~ msgid "User(s) ${added} added to group."
-#~ msgstr "使用者 ${added}  加到群體中。"
-
-#~ msgid "No other users added (were they already in this group?)"
-#~ msgstr "沒有其他的使用者增加（還是已在這個群體中了？）"
-
-#~ msgid "No users selected, so none added."
-#~ msgstr "沒有選擇使用者，沒有增加任何人。"
-
-#~ msgid "No users selected, so none removed."
-#~ msgstr "沒有選擇使用者，所以無法移除。"
-
-#~ msgid "User(s) ${removed} removed from group."
-#~ msgstr "使用者 ${removed} 從此群組移除。"
-
-#~ msgid "transfer members from selected groups"
-#~ msgstr "從所選小組中調動成員"
-
-#~ msgid "copy users from group(s)"
-#~ msgstr "從群組中複製使用者"
-
-#~ msgid "group members"
-#~ msgstr "群組成員"
-
-#~ msgid "This group does not have any members."
-#~ msgstr "此群組一位組員也沒有。"
-
-#~ msgid "remove selected user(s) from this group: alt-r"
-#~ msgstr "從此小組移除所選的使用者： alt-r"
-
-#~ msgid "remove users"
-#~ msgstr "移除使用者"
-
-#~ msgid "add selected users to this group"
-#~ msgstr "增加所選使用者至此群組"
-
-#~ msgid "No ip range was provided, so nothing was added."
-#~ msgstr "ip範圍未被提供，所以無法增加。"
-
-#~ msgid "Range ${iprange} added to the IP Group"
-#~ msgstr "範圍 ${iprange} 增加至IP群組"
-
-#~ msgid "No group selected, so nothing copied."
-#~ msgstr "沒有選擇群組，所以無法複製。"
-
-#~ msgid "Range(s) ${copied} added."
-#~ msgstr "範圍  ${copied}  已增加。"
-
-#~ msgid "Nothing copied."
-#~ msgstr "無法複製。"
-
-#~ msgid "No ip ranges were selected, so nothing was removed."
-#~ msgstr "沒有選擇ip範圍，所以無法移除。"
-
-#~ msgid "Range(s) ${removed} removed from the group."
-#~ msgstr "範圍 ${removed} 從此群組移除。"
-
-#~ msgid "add an ip or an ip range"
-#~ msgstr "增加一個ip或ip範圍"
-
-#~ msgid "add ip range"
-#~ msgstr "增加ip範圍"
-
-#~ msgid "transfer ip(s) to this ip group"
-#~ msgstr "更改ip至此op群組"
-
-#~ msgid "copy ips to ip group"
-#~ msgstr "複製ip至ip群組"
-
-#~ msgid "IPs and IP ranges"
-#~ msgstr "IP 及 IP 範圍"
-
-#~ msgid "This IP Group does not contain any IPs."
-#~ msgstr "這個 IP 群組沒有任何 IP。"
-
-#~ msgid "remove range(s) from this ip group: alt-r"
-#~ msgstr "從此ip群組中移除範圍：alt-r"
-
-#~ msgid "remove ranges"
-#~ msgstr "移除範圍"
-
-#~ msgid "add an IP address"
-#~ msgstr "增加一個ip地址"
-
-#~ msgid "No group(s) selected, so nothing to use to add groups."
-#~ msgstr "沒有選擇群組，所以無法增加群組。"
-
-#~ msgid "Group(s) ${added} added to group."
-#~ msgstr "群組 ${added} 增加至群組。"
-
-#~ msgid "No other groups added (were they already in this virtual group?)"
-#~ msgstr "無其他群組加入(已經成為虛擬群組?)"
-
-#~ msgid "No groups selected, so none added."
-#~ msgstr "沒有群組被選擇，因此無法增加。"
-
-#~ msgid "No groups selected, so none removed."
-#~ msgstr "沒有選擇群組，所以無法移除。"
-
-#~ msgid "Group(s) ${removed} removed from group."
-#~ msgstr "群組 ${removed} 從群組中移除。"
-
-#~ msgid "add group(s) to this virtual group."
-#~ msgstr "增加群組至這個虛擬群組。"
-
-#~ msgid "add to group"
-#~ msgstr "增加至群組"
-
-#~ msgid "transfer groups defined in other virtual groups"
-#~ msgstr "從其他已定義的虛擬群組中匯入群組"
-
-#~ msgid "copy from virtual group(s)"
-#~ msgstr "從虛擬群組中複製"
-
-#~ msgid "Virtual Group &#8216;members&#8217;"
-#~ msgstr "虛擬群組 &#8216;組員&#8217;"
-
-#~ msgid "Group name"
-#~ msgstr "群組名稱"
-
-#~ msgid "This Virtual Group does not have any &#8216;member groups&#8217;."
-#~ msgstr "此虛擬群組沒有任何 &#8216;群組組員&#8217;。"
-
-#~ msgid "remove selected group(s) from this virtual group: alt-r"
-#~ msgstr "從虛擬群組中移除所選群組：alt-r"
-
-#~ msgid "remove group"
-#~ msgstr "移除群組"
-
-#~ msgid "\"Things to do when virtual groups is not in its original location\""
-#~ msgstr "\" 當虛擬群組不在其初始的位置時，應該做的事 \""
-
-#~ msgid "groups"
-#~ msgstr "群組"
-
-#~ msgid "Scaling and/or format changed"
-#~ msgstr "比例 和/或 格式已改變"
-
-#~ msgid ""
-#~ "Note: Silva can provide image scaling and conversion with the help of PIL"
-#~ msgstr "備註：Silva可以提供圖片比例並藉由PIL的幫助進行轉換。"
-
-#~ msgid "PIL doesn't seem to be installed."
-#~ msgstr "似乎沒有安裝PIL。"
-
-#~ msgid "image info"
-#~ msgstr "圖片資訊"
-
-#~ msgid "scaled"
-#~ msgstr "比例"
-
-#~ msgid "manage subscriptions for &#xab;${title}&#xbb;"
-#~ msgstr "&#xab;${title}&#xbb; 的訂閱管理"
-
-#~ msgid "Ghost Folder has been replaced by a folder"
-#~ msgstr "Ghost檔案夾已由一正常檔案夾替代"
-
-#~ msgid "Ghost Folder has been replaced by a publication"
-#~ msgstr "Ghost檔案夾已由另一份出版品替代"
-
-#~ msgid ""
-#~ "Ghost Folder changed but not synchronized, because thenew target is "
-#~ "invalid."
-#~ msgstr "Ghost 檔案夾已改變，但因新的標的不正確無法同步。"
-
-#~ msgid "Ghost Folder changed."
-#~ msgstr "Ghost檔案夾已變更。"
-
-#~ msgid "Ghost Folder was not synchronized, because the targetis invalid."
-#~ msgstr "Ghost檔案夾無法同步，因為連結標的不正確。"
-
-#~ msgid "problem"
-#~ msgstr "問題"
-
-#~ msgid "save reference"
-#~ msgstr "儲存參考資源"
-
-#~ msgid "ghost folder contents"
-#~ msgstr "ghost檔案夾內容"
-
-#~ msgid "re-synchronize with content from the source folder: alt-e"
-#~ msgstr "與來源檔案夾的內容重新同步：alt-e"
-
-#~ msgid "resync ghost folder"
-#~ msgstr "Ghost 檔案夾重新同步"
-
-#~ msgid "metadata"
-#~ msgstr "中繼資料"
-
-#~ msgid "attributes"
-#~ msgstr "屬性"
-
-#~ msgid "Path to original (begins with &#8216;/&#8217;)."
-#~ msgstr "原始路徑（介於 &#8216;/&#8217;）。"
-
-#~ msgid "Locate item to refer to: alt-r"
-#~ msgstr "找尋項目的參照:alt-r"
-
-#~ msgid "reference..."
-#~ msgstr "參見 ..."
-
-#~ msgid "link"
-#~ msgstr "連結"
-
-#~ msgid "Link to contents screen of original."
-#~ msgstr "連結到內容的原始畫面。"
-
-#~ msgid "Group: a group defined by a list of users"
-#~ msgstr "群組：從使用者名單去指定的小組"
-
-#~ msgid "Virtual Group: a group defined by a list of normal groups"
-#~ msgstr "虛擬群組：從一般群組名單去指定的小組"
-
-#~ msgid "IP Group: a group based on ip addresses"
-#~ msgstr "IP小組: 根據ip地址為主的小組"
-
-#~ msgid "groups located in this folder"
-#~ msgstr "僅限於此檔案夾的群組"
-
-#~ msgid "name"
-#~ msgstr "名稱"
-
-#~ msgid "modifier"
-#~ msgstr "修改者"
-
-#~ msgid "edit this group"
-#~ msgstr "編輯此群組"
-
-#~ msgid "No groups have been defined in this location."
-#~ msgstr "目前所在沒有指定群組。"
-
-#~ msgid "delete selected groups: alt-d"
-#~ msgstr "刪除所選群組：alt-d"
-
-#~ msgid "groups in &#xab;${title}&#xbb;"
-#~ msgstr "屬於 &#xab;${title}&#xbb; 的群組"
-
-#~ msgid "create a group"
-#~ msgstr "增加一個群組"
-
-#~ msgid ""
-#~ "No spaces or special characters besides &#8216;_&#8217; or &#8216;-"
-#~ "&#8217; or &#8216;.&#8217;"
-#~ msgstr ""
-#~ "除了沒有空間或其他特質外 &#8216;_&#8217; 或是 &#8216;-&#8217; 或是 "
-#~ "&#8216;.&#8217;"
-
-#~ msgid "Could not delete ${not_deleted_ids}."
-#~ msgstr "無法刪除 ${not_deleted_ids}。"
-
-#~ msgid "add a new item - alt-n"
-#~ msgstr "增加新項目- alt-n"
-
-#~ msgid "import..."
-#~ msgstr "匯入...."
-
-#~ msgid "access key: alt-i"
-#~ msgstr "存取鍵：alt-i"
-
-#~ msgid "import silva xml"
-#~ msgstr "匯入silva xml"
-
-#~ msgid "Locate an XML file to import (must be valid Silva XML)."
-#~ msgstr "搜尋XML檔案進行匯出(需為有效的Sliva XML)。"
-
-#~ msgid "Sorry, you're not authorized to add anything in this location."
-#~ msgstr "抱歉，您未經授權能在此增加任何項目。"
-
-#~ msgid "export to xml or convert for export: alt-e"
-#~ msgstr "輸出成xml或轉換： alt-e"
-
-#~ msgid "over to the import screen: alt-i"
-#~ msgstr "跳過匯入畫面：alt-i"
-
-#~ msgid "Not rejected: ${ids}"
-#~ msgstr "沒有拒絕：rejected:"
-
-#~ msgid "Could not revoke approval of: ${ids}"
-#~ msgstr "可能無法撤回 ${ids} 的驗證"
-
-#~ msgid "Not withdrawn: ${list}"
-#~ msgstr "沒有取回：${list}"
-
-#~ msgid "notes"
-#~ msgstr "注意"
-
-#~ msgid "preview screen"
-#~ msgstr "預覽畫面"
-
-#~ msgid ""
-#~ "An index is not editable. To view the index go to the ${preview_screen}."
-#~ msgstr "此索引無法編輯。請至 ${preview_screen} 查看索引值。"
-
-#~ msgid ""
-#~ "If new content has been added, click &#8220;update index&#8221; (in large "
-#~ "publications this may take a while)."
-#~ msgstr ""
-#~ "若有新增內容，請按 &#8220;update index&#8221; 更新索引 （若為大型出版品會"
-#~ "較費時）。"
-
-#~ msgid "Index updated"
-#~ msgstr "已更新索引"
-
-#~ msgid "Both a name and e-mail address are required to approve someone."
-#~ msgstr "當要求驗証時，姓名及電郵兩者皆為必要項目。"
-
-#~ msgid "Sorry, content is missing:"
-#~ msgstr "抱歉，內容有遺失："
-
-#~ msgid "Member is approved"
-#~ msgstr "組員已通過驗證"
-
-#~ msgid "preferred editor"
-#~ msgstr "優先編輯"
-
-#~ msgid ""
-#~ "Choose 'forms editor' for the forms-based editor, or 'kupu' for the Kupu "
-#~ "WYSIWYG editor (requires Internet Explorer 5.5+, Netscape 7+ or Mozilla "
-#~ "1.3.1+)"
-#~ msgstr ""
-#~ "選擇 'forms editor' 當作以表單為基礎的編輯器，或是 'kupu' 做為 Kupu "
-#~ "WYSIWYG 編輯器（需要  Internet Explorer 5.5+, Netscape 7+ or Mozilla "
-#~ "1.3.1+ )"
-
-#~ msgid "Full name updated"
-#~ msgstr "全名更新"
-
-#~ msgid "Email updated"
-#~ msgstr "電子郵件更新"
-
-#~ msgid "Editor updated"
-#~ msgstr "編輯者更新"
-
-#~ msgid "Language updated"
-#~ msgstr "語言更新"
-
-#~ msgid "Nothing changed."
-#~ msgstr "沒有改變。"
-
-#~ msgid "save member data: alt-s"
-#~ msgstr "儲存組員資料：alt-s"
-
-#~ msgid "close window: alt-c"
-#~ msgstr "關閉視窗：alt-c"
-
-#~ msgid "characteristic"
-#~ msgstr "特徵"
-
-#~ msgid "reference"
-#~ msgstr "參考資源"
-
-#~ msgid "path to original (begins with &#8216;/&#8217;)."
-#~ msgstr "原始路徑 (從 &#8216;/&#8217 開始；)。"
-
-#~ msgid "Link to editor screen of original."
-#~ msgstr "連結至原始的編輯畫面。"
-
-#~ msgid "Ghost changed."
-#~ msgstr "Ghost 更新。"
-
-#~ msgid "Link changed"
-#~ msgstr "連結已改變"
-
-#~ msgid "link url"
-#~ msgstr "連結網址"
-
-#~ msgid "change link"
-#~ msgstr "改變連結"
-
-#~ msgid "'first un-approve' this item in order to edit: alt-r"
-#~ msgstr "此項目若要編輯，請先取回驗証動作：alt -r"
-
-#~ msgid ""
-#~ "${note} this version is approved but not yet public. In order to make "
-#~ "changes you need to first revoke the approval."
-#~ msgstr ""
-#~ "${note} 此版本已驗証但未公開出版。 為了要讓您的更新有效，請先撤回驗証。"
-
-#~ msgid "withdraw a request for approval in order to edit: alt-w"
-#~ msgstr "為了要編輯，撤回驗証要求：alt-w"
-
-#~ msgid ""
-#~ "${note} this version has an request for approval pending. In order to "
-#~ "make changes you need to first withdraw the pending request."
-#~ msgstr "${note} 此版本已要求懸置驗証。為了要能更新內容，請先撤回懸置要求。"
-
-#~ msgid "Somebody else just edited this item, unlock it: alt-u"
-#~ msgstr "有人解開並編輯過此項目：alt-u"
-
-#~ msgid "break lock"
-#~ msgstr "解除鎖定"
-
-#~ msgid ""
-#~ "${note} This object is already being edited by another user, and is "
-#~ "temporarily locked."
-#~ msgstr "${note}  此物件已被他人編輯，而且暫時鎖定。"
-
-#~ msgid "Note:"
-#~ msgstr "備註："
-
-#~ msgid "work on a new version while the previous one stays online: alt-n"
-#~ msgstr "當舊版本仍在線上時，使用另一個新版本：alt-n"
-
-#~ msgid ""
-#~ "${note} there is already a published or closed version of this content. "
-#~ "Changes can only be made in a new version."
-#~ msgstr ""
-#~ "${note}  此內容已有已出版版本或是未公開版本存在。更動僅適用於新版本。"
-
-#~ msgid "Lock broken"
-#~ msgstr "鎖定已損壞"
-
-#~ msgid "view «${version_title}»"
-#~ msgstr "瀏覽 «${version_title}»"
-
-#~ msgid "No role selected."
-#~ msgstr "沒有選擇角色。"
-
-#~ msgid "No groups selected."
-#~ msgstr "沒有選擇群組。"
-
-#~ msgid "Role(s) assigned for ${list}"
-#~ msgstr "角色分配 ${list}"
-
-#~ msgid "No user(s) selected."
-#~ msgstr "沒有選擇使用者。"
-
-#~ msgid "No roles to revoke selected."
-#~ msgstr "無對象被選擇移除。"
-
-#~ msgid "Role(s) revoked for ${list}"
-#~ msgstr "角色移除 ${list}"
-
-#~ msgid "Role(s) revoked"
-#~ msgstr "對象已被移除。"
-
-#~ msgid "map cleared"
-#~ msgstr "清除對映"
-
-#~ msgid "You have to enter a path here."
-#~ msgstr "您必須輸入路徑。"
-
-#~ msgid "The ghost is in an undefined state."
-#~ msgstr "ghost在一個未定義的狀態。"
-
-#~ msgid "Users selected."
-#~ msgstr "選擇使用者。"
-
-#~ msgid "No users selected."
-#~ msgstr "沒有選擇使用者。"
-
-#~ msgid "Users removed from selection."
-#~ msgstr "移除所選使用者。"
-
-#~ msgid "No users removed."
-#~ msgstr "沒有使用者被移除。"
-
-#~ msgid "No search string supplied."
-#~ msgstr "無合乎的搜尋字串。"
-
-#~ msgid ""
-#~ "Search string '${string}' is too short. Please try a longer search string."
-#~ msgstr "搜尋字串 '${string}' 過短。請嘗試一個更長的搜索字符串。"
-
-#~ msgid "No users found for search string '${string}'."
-#~ msgstr "沒有發現合乎搜尋字串的使用者'${string}'。"
-
-#~ msgid "Searched for '${string}'."
-#~ msgstr "搜尋 '${string}'。"
-
-#~ msgid "search"
-#~ msgstr "搜尋"
-
-#~ msgid "add checked users to clipboard: alt-a"
-#~ msgstr "增加勾選的使用者到剪貼薄：alt-a"
-
-#~ msgid "add to clipboard"
-#~ msgstr "新增至剪貼簿"
-
-#~ msgid "search results"
-#~ msgstr "搜尋結果"
-
-#~ msgid "user"
-#~ msgstr "使用者"
-
-#~ msgid "email"
-#~ msgstr "電子郵件"
-
-#~ msgid "No search results."
-#~ msgstr "沒有搜尋結果。"
-
-#~ msgid "user lookup at &#xab;${title_or_id}&#xbb;"
-#~ msgstr "使用者在 &#xab;${title_or_id}&#xbb; 查尋"
-
-#~ msgid "user search"
-#~ msgstr "使用者搜尋"
-
-#~ msgid "name (or part of name)"
-#~ msgstr "名稱(或名稱的一部份)"
-
-#~ msgid "return to the access screen with this clipboard: alt-u"
-#~ msgstr "用此剪貼薄傳回存取畫面：alt-u"
-
-#~ msgid "remove user"
-#~ msgstr "移除使用者"
-
-#~ msgid "remove users from the clipboard: alt-r"
-#~ msgstr "從剪貼簿中移除使用者：alt-r"
-
 #~ msgid "return to previous screen: alt-k"
 #~ msgstr "回到先前畫面：alt-k"
-
-#~ msgid "of &#xab;${title}&#xbb;"
-#~ msgstr "#xab;${title}&#xbb; 的"
-
-#~ msgid "no_groups_available"
-#~ msgstr "無法可用的群組"
-
-#~ msgid "existing ${type} groups"
-#~ msgstr "${type} 群組已存在"
-
-#~ msgid "ctrl-click to multi-select"
-#~ msgstr "按  ctrl-click 可複選"
-
-#~ msgid "select_groups"
-#~ msgstr "選擇_群組"
-
-#~ msgid "select users:"
-#~ msgstr "選擇使用者："
-
-#~ msgid "No users on clipboard"
-#~ msgstr "剪貼簿上無使用者"
-
-#~ msgid "first 'un-approve' this item in order to edit: alt-r"
-#~ msgstr "為了要編輯，請先取消同意此項目：alt-r"
-
-#~ msgid "create a new version of this content: alt-n"
-#~ msgstr "對此內容建立新版本：alt-n"
-
-#~ msgid "No users with local roles are defined here."
-#~ msgstr "在此沒有使用者屬未定義任何的本地端角色。"
-
-#~ msgid "select a role to assign"
-#~ msgstr "選擇指定對象"
-
-#~ msgid "select role:"
-#~ msgstr "選擇對象："
-
-#~ msgid "assign role"
-#~ msgstr "指定對象"
-
-#~ msgid "assign a local role to selected user(s)"
-#~ msgstr "選擇使用者至所指派的角色"
-
-#~ msgid "revoke selected role(s) from selected user(s)"
-#~ msgstr "從所選使用者中移除所選角色"
-
-#~ msgid "pending requests for roles"
-#~ msgstr "等待請求的角色"
-
-#~ msgid "requested role"
-#~ msgstr "被請求角色"
-
-#~ msgid "is approved"
-#~ msgstr "已經過認可"
-
-#~ msgid "No roles have been requested."
-#~ msgstr "沒有角色被請求。"
-
-#~ msgid "access key: alt-d"
-#~ msgstr "存取鍵：alt-d"
-
-#~ msgid "deny role"
-#~ msgstr "拒絕角色"
-
-#~ msgid "access key: alt-g"
-#~ msgstr "存取鍵：alt-g"
-
-#~ msgid "access key: alt-a"
-#~ msgstr "存取鍵： alt-a"
-
-#~ msgid "Grant and approve"
-#~ msgstr "授權且同意"
-
-#~ msgid "assign"
-#~ msgstr "分派"
-
-#~ msgid "A Groups Service is not installed"
-#~ msgstr "沒有安裝群組服務"
-
-#~ msgid ""
-#~ "You are seeing this message because the Silva Groups extension is "
-#~ "installed on the file system, but a Groups Service hasn't been added to "
-#~ "this Silva instance. To install one, go to the ${silva_root_in_the_ZMI}, "
-#~ "choose &#8220;Groups Service&#8221; from the add list and give it the id "
-#~ "${service_groups}. No further configuration is necessary."
-#~ msgstr ""
-#~ "您會看到此訊息是因為在檔案系統中已安裝了 Silva 群組延伸功能，但是此Silva "
-#~ "instance 並沒有加入群組服務。請移至  ${silva_root_in_the_ZMI} 從表列新增項"
-#~ "目中點選 #8220;Groups Service&#8221; 並給予此 id ${service_groups}. 並不需"
-#~ "要更進一步的設定。"
-
-#~ msgid "grant or revoke local roles for groups"
-#~ msgstr "授權或取消群組目前職位"
-
-#~ msgid "groupname"
-#~ msgstr "群組名稱"
-
-#~ msgid "No groups with (local) roles."
-#~ msgstr "沒有含本地角色的群組。"
-
-#~ msgid "assign role to group"
-#~ msgstr "指定角色至群組"
-
-#~ msgid "revoke selected role(s) from selected group(s)"
-#~ msgstr "從所選群組移除所選的角色"
-
-#~ msgid "revoke role from group"
-#~ msgstr "從群組移除角色"
-
-#~ msgid "assign selected role to selected group(s)"
-#~ msgstr "指定所選角色至所選群組。"
-
-#~ msgid "public view access restrictions for"
-#~ msgstr "公開瀏覽存取權被限定為"
-
-#~ msgid "access restriction by role"
-#~ msgstr "根據角色的存取限制"
-
-#~ msgid "current restriction"
-#~ msgstr "當前限制"
-
-#~ msgid "Open to the public"
-#~ msgstr "開放給一般大眾"
-
-#~ msgid "(acquired)."
-#~ msgstr "（請求）。"
-
-#~ msgid ""
-#~ "Setting an access restriction here affects objects on this and lower "
-#~ "levels."
-#~ msgstr "存取限制的設定，會影響目前的物件以及其下次階層的內容。"
-
-#~ msgid "restrict access to users with a specific role"
-#~ msgstr "僅允許特殊角色的使用者可以存取"
-
-#~ msgid ""
-#~ "cancel the access restriction at this level, making it inherit from above"
-#~ msgstr "取消這層的存取限制，讓其直接繼承上一層的設定。"
-
-#~ msgid "user roles for"
-#~ msgstr "使用者角色"
-
-#~ msgid "grant or revoke local roles for users"
-#~ msgstr "對使用者授權或取消目前角色"
-
-#~ msgid "An access restriction here affects objects on this and lower levels."
-#~ msgstr "此存取權限制會影響到這層的物件以及其下的階層。"
-
-#~ msgid "roles defined above"
-#~ msgstr "角色定義如前"
-
-#~ msgid "roles defined here"
-#~ msgstr "在此定義角色"
-
-#~ msgid "No requests selected"
-#~ msgstr "沒有選擇請求"
-
-#~ msgid "email addresses for"
-#~ msgstr "電子郵件為"
-
-#~ msgid "listing of all authorized users below this level"
-#~ msgstr "以下表列此層所授權的使用者"
-
-#~ msgid ""
-#~ "Addresses are formatted for copying and pasting in the &#8216;To:&#8217; "
-#~ "field of an email message."
-#~ msgstr ""
-#~ "地址已被轉成可以複製及貼上的格式，可直接貼到電郵訊息中的 &#8216;To:"
-#~ "&#8217; 欄"
-
-#~ msgid "save subscription settings"
-#~ msgstr "儲存訂閱設定"
-
-#~ msgid "This object is not subscribable content."
-#~ msgstr "此主題非訂閱內容"
-
-#~ msgid "subscriptions icon"
-#~ msgstr "訂閱圖示"
-
-#~ msgid ""
-#~ "${numberofsubscriptions} subscription(s) for this object defined above."
-#~ msgstr "此物件已定義的訂閱次數：${numberofsubscriptions}"
-
-#~ msgid ""
-#~ "\n"
-#~ "              Set the subscribability for this content (Yes or No), or "
-#~ "set it\n"
-#~ "              to acquire the subscribability from above (the default).\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              \n"
-#~ "\n"
-#~ "               設定此內容是否可供訂閱（Yes or No），或是\n"
-#~ "               根據上一層的設定（預設值）。\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "              List of email addresses (one per line) currently subscribed "
-#~ "to this content.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              \n"
-#~ "\n"
-#~ "               此內容目前訂閱者的電郵地址表列（一列一個）\n"
-#~ "            "
-
-#~ msgid "&laquo; Previous ${n} items"
-#~ msgstr "&laquo; 前 ${n} 項"
-
-#~ msgid "Next ${n} items &raquo;"
-#~ msgstr "下 ${n} 項 &raquo;"
-
-#~ msgid "jump to zope root: alt-z"
-#~ msgstr "跳至 Zope root: alt-z"
-
-#~ msgid "zroot..."
-#~ msgstr "zroot..."
-
-#~ msgid "sroot..."
-#~ msgstr "sroot..."
-
-#~ msgid "jump to silva root in zodb: alt-'"
-#~ msgstr "在 Zodb 中跳至 silva root: alt-'"
-
-#~ msgid "jump to silva services: alt-`"
-#~ msgstr "跳至silva services：alt-`"
-
-#~ msgid "sservices..."
-#~ msgstr "sservices..."
-
-#~ msgid "Request an additional role in this location: alt-,"
-#~ msgstr "在此文件位置要求一個額外的職務：alt-,"
-
-#~ msgid "request access"
-#~ msgstr "存取請求"
-
-#~ msgid "This ghost is broken. (${haunted_url})"
-#~ msgstr "ghost 已損壞。(${haunted_url})"
-
-#~ msgid ""
-#~ "This 'ghost' document is broken. Please inform the site administrator."
-#~ msgstr "\"ghost\"文件已損壞。請通知網站管理者。"
-
-#~ msgid "Path does not lead to a content object"
-#~ msgstr "主題內容路徑錯誤"
-
-#~ msgid "content is not subscribable"
-#~ msgstr "內容不可訂閱"
-
-#~ msgid "emailaddress not valid"
-#~ msgstr "電子郵件地址不正確"
-
-#~ msgid ""
-#~ "Confirmation request for cancellation has been emailed to ${emailaddress}"
-#~ msgstr "為確認取消，已寄發電子郵件至${emailaddress}"
-
-#~ msgid "Subscription failed"
-#~ msgstr "認證失敗"
-
-#~ msgid ""
-#~ "You have been successfully subscribed. This means you will receive email "
-#~ "notifications whenever a new version of these pages becomes available."
-#~ msgstr "您已認證成功。這表示每當頁面有新版本時，您將會收到電子郵件通知。"
-
-#~ msgid "membership"
-#~ msgstr "會員身份"
-
-#~ msgid "Request roles at this location"
-#~ msgstr "目前職務請求"
-
-#~ msgid "full name"
-#~ msgstr "全名"
-
-#~ msgid "e-mail address"
-#~ msgstr "電子郵件地址"
-
-#~ msgid "Choose role(s) to request"
-#~ msgstr "選擇請求職務"
-
-#~ msgid " Send request "
-#~ msgstr " 送出請求 "
-
-#~ msgid "Send request for role: alt-s"
-#~ msgstr "傳送職務請求：alt-s"
-
-#~ msgid "This site does not allow requests for roles"
-#~ msgstr "此網站不接受職務請求"
-
-#~ msgid "You must enter your full name and your e-mail address"
-#~ msgstr "您必須輸入您的全名和電子郵件地址。"
-
-#~ msgid "Error: ${error}"
-#~ msgstr "錯誤：${error}"
-
-#~ msgid ""
-#~ "Roles requested. You will receive an e-mail from the Chief Editor or "
-#~ "Manager as soon as your request is processed."
-#~ msgstr "已請求職務。當請求處理後，您將收到總編輯或管理者所寄出的電子郵件。"
-
-#~ msgid "No roles were selected."
-#~ msgstr "沒有選擇對象"
-
-#~ msgid ""
-#~ "\n"
-#~ "              Select (multiple using ctrl-key) object type(s) to search "
-#~ "in. \n"
-#~ "              If none is selected, all types are searched.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              選擇物件的格式（可使用 ctrl 鍵進行複選）以進行搜尋。 \n"
-#~ "                如果沒特定條件，將搜尋所有格式。\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "              Use an asterix ('*') for wildcard.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              使用('*')作為萬用字元。\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "              Check to restrict search to this content's subtree.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              勾選以限定在此內容的次樹狀目錄內查尋\n"
-#~ "            "
-
-#~ msgid ""
-#~ "Confirmation request for subscription has been emailed to ${emailaddress}"
-#~ msgstr "訂閱的確認信已寄到這裡 ${emailaddress}"
-
-#~ msgid "Subscribe to &#xab;${title_or_id}&#xbb;"
-#~ msgstr "訂閱  &#xab;${title_or_id}&#xbb;"
-
-#~ msgid ""
-#~ "Fill in your email address if you want to receive email notifications "
-#~ "whenever a new version of this page or its subdocuments becomes available."
-#~ msgstr ""
-#~ "請填寫您旳email 位址，當本頁或其下文件有新的版本時，將會以電子郵件通知您。"
-
-#~ msgid "subscribe"
-#~ msgstr "訂閱"
-
-#~ msgid "Unsubscribe from &#xab;${title_or_id}&#xbb;"
-#~ msgstr "取消 &#xab;${title_or_id}&#xbb; 的訂閱"
-
-#~ msgid ""
-#~ "Fill in your email address if you want to unsubscribe from email "
-#~ "notifications for this page and its subdocuments."
-#~ msgstr "請填寫您旳email 位址以取消本頁及其下文件的訂閱功能。"
-
-#~ msgid "unsubscribe"
-#~ msgstr "取消訂閱"
-
-#~ msgid "Return to &#xab;${title_or_id}&#xbb;"
-#~ msgstr "回到 &#xab;${title_or_id}&#xbb;"
-
-#~ msgid ""
-#~ "Publications are special folders. They function as the \n"
-#~ "       major organizing blocks of a Silva site. They are comparable to \n"
-#~ "       binders, and can contain folders, documents, and assets. \n"
-#~ "       Publications are opaque. They instill a threshold of view, "
-#~ "showing\n"
-#~ "       only the contents of the current publication. This keeps the "
-#~ "overview\n"
-#~ "       screens manageable. Publications have configuration settings that\n"
-#~ "       determine which core and pluggable objects are available. For\n"
-#~ "       complex sites, sub-publications can be nested.\n"
-#~ "    "
-#~ msgstr ""
-#~ "出版品（Publications）是一個特殊的檔案夾。可被視為 Silva 站台的主要組成區"
-#~ "塊。其功能就像一個粘合器（binder），可以用來存放其他檔案夾、文件及其他物"
-#~ "件。 出版品是不可視的，亦即無法直接對其中的內容一目了然，僅能看到目前已出"
-#~ "版的內容。出版品也可經由設定來決定其中哪些主要及可插入的物件是否可編輯。對"
-#~ "於一些較複雜的站台而言，次出版品也可以是巢狀結構。\n"
-#~ "    "
-
-#~ msgid "groups administration: alt-g"
-#~ msgstr "群組管理：alt-g"
-
-#~ msgid "lookup users: alt-l"
-#~ msgstr "搜尋使用者：alt-l"
 
 #~ msgid "see the content in the public layout: alt-;"
 #~ msgstr "查看公開配置的內容：alt-；"
@@ -6057,37 +3481,28 @@ msgstr ""
 #~ msgid "public&nbsp;preview..."
 #~ msgstr "公開&nbsp;預覽..."
 
-#~ msgid "publish&nbsp;now"
-#~ msgstr "公開&nbsp;現在"
-
 #~ msgid ""
 #~ "This is a special document that automagically displays a\n"
-#~ "       table of contents. Usually it&#8217;s used as an &#8216;"
-#~ "index&#8217;\n"
-#~ "       document. In that case the parent folder shows a table of "
-#~ "contents\n"
+#~ "       table of contents. Usually it&#8217;s used as an &#8216;index&#8217;\n"
+#~ "       document. In that case the parent folder shows a table of contents\n"
 #~ "       when accessed (e.g. http://www.x.yz/silva/myFolder/)."
 #~ msgstr ""
 #~ "這是一份特殊的文件，將會自動顥示目次。\n"
 #~ "        通常這個 ’ 會被當做 ‘index’ 文件。\n"
-#~ "        在這種情形之下，當存取資料時，上一層的目錄會顯示目次內容 （例如："
-#~ "http://www.x.yz/silva/myFolder/ ）"
+#~ "        在這種情形之下，當存取資料時，上一層的目錄會顯示目次內容 （例如：http://www.x.yz/silva/myFolder/ ）"
 
 #~ msgid ""
 #~ "Any digital file can be uploaded as Silva content. \n"
-#~ "       For instance large files such as pdf docs or mpegs can be placed "
-#~ "in a\n"
+#~ "       For instance large files such as pdf docs or mpegs can be placed in "
+#~ "a\n"
 #~ "       site. File objects have metadata as well. \n"
-#~ "       <!-- Abstract base class. Depends on a _file attribute and "
-#~ "various \n"
+#~ "       <!-- Abstract base class. Depends on a _file attribute and various \n"
 #~ "       methods in the concrete subclasses. (sorry) -->\n"
 #~ "    "
 #~ msgstr ""
 #~ "任何的數位檔案都可以上傳成為Silva content\n"
-#~ "          例如像 pdf, docs, 或是 mpegs 都可以放到網站上。檔案物件也擁有 "
-#~ "metadata。 \n"
-#~ "          <!-- 抽像基礎類別。主要決定於實體類別中的 _file 屬性及其他方法。"
-#~ "(sorry) -->\n"
+#~ "          例如像 pdf, docs, 或是 mpegs 都可以放到網站上。檔案物件也擁有 metadata。 \n"
+#~ "          <!-- 抽像基礎類別。主要決定於實體類別中的 _file 屬性及其他方法。(sorry) -->\n"
 #~ "    "
 
 #~ msgid "Cannot approve version; not allowed."
@@ -6100,11 +3515,11 @@ msgstr ""
 
 #~ msgid ""
 #~ "${listing_footer}<br /> a &nbsp; select all<br /> r &nbsp; rename<br /> d "
-#~ "&nbsp; delete<br /> x &nbsp; cut<br /> c &nbsp; copy<br /> v &nbsp; "
-#~ "paste<br /> g &nbsp; paste as ghost"
+#~ "&nbsp; delete<br /> x &nbsp; cut<br /> c &nbsp; copy<br /> v &nbsp; paste<br "
+#~ "/> g &nbsp; paste as ghost"
 #~ msgstr ""
-#~ "${listing_footer}<br /> a   選取全部 <br /> r   更名 <br /> d   刪除 <br /"
-#~ "> x   剪 <br /> c   拷貝 <br /> v   貼 <br /> g   貼成 ghost"
+#~ "${listing_footer}<br /> a   選取全部 <br /> r   更名 <br /> d   刪除 <br /> x   剪 "
+#~ "<br /> c   拷貝 <br /> v   貼 <br /> g   貼成 ghost"
 
 #~ msgid "; &nbsp; See public preview<br />"
 #~ msgstr "; 　; 參見公開預覽 <br />"
@@ -6114,15 +3529,14 @@ msgstr ""
 
 #~ msgid ""
 #~ "${listing_footer}<br /> a &nbsp; select all<br /> n &nbsp; create new "
-#~ "vesions<br /> j &nbsp; reject (request for approval)<br /> v &nbsp; "
-#~ "revoke (request for approval)<br /> c &nbsp; close (public version)<br /> "
-#~ "l &nbsp; approve for later<br /> u &nbsp; update settings<br /> p &nbsp; "
-#~ "publish now<br />"
+#~ "vesions<br /> j &nbsp; reject (request for approval)<br /> v &nbsp; revoke "
+#~ "(request for approval)<br /> c &nbsp; close (public version)<br /> l &nbsp; "
+#~ "approve for later<br /> u &nbsp; update settings<br /> p &nbsp; publish "
+#~ "now<br />"
 #~ msgstr ""
-#~ "${listing_footer}<br /> a &nbsp; 全選 <br /> n &nbsp; 建立新版本 <br /> j "
-#~ "&nbsp; 拒絕（驗證的要求）<br /> v &nbsp; 撒回（驗證的要求）<br /> c "
-#~ "&nbsp; 結束（公開版本）<br /> l &nbsp; 容後驗證 <br /> u &nbsp; 更新設定 "
-#~ "<br /> p &nbsp; 立即公開 <br />"
+#~ "${listing_footer}<br /> a &nbsp; 全選 <br /> n &nbsp; 建立新版本 <br /> j &nbsp; "
+#~ "拒絕（驗證的要求）<br /> v &nbsp; 撒回（驗證的要求）<br /> c &nbsp; 結束（公開版本）<br /> l &nbsp; "
+#~ "容後驗證 <br /> u &nbsp; 更新設定 <br /> p &nbsp; 立即公開 <br />"
 
 #~ msgid "c &nbsp; cancel<br /> a &nbsp; add<br /> e &nbsp; add and edit/enter"
 #~ msgstr "c &nbsp; 取消 <br /> a &nbsp; 新增 <br /> e &nbsp; 新增及修改／編輯"
@@ -6131,54 +3545,52 @@ msgstr ""
 #~ "( &nbsp; forms editor<br /> ) &nbsp; Kupu editor<br /> ; &nbsp; public "
 #~ "preview<br /> p &nbsp; publish now<br />"
 #~ msgstr ""
-#~ "( &nbsp; forms editor<br /> ) &nbsp; Kupu editor<br /> ; &nbsp; 公開預覽 "
-#~ "<br /> p &nbsp;立即公開 <br />"
+#~ "( &nbsp; forms editor<br /> ) &nbsp; Kupu editor<br /> ; &nbsp; 公開預覽 <br /> "
+#~ "p &nbsp;立即公開 <br />"
 
 #~ msgid ""
 #~ "${kupu_editor}<br /> b &nbsp; bold<br /> i &nbsp; italic<br /> u &nbsp; "
-#~ "underline<br /> - &nbsp; subscript<br /> + &nbsp; superscript<br /> # "
-#~ "&nbsp; numbered list<br /> * &nbsp; bulleted list<br /> = &nbsp; "
-#~ "definition list<br /> z &nbsp; undo<br /> y &nbsp; redo<br /> h &nbsp; "
-#~ "html source<br />"
+#~ "underline<br /> - &nbsp; subscript<br /> + &nbsp; superscript<br /> # &nbsp; "
+#~ "numbered list<br /> * &nbsp; bulleted list<br /> = &nbsp; definition list<br "
+#~ "/> z &nbsp; undo<br /> y &nbsp; redo<br /> h &nbsp; html source<br />"
 #~ msgstr ""
-#~ "${kupu_editor}<br /> b &nbsp; 粗體 <br /> i &nbsp; 斜體 <br /> u &nbsp; 底"
-#~ "線 <br /> - &nbsp; 下標 <br /> + &nbsp; 上標 <br /> # &nbsp; 數字列表 "
-#~ "<br /> * &nbsp; 圖樣列表 <br /> = &nbsp;自訂列表 <br /> z &nbsp; 放棄 "
-#~ "<br /> y &nbsp; 重做 <br /> h &nbsp; html 原始碼 <br />"
+#~ "${kupu_editor}<br /> b &nbsp; 粗體 <br /> i &nbsp; 斜體 <br /> u &nbsp; 底線 <br "
+#~ "/> - &nbsp; 下標 <br /> + &nbsp; 上標 <br /> # &nbsp; 數字列表 <br /> * &nbsp; 圖樣列表 "
+#~ "<br /> = &nbsp;自訂列表 <br /> z &nbsp; 放棄 <br /> y &nbsp; 重做 <br /> h &nbsp; "
+#~ "html 原始碼 <br />"
 
 #~ msgid ""
 #~ "${forms_editor}<br /> s &nbsp; save<br /> e &nbsp; save and exit<br /> i "
-#~ "&nbsp; save and insert<br /> tab Use your tab key to edit without using "
-#~ "the mouse. Shift-tab goes backwards."
+#~ "&nbsp; save and insert<br /> tab Use your tab key to edit without using the "
+#~ "mouse. Shift-tab goes backwards."
 #~ msgstr ""
-#~ "${forms_editor}<br /> s &nbsp;儲存 <br /> e &nbsp;儲存及離開 <br /> i "
-#~ "&nbsp; 儲存及新增 <br />tab 使用 tabe 鍵來編輯而不用滑鼠。shift-tab 可以反"
-#~ "向移動"
+#~ "${forms_editor}<br /> s &nbsp;儲存 <br /> e &nbsp;儲存及離開 <br /> i &nbsp; 儲存及新增 "
+#~ "<br />tab 使用 tabe 鍵來編輯而不用滑鼠。shift-tab 可以反向移動"
 
 #~ msgid ""
-#~ "Managers can do the same and create a <a href=\"javascript:window."
-#~ "location.pathname=(window.location.pathname +'/manage_main').replace(/\\/"
-#~ "\\//,'/')\" name=\"manage\">manage...</a> bookmark."
+#~ "Managers can do the same and create a <a "
+#~ "href=\"javascript:window.location.pathname=(window.location.pathname "
+#~ "+'/manage_main').replace(/\\/\\//,'/')\" name=\"manage\">manage...</a> "
+#~ "bookmark."
 #~ msgstr ""
-#~ "管理者可以複製或建立一個新的 <a href=\"javascript:window.location."
-#~ "pathname=(window.location.pathname +'/manage_main').replace(/\\/"
-#~ "\\//,'/')\" name=\"manage\">manage...</a> 書籤。"
+#~ "管理者可以複製或建立一個新的 <a "
+#~ "href=\"javascript:window.location.pathname=(window.location.pathname "
+#~ "+'/manage_main').replace(/\\/\\//,'/')\" name=\"manage\">manage...</a> 書籤。"
 
 #~ msgid ""
-#~ "Thanks to <a href=\"http://www.ethz.ch/\" name=\"eth_zuerich\">ETH Z&uuml;"
-#~ "rich</a> for this trick."
+#~ "Thanks to <a href=\"http://www.ethz.ch/\" name=\"eth_zuerich\">ETH "
+#~ "Z&uuml;rich</a> for this trick."
 #~ msgstr ""
-#~ "感謝 <a href=\"http://www.ethz.ch/\" name=\"eth_zuerich\">ETH Z&uuml;"
-#~ "rich</a> 提供這個訣竅。"
+#~ "感謝 <a href=\"http://www.ethz.ch/\" name=\"eth_zuerich\">ETH Z&uuml;rich</a> "
+#~ "提供這個訣竅。"
 
 #~ msgid ""
 #~ "${tip_for_mozilla_users}<br /> Using the &#8220;Find As You Type&#8221; "
 #~ "feature will make keyboard navigation to hyperlinks &#8211; such as item "
 #~ "names &#8211; remarkably easy. See:<br /> ${typeaheadfind_link}"
 #~ msgstr ""
-#~ "${tip_for_mozilla_users}<br /> 使用 &#8220;Find As You Type&#8221; 的功能"
-#~ "會讓鍵盤直接跳至項目名稱為 &#8211; 的超連結，非常容易使用。請參照：<br /> "
-#~ "${typeaheadfind_link}"
+#~ "${tip_for_mozilla_users}<br /> 使用 &#8220;Find As You Type&#8221; "
+#~ "的功能會讓鍵盤直接跳至項目名稱為 &#8211; 的超連結，非常容易使用。請參照：<br /> ${typeaheadfind_link}"
 
 #~ msgid ""
 #~ "The most up to date documentation can be found at:<br /> "
@@ -6191,84 +3603,76 @@ msgstr ""
 #~ msgid ""
 #~ "The most useful access keys are for screen navigation, <a title=\"x\" "
 #~ "href=\"#nav\">x</a>."
-#~ msgstr ""
-#~ "對於螢幕畫面的導覽，最有用的存取鍵為 <a title=\"x\" href=\"#nav\">x</a>"
+#~ msgstr "對於螢幕畫面的導覽，最有用的存取鍵為 <a title=\"x\" href=\"#nav\">x</a>"
 
 #~ msgid ""
-#~ "${general}<br /> t &nbsp; Jump to top of page<br /> b &nbsp; Jump to "
-#~ "bottom of page<br /> / &nbsp; Jump to top of Silva (Silva icon)<br /> ? "
-#~ "&nbsp; Access keys and shortcuts"
+#~ "${general}<br /> t &nbsp; Jump to top of page<br /> b &nbsp; Jump to bottom "
+#~ "of page<br /> / &nbsp; Jump to top of Silva (Silva icon)<br /> ? &nbsp; "
+#~ "Access keys and shortcuts"
 #~ msgstr ""
-#~ "${general}<br /> t &nbsp;跳到頁頂 <br /> b &nbsp; 跳到頁底 <br /> / "
-#~ "&nbsp; 跳到最頂的Silva （Silva icon）<br /> ? &nbsp; 存取鍵及捷徑"
+#~ "${general}<br /> t &nbsp;跳到頁頂 <br /> b &nbsp; 跳到頁底 <br /> / &nbsp; "
+#~ "跳到最頂的Silva （Silva icon）<br /> ? &nbsp; 存取鍵及捷徑"
 
 #~ msgid ""
 #~ "${changing_screens_with_tabs}<br /> The tabs have numbered access keys, "
-#~ "starting from one going up to five. You can navigate horizontally accross "
-#~ "an item&#8217;s screens by using alt-1, alt-2, and so forth."
+#~ "starting from one going up to five. You can navigate horizontally accross an "
+#~ "item&#8217;s screens by using alt-1, alt-2, and so forth."
 #~ msgstr ""
-#~ "${changing_screens_with_tabs}<br /> tab 鍵亦可由存取鍵來操作，通常是用1～5"
-#~ "加以編號。你可以用 alt-1, alt-2到 alt-5 來做水平項目之間的切換。"
+#~ "${changing_screens_with_tabs}<br /> tab 鍵亦可由存取鍵來操作，通常是用1～5加以編號。你可以用 alt-1, "
+#~ "alt-2到 alt-5 來做水平項目之間的切換。"
 
 #~ msgid ""
 #~ "Each tab has a toplink <img src=\"up_tree.gif\" height=\"9\" width=\"9\" "
-#~ "alt=\"tree\" />, the tall tree on the left side. It takes you to the top "
-#~ "of the current publication, within the same tab, or &#8216;vein&#8217;. "
-#~ "The access key is the shift character of the corresponding number (on the "
-#~ "English keyboard, sorry if you have an international one). Thus alt-!, "
-#~ "alt-@, alt-#, alt-$, and alt-% (note that the characters resemble the "
-#~ "number)."
+#~ "alt=\"tree\" />, the tall tree on the left side. It takes you to the top of "
+#~ "the current publication, within the same tab, or &#8216;vein&#8217;. The "
+#~ "access key is the shift character of the corresponding number (on the "
+#~ "English keyboard, sorry if you have an international one). Thus alt-!, alt-"
+#~ "@, alt-#, alt-$, and alt-% (note that the characters resemble the number)."
 #~ msgstr ""
-#~ "每一個 tab 都有一個 toplink <img src=\"up_tree.gif\" height=\"9\" width="
-#~ "\"9\" alt=\"tree\" />  指向左側樹狀結構的頂端。亦即會帶你回到目前出版品的"
-#~ "頂端。縱向的導覽可由存取鍵完成，這些鍵值是由alt + shift + 上排數字所組成"
-#~ "（亦即 alt-!, alt-@, alt-#, alt-$, and alt-% ）"
+#~ "每一個 tab 都有一個 toplink <img src=\"up_tree.gif\" height=\"9\" width=\"9\" "
+#~ "alt=\"tree\" />  指向左側樹狀結構的頂端。亦即會帶你回到目前出版品的頂端。縱向的導覽可由存取鍵完成，這些鍵值是由alt + shift "
+#~ "+ 上排數字所組成（亦即 alt-!, alt-@, alt-#, alt-$, and alt-% ）"
 
 #~ msgid ""
-#~ "On the right of each tab is an uplink <img src=\"up_level.gif\" height="
-#~ "\"9\" width=\"9\" alt=\"bush\" />, a small tree that takes you up one "
-#~ "level in the same vein. The access keys for the uplinks are the remaining "
-#~ "numbers (add five to the access key for the tab). If you are in a screen "
-#~ "with five tabs, the uplinks are alt-6, alt-7, alt-8, alt-9, and alt-0. If "
-#~ "there are less than five tabs, you still add five to get the uplink key."
+#~ "On the right of each tab is an uplink <img src=\"up_level.gif\" height=\"9\" "
+#~ "width=\"9\" alt=\"bush\" />, a small tree that takes you up one level in the "
+#~ "same vein. The access keys for the uplinks are the remaining numbers (add "
+#~ "five to the access key for the tab). If you are in a screen with five tabs, "
+#~ "the uplinks are alt-6, alt-7, alt-8, alt-9, and alt-0. If there are less "
+#~ "than five tabs, you still add five to get the uplink key."
 #~ msgstr ""
-#~ "右邊的每一個標籤都是一個向上連結<img src=\"up_level.gif\" height=\"9\" "
-#~ "width=\"9\" alt=\"bush\" />，其中每一棵小樹代表同一支脈的上一層。給這些上"
-#~ "連結使用的存取鍵仍舊維持相同的數目（每一標籤加五個值）。若你是在五個標籤的"
-#~ "畫面，那五個存取鍵分別為 alt-6, alt-7, alt-8, alt-9 及 alt-0. 若少於五個標"
-#~ "籤，您仍舊可以增加五個值來取得向上連結。"
+#~ "右邊的每一個標籤都是一個向上連結<img src=\"up_level.gif\" height=\"9\" width=\"9\" "
+#~ "alt=\"bush\" "
+#~ "/>，其中每一棵小樹代表同一支脈的上一層。給這些上連結使用的存取鍵仍舊維持相同的數目（每一標籤加五個值）。若你是在五個標籤的畫面，那五個存取鍵分別為 "
+#~ "alt-6, alt-7, alt-8, alt-9 及 alt-0. 若少於五個標籤，您仍舊可以增加五個值來取得向上連結。"
 
 #~ msgid "${footer_page_info_row}<br /> : &nbsp; See public page<br />"
 #~ msgstr ""
-#~ "${footer_page_info_row}<br /> : &nbsp;  參見 公開頁 （ public page ） "
-#~ "<br />"
+#~ "${footer_page_info_row}<br /> : &nbsp;  參見 公開頁 （ public page ） <br />"
 
 #~ msgid ""
-#~ "${footer_user_row}<br /> ~ &nbsp; User settings<br /> &nbsp;, &nbsp; "
-#~ "Request access<br /> q &nbsp; Logout"
+#~ "${footer_user_row}<br /> ~ &nbsp; User settings<br /> &nbsp;, &nbsp; Request "
+#~ "access<br /> q &nbsp; Logout"
 #~ msgstr ""
-#~ "${footer_user_row}<br /> ~ &nbsp; 使用者自訂設定 <br /> &nbsp;, &nbsp; 要"
-#~ "求存取 <br /> q &nbsp;  登出"
+#~ "${footer_user_row}<br /> ~ &nbsp; 使用者自訂設定 <br /> &nbsp;, &nbsp; 要求存取 <br /> "
+#~ "q &nbsp;  登出"
 
 #~ msgid ""
 #~ "${listing_header}<br /> n &nbsp; new<br /> s &nbsp; select list for a new "
 #~ "object<br /> i &nbsp; import<br /> e &nbsp; export"
 #~ msgstr ""
-#~ "{listing_header}<br /> n &nbsp; 新增 <br /> s &nbsp; 從表列中選取新物件 "
-#~ "<br /> i &nbsp; 載入 <br /> e &nbsp; 輸出"
+#~ "{listing_header}<br /> n &nbsp; 新增 <br /> s &nbsp; 從表列中選取新物件 <br /> i &nbsp; "
+#~ "載入 <br /> e &nbsp; 輸出"
 
 #~ msgid ""
-#~ "<br /> <br /> ${silva_icon} ${silva_version}<br /> &#xa9; Copyright "
-#~ "2001-2005 Infrae. All rights reserved."
+#~ "<br /> <br /> ${silva_icon} ${silva_version}<br /> &#xa9; Copyright 2001-"
+#~ "2005 Infrae. All rights reserved."
 #~ msgstr ""
-#~ "<br /> <br /> ${silva_icon} ${silva_version}<br /> &#xa9;版權宣告 "
-#~ "Copyright 2001-2005 Infrae. All rights reserved."
+#~ "<br /> <br /> ${silva_icon} ${silva_version}<br /> &#xa9;版權宣告 Copyright 2001-"
+#~ "2005 Infrae. All rights reserved."
 
 #~ msgid "Silva is developed by ${infrae} and many others. <br />"
 #~ msgstr "Silva 是由 ${infrae}  以及許多朋友共同開發  <br />"
-
-#~ msgid "Added ${meta_type} ${id}."
-#~ msgstr "增加 ${meta_type} ${id}"
 
 #~ msgid "<b>Tip:</b> You don't have to fill in the id and title."
 #~ msgstr "<b>要訣:</b> 不用填寫 id 及 title"
@@ -6276,9 +3680,7 @@ msgstr ""
 #~ msgid ""
 #~ "Location of originating folder. Depending on how much content there is, "
 #~ "<span class=\"warning\">creation may take a while</span>."
-#~ msgstr ""
-#~ "原始目錄的所在。取決於有多少內容 <span class=\"warning\">新增會花一點時"
-#~ "間，請耐心等候</span>."
+#~ msgstr "原始目錄的所在。取決於有多少內容 <span class=\"warning\">新增會花一點時間，請耐心等候</span>."
 
 #~ msgid ""
 #~ "There's already a Group with the name ${id} in this Silva\n"
@@ -6286,15 +3688,12 @@ msgstr ""
 #~ "        unique within a Silva instance."
 #~ msgstr ""
 #~ "此 Silva 站台之中已存在一個名為 ${id} 的群體 （Group）\n"
-#~ "        <br /> 對照其他的 Silva 物件，在一個Silva 實體中，Group ID 必須唯"
-#~ "一的。"
+#~ "        <br /> 對照其他的 Silva 物件，在一個Silva 實體中，Group ID 必須唯一的。"
 
 #~ msgid ""
 #~ "Sorry, strange characters are in the id. It should only\n"
-#~ "        contain letters, digits and &#8216;_&#8217; or &#8216;-&#8217; "
-#~ "or \n"
-#~ "        &#8216;.&#8217;<br />Spaces are not allowed in Internet "
-#~ "addresses, \n"
+#~ "        contain letters, digits and &#8216;_&#8217; or &#8216;-&#8217; or \n"
+#~ "        &#8216;.&#8217;<br />Spaces are not allowed in Internet addresses, \n"
 #~ "        and the id should start with a letter or digit."
 #~ msgstr ""
 #~ "抱歉，id中有奇怪的符號。只能\n"
@@ -6325,12 +3724,11 @@ msgstr ""
 
 #~ msgid ""
 #~ "(Internal Error): An invalid status ${status_code} occured \n"
-#~ "    while checking the id ${id}.<br />Please contact the person "
-#~ "responsible \n"
+#~ "    while checking the id ${id}.<br />Please contact the person responsible "
+#~ "\n"
 #~ "    for this Silva installation or file a bug report."
 #~ msgstr ""
-#~ "（內部錯誤）：當在檢查這個 id ${id} 時，發生不正確的狀態 ${status_code} "
-#~ "<br /> \n"
+#~ "（內部錯誤）：當在檢查這個 id ${id} 時，發生不正確的狀態 ${status_code} <br /> \n"
 #~ "    請連絡相關人員反應此 Silva 安裝或檔案錯誤。"
 
 #~ msgid "file info"
@@ -6341,12 +3739,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "<strong>Can be:</strong><br /> IP&nbsp;(like: 10.1.1.1), <br /> IP-"
-#~ "IP&nbsp;(like:&nbsp;10.1.1.1-10.1.1.255) or<br /> IP/Netmask&nbsp;(like:"
-#~ "&nbsp;10.1.1.0/255.255.255.0)."
+#~ "IP&nbsp;(like:&nbsp;10.1.1.1-10.1.1.255) or<br /> "
+#~ "IP/Netmask&nbsp;(like:&nbsp;10.1.1.0/255.255.255.0)."
 #~ msgstr ""
-#~ "<strong>可以：:</strong><br />IP&nbsp;(like: 10.1.1.1), <br />IP-IP&nbsp;"
-#~ "(like:&nbsp;10.1.1.1-10.1.1.255)或是<br />IP/網路遮罩&nbsp;(like:"
-#~ "&nbsp;10.1.1.0/255.255.255.0)."
+#~ "<strong>可以：:</strong><br />IP&nbsp;(like: 10.1.1.1), <br />IP-"
+#~ "IP&nbsp;(like:&nbsp;10.1.1.1-10.1.1.255)或是<br "
+#~ "/>IP/網路遮罩&nbsp;(like:&nbsp;10.1.1.0/255.255.255.0)."
 
 #~ msgid "<br /> scaled to ${WxH} pixels"
 #~ msgstr "<br /> 對比例 ${WxH} 像素"
@@ -6358,12 +3756,10 @@ msgstr ""
 #~ msgstr "自動發表狀態。"
 
 #~ msgid ""
-#~ "This screen doesn&#8217;t have settings, because it&#8217;s not possible "
-#~ "to subscribe to a . Only documents that contain textual content, or "
-#~ "folders that contain them, can be subscribed to."
-#~ msgstr ""
-#~ "此畫面因為不能訂閱而無法設定。只有在文件含有正文或是檔案夾含有文件時，才能"
-#~ "被訂閱。"
+#~ "This screen doesn&#8217;t have settings, because it&#8217;s not possible to "
+#~ "subscribe to a . Only documents that contain textual content, or folders "
+#~ "that contain them, can be subscribed to."
+#~ msgstr "此畫面因為不能訂閱而無法設定。只有在文件含有正文或是檔案夾含有文件時，才能被訂閱。"
 
 #~ msgid "ghost folder of &#xab;${title}&#xbb;"
 #~ msgstr "&#xab;${title}&#xbb; 的ghost檔案夾"
@@ -6414,8 +3810,7 @@ msgstr ""
 #~ "Deleted ${deleted_ids}, <span class=\"error\">but could not delete "
 #~ "${not_deleted_ids}.</span>"
 #~ msgstr ""
-#~ "已刪除 ${deleted_ids}，<span class=\"error\"> 但無法刪除 "
-#~ "${not_deleted_ids}。</span>"
+#~ "已刪除 ${deleted_ids}，<span class=\"error\"> 但無法刪除 ${not_deleted_ids}。</span>"
 
 #~ msgid "position"
 #~ msgstr "位置"
@@ -6424,11 +3819,10 @@ msgstr ""
 #~ msgstr "沒有選擇任何項目，所以無法動作。"
 
 #~ msgid ""
-#~ "Content ${activated} activated, <span class=\"error\">but could not "
-#~ "activate ${not_activated}.</span>"
-#~ msgstr ""
-#~ "內容 ${activated} 已啟始，<span class=\"error\"> 但無法啟始 "
+#~ "Content ${activated} activated, <span class=\"error\">but could not activate "
 #~ "${not_activated}.</span>"
+#~ msgstr ""
+#~ "內容 ${activated} 已啟始，<span class=\"error\"> 但無法啟始 ${not_activated}.</span>"
 
 #~ msgid "Content ${activated} activated."
 #~ msgstr "內容 ${activated} 已建立。"
@@ -6440,11 +3834,10 @@ msgstr ""
 #~ msgstr "<span class=\"error\"> 無法關閉：${ids}</span>"
 
 #~ msgid ""
-#~ "Placed ${cut_ids} on clipboard for cutting, <span class=\"error\">but "
-#~ "could not cut ${not_cut_ids}.</span>"
+#~ "Placed ${cut_ids} on clipboard for cutting, <span class=\"error\">but could "
+#~ "not cut ${not_cut_ids}.</span>"
 #~ msgstr ""
-#~ "將 ${cut_ids} 放到剪裁用的剪貼薄中，<span class=\"error\"> 但無法剪下 "
-#~ "${not_cut_ids}.</span>"
+#~ "將 ${cut_ids} 放到剪裁用的剪貼薄中，<span class=\"error\"> 但無法剪下 ${not_cut_ids}.</span>"
 
 #~ msgid "Nothing was selected, so nothing is deactivated."
 #~ msgstr "沒有選擇任何項目，所以無法停用。"
@@ -6453,8 +3846,7 @@ msgstr ""
 #~ "Content ${deactivated} deactivated, <span class=\"error\">but could not "
 #~ "deactivate ${not_deactivated}.</span>"
 #~ msgstr ""
-#~ "內容 ${deactivated} 已停用，<span class=\"error\"> 但無法停用 "
-#~ "${not_deactivated}。</span>"
+#~ "內容 ${deactivated} 已停用，<span class=\"error\"> 但無法停用 ${not_deactivated}。</span>"
 
 #~ msgid "Content ${deactivated} deactivated."
 #~ msgstr "內容  ${deactivated} 已停用。"
@@ -6465,24 +3857,20 @@ msgstr ""
 #~ msgid ""
 #~ "Deleted ${deleted_ids}, <span class=\"error\">but could not delete "
 #~ "${not_deleted_ids}. Probably there is a published version that must be "
-#~ "closed, or an approved version that needs to be revoked. Change the "
-#~ "status in the Publish screen (alt-5).</span>"
+#~ "closed, or an approved version that needs to be revoked. Change the status "
+#~ "in the Publish screen (alt-5).</span>"
 #~ msgstr ""
 #~ "刪除 ${deleted_ids}，<span class=\"error\"> 但無法刪除 "
-#~ "${not_deleted_ids}。可能必須關閉公開版本，或是撤回同意的版本。更動發表畫面"
-#~ "的狀態(alt-5)。</span>"
+#~ "${not_deleted_ids}。可能必須關閉公開版本，或是撤回同意的版本。更動發表畫面的狀態(alt-5)。</span>"
 
 #~ msgid ", <span class=\"error\">but could not move ${ids}</span>"
 #~ msgstr "，<span class=\"error\"> 但無法移動${ids}</span>"
 
 #~ msgid ""
 #~ "Click a name to create an item. Note that this screen only lists "
-#~ "descriptions of objects that are available at this location. For "
-#~ "additional information about an item see the ${silva_documentation}. <br /"
-#~ ">"
-#~ msgstr ""
-#~ "輸入名稱以建立一個項目。注意這個畫面僅顯示此位置可用的物件說明。項目相關的"
-#~ "其他資訊請看 ${silva_documentation}。"
+#~ "descriptions of objects that are available at this location. For additional "
+#~ "information about an item see the ${silva_documentation}. <br />"
+#~ msgstr "輸入名稱以建立一個項目。注意這個畫面僅顯示此位置可用的物件說明。項目相關的其他資訊請看 ${silva_documentation}。"
 
 #~ msgid "rename objects in &#xab;${title}&#xbb;"
 #~ msgstr "在 &#xab;${title}&#xbb; 做物件更名"
@@ -6527,21 +3915,17 @@ msgstr ""
 #~ msgstr "自動目次 &#xab;${title_or_id}&#xbb;"
 
 #~ msgid ""
-#~ "An automatic table of contents is generated from the items in its "
-#~ "location."
+#~ "An automatic table of contents is generated from the items in its location."
 #~ msgstr "從項目處產生一個自動目次。"
 
 #~ msgid ""
-#~ "Note that <span class=\"warning\">the index only displays links to "
-#~ "published content</span>, so the list may be empty if nothing is "
-#~ "published."
-#~ msgstr ""
-#~ "注意 <span class=\"warning\">此索引僅顯示已出版的內容</span>，若沒有任何出"
-#~ "版項目，則會顯示空值。"
+#~ "Note that <span class=\"warning\">the index only displays links to published "
+#~ "content</span>, so the list may be empty if nothing is published."
+#~ msgstr "注意 <span class=\"warning\">此索引僅顯示已出版的內容</span>，若沒有任何出版項目，則會顯示空值。"
 
 #~ msgid ""
-#~ "Dear ${user_id}<br /> You are not allowed to edit membership data of "
-#~ "member ${member_id}"
+#~ "Dear ${user_id}<br /> You are not allowed to edit membership data of member "
+#~ "${member_id}"
 #~ msgstr "親愛的 ${user_id}<br /> 您不被允許編輯組員資料 ${member_id}"
 
 #~ msgid "Add read only view here?"
@@ -6562,22 +3946,17 @@ msgstr ""
 #~ msgid ""
 #~ "Note: an older version of this content is online.<br /> Publishing this "
 #~ "version will replace the public version."
-#~ msgstr ""
-#~ "注意： 此內容已有一舊版本在線上。<br /> 發行此版本會取代該公開版本。"
+#~ msgstr "注意： 此內容已有一舊版本在線上。<br /> 發行此版本會取代該公開版本。"
 
 #~ msgid ""
-#~ "This content was once published but is now closed.<br /> If you wish you "
-#~ "can make an editable copy in the ${editor}."
-#~ msgstr ""
-#~ "此內容曾經出版過但現在已關閉。<br /> 若希望能進一步做內容編輯，請複製到 "
-#~ "${editor}。"
+#~ "This content was once published but is now closed.<br /> If you wish you can "
+#~ "make an editable copy in the ${editor}."
+#~ msgstr "此內容曾經出版過但現在已關閉。<br /> 若希望能進一步做內容編輯，請複製到 ${editor}。"
 
 #~ msgid ""
-#~ "This content is published (online for the public).<br /> If you wish you "
-#~ "can make an editable copy by going to the ${editor}."
-#~ msgstr ""
-#~ "此內容已公開發行（線上公眾版）。<br /> 若您想製作一個可編輯的複本，請至 "
-#~ "${editor}."
+#~ "This content is published (online for the public).<br /> If you wish you can "
+#~ "make an editable copy by going to the ${editor}."
+#~ msgstr "此內容已公開發行（線上公眾版）。<br /> 若您想製作一個可編輯的複本，請至 ${editor}."
 
 #~ msgid "content publish ti<u>m</u>e"
 #~ msgstr "發表內容時間"
@@ -6613,12 +3992,10 @@ msgstr ""
 #~ msgstr "恢復成先前的版本"
 
 #~ msgid ""
-#~ "The current editable version can be replaced with the previous "
-#~ "(published) version. This can not be undone afterwards and will discard "
-#~ "all changes made to the current version."
-#~ msgstr ""
-#~ "目前的編輯中版本可被先前（已發行）的版本取代。這是一個不可回覆的動作，也就"
-#~ "是一但取代，則目前所作的更動都會消失。"
+#~ "The current editable version can be replaced with the previous (published) "
+#~ "version. This can not be undone afterwards and will discard all changes made "
+#~ "to the current version."
+#~ msgstr "目前的編輯中版本可被先前（已發行）的版本取代。這是一個不可回覆的動作，也就是一但取代，則目前所作的更動都會消失。"
 
 #~ msgid "revert to previous"
 #~ msgstr "回復至先前版本"
@@ -6635,19 +4012,16 @@ msgstr ""
 
 #~ msgid ""
 #~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is a container."
-#~ msgstr ""
-#~ "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 指向一個容器（container）"
+#~ msgstr "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 指向一個容器（container）"
 
 #~ msgid ""
-#~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is itself a "
-#~ "ghost."
+#~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is itself a ghost."
 #~ msgstr "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 指向一個 ghost"
 
 #~ msgid ""
-#~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is not a "
-#~ "content object."
-#~ msgstr ""
-#~ "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 指向一個不是內容物件"
+#~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is not a content "
+#~ "object."
+#~ msgstr "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 指向一個不是內容物件"
 
 #~ msgid ""
 #~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is a content "
@@ -6655,18 +4029,14 @@ msgstr ""
 #~ msgstr "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 指向一個內容物件。"
 
 #~ msgid ""
-#~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is not a "
-#~ "container."
-#~ msgstr ""
-#~ "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 對象不是一個容器"
-#~ "（container）。"
+#~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is not a container."
+#~ msgstr "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 對象不是一個容器（container）。"
 
 #~ msgid ""
 #~ "The object &#xab;${haunted_url}&#xbb; the ghost points to is either the "
 #~ "ghost itself or an ancestor of the ghost."
 #~ msgstr ""
-#~ "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 對象可能是 ghost 本身或"
-#~ "是 ghost 的祖先物件。"
+#~ "物件 &#xab;${haunted_url}&#xbb;  的 ghost points 對象可能是 ghost 本身或是 ghost 的祖先物件。"
 
 #~ msgid "&#8211;"
 #~ msgstr "&#8211;"
@@ -6695,25 +4065,11 @@ msgstr ""
 #~ msgid "properties ${for_title}"
 #~ msgstr "${for_title} 的屬性"
 
-#~ msgid ""
-#~ "The data that was submitted did not validate properly (you might want to "
-#~ "use the browser back button to adjust the form values)."
-#~ msgstr "所傳送的資料未經過確認(您可以使用瀏覽器的返回鍵作進行更動)。"
-
 #~ msgid "&lt;broken&gt; <!-- XXX replace this by something nice -->"
 #~ msgstr "lt;broken&gt; <!-- XXX 註解欄-->"
 
 #~ msgid "public view access restrictions for &#xab;${title}&#xbb;"
 #~ msgstr "對於 &#xab;${title}&#xbb; 僅能公開瀏覽"
-
-#~ msgid "&#xab;${user_id}&#xbb; allowed the ${role} role"
-#~ msgstr "#xab;${user_id}&#xbb; 允許此 ${role}  角色"
-
-#~ msgid "&#xab;${user_id}&#xbb; approved and allowed the ${role} role"
-#~ msgstr "&#xab;${user_id}&#xbb;  已同意並允許此 ${role} 角色"
-
-#~ msgid "&#xab;${user_id}&#xbb; has been denied the ${role} role"
-#~ msgstr "#xab;${user_id}&#xbb; 已被拒絕此 ${role} 角色"
 
 #~ msgid ""
 #~ "The addables settings can only be changed on Silva Publications. A "
@@ -6735,10 +4091,9 @@ msgstr ""
 #~ msgstr "此 Silva 資料夾可以被轉換成出版品（若內容很多，可能會花許多時間）。"
 
 #~ msgid ""
-#~ "This Silva Publication can be converted to a Silva Folder (may take "
-#~ "awhile if it&#8217;s large)."
-#~ msgstr ""
-#~ "此 Silva 出版品可以被轉換成 Silva 資料夾（若內容很多，可能會花許多時間）。"
+#~ "This Silva Publication can be converted to a Silva Folder (may take awhile "
+#~ "if it&#8217;s large)."
+#~ msgstr "此 Silva 出版品可以被轉換成 Silva 資料夾（若內容很多，可能會花許多時間）。"
 
 #~ msgid "Subscribability"
 #~ msgstr "可訂閱性"
@@ -6807,9 +4162,7 @@ msgstr ""
 #~ msgstr "下一步 &gt;&gt;"
 
 #~ msgid ""
-#~ "For absolute links the url will be checked, and 'http://' will be "
-#~ "prepended if necessary. Relative links can contain anything, so it is the "
-#~ "author's responsibility to create valid urls."
-#~ msgstr ""
-#~ "將會檢查作為絕對路徑的url，並視需要加入'http://'。相對路徑範圍很廣，能讓作"
-#~ "者建立有效的url。"
+#~ "For absolute links the url will be checked, and 'http://' will be prepended "
+#~ "if necessary. Relative links can contain anything, so it is the author's "
+#~ "responsibility to create valid urls."
+#~ msgstr "將會檢查作為絕對路徑的url，並視需要加入'http://'。相對路徑範圍很廣，能讓作者建立有效的url。"

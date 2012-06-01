@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-02-08 15:55+0000\n"
-"Last-Translator: Tuomas Tonteri <tuomas.tonteri@kansanmedia.fi>\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:53+0000\n"
+"Last-Translator: Tuomas Tonteri <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
-"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-11-13 12:21+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: fi\n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -301,11 +303,13 @@ msgstr ""
 msgid "download"
 msgstr "lataus sisään"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
 msgstr ""
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
 msgstr ""
 
@@ -347,7 +351,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -425,7 +430,7 @@ msgstr ""
 
 #: Products.Silva:/Folder/views.py:37
 msgid "First item"
-msgstr ""
+msgstr "Ensimmäinen kohde"
 
 #: Products.Silva:/Folder/views.py:38
 msgid "Choose an item to be created within the container."
@@ -447,7 +452,8 @@ msgid ""
 "    "
 msgstr ""
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -463,8 +469,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -519,7 +527,8 @@ msgstr ""
 #: Products.Silva:/Image/content.py:208
 msgid ""
 "'${scale} is not a valid scale identifier. At least one number is required."
-msgstr "'${scale} ei ole kelpaava kuvaaja. Ainakin yksi numero on pakollinen."
+msgstr ""
+"'${scale} ei ole kelpaava kuvaaja. Ainakin yksi numero on pakollinen."
 
 #. Default: ""
 #: Products.Silva:/Image/content.py:232
@@ -571,7 +580,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -648,7 +658,7 @@ msgstr ""
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:9
 msgid "unknown"
-msgstr ""
+msgstr "tuntematon"
 
 #: Products.Silva:/Indexer.py:158
 msgid "Update Silva Indexer"
@@ -729,7 +739,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -945,7 +956,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -954,15 +966,18 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr "Tämä muunnelma on jo pyydetty hyväksyttäväksi."
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr "Ei hyväksymätöntä muunnelmaa."
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr "Ei hyväksyttyä muunnelmaa."
 
@@ -974,7 +989,8 @@ msgstr "Täytyy määrittää julkaisuajankohta."
 msgid "No public version."
 msgstr "Ei julkista muunnelmaa."
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr "Ei seuraavaa muunnelmaa."
 
@@ -1056,58 +1072,67 @@ msgstr ""
 
 #: Products.Silva:/roleinfo.py:26
 msgid "zope roles"
-msgstr ""
+msgstr "zopen roolit"
 
 #: Products.Silva:/roleinfo.py:27
 msgid "silva roles"
-msgstr ""
+msgstr "silvan roolit"
 
 #: Products.Silva:/roleinfo.py:28
 msgid "public silva roles"
-msgstr ""
+msgstr "julkiset silvan roolit"
 
 #: Products.Silva:/roleinfo.py:29
 msgid "Anonymous"
-msgstr ""
+msgstr "Anonyymi"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
-msgstr ""
+msgstr "Tunnistauduttu"
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
-msgstr ""
+msgstr "Johtaja"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
-msgstr ""
+msgstr "Katselija"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
-msgstr ""
+msgstr "Katselija +"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
-msgstr ""
+msgstr "Katselija ++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
-msgstr ""
+msgstr "Lukija"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
-msgstr ""
+msgstr "Kirjoittaja"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
-msgstr ""
+msgstr "Toimittaja"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
-msgstr ""
+msgstr "Päätoimittaja"
 
 #: Products.Silva:/schema/silva-content.xml:32
 msgid "Title of content."
@@ -1127,7 +1152,7 @@ msgstr "lyhyt otsikko"
 
 #: Products.Silva:/schema/silva-extra.xml:153
 msgid "description"
-msgstr ""
+msgstr "kuvaus"
 
 #: Products.Silva:/schema/silva-extra.xml:154
 msgid "Description of content in this area."
@@ -1135,11 +1160,11 @@ msgstr "Tämän alueen sisällön kuvaus."
 
 #: Products.Silva:/schema/silva-extra.xml:212
 msgid "language"
-msgstr ""
+msgstr "kieli"
 
 #: Products.Silva:/schema/silva-extra.xml:259
 msgid "Language of content in this area."
-msgstr ""
+msgstr "Tämän alueen sisällön kieli"
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
@@ -1173,7 +1198,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:493
 msgid "creator"
-msgstr ""
+msgstr "tekijä"
 
 #: Products.Silva:/schema/silva-extra.xml:550
 msgid "last author"
@@ -1231,10 +1256,11 @@ msgstr ""
 msgid ""
 "Maximum space allowed for this container, including sub-containers, in MB."
 msgstr ""
+"Suurin sallittu tila tälle säiliölle, sisältäen alasäiliöt, megatavuissa."
 
 #: Products.Silva:/schema/silva-quota.xml:37
 msgid "quota"
-msgstr ""
+msgstr "tilakiintiö"
 
 #: Products.Silva:/silvaxml/xmlexport.py:56
 msgid "External references"
@@ -1250,7 +1276,7 @@ msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
-msgstr ""
+msgstr "tiedosto"
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
@@ -1353,7 +1379,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1415,7 +1442,8 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
 
@@ -1485,7 +1513,8 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1609,7 +1638,8 @@ msgstr ""
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
@@ -1647,12 +1677,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1669,7 +1701,8 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1730,7 +1763,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1798,19 +1832,22 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
-msgstr ""
+msgstr "valitse:"
 
 #: silva.core.interfaces:/auth.py:130
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
 msgstr ""
 
@@ -1881,7 +1918,8 @@ msgid "Definition"
 msgstr ""
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr "Tämä ${meta_type} ei ole katseltava."
@@ -2187,7 +2225,7 @@ msgstr ""
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:45
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:56
 msgid "editor"
-msgstr ""
+msgstr "toimittaja"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:45
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:56
@@ -2239,7 +2277,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2519,8 +2558,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2534,7 +2573,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2592,7 +2632,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2629,7 +2670,8 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -2735,7 +2777,7 @@ msgstr ""
 #: silva.core.smi:/settings/access.py:219
 #: silva.pas.base:/Membership_templates/loginpage.cpt:35
 msgid "Username"
-msgstr ""
+msgstr "Käyttäjätunnus"
 
 #: silva.core.smi:/settings/access.py:59
 msgid "Username or part of the username to lookup"
@@ -2984,7 +3026,7 @@ msgstr ""
 
 #: silva.core.smi:/userinfo.py:27
 msgid "Use browser language setting"
-msgstr ""
+msgstr "Käytä selaimen kieliasetusta"
 
 #: silva.core.smi:/userinfo.py:44
 msgid "User identifier"
@@ -3047,7 +3089,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3101,7 +3144,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3133,7 +3177,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3242,7 +3287,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3429,105 +3475,12 @@ msgstr ""
 msgid "Show All Items"
 msgstr ""
 
-#~ msgid "Not connected"
-#~ msgstr "Ei yhdistettynä"
-
-#~ msgid "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
-#~ msgstr "&#xab;${id}&#xbb; liittäminen tähän säilyttimeen ei ole sallittua."
-
-#~ msgid "pasted &#xab;${id}&#xbb;"
-#~ msgstr "liitetty &#xab;${id}&#xbb;"
-
-#~ msgid "'${crop}' defines an impossible cropping"
-#~ msgstr "'${crop} kuvaa mahdottoman rajauksen."
-
-#~ msgid "No public version to close."
-#~ msgstr "Ei julkista muunnelmaa suljettavaksi."
-
-#~ msgid "There is no unapproved version to request approval for."
-#~ msgstr "Ei ole hyväksymätöntä muunnelmaa, johon pyytää hyväksyntää."
-
-#~ msgid "The version is not requested for approval."
-#~ msgstr "Tätä muunnelmaa ei ole pyydetty hyväksyttäväksi."
-
-#~ msgid "There is an approved version already; unapprove it. (${id})"
-#~ msgstr ""
-#~ "On jo olemassa hyväksytty muunnelma; tee se hyväksymättömäksi.(${id})"
-
-#~ msgid "There already is an unapproved version (${id})."
-#~ msgstr "On jo olemassa hyväksymätön muunnelma (${id})."
-
-#~ msgid "The public version has that id already (${id})."
-#~ msgstr "Julkisella muunnelmalla on jo tämä tunnus (${id})."
-
-#~ msgid "A previous version has that id already (${id})."
-#~ msgstr "Aikaisemmalla muunnelmalla on jo tämä tunnus (${id})."
-
-#~ msgid "Can not delete all versions"
-#~ msgstr "Ei voida tuhota kaikkia muunnelmia"
-
-#~ msgid "no such version ${version}"
-#~ msgstr "ei sellaista muunnelmaa ${version}"
-
-#~ msgid "No unapproved version available"
-#~ msgstr "Ei hyväksymätöntä muunnelmaa saatavilla"
-
-#~ msgid "Preview screen"
-#~ msgstr "Esikatselu ruutu"
-
-#~ msgid "Publish screen (folder)"
-#~ msgstr "Julkaisu-ruutu (hakemisto)"
-
-#~ msgid "Add screen"
-#~ msgstr "Lisäys-ruutu"
-
-#~ msgid "Editor screen"
-#~ msgstr "Muokkaus-ruutu"
-
-#~ msgid "Kupu editor"
-#~ msgstr "Kupu muokkaaja"
-
-#~ msgid "Forms editor"
-#~ msgstr "Forms muokkaaja"
-
-#~ msgid "Other screens"
-#~ msgstr "Muut ruudut"
-
-#~ msgid "return"
-#~ msgstr "palaa"
-
-#~ msgid "access key: alt-r"
-#~ msgstr "pikanäppäin: alt-r"
-
-#~ msgid "Notes"
-#~ msgstr "Merkintöjä"
-
-#~ msgid "Validation error(s)"
-#~ msgstr "Luotettavuuden toteamisessa virhe tai virheitä."
-
-#~ msgid "Changed settings."
-#~ msgstr "Asetukset muutettu."
-
-#~ msgid "Resource location of this content."
-#~ msgstr "Resurssien sijainti tässä sisällössä."
-
-#~ msgid "Silva info on the Infrae site: alt-i"
-#~ msgstr "Tietoa Silvasta Infraen sivulla: alt-i"
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
-
 #~ msgid ""
 #~ "Any digital file can be uploaded as Silva content. \n"
-#~ "       For instance large files such as pdf docs or mpegs can be placed "
-#~ "in a\n"
+#~ "       For instance large files such as pdf docs or mpegs can be placed in "
+#~ "a\n"
 #~ "       site. File objects have metadata as well. \n"
-#~ "       <!-- Abstract base class. Depends on a _file attribute and "
-#~ "various \n"
+#~ "       <!-- Abstract base class. Depends on a _file attribute and various \n"
 #~ "       methods in the concrete subclasses. (sorry) -->\n"
 #~ "    "
 #~ msgstr ""

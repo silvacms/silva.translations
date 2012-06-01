@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-07-31 17:11+0000\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:42+0000\n"
 "Last-Translator: Furkan KARA <kingofthepixels@gmail.com>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-23 12:08+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: \n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -47,15 +49,15 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:125
 msgid "Alphabetically"
-msgstr ""
+msgstr "Alphabetically"
 
 #: Products.Silva:/AutoTOC.py:126
 msgid "Reverse alphabetically"
-msgstr ""
+msgstr "Reverse alphabetically"
 
 #: Products.Silva:/AutoTOC.py:127
 msgid "Chronologically by modification date"
-msgstr ""
+msgstr "Chronologically by modification date"
 
 #: Products.Silva:/AutoTOC.py:128
 msgid "Reverse chronologically by modification date"
@@ -186,7 +188,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:284
 msgid "Upgrade"
-msgstr ""
+msgstr "Upgrade"
 
 #: Products.Silva:/ExtensionService.py:296
 msgid "Content upgrade succeeded. See event log for details"
@@ -212,7 +214,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:327
 msgid "Invalid path"
-msgstr ""
+msgstr "Invalid path"
 
 #: Products.Silva:/ExtensionService.py:329
 msgid "Partial catalog refreshed"
@@ -244,7 +246,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:368
 msgid "Documentation installed"
-msgstr ""
+msgstr "Documentation installed"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:79
@@ -260,15 +262,15 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:21
 msgid "General actions"
-msgstr ""
+msgstr "General actions"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "refresh all"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr ""
+msgstr "install documentation"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:30
 msgid "rebuild catalog"
@@ -288,7 +290,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:40
 msgid "upgrade content"
-msgstr ""
+msgstr "upgrade content"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:51
 msgid "Available extensions"
@@ -297,17 +299,19 @@ msgstr ""
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:83
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:94
 msgid "refresh"
-msgstr ""
+msgstr "refresh"
 
 #: Products.Silva:/File/content.py:152
 msgid "download"
 msgstr "download"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
 msgstr ""
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
 msgstr ""
 
@@ -349,7 +353,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -457,7 +462,8 @@ msgstr ""
 "       and stylesheets).\n"
 "    "
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -473,8 +479,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -502,7 +510,7 @@ msgstr ""
 
 #: Products.Silva:/GhostFolder.py:337
 msgid "Ghost Folder synchronized"
-msgstr "Ghost Folder synchronized"
+msgstr "Ghost Folder synchronised"
 
 #: Products.Silva:/GhostFolder.py:340
 msgid "Ghost Folder was not synchronized, because the target is invalid."
@@ -582,7 +590,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -740,7 +749,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -771,6 +781,16 @@ msgid ""
 "       complex sites, sub-publications can be nested.\n"
 "    "
 msgstr ""
+"Publications are special folders. They function as the\n"
+"       major organising blocks of a Silva site. They are comparable to\n"
+"       binders, and can contain folders, documents, and assets.\n"
+"       Publications are opaque. They instill a threshold of view, showing\n"
+"       only the contents of the current publication. This keeps the "
+"overview\n"
+"       screens manageable. Publications have configuration settings that\n"
+"       determine which core and pluggable objects are available. For\n"
+"       complex sites, sub-publications can be nested.\n"
+"    "
 
 #: Products.Silva:/Publication/localsite.py:21
 msgid "Already a local site."
@@ -956,7 +976,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -965,15 +986,18 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr "The version is already requested for approval."
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr "No request for approval is pending for this content."
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr "No unapproved version."
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr "No approved version."
 
@@ -985,7 +1009,8 @@ msgstr "Must specify publication datetime."
 msgid "No public version."
 msgstr "No public version."
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr "No next version."
 
@@ -1081,42 +1106,51 @@ msgstr "public silva roles"
 msgid "Anonymous"
 msgstr "Anonymous"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
 msgstr "Authenticated"
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
 msgstr "Manager"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
 msgstr "Viewer"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
 msgstr "Viewer +"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
 msgstr "Viewer ++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
 msgstr "Reader"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
 msgstr "Author"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
 msgstr "Editor"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
 msgstr "ChiefEditor"
 
@@ -1204,11 +1238,11 @@ msgstr "contact name"
 
 #: Products.Silva:/schema/silva-extra.xml:662
 msgid "Email address of contact person."
-msgstr "Email address of contact person."
+msgstr "E-mail address of contact person."
 
 #: Products.Silva:/schema/silva-extra.xml:665
 msgid "contact email"
-msgstr "contact email"
+msgstr "contact e-mail"
 
 #: Products.Silva:/schema/silva-extra.xml:711
 msgid ""
@@ -1365,7 +1399,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1427,7 +1462,8 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
 
@@ -1497,7 +1533,8 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1541,7 +1578,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/smi.py:49
 msgid "subscribed email addresses"
-msgstr "subscribed email addresses"
+msgstr "subscribed e-mail addresses"
 
 #: silva.app.subscriptions:/smi.py:50
 msgid ""
@@ -1621,7 +1658,8 @@ msgstr ""
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
@@ -1661,12 +1699,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1683,7 +1723,8 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1745,7 +1786,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1813,7 +1855,8 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
 msgstr "select:"
 
@@ -1821,11 +1864,13 @@ msgstr "select:"
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
 msgstr ""
 
@@ -1896,7 +1941,8 @@ msgid "Definition"
 msgstr ""
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr "Sorry, this ${meta_type} is not viewable."
@@ -1967,6 +2013,8 @@ msgid ""
 "The data that was submitted did not validate properly.  Please adjust the "
 "form values and submit again."
 msgstr ""
+"The data that was submitted did not validate properly.  Please adjust the "
+"form values and submit again."
 
 #: silva.core.smi:/content/metadata.py:194
 msgid "Metadata saved."
@@ -2258,7 +2306,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr "Reverted to previous version."
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2546,8 +2595,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2561,7 +2610,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2619,7 +2669,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2656,7 +2707,8 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -3081,7 +3133,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3135,7 +3188,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3167,7 +3221,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3276,7 +3331,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3463,3295 +3519,14 @@ msgstr ""
 msgid "Show All Items"
 msgstr ""
 
-#~ msgid "file system path"
-#~ msgstr "file system path"
-
-#~ msgid "file size"
-#~ msgstr "file size"
-
-#~ msgid "depth"
-#~ msgstr "depth"
-
-#~ msgid "Not connected"
-#~ msgstr "Not connected"
-
-#~ msgid "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
-#~ msgstr "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
-
-#~ msgid "pasted &#xab;${id}&#xbb;"
-#~ msgstr "pasted &#xab;${id}&#xbb;"
-
-#~ msgid "first item"
-#~ msgstr "first item"
-
-#~ msgid "aspect"
-#~ msgstr "aspect"
-
-#~ msgid "content"
-#~ msgstr "content"
-
-#~ msgid "* required"
-#~ msgstr "* required"
-
-#~ msgid "'${crop}' defines an impossible cropping"
-#~ msgstr "'${crop}' defines an impossible cropping"
-
-#~ msgid "image"
-#~ msgstr "image"
-
-#~ msgid "update index"
-#~ msgstr "update index"
-
-#~ msgid "url"
-#~ msgstr "url"
-
-#~ msgid "No approved version to unapprove."
-#~ msgstr "No approved version to unapprove."
-
-#~ msgid "No public version to close."
-#~ msgstr "No public version to close."
-
-#~ msgid "There is no unapproved version to request approval for."
-#~ msgstr "There is no unapproved version to request approval for."
-
-#~ msgid "The version is not requested for approval."
-#~ msgstr "The version is not requested for approval."
-
-#~ msgid "There is no version to add messages for."
-#~ msgstr "There is no version to add messages for."
-
-#~ msgid "There is an approved version already; unapprove it. (${id})"
-#~ msgstr "There is an approved version already; unapprove it. (${id})"
-
-#~ msgid "There already is an unapproved version (${id})."
-#~ msgstr "There already is an unapproved version (${id})."
-
-#~ msgid "The public version has that id already (${id})."
-#~ msgstr "The public version has that id already (${id})."
-
-#~ msgid "A previous version has that id already (${id})."
-#~ msgstr "A previous version has that id already (${id})."
-
-#~ msgid "published"
-#~ msgstr "published"
-
-#~ msgid "none"
-#~ msgstr "none"
-
-#~ msgid "Can not delete all versions"
-#~ msgstr "Can not delete all versions"
-
-#~ msgid "no such version ${version}"
-#~ msgstr "no such version ${version}"
-
-#~ msgid "No unapproved version available"
-#~ msgstr "No unapproved version available"
-
-#~ msgid "access key: alt-s"
-#~ msgstr "access key: alt-s"
-
-#~ msgid "select a new item: alt-s"
-#~ msgstr "select a new item: alt-s"
-
-#~ msgid "select"
-#~ msgstr "select"
-
-#~ msgid "view"
-#~ msgstr "view"
-
-#~ msgid "modified"
-#~ msgstr "modified"
-
-#~ msgid "author"
-#~ msgstr "author"
-
-#~ msgid "There is no content here."
-#~ msgstr "There is no content here."
-
-#~ msgid "enter"
-#~ msgstr "enter"
-
-#~ msgid "n/a"
-#~ msgstr "n/a"
-
-#~ msgid "content is published"
-#~ msgstr "content is published"
-
-#~ msgid "cancel operation: alt-c"
-#~ msgstr "cancel operation: alt-c"
-
-#~ msgid "cancel"
-#~ msgstr "cancel"
-
-#~ msgid "insert a reference to this container: alt-c"
-#~ msgstr "insert a reference to this container: alt-c"
-
-#~ msgid "place reference to container..."
-#~ msgstr "place reference to container..."
-
-#~ msgid "Default Document Policy"
-#~ msgstr "Default Document Policy"
-
-#~ msgid "Listing body"
-#~ msgstr "Listing body"
-
-#~ msgid ""
-#~ "${listing_body}${br} p &nbsp; Select list for position number${br} m "
-#~ "&nbsp; move"
-#~ msgstr ""
-#~ "${listing_body}${br} p &nbsp; Select list for position number${br} m "
-#~ "&nbsp; move"
-
-#~ msgid "Listing footer"
-#~ msgstr "Listing footer"
-
-#~ msgid ""
-#~ "${listing_footer}${br} a &nbsp; select all${br} r &nbsp; rename${br} d "
-#~ "&nbsp; delete${br} x &nbsp; cut${br} c &nbsp; copy${br} v &nbsp; paste"
-#~ "${br} g &nbsp; paste as ghost"
-#~ msgstr ""
-#~ "${listing_footer}${br} a &nbsp; select all${br} r &nbsp; rename${br} d "
-#~ "&nbsp; delete${br} x &nbsp; cut${br} c &nbsp; copy${br} v &nbsp; paste"
-#~ "${br} g &nbsp; paste as ghost"
-
-#~ msgid "Preview screen"
-#~ msgstr "Preview screen"
-
-#~ msgid "; &nbsp; See public preview${br}"
-#~ msgstr "; &nbsp; See public preview${br}"
-
-#~ msgid "Publish screen (folder)"
-#~ msgstr "Publish screen (folder)"
-
-#~ msgid "${listing_header}${br} i &nbsp; import${br} e &nbsp; Export"
-#~ msgstr "${listing_header}${br} i &nbsp; import${br} e &nbsp; Export"
-
-#~ msgid ""
-#~ "${listing_footer}${br} a &nbsp; select all${br} n &nbsp; create new "
-#~ "vesions${br} j &nbsp; reject (request for approval)${br} v &nbsp; revoke "
-#~ "(request for approval)${br} c &nbsp; close (public version)${br} l &nbsp; "
-#~ "approve for later${br} u &nbsp; update settings${br} p &nbsp; publish now"
-#~ "${br}"
-#~ msgstr ""
-#~ "${listing_footer}${br} a &nbsp; select all${br} n &nbsp; create new "
-#~ "vesions${br} j &nbsp; reject (request for approval)${br} v &nbsp; revoke "
-#~ "(request for approval)${br} c &nbsp; close (public version)${br} l &nbsp; "
-#~ "approve for later${br} u &nbsp; update settings${br} p &nbsp; publish now"
-#~ "${br}"
-
-#~ msgid "Add screen"
-#~ msgstr "Add screen"
-
-#~ msgid "c &nbsp; cancel${br} a &nbsp; add${br} e &nbsp; add and edit/enter"
-#~ msgstr "c &nbsp; cancel${br} a &nbsp; add${br} e &nbsp; add and edit/enter"
-
-#~ msgid "Editor screen"
-#~ msgstr "Editor screen"
-
-#~ msgid ""
-#~ "( &nbsp; forms editor${br} ) &nbsp; Kupu editor${br} ; &nbsp; public "
-#~ "preview${br} p &nbsp; publish now${br}"
-#~ msgstr ""
-#~ "( &nbsp; forms editor${br} ) &nbsp; Kupu editor${br} ; &nbsp; public "
-#~ "preview${br} p &nbsp; publish now${br}"
-
-#~ msgid "Kupu editor"
-#~ msgstr "Kupu editor"
-
-#~ msgid ""
-#~ "${kupu_editor}${br} b &nbsp; bold${br} i &nbsp; italic${br} u &nbsp; "
-#~ "underline${br} - &nbsp; subscript${br} + &nbsp; superscript${br} # &nbsp; "
-#~ "numbered list${br} * &nbsp; bulleted list${br} = &nbsp; definition list"
-#~ "${br} z &nbsp; undo${br} y &nbsp; redo${br} h &nbsp; html source${br}"
-#~ msgstr ""
-#~ "${kupu_editor}${br} b &nbsp; bold${br} i &nbsp; italic${br} u &nbsp; "
-#~ "underline${br} - &nbsp; subscript${br} + &nbsp; superscript${br} # &nbsp; "
-#~ "numbered list${br} * &nbsp; bulleted list${br} = &nbsp; definition list"
-#~ "${br} z &nbsp; undo${br} y &nbsp; redo${br} h &nbsp; html source${br}"
-
-#~ msgid "Forms editor"
-#~ msgstr "Forms editor"
-
-#~ msgid ""
-#~ "${forms_editor}${br} s &nbsp; save${br} e &nbsp; save and exit${br} i "
-#~ "&nbsp; save and insert${br} tab Use your tab key to edit without using "
-#~ "the mouse. Shift-tab goes backwards."
-#~ msgstr ""
-#~ "${forms_editor}${br} s &nbsp; save${br} e &nbsp; save and exit${br} i "
-#~ "&nbsp; save and insert${br} tab Use your tab key to edit without using "
-#~ "the mouse. Shift-tab goes backwards."
-
-#~ msgid "Other screens"
-#~ msgstr "Other screens"
-
-#~ msgid "return"
-#~ msgstr "return"
-
-#~ msgid "access key: alt-r"
-#~ msgstr "access key: alt-r"
-
-#~ msgid ""
-#~ "The Properties, Access, and Publish screens as well as their subscreens "
-#~ "(such as Lookup, Import, and Export) have access keys for most buttons. "
-#~ "Usually the first letter of the button is the access key. You can always "
-#~ "hover over the button to see the tooltip."
-#~ msgstr ""
-#~ "The Properties, Access, and Publish screens as well as their subscreens "
-#~ "(such as Lookup, Import, and Export) have access keys for most buttons. "
-#~ "Usually the first letter of the button is the access key. You can always "
-#~ "hover over the button to see the tooltip."
-
-#~ msgid ""
-#~ "If there are two buttons with the same name, the access key for the "
-#~ "second is usually the first letter of the second word (e.g. for &#8220;"
-#~ "get image reference&#8221; and &#8220;get link reference&#8221;, the "
-#~ "access keys are &#8216;g&#8217; and &#8216;l&#8217;). Sometimes there are "
-#~ "multiples of the same button, in which case only the first has an access "
-#~ "key."
-#~ msgstr ""
-#~ "If there are two buttons with the same name, the access key for the "
-#~ "second is usually the first letter of the second word (e.g. for &#8220;"
-#~ "get image reference&#8221; and &#8220;get link reference&#8221;, the "
-#~ "access keys are &#8216;g&#8217; and &#8216;l&#8217;). Sometimes there are "
-#~ "multiples of the same button, in which case only the first has an access "
-#~ "key."
-
-#~ msgid "Notes"
-#~ msgstr "Notes"
-
-#~ msgid ""
-#~ "Some access keys can conflict with browser menus. However the key works "
-#~ "if the focus is in the page (a form element is active or just click in "
-#~ "the page)."
-#~ msgstr ""
-#~ "Some access keys can conflict with browser menus. However the key works "
-#~ "if the focus is in the page (a form element is active or just click in "
-#~ "the page)."
-
-#~ msgid ""
-#~ "Mozilla and Internet Explorer handle access keys for hyperlinks "
-#~ "differently. Mozilla initiates the action (same as clicking the link), "
-#~ "whereas Explorer just highlights the link, and then you have to hit "
-#~ "return to activate it. Both browsers treat form buttons the same, "
-#~ "initiating the action immediately."
-#~ msgstr ""
-#~ "Mozilla and Internet Explorer handle access keys for hyperlinks "
-#~ "differently. Mozilla initiates the action (same as clicking the link), "
-#~ "whereas Explorer just highlights the link, and then you have to hit "
-#~ "return to activate it. Both browsers treat form buttons the same, "
-#~ "initiating the action immediately."
-
-#~ msgid ""
-#~ "Don&#8217;t forget that most browsers use alt-left arrow to go back, and "
-#~ "alt-right arrow to go forward. On the Mac, command-left arrow and command-"
-#~ "right arrow do this."
-#~ msgstr ""
-#~ "Don&#8217;t forget that most browsers use alt-left arrow to go back, and "
-#~ "alt-right arrow to go forward. On the Mac, command-left arrow and command-"
-#~ "right arrow do this."
-
-#~ msgid ""
-#~ "If you wish to create additional docs, the hyperlink of the Silva help "
-#~ "link can be changed by altering the the 'help_url' property in the Silva "
-#~ "root. See the properties tab in the Zope Management Interface."
-#~ msgstr ""
-#~ "If you wish to create additional docs, the hyperlink of the Silva help "
-#~ "link can be changed by altering the the 'help_url' property in the Silva "
-#~ "root. See the properties tab in the Zope Management Interface."
-
-#~ msgid "Tip: one click editing"
-#~ msgstr "Tip: one click editing"
-
-#~ msgid ""
-#~ "When viewing a public Silva page, switching to the SMI is is easiest if "
-#~ "there's a bookmark on your toolbar. Add a bookmark with the following "
-#~ "javascript:"
-#~ msgstr ""
-#~ "When viewing a public Silva page, switching to the SMI is is easiest if "
-#~ "there's a bookmark on your toolbar. Add a bookmark with the following "
-#~ "javascript:"
-
-#~ msgid "Silva edit"
-#~ msgstr "Silva edit"
-
-#~ msgid "Or, save this link &#8211; ${silva_edit} &#8211; as a bookmark."
-#~ msgstr "Or, save this link &#8211; ${silva_edit} &#8211; as a bookmark."
-
-#~ msgid "Managers can do the same and create a ${manage} bookmark."
-#~ msgstr "Managers can do the same and create a ${manage} bookmark."
-
-#~ msgid "manage..."
-#~ msgstr "manage..."
-
-#~ msgid "Thanks to ${eth_zuerich} for this trick."
-#~ msgstr "Thanks to ${eth_zuerich} for this trick."
-
-#~ msgid "Tip for Mozilla/Netscape users"
-#~ msgstr "Tip for Mozilla/Netscape users"
-
-#~ msgid ""
-#~ "${tip_for_mozilla_users}${br} Using the &#8220;Find As You Type&#8221; "
-#~ "feature will make keyboard navigation to hyperlinks &#8211; such as item "
-#~ "names &#8211; remarkably easy. See:${br} ${typeaheadfind_link}"
-#~ msgstr ""
-#~ "${tip_for_mozilla_users}${br} Using the &#8220;Find As You Type&#8221; "
-#~ "feature will make keyboard navigation to hyperlinks &#8211; such as item "
-#~ "names &#8211; remarkably easy. See:${br} ${typeaheadfind_link}"
-
-#~ msgid "Silva documentation"
-#~ msgstr "Silva documentation"
-
-#~ msgid ""
-#~ "The most up to date documentation can be found at:${br} "
-#~ "${silva_documentation_link}"
-#~ msgstr ""
-#~ "The most up to date documentation can be found at:${br} "
-#~ "${silva_documentation_link}"
-
-#~ msgid ""
-#~ "The technical documentation is included in the Silva product in &#8216;"
-#~ "plain&#8217; structured text, gracefully degraded for text mode (no "
-#~ "links, unicode entities, etc.)."
-#~ msgstr ""
-#~ "The technical documentation is included in the Silva product in &#8216;"
-#~ "plain&#8217; structured text, gracefully degraded for text mode (no "
-#~ "links, unicode entities, etc.)."
-
-#~ msgid "Contact"
-#~ msgstr "Contact"
-
-#~ msgid "Feedback"
-#~ msgstr "Feedback"
-
-#~ msgid "${br} ${contact}${br} ${feedback} is welcome."
-#~ msgstr "${br} ${contact}${br} ${feedback} is welcome."
-
-#~ msgid "Silva info: alt-i"
-#~ msgstr "Silva info: alt-i"
-
-#~ msgid "Silva access keys"
-#~ msgstr "Silva access keys"
-
-#~ msgid ""
-#~ "The access key on your machine may be &#8216;alt&#8217;. On a Mac "
-#~ "it&#8217;s &#8216;ctrl&#8217;."
-#~ msgstr ""
-#~ "The access key on your machine may be &#8216;alt&#8217;. On a Mac "
-#~ "it&#8217;s &#8216;ctrl&#8217;."
-
-#~ msgid ""
-#~ "Hover over the link or button and a tooltip will popup with the access "
-#~ "key."
-#~ msgstr ""
-#~ "Hover over the link or button and a tooltip will popup with the access "
-#~ "key."
-
-#~ msgid "Save time, energy, and wrists by keying to your destination."
-#~ msgstr "Save time, energy, and wrists by keying to your destination."
-
-#~ msgid "see below"
-#~ msgstr "see below"
-
-#~ msgid "The most useful access keys are for screen navigation, ${see_below}."
-#~ msgstr ""
-#~ "The most useful access keys are for screen navigation, ${see_below}."
-
-#~ msgid "Global keys that are always available"
-#~ msgstr "Global keys that are always available"
-
-#~ msgid "The following access keys are available in every Silva screen."
-#~ msgstr "The following access keys are available in every Silva screen."
-
-#~ msgid "General"
-#~ msgstr "General"
-
-#~ msgid ""
-#~ "${general}${br} t &nbsp; Jump to top of page${br} b &nbsp; Jump to bottom "
-#~ "of page${br} / &nbsp; Jump to top of Silva (Silva icon)${br} ? &nbsp; "
-#~ "Access keys and shortcuts"
-#~ msgstr ""
-#~ "${general}${br} t &nbsp; Jump to top of page${br} b &nbsp; Jump to bottom "
-#~ "of page${br} / &nbsp; Jump to top of Silva (Silva icon)${br} ? &nbsp; "
-#~ "Access keys and shortcuts"
-
-#~ msgid "Changing screens with the tabs"
-#~ msgstr "Changing screens with the tabs"
-
-#~ msgid ""
-#~ "${changing_screens_with_tabs}${br}The tabs have numbered access keys, "
-#~ "starting from one going up to five. You can navigate horizontally accross "
-#~ "an item&#8217;s screens by using alt-1, alt-2, and so forth."
-#~ msgstr ""
-#~ "${changing_screens_with_tabs}${br}The tabs have numbered access keys, "
-#~ "starting from one going up to five. You can navigate horizontally accross "
-#~ "an item&#8217;s screens by using alt-1, alt-2, and so forth."
-
-#~ msgid ""
-#~ "Each tab has a toplink ${img}, the tall tree on the left side. It takes "
-#~ "you to the top of the current publication, within the same tab, or &#8216;"
-#~ "vein&#8217;. The access key is the shift character of the corresponding "
-#~ "number (on the English keyboard, sorry if you have an international one). "
-#~ "Thus alt-!, alt-@, alt-#, alt-$, and alt-% (note that the characters "
-#~ "resemble the number)."
-#~ msgstr ""
-#~ "Each tab has a toplink ${img}, the tall tree on the left side. It takes "
-#~ "you to the top of the current publication, within the same tab, or &#8216;"
-#~ "vein&#8217;. The access key is the shift character of the corresponding "
-#~ "number (on the English keyboard, sorry if you have an international one). "
-#~ "Thus alt-!, alt-@, alt-#, alt-$, and alt-% (note that the characters "
-#~ "resemble the number)."
-
-#~ msgid ""
-#~ "On the right of each tab is an uplink ${img}, a small tree that takes you "
-#~ "up one level in the same vein. The access keys for the uplinks are the "
-#~ "remaining numbers (add five to the access key for the tab). If you are in "
-#~ "a screen with five tabs, the uplinks are alt-6, alt-7, alt-8, alt-9, and "
-#~ "alt-0. If there are less than five tabs, you still add five to get the "
-#~ "uplink key."
-#~ msgstr ""
-#~ "On the right of each tab is an uplink ${img}, a small tree that takes you "
-#~ "up one level in the same vein. The access keys for the uplinks are the "
-#~ "remaining numbers (add five to the access key for the tab). If you are in "
-#~ "a screen with five tabs, the uplinks are alt-6, alt-7, alt-8, alt-9, and "
-#~ "alt-0. If there are less than five tabs, you still add five to get the "
-#~ "uplink key."
-
-#~ msgid "Footer page info row"
-#~ msgstr "Footer page info row"
-
-#~ msgid "${footer_page_info_row}${br} : &nbsp; See public page${br}"
-#~ msgstr "${footer_page_info_row}${br} : &nbsp; See public page${br}"
-
-#~ msgid "Footer user row"
-#~ msgstr "Footer user row"
-
-#~ msgid ""
-#~ "${footer_user_row}${br} ~ &nbsp; User settings${br} &nbsp;, &nbsp; "
-#~ "Request access${br} q &nbsp; Logout"
-#~ msgstr ""
-#~ "${footer_user_row}${br} ~ &nbsp; User settings${br} &nbsp;, &nbsp; "
-#~ "Request access${br} q &nbsp; Logout"
-
-#~ msgid "Silva help"
-#~ msgstr "Silva help"
-
-#~ msgid "Contents screen (folder)"
-#~ msgstr "Contents screen (folder)"
-
-#~ msgid "Listing header"
-#~ msgstr "Listing header"
-
-#~ msgid ""
-#~ "${listing_header}${br} n &nbsp; new${br} s &nbsp; select list for a new "
-#~ "object${br} i &nbsp; import${br} e &nbsp; export"
-#~ msgstr ""
-#~ "${listing_header}${br} n &nbsp; new${br} s &nbsp; select list for a new "
-#~ "object${br} i &nbsp; import${br} e &nbsp; export"
-
-#~ msgid "access key: alt-b"
-#~ msgstr "access key: alt-b"
-
-#~ msgid "back"
-#~ msgstr "back"
-
-#~ msgid "Silva info: alt-s"
-#~ msgstr "Silva info: alt-s"
-
-#~ msgid "Silva Reference"
-#~ msgstr "Silva Reference"
-
-#~ msgid "Thanks to...."
-#~ msgstr "Thanks to...."
-
-#~ msgid ""
-#~ "The people at ${eth_zuerich} for their feedback, contributions, and "
-#~ "innovation."
-#~ msgstr ""
-#~ "The people at ${eth_zuerich} for their feedback, contributions, and "
-#~ "innovation."
-
-#~ msgid ""
-#~ "Jan Smith at ${ozzope} for advice, hosting the documentation wiki, and "
-#~ "her tutorials."
-#~ msgstr ""
-#~ "Jan Smith at ${ozzope} for advice, hosting the documentation wiki, and "
-#~ "her tutorials."
-
-#~ msgid ""
-#~ "Many thanks go to Hans Verster at the ${eur} for his vision and support."
-#~ msgstr ""
-#~ "Many thanks go to Hans Verster at the ${eur} for his vision and support."
-
-#~ msgid "Silva site"
-#~ msgstr "Silva site"
-
-#~ msgid "${Silva} &#8211; independent content management"
-#~ msgstr "${Silva} &#8211; independent content management"
-
-#~ msgid "Credits"
-#~ msgstr "Credits"
-
-#~ msgid "Silva is developed by ${infrae} and many others. ${br}"
-#~ msgstr "Silva is developed by ${infrae} and many others. ${br}"
-
-#~ msgid "Infrae Silva crew"
-#~ msgstr "Infrae Silva crew"
-
-#~ msgid "Silva alumni"
-#~ msgstr "Silva alumni"
-
-#~ msgid "External developers"
-#~ msgstr "External developers"
-
-#~ msgid "Request processed"
-#~ msgstr "Request processed"
-
-#~ msgid "Return to where you came from..."
-#~ msgstr "Return to where you came from..."
-
-#~ msgid "slide to the publish screen"
-#~ msgstr "slide to the publish screen"
-
-#~ msgid "up to top contents of publication"
-#~ msgstr "up to top contents of publication"
-
-#~ msgid "up to top of publication"
-#~ msgstr "up to top of publication"
-
-#~ msgid "slide to the contents screen"
-#~ msgstr "slide to the contents screen"
-
-#~ msgid "(optional)"
-#~ msgstr "(optional)"
-
-#~ msgid "File uploaded."
-#~ msgstr "File uploaded."
-
-#~ msgid "message"
-#~ msgstr "message"
-
-#~ msgid "Properties changed: ${changed}"
-#~ msgstr "Properties changed: ${changed}"
-
-#~ msgid "${icon} file info"
-#~ msgstr "${icon} file info"
-
-#~ msgid "file mime type"
-#~ msgstr "file mime type"
-
-#~ msgid "edit textual content"
-#~ msgstr "edit textual content"
-
-#~ msgid ""
-#~ "Text content is too large to be edited through Silva. Please upload "
-#~ "changes."
-#~ msgstr ""
-#~ "Text content is too large to be edited through Silva. Please upload "
-#~ "changes."
-
-#~ msgid "save text content"
-#~ msgstr "save text content"
-
-#~ msgid "access key: alt-c"
-#~ msgstr "access key: alt-c"
-
-#~ msgid "Text Context"
-#~ msgstr "Text Context"
-
-#~ msgid "Empty or invalid file."
-#~ msgstr "Empty or invalid file."
-
-#~ msgid "This is just a placeholder so this directory won't get pruned."
-#~ msgstr "This is just a placeholder so this directory won't get pruned."
-
-#~ msgid "instructions"
-#~ msgstr "instructions"
-
-#~ msgid ""
-#~ "Drag the window below to the image region which should be cropped. You "
-#~ "can resize the window with the handle on the lower right corner. If "
-#~ "you're done, you can click the submit button below or double click in the "
-#~ "window to set your coordinates and close the cropping tool."
-#~ msgstr ""
-#~ "Drag the window below to the image region which should be cropped. You "
-#~ "can resize the window with the handle on the lower right corner. If "
-#~ "you're done, you can click the submit button below or double click in the "
-#~ "window to set your coordinates and close the cropping tool."
-
-#~ msgid "predefined sizes"
-#~ msgstr "predefined sizes"
-
-#~ msgid "50x50 pixels"
-#~ msgstr "50x50 pixels"
-
-#~ msgid "50x50 pixel"
-#~ msgstr "50x50 pixel"
-
-#~ msgid "75x75 pixels"
-#~ msgstr "75x75 pixels"
-
-#~ msgid "75x75 pixel"
-#~ msgstr "75x75 pixel"
-
-#~ msgid "100x100 pixel"
-#~ msgstr "100x100 pixel"
-
-#~ msgid "100x100 pixels"
-#~ msgstr "100x100 pixels"
-
-#~ msgid "250x250 pixels"
-#~ msgstr "250x250 pixels"
-
-#~ msgid "250x250 pixel"
-#~ msgstr "250x250 pixel"
-
-#~ msgid "use coordinates..."
-#~ msgstr "use coordinates..."
-
-#~ msgid "alt-u"
-#~ msgstr "alt-u"
-
-#~ msgid "drag window"
-#~ msgstr "drag window"
-
-#~ msgid "web format"
-#~ msgstr "web format"
-
-#~ msgid "scaling"
-#~ msgstr "scaling"
-
-#~ msgid ""
-#~ "\n"
-#~ "\t  Image scaling for web: use width x height in pixels, or one axis "
-#~ "length, or a percentage (100x200, 100x*, *x200, 40%)."
-#~ msgstr ""
-#~ "\n"
-#~ "\t  Image scaling for web: use width x height in pixels, or one axis "
-#~ "length, or a percentage (100x200, 100x*, *x200, 40%)."
-
-#~ msgid "cropping"
-#~ msgstr "cropping"
-
-#~ msgid ""
-#~ "\n"
-#~ "              Image cropping for web: use the &#8216;set crop "
-#~ "coordinates&#8217; button, or enter X1xY1-X2xY2 to define the cropping "
-#~ "box.\n"
-#~ "          "
-#~ msgstr ""
-#~ "\n"
-#~ "              Image cropping for web: use the &#8216;set crop "
-#~ "coordinates&#8217; button, or enter X1xY1-X2xY2 to define the cropping "
-#~ "box.\n"
-#~ "          "
-
-#~ msgid "format and scaling"
-#~ msgstr "format and scaling"
-
-#~ msgid "set crop coordinates..."
-#~ msgstr "set crop coordinates..."
-
-#~ msgid ""
-#~ "specify the center of the area to crop by clicking in the image: alt-o"
-#~ msgstr ""
-#~ "specify the center of the area to crop by clicking in the image: alt-o"
-
-#~ msgid "change"
-#~ msgstr "change"
-
-#~ msgid "format"
-#~ msgstr "format"
-
-#~ msgid "dimensions"
-#~ msgstr "dimensions"
-
-#~ msgid "scaled to ${WxH} pixels"
-#~ msgstr "scaled to ${WxH} pixels"
-
-#~ msgid "original"
-#~ msgstr "original"
-
-#~ msgid "view the original image: alt-v"
-#~ msgstr "view the original image: alt-v"
-
-#~ msgid "view unscaled image"
-#~ msgstr "view unscaled image"
-
-#~ msgid "orientation"
-#~ msgstr "orientation"
-
-#~ msgid "The file is empty or invalid."
-#~ msgstr "The file is empty or invalid."
-
-#~ msgid "Problem: ${errors}"
-#~ msgstr "Problem: ${errors}"
-
-#~ msgid "Image updated."
-#~ msgstr "Image updated."
-
-#~ msgid "edit"
-#~ msgstr "edit"
-
-#~ msgid "preview"
-#~ msgstr "preview"
-
-#~ msgid "properties"
-#~ msgstr "properties"
-
-#~ msgid "access"
-#~ msgstr "access"
-
-#~ msgid "upload"
-#~ msgstr "upload"
-
-#~ msgid "upload file"
-#~ msgstr "upload file"
-
-#~ msgid "access key: alt-u"
-#~ msgstr "access key: alt-u"
-
-#~ msgid "characterization"
-#~ msgstr "characterization"
-
-#~ msgid "status of &#xab;${title}&#xbb;"
-#~ msgstr "status of &#xab;${title}&#xbb;"
-
-#~ msgid "A ${type} automatically has a published state."
-#~ msgstr "A ${type} automatically has a published state."
-
-#~ msgid "Locate a file."
-#~ msgstr "Locate a file."
-
-#~ msgid "miscellaneous settings: alt-e"
-#~ msgstr "miscellaneous settings: alt-e"
-
-#~ msgid "s${e}ttings..."
-#~ msgstr "s${e}ttings..."
-
-#~ msgid "manage subscriptions: alt-u"
-#~ msgstr "manage subscriptions: alt-u"
-
-#~ msgid "s${u}bscriptions..."
-#~ msgstr "s${u}bscriptions..."
-
-#~ msgid "${icon} metadata ${for_public_version_of}"
-#~ msgstr "${icon} metadata ${for_public_version_of}"
-
-#~ msgid "not applicable"
-#~ msgstr "not applicable"
-
-#~ msgid "There are no jobs in the queue."
-#~ msgstr "There are no jobs in the queue."
-
-#~ msgid "list of processed items ${format}"
-#~ msgstr "list of processed items ${format}"
-
-#~ msgid "type"
-#~ msgstr "type"
-
-#~ msgid "current job"
-#~ msgstr "current job"
-
-#~ msgid "There are no processed jobs."
-#~ msgstr "There are no processed jobs."
-
-#~ msgid "owner"
-#~ msgstr "owner"
-
-#~ msgid "there's no undo: alt-x"
-#~ msgstr "there's no undo: alt-x"
-
-#~ msgid "remove"
-#~ msgstr "remove"
-
-#~ msgid "import to the current location and remove from the list: alt-m"
-#~ msgstr "import to the current location and remove from the list: alt-m"
-
-#~ msgid "import and remove"
-#~ msgstr "import and remove"
-
-#~ msgid "import to the current location: alt-p"
-#~ msgstr "import to the current location: alt-p"
-
-#~ msgid "import"
-#~ msgstr "import"
-
-#~ msgid "reload to update the queue lists: alt-r"
-#~ msgstr "reload to update the queue lists: alt-r"
-
-#~ msgid "${r}efresh queue lists"
-#~ msgstr "${r}efresh queue lists"
-
-#~ msgid "queue of items to process"
-#~ msgstr "queue of items to process"
-
-#~ msgid "job id"
-#~ msgstr "job id"
-
-#~ msgid "job owner"
-#~ msgstr "job owner"
-
-#~ msgid "estimated time"
-#~ msgstr "estimated time"
-
-#~ msgid "status"
-#~ msgstr "status"
-
-#~ msgid "${estimated_time} &nbsp;seconds"
-#~ msgstr "${estimated_time} &nbsp;seconds"
-
-#~ msgid "No items were selected, so no content will be exported"
-#~ msgstr "No items were selected, so no content will be exported"
-
-#~ msgid "Currently, fullmedia export only supports one item at a time."
-#~ msgstr "Currently, fullmedia export only supports one item at a time."
-
-#~ msgid "Select one or more jobs to delete"
-#~ msgstr "Select one or more jobs to delete"
-
-#~ msgid "Job deleted"
-#~ msgstr "Job deleted"
-
-#~ msgid "unknown format"
-#~ msgstr "unknown format"
-
-#~ msgid "Silva XML"
-#~ msgstr "Silva XML"
-
-#~ msgid "Word document"
-#~ msgstr "Word document"
-
-#~ msgid "contents"
-#~ msgstr "contents"
-
-#~ msgid "publish"
-#~ msgstr "publish"
-
-#~ msgid "Select a file for upload."
-#~ msgstr "Select a file for upload."
-
-#~ msgid "Something bad with the zipfile;"
-#~ msgstr "Something bad with the zipfile;"
-
-#~ msgid "added ${succeeded}"
-#~ msgstr "added ${succeeded}"
-
-#~ msgid "could not add: ${failed}"
-#~ msgstr "could not add: ${failed}"
-
-#~ msgid "Finished importing: ${msg}"
-#~ msgstr "Finished importing: ${msg}"
-
-#~ msgid "version already approved"
-#~ msgstr "version already approved"
-
-#~ msgid "version already published"
-#~ msgstr "version already published"
-
-#~ msgid "Approval on: ${ids}"
-#~ msgstr "Approval on: ${ids}"
-
-#~ msgid "could not approve: ${ids}"
-#~ msgstr "could not approve: ${ids}"
-
-#~ msgid "save addable settings for this publication: alt-a"
-#~ msgstr "save addable settings for this publication: alt-a"
-
-#~ msgid "save addables settings"
-#~ msgstr "save addables settings"
-
-#~ msgid "addable settings for &#xab;${title}&#xbb;"
-#~ msgstr "addable settings for &#xab;${title}&#xbb;"
-
-#~ msgid "acquire"
-#~ msgstr "acquire"
-
-#~ msgid "addables"
-#~ msgstr "addables"
-
-#~ msgid "Addable settings changed for: ${changed_metadata}"
-#~ msgstr "Addable settings changed for: ${changed_metadata}"
-
-#~ msgid "content approved, or published..."
-#~ msgstr "content approved, or published..."
-
-#~ msgid "content approved or published"
-#~ msgstr "content approved or published"
-
-#~ msgid "move up"
-#~ msgstr "move up"
-
-#~ msgid "move down"
-#~ msgstr "move down"
-
-#~ msgid "content actions"
-#~ msgstr "content actions"
-
-#~ msgid "publishing actions"
-#~ msgstr "publishing actions"
-
-#~ msgid "move selected items to"
-#~ msgstr "move selected items to"
-
-#~ msgid "position:"
-#~ msgstr "position:"
-
-#~ msgid "end"
-#~ msgstr "end"
-
-#~ msgid "access key: alt-o"
-#~ msgstr "access key: alt-o"
-
-#~ msgid "move selected items into position: alt-m"
-#~ msgstr "move selected items into position: alt-m"
-
-#~ msgid "move"
-#~ msgstr "move"
-
-#~ msgid "rename..."
-#~ msgstr "rename..."
-
-#~ msgid "rename and retitle items: alt-r"
-#~ msgstr "rename and retitle items: alt-r"
-
-#~ msgid "cut"
-#~ msgstr "cut"
-
-#~ msgid "cut items: alt-x"
-#~ msgstr "cut items: alt-x"
-
-#~ msgid "copy items: alt-c"
-#~ msgstr "copy items: alt-c"
-
-#~ msgid "copy"
-#~ msgstr "copy"
-
-#~ msgid "paste items: alt-v"
-#~ msgstr "paste items: alt-v"
-
-#~ msgid "paste"
-#~ msgstr "paste"
-
-#~ msgid "paste (items on clipboard) as ghost objects: alt-g"
-#~ msgstr "paste (items on clipboard) as ghost objects: alt-g"
-
-#~ msgid "paste ghost"
-#~ msgstr "paste ghost"
-
-#~ msgid "Really delete?"
-#~ msgstr "Really delete?"
-
-#~ msgid "there's no undo: alt-d"
-#~ msgstr "there's no undo: alt-d"
-
-#~ msgid "delete"
-#~ msgstr "delete"
-
-#~ msgid "publish new versions: alt-p"
-#~ msgstr "publish new versions: alt-p"
-
-#~ msgid "publish now"
-#~ msgstr "publish now"
-
-#~ msgid "close published items: alt-l"
-#~ msgstr "close published items: alt-l"
-
-#~ msgid "close"
-#~ msgstr "close"
-
-#~ msgid "modify"
-#~ msgstr "modify"
-
-#~ msgid "shift"
-#~ msgstr "shift"
-
-#~ msgid "Nothing was selected, so nothing was closed."
-#~ msgstr "Nothing was selected, so nothing was closed."
-
-#~ msgid "is not published"
-#~ msgstr "is not published"
-
-#~ msgid "Closed: ${ids}"
-#~ msgstr "Closed: ${ids}"
-
-#~ msgid "could not close: ${ids}"
-#~ msgstr "could not close: ${ids}"
-
-#~ msgid "Nothing was selected, so nothing was copied."
-#~ msgstr "Nothing was selected, so nothing was copied."
-
-#~ msgid "Placed ${ids} on the clipboard for copying."
-#~ msgstr "Placed ${ids} on the clipboard for copying."
-
-#~ msgid "Nothing was selected, so nothing was cut."
-#~ msgstr "Nothing was selected, so nothing was cut."
-
-#~ msgid ""
-#~ "Placed ${cut_ids} on clipboard for cutting, but could not cut "
-#~ "${not_cut_ids}."
-#~ msgstr ""
-#~ "Placed ${cut_ids} on clipboard for cutting, but could not cut "
-#~ "${not_cut_ids}."
-
-#~ msgid "Placed ${cut_ids} on clipboard for cutting."
-#~ msgstr "Placed ${cut_ids} on clipboard for cutting."
-
-#~ msgid "Could not place ${not_cut_ids} on clipboard for cutting."
-#~ msgstr "Could not place ${not_cut_ids} on clipboard for cutting."
-
-#~ msgid "Nothing was selected, so nothing was deleted."
-#~ msgstr "Nothing was selected, so nothing was deleted."
-
-#~ msgid ""
-#~ "Deleted ${deleted_ids}, but could not delete ${not_deleted_ids}. Probably "
-#~ "there is a published version that must be closed, or an approved version "
-#~ "that needs to be revoked. Change the status in the Publish screen (alt-5)."
-#~ msgstr ""
-#~ "Deleted ${deleted_ids}, but could not delete ${not_deleted_ids}. Probably "
-#~ "there is a published version that must be closed, or an approved version "
-#~ "that needs to be revoked. Change the status in the Publish screen (alt-5)."
-
-#~ msgid "Deleted ${deleted_ids}."
-#~ msgstr "Deleted ${deleted_ids}."
-
-#~ msgid ""
-#~ "Could not delete ${not_deleted_ids}. Possibly there is a published "
-#~ "version, which must be closed before it can be deleted. Or, the document "
-#~ "is approved (the link will be green), and approval needs to be revoked. "
-#~ "Change the status in the Publish screen (alt-5)."
-#~ msgstr ""
-#~ "Could not delete ${not_deleted_ids}. Possibly there is a published "
-#~ "version, which must be closed before it can be deleted. Or, the document "
-#~ "is approved (the link will be green), and approval needs to be revoked. "
-#~ "Change the status in the Publish screen (alt-5)."
-
-#~ msgid "browse for a file on your disk"
-#~ msgstr "browse for a file on your disk"
-
-#~ msgid "title for assets"
-#~ msgstr "title for assets"
-
-#~ msgid "Optional title for all assets"
-#~ msgstr "Optional title for all assets"
-
-#~ msgid "subdirectories"
-#~ msgstr "subdirectories"
-
-#~ msgid "replace content"
-#~ msgstr "replace content"
-
-#~ msgid "import zip"
-#~ msgstr "import zip"
-
-#~ msgid "access key: alt-z"
-#~ msgstr "access key: alt-z"
-
-#~ msgid "docma icon"
-#~ msgstr "docma icon"
-
-#~ msgid "docma facilities"
-#~ msgstr "docma facilities"
-
-#~ msgid "upload a document in word format (.doc) for conversion"
-#~ msgstr "upload a document in word format (.doc) for conversion"
-
-#~ msgid "note"
-#~ msgstr "note"
-
-#~ msgid ""
-#~ "Locate a Word file to upload. It'll be converted and appear in the list "
-#~ "of processed items below. It can be imported anywhere in Silva."
-#~ msgstr ""
-#~ "Locate a Word file to upload. It'll be converted and appear in the list "
-#~ "of processed items below. It can be imported anywhere in Silva."
-
-#~ msgid "email address"
-#~ msgstr "email address"
-
-#~ msgid "An e-mail will be sent to you when the item is processed."
-#~ msgstr "An e-mail will be sent to you when the item is processed."
-
-#~ msgid ""
-#~ "This description will be shown in the queue and the list of processed "
-#~ "items."
-#~ msgstr ""
-#~ "This description will be shown in the queue and the list of processed "
-#~ "items."
-
-#~ msgid "upload a word document from your local drive: alt-u"
-#~ msgstr "upload a word document from your local drive: alt-u"
-
-#~ msgid "import in &#xab;${title}&#xbb;"
-#~ msgstr "import in &#xab;${title}&#xbb;"
-
-#~ msgid "over to the export screen: alt-e"
-#~ msgstr "over to the export screen: alt-e"
-
-#~ msgid "export..."
-#~ msgstr "export..."
-
-#~ msgid "import and extract zip archive"
-#~ msgstr "import and extract zip archive"
-
-#~ msgid "file to upload"
-#~ msgstr "file to upload"
-
-#~ msgid "Select a file for upload"
-#~ msgstr "Select a file for upload"
-
-#~ msgid "You must enter your e-mail address"
-#~ msgstr "You must enter your e-mail address"
-
-#~ msgid "Select one or more items to download"
-#~ msgstr "Select one or more items to download"
-
-#~ msgid "Select one or more jobs to import"
-#~ msgstr "Select one or more jobs to import"
-
-#~ msgid "Could not import ${newid}"
-#~ msgstr "Could not import ${newid}"
-
-#~ msgid "The following errors have occured during import: ${errors}"
-#~ msgstr "The following errors have occured during import: ${errors}"
-
-#~ msgid "Finished importing"
-#~ msgstr "Finished importing"
-
-#~ msgid "Data is not valid Silva XML"
-#~ msgstr "Data is not valid Silva XML"
-
-#~ msgid "Finished importing."
-#~ msgstr "Finished importing."
-
-#~ msgid "Moved ${id} down."
-#~ msgstr "Moved ${id} down."
-
-#~ msgid "Could not move ${id} down."
-#~ msgstr "Could not move ${id} down."
-
-#~ msgid "Nothing was selected, so nothing was moved."
-#~ msgstr "Nothing was selected, so nothing was moved."
-
-#~ msgid "First choose a position number."
-#~ msgstr "First choose a position number."
-
-#~ msgid "Object(s) ${ids} moved"
-#~ msgstr "Object(s) ${ids} moved"
-
-#~ msgid ", but could not move ${ids}"
-#~ msgstr ", but could not move ${ids}"
-
-#~ msgid "Could not move ${ids}."
-#~ msgstr "Could not move ${ids}."
-
-#~ msgid "Moved ${id} up."
-#~ msgstr "Moved ${id} up."
-
-#~ msgid "Could not move ${id} up."
-#~ msgstr "Could not move ${id} up."
-
-#~ msgid "Nothing was selected, so nothing was approved."
-#~ msgstr "Nothing was selected, so nothing was approved."
-
-#~ msgid "No content available to paste."
-#~ msgstr "No content available to paste."
-
-#~ msgid "rename"
-#~ msgstr "rename"
-
-#~ msgid "${icon} rename objects in &#xab;${title}&#xbb;"
-#~ msgstr "${icon} rename objects in &#xab;${title}&#xbb;"
-
-#~ msgid "attribute"
-#~ msgstr "attribute"
-
-#~ msgid "old"
-#~ msgstr "old"
-
-#~ msgid "new"
-#~ msgstr "new"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "no title"
-#~ msgstr "no title"
-
-#~ msgid "Nothing was selected, so nothing can be renamed."
-#~ msgstr "Nothing was selected, so nothing can be renamed."
-
-#~ msgid "&#xab;${item}&#xbb; renamed successfully"
-#~ msgstr "&#xab;${item}&#xbb; renamed successfully"
-
-#~ msgid "&#xab;${item}&#xbb; could not be renamed"
-#~ msgstr "&#xab;${item}&#xbb; could not be renamed"
-
-#~ msgid "Can only change Publications into Folders"
-#~ msgstr "Can only change Publications into Folders"
-
-#~ msgid "Can only change Folders into Publications"
-#~ msgstr "Can only change Folders into Publications"
-
-#~ msgid "modify / preview"
-#~ msgstr "modify / preview"
-
-#~ msgid "revision"
-#~ msgstr "revision"
-
-#~ msgid "publication due"
-#~ msgstr "publication due"
-
-#~ msgid "expiration due"
-#~ msgstr "expiration due"
-
-#~ msgid "public version"
-#~ msgstr "public version"
-
-#~ msgid "There are no publishable items here."
-#~ msgstr "There are no publishable items here."
-
-#~ msgid "access key: alt-m"
-#~ msgstr "access key: alt-m"
-
-#~ msgid "publish time"
-#~ msgstr "publish time"
-
-#~ msgid "access key: alt-x"
-#~ msgstr "access key: alt-x"
-
-#~ msgid "expiration time"
-#~ msgstr "expiration time"
-
-#~ msgid "clear&nbsp;expiration"
-#~ msgstr "clear&nbsp;expiration"
-
-#~ msgid "approve new versions for publication at a later date: alt-o"
-#~ msgstr "approve new versions for publication at a later date: alt-o"
-
-#~ msgid "approve for future"
-#~ msgstr "approve for future"
-
-#~ msgid "change publish and expiration times: alt-u"
-#~ msgstr "change publish and expiration times: alt-u"
-
-#~ msgid "update timing"
-#~ msgstr "update timing"
-
-#~ msgid "reject pending request for approval: alt-j"
-#~ msgstr "reject pending request for approval: alt-j"
-
-#~ msgid "reject"
-#~ msgstr "reject"
-
-#~ msgid "revoke"
-#~ msgstr "revoke"
-
-#~ msgid "withdraw approval of approved versions: alt-v"
-#~ msgstr "withdraw approval of approved versions: alt-v"
-
-#~ msgid "close published items: alt-c"
-#~ msgstr "close published items: alt-c"
-
-#~ msgid "create new versions of published docs: alt-n"
-#~ msgstr "create new versions of published docs: alt-n"
-
-#~ msgid "new version"
-#~ msgstr "new version"
-
-#~ msgid "request immediate approval for new versions: alt-p"
-#~ msgstr "request immediate approval for new versions: alt-p"
-
-#~ msgid "request approval now"
-#~ msgstr "request approval now"
-
-#~ msgid "request approval for new versions: alt-r"
-#~ msgstr "request approval for new versions: alt-r"
-
-#~ msgid "request approval"
-#~ msgstr "request approval"
-
-#~ msgid "change publish and expiration times: alt-s"
-#~ msgstr "change publish and expiration times: alt-s"
-
-#~ msgid "version already public"
-#~ msgstr "version already public"
-
-#~ msgid "no publication time was set"
-#~ msgstr "no publication time was set"
-
-#~ msgid "Changed settings on: ${ids}"
-#~ msgstr "Changed settings on: ${ids}"
-
-#~ msgid "could not change settings on: ${ids}"
-#~ msgstr "could not change settings on: ${ids}"
-
-#~ msgid "Nothing was selected, so no settings were changed."
-#~ msgstr "Nothing was selected, so no settings were changed."
-
-#~ msgid "No publication nor expiration time nor any of the flags were set."
-#~ msgstr "No publication nor expiration time nor any of the flags were set."
-
-#~ msgid "no next or public version available"
-#~ msgstr "no next or public version available"
-
-#~ msgid "cannot change publication time of already public versions."
-#~ msgstr "cannot change publication time of already public versions."
-
-#~ msgid "no unapproved version"
-#~ msgstr "no unapproved version"
-
-#~ msgid "export"
-#~ msgstr "export"
-
-#~ msgid "options"
-#~ msgstr "options"
-
-#~ msgid "include sub publications?"
-#~ msgstr "include sub publications?"
-
-#~ msgid "export only newest versions?"
-#~ msgstr "export only newest versions?"
-
-#~ msgid "select an export format"
-#~ msgstr "select an export format"
-
-#~ msgid "export to Silva xml (.xml) ${or_pdf}"
-#~ msgstr "export to Silva xml (.xml) ${or_pdf}"
-
-#~ msgid "export newest versions?"
-#~ msgstr "export newest versions?"
-
-#~ msgid "If not checked the published version is exported."
-#~ msgstr "If not checked the published version is exported."
-
-#~ msgid "export pdf"
-#~ msgstr "export pdf"
-
-#~ msgid "access key: alt-p"
-#~ msgstr "access key: alt-p"
-
-#~ msgid "export xml"
-#~ msgstr "export xml"
-
-#~ msgid "access key: alt-e"
-#~ msgstr "access key: alt-e"
-
-#~ msgid "export to Docma (.doc)"
-#~ msgstr "export to Docma (.doc)"
-
-#~ msgid "export closed content?"
-#~ msgstr "export closed content?"
-
-#~ msgid "Check to include closed content in the export."
-#~ msgstr "Check to include closed content in the export."
-
-#~ msgid "choose a template"
-#~ msgstr "choose a template"
-
-#~ msgid ""
-#~ "Sorry, full media export is currently not supported for more than one "
-#~ "item. Please select one item, or select no items to export the whole "
-#~ "folder."
-#~ msgstr ""
-#~ "Sorry, full media export is currently not supported for more than one "
-#~ "item. Please select one item, or select no items to export the whole "
-#~ "folder."
-
-#~ msgid "export the selection to word: alt-d"
-#~ msgstr "export the selection to word: alt-d"
-
-#~ msgid "export to Docma"
-#~ msgstr "export to Docma"
-
-#~ msgid "items to export:"
-#~ msgstr "items to export:"
-
-#~ msgid "export from &#xab;${title}&#xbb;"
-#~ msgstr "export from &#xab;${title}&#xbb;"
-
-#~ msgid "modify ${meta_type}"
-#~ msgstr "modify ${meta_type}"
-
-#~ msgid "preview ${id}"
-#~ msgstr "preview ${id}"
-
-#~ msgid "Nothing was selected, so no new version was created."
-#~ msgstr "Nothing was selected, so no new version was created."
-
-#~ msgid "already has a next version"
-#~ msgstr "already has a next version"
-
-#~ msgid "Created a new version for: ${ids}"
-#~ msgstr "Created a new version for: ${ids}"
-
-#~ msgid "could not create a new version for: ${ids}"
-#~ msgstr "could not create a new version for: ${ids}"
-
-#~ msgid "Nothing was selected, so no approval was rejected."
-#~ msgstr "Nothing was selected, so no approval was rejected."
-
-#~ msgid "no approval requested"
-#~ msgstr "no approval requested"
-
-#~ msgid "Rejected request for approval for: ${ids}"
-#~ msgstr "Rejected request for approval for: ${ids}"
-
-#~ msgid "Nothing was selected, so no approval was requested."
-#~ msgstr "Nothing was selected, so no approval was requested."
-
-#~ msgid "approval already requested"
-#~ msgstr "approval already requested"
-
-#~ msgid "no publication time set"
-#~ msgstr "no publication time set"
-
-#~ msgid "Request approval for: ${ids}"
-#~ msgstr "Request approval for: ${ids}"
-
-#~ msgid "Nothing was selected, so no approval was revoked."
-#~ msgstr "Nothing was selected, so no approval was revoked."
-
-#~ msgid "it's not approved, or it's already published"
-#~ msgstr "it's not approved, or it's already published"
-
-#~ msgid "Revoked approval of: ${ids}"
-#~ msgstr "Revoked approval of: ${ids}"
-
-#~ msgid "No items were selected, so nothing is exported"
-#~ msgstr "No items were selected, so nothing is exported"
-
-#~ msgid "No description"
-#~ msgstr "No description"
-
-#~ msgid "You have not entered your e-mail address"
-#~ msgstr "You have not entered your e-mail address"
-
-#~ msgid "Nothing was selected, so no approval was withdrawn."
-#~ msgstr "Nothing was selected, so no approval was withdrawn."
-
-#~ msgid "Withdrawn request for approval for: ${list}"
-#~ msgstr "Withdrawn request for approval for: ${list}"
-
-#~ msgid "Not yet :)"
-#~ msgstr "Not yet :)"
-
-#~ msgid "settings"
-#~ msgstr "settings"
-
-#~ msgid "of public version of &#xab;${title}&#xbb;"
-#~ msgstr "of public version of &#xab;${title}&#xbb;"
-
-#~ msgid "manage versions of &#xab;${export_id}&#xbb;"
-#~ msgstr "manage versions of &#xab;${export_id}&#xbb;"
-
-#~ msgid "publication time"
-#~ msgstr "publication time"
-
-#~ msgid "version status"
-#~ msgstr "version status"
-
-#~ msgid "version actions"
-#~ msgstr "version actions"
-
-#~ msgid "create a new editable version of the selected old one: alt-f"
-#~ msgstr "create a new editable version of the selected old one: alt-f"
-
-#~ msgid "copy for editing"
-#~ msgstr "copy for editing"
-
-#~ msgid "compare..."
-#~ msgstr "compare..."
-
-#~ msgid "view the selected versions next to each other: alt-="
-#~ msgstr "view the selected versions next to each other: alt-="
-
-#~ msgid "${icon} document info"
-#~ msgstr "${icon} document info"
-
-#~ msgid "If you wish you can make an editable copy by going to the ${editor}."
-#~ msgstr ""
-#~ "If you wish you can make an editable copy by going to the ${editor}."
-
-#~ msgid "content-editor"
-#~ msgstr "content-editor"
-
-#~ msgid "There is no approved version."
-#~ msgstr "There is no approved version."
-
-#~ msgid "Changed publication settings."
-#~ msgstr "Changed publication settings."
-
-#~ msgid "There is no public version to close"
-#~ msgstr "There is no public version to close"
-
-#~ msgid "Closed public version."
-#~ msgstr "Closed public version."
-
-#~ msgid "No versions selected"
-#~ msgstr "No versions selected"
-
-#~ msgid "Can't delete all versions"
-#~ msgstr "Can't delete all versions"
-
-#~ msgid "deleted ${id}"
-#~ msgstr "deleted ${id}"
-
-#~ msgid "request approval ${for_new_version}"
-#~ msgstr "request approval ${for_new_version}"
-
-#~ msgid "for new version"
-#~ msgstr "for new version"
-
-#~ msgid "message to editor"
-#~ msgstr "message to editor"
-
-#~ msgid "current timings"
-#~ msgstr "current timings"
-
-#~ msgid "publish new version"
-#~ msgstr "publish new version"
-
-#~ msgid "publish closed version"
-#~ msgstr "publish closed version"
-
-#~ msgid "withdraw"
-#~ msgstr "withdraw"
-
-#~ msgid "request"
-#~ msgstr "request"
-
-#~ msgid "add message on"
-#~ msgstr "add message on"
-
-#~ msgid "rejection"
-#~ msgstr "rejection"
-
-#~ msgid "withdrawal"
-#~ msgstr "withdrawal"
-
-#~ msgid "Publication time of public version"
-#~ msgstr "Publication time of public version"
-
-#~ msgid "reject approval request"
-#~ msgstr "reject approval request"
-
-#~ msgid "access key: alt-j"
-#~ msgstr "access key: alt-j"
-
-#~ msgid "withdraw approval request"
-#~ msgstr "withdraw approval request"
-
-#~ msgid "revoke approval"
-#~ msgstr "revoke approval"
-
-#~ msgid "If further editing is required, first revoke the approval."
-#~ msgstr "If further editing is required, first revoke the approval."
-
-#~ msgid "Publication and expiration time of public version"
-#~ msgstr "Publication and expiration time of public version"
-
-#~ msgid "access key: alt-v"
-#~ msgstr "access key: alt-v"
-
-#~ msgid "manual close"
-#~ msgstr "manual close"
-
-#~ msgid "close published version"
-#~ msgstr "close published version"
-
-#~ msgid "messages"
-#~ msgstr "messages"
-
-#~ msgid "${author_id} sent a message on ${some_date} ${with_comments}"
-#~ msgstr "${author_id} sent a message on ${some_date} ${with_comments}"
-
-#~ msgid ""
-#~ "A previous request for approval has been rejected / withdrawn by "
-#~ "${requester} on ${some_date}. The last message regarding this issue is:"
-#~ msgstr ""
-#~ "A previous request for approval has been rejected / withdrawn by "
-#~ "${requester} on ${some_date}. The last message regarding this issue is:"
-
-#~ msgid "There is no unapproved version."
-#~ msgstr "There is no unapproved version."
-
-#~ msgid "Approval has already been requested."
-#~ msgstr "Approval has already been requested."
-
-#~ msgid "No version selected to copy."
-#~ msgstr "No version selected to copy."
-
-#~ msgid "Can only set 1 version as editable."
-#~ msgstr "Can only set 1 version as editable."
-
-#~ msgid "Older version (${version_id})"
-#~ msgstr "Older version (${version_id})"
-
-#~ msgid "Newer version (${version_id})"
-#~ msgstr "Newer version (${version_id})"
-
-#~ msgid "You didn't select any versions."
-#~ msgstr "You didn't select any versions."
-
-#~ msgid "Please select exactly two versions."
-#~ msgstr "Please select exactly two versions."
-
-#~ msgid ""
-#~ "This content is already public. You can close the current public version."
-#~ msgstr ""
-#~ "This content is already public. You can close the current public version."
-
-#~ msgid "This content is already public."
-#~ msgstr "This content is already public."
-
-#~ msgid "This content is already approved. You can revoke the approval."
-#~ msgstr "This content is already approved. You can revoke the approval."
-
-#~ msgid "Rejected request for approval"
-#~ msgstr "Rejected request for approval"
-
-#~ msgid "Withdrew request for approval"
-#~ msgstr "Withdrew request for approval"
-
-#~ msgid "day / month / year &nbsp;(23:59)"
-#~ msgstr "day / month / year &nbsp;(23:59)"
-
-#~ msgid "&#8224; acquireable"
-#~ msgstr "&#8224; acquireable"
-
-#~ msgid "save"
-#~ msgstr "save"
-
-#~ msgid "element"
-#~ msgstr "element"
-
-#~ msgid "acquired content"
-#~ msgstr "acquired content"
-
-#~ msgid "select all: alt-a"
-#~ msgstr "select all: alt-a"
-
-#~ msgid "siblings"
-#~ msgstr "siblings"
-
-#~ msgid "index:"
-#~ msgstr "index:"
-
-#~ msgid "up one level: alt-]"
-#~ msgstr "up one level: alt-]"
-
-#~ msgid "up to containing publication: alt-["
-#~ msgstr "up to containing publication: alt-["
-
-#~ msgid "reload screen"
-#~ msgstr "reload screen"
-
-#~ msgid "content renderer"
-#~ msgstr "content renderer"
-
-#~ msgid "renderer"
-#~ msgstr "renderer"
-
-#~ msgid "${icon} properties ${for_title}"
-#~ msgstr "${icon} properties ${for_title}"
-
-#~ msgid "session timeout"
-#~ msgstr "session timeout"
-
-#~ msgid ""
-#~ "In about 5 minutes, the working session is going to expire for the "
-#~ "document you are currently editing. This means that any unsaved work will "
-#~ "be lost. Press &#8216;save&#8217; (alt-s) to save any changes, or &#8216;"
-#~ "cancel&#8217; (alt-c) to do nothing, or save manually."
-#~ msgstr ""
-#~ "In about 5 minutes, the working session is going to expire for the "
-#~ "document you are currently editing. This means that any unsaved work will "
-#~ "be lost. Press &#8216;save&#8217; (alt-s) to save any changes, or &#8216;"
-#~ "cancel&#8217; (alt-c) to do nothing, or save manually."
-
-#~ msgid "cancel the automatic save action: alt-c"
-#~ msgstr "cancel the automatic save action: alt-c"
-
-#~ msgid " save "
-#~ msgstr " save "
-
-#~ msgid "save the document you were working on: alt-s"
-#~ msgstr "save the document you were working on: alt-s"
-
-#~ msgid "in"
-#~ msgstr "in"
-
-#~ msgid "for closed version of &#xab;${title}&#xbb;"
-#~ msgstr "for closed version of &#xab;${title}&#xbb;"
-
-#~ msgid "for approved version of &#xab;${title}&#xbb;"
-#~ msgstr "for approved version of &#xab;${title}&#xbb;"
-
-#~ msgid "for public version of &#xab;${title}&#xbb;"
-#~ msgstr "for public version of &#xab;${title}&#xbb;"
-
-#~ msgid "This is a closed version. You see it, but the public won't!"
-#~ msgstr "This is a closed version. You see it, but the public won't!"
-
-#~ msgid "Select a renderer to render this content."
-#~ msgstr "Select a renderer to render this content."
-
-#~ msgid "change renderer: alt-c"
-#~ msgstr "change renderer: alt-c"
-
-#~ msgid "change renderer"
-#~ msgstr "change renderer"
-
-#~ msgid "atom/rss feeds"
-#~ msgstr "atom/rss feeds"
-
-#~ msgid "allow feeds"
-#~ msgstr "allow feeds"
-
-#~ msgid "The feed url is"
-#~ msgstr "The feed url is"
-
-#~ msgid "Check to provide an Atom / ${RSS} feed from this container."
-#~ msgstr "Check to provide an Atom / ${RSS} feed from this container."
-
-#~ msgid "change feed settings: alt-f"
-#~ msgstr "change feed settings: alt-f"
-
-#~ msgid "used space"
-#~ msgstr "used space"
-
-#~ msgid "space used in this folder"
-#~ msgstr "space used in this folder"
-
-#~ msgid "(The quota for this area is set to ${quota} MB.)"
-#~ msgstr "(The quota for this area is set to ${quota} MB.)"
-
-#~ msgid "for published version of &#xab;${title}&#xbb;"
-#~ msgstr "for published version of &#xab;${title}&#xbb;"
-
-#~ msgid "settings for &#xab;${title}&#xbb;"
-#~ msgstr "settings for &#xab;${title}&#xbb;"
-
-#~ msgid "container type"
-#~ msgstr "container type"
-
-#~ msgid "convert to publication"
-#~ msgstr "convert to publication"
-
-#~ msgid "change container type to a publication: alt-p"
-#~ msgstr "change container type to a publication: alt-p"
-
-#~ msgid "change container type to a folder: alt-f"
-#~ msgstr "change container type to a folder: alt-f"
-
-#~ msgid "convert to folder"
-#~ msgstr "convert to folder"
-
-#~ msgid "Renderer setting saved."
-#~ msgstr "Renderer setting saved."
-
-#~ msgid "There's no editable version to set the renderer on."
-#~ msgstr "There's no editable version to set the renderer on."
-
-#~ msgid "If this document should expire, set the time."
-#~ msgstr "If this document should expire, set the time."
-
-#~ msgid "clear expiration"
-#~ msgstr "clear expiration"
-
-#~ msgid "up a level: alt-${key}"
-#~ msgstr "up a level: alt-${key}"
-
-#~ msgid "up to top of publication: alt-${key}"
-#~ msgstr "up to top of publication: alt-${key}"
-
-#~ msgid "access key: alt-${key}"
-#~ msgstr "access key: alt-${key}"
-
-#~ msgid "To ${actually} logout, wait 5 seconds or hit this"
-#~ msgstr "To ${actually} logout, wait 5 seconds or hit this"
-
-#~ msgid "accesskey: alt-l"
-#~ msgstr "accesskey: alt-l"
-
-#~ msgid "logout link."
-#~ msgstr "logout link."
-
-#~ msgid "When the login dialog appears, choose ${Cancel}."
-#~ msgstr "When the login dialog appears, choose ${Cancel}."
-
-#~ msgid "logout"
-#~ msgstr "logout"
-
-#~ msgid "jump to top: alt-t"
-#~ msgstr "jump to top: alt-t"
-
-#~ msgid "contact:"
-#~ msgstr "contact:"
-
-#~ msgid "no name"
-#~ msgstr "no name"
-
-#~ msgid "Leave Silva and view the public page: alt-:"
-#~ msgstr "Leave Silva and view the public page: alt-:"
-
-#~ msgid "view public version"
-#~ msgstr "view public version"
-
-#~ msgid "Change your settings: alt-~"
-#~ msgstr "Change your settings: alt-~"
-
-#~ msgid "user settings"
-#~ msgstr "user settings"
-
-#~ msgid "Logout of Silva: alt-q"
-#~ msgstr "Logout of Silva: alt-q"
-
-#~ msgid "logout ${role} ${userid}"
-#~ msgstr "logout ${role} ${userid}"
-
-#~ msgid "Help with access keys"
-#~ msgstr "Help with access keys"
-
-#~ msgid "Silva copyright info"
-#~ msgstr "Silva copyright info"
-
-#~ msgid "Silva info: alt-|"
-#~ msgstr "Silva info: alt-|"
-
-#~ msgid "Silva top: alt-/"
-#~ msgstr "Silva top: alt-/"
-
-#~ msgid "&middot; manage..."
-#~ msgstr "&middot; manage..."
-
-#~ msgid "Zope manage_main: alt-."
-#~ msgstr "Zope manage_main: alt-."
-
-#~ msgid "Silva access keys: alt-?"
-#~ msgstr "Silva access keys: alt-?"
-
-#~ msgid "Sorry, there are problems with these form fields:"
-#~ msgstr "Sorry, there are problems with these form fields:"
-
-#~ msgid "subscriptions"
-#~ msgstr "subscriptions"
-
-#~ msgid ""
-#~ "Sorry, ids starting with ${prefix} are reserved for internal use. Please "
-#~ "use another id."
-#~ msgstr ""
-#~ "Sorry, ids starting with ${prefix} are reserved for internal use. Please "
-#~ "use another id."
-
-#~ msgid ""
-#~ "Sorry, the id ${id} is reserved for internal use. Please use another id."
-#~ msgstr ""
-#~ "Sorry, the id ${id} is reserved for internal use. Please use another id."
-
-#~ msgid ""
-#~ "There is already an object with the id ${id} in this folder. Please use a "
-#~ "different one."
-#~ msgstr ""
-#~ "There is already an object with the id ${id} in this folder. Please use a "
-#~ "different one."
-
-#~ msgid ""
-#~ "There is already an asset with the id ${id} in this folder. Please use "
-#~ "another id."
-#~ msgstr ""
-#~ "There is already an asset with the id ${id} in this folder. Please use "
-#~ "another id."
-
-#~ msgid ""
-#~ "Sorry, the id ${id} ends with invalid characters. Please use another id."
-#~ msgstr ""
-#~ "Sorry, the id ${id} ends with invalid characters. Please use another id."
-
-#~ msgid ""
-#~ "Sorry, the id ${id} is already in use by a Zope object. Please use "
-#~ "another id."
-#~ msgstr ""
-#~ "Sorry, the id ${id} is already in use by a Zope object. Please use "
-#~ "another id."
-
-#~ msgid ""
-#~ "(Internal Error): An invalid status ${status_code} occured while checking "
-#~ "the id ${id}. Please contact the person responsible for this Silva "
-#~ "installation or file a bug report."
-#~ msgstr ""
-#~ "(Internal Error): An invalid status ${status_code} occured while checking "
-#~ "the id ${id}. Please contact the person responsible for this Silva "
-#~ "installation or file a bug report."
-
-#~ msgid "revoke role"
-#~ msgstr "revoke role"
-
-#~ msgid "user clipboard"
-#~ msgstr "user clipboard"
-
-#~ msgid "acquire restriction"
-#~ msgstr "acquire restriction"
-
-#~ msgid "set restriction"
-#~ msgstr "set restriction"
-
-#~ msgid "lookup users..."
-#~ msgstr "lookup users..."
-
-#~ msgid "username"
-#~ msgstr "user name"
-
-#~ msgid "Create a ${addable_name}"
-#~ msgstr "Create a ${addable_name}"
-
-#~ msgid "Content type"
-#~ msgstr "Content type"
-
-#~ msgid "new..."
-#~ msgstr "new..."
-
-#~ msgid "create an object"
-#~ msgstr "create an object"
-
-#~ msgid ""
-#~ "Click a name to create an item. Note that this screen only lists "
-#~ "descriptions of objects that are available at this location. For "
-#~ "additional information about an item see the ${silva_documentation}."
-#~ msgstr ""
-#~ "Click a name to create an item. Note that this screen only lists "
-#~ "descriptions of objects that are available at this location. For "
-#~ "additional information about an item see the ${silva_documentation}."
-
-#~ msgid "publish this document: alt-p"
-#~ msgstr "publish this document: alt-p"
-
-#~ msgid "withdraw request"
-#~ msgstr "withdraw request"
-
-#~ msgid "change the addables allowed in this publication: alt-d"
-#~ msgstr "change the addables allowed in this publication: alt-d"
-
-#~ msgid "various settings: alt-e"
-#~ msgstr "various settings: alt-e"
-
-#~ msgid "add"
-#~ msgstr "add"
-
-#~ msgid "import xml data or a zip file: alt-i"
-#~ msgstr "import xml data or a zip file: alt-i"
-
-#~ msgid "preferred language"
-#~ msgstr "preferred language"
-
-#~ msgid "save changes"
-#~ msgstr "save changes"
-
-#~ msgid "save + edit"
-#~ msgstr "save + edit"
-
-#~ msgid ""
-#~ "This is a special document type that automatically generates\n"
-#~ "       a Table of Contents. Usually it's used as the 'index' document of "
-#~ "a\n"
-#~ "       folder. Then the parent folder displays a TOC when accessed (e.g.\n"
-#~ "       http://www.x.yz/silva/myFolder/). The AutoTOC can display any "
-#~ "selection\n"
-#~ "       of Silva content types including assets."
-#~ msgstr ""
-#~ "This is a special document type that automatically generates\n"
-#~ "       a Table of Contents. Usually it's used as the 'index' document of "
-#~ "a\n"
-#~ "       folder. Then the parent folder displays a TOC when accessed (e.g.\n"
-#~ "       http://www.x.yz/silva/myFolder/). The AutoTOC can display any "
-#~ "selection\n"
-#~ "       of Silva content types including assets."
-
-#~ msgid "Validation error(s)"
-#~ msgstr "Validation error(s)"
-
-#~ msgid "Changed settings."
-#~ msgstr "Changed settings."
-
-#~ msgid ""
-#~ "The presentation of the information within a\n"
-#~ "       publication is structured with folders. They determine the visual\n"
-#~ "       hierarchy that a Visitor sees. Folders on the top level\n"
-#~ "       define sections of a publication, subfolders define chapters, "
-#~ "etc.\n"
-#~ "       Note that unlike publications, folders are transparent, meaning "
-#~ "you\n"
-#~ "       can see through them in the sidebar tree navigation and the "
-#~ "Publish \n"
-#~ "       screen.\n"
-#~ "    "
-#~ msgstr ""
-#~ "The presentation of the information within a\n"
-#~ "       publication is structured with folders. They determine the visual\n"
-#~ "       hierarchy that a Visitor sees. Folders on the top level\n"
-#~ "       define sections of a publication, subfolders define chapters, "
-#~ "etc.\n"
-#~ "       Note that unlike publications, folders are transparent, meaning "
-#~ "you\n"
-#~ "       can see through them in the sidebar tree navigation and the "
-#~ "Publish \n"
-#~ "       screen.\n"
-#~ "    "
-
-#~ msgid ""
-#~ "Ghost Folders are similar to Ghosts, but instead of being a \n"
-#~ "       placeholder for a document, they create placeholders and/or copies "
-#~ "of all \n"
-#~ "       the contents of the &#8216;original&#8217; folder. The advantage "
-#~ "of Ghost \n"
-#~ "       Folders is the contents stay in sync with the original, by manual "
-#~ "or \n"
-#~ "       automatic resyncing. Note that when a folder is\n"
-#~ "       ghosted, assets &#8211; such as Images and Files &#8211; are "
-#~ "copied\n"
-#~ "       (physically duplicated) while documents are ghosted."
-#~ msgstr ""
-#~ "Ghost Folders are similar to Ghosts, but instead of being a \n"
-#~ "       placeholder for a document, they create placeholders and/or copies "
-#~ "of all \n"
-#~ "       the contents of the &#8216;original&#8217; folder. The advantage "
-#~ "of Ghost \n"
-#~ "       Folders is the contents stay in sync with the original, by manual "
-#~ "or \n"
-#~ "       automatic resyncing. Note that when a folder is\n"
-#~ "       ghosted, assets &#8211; such as Images and Files &#8211; are "
-#~ "copied\n"
-#~ "       (physically duplicated) while documents are ghosted."
-
-#~ msgid ""
-#~ "Web graphics (gif, jpg, png) can be uploaded and inserted in \n"
-#~ "       documents, or used as viewable assets.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Web graphics (gif, jpg, png) can be uploaded and inserted in \n"
-#~ "       documents, or used as viewable assets.\n"
-#~ "    "
-
-#~ msgid ""
-#~ "Indexes can be created that function like an index in the \n"
-#~ "       back of a book. References must first be marked by placing index \n"
-#~ "       codes in text (these codes will also export to print formats). \n"
-#~ "       Indexers cascade downwards, indexing all index items in the "
-#~ "current \n"
-#~ "       and underlying folders and publications (note that it only "
-#~ "indexes \n"
-#~ "       documents that are published).\n"
-#~ "    "
-#~ msgstr ""
-#~ "Indexes can be created that function like an index in the \n"
-#~ "       back of a book. References must first be marked by placing index \n"
-#~ "       codes in text (these codes will also export to print formats). \n"
-#~ "       Indexers cascade downwards, indexing all index items in the "
-#~ "current \n"
-#~ "       and underlying folders and publications (note that it only "
-#~ "indexes \n"
-#~ "       documents that are published).\n"
-#~ "    "
-
-#~ msgid ""
-#~ "A Silva Link makes it possible to include links to external\n"
-#~ "       sites &#8211; outside of Silva &#8211; in a Table of Contents. "
-#~ "The\n"
-#~ "       content of a Link is simply a hyperlink, beginning with\n"
-#~ "       &#8220;http://....&#8221;, or https, ftp, news, and mailto.\n"
-#~ "    "
-#~ msgstr ""
-#~ "A Silva Link makes it possible to include links to external\n"
-#~ "       sites &#8211; outside of Silva &#8211; in a Table of Contents. "
-#~ "The\n"
-#~ "       content of a Link is simply a hyperlink, beginning with\n"
-#~ "       &#8220;http://....&#8221;, or https, ftp, news, and mailto.\n"
-#~ "    "
-
-#~ msgid "You are overquota."
-#~ msgstr "You are overquota."
-
-#~ msgid "Minimum role to access has not changed"
-#~ msgstr "Minimum role to access has not changed"
-
-#~ msgid "Minimum role to access is now set to ${role}"
-#~ msgstr "Minimum role to access is now set to ${role}"
-
-#~ msgid "Minimum role to access is now acquired"
-#~ msgstr "Minimum role to access is now acquired"
-
-#~ msgid "Resource location of this content."
-#~ msgstr "Resource location of this content."
-
-#~ msgid "Silva info on the Infrae site: alt-i"
-#~ msgstr "Silva info on the Infrae site: alt-i"
-
-#~ msgid "meta_type"
-#~ msgstr "meta_type"
-
-#~ msgid "Tip: You don't have to fill in the id and title."
-#~ msgstr "Tip: You don't have to fill in the id and title."
-
-#~ msgid "Choose an item to be created within the folder."
-#~ msgstr "Choose an item to be created within the folder."
-
-#~ msgid "find the content this ghost should refer to: alt-r"
-#~ msgstr "find the content this ghost should refer to: alt-r"
-
-#~ msgid "Location of originating document."
-#~ msgstr "Location of originating document."
-
-#~ msgid "create ${meta_type}"
-#~ msgstr "create ${meta_type}"
-
-#~ msgid "creation may take a while"
-#~ msgstr "creation may take a while"
-
-#~ msgid ""
-#~ "Location of originating folder. Depending on how much content there is, "
-#~ "${warning}."
-#~ msgstr ""
-#~ "Location of originating folder. Depending on how much content there is, "
-#~ "${warning}."
-
-#~ msgid "find the folder this ghost should refer to: alt-r"
-#~ msgstr "find the folder this ghost should refer to: alt-r"
-
-#~ msgid "Location of originating folder."
-#~ msgstr "Location of originating folder."
-
-#~ msgid ""
-#~ "There's already a Group with the name ${id} in this Silva\n"
-#~ "        site. In contrast to other Silva objects, Group IDs must be\n"
-#~ "        unique within a Silva instance."
-#~ msgstr ""
-#~ "There's already a Group with the name ${id} in this Silva\n"
-#~ "        site. In contrast to other Silva objects, Group IDs must be\n"
-#~ "        unique within a Silva instance."
-
-#~ msgid ""
-#~ "Fill in a title. It&#8217;ll be used for the ALT (Alternative text) "
-#~ "attribute of the image."
-#~ msgstr ""
-#~ "Fill in a title. It&#8217;ll be used for the ALT (Alternative text) "
-#~ "attribute of the image."
-
-#~ msgid ""
-#~ "Links can contain anything, so it is the author's responsibility to "
-#~ "create valid urls."
-#~ msgstr ""
-#~ "Links can contain anything, so it is the author's responsibility to "
-#~ "create valid urls."
-
-#~ msgid "link type"
-#~ msgstr "link type"
-
-#~ msgid "Link url."
-#~ msgstr "Link url."
-
-#~ msgid "What type of object should be added after creating the folder."
-#~ msgstr "What type of object should be added after creating the folder."
-
-#~ msgid "upload ${meta_type}"
-#~ msgstr "upload ${meta_type}"
-
-#~ msgid "create ${TOC_or_meta_type}"
-#~ msgstr "create ${TOC_or_meta_type}"
-
-#~ msgid ""
-#~ "Sorry, strange characters are in the id. It should only\n"
-#~ "        contain letters, digits and &#8216;_&#8217; or &#8216;-&#8217; "
-#~ "or \n"
-#~ "        &#8216;.&#8217; Spaces are not allowed in Internet addresses, \n"
-#~ "        and the id should start with a letter or digit."
-#~ msgstr ""
-#~ "Sorry, strange characters are in the id. It should only\n"
-#~ "        contain letters, digits and &#8216;_&#8217; or &#8216;-&#8217; "
-#~ "or \n"
-#~ "        &#8216;.&#8217; Spaces are not allowed in Internet addresses, \n"
-#~ "        and the id should start with a letter or digit."
-
-#~ msgid "old_title"
-#~ msgstr "old_title"
-
-#~ msgid "No group(s) selected, so nothing to use to add users."
-#~ msgstr "No group(s) selected, so nothing to use to add users."
-
-#~ msgid "User(s) ${added} added to group."
-#~ msgstr "User(s) ${added} added to group."
-
-#~ msgid "No other users added (were they already in this group?)"
-#~ msgstr "No other users added (were they already in this group?)"
-
-#~ msgid "No users selected, so none added."
-#~ msgstr "No users selected, so none added."
-
-#~ msgid "No users selected, so none removed."
-#~ msgstr "No users selected, so none removed."
-
-#~ msgid "User(s) ${removed} removed from group."
-#~ msgstr "User(s) ${removed} removed from group."
-
-#~ msgid "transfer members from selected groups"
-#~ msgstr "transfer members from selected groups"
-
-#~ msgid "copy users from group(s)"
-#~ msgstr "copy users from group(s)"
-
-#~ msgid "group members"
-#~ msgstr "group members"
-
-#~ msgid "This group does not have any members."
-#~ msgstr "This group does not have any members."
-
-#~ msgid "remove selected user(s) from this group: alt-r"
-#~ msgstr "remove selected user(s) from this group: alt-r"
-
-#~ msgid "remove users"
-#~ msgstr "remove users"
-
-#~ msgid "add selected users to this group"
-#~ msgstr "add selected users to this group"
-
-#~ msgid "No ip range was provided, so nothing was added."
-#~ msgstr "No ip range was provided, so nothing was added."
-
-#~ msgid "Range ${iprange} added to the IP Group"
-#~ msgstr "Range ${iprange} added to the IP Group"
-
-#~ msgid "No group selected, so nothing copied."
-#~ msgstr "No group selected, so nothing copied."
-
-#~ msgid "Range(s) ${copied} added."
-#~ msgstr "Range(s) ${copied} added."
-
-#~ msgid "Nothing copied."
-#~ msgstr "Nothing copied."
-
-#~ msgid "No ip ranges were selected, so nothing was removed."
-#~ msgstr "No ip ranges were selected, so nothing was removed."
-
-#~ msgid "Range(s) ${removed} removed from the group."
-#~ msgstr "Range(s) ${removed} removed from the group."
-
-#~ msgid "ip range${asterisk}"
-#~ msgstr "ip range${asterisk}"
-
-#~ msgid "Can be:"
-#~ msgstr "Can be:"
-
-#~ msgid "IP&nbsp;(like: 10.1.1.1),"
-#~ msgstr "IP&nbsp;(like: 10.1.1.1),"
-
-#~ msgid "IP-IP&nbsp;(like:&nbsp;10.1.1.1-10.1.1.255) or"
-#~ msgstr "IP-IP&nbsp;(like:&nbsp;10.1.1.1-10.1.1.255) or"
-
-#~ msgid "IP/Netmask&nbsp;(like:&nbsp;10.1.1.0/255.255.255.0)."
-#~ msgstr "IP/Netmask&nbsp;(like:&nbsp;10.1.1.0/255.255.255.0)."
-
-#~ msgid "add an ip or an ip range"
-#~ msgstr "add an ip or an ip range"
-
-#~ msgid "add ip range"
-#~ msgstr "add ip range"
-
-#~ msgid "transfer ip(s) to this ip group"
-#~ msgstr "transfer ip(s) to this ip group"
-
-#~ msgid "copy ips to ip group"
-#~ msgstr "copy ips to ip group"
-
-#~ msgid "IPs and IP ranges"
-#~ msgstr "IPs and IP ranges"
-
-#~ msgid "This IP Group does not contain any IPs."
-#~ msgstr "This IP Group does not contain any IPs."
-
-#~ msgid "remove range(s) from this ip group: alt-r"
-#~ msgstr "remove range(s) from this ip group: alt-r"
-
-#~ msgid "remove ranges"
-#~ msgstr "remove ranges"
-
-#~ msgid "add an IP address"
-#~ msgstr "add an IP address"
-
-#~ msgid "No group(s) selected, so nothing to use to add groups."
-#~ msgstr "No group(s) selected, so nothing to use to add groups."
-
-#~ msgid "Group(s) ${added} added to group."
-#~ msgstr "Group(s) ${added} added to group."
-
-#~ msgid "No other groups added (were they already in this virtual group?)"
-#~ msgstr "No other groups added (were they already in this virtual group?)"
-
-#~ msgid "No groups selected, so none added."
-#~ msgstr "No groups selected, so none added."
-
-#~ msgid "No groups selected, so none removed."
-#~ msgstr "No groups selected, so none removed."
-
-#~ msgid "Group(s) ${removed} removed from group."
-#~ msgstr "Group(s) ${removed} removed from group."
-
-#~ msgid "add group(s) to this virtual group."
-#~ msgstr "add group(s) to this virtual group."
-
-#~ msgid "add to group"
-#~ msgstr "add to group"
-
-#~ msgid "transfer groups defined in other virtual groups"
-#~ msgstr "transfer groups defined in other virtual groups"
-
-#~ msgid "copy from virtual group(s)"
-#~ msgstr "copy from virtual group(s)"
-
-#~ msgid "Virtual Group &#8216;members&#8217;"
-#~ msgstr "Virtual Group &#8216;members&#8217;"
-
-#~ msgid "Group name"
-#~ msgstr "Group name"
-
-#~ msgid "This Virtual Group does not have any &#8216;member groups&#8217;."
-#~ msgstr "This Virtual Group does not have any &#8216;member groups&#8217;."
-
-#~ msgid "remove selected group(s) from this virtual group: alt-r"
-#~ msgstr "remove selected group(s) from this virtual group: alt-r"
-
-#~ msgid "remove group"
-#~ msgstr "remove group"
-
-#~ msgid "\"Things to do when virtual groups is not in its original location\""
-#~ msgstr ""
-#~ "\"Things to do when virtual groups is not in its original location\""
-
-#~ msgid "groups"
-#~ msgstr "groups"
-
-#~ msgid "Scaling and/or format changed"
-#~ msgstr "Scaling and/or format changed"
-
-#~ msgid ""
-#~ "Note: Silva can provide image scaling and conversion with the help of PIL"
-#~ msgstr ""
-#~ "Note: Silva can provide image scaling and conversion with the help of PIL"
-
-#~ msgid "PIL doesn't seem to be installed."
-#~ msgstr "PIL doesn't seem to be installed."
-
-#~ msgid "image info"
-#~ msgstr "image info"
-
-#~ msgid "scaled"
-#~ msgstr "scaled"
-
-#~ msgid "manage subscriptions for &#xab;${title}&#xbb;"
-#~ msgstr "manage subscriptions for &#xab;${title}&#xbb;"
-
-#~ msgid ""
-#~ "This ${vein} screen doesn&#8217;t have settings, because it&#8217;s not "
-#~ "possible to subscribe to a ${type}. Only documents that contain textual "
-#~ "content, or folders that contain them, can be subscribed to."
-#~ msgstr ""
-#~ "This ${vein} screen doesn&#8217;t have settings, because it&#8217;s not "
-#~ "possible to subscribe to a ${type}. Only documents that contain textual "
-#~ "content, or folders that contain them, can be subscribed to."
-
-#~ msgid "Ghost Folder has been replaced by a folder"
-#~ msgstr "Ghost Folder has been replaced by a folder"
-
-#~ msgid "Ghost Folder has been replaced by a publication"
-#~ msgstr "Ghost Folder has been replaced by a publication"
-
-#~ msgid ""
-#~ "Ghost Folder changed but not synchronized, because thenew target is "
-#~ "invalid."
-#~ msgstr ""
-#~ "Ghost Folder changed but not synchronized, because thenew target is "
-#~ "invalid."
-
-#~ msgid "Ghost Folder changed."
-#~ msgstr "Ghost Folder changed."
-
-#~ msgid "Ghost Folder was not synchronized, because the targetis invalid."
-#~ msgstr "Ghost Folder was not synchronized, because the targetis invalid."
-
-#~ msgid "problem"
-#~ msgstr "problem"
-
-#~ msgid "save reference"
-#~ msgstr "save reference"
-
-#~ msgid "ghost folder contents"
-#~ msgstr "ghost folder contents"
-
-#~ msgid "re-synchronize with content from the source folder: alt-e"
-#~ msgstr "re-synchronize with content from the source folder: alt-e"
-
-#~ msgid "resync ghost folder"
-#~ msgstr "resync ghost folder"
-
-#~ msgid "metadata"
-#~ msgstr "metadata"
-
-#~ msgid "attributes"
-#~ msgstr "attributes"
-
-#~ msgid "path"
-#~ msgstr "path"
-
-#~ msgid "Path to original (begins with &#8216;/&#8217;)."
-#~ msgstr "Path to original (begins with &#8216;/&#8217;)."
-
-#~ msgid "Locate item to refer to: alt-r"
-#~ msgstr "Locate item to refer to: alt-r"
-
-#~ msgid "reference..."
-#~ msgstr "reference..."
-
-#~ msgid "link"
-#~ msgstr "link"
-
-#~ msgid "Link to contents screen of original."
-#~ msgstr "Link to contents screen of original."
-
-#~ msgid "Group: a group defined by a list of users"
-#~ msgstr "Group: a group defined by a list of users"
-
-#~ msgid "Virtual Group: a group defined by a list of normal groups"
-#~ msgstr "Virtual Group: a group defined by a list of normal groups"
-
-#~ msgid "IP Group: a group based on ip addresses"
-#~ msgstr "IP Group: a group based on ip addresses"
-
-#~ msgid "groups located in this folder"
-#~ msgstr "groups located in this folder"
-
-#~ msgid "name"
-#~ msgstr "name"
-
-#~ msgid "modifier"
-#~ msgstr "modifier"
-
-#~ msgid "edit this group"
-#~ msgstr "edit this group"
-
-#~ msgid "No groups have been defined in this location."
-#~ msgstr "No groups have been defined in this location."
-
-#~ msgid "delete selected groups: alt-d"
-#~ msgstr "delete selected groups: alt-d"
-
-#~ msgid "groups defined elsewhere"
-#~ msgstr "groups defined elsewhere"
-
-#~ msgid "groups in &#xab;${title}&#xbb;"
-#~ msgstr "groups in &#xab;${title}&#xbb;"
-
-#~ msgid "create a group"
-#~ msgstr "create a group"
-
-#~ msgid ""
-#~ "No spaces or special characters besides &#8216;_&#8217; or &#8216;-"
-#~ "&#8217; or &#8216;.&#8217;"
-#~ msgstr ""
-#~ "No spaces or special characters besides &#8216;_&#8217; or &#8216;-"
-#~ "&#8217; or &#8216;.&#8217;"
-
-#~ msgid "Deleted ${deleted_ids}, but could not delete ${not_deleted_ids}."
-#~ msgstr "Deleted ${deleted_ids}, but could not delete ${not_deleted_ids}."
-
-#~ msgid "Could not delete ${not_deleted_ids}."
-#~ msgstr "Could not delete ${not_deleted_ids}."
-
-#~ msgid "add a new item - alt-n"
-#~ msgstr "add a new item - alt-n"
-
-#~ msgid "import..."
-#~ msgstr "import..."
-
-#~ msgid "access key: alt-i"
-#~ msgstr "access key: alt-i"
-
-#~ msgid "import silva xml"
-#~ msgstr "import silva xml"
-
-#~ msgid "Locate an XML file to import (must be valid Silva XML)."
-#~ msgstr "Locate an XML file to import (must be valid Silva XML)."
-
-#~ msgid "Sorry, you're not authorized to add anything in this location."
-#~ msgstr "Sorry, you're not authorized to add anything in this location."
-
-#~ msgid "export to xml or convert for export: alt-e"
-#~ msgstr "export to xml or convert for export: alt-e"
-
-#~ msgid "Select the format which is going to used to export."
-#~ msgstr "Select the format which is going to used to export."
-
-#~ msgid "over to the import screen: alt-i"
-#~ msgstr "over to the import screen: alt-i"
-
-#~ msgid "Not rejected: ${ids}"
-#~ msgstr "Not rejected: ${ids}"
-
-#~ msgid "No request for approval on: ${ids}"
-#~ msgstr "No request for approval on: ${ids}"
-
-#~ msgid "Could not revoke approval of: ${ids}"
-#~ msgstr "Could not revoke approval of: ${ids}"
-
-#~ msgid "Not withdrawn: ${list}"
-#~ msgstr "Not withdrawn: ${list}"
-
-#~ msgid "${icon} AutoTOC"
-#~ msgstr "${icon} AutoTOC"
-
-#~ msgid ""
-#~ "An Automatic Table Of Contents is generated from the items in its "
-#~ "location, and includes all item types that are selected in the &#8216;"
-#~ "types to list&#8217; selector."
-#~ msgstr ""
-#~ "An Automatic Table Of Contents is generated from the items in its "
-#~ "location, and includes all item types that are selected in the &#8216;"
-#~ "types to list&#8217; selector."
-
-#~ msgid "notes"
-#~ msgstr "notes"
-
-#~ msgid "preview screen"
-#~ msgstr "preview screen"
-
-#~ msgid ""
-#~ "An index is not editable. To view the index go to the ${preview_screen}."
-#~ msgstr ""
-#~ "An index is not editable. To view the index go to the ${preview_screen}."
-
-#~ msgid ""
-#~ "Note that ${warning}, so the list may be empty if nothing is published."
-#~ msgstr ""
-#~ "Note that ${warning}, so the list may be empty if nothing is published."
-
-#~ msgid ""
-#~ "If new content has been added, click &#8220;update index&#8221; (in large "
-#~ "publications this may take a while)."
-#~ msgstr ""
-#~ "If new content has been added, click &#8220;update index&#8221; (in large "
-#~ "publications this may take a while)."
-
-#~ msgid "Index updated"
-#~ msgstr "Index updated"
-
-#~ msgid "Both a name and e-mail address are required to approve someone."
-#~ msgstr "Both a name and e-mail address are required to approve someone."
-
-#~ msgid "Sorry, content is missing:"
-#~ msgstr "Sorry, content is missing:"
-
-#~ msgid "Member is approved"
-#~ msgstr "Member is approved"
-
-#~ msgid "preferred editor"
-#~ msgstr "preferred editor"
-
-#~ msgid ""
-#~ "Choose 'forms editor' for the forms-based editor, or 'kupu' for the Kupu "
-#~ "WYSIWYG editor (requires Internet Explorer 5.5+, Netscape 7+ or Mozilla "
-#~ "1.3.1+)"
-#~ msgstr ""
-#~ "Choose 'forms editor' for the forms-based editor, or 'kupu' for the Kupu "
-#~ "WYSIWYG editor (requires Internet Explorer 5.5+, Netscape 7+ or Mozilla "
-#~ "1.3.1+)"
-
-#~ msgid "Full name updated"
-#~ msgstr "Full name updated"
-
-#~ msgid "Email updated"
-#~ msgstr "Email updated"
-
-#~ msgid "Editor updated"
-#~ msgstr "Editor updated"
-
-#~ msgid "Language updated"
-#~ msgstr "Language updated"
-
-#~ msgid "Nothing changed."
-#~ msgstr "Nothing changed."
-
-#~ msgid "save member data: alt-s"
-#~ msgstr "save member data: alt-s"
-
-#~ msgid "close window: alt-c"
-#~ msgstr "close window: alt-c"
-
-#~ msgid "You are not allowed to edit membership data of member ${member_id}"
-#~ msgstr "You are not allowed to edit membership data of member ${member_id}"
-
-#~ msgid "member data of &#xab;${fullname}&#xbb;"
-#~ msgstr "member data of &#xab;${fullname}&#xbb;"
-
-#~ msgid "characteristic"
-#~ msgstr "characteristic"
-
-#~ msgid "${icon} ghost of &#xab;${title}&#xbb; (${version_name} version)"
-#~ msgstr "${icon} ghost of &#xab;${title}&#xbb; (${version_name} version)"
-
-#~ msgid "reference"
-#~ msgstr "reference"
-
-#~ msgid "path to original (begins with &#8216;/&#8217;)."
-#~ msgstr "path to original (begins with &#8216;/&#8217;)."
-
-#~ msgid "Link to editor screen of original."
-#~ msgstr "Link to editor screen of original."
-
-#~ msgid "Ghost changed."
-#~ msgstr "Ghost changed."
-
-#~ msgid "Link changed"
-#~ msgstr "Link changed"
-
-#~ msgid "link url"
-#~ msgstr "link url"
-
-#~ msgid "change link"
-#~ msgstr "change link"
-
-#~ msgid "'first un-approve' this item in order to edit: alt-r"
-#~ msgstr "'first un-approve' this item in order to edit: alt-r"
-
-#~ msgid ""
-#~ "${note} this version is approved but not yet public. In order to make "
-#~ "changes you need to first revoke the approval."
-#~ msgstr ""
-#~ "${note} this version is approved but not yet public. In order to make "
-#~ "changes you need to first revoke the approval."
-
-#~ msgid "withdraw a request for approval in order to edit: alt-w"
-#~ msgstr "withdraw a request for approval in order to edit: alt-w"
-
-#~ msgid ""
-#~ "${note} this version has an request for approval pending. In order to "
-#~ "make changes you need to first withdraw the pending request."
-#~ msgstr ""
-#~ "${note} this version has an request for approval pending. In order to "
-#~ "make changes you need to first withdraw the pending request."
-
-#~ msgid "Somebody else just edited this item, unlock it: alt-u"
-#~ msgstr "Somebody else just edited this item, unlock it: alt-u"
-
-#~ msgid "break lock"
-#~ msgstr "break lock"
-
-#~ msgid ""
-#~ "${note} This object is already being edited by another user, and is "
-#~ "temporarily locked."
-#~ msgstr ""
-#~ "${note} This object is already being edited by another user, and is "
-#~ "temporarily locked."
-
-#~ msgid "Note:"
-#~ msgstr "Note:"
-
-#~ msgid "work on a new version while the previous one stays online: alt-n"
-#~ msgstr "work on a new version while the previous one stays online: alt-n"
-
-#~ msgid ""
-#~ "${note} there is already a published or closed version of this content. "
-#~ "Changes can only be made in a new version."
-#~ msgstr ""
-#~ "${note} there is already a published or closed version of this content. "
-#~ "Changes can only be made in a new version."
-
-#~ msgid "Document published"
-#~ msgstr "Document published"
-
-#~ msgid "Version already approved"
-#~ msgstr "Version already approved"
-
-#~ msgid "Document already published"
-#~ msgstr "Document already published"
-
-#~ msgid "Lock broken"
-#~ msgstr "Lock broken"
-
-#~ msgid "view «${version_title}»"
-#~ msgstr "view «${version_title}»"
-
-#~ msgid "No role selected."
-#~ msgstr "No role selected."
-
-#~ msgid "No groups selected."
-#~ msgstr "No groups selected."
-
-#~ msgid "Role(s) assigned for ${list}"
-#~ msgstr "Role(s) assigned for ${list}"
-
-#~ msgid "No user(s) selected."
-#~ msgstr "No user(s) selected."
-
-#~ msgid "No roles to revoke selected."
-#~ msgstr "No roles to revoke selected."
-
-#~ msgid "Role(s) revoked for ${list}"
-#~ msgstr "Role(s) revoked for ${list}"
-
-#~ msgid "Role(s) revoked"
-#~ msgstr "Role(s) revoked"
-
-#~ msgid "map cleared"
-#~ msgstr "map cleared"
-
-#~ msgid "You have to enter a path here."
-#~ msgstr "You have to enter a path here."
-
-#~ msgid "The ghost is in an undefined state."
-#~ msgstr "The ghost is in an undefined state."
-
-#~ msgid "haunted_url"
-#~ msgstr "haunted_url"
-
-#~ msgid "Users selected."
-#~ msgstr "Users selected."
-
-#~ msgid "No users selected."
-#~ msgstr "No users selected."
-
-#~ msgid "No username supplied."
-#~ msgstr "No username supplied."
-
-#~ msgid "Added username to clipboard: ${string}"
-#~ msgstr "Added username to clipboard: ${string}"
-
-#~ msgid "Users removed from selection."
-#~ msgstr "Users removed from selection."
-
-#~ msgid "No users removed."
-#~ msgstr "No users removed."
-
-#~ msgid "No search string supplied."
-#~ msgstr "No search string supplied."
-
-#~ msgid ""
-#~ "Search string '${string}' is too short. Please try a longer search string."
-#~ msgstr ""
-#~ "Search string '${string}' is too short. Please try a longer search string."
-
-#~ msgid "No users found for search string '${string}'."
-#~ msgstr "No users found for search string '${string}'."
-
-#~ msgid "Searched for '${string}'."
-#~ msgstr "Searched for '${string}'."
-
-#~ msgid "search"
-#~ msgstr "search"
-
-#~ msgid "add checked users to clipboard: alt-a"
-#~ msgstr "add checked users to clipboard: alt-a"
-
-#~ msgid "add to clipboard"
-#~ msgstr "add to clipboard"
-
-#~ msgid "search results"
-#~ msgstr "search results"
-
-#~ msgid "user"
-#~ msgstr "user"
-
-#~ msgid "email"
-#~ msgstr "e-mail"
-
-#~ msgid "No search results."
-#~ msgstr "No search results."
-
-#~ msgid "user lookup at &#xab;${title_or_id}&#xbb;"
-#~ msgstr "user lookup at &#xab;${title_or_id}&#xbb;"
-
-#~ msgid "user search"
-#~ msgstr "user search"
-
-#~ msgid "name (or part of name)"
-#~ msgstr "name (or part of name)"
-
-#~ msgid "return to the access screen with this clipboard: alt-u"
-#~ msgstr "return to the access screen with this clipboard: alt-u"
-
-#~ msgid "${u}se clipboard..."
-#~ msgstr "${u}se clipboard..."
-
-#~ msgid "remove user"
-#~ msgstr "remove user"
-
-#~ msgid "remove users from the clipboard: alt-r"
-#~ msgstr "remove users from the clipboard: alt-r"
-
 #~ msgid "return to previous screen: alt-k"
 #~ msgstr "return to previous screen: alt-k"
 
 #~ msgid "bac${k}..."
 #~ msgstr "bac${k}..."
 
-#~ msgid "user clipboard at &#xab;${title_or_id}&#xbb;"
-#~ msgstr "user clipboard at &#xab;${title_or_id}&#xbb;"
-
-#~ msgid "add user to clipboard"
-#~ msgstr "add user to clipboard"
-
-#~ msgid "of &#xab;${title}&#xbb;"
-#~ msgstr "of &#xab;${title}&#xbb;"
-
-#~ msgid "of &#xab;${title}"
-#~ msgstr "of &#xab;${title}"
-
-#~ msgid "no_groups_available"
-#~ msgstr "no_groups_available"
-
-#~ msgid "existing ${type} groups"
-#~ msgstr "existing ${type} groups"
-
-#~ msgid "ctrl-click to multi-select"
-#~ msgstr "ctrl-click to multi-select"
-
-#~ msgid "select_groups"
-#~ msgstr "select_groups"
-
-#~ msgid "select users:"
-#~ msgstr "select users:"
-
-#~ msgid "No users on clipboard"
-#~ msgstr "No users on clipboard"
-
-#~ msgid "first 'un-approve' this item in order to edit: alt-r"
-#~ msgstr "first 'un-approve' this item in order to edit: alt-r"
-
-#~ msgid "create a new version of this content: alt-n"
-#~ msgstr "create a new version of this content: alt-n"
-
-#~ msgid "No users with local roles are defined here."
-#~ msgstr "No users with local roles are defined here."
-
-#~ msgid "select a role to assign"
-#~ msgstr "select a role to assign"
-
-#~ msgid "select role:"
-#~ msgstr "select role:"
-
-#~ msgid "assign role"
-#~ msgstr "assign role"
-
-#~ msgid "assign a local role to selected user(s)"
-#~ msgstr "assign a local role to selected user(s)"
-
-#~ msgid "revoke selected role(s) from selected user(s)"
-#~ msgstr "revoke selected role(s) from selected user(s)"
-
-#~ msgid "pending requests for roles"
-#~ msgstr "pending requests for roles"
-
-#~ msgid "requested role"
-#~ msgstr "requested role"
-
-#~ msgid "is approved"
-#~ msgstr "is approved"
-
-#~ msgid "No roles have been requested."
-#~ msgstr "No roles have been requested."
-
-#~ msgid "access key: alt-d"
-#~ msgstr "access key: alt-d"
-
-#~ msgid "deny role"
-#~ msgstr "deny role"
-
-#~ msgid "access key: alt-g"
-#~ msgstr "access key: alt-g"
-
-#~ msgid "access key: alt-a"
-#~ msgstr "access key: alt-a"
-
-#~ msgid "Grant and approve"
-#~ msgstr "Grant and approve"
-
-#~ msgid "assign"
-#~ msgstr "assign"
-
-#~ msgid "A Groups Service is not installed"
-#~ msgstr "A Groups Service is not installed"
-
-#~ msgid ""
-#~ "You are seeing this message because the Silva Groups extension is "
-#~ "installed on the file system, but a Groups Service hasn't been added to "
-#~ "this Silva instance. To install one, go to the ${silva_root_in_the_ZMI}, "
-#~ "choose &#8220;Groups Service&#8221; from the add list and give it the id "
-#~ "${service_groups}. No further configuration is necessary."
-#~ msgstr ""
-#~ "You are seeing this message because the Silva Groups extension is "
-#~ "installed on the file system, but a Groups Service hasn't been added to "
-#~ "this Silva instance. To install one, go to the ${silva_root_in_the_ZMI}, "
-#~ "choose &#8220;Groups Service&#8221; from the add list and give it the id "
-#~ "${service_groups}. No further configuration is necessary."
-
-#~ msgid "grant or revoke local roles for groups"
-#~ msgstr "grant or revoke local roles for groups"
-
-#~ msgid "groupname"
-#~ msgstr "groupname"
-
-#~ msgid "(broken group, not listed in Groups Service)"
-#~ msgstr "(broken group, not listed in Groups Service)"
-
-#~ msgid "No groups with (local) roles."
-#~ msgstr "No groups with (local) roles."
-
-#~ msgid "assign role to group"
-#~ msgstr "assign role to group"
-
-#~ msgid "revoke selected role(s) from selected group(s)"
-#~ msgstr "revoke selected role(s) from selected group(s)"
-
-#~ msgid "revoke role from group"
-#~ msgstr "revoke role from group"
-
-#~ msgid "assign selected role to selected group(s)"
-#~ msgstr "assign selected role to selected group(s)"
-
-#~ msgid "public view access restrictions for"
-#~ msgstr "public view access restrictions for"
-
-#~ msgid "access restriction by role"
-#~ msgstr "access restriction by role"
-
-#~ msgid "current restriction"
-#~ msgstr "current restriction"
-
-#~ msgid "Open to the public"
-#~ msgstr "Open to the public"
-
-#~ msgid "(acquired)."
-#~ msgstr "(acquired)."
-
-#~ msgid ""
-#~ "Setting an access restriction here affects objects on this and lower "
-#~ "levels."
-#~ msgstr ""
-#~ "Setting an access restriction here affects objects on this and lower "
-#~ "levels."
-
-#~ msgid "restrict access to users with a specific role"
-#~ msgstr "restrict access to users with a specific role"
-
-#~ msgid ""
-#~ "cancel the access restriction at this level, making it inherit from above"
-#~ msgstr ""
-#~ "cancel the access restriction at this level, making it inherit from above"
-
-#~ msgid "user roles for"
-#~ msgstr "user roles for"
-
-#~ msgid "${icon} public view access restrictions for &#xab;${title}&#xbb;"
-#~ msgstr "${icon} public view access restrictions for &#xab;${title}&#xbb;"
-
-#~ msgid "grant or revoke local roles for users"
-#~ msgstr "grant or revoke local roles for users"
-
-#~ msgid "An access restriction here affects objects on this and lower levels."
-#~ msgstr ""
-#~ "An access restriction here affects objects on this and lower levels."
-
-#~ msgid "roles defined above"
-#~ msgstr "roles defined above"
-
-#~ msgid "roles defined here"
-#~ msgstr "roles defined here"
-
-#~ msgid "No requests selected"
-#~ msgstr "No requests selected"
-
-#~ msgid "user_id"
-#~ msgstr "user_id"
-
-#~ msgid "email addresses for"
-#~ msgstr "email addresses for"
-
-#~ msgid "listing of all authorized users below this level"
-#~ msgstr "listing of all authorized users below this level"
-
-#~ msgid ""
-#~ "Addresses are formatted for copying and pasting in the &#8216;To:&#8217; "
-#~ "field of an email message."
-#~ msgstr ""
-#~ "Addresses are formatted for copying and pasting in the &#8216;To:&#8217; "
-#~ "field of an email message."
-
-#~ msgid ""
-#~ "The addables settings can only be changed on Silva Publications. A "
-#~ "${item} doesn&#8217;t have that capability."
-#~ msgstr ""
-#~ "The addables settings can only be changed on Silva Publications. A "
-#~ "${item} doesn&#8217;t have that capability."
-
-#~ msgid "save subscription settings"
-#~ msgstr "save subscription settings"
-
-#~ msgid "This object is not subscribable content."
-#~ msgstr "This object is not subscribable content."
-
-#~ msgid "subscriptions icon"
-#~ msgstr "subscriptions icon"
-
-#~ msgid "Subscribing"
-#~ msgstr "Subscribing"
-
-#~ msgid "This object can not be subscribed to."
-#~ msgstr "This object can not be subscribed to."
-
-#~ msgid "This object can be subscribed to."
-#~ msgstr "This object can be subscribed to."
-
-#~ msgid ""
-#~ "${numberofsubscriptions} subscription(s) for this object defined above."
-#~ msgstr ""
-#~ "${numberofsubscriptions} subscription(s) for this object defined above."
-
-#~ msgid "${icon} manage subscriptions for &#xab;${title}&#xbb;"
-#~ msgstr "${icon} manage subscriptions for &#xab;${title}&#xbb;"
-
-#~ msgid ""
-#~ "\n"
-#~ "              Set the subscribability for this content (Yes or No), or "
-#~ "set it\n"
-#~ "              to acquire the subscribability from above (the default).\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Set the subscribability for this content (Yes or No), or "
-#~ "set it\n"
-#~ "              to acquire the subscribability from above (the default).\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "              List of email addresses (one per line) currently subscribed "
-#~ "to this content.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              List of email addresses (one per line) currently subscribed "
-#~ "to this content.\n"
-#~ "            "
-
-#~ msgid "&laquo; Previous ${n} items"
-#~ msgstr "&laquo; Previous ${n} items"
-
-#~ msgid "Next ${n} items &raquo;"
-#~ msgstr "Next ${n} items &raquo;"
-
-#~ msgid "jump to zope root: alt-z"
-#~ msgstr "jump to zope root: alt-z"
-
-#~ msgid "zroot..."
-#~ msgstr "zroot..."
-
-#~ msgid "sroot..."
-#~ msgstr "sroot..."
-
-#~ msgid "jump to silva root in zodb: alt-'"
-#~ msgstr "jump to silva root in zodb: alt-'"
-
-#~ msgid "jump to silva services: alt-`"
-#~ msgstr "jump to silva services: alt-`"
-
-#~ msgid "sservices..."
-#~ msgstr "sservices..."
-
-#~ msgid "Request an additional role in this location: alt-,"
-#~ msgstr "Request an additional role in this location: alt-,"
-
-#~ msgid "request access"
-#~ msgstr "request access"
-
-#~ msgid "This ghost is broken. (${haunted_url})"
-#~ msgstr "This ghost is broken. (${haunted_url})"
-
-#~ msgid ""
-#~ "This 'ghost' document is broken. Please inform the site administrator."
-#~ msgstr ""
-#~ "This 'ghost' document is broken. Please inform the site administrator."
-
-#~ msgid "Path does not lead to a content object"
-#~ msgstr "Path does not lead to a content object"
-
-#~ msgid "content is not subscribable"
-#~ msgstr "content is not subscribable"
-
-#~ msgid "emailaddress not valid"
-#~ msgstr "emailaddress not valid"
-
-#~ msgid ""
-#~ "Confirmation request for cancellation has been emailed to ${emailaddress}"
-#~ msgstr ""
-#~ "Confirmation request for cancellation has been emailed to ${emailaddress}"
-
-#~ msgid "Subscription failed"
-#~ msgstr "Subscription failed"
-
-#~ msgid ""
-#~ "You have been successfully subscribed. This means you will receive email "
-#~ "notifications whenever a new version of these pages becomes available."
-#~ msgstr ""
-#~ "You have been successfully subscribed. This means you will receive email "
-#~ "notifications whenever a new version of these pages becomes available."
-
-#~ msgid "membership"
-#~ msgstr "membership"
-
-#~ msgid "Request roles at this location"
-#~ msgstr "Request roles at this location"
-
-#~ msgid "Please fill in the following fields."
-#~ msgstr "Please fill in the following fields."
-
-#~ msgid "full name"
-#~ msgstr "full name"
-
-#~ msgid "e-mail address"
-#~ msgstr "e-mail address"
-
-#~ msgid "Choose role(s) to request"
-#~ msgstr "Choose role(s) to request"
-
-#~ msgid " Send request "
-#~ msgstr " Send request "
-
-#~ msgid "Send request for role: alt-s"
-#~ msgstr "Send request for role: alt-s"
-
-#~ msgid "This site does not allow requests for roles"
-#~ msgstr "This site does not allow requests for roles"
-
-#~ msgid "You must enter your full name and your e-mail address"
-#~ msgstr "You must enter your full name and your e-mail address"
-
-#~ msgid "Error: ${error}"
-#~ msgstr "Error: ${error}"
-
-#~ msgid ""
-#~ "Roles requested. You will receive an e-mail from the Chief Editor or "
-#~ "Manager as soon as your request is processed."
-#~ msgstr ""
-#~ "Roles requested. You will receive an e-mail from the Chief Editor or "
-#~ "Manager as soon as your request is processed."
-
-#~ msgid "No roles were selected."
-#~ msgstr "No roles were selected."
-
-#~ msgid ""
-#~ "\n"
-#~ "              Select (multiple using ctrl-key) object type(s) to search "
-#~ "in. \n"
-#~ "              If none is selected, all types are searched.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Select (multiple using ctrl-key) object type(s) to search "
-#~ "in. \n"
-#~ "              If none is selected, all types are searched.\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "              Use an asterix ('*') for wildcard.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Use an asterix ('*') for wildcard.\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
-
-#~ msgid "Subtree only"
-#~ msgstr "Subtree only"
-
-#~ msgid ""
-#~ "\n"
-#~ "              Check to restrict search to this content's subtree.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Check to restrict search to this content's subtree.\n"
-#~ "            "
-
-#~ msgid ""
-#~ "Confirmation request for subscription has been emailed to ${emailaddress}"
-#~ msgstr ""
-#~ "Confirmation request for subscription has been emailed to ${emailaddress}"
-
-#~ msgid "Subscribe to &#xab;${title_or_id}&#xbb;"
-#~ msgstr "Subscribe to &#xab;${title_or_id}&#xbb;"
-
-#~ msgid ""
-#~ "Fill in your email address if you want to receive email notifications "
-#~ "whenever a new version of this page or its subdocuments becomes available."
-#~ msgstr ""
-#~ "Fill in your email address if you want to receive email notifications "
-#~ "whenever a new version of this page or its subdocuments becomes available."
-
-#~ msgid "subscribe"
-#~ msgstr "subscribe"
-
-#~ msgid "Unsubscribe from &#xab;${title_or_id}&#xbb;"
-#~ msgstr "Unsubscribe from &#xab;${title_or_id}&#xbb;"
-
-#~ msgid ""
-#~ "Fill in your email address if you want to unsubscribe from email "
-#~ "notifications for this page and its subdocuments."
-#~ msgstr ""
-#~ "Fill in your email address if you want to unsubscribe from email "
-#~ "notifications for this page and its subdocuments."
-
-#~ msgid "unsubscribe"
-#~ msgstr "unsubscribe"
-
-#~ msgid "Return to &#xab;${title_or_id}&#xbb;"
-#~ msgstr "Return to &#xab;${title_or_id}&#xbb;"
-
-#~ msgid ""
-#~ "Publications are special folders. They function as the \n"
-#~ "       major organizing blocks of a Silva site. They are comparable to \n"
-#~ "       binders, and can contain folders, documents, and assets. \n"
-#~ "       Publications are opaque. They instill a threshold of view, "
-#~ "showing\n"
-#~ "       only the contents of the current publication. This keeps the "
-#~ "overview\n"
-#~ "       screens manageable. Publications have configuration settings that\n"
-#~ "       determine which core and pluggable objects are available. For\n"
-#~ "       complex sites, sub-publications can be nested.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Publications are special folders. They function as the \n"
-#~ "       major organizing blocks of a Silva site. They are comparable to \n"
-#~ "       binders, and can contain folders, documents, and assets. \n"
-#~ "       Publications are opaque. They instill a threshold of view, "
-#~ "showing\n"
-#~ "       only the contents of the current publication. This keeps the "
-#~ "overview\n"
-#~ "       screens manageable. Publications have configuration settings that\n"
-#~ "       determine which core and pluggable objects are available. For\n"
-#~ "       complex sites, sub-publications can be nested.\n"
-#~ "    "
-
-#~ msgid "groups administration: alt-g"
-#~ msgstr "groups administration: alt-g"
-
 #~ msgid "${g}roups admin..."
 #~ msgstr "${g}roups admin..."
-
-#~ msgid "lookup users: alt-l"
-#~ msgstr "lookup users: alt-l"
 
 #~ msgid "add users..."
 #~ msgstr "add users..."
@@ -6762,19 +3537,9 @@ msgstr ""
 #~ msgid "public&nbsp;preview..."
 #~ msgstr "public&nbsp;preview..."
 
-#~ msgid "publish&nbsp;now"
-#~ msgstr "publish&nbsp;now"
-
 #~ msgid ""
-#~ "${br} ${br} ${silva_icon} ${silva_version}${br} &#xa9; Copyright "
-#~ "2001-2007 Infrae. All rights reserved."
+#~ "${br} ${br} ${silva_icon} ${silva_version}${br} &#xa9; Copyright 2001-2007 "
+#~ "Infrae. All rights reserved."
 #~ msgstr ""
-#~ "${br} ${br} ${silva_icon} ${silva_version}${br} &#xa9; Copyright "
-#~ "2001-2007 Infrae. All rights reserved."
-
-#~ msgid ""
-#~ "The data that was submitted did not validate properly (you might want to "
-#~ "use the browser back button to adjust the form values)."
-#~ msgstr ""
-#~ "The data that was submitted did not validate properly (you might want to "
-#~ "use the browser back button to adjust the form values)."
+#~ "${br} ${br} ${silva_icon} ${silva_version}${br} &#xa9; Copyright 2001-2007 "
+#~ "Infrae. All rights reserved."

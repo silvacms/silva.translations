@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-02-08 16:12+0000\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:20+0000\n"
 "Last-Translator: thisfred <eric@infrae.com>\n"
 "Language-Team: Gujarati <gu@li.org>\n"
-"Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-11-13 12:21+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: gu\n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -135,7 +137,7 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:162
 msgid "Enable"
-msgstr ""
+msgstr "સક્રિય કરો"
 
 #: Products.Silva:/EmailMessageService.py:163
 msgid "Send emails when asked to."
@@ -143,7 +145,7 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:166
 msgid "From Address"
-msgstr ""
+msgstr "સરનામા પરથી"
 
 #: Products.Silva:/EmailMessageService.py:167
 msgid "Email address used to send messages."
@@ -301,11 +303,13 @@ msgstr ""
 msgid "download"
 msgstr ""
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
 msgstr ""
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
 msgstr ""
 
@@ -347,7 +351,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -447,7 +452,8 @@ msgid ""
 "    "
 msgstr ""
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -463,8 +469,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -569,7 +577,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -727,7 +736,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -846,7 +856,7 @@ msgstr ""
 
 #: Products.Silva:/SimpleMembership.py:283
 msgid "Update"
-msgstr ""
+msgstr "સુધારો"
 
 #. Default: ""
 #: Products.Silva:/Version.py:164
@@ -855,7 +865,7 @@ msgstr ""
 
 #: Products.Silva:/Version.py:169
 msgid "approved"
-msgstr ""
+msgstr "માન્ય"
 
 #: Products.Silva:/Version.py:169
 msgid "last_closed"
@@ -863,15 +873,15 @@ msgstr ""
 
 #: Products.Silva:/Version.py:169
 msgid "unapproved"
-msgstr ""
+msgstr "અમાન્ય"
 
 #: Products.Silva:/Version.py:170
 msgid "public"
-msgstr ""
+msgstr "જાહેર"
 
 #: Products.Silva:/Version.py:170
 msgid "pending"
-msgstr ""
+msgstr "બાકી"
 
 #: Products.Silva:/Version.py:170
 msgid "draft"
@@ -879,7 +889,7 @@ msgstr ""
 
 #: Products.Silva:/Version.py:170
 msgid "closed"
-msgstr ""
+msgstr "બંધ"
 
 #: Products.Silva:/Version.py:71
 msgid "A version is already waiting approval."
@@ -941,7 +951,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -950,15 +961,18 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr ""
 
@@ -970,7 +984,8 @@ msgstr ""
 msgid "No public version."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr ""
 
@@ -1066,42 +1081,51 @@ msgstr ""
 msgid "Anonymous"
 msgstr "નામ વગરનું"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
-msgstr ""
+msgstr "પ્રમાણિત"
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
 msgstr "મેનેજર"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
 msgstr "દર્શક"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
-msgstr ""
+msgstr "દર્શક +"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
-msgstr ""
+msgstr "દર્શક ++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
-msgstr ""
+msgstr "દર્શક"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
 msgstr "લેખક"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
 msgstr "સંપાદક"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
 msgstr ""
 
@@ -1131,7 +1155,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:212
 msgid "language"
-msgstr ""
+msgstr "ભાષા"
 
 #: Products.Silva:/schema/silva-extra.xml:259
 msgid "Language of content in this area."
@@ -1139,7 +1163,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
-msgstr ""
+msgstr "ટિપ્પણી"
 
 #: Products.Silva:/schema/silva-extra.xml:318
 msgid "Internal comments."
@@ -1147,7 +1171,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:35
 msgid "subject"
-msgstr ""
+msgstr "વિષય"
 
 #: Products.Silva:/schema/silva-extra.xml:36
 msgid "Subject of content in this area."
@@ -1165,15 +1189,15 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:437
 msgid "modification time"
-msgstr ""
+msgstr "સુધારા સમય"
 
 #: Products.Silva:/schema/silva-extra.xml:493
 msgid "creator"
-msgstr ""
+msgstr "નિર્માતા"
 
 #: Products.Silva:/schema/silva-extra.xml:550
 msgid "last author"
-msgstr ""
+msgstr "છેલ્લા લેખક"
 
 #: Products.Silva:/schema/silva-extra.xml:552
 msgid "User who last edited this content."
@@ -1185,7 +1209,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:608
 msgid "contact name"
-msgstr ""
+msgstr "સંપર્ક નામ"
 
 #: Products.Silva:/schema/silva-extra.xml:662
 msgid "Email address of contact person."
@@ -1207,7 +1231,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:94
 msgid "keywords"
-msgstr ""
+msgstr "મુખ્ય શબ્દો"
 
 #: Products.Silva:/schema/silva-extra.xml:95
 msgid "Keywords relating to content."
@@ -1327,7 +1351,7 @@ msgstr ""
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:51
 #: silva.app.subscriptions:/service.py:352
 msgid "Install"
-msgstr ""
+msgstr "ગોઠવવું"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:56
 msgid "There is no installable code sources."
@@ -1347,7 +1371,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1409,7 +1434,8 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
 
@@ -1427,7 +1453,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/service.py:261
 msgid "From address"
-msgstr ""
+msgstr "સરનામાં માંથી"
 
 #: silva.app.subscriptions:/service.py:262
 msgid "Email address used to send notification emails"
@@ -1435,7 +1461,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/service.py:265
 msgid "Service name"
-msgstr ""
+msgstr "સેવા નું નામ"
 
 #: silva.app.subscriptions:/service.py:266
 msgid "Service name to report in notification emails"
@@ -1465,7 +1491,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/service.py:296
 msgid "Activate"
-msgstr ""
+msgstr "સક્રિય"
 
 #: silva.app.subscriptions:/service.py:299
 msgid "Subscriptions activated."
@@ -1479,9 +1505,10 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
-msgstr ""
+msgstr "ઉમેદવારીઓ નિષ્ક્રિય કરો"
 
 #: silva.app.subscriptions:/service.py:321
 msgid "Disable sending emails notifications"
@@ -1489,7 +1516,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/service.py:326
 msgid "Disable"
-msgstr ""
+msgstr "નિષ્ક્રિય કરો"
 
 #: silva.app.subscriptions:/service.py:329
 msgid "Subscriptions disabled."
@@ -1549,7 +1576,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:16
 msgid "Other subscriptions"
-msgstr ""
+msgstr "અન્ય ઉમેદવારીઓ"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:19
 msgid "${count} subscription(s) for this content defined above."
@@ -1561,7 +1588,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:5
 msgid "Subscriptions info"
-msgstr ""
+msgstr "ઉમેદવારીઓની માહિતી"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:7
 msgid "This content can not be subscribed to."
@@ -1597,19 +1624,20 @@ msgstr ""
 #: silva.ui:/rest/container/configuration.py:188
 #: zeam.form.silva:/actions.py:111
 msgid "Cancel"
-msgstr ""
+msgstr "રદ કરો"
 
 #: silva.app.subscriptions:/views.py:162
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:171
 msgid "Subscription failed."
-msgstr ""
+msgstr "ઉમેદવારી નિષ્ફળ"
 
 #: silva.app.subscriptions:/views.py:173
 msgid ""
@@ -1619,7 +1647,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/views.py:183
 msgid "Invalid confirmation."
-msgstr ""
+msgstr "અમાન્ય ખાતરી."
 
 #: silva.app.subscriptions:/views.py:192
 msgid ""
@@ -1633,7 +1661,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/views.py:203
 msgid "Subscribe / Unsubscribe"
-msgstr ""
+msgstr "ઉમેદવારી નોંધાવો / ઉમેદવારી રદ કરો"
 
 #: silva.app.subscriptions:/views.py:204
 msgid ""
@@ -1641,12 +1669,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
-msgstr ""
+msgstr "ઇમેઇલ સરનામું"
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1661,9 +1691,10 @@ msgstr ""
 
 #: silva.app.subscriptions:/views.py:55
 msgid "Subscribe"
-msgstr ""
+msgstr "ઉમેદવારી નોંધાવો"
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1678,7 +1709,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/views.py:83
 msgid "Unsubscribe"
-msgstr ""
+msgstr "ઉમેદવારી રદ કરો"
 
 #: silva.captcha:/formulator.py:18
 msgid "Input is required but no input given."
@@ -1724,7 +1755,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1792,21 +1824,24 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
-msgstr ""
+msgstr "પસંદ કરો:"
 
 #: silva.core.interfaces:/auth.py:130
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
-msgstr ""
+msgstr "ભૂમિકા ઉપર વ્યાખ્યાયિત થયેલ છે"
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
-msgstr ""
+msgstr "ભૂમિકા અહીં વ્યાખ્યાયિત થયેલ છે"
 
 #: silva.core.interfaces:/errors.py:14
 msgid "Invalid ghost target."
@@ -1839,7 +1874,7 @@ msgstr ""
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:102
 msgid "Origin"
-msgstr ""
+msgstr "ઉદભવ"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:16
 msgid "Interface"
@@ -1848,7 +1883,7 @@ msgstr ""
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:32
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:94
 msgid "Layer"
-msgstr ""
+msgstr "સ્તર"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:59
 msgid "Name of View"
@@ -1856,15 +1891,15 @@ msgstr ""
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:60
 msgid "Registration Info"
-msgstr ""
+msgstr "નોંધણી માહિતી"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:80
 msgid "Type"
-msgstr ""
+msgstr "પ્રકાર"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:84
 msgid "Template"
-msgstr ""
+msgstr "નમૂનો"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:90
 msgid "Object"
@@ -1872,10 +1907,11 @@ msgstr ""
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:98
 msgid "Definition"
-msgstr ""
+msgstr "વ્યાખ્યા"
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr ""
@@ -1981,7 +2017,7 @@ msgstr ""
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:15
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:18
 msgid "edit content"
-msgstr ""
+msgstr "વિષયવસ્તુ ફેરફાર"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this content"
@@ -2181,7 +2217,7 @@ msgstr ""
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:45
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:56
 msgid "editor"
-msgstr ""
+msgstr "સંપાદક"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:45
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:56
@@ -2233,7 +2269,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2513,8 +2550,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2528,7 +2565,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2586,7 +2624,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2623,9 +2662,10 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
-msgstr ""
+msgstr "કોઈ ભૂમિકાઓ સોંપાયેલ નથી"
 
 #: silva.core.smi:/settings/access.py:266
 msgid "User clipboard"
@@ -2741,7 +2781,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/access.py:73
 msgid "Sorry, there were errors."
-msgstr ""
+msgstr "માફ કરશો, ત્યાં ભૂલો હતી."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:95
@@ -3041,7 +3081,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3095,7 +3136,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3127,7 +3169,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3236,7 +3279,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3373,7 +3417,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:23
 msgid "year"
-msgstr ""
+msgstr "વર્ષ"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
 msgid "optional hour in 24h format"
@@ -3389,7 +3433,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:40
 msgid "optional minute"
-msgstr ""
+msgstr "વૈકલ્પિક મિનિટ"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:5
 msgid "dd"
@@ -3422,178 +3466,3 @@ msgstr ""
 #: zeam.form.silva:/widgets/others_templates/comboboxfieldwidget.cpt:5
 msgid "Show All Items"
 msgstr ""
-
-#~ msgid "Not connected"
-#~ msgstr "જોડાયેલ નથી"
-
-#~ msgid "image"
-#~ msgstr "ચિત્ર"
-
-#~ msgid "url"
-#~ msgstr "यू आर एल (URL)"
-
-#~ msgid "published"
-#~ msgstr "પ્રકાશિત"
-
-#~ msgid "none"
-#~ msgstr "કશું નહી"
-
-#~ msgid "select"
-#~ msgstr "પસંદ કરો"
-
-#~ msgid "author"
-#~ msgstr "લેખક"
-
-#~ msgid "enter"
-#~ msgstr "દાખલ કરો"
-
-#~ msgid "cancel"
-#~ msgstr "રદ કરો"
-
-#~ msgid "Notes"
-#~ msgstr "નોંધો"
-
-#~ msgid "Contact"
-#~ msgstr "સંપર્ક"
-
-#~ msgid "Feedback"
-#~ msgstr "પ્રતિભાવ"
-
-#~ msgid "General"
-#~ msgstr "સામાન્ય"
-
-#~ msgid "back"
-#~ msgstr "પાછળ"
-
-#~ msgid "Credits"
-#~ msgstr "શ્રેય"
-
-#~ msgid "message"
-#~ msgstr "સંદેશો"
-
-#~ msgid "50x50 pixels"
-#~ msgstr "50x50 પિક્સેલ"
-
-#~ msgid "50x50 pixel"
-#~ msgstr "50x50 પિક્સેલ"
-
-#~ msgid "75x75 pixels"
-#~ msgstr "75x75 પિક્સેલ"
-
-#~ msgid "75x75 pixel"
-#~ msgstr "75x75 પિક્સેલ"
-
-#~ msgid "100x100 pixel"
-#~ msgstr "100x100 પિક્સેલ"
-
-#~ msgid "100x100 pixels"
-#~ msgstr "100x100 પિક્સેલ"
-
-#~ msgid "250x250 pixels"
-#~ msgstr "250x250 પિક્સેલ"
-
-#~ msgid "250x250 pixel"
-#~ msgstr "250x250 પિક્સેલ"
-
-#~ msgid "format"
-#~ msgstr "ફોરમેટ"
-
-#~ msgid "edit"
-#~ msgstr "ફેરફાર"
-
-#~ msgid "properties"
-#~ msgstr "ગુણધર્મો"
-
-#~ msgid "access"
-#~ msgstr "વપરાશ"
-
-#~ msgid "type"
-#~ msgstr "પ્રકાર"
-
-#~ msgid "owner"
-#~ msgstr "માલિક"
-
-#~ msgid "remove"
-#~ msgstr "દૂર કરો"
-
-#~ msgid "Silva XML"
-#~ msgstr "સિલ્વા એક્સ એમ એલ"
-
-#~ msgid "end"
-#~ msgstr "અંત"
-
-#~ msgid "cut"
-#~ msgstr "કાપો"
-
-#~ msgid "copy"
-#~ msgstr "નકલ કરો"
-
-#~ msgid "paste"
-#~ msgstr "ચોંટાડો"
-
-#~ msgid "delete"
-#~ msgstr "કાઢી નાંખો"
-
-#~ msgid "close"
-#~ msgstr "બંધ કરો"
-
-#~ msgid "shift"
-#~ msgstr "શિફ્ટ"
-
-#~ msgid "note"
-#~ msgstr "નોંધ"
-
-#~ msgid "attribute"
-#~ msgstr "લક્ષણ"
-
-#~ msgid "old"
-#~ msgstr "જુના"
-
-#~ msgid "new"
-#~ msgstr "નવું"
-
-#~ msgid "id"
-#~ msgstr "આઇ ડી (id)"
-
-#~ msgid "no title"
-#~ msgstr "કોઇ શીર્ષક નથી"
-
-#~ msgid "publish time"
-#~ msgstr "પ્રકાશન સમય"
-
-#~ msgid "options"
-#~ msgstr "વિકલ્પ"
-
-#~ msgid "save"
-#~ msgstr "સંગ્રહો"
-
-#~ msgid "element"
-#~ msgstr "તત્વ"
-
-#~ msgid "in"
-#~ msgstr "ઈંચ"
-
-#~ msgid "Content type"
-#~ msgstr "સમાવિષ્ટ પ્રકાર"
-
-#~ msgid "Group name"
-#~ msgstr "જૂથ નામ"
-
-#~ msgid "link"
-#~ msgstr "કડી"
-
-#~ msgid "name"
-#~ msgstr "નામ"
-
-#~ msgid "Note:"
-#~ msgstr "નોંધ:"
-
-#~ msgid "email"
-#~ msgstr "ઈ-મેલ"
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "

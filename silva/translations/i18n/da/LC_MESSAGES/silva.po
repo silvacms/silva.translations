@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-03-16 15:30+0000\n"
-"Last-Translator: nanker <Unknown>\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:56+0000\n"
+"Last-Translator: Sylvain Viollon <sylvain@infrae.com>\n"
 "Language-Team: Danish <da@li.org>\n"
-"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-11-13 12:21+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: da\n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -43,23 +45,23 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:124
 msgid "Silva folder order"
-msgstr ""
+msgstr "Silva mappe-rækkefølge"
 
 #: Products.Silva:/AutoTOC.py:125
 msgid "Alphabetically"
-msgstr ""
+msgstr "Alfabetisk"
 
 #: Products.Silva:/AutoTOC.py:126
 msgid "Reverse alphabetically"
-msgstr ""
+msgstr "Omvendt rækkefølge"
 
 #: Products.Silva:/AutoTOC.py:127
 msgid "Chronologically by modification date"
-msgstr ""
+msgstr "Kronologisk efter ændringsdato"
 
 #: Products.Silva:/AutoTOC.py:128
 msgid "Reverse chronologically by modification date"
-msgstr ""
+msgstr "Omvendt kronologisk efter ændringsdato"
 
 #: Products.Silva:/AutoTOC.py:148
 msgid "Types to list"
@@ -71,6 +73,9 @@ msgid ""
 "need to selected container types (e.g. Folder and Publication) in order for "
 "the TOC to display their contents."
 msgstr ""
+"Vælg her de indholdstyper som du ønsker at se i indholdstabellen. Du skal "
+"vælge beholdertyper (dvs. Mapper og Publikation) for at få "
+"indholdsfortegnelserne til at vise deres indhold."
 
 #: Products.Silva:/AutoTOC.py:158
 msgid "Depth"
@@ -81,6 +86,8 @@ msgid ""
 "The depth to which the Table of Contents will be rendered (-1 means "
 "unlimited depth.)"
 msgstr ""
+"Dybden hvortil indholdsfortegnelserne vil blive skabt (-1 betyder ubegrænset "
+"dybde.)"
 
 #: Products.Silva:/AutoTOC.py:166
 msgid "Display description"
@@ -91,6 +98,8 @@ msgid ""
 "If selected, each item displayed will include its title and metadata "
 "description, if available. "
 msgstr ""
+"Hvis valgt, så vil hvert vist element inkludere sin titel og metadata-"
+"beskrivelse, hvis tilgængelig. "
 
 #: Products.Silva:/AutoTOC.py:173
 msgid "Show icon"
@@ -98,7 +107,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:174
 msgid "If selected, each item displayed will include its icon. "
-msgstr ""
+msgstr "Hvis valgt, så vil hvert vist element inkludere sit ikon. "
 
 #: Products.Silva:/AutoTOC.py:179
 msgid "Show container link"
@@ -109,6 +118,8 @@ msgid ""
 "If selected, there will be a link to the container (as an H3) before the TOC "
 "list."
 msgstr ""
+"Hvis valg, så vil der være en henvisning til beholderen (som et H3) før "
+"indholdsfortegnelseslisten."
 
 #: Products.Silva:/AutoTOC.py:186
 msgid "Sort order"
@@ -116,7 +127,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:187
 msgid "The order items in a container will be sorted"
-msgstr ""
+msgstr "Den rækkefølge elementer i en beholder vil blive sorteret efter"
 
 #: Products.Silva:/AutoTOC.py:32
 msgid ""
@@ -132,40 +143,54 @@ msgid ""
 "    methods.\n"
 "    "
 msgstr ""
+"Dette er en speciel dokumenttype som automatisk opretter\n"
+"    en Indholdsfortegnelse. Anvendes som regel som »indeks«-dokumentet for "
+"en mappe.\n"
+"    Dernæst viser den overordnede mappe en indholdsfortegnelse når den "
+"tilgås (dvs.\n"
+"    http://www.x.yz/silva/minMappe). AutoTOC er konfigurerbar: den kan vise\n"
+"    ethvert udvalg af Silva-indhold inklusive aktiver, inkludere "
+"beskrivelser eller\n"
+"    ikoner, blive sat til at stoppe på en specifik dybde, og anvende diverse "
+"metoder\n"
+"    til sortering.\n"
+"    "
 
 #: Products.Silva:/EmailMessageService.py:162
 msgid "Enable"
-msgstr ""
+msgstr "Slå til"
 
 #: Products.Silva:/EmailMessageService.py:163
 msgid "Send emails when asked to."
-msgstr ""
+msgstr "Send e-post når der bliver bedt om det."
 
 #: Products.Silva:/EmailMessageService.py:166
 msgid "From Address"
-msgstr ""
+msgstr "Adresser for afsender"
 
 #: Products.Silva:/EmailMessageService.py:167
 msgid "Email address used to send messages."
-msgstr ""
+msgstr "E-post-adresser som anvendes til at sende beskeder."
 
 #: Products.Silva:/EmailMessageService.py:176
 msgid "Service Message Configuration"
-msgstr ""
+msgstr "Konfiguration af servicebesked"
 
 #: Products.Silva:/EmailMessageService.py:177
 msgid ""
 "Configure settings for email messaging between members. The default MailHost "
 "service is used to send messages."
 msgstr ""
+"Konfigurer indstillinger for e-post-beskeder mellem medlemmer. Standard "
+"MailHost-tjeneste anvendes til at sende beskeder."
 
 #: Products.Silva:/ExtensionService.py:259
 msgid "Absolute path to object to upgrade"
-msgstr ""
+msgstr "Absolut sti til objekt som skal opgraderes"
 
 #: Products.Silva:/ExtensionService.py:262
 msgid "Current Silva version of the object"
-msgstr ""
+msgstr "Nuværende Silva-version for objektet"
 
 #: Products.Silva:/ExtensionService.py:272
 msgid "Upgrade site"
@@ -181,18 +206,25 @@ msgid ""
 "upgrade on an object may fail and may even (in some situations) cause the "
 "object to become unusable."
 msgstr ""
+"Nedenfor finder du en formular som lader dig angive et objekt som skal "
+"opgraderes, og hvilken version objektet har nu. Når du indtaster værdier i "
+"disse felter og trykker knappen 'opgradér', så vil Silva forsøge at "
+"opgradere objektet til at komme i rette form for nuværende version af Silva. "
+"Bemærk at denne funktionalitet er eksperimentel, og det er kendt at "
+"udførelse af delvis opgradering for et objekt kan fejle og måske endda (i "
+"nogle situationer) forårsage at objektet bliver ubrugeligt."
 
 #: Products.Silva:/ExtensionService.py:284
 msgid "Upgrade"
-msgstr ""
+msgstr "Opgradér"
 
 #: Products.Silva:/ExtensionService.py:296
 msgid "Content upgrade succeeded. See event log for details"
-msgstr ""
+msgstr "Opgradering af indhold lykkedes. Se begivenhedslog for detaljer"
 
 #: Products.Silva:/ExtensionService.py:303
 msgid "Absolute path to reindex"
-msgstr ""
+msgstr "Absolut sti til reindeksering"
 
 #: Products.Silva:/ExtensionService.py:314
 msgid "Reindex site"
@@ -203,34 +235,36 @@ msgid ""
 "Reindex a subtree of the site in the Silva Catalog.For big trees this may "
 "take a long time."
 msgstr ""
+"Reindeksér et undertræ af stedet i Silva-kataloget. Dette kan tage lang tid "
+"for store træer."
 
 #: Products.Silva:/ExtensionService.py:318
 msgid "Reindex"
-msgstr ""
+msgstr "Reindeksér"
 
 #: Products.Silva:/ExtensionService.py:327
 msgid "Invalid path"
-msgstr ""
+msgstr "Ugyldig sti"
 
 #: Products.Silva:/ExtensionService.py:329
 msgid "Partial catalog refreshed"
-msgstr ""
+msgstr "Dele af katalog blev genopfrisket"
 
 #: Products.Silva:/ExtensionService.py:340
 msgid "Silva and all installed extensions have been refreshed"
-msgstr ""
+msgstr "Silva og alle installerede udvidelsesmoduler er blevet genopfrisket"
 
 #: Products.Silva:/ExtensionService.py:344
 msgid "Catalog refreshed"
-msgstr ""
+msgstr "Katalog genopfrisket"
 
 #: Products.Silva:/ExtensionService.py:348
 msgid "Quota sub-system disabled"
-msgstr ""
+msgstr "Kvota-delsystem slået fra"
 
 #: Products.Silva:/ExtensionService.py:352
 msgid "Quota sub-system enabled"
-msgstr ""
+msgstr "Kvota-delsystem slået til"
 
 #: Products.Silva:/ExtensionService.py:357
 msgid "Old version of documents purged"
@@ -238,11 +272,11 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:364
 msgid "Content upgrade succeeded. See log in Logs tab for details"
-msgstr ""
+msgstr "Opgradering af indhold lykkedes. Se log i fanen Logge for detaljer"
 
 #: Products.Silva:/ExtensionService.py:368
 msgid "Documentation installed"
-msgstr ""
+msgstr "Dokumentation installeret"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:79
@@ -250,7 +284,7 @@ msgstr ""
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:14
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:16
 msgid "${DYNAMIC_CONTENT}"
-msgstr ""
+msgstr "${DYNAMIC_CONTENT}"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:17
 msgid "Extensions management"
@@ -258,27 +292,27 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:21
 msgid "General actions"
-msgstr ""
+msgstr "Generelle handlinger"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "genopfrisk alle"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr ""
+msgstr "installér dokumentation"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:30
 msgid "rebuild catalog"
-msgstr ""
+msgstr "genopbyg katalog"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:32
 msgid "disable quota subsystem"
-msgstr ""
+msgstr "slå kvota-delsystem fra"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:35
 msgid "enable quota subsystem"
-msgstr ""
+msgstr "slå kvota-delsystem fra"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:38
 msgid "purge old versions"
@@ -286,7 +320,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:40
 msgid "upgrade content"
-msgstr ""
+msgstr "opgradér indhold"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:51
 msgid "Available extensions"
@@ -295,44 +329,49 @@ msgstr ""
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:83
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:94
 msgid "refresh"
-msgstr ""
+msgstr "genopfrisk"
 
 #: Products.Silva:/File/content.py:152
 msgid "download"
 msgstr "Hent ned"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
-msgstr ""
+msgstr "Ugyldigt beregnet identifikator."
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
-msgstr ""
+msgstr "Duplikeret id. Angiv venligst et eksplicit id."
 
 #: Products.Silva:/File/service.py:100
 msgid "Convert all currently stored file to the current set storage"
 msgstr ""
+"Konverter alle filer som aktuelt er lagrede til det aktuelt angivne lager"
 
 #: Products.Silva:/File/service.py:103
 msgid "Convert all files"
-msgstr ""
+msgstr "Konverter alle filer"
 
 #: Products.Silva:/File/service.py:115
 msgid ""
 "Storage for Silva Files and Images converted. Check the log for more details."
 msgstr ""
+"Lager for Silva-filer og -billeder konverteret. Tjek loggen for flere "
+"detaljer."
 
 #: Products.Silva:/File/service.py:80
 msgid "Configure file storage"
-msgstr ""
+msgstr "Konfigurer fillagring"
 
 #: Products.Silva:/File/service.py:88
 msgid "Select storage"
-msgstr ""
+msgstr "Vælg lager"
 
 #: Products.Silva:/File/service.py:99
 msgid "Convert stored files"
-msgstr ""
+msgstr "Konverter lagrede filer"
 
 #: Products.Silva:/File/smi.py:24
 msgid "File"
@@ -347,7 +386,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -390,6 +430,16 @@ msgid ""
 "       screen.\n"
 "    "
 msgstr ""
+"Præsentationen af informationen inden for en\n"
+"       publikation er struktureret med mapper. Det bestemmer det\n"
+"        visuelle hierarki som en besøgende ser. Mapper på topniveauet\n"
+"       definerer sektioner for en publikation, undermapper definerer "
+"kapitler,\n"
+"       etc. Bemærk at foldere, i modsætning til publikationer, er "
+"transparente,\n"
+"       hvilket betyder at du kan se gennem dem i sidebjælkens trænavigation\n"
+"       og skærmen for Publicering.\n"
+"    "
 
 #: Products.Silva:/Folder/management.py:102
 msgid "You cannot add this content type in this container."
@@ -447,7 +497,8 @@ msgid ""
 "    "
 msgstr ""
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -463,8 +514,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -518,11 +571,13 @@ msgstr ""
 msgid ""
 "'${scale} is not a valid scale identifier. At least one number is required."
 msgstr ""
+"'${scale} er ikke en gyldig skaleringsidentifikator. Der kræves mindst ét "
+"tal."
 
 #. Default: ""
 #: Products.Silva:/Image/content.py:232
 msgid "'${crop} is not a valid crop identifier"
-msgstr ""
+msgstr "'${crop} er ikke en gyldig beskæringsidentifikator"
 
 #. Default: ""
 #: Products.Silva:/Image/content.py:257
@@ -531,7 +586,7 @@ msgstr ""
 
 #: Products.Silva:/Image/content.py:303
 msgid "Low resolution image in original format is not supported"
-msgstr ""
+msgstr "Billede i lav opløsning i originalt format understøttes ikke"
 
 #: Products.Silva:/Image/content.py:373
 msgid "square"
@@ -551,6 +606,9 @@ msgid ""
 "       documents, or used as viewable assets.\n"
 "    "
 msgstr ""
+"Internetgrafik (gif, jpg, png) kan overføres og indsættes i\n"
+"       dokumenter, eller anvendes som aktiver som kan vses.\n"
+"    "
 
 #: Products.Silva:/Image/smi.py:104
 msgid "Change"
@@ -569,7 +627,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -646,7 +705,7 @@ msgstr ""
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:9
 msgid "unknown"
-msgstr ""
+msgstr "ukendt"
 
 #: Products.Silva:/Indexer.py:158
 msgid "Update Silva Indexer"
@@ -657,6 +716,8 @@ msgid ""
 "An index is not editable. However, you can update the index to include "
 "recent added content."
 msgstr ""
+"Et indeks kan ikke redigeres. Dog kan du opdatere indekset til at inkludere "
+"senest tilføjet indhold."
 
 #: Products.Silva:/Indexer.py:168
 msgid "Update index"
@@ -668,7 +729,7 @@ msgstr ""
 
 #: Products.Silva:/Indexer.py:176
 msgid "Index content have been successfully updated."
-msgstr ""
+msgstr "Indeks-indhold er blevet opdateret med succes."
 
 #: Products.Silva:/Indexer.py:48
 msgid ""
@@ -683,15 +744,15 @@ msgstr ""
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:13
 msgid "Terms"
-msgstr ""
+msgstr "Vilkår"
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:17
 msgid "Links"
-msgstr ""
+msgstr "Links"
 
 #: Products.Silva:/Indexer_templates/indexerview.pt:43
 msgid "No index items listed or found."
-msgstr ""
+msgstr "Ingen indeks-elementer listes eller blev fundet."
 
 #: Products.Silva:/Link.py:100
 msgid ""
@@ -719,7 +780,7 @@ msgstr ""
 
 #: Products.Silva:/Link.py:123
 msgid "Relative link selected without target."
-msgstr ""
+msgstr "Relativt link valgt uden mål."
 
 #: Products.Silva:/Link.py:126
 msgid ""
@@ -727,7 +788,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -740,6 +802,13 @@ msgid ""
 "    within Silva.\n"
 "    "
 msgstr ""
+"Et Silva-link gør det muligt at oprette links som dukker op\n"
+"    i navigation eller en indholdsfortegnelse. Linkene kan være absolutte "
+"eller relative.\n"
+"    Absolutte links går til eksterne steder, mens relative links går til "
+"indhold\n"
+"    indeni Silva.\n"
+"    "
 
 #: Products.Silva:/Link.py:99
 msgid "URL"
@@ -781,48 +850,48 @@ msgstr ""
 
 #: Products.Silva:/Root.py:45
 msgid "Site identifier"
-msgstr ""
+msgstr "Identifikator af sted"
 
 #: Products.Silva:/Root.py:48
 msgid "Site title"
-msgstr ""
+msgstr "Titel på sted"
 
 #: Products.Silva:/Root.py:51
 msgid "Add search functionality?"
-msgstr ""
+msgstr "Tilføj funktionalitet til søgning?"
 
 #: Products.Silva:/Root.py:55
 msgid "Add user documentation?"
-msgstr ""
+msgstr "Tilføj brugerdokumentation?"
 
 #: Products.Silva:/Root.py:76
 msgid "Authenticate first to add a new site"
-msgstr ""
+msgstr "Autentificér først for at tilføje nyt sted"
 
 #: Products.Silva:/Root.py:83
 msgid "Add a new site"
-msgstr ""
+msgstr "Tilføj et nyt sted"
 
 #. Default: ""
 #: Products.Silva:/Root.py:95
 msgid "New Silva site ${identifier} added."
-msgstr ""
+msgstr "Nyt Silva-sted ${identifier} tilføjet."
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:16
 msgid "Welcome to Silva ${version}"
-msgstr ""
+msgstr "Velkommen til Silva ${version}"
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:46
 msgid "Add a new Silva site"
-msgstr ""
+msgstr "Tilføj et nyt Silva-sted"
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:89
 msgid "Zope is running in development mode."
-msgstr ""
+msgstr "Zope kører i udviklingstilstand."
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:92
 msgid "Zope is running in production mode."
-msgstr ""
+msgstr "Zope kører i produktionstilstand."
 
 #: Products.Silva:/SimpleMembership.py:203
 msgid "The search input is too short. Please enter two or more characters."
@@ -830,23 +899,23 @@ msgstr ""
 
 #: Products.Silva:/SimpleMembership.py:271
 msgid "Use direct lookup?"
-msgstr ""
+msgstr "Brug direkte opslag?"
 
 #: Products.Silva:/SimpleMembership.py:272
 msgid "Disable search feature to affect a role to a user."
-msgstr ""
+msgstr "Slå søge-egenskab fra for at påvirke rolle for en bruger."
 
 #: Products.Silva:/SimpleMembership.py:279
 msgid "Configure member service"
-msgstr ""
+msgstr "Konfigurer medlemstjeneste"
 
 #: Products.Silva:/SimpleMembership.py:280
 msgid "Update member service settings."
-msgstr ""
+msgstr "Opdater indstillinger medlemstjeneste"
 
 #: Products.Silva:/SimpleMembership.py:283
 msgid "Update"
-msgstr ""
+msgstr "Opdater"
 
 #. Default: ""
 #: Products.Silva:/Version.py:164
@@ -859,11 +928,11 @@ msgstr "godkendt"
 
 #: Products.Silva:/Version.py:169
 msgid "last_closed"
-msgstr ""
+msgstr "seneste_lukket"
 
 #: Products.Silva:/Version.py:169
 msgid "unapproved"
-msgstr ""
+msgstr "ikke godkendt"
 
 #: Products.Silva:/Version.py:170
 msgid "public"
@@ -913,7 +982,7 @@ msgstr "Der er allerede en godkendt version."
 
 #: Products.Silva:/Versioning.py:121
 msgid "Cannot approve version without publication datetime."
-msgstr ""
+msgstr "Kan ikke godkende version uden datotid for publikation."
 
 #: Products.Silva:/Versioning.py:144
 msgid "This content is not approved."
@@ -924,6 +993,8 @@ msgid ""
 "Should never happen: unapproved version ${unapproved} found while approved "
 "version ${approved} exists at the same time."
 msgstr ""
+"Bør aldrig ske: ikke-godkendt version ${unapproved} fundet mens godkendt "
+"version ${approved} eksisterer på samme tid."
 
 #: Products.Silva:/Versioning.py:169
 msgid "There is no public version to close."
@@ -941,36 +1012,41 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
 
 #: Products.Silva:/Versioning.py:246
 msgid "The version is already requested for approval."
-msgstr ""
+msgstr "Der er allerede anmodet om godkendelse for denne version."
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr "En ikke godkendt version."
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr "Ingen godkendt version."
 
 #: Products.Silva:/Versioning.py:334
 msgid "Must specify publication datetime."
-msgstr ""
+msgstr "Datotid skal angives for publikation."
 
 #: Products.Silva:/Versioning.py:362
 msgid "No public version."
 msgstr "Ingen offentlig version"
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr "Ingen næste version"
 
@@ -1066,48 +1142,57 @@ msgstr ""
 msgid "Anonymous"
 msgstr "Anonym"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
 msgstr ""
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
 msgstr ""
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
 msgstr "Fremviser"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
 msgstr "Fremviser +"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
 msgstr "Fremviser ++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
 msgstr "Læser"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
 msgstr "Forfatter"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
 msgstr "Redaktør"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
 msgstr "Ansvarshavende redaktør"
 
 #: Products.Silva:/schema/silva-content.xml:32
 msgid "Title of content."
-msgstr ""
+msgstr "Titel for indhold."
 
 #: Products.Silva:/schema/silva-content.xml:35
 msgid "title"
@@ -1115,7 +1200,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:89
 msgid "a.k.a. &#8216;navigation title&#8217;."
-msgstr ""
+msgstr "alias &#8216;navigationstitel&#8217;."
 
 #: Products.Silva:/schema/silva-content.xml:92
 msgid "short title"
@@ -1123,11 +1208,11 @@ msgstr "kort titel"
 
 #: Products.Silva:/schema/silva-extra.xml:153
 msgid "description"
-msgstr ""
+msgstr "beskrivelse"
 
 #: Products.Silva:/schema/silva-extra.xml:154
 msgid "Description of content in this area."
-msgstr ""
+msgstr "Beskrivelse af indhold i dette område."
 
 #: Products.Silva:/schema/silva-extra.xml:212
 msgid "language"
@@ -1135,7 +1220,7 @@ msgstr "sprog"
 
 #: Products.Silva:/schema/silva-extra.xml:259
 msgid "Language of content in this area."
-msgstr ""
+msgstr "Sprog for indhold i dette område."
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
@@ -1151,17 +1236,17 @@ msgstr "emne"
 
 #: Products.Silva:/schema/silva-extra.xml:36
 msgid "Subject of content in this area."
-msgstr ""
+msgstr "Emne for indhold i dette område."
 
 #: Products.Silva:/schema/silva-extra.xml:378
 msgid "creation time"
-msgstr ""
+msgstr "oprettelsestidspunkt"
 
 #: Products.Silva:/schema/silva-extra.xml:379
 #: Products.Silva:/schema/silva-extra.xml:438
 #: Products.Silva:/schema/silva-extra.xml:495
 msgid "Automatically set."
-msgstr ""
+msgstr "Angiv automatisk."
 
 #: Products.Silva:/schema/silva-extra.xml:437
 msgid "modification time"
@@ -1169,7 +1254,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:493
 msgid "creator"
-msgstr ""
+msgstr "oprettet af"
 
 #: Products.Silva:/schema/silva-extra.xml:550
 msgid "last author"
@@ -1200,6 +1285,8 @@ msgid ""
 "If this is enabled, this content (and anything it contains!) will not show "
 "up in tables of content."
 msgstr ""
+"Hvis denne er aktiveret vil dette indhold (og alt som det indholder!) ikke "
+"fremgå i indholdsfortegnelser."
 
 #: Products.Silva:/schema/silva-extra.xml:713
 msgid "hide from tables of content"
@@ -1215,7 +1302,7 @@ msgstr "nøgleord med relation til indhold."
 
 #: Products.Silva:/schema/silva-layout.xml:25
 msgid "Select skin or 'look &amp; feel' for this publication."
-msgstr ""
+msgstr "Vælg overflade eller »udseende og følelse« for denne publikation."
 
 #: Products.Silva:/schema/silva-layout.xml:27
 msgid "desktop skin"
@@ -1225,10 +1312,11 @@ msgstr ""
 msgid ""
 "Maximum space allowed for this container, including sub-containers, in MB."
 msgstr ""
+"Maksimalt plads tilladt for denne beholder, inklusive del-beholdere, i MB."
 
 #: Products.Silva:/schema/silva-quota.xml:37
 msgid "quota"
-msgstr ""
+msgstr "kvota"
 
 #: Products.Silva:/silvaxml/xmlexport.py:56
 msgid "External references"
@@ -1347,7 +1435,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1409,9 +1498,10 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
-msgstr ""
+msgstr "Ændringer er gemt."
 
 #: Products.SilvaExternalSources:/SourceAsset.py:76
 msgid "Broken or missing source."
@@ -1479,7 +1569,8 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1603,7 +1694,8 @@ msgstr ""
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
@@ -1641,12 +1733,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1663,7 +1757,8 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1724,7 +1819,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1792,19 +1888,22 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
-msgstr ""
+msgstr "vælg:"
 
 #: silva.core.interfaces:/auth.py:130
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
 msgstr ""
 
@@ -1875,10 +1974,11 @@ msgid "Definition"
 msgstr ""
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
-msgstr ""
+msgstr "Beklager, denne ${meta_type} er ikke synlig."
 
 #: silva.core.references:/widgets/__init__.py:56
 #: silva.core.references:/widgets/zeamform.py:26
@@ -1981,7 +2081,7 @@ msgstr ""
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:15
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:18
 msgid "edit content"
-msgstr ""
+msgstr "redigér indhold"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this content"
@@ -2233,7 +2333,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2513,8 +2614,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2528,7 +2629,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2586,7 +2688,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2623,7 +2726,8 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -2797,7 +2901,7 @@ msgstr ""
 #: silva.core.smi:/settings/localsite.py:27
 #: silva.core.smi:/settings/localsite.py:81
 msgid "Local site"
-msgstr ""
+msgstr "Lokalt sted"
 
 #: silva.core.smi:/settings/localsite.py:28
 msgid ""
@@ -2805,6 +2909,10 @@ msgid ""
 "site, you will be able to add local services to the publication. Those "
 "services will only affect elements inside that publication."
 msgstr ""
+"Her kan du aktivere/deaktivere et lokalt sted (eller del af et sted). Ved at "
+"lave et lokalt sted, så vil du være i stand til at føje lokale tjenester til "
+"publikationen. Disse tjenester vil kun berøre elementer inde i denne "
+"publikation."
 
 #: silva.core.smi:/settings/localsite.py:43
 msgid "Make local site"
@@ -2812,7 +2920,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/localsite.py:53
 msgid "Local site activated."
-msgstr ""
+msgstr "Lokalt sted aktiveret."
 
 #: silva.core.smi:/settings/localsite.py:62
 msgid "Remove local site"
@@ -2820,7 +2928,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/localsite.py:73
 msgid "Local site deactivated."
-msgstr ""
+msgstr "Lokalt sted deaktiveret."
 
 #: silva.core.smi:/settings/makers.py:102
 msgid "Available markers"
@@ -3041,7 +3149,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3095,7 +3204,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3127,7 +3237,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3236,7 +3347,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3423,190 +3535,23 @@ msgstr ""
 msgid "Show All Items"
 msgstr ""
 
-#~ msgid "depth"
-#~ msgstr "dybde"
-
-#~ msgid "Not connected"
-#~ msgstr "Ikke tilsluttet"
-
-#~ msgid "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
-#~ msgstr ""
-#~ "indsættelse af &#xab;${id}&#xbb; er ikke tilladt i denne type element."
-
-#~ msgid "pasted &#xab;${id}&#xbb;"
-#~ msgstr "indsat &#xab;${id}&#xbb;"
-
-#~ msgid "content"
-#~ msgstr "indhold"
-
-#~ msgid "url"
-#~ msgstr "Adresse"
-
-#~ msgid "Can not delete all versions"
-#~ msgstr "Kan ikke slette alle versioner"
-
-#~ msgid "select"
-#~ msgstr "vælg"
-
-#~ msgid "view"
-#~ msgstr "vis"
-
-#~ msgid "enter"
-#~ msgstr "retur"
-
-#~ msgid "content is published"
-#~ msgstr "indhold er udgivet"
-
-#~ msgid "cancel operation: alt-c"
-#~ msgstr "afbryd opgave: alt-c"
-
-#~ msgid "cancel"
-#~ msgstr "afbryd"
-
-#~ msgid "Add screen"
-#~ msgstr "Tilføj skærm"
-
-#~ msgid "Other screens"
-#~ msgstr "Andre skærme"
-
-#~ msgid "return"
-#~ msgstr "returnering"
-
-#~ msgid "Notes"
-#~ msgstr "Kommentarer"
-
-#~ msgid "Tip for Mozilla/Netscape users"
-#~ msgstr "Fif for Mozilla/Netscape brugere"
-
-#~ msgid "Silva documentation"
-#~ msgstr "Silva dokumentation"
-
-#~ msgid "Contact"
-#~ msgstr "Kontaktperson"
-
-#~ msgid "Feedback"
-#~ msgstr "Tilbagemelding"
-
-#~ msgid "see below"
-#~ msgstr "se nedenfor"
-
-#~ msgid "General"
-#~ msgstr "Alment"
-
-#~ msgid "Silva help"
-#~ msgstr "Silva hjælp"
-
-#~ msgid "back"
-#~ msgstr "tilbage"
-
-#~ msgid "Silva info: alt-s"
-#~ msgstr "Silva info: alt-s"
-
-#~ msgid "Thanks to...."
-#~ msgstr "Tak til...."
-
-#~ msgid ""
-#~ "The people at ${eth_zuerich} for their feedback, contributions, and "
-#~ "innovation."
-#~ msgstr ""
-#~ "Folk hos ${eth_zuerich} for deres tilbagemeldinger, bidrag og ideer."
-
-#~ msgid ""
-#~ "Jan Smith at ${ozzope} for advice, hosting the documentation wiki, and "
-#~ "her tutorials."
-#~ msgstr ""
-#~ "Jan Smith hos ${ozzope} for råd, drift af dokumentationswikien og hendes "
-#~ "prøveøvelser."
-
-#~ msgid "Credits"
-#~ msgstr "Bidragydere"
-
-#~ msgid "Infrae Silva crew"
-#~ msgstr "Infrae Silva hold"
-
-#~ msgid "External developers"
-#~ msgstr "Eksterne udviklere"
-
-#~ msgid "Request processed"
-#~ msgstr "Anmodning behandlet"
-
-#~ msgid "File uploaded."
-#~ msgstr "Fil uploaded."
-
-#~ msgid "message"
-#~ msgstr "meddelelse"
-
-#~ msgid "Empty or invalid file."
-#~ msgstr "Tomm eller ugyldig fil."
-
-#~ msgid "save"
-#~ msgstr "gem"
-
-#~ msgid "Validation error(s)"
-#~ msgstr "Valideringsfejl"
-
-#~ msgid "Changed settings."
-#~ msgstr "Indstillingerne er ændret."
-
-#~ msgid ""
-#~ "The presentation of the information within a\n"
-#~ "       publication is structured with folders. They determine the visual\n"
-#~ "       hierarchy that a Visitor sees. Folders on the top level\n"
-#~ "       define sections of a publication, subfolders define chapters, "
-#~ "etc.\n"
-#~ "       Note that unlike publications, folders are transparent, meaning "
-#~ "you\n"
-#~ "       can see through them in the sidebar tree navigation and the "
-#~ "Publish \n"
-#~ "       screen.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Præsentationen af information i en\n"
-#~ "       publikation er struktureret vha. mapper. De afgør det synlige "
-#~ "hieraki, som den besøgende ser. Mapper på øverste nuveau definerer dele "
-#~ "af en publikation, undermapper definerer kapitler, osv.\n"
-#~ "        Bemærk at i modsætning til publikationer er mapper transparente, "
-#~ "så du\n"
-#~ "        kan se gennem dem i navigationstræet i siden og på Publicér\n"
-#~ "        skærmen.\n"
-#~ "    "
-
-#~ msgid "link type"
-#~ msgstr "link type"
-
-#~ msgid "Link url."
-#~ msgstr "Link url."
-
-#~ msgid "notes"
-#~ msgstr "kommentarer"
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
-
 #~ msgid ""
 #~ "This is a special document that automagically displays a\n"
-#~ "       table of contents. Usually it&#8217;s used as an &#8216;"
-#~ "index&#8217;\n"
-#~ "       document. In that case the parent folder shows a table of "
-#~ "contents\n"
+#~ "       table of contents. Usually it&#8217;s used as an &#8216;index&#8217;\n"
+#~ "       document. In that case the parent folder shows a table of contents\n"
 #~ "       when accessed (e.g. http://www.x.yz/silva/myFolder/)."
 #~ msgstr ""
 #~ "Dette er et særligt dokument, der automagisk viser en\n"
 #~ "       indholdsfortegnelse. Det anvendes typisk som et indeksdokument.\n"
-#~ "       Så vises den overliggende mappe som en indholdsfortegnelse, når "
-#~ "den tilgås (f.eks. http://www.x.yz/silva/myFolder/)."
+#~ "       Så vises den overliggende mappe som en indholdsfortegnelse, når den "
+#~ "tilgås (f.eks. http://www.x.yz/silva/myFolder/)."
 
 #~ msgid ""
 #~ "Any digital file can be uploaded as Silva content. \n"
-#~ "       For instance large files such as pdf docs or mpegs can be placed "
-#~ "in a\n"
+#~ "       For instance large files such as pdf docs or mpegs can be placed in "
+#~ "a\n"
 #~ "       site. File objects have metadata as well. \n"
-#~ "       <!-- Abstract base class. Depends on a _file attribute and "
-#~ "various \n"
+#~ "       <!-- Abstract base class. Depends on a _file attribute and various \n"
 #~ "       methods in the concrete subclasses. (sorry) -->\n"
 #~ "    "
 #~ msgstr ""

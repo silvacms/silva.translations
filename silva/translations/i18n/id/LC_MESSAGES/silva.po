@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: Fri Jun  1 13:13:51 2012\n"
-"PO-Revision-Date: 2008-08-30 10:10+0000\n"
+"POT-Creation-Date: 2012-06-01 13:13+0000\n"
+"PO-Revision-Date: 2012-06-01 11:20+0000\n"
 "Last-Translator: Muhammad Zulfikar <muhzulfikar@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
-"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-11-13 12:21+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2012-06-01 12:12+0000\n"
+"X-Generator: Launchpad (build 15342)\n"
+"Language: id\n"
 
-#: Products.Silva:/Asset.py:135 Products.Silva:/GhostFolder.py:377
-#: Products.Silva:/Image/smi.py:53 silva.core.editor:/service.py:234
+#: Products.Silva:/Asset.py:135
+#: Products.Silva:/GhostFolder.py:377
+#: Products.Silva:/Image/smi.py:53
+#: silva.core.editor:/service.py:234
 #: silva.core.smi:/content/__init__.py:26
 #: silva.core.smi:/content/__init__.py:34
 msgid "Edit"
@@ -206,31 +208,31 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:318
 msgid "Reindex"
-msgstr ""
+msgstr "Susun Kembali"
 
 #: Products.Silva:/ExtensionService.py:327
 msgid "Invalid path"
-msgstr ""
+msgstr "Lokasi tidak benar"
 
 #: Products.Silva:/ExtensionService.py:329
 msgid "Partial catalog refreshed"
-msgstr ""
+msgstr "Katalog Terpisah Telah Disegarkan"
 
 #: Products.Silva:/ExtensionService.py:340
 msgid "Silva and all installed extensions have been refreshed"
-msgstr ""
+msgstr "Silva dan semua pendukung yang terpasang telah disegarkan"
 
 #: Products.Silva:/ExtensionService.py:344
 msgid "Catalog refreshed"
-msgstr ""
+msgstr "Katalog Telah Disegarkan"
 
 #: Products.Silva:/ExtensionService.py:348
 msgid "Quota sub-system disabled"
-msgstr ""
+msgstr "Kuota Sub-system Dimatikan"
 
 #: Products.Silva:/ExtensionService.py:352
 msgid "Quota sub-system enabled"
-msgstr ""
+msgstr "Kuota Sub-system dihidupkan"
 
 #: Products.Silva:/ExtensionService.py:357
 msgid "Old version of documents purged"
@@ -242,7 +244,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:368
 msgid "Documentation installed"
-msgstr ""
+msgstr "Dokumentasi telah dipasang"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:79
@@ -262,15 +264,15 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "Segarkan semua"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr ""
+msgstr "Pasang Dokumentasi"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:30
 msgid "rebuild catalog"
-msgstr ""
+msgstr "bangun ulang katalog"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:32
 msgid "disable quota subsystem"
@@ -295,17 +297,19 @@ msgstr ""
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:83
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:94
 msgid "refresh"
-msgstr ""
+msgstr "segarkan"
 
 #: Products.Silva:/File/content.py:152
 msgid "download"
 msgstr "unduh"
 
-#: Products.Silva:/File/content.py:54 Products.Silva:/Image/content.py:72
+#: Products.Silva:/File/content.py:54
+#: Products.Silva:/Image/content.py:72
 msgid "Invalid computed identifier."
 msgstr ""
 
-#: Products.Silva:/File/content.py:58 Products.Silva:/Image/content.py:76
+#: Products.Silva:/File/content.py:58
+#: Products.Silva:/Image/content.py:76
 msgid "Duplicate id. Please provide an explicit id."
 msgstr ""
 
@@ -347,7 +351,8 @@ msgstr ""
 msgid "Edit file content"
 msgstr ""
 
-#: Products.Silva:/File/smi.py:60 silva.core.smi:/content/xml/import.py:61
+#: Products.Silva:/File/smi.py:60
+#: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 
@@ -449,8 +454,8 @@ msgstr ""
 "Ghosts adalah dokumen khusus yang berfungsi sebagai\n"
 "       tempat item dari lokasi lain (seperti konsep alias, symbolic link, "
 "shortcut).\n"
-"       Tidak seperti hyperlink, yang akan membawa pengunjung ke lokasi "
-"lain, \n"
+"       Tidak seperti hyperlink, yang akan membawa pengunjung ke lokasi lain, "
+"\n"
 "       ghost object membuat pengunjung tetap berada pada lokasi publikasi "
 "yang\n"
 "       sama, dan menampilkan item-item dari konten yang di-ghost. \n"
@@ -458,7 +463,8 @@ msgstr ""
 "stylesheet).\n"
 "    "
 
-#: Products.Silva:/Ghost.py:253 Products.Silva:/GhostFolder.py:320
+#: Products.Silva:/Ghost.py:253
+#: Products.Silva:/GhostFolder.py:320
 msgid "Target"
 msgstr ""
 
@@ -474,8 +480,10 @@ msgstr ""
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
 
-#: Products.Silva:/Ghost.py:91 Products.Silva:/Ghost.py:101
-#: Products.Silva:/Ghost.py:111 Products.Silva:/Ghost.py:180
+#: Products.Silva:/Ghost.py:91
+#: Products.Silva:/Ghost.py:101
+#: Products.Silva:/Ghost.py:111
+#: Products.Silva:/Ghost.py:180
 #: Products.Silva:/Ghost.py:190
 msgid "Ghost target is broken"
 msgstr ""
@@ -584,7 +592,8 @@ msgid "Click the Upload button to select an image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:58
-msgid "Click the Upload button to replace the current image with a new image."
+msgid ""
+"Click the Upload button to replace the current image with a new image."
 msgstr ""
 
 #: Products.Silva:/Image/smi.py:71
@@ -742,7 +751,8 @@ msgid ""
 "put a checkmark in the relative link field."
 msgstr ""
 
-#: Products.Silva:/Link.py:138 Products.Silva:/Link.py:148
+#: Products.Silva:/Link.py:138
+#: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
 msgstr ""
 
@@ -958,7 +968,8 @@ msgstr ""
 msgid "There is no version to create a version form."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:239 Products.Silva:/Versioning.py:263
+#: Products.Silva:/Versioning.py:239
+#: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
 msgstr ""
@@ -967,15 +978,18 @@ msgstr ""
 msgid "The version is already requested for approval."
 msgstr "Versi ini sudah dimintakan persetujuan."
 
-#: Products.Silva:/Versioning.py:270 Products.Silva:/Versioning.py:294
+#: Products.Silva:/Versioning.py:270
+#: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
 msgstr ""
 
-#: Products.Silva:/Versioning.py:307 Products.Silva:/Versioning.py:319
+#: Products.Silva:/Versioning.py:307
+#: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
 msgstr "Tidak terdapat versi yang tidak disetujui."
 
-#: Products.Silva:/Versioning.py:331 Products.Silva:/Versioning.py:348
+#: Products.Silva:/Versioning.py:331
+#: Products.Silva:/Versioning.py:348
 msgid "No approved version."
 msgstr "Tidak ada versi yang disetujui."
 
@@ -987,7 +1001,8 @@ msgstr "Tetapkan waktu publikasi."
 msgid "No public version."
 msgstr "Tidak ada versi publik."
 
-#: Products.Silva:/Versioning.py:385 Products.Silva:/Versioning.py:401
+#: Products.Silva:/Versioning.py:385
+#: Products.Silva:/Versioning.py:401
 msgid "No next version."
 msgstr "Tidak ada versi berikutnya."
 
@@ -1083,42 +1098,51 @@ msgstr "peran publik di silva"
 msgid "Anonymous"
 msgstr "Anonim"
 
-#: Products.Silva:/roleinfo.py:30 silva.core.interfaces:/auth.py:121
+#: Products.Silva:/roleinfo.py:30
+#: silva.core.interfaces:/auth.py:121
 msgid "Authenticated"
 msgstr "telah lolos autentikasi"
 
-#: Products.Silva:/roleinfo.py:31 silva.core.interfaces:/auth.py:106
+#: Products.Silva:/roleinfo.py:31
+#: silva.core.interfaces:/auth.py:106
 msgid "Manager"
 msgstr "Pengelola"
 
-#: Products.Silva:/roleinfo.py:32 silva.core.interfaces:/auth.py:99
+#: Products.Silva:/roleinfo.py:32
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer"
 msgstr "Penilik"
 
-#: Products.Silva:/roleinfo.py:33 silva.core.interfaces:/auth.py:100
+#: Products.Silva:/roleinfo.py:33
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer +"
 msgstr "Penilik +"
 
-#: Products.Silva:/roleinfo.py:34 silva.core.interfaces:/auth.py:101
+#: Products.Silva:/roleinfo.py:34
+#: silva.core.interfaces:/auth.py:101
 msgid "Viewer ++"
 msgstr "Penilik ++"
 
-#: Products.Silva:/roleinfo.py:35 silva.core.interfaces:/auth.py:102
+#: Products.Silva:/roleinfo.py:35
+#: silva.core.interfaces:/auth.py:102
 msgid "Reader"
 msgstr "Pembaca"
 
-#: Products.Silva:/roleinfo.py:36 silva.core.interfaces:/auth.py:103
+#: Products.Silva:/roleinfo.py:36
+#: silva.core.interfaces:/auth.py:103
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/configuration.py:88
 #: silva.ui:/rest/container/configuration.py:164
 msgid "Author"
 msgstr "Pengarang"
 
-#: Products.Silva:/roleinfo.py:37 silva.core.interfaces:/auth.py:104
+#: Products.Silva:/roleinfo.py:37
+#: silva.core.interfaces:/auth.py:104
 msgid "Editor"
 msgstr "Penyunting"
 
-#: Products.Silva:/roleinfo.py:38 silva.core.interfaces:/auth.py:105
+#: Products.Silva:/roleinfo.py:38
+#: silva.core.interfaces:/auth.py:105
 msgid "ChiefEditor"
 msgstr "Penyunting Kepala"
 
@@ -1216,7 +1240,8 @@ msgstr "email kontak"
 msgid ""
 "If this is enabled, this content (and anything it contains!) will not show "
 "up in tables of content."
-msgstr "Jika di non-aktifkan, konten ini tidak akan tampil didalam daftar isi."
+msgstr ""
+"Jika di non-aktifkan, konten ini tidak akan tampil didalam daftar isi."
 
 #: Products.Silva:/schema/silva-extra.xml:713
 msgid "hide from tables of content"
@@ -1242,6 +1267,8 @@ msgstr ""
 msgid ""
 "Maximum space allowed for this container, including sub-containers, in MB."
 msgstr ""
+"ruang maksimal yang diperbolehkan untuk kontainer ini, termasuk sub-"
+"kontainer, dalam MB."
 
 #: Products.Silva:/schema/silva-quota.xml:37
 msgid "quota"
@@ -1364,7 +1391,8 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:335
-#: silva.core.editor:/service.py:243 silva.core.smi:/settings/makers.py:172
+#: silva.core.editor:/service.py:243
+#: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
 
@@ -1426,7 +1454,8 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:231
-#: silva.core.editor:/text.py:105 zeam.form.silva:/actions.py:51
+#: silva.core.editor:/text.py:105
+#: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
 
@@ -1496,7 +1525,8 @@ msgstr ""
 msgid "Modify email notification settings"
 msgstr ""
 
-#: silva.app.subscriptions:/service.py:320 silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/service.py:320
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1620,7 +1650,8 @@ msgstr ""
 msgid "Invalid subscription confirmation."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:166 silva.app.subscriptions:/views.py:187
+#: silva.app.subscriptions:/views.py:166
+#: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
 msgstr ""
 
@@ -1658,12 +1689,14 @@ msgid ""
 "whenever an update occurs. You can cancel your notifications at anytime."
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:27 silva.core.smi:/userinfo.py:53
+#: silva.app.subscriptions:/views.py:27
+#: silva.core.smi:/userinfo.py:53
 msgid "Email address"
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
-msgid "Enter your email address where you would like to receive notifications."
+msgid ""
+"Enter your email address where you would like to receive notifications."
 msgstr ""
 
 #: silva.app.subscriptions:/views.py:33
@@ -1680,7 +1713,8 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
-#: silva.app.subscriptions:/views.py:70 silva.app.subscriptions:/views.py:98
+#: silva.app.subscriptions:/views.py:70
+#: silva.app.subscriptions:/views.py:98
 msgid "You cannot subscribe to this content."
 msgstr ""
 
@@ -1741,7 +1775,8 @@ msgstr ""
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203 silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:203
+#: silva.core.editor:/service.py:286
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
@@ -1809,7 +1844,8 @@ msgstr ""
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111 silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:111
+#: silva.core.interfaces:/auth.py:118
 msgid "select:"
 msgstr ""
 
@@ -1817,11 +1853,13 @@ msgstr ""
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134 silva.pas.base:/smi.py:196
+#: silva.core.interfaces:/auth.py:134
+#: silva.pas.base:/smi.py:196
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139 silva.pas.base:/smi.py:200
+#: silva.core.interfaces:/auth.py:139
+#: silva.pas.base:/smi.py:200
 msgid "role defined here"
 msgstr ""
 
@@ -1892,7 +1930,8 @@ msgid "Definition"
 msgstr ""
 
 #. Default: ""
-#: silva.core.layout:/default.py:46 silva.core.layout:/default.py:62
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:62
 #: silva.core.layout:/default.py:82
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr "${meta_type} tidak dapat ditampilkan."
@@ -2250,7 +2289,8 @@ msgstr ""
 msgid "Reverted to previous version."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:129 silva.core.smi:/view.py:17
+#: silva.core.smi:/content/publish/status.py:129
+#: silva.core.smi:/view.py:17
 msgid "View"
 msgstr ""
 
@@ -2530,8 +2570,8 @@ msgstr ""
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
 "You cannot complete this operation since some content on your site have "
-"references to this one: <a target=\"_blank\" href=\"${DYNAMIC_CONTENT}\">"
-"${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
+"references to this one: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
@@ -2545,7 +2585,8 @@ msgstr ""
 msgid "Those contents are:"
 msgstr ""
 
-#: silva.core.smi:/preview.py:49 silva.ui:/rest/container/configuration.py:98
+#: silva.core.smi:/preview.py:49
+#: silva.ui:/rest/container/configuration.py:98
 #: silva.ui:/rest/container/configuration.py:173
 msgid "Preview"
 msgstr ""
@@ -2603,7 +2644,8 @@ msgid ""
 "\"${username}\": ${reason}."
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:181 silva.pas.base:/smi.py:247
+#: silva.core.smi:/settings/access.py:181
+#: silva.pas.base:/smi.py:247
 msgid "Revoke role"
 msgstr ""
 
@@ -2640,7 +2682,8 @@ msgstr ""
 msgid "User roles"
 msgstr ""
 
-#: silva.core.smi:/settings/access.py:238 silva.pas.base:/smi.py:290
+#: silva.core.smi:/settings/access.py:238
+#: silva.pas.base:/smi.py:290
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -3058,7 +3101,8 @@ msgstr ""
 msgid "search for groups to assign roles: alt-g"
 msgstr ""
 
-#: silva.pas.base:/smi.py:114 silva.pas.base:/smi.py:194
+#: silva.pas.base:/smi.py:114
+#: silva.pas.base:/smi.py:194
 msgid "group name"
 msgstr ""
 
@@ -3112,7 +3156,8 @@ msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:235 silva.pas.base:/smi.py:273
+#: silva.pas.base:/smi.py:235
+#: silva.pas.base:/smi.py:273
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
@@ -3144,7 +3189,8 @@ msgstr ""
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:33 silva.pas.base:/smi.py:73
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:73
 msgid "Login"
 msgstr ""
 
@@ -3253,7 +3299,8 @@ msgstr ""
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:44
-msgid "${count} contents could not be found (they probably have been deleted)"
+msgid ""
+"${count} contents could not be found (they probably have been deleted)"
 msgstr ""
 
 #. Default: ""
@@ -3439,481 +3486,3 @@ msgstr ""
 #: zeam.form.silva:/widgets/others_templates/comboboxfieldwidget.cpt:5
 msgid "Show All Items"
 msgstr ""
-
-#~ msgid "depth"
-#~ msgstr "dalam"
-
-#~ msgid "Not connected"
-#~ msgstr "Tidak tersambung"
-
-#~ msgid "pasting &#xab;${id}&#xbb; is not allowed in this type of container"
-#~ msgstr ""
-#~ "memasukkan &#xab;${id}&#xbb; tidak diperbolehkan dalam kontainer ini"
-
-#~ msgid "pasted &#xab;${id}&#xbb;"
-#~ msgstr "memasukkan &#xab;${id}&#xbb;"
-
-#~ msgid "first item"
-#~ msgstr "item pertama"
-
-#~ msgid "'${crop}' defines an impossible cropping"
-#~ msgstr "'${crop}' menyatakan impossible cropping"
-
-#~ msgid "url"
-#~ msgstr "url"
-
-#~ msgid "No approved version to unapprove."
-#~ msgstr "Tidak terdapat versi yang telah disetujui untuk dibatalkan."
-
-#~ msgid "No public version to close."
-#~ msgstr "Tidak terdapat versi publik untuk ditutup."
-
-#~ msgid "There is no unapproved version to request approval for."
-#~ msgstr ""
-#~ "Tidak terdapat versi yang tidak disetujui untuk dimintakan persetujuan."
-
-#~ msgid "The version is not requested for approval."
-#~ msgstr "Versi ini tidak dimintakan persetujuan."
-
-#~ msgid "There is no version to add messages for."
-#~ msgstr "Tidak ada versi untuk memasukkan pesan."
-
-#~ msgid "There is an approved version already; unapprove it. (${id})"
-#~ msgstr "Terdapat versi yang disetujui; batalkan dulu. (${id})"
-
-#~ msgid "There already is an unapproved version (${id})."
-#~ msgstr "Terdapat versi yang tidak disetujui (${id})."
-
-#~ msgid "The public version has that id already (${id})."
-#~ msgstr "ID sudah dipakai untuk versi publik (${id})."
-
-#~ msgid "A previous version has that id already (${id})."
-#~ msgstr "ID sudah dipakai versi sebelumnya (${id})."
-
-#~ msgid "Can not delete all versions"
-#~ msgstr "Versi lama tidak bisa dihapus"
-
-#~ msgid "no such version ${version}"
-#~ msgstr "bukan versinya ${version}"
-
-#~ msgid "No unapproved version available"
-#~ msgstr "Tidak terdapat versi yang tidak disetujui"
-
-#~ msgid "select"
-#~ msgstr "pilih"
-
-#~ msgid "view"
-#~ msgstr "tampilkan"
-
-#~ msgid "enter"
-#~ msgstr "enter"
-
-#~ msgid "content is published"
-#~ msgstr "konten sudah di-publish"
-
-#~ msgid "cancel operation: alt-c"
-#~ msgstr "tunda operasi: alt-c"
-
-#~ msgid "Default Document Policy"
-#~ msgstr "Default Pengaturan Dokumen"
-
-#~ msgid "Listing body"
-#~ msgstr "Daftar body"
-
-#~ msgid ""
-#~ "${listing_body}${br} p &nbsp; Select list for position number${br} m "
-#~ "&nbsp; move"
-#~ msgstr ""
-#~ "${listing_body}${br} p &nbsp; Pilih daftar untuk posisi angka${br} m "
-#~ "&nbsp; pindah"
-
-#~ msgid "Listing footer"
-#~ msgstr "Daftra catatan kaki"
-
-#~ msgid "Preview screen"
-#~ msgstr "Tampilan preview"
-
-#~ msgid "Publish screen (folder)"
-#~ msgstr "Tampilan publish (folder)"
-
-#~ msgid "Add screen"
-#~ msgstr "Tambah screen"
-
-#~ msgid "c &nbsp; cancel${br} a &nbsp; add${br} e &nbsp; add and edit/enter"
-#~ msgstr ""
-#~ "c &nbsp; batal${br} a &nbsp; tambah${br} e &nbsp; tambah dan rubah/"
-#~ "masukkan"
-
-#~ msgid "Editor screen"
-#~ msgstr "Layar editor"
-
-#~ msgid "Kupu editor"
-#~ msgstr "Kupu Editor"
-
-#~ msgid "Forms editor"
-#~ msgstr "Form editor"
-
-#~ msgid "Other screens"
-#~ msgstr "Screen lainnya"
-
-#~ msgid "return"
-#~ msgstr "kembali"
-
-#~ msgid "access key: alt-r"
-#~ msgstr "access key: alt-r"
-
-#~ msgid ""
-#~ "The Properties, Access, and Publish screens as well as their subscreens "
-#~ "(such as Lookup, Import, and Export) have access keys for most buttons. "
-#~ "Usually the first letter of the button is the access key. You can always "
-#~ "hover over the button to see the tooltip."
-#~ msgstr ""
-#~ "Properties, Access, dan Publish screens termasuk juga Lookup, Import, and "
-#~ "Export memiliki access keys untuk semua tombol. Biasanya huruf pertama "
-#~ "dari nama tombol itu merupakan access key. Keterangan untuk setiap tombol "
-#~ "dapat dilihat dengan meletakkan pointer pada tombol tersebut."
-
-#~ msgid ""
-#~ "If there are two buttons with the same name, the access key for the "
-#~ "second is usually the first letter of the second word (e.g. for &#8220;"
-#~ "get image reference&#8221; and &#8220;get link reference&#8221;, the "
-#~ "access keys are &#8216;g&#8217; and &#8216;l&#8217;). Sometimes there are "
-#~ "multiples of the same button, in which case only the first has an access "
-#~ "key."
-#~ msgstr ""
-#~ "Untuk tombol dengan nama yang sama, biasanya huruf pertama dari kata yang "
-#~ "kedua menjadi access key (contoh untuk &#8220;get image reference&#8221; "
-#~ "dan &#8220;get link reference&#8221;, access keys yang dipakai adalah "
-#~ "&#8216;g&#8217; and &#8216;l&#8217;). Bila terdapat lebih dari dua nama "
-#~ "yang sama, hanya yang pertama-lah yang memakai access key."
-
-#~ msgid "Notes"
-#~ msgstr "Catatan"
-
-#~ msgid ""
-#~ "Some access keys can conflict with browser menus. However the key works "
-#~ "if the focus is in the page (a form element is active or just click in "
-#~ "the page)."
-#~ msgstr ""
-#~ "Beberapa access akan sama dengan menu di browser. Hal ini tidak masalah "
-#~ "selama yang aktif adalah halaman web-nya (bila tidak yakin klik pada "
-#~ "halaman web yang dibuka)."
-
-#~ msgid "Silva edit"
-#~ msgstr "Rubah silva"
-
-#~ msgid "manage..."
-#~ msgstr "mengatur..."
-
-#~ msgid "Thanks to ${eth_zuerich} for this trick."
-#~ msgstr "Terima Kasih kepada ${eth_zuerich} untuk trik ini."
-
-#~ msgid "Tip for Mozilla/Netscape users"
-#~ msgstr "Tip untuk pengguna Mozilla atau Netscape"
-
-#~ msgid "Silva documentation"
-#~ msgstr "Dokumentasi Silva"
-
-#~ msgid ""
-#~ "The technical documentation is included in the Silva product in &#8216;"
-#~ "plain&#8217; structured text, gracefully degraded for text mode (no "
-#~ "links, unicode entities, etc.)."
-#~ msgstr ""
-#~ "Dokumentasi teknis ada didalam Silva pada &#8216;plain&#8217; teks "
-#~ "terstruktur, modus teks (tanpa links, unicode entities, dll.)."
-
-#~ msgid "Contact"
-#~ msgstr "Kontak"
-
-#~ msgid "Feedback"
-#~ msgstr "Umpan balik"
-
-#~ msgid "Silva info: alt-i"
-#~ msgstr "Info seputar Silva: alt-i"
-
-#~ msgid "Silva access keys"
-#~ msgstr "Kunci akses Silva"
-
-#~ msgid ""
-#~ "The access key on your machine may be &#8216;alt&#8217;. On a Mac "
-#~ "it&#8217;s &#8216;ctrl&#8217;."
-#~ msgstr ""
-#~ "Kunci akses ke mesin ini adalah &#8216;alt&#8217;. Untuk Mac it&#8217;s "
-#~ "&#8216;ctrl&#8217;."
-
-#~ msgid ""
-#~ "Hover over the link or button and a tooltip will popup with the access "
-#~ "key."
-#~ msgstr ""
-#~ "Menu untuk link atau button juga tooltip akan tampil dengan kunci akses."
-
-#~ msgid "Save time, energy, and wrists by keying to your destination."
-#~ msgstr "Menghemat waktu dan tenaga dengan mengkodekan tujuan anda."
-
-#~ msgid "see below"
-#~ msgstr "lihat dibawah"
-
-#~ msgid "Global keys that are always available"
-#~ msgstr "Kunci global selalu tersedia"
-
-#~ msgid "The following access keys are available in every Silva screen."
-#~ msgstr "Kunci akses berikut selalu tersedia di tiap layar dari Silva"
-
-#~ msgid "General"
-#~ msgstr "Hal umum"
-
-#~ msgid "Changing screens with the tabs"
-#~ msgstr "Mengganti layar menggunakan tab"
-
-#~ msgid "Footer page info row"
-#~ msgstr "Baris catatan kaki halaman info"
-
-#~ msgid "Footer user row"
-#~ msgstr "Baris catatan kaki pengguna"
-
-#~ msgid "Silva help"
-#~ msgstr "Bantuan untuk memakai Silva"
-
-#~ msgid "Contents screen (folder)"
-#~ msgstr "Layar konten (folder)"
-
-#~ msgid "Listing header"
-#~ msgstr "Listing header"
-
-#~ msgid "access key: alt-b"
-#~ msgstr "kunci akses: alt-b"
-
-#~ msgid "back"
-#~ msgstr "kembali"
-
-#~ msgid "Silva info: alt-s"
-#~ msgstr "info tentang Silva: alt-s"
-
-#~ msgid "Silva Reference"
-#~ msgstr "Referensi"
-
-#~ msgid "Thanks to...."
-#~ msgstr "Terima kasih untuk...."
-
-#~ msgid ""
-#~ "The people at ${eth_zuerich} for their feedback, contributions, and "
-#~ "innovation."
-#~ msgstr ""
-#~ "Teman-teman di ${eth_zuerich} untuk semua feedback, kontribusi, dan "
-#~ "idenya."
-
-#~ msgid ""
-#~ "Jan Smith at ${ozzope} for advice, hosting the documentation wiki, and "
-#~ "her tutorials."
-#~ msgstr ""
-#~ "Jan Smith di ${ozzope} untuk saran, mengelola documentation wiki, dan "
-#~ "tutorial."
-
-#~ msgid ""
-#~ "Many thanks go to Hans Verster at the ${eur} for his vision and support."
-#~ msgstr ""
-#~ "Terima kasih untuk Hans Verster di ${eur} untuk visi dan dukungan yang "
-#~ "diberikan."
-
-#~ msgid "Silva site"
-#~ msgstr "situs Silva"
-
-#~ msgid "${Silva} &#8211; independent content management"
-#~ msgstr "${Silva} &#8211; independent content management"
-
-#~ msgid "Credits"
-#~ msgstr "Para Kontributor"
-
-#~ msgid "Infrae Silva crew"
-#~ msgstr "anggota tim Infrae Silva"
-
-#~ msgid "Silva alumni"
-#~ msgstr "alumni Silva"
-
-#~ msgid "External developers"
-#~ msgstr "programer luar"
-
-#~ msgid "Request processed"
-#~ msgstr "Permintaan yang telah diproses"
-
-#~ msgid "Return to where you came from..."
-#~ msgstr "Kembali keasal..."
-
-#~ msgid "up to top contents of publication"
-#~ msgstr "naik ke konten paling atas"
-
-#~ msgid "up to top of publication"
-#~ msgstr "naik ke bagian atas publikasi"
-
-#~ msgid "message"
-#~ msgstr "pesan"
-
-#~ msgid "Empty or invalid file."
-#~ msgstr "Kerusakan pada berkas."
-
-#~ msgid "Validation error(s)"
-#~ msgstr "Validasi kesalahan"
-
-#~ msgid "Changed settings."
-#~ msgstr "Ganti pengaturan."
-
-#~ msgid ""
-#~ "The presentation of the information within a\n"
-#~ "       publication is structured with folders. They determine the visual\n"
-#~ "       hierarchy that a Visitor sees. Folders on the top level\n"
-#~ "       define sections of a publication, subfolders define chapters, "
-#~ "etc.\n"
-#~ "       Note that unlike publications, folders are transparent, meaning "
-#~ "you\n"
-#~ "       can see through them in the sidebar tree navigation and the "
-#~ "Publish \n"
-#~ "       screen.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Tampilan informasi yang dipublikasikan diatur dalam folder-folder. \n"
-#~ "       Hal ini tampak sebagai hirarki visual dari sisi pengunjung. \n"
-#~ "       Folder paling atas mewakili sections, subfolder mewakili chapter, "
-#~ "dst. \n"
-#~ "       Folders bersifat transparan transparent, jadi bisa dilihat pada "
-#~ "sidebar tree\n"
-#~ "       dan pada publish screen.\n"
-#~ "    "
-
-#~ msgid ""
-#~ "Ghost Folders are similar to Ghosts, but instead of being a \n"
-#~ "       placeholder for a document, they create placeholders and/or copies "
-#~ "of all \n"
-#~ "       the contents of the &#8216;original&#8217; folder. The advantage "
-#~ "of Ghost \n"
-#~ "       Folders is the contents stay in sync with the original, by manual "
-#~ "or \n"
-#~ "       automatic resyncing. Note that when a folder is\n"
-#~ "       ghosted, assets &#8211; such as Images and Files &#8211; are "
-#~ "copied\n"
-#~ "       (physically duplicated) while documents are ghosted."
-#~ msgstr ""
-#~ "Ghost Folder mirip dengan Ghost, semua konten didalam ghost folder adalah "
-#~ "kopi\n"
-#~ "       dari semua konten didalam &#8216;original&#8217; folder. "
-#~ "Keuntungan\n"
-#~ "       menggunakan Ghost Folder adalah konten tetap disinkronkan dengan "
-#~ "original\n"
-#~ "       folder, secara manual maupun otomatis. Ketika sebuah folder di-"
-#~ "ghost, \n"
-#~ "       assets &#8211; seperti gambar-gambar dan semua berkas &#8211; "
-#~ "akan \n"
-#~ "       benar-benar dikopi dalam arti secara fisik."
-
-#~ msgid ""
-#~ "Web graphics (gif, jpg, png) can be uploaded and inserted in \n"
-#~ "       documents, or used as viewable assets.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Format gambar .gif, .jpg, dan .png dapat diupload dalam dokumen \n"
-#~ "       atau digunakan sebagai viewable assets.\n"
-#~ "    "
-
-#~ msgid ""
-#~ "Indexes can be created that function like an index in the \n"
-#~ "       back of a book. References must first be marked by placing index \n"
-#~ "       codes in text (these codes will also export to print formats). \n"
-#~ "       Indexers cascade downwards, indexing all index items in the "
-#~ "current \n"
-#~ "       and underlying folders and publications (note that it only "
-#~ "indexes \n"
-#~ "       documents that are published).\n"
-#~ "    "
-#~ msgstr ""
-#~ "Indeks dapat dibuat seperti halnya indeks di halamn belakang sebuah "
-#~ "buku.\n"
-#~ "       Pertama letakkan tanda pada teks (tanda ini juga dapat dieksport "
-#~ "menjadi\n"
-#~ "       format cetak). Indexer akan melakukan pencarian berdasar tanda "
-#~ "yang\n"
-#~ "       diberikan tadi di semua item didalam folder dan publication "
-#~ "(catatan: indeks\n"
-#~ "       hanya dilakukan pada dokumen yang sudah dipublish).\n"
-#~ "    "
-
-#~ msgid ""
-#~ "A Silva Link makes it possible to include links to external\n"
-#~ "       sites &#8211; outside of Silva &#8211; in a Table of Contents. "
-#~ "The\n"
-#~ "       content of a Link is simply a hyperlink, beginning with\n"
-#~ "       &#8220;http://....&#8221;, or https, ftp, news, and mailto.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Link memungkinkan untuk menghubungkan ke website lain &#8211; diluar "
-#~ "&#8211; didalm daftar isi. Isi dari Link berupa hyperlink, dimulai dengan "
-#~ "&#8220;http://....&#8221;, atau https, ftp, news, dan mailto.\n"
-#~ "    "
-
-#~ msgid "Minimum role to access has not changed"
-#~ msgstr "Minimum role belum dirubah"
-
-#~ msgid "Minimum role to access is now set to ${role}"
-#~ msgstr "Minimum role sudah dirubah menjadi ${role}"
-
-#~ msgid "Minimum role to access is now acquired"
-#~ msgstr "Minimum role sudah diset"
-
-#~ msgid "Resource location of this content."
-#~ msgstr "Lokasi dari konten berikut."
-
-#~ msgid "Silva info on the Infrae site: alt-i"
-#~ msgstr "info mengenai Silva di website Infrae: alt-i"
-
-#~ msgid "Choose an item to be created within the folder."
-#~ msgstr "Pilih item untuk dibuat didalam folder."
-
-#~ msgid "find the content this ghost should refer to: alt-r"
-#~ msgstr "temukan konten untuk acuan ghost berikut: alt-r"
-
-#~ msgid "Location of originating document."
-#~ msgstr "Loksai pembuatan dokumen"
-
-#~ msgid "create ${meta_type}"
-#~ msgstr "buat ${meta_type}"
-
-#~ msgid "find the folder this ghost should refer to: alt-r"
-#~ msgstr "temukan folder sebagai acuan ghost berikut: alt-r"
-
-#~ msgid "Location of originating folder."
-#~ msgstr "Lokasi asal folder."
-
-#~ msgid "Link url."
-#~ msgstr "Link url."
-
-#~ msgid ""
-#~ "\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "            "
-
-#~ msgid ""
-#~ "Publications are special folders. They function as the \n"
-#~ "       major organizing blocks of a Silva site. They are comparable to \n"
-#~ "       binders, and can contain folders, documents, and assets. \n"
-#~ "       Publications are opaque. They instill a threshold of view, "
-#~ "showing\n"
-#~ "       only the contents of the current publication. This keeps the "
-#~ "overview\n"
-#~ "       screens manageable. Publications have configuration settings that\n"
-#~ "       determine which core and pluggable objects are available. For\n"
-#~ "       complex sites, sub-publications can be nested.\n"
-#~ "    "
-#~ msgstr ""
-#~ "Publications adalah folder spesial. Fungsinya mengorganisir blok-blok "
-#~ "didalam\n"
-#~ "       Silva. Seperti halnya binders, publications tersusun atas folder, "
-#~ "dokumen, \n"
-#~ "       dan aset. Publications hanya menampilkan konten yang relevan, "
-#~ "sehingga\n"
-#~ "       tampilan dapat terorganisir rapi. Publications menyediakan "
-#~ "pengaturan\n"
-#~ "       konfigurasi untuk menentukan core dan pluggable objects yang "
-#~ "diikutkan.\n"
-#~ "       Untuk sebuah website yang cukup kompleks dapat dibuat sub-"
-#~ "publications.\n"
-#~ "    "
