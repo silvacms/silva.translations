@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Aug 17 09:47:13 2012\n"
+"POT-Creation-Date: Fri Aug 17 12:47:05 2012\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -3401,6 +3401,7 @@ msgid "language to use the for Silva interface"
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:88
+#: silva.ui:/smi_templates/smi.cpt:59
 msgid "User preferences"
 msgstr ""
 
@@ -3637,7 +3638,7 @@ msgid "Go to"
 msgstr ""
 
 #: silva.ui:/rest/container/listing.py:183
-msgid "Structual content(s)"
+msgid "Structural content(s)"
 msgstr ""
 
 #: silva.ui:/rest/container/listing.py:211
@@ -3658,16 +3659,16 @@ msgstr ""
 msgid "Loading folder content ..."
 msgstr ""
 
-#: silva.ui:/rest/container/templates/listing.cpt:20
-msgid "<ins class=\"ui-icon ui-icon-triangle-1-n\"></ins> ${count} item(s) in the clipboard"
+#: silva.ui:/rest/container/templates/listing.cpt:21
+msgid "${icon} ${count} item(s) in the clipboard"
 msgstr ""
 
-#: silva.ui:/rest/container/templates/listing.cpt:28
+#: silva.ui:/rest/container/templates/listing.cpt:29
 msgid "${count} structural(s) content(s),"
 msgstr ""
 
-#: silva.ui:/rest/container/templates/listing.cpt:34
-msgid "${count} assets(s)."
+#: silva.ui:/rest/container/templates/listing.cpt:35
+msgid "${count} asset(s)."
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listingtoolbar.cpt:3
@@ -3682,23 +3683,15 @@ msgstr ""
 msgid "Loading data from server"
 msgstr ""
 
-#: silva.ui:/smi_templates/smi.cpt:38
-msgid "<a href=\"#!/\"><img src=\"${view.logo_url}\" alt=\"Silva\" /></a>"
-msgstr ""
-
-#: silva.ui:/smi_templates/smi.cpt:47
-msgid "<span>Logout</span>"
+#: silva.ui:/smi_templates/smi.cpt:48
+msgid "Logout"
 msgstr ""
 
 #: silva.ui:/smi_templates/smi.cpt:53
-msgid "<span>Manage</span>"
+msgid "Manage"
 msgstr ""
 
-#: silva.ui:/smi_templates/smi.cpt:59
-msgid "<span>User preferences</span>"
-msgstr ""
-
-#: silva.ui:/smi_templates/smi.cpt:93
+#: silva.ui:/smi_templates/smi.cpt:90
 msgid "Loading..."
 msgstr ""
 
