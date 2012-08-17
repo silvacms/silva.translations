@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-08-17 09:47+0000\n"
+"POT-Creation-Date: 2012-08-17 12:47+0000\n"
 "PO-Revision-Date: 2012-06-01 11:20+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Javanese <jv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-08-17 08:42+0000\n"
+"X-Launchpad-Export-Date: 2012-08-17 11:28+0000\n"
 "X-Generator: Launchpad (build 15810)\n"
 
 #: Products.Silva:/Asset.py:136
@@ -3558,6 +3558,7 @@ msgid "language to use the for Silva interface"
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:88
+#: silva.ui:/smi_templates/smi.cpt:59
 msgid "User preferences"
 msgstr ""
 
@@ -3800,7 +3801,7 @@ msgid "Go to"
 msgstr ""
 
 #: silva.ui:/rest/container/listing.py:183
-msgid "Structual content(s)"
+msgid "Structural content(s)"
 msgstr ""
 
 #: silva.ui:/rest/container/listing.py:211
@@ -3821,18 +3822,16 @@ msgstr ""
 msgid "Loading folder content ..."
 msgstr ""
 
-#: silva.ui:/rest/container/templates/listing.cpt:20
-msgid ""
-"<ins class=\"ui-icon ui-icon-triangle-1-n\"></ins> ${count} item(s) in the "
-"clipboard"
+#: silva.ui:/rest/container/templates/listing.cpt:21
+msgid "${icon} ${count} item(s) in the clipboard"
 msgstr ""
 
-#: silva.ui:/rest/container/templates/listing.cpt:28
+#: silva.ui:/rest/container/templates/listing.cpt:29
 msgid "${count} structural(s) content(s),"
 msgstr ""
 
-#: silva.ui:/rest/container/templates/listing.cpt:34
-msgid "${count} assets(s)."
+#: silva.ui:/rest/container/templates/listing.cpt:35
+msgid "${count} asset(s)."
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listingtoolbar.cpt:3
@@ -3847,23 +3846,15 @@ msgstr ""
 msgid "Loading data from server"
 msgstr ""
 
-#: silva.ui:/smi_templates/smi.cpt:38
-msgid "<a href=\"#!/\"><img src=\"${view.logo_url}\" alt=\"Silva\" /></a>"
-msgstr ""
-
-#: silva.ui:/smi_templates/smi.cpt:47
-msgid "<span>Logout</span>"
+#: silva.ui:/smi_templates/smi.cpt:48
+msgid "Logout"
 msgstr ""
 
 #: silva.ui:/smi_templates/smi.cpt:53
-msgid "<span>Manage</span>"
+msgid "Manage"
 msgstr ""
 
-#: silva.ui:/smi_templates/smi.cpt:59
-msgid "<span>User preferences</span>"
-msgstr ""
-
-#: silva.ui:/smi_templates/smi.cpt:93
+#: silva.ui:/smi_templates/smi.cpt:90
 msgid "Loading..."
 msgstr ""
 

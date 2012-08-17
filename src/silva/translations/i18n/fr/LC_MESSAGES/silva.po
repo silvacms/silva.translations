@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva-fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-17 09:47+0000\n"
-"PO-Revision-Date: 2012-08-17 08:39+0000\n"
+"POT-Creation-Date: 2012-08-17 12:47+0000\n"
+"PO-Revision-Date: 2012-08-17 11:25+0000\n"
 "Last-Translator: Sylvain Viollon <sylvain@infrae.com>\n"
 "Language-Team: jpombar <pombar.joaquin@wanadoo.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-08-17 08:42+0000\n"
+"X-Launchpad-Export-Date: 2012-08-17 11:28+0000\n"
 "X-Generator: Launchpad (build 15810)\n"
 "Language-code: fr\n"
 "Domain: silva\n"
@@ -384,7 +384,7 @@ msgstr "Fichier"
 
 #: Products.Silva:/File/smi.py:36
 msgid "Click the Upload button to select a file."
-msgstr "Clicker sur le bouton Envoyer pour sélectionner un fichier."
+msgstr "Cliquer sur  Envoyer pour sélectionner un fichier."
 
 #: Products.Silva:/File/smi.py:54
 #: Products.SilvaExternalSources:/CSVSource.py:257
@@ -395,8 +395,7 @@ msgstr "Éditer le contenu du fichier"
 #: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
-"Clicker sur le bouton Envoyer pour remplacer le fichier courant avec un "
-"nouveau."
+"Cliquer sur Envoyer pour remplacer le fichier courant avec un nouveau."
 
 #: Products.Silva:/File/smi.py:69
 msgid "Text content"
@@ -532,7 +531,7 @@ msgstr "Le contenu Silva dont le ghost est miroir."
 #: Products.Silva:/Ghost.py:291
 msgid "Click the Lookup button to select a content to haunt."
 msgstr ""
-"Cliquer sur le bouton Sélectionner pour sélectionner un contenu à répliquer."
+"Cliquer sur le bouton Parcourir pour sélectionner un contenu à répliquer."
 
 #: Products.Silva:/Ghost.py:314
 msgid "This 'ghost' is unavailable. Please inform the site manager."
@@ -596,7 +595,7 @@ msgstr ""
 #: Products.Silva:/GhostFolder.py:367
 msgid "Click the Lookup button to select a container to haunt."
 msgstr ""
-"Cliquer sur le bouton Sélectionner pour sélectionner un dossier à répliquer."
+"Cliquer sur le bouton Parcourir pour sélectionner un dossier à répliquer."
 
 #: Products.Silva:/GhostFolder.py:387
 msgid "Synchronize"
@@ -670,7 +669,7 @@ msgstr "Image"
 
 #: Products.Silva:/Image/smi.py:36
 msgid "Click the Upload button to select an image."
-msgstr "Cliquer sur le bouton Envoyer pour sélectionner une image."
+msgstr "Cliquer sur Envoyer pour sélectionner une image."
 
 #: Products.Silva:/Image/smi.py:58
 msgid ""
@@ -852,8 +851,7 @@ msgstr ""
 #: Products.Silva:/Link.py:138
 #: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select a content to refer to."
-msgstr ""
-"Cliquer sur le button Sélectionner pour sélectionner un contenu cible."
+msgstr "Cliquer sur le button Parcourir pour sélectionner un contenu cible."
 
 #: Products.Silva:/Link.py:33
 msgid ""
@@ -1045,7 +1043,7 @@ msgstr "Le contenu est approuvé."
 #: Products.Silva:/VersionedContent/management.py:81
 #: Products.Silva:/Versioning.py:111
 msgid "There is no unapproved version to approve."
-msgstr "Il n'y a pas de version non approuvée à approuver."
+msgstr "Il n'y a pas de version non validée à valider"
 
 #: Products.Silva:/Versioning.py:116
 msgid "There already is an approved version."
@@ -1410,7 +1408,7 @@ msgstr "fichier"
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
-msgstr "Fichier à télécharger en tant que source de données"
+msgstr "Fichier à envoyer en tant que source de données."
 
 #: Products.SilvaExternalSources:/CSVSource.py:236
 msgid "character encoding"
@@ -2146,7 +2144,7 @@ msgstr ""
 
 #: silva.core.contentlayout:/blocks/slot.py:252
 msgid "New slot added."
-msgstr ""
+msgstr "Nouvel emplacement ajouté."
 
 #: silva.core.contentlayout:/blocks/slot.py:260
 msgid "Identifier required."
@@ -2162,7 +2160,7 @@ msgstr ""
 
 #: silva.core.contentlayout:/blocks/slot.py:306
 msgid "Add a sub-slot"
-msgstr ""
+msgstr "Ajouter un emplacement."
 
 #: silva.core.contentlayout:/blocks/slot.py:307
 msgid "You can configure slot options and restrictions here."
@@ -2350,7 +2348,7 @@ msgstr ""
 
 #: silva.core.contentlayout:/interfaces.py:556
 msgid "Select a template for your Page Model."
-msgstr ""
+msgstr "Sélectionner un modèle pour votre page modèle."
 
 #: silva.core.contentlayout:/interfaces.py:560
 msgid "Allowed Content Types"
@@ -2360,6 +2358,8 @@ msgstr ""
 msgid ""
 "Only the selected content types will accept this Page Model as a template."
 msgstr ""
+"Seulement les types de contenus sélectionnés pourront utiliser ce page "
+"modèle comme modèle."
 
 #: silva.core.contentlayout:/interfaces.py:568
 #: silva.core.smi:/settings/access.py:307
@@ -2369,10 +2369,11 @@ msgstr "Rôle minimal"
 #: silva.core.contentlayout:/interfaces.py:569
 msgid "Only users with this role can utilise this Page Model."
 msgstr ""
+"Seulement les utilisateurs avec ce rôle pourront utiliser ce page modèle."
 
 #: silva.core.contentlayout:/model.py:121
 msgid "Page Model(s)"
-msgstr ""
+msgstr "Page modèle(s)"
 
 #: silva.core.contentlayout:/service.py:242
 msgid "Template Service configuration"
@@ -2447,11 +2448,12 @@ msgstr ""
 
 #: silva.core.editor:/service.py:211
 msgid "Add a configuration"
-msgstr ""
+msgstr "Ajouter une configuration"
 
 #: silva.core.editor:/service.py:212
 msgid "Add a specific editor configuration for a content type in Silva."
 msgstr ""
+"Ajouter une configuration spécifique pour un type de contenu dans Silva."
 
 #: silva.core.editor:/service.py:220
 #: silva.core.contentlayout:/blocks/contents.py:105
@@ -2495,7 +2497,7 @@ msgstr ""
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:39
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:23
 msgid "Lookup a content in Silva"
-msgstr ""
+msgstr "Chercher un contenu dans Silva"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:13
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:42
@@ -2790,7 +2792,7 @@ msgstr "Version approuvée."
 
 #: silva.core.smi:/content/publish/management.py:201
 msgid "Publish new version"
-msgstr "Publié la nouvelle version"
+msgstr "Publier la nouvelle version"
 
 #: silva.core.smi:/content/publish/management.py:208
 msgid "Request publication"
@@ -2814,7 +2816,7 @@ msgstr "Historique de la demande de validation"
 
 #: silva.core.smi:/content/publish/management.py:231
 msgid "There is no history."
-msgstr ""
+msgstr "Il ny'a pas d'historique."
 
 #: silva.core.smi:/content/publish/management.py:259
 msgid "Message"
@@ -2830,7 +2832,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publish/management.py:30
 msgid "Publication time"
-msgstr "Heure de publication"
+msgstr "Date de publication"
 
 #: silva.core.smi:/content/publish/management.py:300
 msgid "Add message on withdrawal"
@@ -2839,7 +2841,7 @@ msgstr "Ajouter un message pour retirer la demande de publication"
 #: silva.core.smi:/content/publish/management.py:301
 #: silva.core.smi:/content/publish/management.py:334
 msgid "The message may be viewed by local users."
-msgstr "Le message peut être vu par les utilisateurs locaux"
+msgstr "Le message peut être vu par les utilisateurs locaux."
 
 #: silva.core.smi:/content/publish/management.py:308
 #: silva.core.smi:/content/publish/management.py:316
@@ -2848,11 +2850,11 @@ msgstr "Retirer la demande de publication"
 
 #: silva.core.smi:/content/publish/management.py:33
 msgid "Expiration time"
-msgstr "Le temps d'expiration"
+msgstr "Date d'expiration"
 
 #: silva.core.smi:/content/publish/management.py:333
 msgid "Add message on rejection"
-msgstr ""
+msgstr "Ajouter un message pour rejecter la demande de publication"
 
 #: silva.core.smi:/content/publish/management.py:34
 msgid "Empty indicates no expiration."
@@ -2865,7 +2867,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publish/management.py:373
 msgid "Manual close"
-msgstr ""
+msgstr "Fermeture manuel"
 
 #: silva.core.smi:/content/publish/management.py:374
 msgid ""
@@ -3143,7 +3145,7 @@ msgstr ""
 
 #: silva.core.smi:/content/xml/import.py:25
 msgid "File to upload"
-msgstr ""
+msgstr "Fichier à envoyer"
 
 #: silva.core.smi:/content/xml/import.py:26
 msgid ""
@@ -3155,7 +3157,7 @@ msgstr ""
 
 #: silva.core.smi:/content/xml/import.py:30
 msgid "Title for assets"
-msgstr ""
+msgstr "Titre pour les fichiers"
 
 #: silva.core.smi:/content/xml/import.py:31
 msgid ""
@@ -3196,11 +3198,11 @@ msgstr ""
 
 #: silva.core.smi:/content/xml/import.py:59
 msgid "Click the Upload button to select a file to import."
-msgstr ""
+msgstr "Cliquer sur Envoyer pour sélectionner un fichier à importer."
 
 #: silva.core.smi:/content/xml/import.py:67
 msgid "upload and import file"
-msgstr "upload et importe un fichier"
+msgstr "envoie et importe un fichier"
 
 #. Default: ""
 #: silva.core.smi:/content/xml/import.py:88
@@ -3229,7 +3231,7 @@ msgstr ""
 
 #: silva.core.smi:/errors/references.py:31
 msgid "Broken references"
-msgstr ""
+msgstr "Références rompues"
 
 #: silva.core.smi:/errors/references.py:67
 msgid "Break references"
@@ -3237,7 +3239,7 @@ msgstr "Références rompues"
 
 #: silva.core.smi:/errors/references.py:87
 msgid "References broken"
-msgstr ""
+msgstr "Références rompues"
 
 #. Default: ""
 #: silva.core.smi:/errors/references.py:89
@@ -3386,7 +3388,7 @@ msgstr ""
 #: silva.core.smi:/settings/access.py:290
 #: silva.pas.base:/smi.py:349
 msgid "Clear clipboard"
-msgstr ""
+msgstr "Vider le presse-papier"
 
 #: silva.core.smi:/settings/access.py:291
 msgid "clear the user clipboard"
@@ -3466,7 +3468,7 @@ msgstr "Accès"
 
 #: silva.core.smi:/settings/access.py:48
 msgid "Lookup users..."
-msgstr ""
+msgstr "Rechercher des utilisateurs ..."
 
 #: silva.core.smi:/settings/access.py:49
 msgid "Search for users to assign them roles"
@@ -3484,7 +3486,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/access.py:67
 msgid "Lookup user"
-msgstr ""
+msgstr "Rechercher des utilisateurs"
 
 #: silva.core.smi:/settings/access.py:73
 msgid "Sorry, there were errors."
@@ -3708,11 +3710,11 @@ msgstr ""
 
 #: silva.core.smi:/settings/settings.py:69
 msgid "Local site activated."
-msgstr "Site local activé"
+msgstr "Site local activé."
 
 #: silva.core.smi:/settings/settings.py:75
 msgid "Remove local site"
-msgstr ""
+msgstr "Retirer le site local"
 
 #: silva.core.smi:/settings/settings.py:88
 msgid "Local site deactivated."
@@ -3761,6 +3763,7 @@ msgid "language to use the for Silva interface"
 msgstr "langue à utiliser pour l'interface Silva"
 
 #: silva.core.smi:/userinfo.py:88
+#: silva.ui:/smi_templates/smi.cpt:59
 msgid "User preferences"
 msgstr "Préférences utilisateur"
 
@@ -3805,7 +3808,7 @@ msgstr ""
 
 #: silva.pas.base:/smi.py:116
 msgid "Lookup groups..."
-msgstr ""
+msgstr "Rechercher des groupes ..."
 
 #: silva.pas.base:/smi.py:117
 msgid "Search for groups to assign roles"
@@ -3822,7 +3825,7 @@ msgstr ""
 
 #: silva.pas.base:/smi.py:136
 msgid "Lookup group"
-msgstr ""
+msgstr "Rechercher des groupes"
 
 #: silva.pas.base:/smi.py:137
 msgid "Search for groups in order to assign them roles"
@@ -3839,7 +3842,7 @@ msgstr ""
 
 #: silva.pas.base:/smi.py:181
 msgid "Lookup groups"
-msgstr ""
+msgstr "Rechercher des groupes"
 
 #: silva.pas.base:/smi.py:182
 msgid ""
@@ -3951,7 +3954,7 @@ msgstr ""
 
 #: silva.ui:/interfaces.py:99
 msgid "Background color"
-msgstr ""
+msgstr "Couleur d'arrière-plan"
 
 #: silva.ui:/rest/container/configuration.py:120
 msgid "Confirm deletion"
@@ -3963,7 +3966,7 @@ msgstr ""
 
 #: silva.ui:/rest/container/configuration.py:128
 msgid "Rename"
-msgstr ""
+msgstr "Renommer"
 
 #: silva.ui:/rest/container/configuration.py:185
 msgid "Request Approval"
@@ -3971,19 +3974,19 @@ msgstr ""
 
 #: silva.ui:/rest/container/configuration.py:255
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: silva.ui:/rest/container/configuration.py:63
 msgid "Cut"
-msgstr ""
+msgstr "Couper"
 
 #: silva.ui:/rest/container/configuration.py:74
 msgid "Copy"
-msgstr ""
+msgstr "Copier"
 
 #: silva.ui:/rest/container/configuration.py:89
 msgid "Paste"
-msgstr ""
+msgstr "Coller"
 
 #: silva.ui:/rest/container/configuration.py:99
 msgid "Paste as Ghost"
@@ -3997,19 +4000,19 @@ msgstr ""
 
 #: silva.ui:/rest/container/listing.py:132
 msgid "Modified"
-msgstr ""
+msgstr "Modifié"
 
 #: silva.ui:/rest/container/listing.py:142
 msgid "Go to"
-msgstr ""
+msgstr "Aller à"
 
 #: silva.ui:/rest/container/listing.py:183
-msgid "Structual content(s)"
-msgstr ""
+msgid "Structural content(s)"
+msgstr "Contenu(s)"
 
 #: silva.ui:/rest/container/listing.py:211
 msgid "Asset(s)"
-msgstr ""
+msgstr "Fichier(s)"
 
 #. Default: ""
 #: silva.ui:/rest/container/notifier.py:52
@@ -4025,18 +4028,16 @@ msgstr ""
 msgid "Loading folder content ..."
 msgstr ""
 
-#: silva.ui:/rest/container/templates/listing.cpt:20
-msgid ""
-"<ins class=\"ui-icon ui-icon-triangle-1-n\"></ins> ${count} item(s) in the "
-"clipboard"
-msgstr ""
+#: silva.ui:/rest/container/templates/listing.cpt:21
+msgid "${icon} ${count} item(s) in the clipboard"
+msgstr "${icon} ${count} contenu(s) dans le presse-papier"
 
-#: silva.ui:/rest/container/templates/listing.cpt:28
+#: silva.ui:/rest/container/templates/listing.cpt:29
 msgid "${count} structural(s) content(s),"
-msgstr ""
+msgstr "${count} contenu(s),"
 
-#: silva.ui:/rest/container/templates/listing.cpt:34
-msgid "${count} assets(s)."
+#: silva.ui:/rest/container/templates/listing.cpt:35
+msgid "${count} asset(s)."
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listingtoolbar.cpt:3
@@ -4051,41 +4052,33 @@ msgstr ""
 msgid "Loading data from server"
 msgstr ""
 
-#: silva.ui:/smi_templates/smi.cpt:38
-msgid "<a href=\"#!/\"><img src=\"${view.logo_url}\" alt=\"Silva\" /></a>"
-msgstr ""
-
-#: silva.ui:/smi_templates/smi.cpt:47
-msgid "<span>Logout</span>"
-msgstr ""
+#: silva.ui:/smi_templates/smi.cpt:48
+msgid "Logout"
+msgstr "Se deconnecter"
 
 #: silva.ui:/smi_templates/smi.cpt:53
-msgid "<span>Manage</span>"
+msgid "Manage"
 msgstr ""
 
-#: silva.ui:/smi_templates/smi.cpt:59
-msgid "<span>User preferences</span>"
-msgstr ""
-
-#: silva.ui:/smi_templates/smi.cpt:93
+#: silva.ui:/smi_templates/smi.cpt:90
 msgid "Loading..."
 msgstr ""
 
 #: zeam.form.silva:/actions.py:112
 msgid "go back to the previous screen"
-msgstr ""
+msgstr "Retour à l'écran précédant"
 
 #: zeam.form.silva:/actions.py:126
 msgid "go back to the folder view without adding the content"
-msgstr ""
+msgstr "Retour l'écran du dossier sans ajouté le contenu"
 
 #: zeam.form.silva:/actions.py:133
 msgid "Back"
-msgstr ""
+msgstr "Retour"
 
 #: zeam.form.silva:/actions.py:134
 msgid "go back to the folder view"
-msgstr ""
+msgstr "Retour à l'écran du dossier"
 
 #: zeam.form.silva:/actions.py:31
 msgid "save modifications"
@@ -4094,7 +4087,7 @@ msgstr ""
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:237
 msgid "Add a ${content_type}"
-msgstr ""
+msgstr "Ajouter un ${content_type}"
 
 #: zeam.form.silva:/form/smi.py:274
 msgid "create the content"
@@ -4108,7 +4101,7 @@ msgstr "Ajouté ${meta_type}."
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:310
 msgid "Edit a ${content_type}"
-msgstr ""
+msgstr "Éditer un ${content_type}"
 
 #: zeam.form.silva:/form/smi_templates/smiformportlets.cpt:3
 msgid "Information"
@@ -4189,11 +4182,11 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/file_templates/basicfilewidgetinput.cpt:9
 msgid "Upload a new file"
-msgstr ""
+msgstr "Envoyez un nouveau fichier"
 
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:28
 msgid "Upload"
-msgstr ""
+msgstr "Envoyer"
 
 #: zeam.form.silva:/widgets/others_templates/comboboxfieldwidget.cpt:5
 msgid "Show All Items"
@@ -4281,3 +4274,6 @@ msgstr "Afficher tous les éléments"
 
 #~ msgid "This content is not available."
 #~ msgstr "Ce contenu n'est pas disponible."
+
+#~ msgid "${count} assets(s)."
+#~ msgstr "${count} assets(s)."
