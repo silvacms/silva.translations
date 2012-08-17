@@ -1,4 +1,4 @@
-# Pashto translation for silva
+# Czech translation for silva
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
 # This file is distributed under the same license as the silva package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-17 09:47+0000\n"
-"PO-Revision-Date: 2012-06-01 11:20+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Pashto <ps@li.org>\n"
+"PO-Revision-Date: 2012-08-12 21:33+0000\n"
+"Last-Translator: Zbyněk Schwarz <Unknown>\n"
+"Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,47 +24,47 @@ msgstr ""
 #: silva.core.contentlayout:/model.py:170
 #: silva.core.smi:/content/__init__.py:27
 msgid "Edit"
-msgstr ""
+msgstr "Upravit"
 
 #: Products.Silva:/Asset_templates/assetpath.cpt:4
 msgid "File system path"
-msgstr ""
+msgstr "Cesta v souborovém systému"
 
 #: Products.Silva:/Asset_templates/assetpath.cpt:4
 msgid "File system path to this asset on the server"
-msgstr ""
+msgstr "Cesta v souborovém systému pro tento objekt."
 
 #: Products.Silva:/Asset_templates/assetsize.cpt:3
 msgid "File size"
-msgstr ""
+msgstr "Velikost souboru"
 
 #: Products.Silva:/Asset_templates/assetsize.cpt:3
 msgid "Size of this asset"
-msgstr ""
+msgstr "Velikost tohoto objektu"
 
 #: Products.Silva:/AutoTOC.py:124
 msgid "Silva folder order"
-msgstr "د دوسیي ترتیب Silva د"
+msgstr "Uspořádání složky Silva"
 
 #: Products.Silva:/AutoTOC.py:125
 msgid "Alphabetically"
-msgstr "په الفبا"
+msgstr "Podle abecedy"
 
 #: Products.Silva:/AutoTOC.py:126
 msgid "Reverse alphabetically"
-msgstr "دالفبا په ترتیب اړول"
+msgstr "Abecedně pozpátku"
 
 #: Products.Silva:/AutoTOC.py:127
 msgid "Chronologically by modification date"
-msgstr ""
+msgstr "Chronologicky podle data změny"
 
 #: Products.Silva:/AutoTOC.py:128
 msgid "Reverse chronologically by modification date"
-msgstr ""
+msgstr "Chronologicky pozpátku podle data změny"
 
 #: Products.Silva:/AutoTOC.py:148
 msgid "Types to list"
-msgstr ""
+msgstr "Typy k sepsání"
 
 #: Products.Silva:/AutoTOC.py:149
 msgid ""
@@ -72,52 +72,56 @@ msgid ""
 "need to selected container types (e.g. Folder and Publication) in order for "
 "the TOC to display their contents."
 msgstr ""
+"Zde vyberte typy obsahu, které chcete vidět v obsahu. Je třeba zvolit typy "
+"kontejnerů (např. Složka a Publikace) aby je obsah zobrazil."
 
 #: Products.Silva:/AutoTOC.py:158
 msgid "Depth"
-msgstr ""
+msgstr "Hloubka"
 
 #: Products.Silva:/AutoTOC.py:159
 msgid ""
 "The depth to which the Table of Contents will be rendered (-1 means "
 "unlimited depth.)"
-msgstr ""
+msgstr "Hloubka kterou obsah vykreslí (-1 znamená neomezenou hloubku.)"
 
 #: Products.Silva:/AutoTOC.py:166
 msgid "Display description"
-msgstr ""
+msgstr "Popis zobrazení"
 
 #: Products.Silva:/AutoTOC.py:167
 msgid ""
 "If selected, each item displayed will include its title and metadata "
 "description, if available. "
 msgstr ""
+"Pokud zvoleno, bude každá položka zobrazena se svým názvem a popisnými daty, "
+"pokud nějaká jsou. "
 
 #: Products.Silva:/AutoTOC.py:173
 msgid "Show icon"
-msgstr ""
+msgstr "Zobrazit ikonu"
 
 #: Products.Silva:/AutoTOC.py:174
 msgid "If selected, each item displayed will include its icon. "
-msgstr ""
+msgstr "Pokud zvoleno, každá položka bude zobrazena se svou ikonou. "
 
 #: Products.Silva:/AutoTOC.py:179
 msgid "Show container link"
-msgstr ""
+msgstr "Zobrazit odkaz kontejneru"
 
 #: Products.Silva:/AutoTOC.py:180
 msgid ""
 "If selected, there will be a link to the container (as an H3) before the TOC "
 "list."
-msgstr ""
+msgstr "Pokud zvoleno, bude před obsahem odkaz na kontejner (ve stylu H3)."
 
 #: Products.Silva:/AutoTOC.py:186
 msgid "Sort order"
-msgstr ""
+msgstr "Řazení"
 
 #: Products.Silva:/AutoTOC.py:187
 msgid "The order items in a container will be sorted"
-msgstr ""
+msgstr "Způsob jakým budou položky v kontejneru seřazeny"
 
 #: Products.Silva:/AutoTOC.py:32
 msgid ""
@@ -133,44 +137,55 @@ msgid ""
 "    methods.\n"
 "    "
 msgstr ""
+"Toto je zvláštní typ dokumentu, který automaticky vytváří\n"
+"    obsah. Obvykle je použit jako dokument obsahující rejstřík adresáře.\n"
+"    Poté nadřazená složka při přístupu zobrazuje obsah (například\n"
+"    http://www.x.yz/silva/myFolder). AutoTOC je nastavitelný: může zobrazit\n"
+"    jakýkoliv výběr obsahu Silvy včetně položek, zahrnout popisy nebo \n"
+"    ikony, může být nastaven k zastavení na dané hloubce a používat různé "
+"metody\n"
+"    řazení.\n"
+"    "
 
 #: Products.Silva:/EmailMessageService.py:162
 msgid "Enable"
-msgstr "وړ"
+msgstr "Povolit"
 
 #: Products.Silva:/EmailMessageService.py:163
 msgid "Send emails when asked to."
-msgstr ""
+msgstr "Zaslat emaily na požádání"
 
 #: Products.Silva:/EmailMessageService.py:166
 msgid "From Address"
-msgstr "له پته څخه"
+msgstr "Z adresy"
 
 #: Products.Silva:/EmailMessageService.py:167
 msgid "Email address used to send messages."
-msgstr ""
+msgstr "Emailové adresy použité k odeslání zpráv."
 
 #: Products.Silva:/EmailMessageService.py:176
 msgid "Service Message Configuration"
-msgstr ""
+msgstr "Nastavení služby zpráv"
 
 #: Products.Silva:/EmailMessageService.py:177
 msgid ""
 "Configure settings for email messaging between members. The default MailHost "
 "service is used to send messages."
 msgstr ""
+"Nastavení emailových zpráv mezi členy. Pro zasílání zpráv je standardně "
+"použita služba MailHost."
 
 #: Products.Silva:/ExtensionService.py:264
 msgid "Absolute path to object to upgrade"
-msgstr ""
+msgstr "Absolutní cesta k objektu pro aktualizaci"
 
 #: Products.Silva:/ExtensionService.py:267
 msgid "Current Silva version of the object"
-msgstr ""
+msgstr "Současná verze objektu Silva"
 
 #: Products.Silva:/ExtensionService.py:277
 msgid "Upgrade site"
-msgstr ""
+msgstr "Aktualizovat stránku"
 
 #: Products.Silva:/ExtensionService.py:278
 msgid ""
@@ -182,68 +197,78 @@ msgid ""
 "upgrade on an object may fail and may even (in some situations) cause the "
 "object to become unusable."
 msgstr ""
+"Níže naleznete formulář umožňující Vám zadat objekty, které budou "
+"aktualizovány a nynější verzi tohoto objektu. Když do těchto polí zadáte "
+"hodnoty a stisknete tlačítko \"aktualizovat\", Silva se pokusí aktualizovat "
+"objekt, aby fungoval v pořádku se současnou verzí SIlva. Nezapomeňte, že "
+"tato funkce je experimentální a je známo, že provedení částečné aktualizace "
+"objektu může selhat a dokonce (v některých případech) i způsobit, že se "
+"stane nepoužitelným."
 
 #: Products.Silva:/ExtensionService.py:289
 msgid "Upgrade"
-msgstr "جګول"
+msgstr "Přejít na vyšší verzi"
 
 #: Products.Silva:/ExtensionService.py:301
 msgid "Content upgrade succeeded. See event log for details"
-msgstr ""
+msgstr "Úspěšně jste přešli na vyšší verzi. Viz záznam pro podrobnosti"
 
 #: Products.Silva:/ExtensionService.py:308
 msgid "Absolute path to reindex"
-msgstr ""
+msgstr "Absolutní cesta pro znovu indexování"
 
 #: Products.Silva:/ExtensionService.py:319
 msgid "Reindex site"
-msgstr ""
+msgstr "Znovu indexovat stránku"
 
 #: Products.Silva:/ExtensionService.py:320
 msgid ""
 "Reindex a subtree of the site in the Silva Catalog.For big trees this may "
 "take a long time."
 msgstr ""
+"Další indexace podstromu stránky v katalogu Silva. Toto múže trvat delší "
+"dobu pro obsáhlé stromy."
 
 #: Products.Silva:/ExtensionService.py:323
 msgid "Reindex"
-msgstr ""
+msgstr "Znovu indexovat"
 
 #: Products.Silva:/ExtensionService.py:332
 msgid "Invalid path"
-msgstr ""
+msgstr "Neplatná cesta"
 
 #: Products.Silva:/ExtensionService.py:334
 msgid "Partial catalog refreshed"
-msgstr ""
+msgstr "Částečný katalog obnoven"
 
 #: Products.Silva:/ExtensionService.py:345
 msgid "Silva and all installed extensions have been refreshed"
-msgstr ""
+msgstr "Silva a veškerá nainstalovaná rozšíření byla obnovena"
 
 #: Products.Silva:/ExtensionService.py:349
 msgid "Catalog refreshed"
-msgstr ""
+msgstr "Katalog obnoven"
 
 #: Products.Silva:/ExtensionService.py:353
 msgid "Quota sub-system disabled"
-msgstr ""
+msgstr "Podsystém kvót zakázán"
 
 #: Products.Silva:/ExtensionService.py:357
 msgid "Quota sub-system enabled"
-msgstr ""
+msgstr "Podsystém kvót povolen"
 
 #: Products.Silva:/ExtensionService.py:362
 msgid "Old version of documents purged"
-msgstr ""
+msgstr "Staré verze dokumentů byly odstraněny"
 
 #: Products.Silva:/ExtensionService.py:369
 msgid "Content upgrade succeeded. See log in Logs tab for details"
 msgstr ""
+"Aktualizace obsahu byla úspěšná. Podrobnosti viz záznam v tabulce záznamů."
 
 #: Products.Silva:/ExtensionService.py:373
 msgid "Documentation installed"
-msgstr ""
+msgstr "Dokumentace nainstalována"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:89
@@ -251,74 +276,74 @@ msgstr ""
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:14
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:16
 msgid "${DYNAMIC_CONTENT}"
-msgstr ""
+msgstr "${DYNAMIC_CONTENT}"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:17
 msgid "Extensions management"
-msgstr ""
+msgstr "Správa rozšíření"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:21
 msgid "General actions"
-msgstr ""
+msgstr "Obecné činnosti"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "obnovit vše"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr ""
+msgstr "nainstalovat dokumentaci"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:32
 msgid "rebuild catalog"
-msgstr ""
+msgstr "obnovit katalog"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:36
 msgid "disable quota subsystem"
-msgstr ""
+msgstr "zakázat podsystém kvót"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:41
 msgid "enable quota subsystem"
-msgstr ""
+msgstr "povolit podsystém kvót"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:46
 msgid "purge old versions"
-msgstr ""
+msgstr "odstranit staré verze"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:50
 msgid "upgrade content"
-msgstr ""
+msgstr "aktualizovat obsah"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:61
 msgid "Available extensions"
-msgstr ""
+msgstr "Dostupná rozšíření"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:93
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:104
 msgid "refresh"
-msgstr ""
+msgstr "obnovit"
 
 #: Products.Silva:/File/content.py:164
 msgid "download"
-msgstr "رانقلول"
+msgstr "stáhnout"
 
 #: Products.Silva:/File/content.py:66
 #: Products.Silva:/Image/content.py:74
 msgid "Invalid computed identifier."
-msgstr ""
+msgstr "Neplatný identifikátor počítače."
 
 #: Products.Silva:/File/content.py:70
 #: Products.Silva:/Image/content.py:78
 msgid "Duplicate id. Please provide an explicit id."
-msgstr ""
+msgstr "Duplicitní id. Prosím zadejte konkrétní id."
 
 #: Products.Silva:/File/service.py:103
 msgid "Select storage"
-msgstr ""
+msgstr "Vyberte úložiště"
 
 #: Products.Silva:/File/service.py:114
 msgid "Convert stored files"
-msgstr ""
+msgstr "Převést uložené soubory"
 
 #: Products.Silva:/File/service.py:115
 msgid "Convert all currently stored file to the current set storage."
@@ -326,62 +351,64 @@ msgstr ""
 
 #: Products.Silva:/File/service.py:123
 msgid "Convert all files"
-msgstr ""
+msgstr "Převést všechny soubory"
 
 #: Products.Silva:/File/service.py:127
 msgid ""
 "Storage for Silva Files and Images converted. Check the log for more details."
 msgstr ""
+"Úložiště pro soubory Silva a převedené obrázky. Zkontrolujte záznam pro "
+"další podrobnosti."
 
 #: Products.Silva:/File/service.py:95
 msgid "Configure file storage"
-msgstr ""
+msgstr "Nastavit úložiště souborů"
 
 #: Products.Silva:/File/smi.py:24
 msgid "File"
-msgstr ""
+msgstr "Soubor"
 
 #: Products.Silva:/File/smi.py:36
 msgid "Click the Upload button to select a file."
-msgstr ""
+msgstr "Klikněte na tlačítko nahrát pro zvolení souboru."
 
 #: Products.Silva:/File/smi.py:54
 #: Products.SilvaExternalSources:/CSVSource.py:257
 msgid "Edit file content"
-msgstr ""
+msgstr "Upravit obsah souboru"
 
 #: Products.Silva:/File/smi.py:60
 #: silva.core.smi:/content/xml/import.py:61
 msgid "Click the Upload button to replace the current file with a new file."
-msgstr ""
+msgstr "Klikněte na tlačítko nahrát pro nahrazení současného souboru novým."
 
 #: Products.Silva:/File/smi.py:69
 msgid "Text content"
-msgstr ""
+msgstr "Textový obsah"
 
 #: Products.Silva:/File/smi.py:70
 msgid "Text contained in the file"
-msgstr ""
+msgstr "Text obsažený v souboru"
 
 #: Products.Silva:/File/smi.py:81
 msgid "Edit text content"
-msgstr ""
+msgstr "Upravit textový obsah"
 
 #: Products.Silva:/File/smi_templates/infoportlet.cpt:13
 msgid "Link to file"
-msgstr ""
+msgstr "Odkaz na soubor"
 
 #: Products.Silva:/File/smi_templates/infoportlet.cpt:15
 msgid "Download"
-msgstr ""
+msgstr "Stáhnout"
 
 #: Products.Silva:/File/smi_templates/infoportlet.cpt:4
 msgid "File mime type"
-msgstr ""
+msgstr "Mime typ souboru"
 
 #: Products.Silva:/File/smi_templates/infoportlet.cpt:9
 msgid "File encoding"
-msgstr ""
+msgstr "Kódování souboru"
 
 #: Products.Silva:/Folder/content.py:176
 msgid "You cannot convert a folder into a folder"
@@ -402,11 +429,11 @@ msgstr ""
 #: Products.Silva:/Folder/management.py:102
 #: Products.Silva:/Folder/management.py:121
 msgid "You cannot add this content type in this container."
-msgstr ""
+msgstr "Nemůžete přidat tento typ obsahu do tohoto kontejneru."
 
 #: Products.Silva:/Folder/management.py:113
 msgid "You are unauthorized to move this content."
-msgstr ""
+msgstr "Nemáte oprávnění k přesunu tohoto obsahu."
 
 #: Products.Silva:/Folder/management.py:117
 msgid "You cannot move this content to this container."
@@ -414,31 +441,32 @@ msgstr ""
 
 #: Products.Silva:/Folder/management.py:171
 msgid "Content already in the target container."
-msgstr ""
+msgstr "Obsah již je v cílovém kontejneru."
 
 #: Products.Silva:/Folder/management.py:209
 msgid "There is no editable version to set the title on."
 msgstr ""
+"Neexistuje žádná upravitelná verze pro kterou lze použít tento název."
 
 #: Products.Silva:/Folder/management.py:267
 msgid "Cannot delete content."
-msgstr ""
+msgstr "Nelze smazat obsah."
 
 #: Products.Silva:/Folder/management.py:98
 msgid "You are unauthorized to copy this content."
-msgstr ""
+msgstr "Nemáte oprávnění ke kopírování tohoto obsahu."
 
 #: Products.Silva:/Folder/views.py:37
 msgid "First item"
-msgstr ""
+msgstr "První položka"
 
 #: Products.Silva:/Folder/views.py:38
 msgid "Choose an item to be created within the container."
-msgstr ""
+msgstr "Zvolte položku, která bude vytvořena uvnitř kontejneru."
 
 #: Products.Silva:/Folder/views.py:67
 msgid "This container has no index."
-msgstr ""
+msgstr "Tento kontejner nemá rejstřík."
 
 #: Products.Silva:/Ghost.py:177
 msgid ""
@@ -658,7 +686,7 @@ msgstr ""
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:9
 msgid "unknown"
-msgstr "ناڅرګند"
+msgstr ""
 
 #: Products.Silva:/Indexer.py:158
 msgid "Update Silva Indexer"
@@ -872,7 +900,7 @@ msgstr ""
 
 #: Products.Silva:/Version.py:170
 msgid "public"
-msgstr "عامه"
+msgstr ""
 
 #: Products.Silva:/Version.py:170
 msgid "pending"
@@ -1111,7 +1139,7 @@ msgstr ""
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/listing.py:136
 msgid "Author"
-msgstr "لیکونکی"
+msgstr ""
 
 #: Products.Silva:/roleinfo.py:38
 #: silva.core.interfaces:/auth.py:104
@@ -1129,7 +1157,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:35
 msgid "title"
-msgstr "سرلیک"
+msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:89
 msgid "a.k.a. &#8216;navigation title&#8217;."
@@ -1137,7 +1165,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:92
 msgid "short title"
-msgstr "لنډ سرلیک"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:153
 msgid "description"
@@ -1149,7 +1177,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:212
 msgid "language"
-msgstr "ژبه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:259
 msgid "Language of content in this area."
@@ -1157,15 +1185,15 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
-msgstr "یادونه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:318
 msgid "Internal comments."
-msgstr "داخلی یاودونه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:35
 msgid "subject"
-msgstr "موضوع"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:36
 msgid "Subject of content in this area."
@@ -1173,7 +1201,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:378
 msgid "creation time"
-msgstr "د جوړښت وخت"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:379
 #: Products.Silva:/schema/silva-extra.xml:439
@@ -1187,7 +1215,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:494
 msgid "creator"
-msgstr "جوړونکی"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:551
 msgid "last author"
@@ -1203,7 +1231,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:609
 msgid "contact name"
-msgstr "د اړیکې نوم"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:663
 msgid "Email address of contact person."
@@ -1211,11 +1239,11 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:666
 msgid "contact email"
-msgstr "د بریښنالیک اړیکه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:94
 msgid "keywords"
-msgstr "کلیدی توري"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:95
 msgid "Keywords relating to content."
@@ -1236,7 +1264,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-quota.xml:37
 msgid "quota"
-msgstr "برخه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-settings.xml:24
 msgid ""
@@ -1262,7 +1290,7 @@ msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
-msgstr "فایل"
+msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
@@ -1827,7 +1855,7 @@ msgstr ""
 #: silva.app.subscriptions:/views.py:27
 #: silva.core.smi:/userinfo.py:53
 msgid "Email address"
-msgstr "د بریښنالیک پته"
+msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
 msgid ""
@@ -1846,7 +1874,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/views.py:55
 msgid "Subscribe"
-msgstr "منل"
+msgstr ""
 
 #: silva.app.subscriptions:/views.py:70
 #: silva.app.subscriptions:/views.py:98
@@ -2349,7 +2377,7 @@ msgstr ""
 #: silva.core.interfaces:/auth.py:111
 #: silva.core.interfaces:/auth.py:118
 msgid "select:"
-msgstr ":ټاکل"
+msgstr ""
 
 #: silva.core.interfaces:/auth.py:130
 msgid "identifier"
@@ -2415,7 +2443,7 @@ msgstr ""
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:80
 msgid "Type"
-msgstr "ډول"
+msgstr ""
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:84
 #: silva.core.contentlayout:/interfaces.py:193
@@ -2541,7 +2569,7 @@ msgstr ""
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:15
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:18
 msgid "edit content"
-msgstr "دمحتویاتو تغیرات"
+msgstr "upravit obsah"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this content"
@@ -3543,11 +3571,11 @@ msgstr ""
 
 #: silva.core.smi:/userinfo.py:50
 msgid "user full name"
-msgstr "د کاروونکی بشپړ نوم"
+msgstr ""
 
 #: silva.core.smi:/userinfo.py:54
 msgid "contact email address"
-msgstr "د بریښنالیک د اړیکې پته"
+msgstr ""
 
 #: silva.core.smi:/userinfo.py:57
 msgid "Preferred language"
@@ -3555,7 +3583,7 @@ msgstr ""
 
 #: silva.core.smi:/userinfo.py:58
 msgid "language to use the for Silva interface"
-msgstr "د سلوا دنښلولو لپاره ژبه"
+msgstr ""
 
 #: silva.core.smi:/userinfo.py:88
 msgid "User preferences"
@@ -3937,7 +3965,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:23
 msgid "year"
-msgstr "کال"
+msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
 msgid "optional hour in 24h format"
@@ -3949,7 +3977,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:40
 msgid "optional minute"
-msgstr "اختیارۍ دقیقي"
+msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:40
 msgid "MM"
@@ -3994,3 +4022,12 @@ msgstr ""
 #: zeam.form.silva:/widgets/others_templates/comboboxfieldwidget.cpt:5
 msgid "Show All Items"
 msgstr ""
+
+#~ msgid "Convert all currently stored file to the current set storage"
+#~ msgstr "Převést všechny nyní uložené soubory do nyní nastaveného úložiště"
+
+#~ msgid "You Cannot add this content type in this container."
+#~ msgstr "Tento obsah nemůžete přidat do tohoto kontejneru."
+
+#~ msgid "You Cannot move this content to this container."
+#~ msgstr "Tento obsah nemůžete přesunout do tohoto kontejneru."

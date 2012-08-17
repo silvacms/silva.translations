@@ -1,4 +1,4 @@
-# Pashto translation for silva
+# Malay translation for silva
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
 # This file is distributed under the same license as the silva package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-08-17 09:47+0000\n"
-"PO-Revision-Date: 2012-06-01 11:20+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Pashto <ps@li.org>\n"
+"PO-Revision-Date: 2012-06-22 14:03+0000\n"
+"Last-Translator: inashdeen <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: silva.core.contentlayout:/model.py:170
 #: silva.core.smi:/content/__init__.py:27
 msgid "Edit"
-msgstr ""
+msgstr "Edit"
 
 #: Products.Silva:/Asset_templates/assetpath.cpt:4
 msgid "File system path"
@@ -44,15 +44,15 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC.py:124
 msgid "Silva folder order"
-msgstr "د دوسیي ترتیب Silva د"
+msgstr ""
 
 #: Products.Silva:/AutoTOC.py:125
 msgid "Alphabetically"
-msgstr "په الفبا"
+msgstr ""
 
 #: Products.Silva:/AutoTOC.py:126
 msgid "Reverse alphabetically"
-msgstr "دالفبا په ترتیب اړول"
+msgstr ""
 
 #: Products.Silva:/AutoTOC.py:127
 msgid "Chronologically by modification date"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:162
 msgid "Enable"
-msgstr "وړ"
+msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:163
 msgid "Send emails when asked to."
@@ -144,7 +144,7 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:166
 msgid "From Address"
-msgstr "له پته څخه"
+msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:167
 msgid "Email address used to send messages."
@@ -185,11 +185,13 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:289
 msgid "Upgrade"
-msgstr "جګول"
+msgstr "Naik taraf"
 
 #: Products.Silva:/ExtensionService.py:301
 msgid "Content upgrade succeeded. See event log for details"
 msgstr ""
+"Kandungan telah dinaik taraf dengan baik. Lihat log operasi untuk maklumat "
+"lengkap"
 
 #: Products.Silva:/ExtensionService.py:308
 msgid "Absolute path to reindex"
@@ -300,7 +302,7 @@ msgstr ""
 
 #: Products.Silva:/File/content.py:164
 msgid "download"
-msgstr "رانقلول"
+msgstr "muat turun"
 
 #: Products.Silva:/File/content.py:66
 #: Products.Silva:/Image/content.py:74
@@ -658,7 +660,7 @@ msgstr ""
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:9
 msgid "unknown"
-msgstr "ناڅرګند"
+msgstr ""
 
 #: Products.Silva:/Indexer.py:158
 msgid "Update Silva Indexer"
@@ -872,7 +874,7 @@ msgstr ""
 
 #: Products.Silva:/Version.py:170
 msgid "public"
-msgstr "عامه"
+msgstr ""
 
 #: Products.Silva:/Version.py:170
 msgid "pending"
@@ -1111,7 +1113,7 @@ msgstr ""
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/listing.py:136
 msgid "Author"
-msgstr "لیکونکی"
+msgstr ""
 
 #: Products.Silva:/roleinfo.py:38
 #: silva.core.interfaces:/auth.py:104
@@ -1129,7 +1131,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:35
 msgid "title"
-msgstr "سرلیک"
+msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:89
 msgid "a.k.a. &#8216;navigation title&#8217;."
@@ -1137,7 +1139,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:92
 msgid "short title"
-msgstr "لنډ سرلیک"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:153
 msgid "description"
@@ -1149,7 +1151,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:212
 msgid "language"
-msgstr "ژبه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:259
 msgid "Language of content in this area."
@@ -1157,15 +1159,15 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
-msgstr "یادونه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:318
 msgid "Internal comments."
-msgstr "داخلی یاودونه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:35
 msgid "subject"
-msgstr "موضوع"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:36
 msgid "Subject of content in this area."
@@ -1173,7 +1175,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:378
 msgid "creation time"
-msgstr "د جوړښت وخت"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:379
 #: Products.Silva:/schema/silva-extra.xml:439
@@ -1187,7 +1189,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:494
 msgid "creator"
-msgstr "جوړونکی"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:551
 msgid "last author"
@@ -1203,7 +1205,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:609
 msgid "contact name"
-msgstr "د اړیکې نوم"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:663
 msgid "Email address of contact person."
@@ -1211,11 +1213,11 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:666
 msgid "contact email"
-msgstr "د بریښنالیک اړیکه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:94
 msgid "keywords"
-msgstr "کلیدی توري"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:95
 msgid "Keywords relating to content."
@@ -1236,7 +1238,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-quota.xml:37
 msgid "quota"
-msgstr "برخه"
+msgstr ""
 
 #: Products.Silva:/schema/silva-settings.xml:24
 msgid ""
@@ -1262,7 +1264,7 @@ msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
-msgstr "فایل"
+msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
@@ -1827,7 +1829,7 @@ msgstr ""
 #: silva.app.subscriptions:/views.py:27
 #: silva.core.smi:/userinfo.py:53
 msgid "Email address"
-msgstr "د بریښنالیک پته"
+msgstr ""
 
 #: silva.app.subscriptions:/views.py:28
 msgid ""
@@ -1846,7 +1848,7 @@ msgstr ""
 
 #: silva.app.subscriptions:/views.py:55
 msgid "Subscribe"
-msgstr "منل"
+msgstr ""
 
 #: silva.app.subscriptions:/views.py:70
 #: silva.app.subscriptions:/views.py:98
@@ -2349,7 +2351,7 @@ msgstr ""
 #: silva.core.interfaces:/auth.py:111
 #: silva.core.interfaces:/auth.py:118
 msgid "select:"
-msgstr ":ټاکل"
+msgstr ""
 
 #: silva.core.interfaces:/auth.py:130
 msgid "identifier"
@@ -2415,7 +2417,7 @@ msgstr ""
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:80
 msgid "Type"
-msgstr "ډول"
+msgstr ""
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:84
 #: silva.core.contentlayout:/interfaces.py:193
@@ -2541,7 +2543,7 @@ msgstr ""
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:15
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:18
 msgid "edit content"
-msgstr "دمحتویاتو تغیرات"
+msgstr ""
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this content"
@@ -3543,11 +3545,11 @@ msgstr ""
 
 #: silva.core.smi:/userinfo.py:50
 msgid "user full name"
-msgstr "د کاروونکی بشپړ نوم"
+msgstr ""
 
 #: silva.core.smi:/userinfo.py:54
 msgid "contact email address"
-msgstr "د بریښنالیک د اړیکې پته"
+msgstr ""
 
 #: silva.core.smi:/userinfo.py:57
 msgid "Preferred language"
@@ -3555,7 +3557,7 @@ msgstr ""
 
 #: silva.core.smi:/userinfo.py:58
 msgid "language to use the for Silva interface"
-msgstr "د سلوا دنښلولو لپاره ژبه"
+msgstr ""
 
 #: silva.core.smi:/userinfo.py:88
 msgid "User preferences"
@@ -3937,7 +3939,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:23
 msgid "year"
-msgstr "کال"
+msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
 msgid "optional hour in 24h format"
@@ -3949,7 +3951,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:40
 msgid "optional minute"
-msgstr "اختیارۍ دقیقي"
+msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:40
 msgid "MM"
