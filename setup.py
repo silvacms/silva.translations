@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.3.1dev'
+version = '3.0dev'
 
 setup(name='silva.translations',
       version=version,
@@ -19,13 +19,17 @@ setup(name='silva.translations',
       author_email='info@infrae.com',
       url='http://infrae.com/product/silva',
       license='BSD',
-      packages=find_packages(exclude=['ez_setup']),
+      package_dir={'': 'src'},
+      packages=find_packages('src'),
       namespace_packages=['silva'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
+          'collective.monkeypatcher',
+          'infrae.wsgi',
           'setuptools',
-          'zope.i18nmessageid',
           'zope.i18n',
+          'zope.i18nmessageid',
+          'zope.publisher',
           ],
       )
