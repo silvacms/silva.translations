@@ -7,20 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-08-17 12:47+0000\n"
+"POT-Creation-Date: 2012-08-20 11:25+0000\n"
 "PO-Revision-Date: 2012-06-01 11:20+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Swahili <sw@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-08-17 11:28+0000\n"
+"X-Launchpad-Export-Date: 2012-08-20 09:48+0000\n"
 "X-Generator: Launchpad (build 15810)\n"
 
 #: Products.Silva:/Asset.py:136
 #: Products.Silva:/GhostFolder.py:393
 #: Products.Silva:/Image/smi.py:53
-#: silva.core.editor:/service.py:234
+#: silva.core.editor:/service.py:233
 #: silva.core.contentlayout:/model.py:170
 #: silva.core.smi:/content/__init__.py:27
 msgid "Edit"
@@ -384,7 +384,7 @@ msgid "File encoding"
 msgstr ""
 
 #: Products.Silva:/Folder/content.py:176
-msgid "You cannot convert a folder into a folder"
+msgid "You cannot convert a folder into a folder."
 msgstr ""
 
 #: Products.Silva:/Folder/content.py:43
@@ -773,7 +773,7 @@ msgid ""
 msgstr ""
 
 #: Products.Silva:/Publication/content.py:94
-msgid "You cannot convert a publication into a publication"
+msgid "You cannot convert a publication into a publication."
 msgstr ""
 
 #: Products.Silva:/Publication/localsite.py:21
@@ -797,11 +797,11 @@ msgid "Still have registered services."
 msgstr ""
 
 #: Products.Silva:/Root.py:147
-msgid "Root cannot be converted to folder"
+msgid "Root cannot be converted to folder."
 msgstr ""
 
 #: Products.Silva:/Root.py:155
-msgid "Root cannot be converted to publication"
+msgid "Root cannot be converted to publication."
 msgstr ""
 
 #: Products.Silva:/Root.py:44
@@ -1077,49 +1077,49 @@ msgid "Anonymous"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:31
-#: silva.core.interfaces:/auth.py:121
+#: silva.core.interfaces:/auth.py:120
 msgid "Authenticated"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:32
-#: silva.core.interfaces:/auth.py:106
+#: silva.core.interfaces:/auth.py:105
 msgid "Manager"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:33
-#: silva.core.interfaces:/auth.py:99
+#: silva.core.interfaces:/auth.py:98
 msgid "Viewer"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:34
-#: silva.core.interfaces:/auth.py:100
+#: silva.core.interfaces:/auth.py:99
 msgid "Viewer +"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:35
-#: silva.core.interfaces:/auth.py:101
+#: silva.core.interfaces:/auth.py:100
 msgid "Viewer ++"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:36
-#: silva.core.interfaces:/auth.py:102
+#: silva.core.interfaces:/auth.py:101
 msgid "Reader"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:37
-#: silva.core.interfaces:/auth.py:103
+#: silva.core.interfaces:/auth.py:102
 #: silva.core.smi:/content/publish/status.py:48
 #: silva.ui:/rest/container/listing.py:136
 msgid "Author"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:38
-#: silva.core.interfaces:/auth.py:104
+#: silva.core.interfaces:/auth.py:103
 msgid "Editor"
 msgstr ""
 
 #: Products.Silva:/roleinfo.py:39
-#: silva.core.interfaces:/auth.py:105
+#: silva.core.interfaces:/auth.py:104
 msgid "ChiefEditor"
 msgstr ""
 
@@ -1402,7 +1402,7 @@ msgid "Save"
 msgstr ""
 
 #: Products.SilvaExternalSources:/ExternalSource.py:351
-#: silva.core.editor:/service.py:243
+#: silva.core.editor:/service.py:242
 #: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
 msgstr ""
@@ -1420,7 +1420,7 @@ msgid "Source Asset added."
 msgstr ""
 
 #: Products.SilvaExternalSources:/SourceAsset.py:253
-#: silva.core.editor:/text.py:118
+#: silva.core.editor:/text.py:117
 #: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
 msgstr ""
@@ -1603,9 +1603,9 @@ msgstr ""
 
 #. Default: ""
 #: silva.app.page:/page.py:122
-#: silva.core.layout:/default.py:47
-#: silva.core.layout:/default.py:64
-#: silva.core.layout:/default.py:84
+#: silva.core.layout:/default.py:46
+#: silva.core.layout:/default.py:63
+#: silva.core.layout:/default.py:83
 #: silva.core.contentlayout:/model.py:183
 msgid "Sorry, this ${meta_type} is not viewable."
 msgstr ""
@@ -1882,27 +1882,27 @@ msgstr ""
 msgid "Audio version"
 msgstr ""
 
-#: silva.core.conf:/interfaces.py:16
+#: silva.core.conf:/interfaces.py:15
 msgid "Id"
 msgstr ""
 
-#: silva.core.conf:/interfaces.py:17
+#: silva.core.conf:/interfaces.py:16
 msgid "No spaces or special characters besides ‘_’ or ‘-’ or ‘.’"
 msgstr ""
 
-#: silva.core.conf:/interfaces.py:26
+#: silva.core.conf:/interfaces.py:25
 #: silva.core.contentlayout:/interfaces.py:433
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:36
 #: silva.ui:/rest/container/listing.py:116
 msgid "Title"
 msgstr ""
 
-#: silva.core.conf:/interfaces.py:27
+#: silva.core.conf:/interfaces.py:26
 msgid ""
 "The title will be publicly visible, and is used for the link in indexes."
 msgstr ""
 
-#: silva.core.conf:/schema.py:110
+#: silva.core.conf:/schema.py:109
 msgid "Invalid crop coordinates."
 msgstr ""
 
@@ -1911,7 +1911,7 @@ msgid "New site content component added."
 msgstr ""
 
 #: silva.core.contentlayout:/blocks/contents.py:132
-msgid "Add a site content component "
+msgid "Add a site content component"
 msgstr ""
 
 #: silva.core.contentlayout:/blocks/contents.py:156
@@ -2269,24 +2269,24 @@ msgid ""
 "You can drag them into a new position on your page, or remove them entirely."
 msgstr ""
 
-#: silva.core.editor:/service.py:202
+#: silva.core.editor:/service.py:201
 msgid "Manage CKEditor configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:203
-#: silva.core.editor:/service.py:286
+#: silva.core.editor:/service.py:202
+#: silva.core.editor:/service.py:285
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
 
-#: silva.core.editor:/service.py:211
+#: silva.core.editor:/service.py:210
 msgid "Add a configuration"
 msgstr ""
 
-#: silva.core.editor:/service.py:212
+#: silva.core.editor:/service.py:211
 msgid "Add a specific editor configuration for a content type in Silva."
 msgstr ""
 
-#: silva.core.editor:/service.py:220
+#: silva.core.editor:/service.py:219
 #: silva.core.contentlayout:/blocks/contents.py:105
 #: silva.core.contentlayout:/blocks/slot.py:233
 #: silva.core.contentlayout:/blocks/source.py:98
@@ -2296,31 +2296,31 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: silva.core.editor:/service.py:224
+#: silva.core.editor:/service.py:223
 msgid "There were errors"
 msgstr ""
 
-#: silva.core.editor:/service.py:235
+#: silva.core.editor:/service.py:234
 msgid "edit the selected configuration"
 msgstr ""
 
-#: silva.core.editor:/service.py:244
+#: silva.core.editor:/service.py:243
 msgid "remove the selected configuration"
 msgstr ""
 
-#: silva.core.editor:/service.py:250
+#: silva.core.editor:/service.py:249
 msgid "You cannot remove the default configuration"
 msgstr ""
 
-#: silva.core.editor:/service.py:265
+#: silva.core.editor:/service.py:264
 msgid "Manage existing configurations"
 msgstr ""
 
-#: silva.core.editor:/service.py:266
+#: silva.core.editor:/service.py:265
 msgid "Edit or remove editor configuration for giving Silva content types."
 msgstr ""
 
-#: silva.core.editor:/service.py:285
+#: silva.core.editor:/service.py:284
 msgid "CKEditor settings"
 msgstr ""
 
@@ -2341,54 +2341,54 @@ msgstr ""
 msgid "Edit content"
 msgstr ""
 
-#: silva.core.editor:/transform/silvaxml/xmlexport.py:57
+#: silva.core.editor:/transform/silvaxml/xmlexport.py:56
 #: silva.core.references:/widgets/formulator.py:154
 msgid "External reference"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:111
-#: silva.core.interfaces:/auth.py:118
+#: silva.core.interfaces:/auth.py:110
+#: silva.core.interfaces:/auth.py:117
 msgid "select:"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:130
+#: silva.core.interfaces:/auth.py:129
 msgid "identifier"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:134
+#: silva.core.interfaces:/auth.py:133
 msgid "role defined above"
 msgstr ""
 
-#: silva.core.interfaces:/auth.py:139
+#: silva.core.interfaces:/auth.py:138
 msgid "role defined here"
 msgstr ""
 
-#: silva.core.interfaces:/errors.py:14
+#: silva.core.interfaces:/errors.py:13
 msgid "Invalid ghost target."
 msgstr ""
 
-#. Default: ""
-#: silva.core.interfaces:/errors.py:175
-msgid "Error while importing: ${path}: ${reason}"
-msgstr ""
-
-#: silva.core.interfaces:/errors.py:18
+#: silva.core.interfaces:/errors.py:17
 msgid "Missing required ghost target."
 msgstr ""
 
-#: silva.core.interfaces:/errors.py:22
+#. Default: ""
+#: silva.core.interfaces:/errors.py:174
+msgid "Error while importing: ${path}: ${reason}"
+msgstr ""
+
+#: silva.core.interfaces:/errors.py:21
 msgid "Ghost target creates a circular reference."
 msgstr ""
 
-#: silva.core.interfaces:/errors.py:26
+#: silva.core.interfaces:/errors.py:25
 msgid "Ghost target is a ghost."
 msgstr ""
 
-#: silva.core.interfaces:/errors.py:30
+#: silva.core.interfaces:/errors.py:29
 msgid "Ghost target should be a container."
 msgstr ""
 
-#: silva.core.interfaces:/errors.py:34
+#: silva.core.interfaces:/errors.py:33
 msgid "Ghost target should be a content."
 msgstr ""
 
@@ -2534,21 +2534,25 @@ msgstr ""
 msgid "Editable content properties"
 msgstr ""
 
-#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:12
+#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:10
+msgid "No content refers to this ${content_type}."
+msgstr ""
+
+#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:13
 msgid "This content is referenced by:"
 msgstr ""
 
-#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:15
-#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:18
+#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:16
+#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:19
 msgid "edit content"
 msgstr "kubadili kitu ndani faili"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
-msgid "List of contents that refer to this content"
+msgid "References"
 msgstr ""
 
-#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:9
-msgid "No content refers to this ${content_type}."
+#: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
+msgid "List of contents that refer to this content"
 msgstr ""
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:12
@@ -3111,7 +3115,7 @@ msgid "Role to grant:"
 msgstr ""
 
 #: silva.core.smi:/settings/access.py:141
-#: silva.pas.base:/smi.py:219
+#: silva.pas.base:/smi.py:218
 msgid "Grant role"
 msgstr ""
 
@@ -3137,7 +3141,7 @@ msgid ""
 msgstr ""
 
 #: silva.core.smi:/settings/access.py:181
-#: silva.pas.base:/smi.py:259
+#: silva.pas.base:/smi.py:258
 msgid "Revoke role"
 msgstr ""
 
@@ -3163,12 +3167,12 @@ msgid ""
 msgstr ""
 
 #: silva.core.smi:/settings/access.py:221
-#: silva.pas.base:/smi.py:208
+#: silva.pas.base:/smi.py:207
 msgid "Role defined above"
 msgstr ""
 
 #: silva.core.smi:/settings/access.py:225
-#: silva.pas.base:/smi.py:212
+#: silva.pas.base:/smi.py:211
 msgid "Role defined here"
 msgstr ""
 
@@ -3177,7 +3181,7 @@ msgid "User roles"
 msgstr ""
 
 #: silva.core.smi:/settings/access.py:238
-#: silva.pas.base:/smi.py:302
+#: silva.pas.base:/smi.py:301
 msgid "No roles have been assigned."
 msgstr ""
 
@@ -3193,7 +3197,7 @@ msgid ""
 msgstr ""
 
 #: silva.core.smi:/settings/access.py:290
-#: silva.pas.base:/smi.py:349
+#: silva.pas.base:/smi.py:348
 msgid "Clear clipboard"
 msgstr ""
 
@@ -3534,7 +3538,7 @@ msgid "User identifier"
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:45
-msgid "identifier used to authenticate"
+msgid "User identifier used to authenticate."
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:49
@@ -3542,11 +3546,11 @@ msgid "Fullname"
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:50
-msgid "user full name"
+msgid "User full name."
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:54
-msgid "contact email address"
+msgid "Contact email address for the user."
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:57
@@ -3554,7 +3558,7 @@ msgid "Preferred language"
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:58
-msgid "language to use the for Silva interface"
+msgid "Language to use in the Silva interface."
 msgstr ""
 
 #: silva.core.smi:/userinfo.py:88
@@ -3592,125 +3596,125 @@ msgstr ""
 msgid "Invalid login or password."
 msgstr ""
 
-#: silva.pas.base:/smi.py:107
+#: silva.pas.base:/smi.py:106
 msgid "Logged in"
 msgstr ""
 
-#: silva.pas.base:/smi.py:108
+#: silva.pas.base:/smi.py:107
 msgid "You are now authenticated."
 msgstr ""
 
-#: silva.pas.base:/smi.py:116
+#: silva.pas.base:/smi.py:115
 msgid "Lookup groups..."
 msgstr ""
 
-#: silva.pas.base:/smi.py:117
+#: silva.pas.base:/smi.py:116
 msgid "Search for groups to assign roles"
 msgstr ""
 
-#: silva.pas.base:/smi.py:126
-#: silva.pas.base:/smi.py:206
+#: silva.pas.base:/smi.py:125
+#: silva.pas.base:/smi.py:205
 msgid "Group name"
 msgstr ""
 
-#: silva.pas.base:/smi.py:127
+#: silva.pas.base:/smi.py:126
 msgid "Group name or part of a group name to lookup"
 msgstr ""
 
-#: silva.pas.base:/smi.py:136
+#: silva.pas.base:/smi.py:135
 msgid "Lookup group"
 msgstr ""
 
-#: silva.pas.base:/smi.py:137
+#: silva.pas.base:/smi.py:136
 msgid "Search for groups in order to assign them roles"
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:162
+#: silva.pas.base:/smi.py:161
 msgid "Found ${count} groups: ${groups}."
 msgstr ""
 
-#: silva.pas.base:/smi.py:168
+#: silva.pas.base:/smi.py:167
 msgid "No matching groups found."
 msgstr ""
 
-#: silva.pas.base:/smi.py:181
+#: silva.pas.base:/smi.py:180
 msgid "Lookup groups"
 msgstr ""
 
-#: silva.pas.base:/smi.py:182
+#: silva.pas.base:/smi.py:181
 msgid ""
 "Search for groups to assign them roles. Leave the field empty to get all "
 "groups (could be a long list)."
 msgstr ""
 
-#: silva.pas.base:/smi.py:220
+#: silva.pas.base:/smi.py:219
 msgid "Grant the selected role to the selected groups(s)"
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:237
+#: silva.pas.base:/smi.py:236
 msgid "Role \"${role}\" granted to group \"${groupname}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:242
+#: silva.pas.base:/smi.py:241
 msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:247
-#: silva.pas.base:/smi.py:285
+#: silva.pas.base:/smi.py:246
+#: silva.pas.base:/smi.py:284
 msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
 msgstr ""
 
-#: silva.pas.base:/smi.py:260
+#: silva.pas.base:/smi.py:259
 msgid "Revoke the role of selected group(s)"
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:274
+#: silva.pas.base:/smi.py:273
 msgid "Removed role \"${role}\" from group \"${groupname}\"."
 msgstr ""
 
 #. Default: ""
-#: silva.pas.base:/smi.py:280
+#: silva.pas.base:/smi.py:279
 msgid "Group \"${groupname}\" doesn't have any local role."
 msgstr ""
 
-#: silva.pas.base:/smi.py:301
+#: silva.pas.base:/smi.py:300
 msgid "Group roles"
 msgstr ""
 
-#: silva.pas.base:/smi.py:329
+#: silva.pas.base:/smi.py:328
 msgid "Group clipboard"
 msgstr ""
 
-#: silva.pas.base:/smi.py:330
+#: silva.pas.base:/smi.py:329
 msgid "Search for groups to assign them roles."
 msgstr ""
 
-#: silva.pas.base:/smi.py:34
-#: silva.pas.base:/smi.py:78
+#: silva.pas.base:/smi.py:33
+#: silva.pas.base:/smi.py:77
 msgid "Login"
 msgstr ""
 
-#: silva.pas.base:/smi.py:350
+#: silva.pas.base:/smi.py:349
 msgid "Remove the group lookup results"
 msgstr ""
 
-#: silva.pas.base:/smi.py:37
+#: silva.pas.base:/smi.py:36
 #: silva.pas.base:/Membership_templates/loginpage.cpt:44
 msgid "Password"
 msgstr ""
 
-#: silva.pas.base:/smi.py:67
+#: silva.pas.base:/smi.py:66
 msgid "Restricted access"
 msgstr ""
 
-#: silva.pas.base:/smi.py:68
+#: silva.pas.base:/smi.py:67
 msgid "You need to login with new credentials in order to continue."
 msgstr ""
 
@@ -3931,11 +3935,11 @@ msgid "year"
 msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
-msgid "optional hour in 24h format"
+msgid "HH"
 msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
-msgid "HH"
+msgid "optional hour in 24h format"
 msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:40
