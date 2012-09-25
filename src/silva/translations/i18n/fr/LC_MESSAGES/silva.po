@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: silva-fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-03 08:56+0000\n"
-"PO-Revision-Date: 2012-08-20 10:07+0000\n"
+"PO-Revision-Date: 2012-09-03 07:32+0000\n"
 "Last-Translator: Sylvain Viollon <sylvain@infrae.com>\n"
 "Language-Team: jpombar <pombar.joaquin@wanadoo.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-09-03 07:28+0000\n"
-"X-Generator: Launchpad (build 15890)\n"
+"X-Launchpad-Export-Date: 2012-09-25 07:00+0000\n"
+"X-Generator: Launchpad (build 16019)\n"
 "Language-code: fr\n"
 "Domain: silva\n"
 "X-Poedit-Country: FRANCE\n"
@@ -426,7 +426,7 @@ msgstr "Encodage du fichier"
 
 #: Products.Silva:/Folder/content.py:176
 msgid "You cannot convert a folder into a folder."
-msgstr ""
+msgstr "Vous ne pouvez pas convertir un dossier en dossier."
 
 #: Products.Silva:/Folder/content.py:43
 msgid ""
@@ -525,11 +525,11 @@ msgstr "Cible"
 
 #: Products.Silva:/Ghost.py:251
 msgid "The internal item the ghost is mirroring."
-msgstr ""
+msgstr "Le contenu interne sur lequel le fantôme pointe."
 
 #: Products.Silva:/Ghost.py:291
 msgid "Click the Lookup button to select an item to haunt."
-msgstr ""
+msgstr "Cliquer sur le bouton Parcourir pour sélectionner un contenu cible."
 
 #: Products.Silva:/Ghost.py:314
 msgid "This 'ghost' is unavailable. Please inform the site manager."
@@ -575,7 +575,7 @@ msgstr ""
 
 #: Products.Silva:/GhostFolder.py:337
 msgid "The internal folder the ghost is mirroring"
-msgstr ""
+msgstr "Le dossier interne sur lequel le fantôme pointe."
 
 #: Products.Silva:/GhostFolder.py:342
 msgid "Synchronize target and ghost folder content"
@@ -2373,7 +2373,7 @@ msgstr ""
 #. Default: ""
 #: silva.core.contentlayout:/service.py:270
 msgid "Template ${design} is not available."
-msgstr ""
+msgstr "Le modèle ${design} n'est pas disponible."
 
 #. Default: ""
 #: silva.core.contentlayout:/service.py:276
@@ -4441,87 +4441,5 @@ msgstr "Afficher tous les éléments"
 #~ msgid "Convert all currently stored file to the current set storage"
 #~ msgstr "Convertir tous les fichiers sauvegardés vers le stockage sélectionné"
 
-#~ msgid ""
-#~ "If the link goes to content in Silva, put a checkmark here and lookup the "
-#~ "target below."
-#~ msgstr ""
-#~ "Si le lien pointe vers un contenu Silva, cochez ici et sélectionner la cible "
-#~ "en dessous."
-
-#~ msgid "Make a reference to internal content by looking it up."
-#~ msgstr "Créer une référence vers un contenu interne en le recherchant."
-
-#~ msgid "Add a new content in Silva to refer it"
-#~ msgstr "Ajouter un nouveau contenu dans Silva pour l'utiliser"
-
-#~ msgid "Lookup a content"
-#~ msgstr "Chercher un contenu"
-
-#~ msgid "Editable content properties"
-#~ msgstr "Propriétés de la version de travail"
-
-#~ msgid "Approved version content properties"
-#~ msgstr "Propriétés de la version validée"
-
-#~ msgid "Public version content properties"
-#~ msgstr "Propriétés de la version publique"
-
-#~ msgid "This content is referenced by:"
-#~ msgstr "Ce contenu est utilisé par:"
-
-#~ msgid "Last closed version content properties"
-#~ msgstr "Propriétés de la dernière version fermée"
-
-#~ msgid "Approve content for future"
-#~ msgstr "Valider ce contenu pour le futur"
-
-#~ msgid "Approve selected content for the future"
-#~ msgstr "Valider le contenu sélectionné pour le futur"
-
 #~ msgid "user full name"
 #~ msgstr "nom complet de l'utilisateur"
-
-#~ msgid "Click the Lookup button to select a content to refer to."
-#~ msgstr "Cliquer sur le button Parcourir pour sélectionner un contenu cible."
-
-#~ msgid "Click the Lookup button to select a content to haunt."
-#~ msgstr ""
-#~ "Cliquer sur le bouton Parcourir pour sélectionner un contenu à répliquer."
-
-#~ msgid ""
-#~ "Absolute link selected without URL. If the link goes to content in Silva, "
-#~ "put a checkmark in the relative link field."
-#~ msgstr ""
-#~ "Liens absolut sélectionné sans URL. Si le lien pointe vers un contenu dans "
-#~ "Silva, cochez 'Lien relatif'."
-
-#~ msgid "Content moved in position ${position}."
-#~ msgstr "Contenu déplacé en position ${position}."
-
-#~ msgid "Could not move content in position ${position}."
-#~ msgstr "Impossible de déplacer le contenu en position ${position}."
-
-#~ msgid "List of contents that refer to this content"
-#~ msgstr "Liste de contenus utilisant ce contenu"
-
-#~ msgid "Publish now this content."
-#~ msgstr "Publier le contenu maintenant."
-
-#~ msgid "Replace content"
-#~ msgstr "Replacer les contenus"
-
-#~ msgid "Minimum required role needed to access this content"
-#~ msgstr "Rôle minimal requis pour accéder à ce contenu"
-
-#~ msgid "Interfaces in use which affect the behavior of the content"
-#~ msgstr "Interfaces utilisé qui affecte le comportement du contenu"
-
-#~ msgid ""
-#~ "This screen lets you tag content with markers which can alter how content is "
-#~ "displayed and behaves."
-#~ msgstr ""
-#~ "Cet écran vous laisse marquer le contenu à l'aide de marqueur modifiant "
-#~ "l'affichage et le comportement de ce dernier."
-
-#~ msgid "No content refers to this ${content_type}."
-#~ msgstr "Aucun contenu n'utilise ce ${content_type}"

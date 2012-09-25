@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-09-03 08:56+0000\n"
-"PO-Revision-Date: 2012-08-31 21:06+0000\n"
+"PO-Revision-Date: 2012-09-24 21:28+0000\n"
 "Last-Translator: Zbyněk Schwarz <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-09-03 07:28+0000\n"
-"X-Generator: Launchpad (build 15890)\n"
+"X-Launchpad-Export-Date: 2012-09-25 07:00+0000\n"
+"X-Generator: Launchpad (build 16019)\n"
 
 #: Products.Silva:/Asset.py:136
 #: Products.Silva:/GhostFolder.py:393
@@ -32,7 +32,7 @@ msgstr "Cesta v souborovém systému"
 
 #: Products.Silva:/Asset_templates/assetpath.cpt:4
 msgid "File system path to this asset on the server"
-msgstr "Cesta v souborovém systému pro tento objekt."
+msgstr "Cesta v souborovém systému pro tento zdroj."
 
 #: Products.Silva:/Asset_templates/assetsize.cpt:3
 msgid "File size"
@@ -40,7 +40,7 @@ msgstr "Velikost souboru"
 
 #: Products.Silva:/Asset_templates/assetsize.cpt:3
 msgid "Size of this asset"
-msgstr "Velikost tohoto objektu"
+msgstr "Velikost tohoto zdroje"
 
 #: Products.Silva:/AutoTOC/content.py:23
 msgid ""
@@ -60,7 +60,7 @@ msgstr ""
 "    obsah. Obvykle je použit jako dokument obsahující rejstřík adresáře.\n"
 "    Poté nadřazená složka při přístupu zobrazuje obsah (například\n"
 "    http://www.x.yz/silva/myFolder). AutoTOC je nastavitelný: může zobrazit\n"
-"    jakýkoliv výběr obsahu Silvy včetně položek, zahrnout popisy nebo \n"
+"    jakýkoliv výběr obsahu Silvy včetně zdrojů, zahrnout popisy nebo \n"
 "    ikony, může být nastaven k zastavení na dané hloubce a používat různé "
 "metody\n"
 "    řazení.\n"
@@ -503,11 +503,11 @@ msgstr "Cíl"
 
 #: Products.Silva:/Ghost.py:251
 msgid "The internal item the ghost is mirroring."
-msgstr ""
+msgstr "Vnitřní položka, kterou duch zrcadlí."
 
 #: Products.Silva:/Ghost.py:291
 msgid "Click the Lookup button to select an item to haunt."
-msgstr ""
+msgstr "Klikněte na tlačítko Hledat pro zvolení položky ke strašení."
 
 #: Products.Silva:/Ghost.py:314
 msgid "This 'ghost' is unavailable. Please inform the site manager."
@@ -542,13 +542,13 @@ msgstr ""
 "zůstane\n"
 "       synchronizován s originálem, buď ručně nebo automaticky. "
 "Nezapomeňte,\n"
-"       že když má složka ducha, objekty &#8211; jako obrázky a soubory "
+"       že když má složka ducha, zdroje &#8211; jako obrázky a soubory "
 "&#8211;\n"
 "       jsou kopírovány (fyzicky zdvojeny) zatímco dokumenty mají ducha."
 
 #: Products.Silva:/GhostFolder.py:337
 msgid "The internal folder the ghost is mirroring"
-msgstr ""
+msgstr "Vnitřní adresář, který duch zrcadlí."
 
 #: Products.Silva:/GhostFolder.py:342
 msgid "Synchronize target and ghost folder content"
@@ -583,7 +583,7 @@ msgid ""
 "    "
 msgstr ""
 "Internetová grafika (gif, jpg, png) může být vložena do\n"
-"       dokumentů, nebo použita jako zobrazitelný objekt.\n"
+"       dokumentů, nebo použita jako zobrazitelný zdroj.\n"
 "    "
 
 #: Products.Silva:/Image/content.py:327
@@ -797,6 +797,8 @@ msgid ""
 "If the link goes to an internal item in Silva, put a checkmark here and "
 "lookup the target below."
 msgstr ""
+"Pokud odkaz směruje na vnitřní položku v Silva, zaškrtněte zde a cíl zadejte "
+"níže."
 
 #: Products.Silva:/Link.py:114
 msgid "Target of relative link"
@@ -804,7 +806,7 @@ msgstr "Cíl relativního odkazu"
 
 #: Products.Silva:/Link.py:115
 msgid "Make a reference to an internal item by looking it up."
-msgstr ""
+msgstr "Vytvořit odkaz na vnitřní položku jejím vyhledáním."
 
 #: Products.Silva:/Link.py:123
 msgid "Relative link selected without target."
@@ -815,11 +817,14 @@ msgid ""
 "Absolute link selected without URL. If the link goes to an internal item in "
 "Silva, put a checkmark in the relative link field."
 msgstr ""
+"Zvolen absolutní odkaz bez URL. Pokud odkaz směřuje na vnitřní položku v "
+"Silva, zaškrtněte pole relativního odkazu."
 
 #: Products.Silva:/Link.py:138
 #: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select an item to refer to."
 msgstr ""
+"Klikněte na tlačítko vyhledat pro zvolení položky na kterou odkazovat."
 
 #: Products.Silva:/Link.py:33
 msgid ""
@@ -855,7 +860,7 @@ msgid ""
 msgstr ""
 "Publikace jsou zvláštní složky. Fungují jako hlavní\n"
 "       bloky uspořádání na stránce Silva. Můžou být přirovnány k\n"
-"       pořadačům a mohou obsahovat složky, dokumenty a objekty.\n"
+"       pořadačům a mohou obsahovat složky, dokumenty a zdroje.\n"
 "       Publikace nejsou průhledné. Zavádí práh pohledu, zobrazujíc\n"
 "       pouze obsah ze současné publikace. Tím jsou souhrnná zobrazení\n"
 "       přehledná. Publikace mají nastavení, která určují zobrazení\n"
@@ -1126,27 +1131,27 @@ msgstr "ID začínající s ${prefix} jsou vyhrazeny pro použití v programu."
 #. Default: ""
 #: Products.Silva:/mangle.py:271
 msgid "The id ${id} is reserved for internal use."
-msgstr ""
+msgstr "ID ${id} je vyhrazeno pro vnitřní použití"
 
 #. Default: ""
 #: Products.Silva:/mangle.py:274
 msgid "There is already an object with the id ${id} in this container."
-msgstr ""
+msgstr "V tomto kontejneru již existuje objekt s id ${id}."
 
 #. Default: ""
 #: Products.Silva:/mangle.py:278
 msgid "There is already an asset with the id ${id} in this container."
-msgstr ""
+msgstr "V tomto kontejneru již existuje zdroj s id ${id}."
 
 #. Default: ""
 #: Products.Silva:/mangle.py:281
 msgid "The id ${id} ends with invalid characters."
-msgstr ""
+msgstr "ID ${id} končí se špatnými znaky."
 
 #. Default: ""
 #: Products.Silva:/mangle.py:284
 msgid "The id ${id} is already in use by a Zope object."
-msgstr ""
+msgstr "ID ${id} již je používáno objektem Zope."
 
 #. Default: ""
 #: Products.Silva:/mangle.py:286
@@ -1154,276 +1159,287 @@ msgid ""
 "(Internal Error): An invalid status ${status_code} occured while checking "
 "the id ${id}."
 msgstr ""
+"(Vnitřní chyba): Při kontrole id ${id} nastal neplatný stav ${status_code}."
 
 #: Products.Silva:/roleinfo.py:27
 msgid "zope roles"
-msgstr ""
+msgstr "role zope"
 
 #: Products.Silva:/roleinfo.py:28
 msgid "silva roles"
-msgstr ""
+msgstr "role silva"
 
 #: Products.Silva:/roleinfo.py:29
 msgid "public silva roles"
-msgstr ""
+msgstr "role veřejné silva"
 
 #: Products.Silva:/roleinfo.py:30
 msgid "Anonymous"
-msgstr ""
+msgstr "Anonymní"
 
 #: Products.Silva:/roleinfo.py:31
 #: silva.core.interfaces:/auth.py:120
 msgid "Authenticated"
-msgstr ""
+msgstr "Přihlášeni"
 
 #: Products.Silva:/roleinfo.py:32
 #: silva.core.interfaces:/auth.py:105
 msgid "Manager"
-msgstr ""
+msgstr "Správce"
 
 #: Products.Silva:/roleinfo.py:33
 #: silva.core.interfaces:/auth.py:98
 msgid "Viewer"
-msgstr ""
+msgstr "Prohlížeč"
 
 #: Products.Silva:/roleinfo.py:34
 #: silva.core.interfaces:/auth.py:99
 msgid "Viewer +"
-msgstr ""
+msgstr "Prohlížeč +"
 
 #: Products.Silva:/roleinfo.py:35
 #: silva.core.interfaces:/auth.py:100
 msgid "Viewer ++"
-msgstr ""
+msgstr "Prohlížeč ++"
 
 #: Products.Silva:/roleinfo.py:36
 #: silva.core.interfaces:/auth.py:101
 msgid "Reader"
-msgstr ""
+msgstr "Čtenář"
 
 #: Products.Silva:/roleinfo.py:37
 #: silva.core.interfaces:/auth.py:102
 #: silva.core.smi:/content/publish/status.py:51
 #: silva.ui:/rest/container/listing.py:136
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: Products.Silva:/roleinfo.py:38
 #: silva.core.interfaces:/auth.py:103
 msgid "Editor"
-msgstr ""
+msgstr "Editor"
 
 #: Products.Silva:/roleinfo.py:39
 #: silva.core.interfaces:/auth.py:104
 msgid "ChiefEditor"
-msgstr ""
+msgstr "Šéfeditor"
 
 #: Products.Silva:/schema/silva-content.xml:32
 msgid "Title of content."
-msgstr ""
+msgstr "Název obsahu."
 
 #: Products.Silva:/schema/silva-content.xml:35
 msgid "title"
-msgstr ""
+msgstr "název"
 
 #: Products.Silva:/schema/silva-content.xml:89
 msgid "a.k.a. &#8216;navigation title&#8217;."
-msgstr ""
+msgstr "např. &#8216;název pro navigaci&#8217;."
 
 #: Products.Silva:/schema/silva-content.xml:92
 msgid "short title"
-msgstr ""
+msgstr "krátký název"
 
 #: Products.Silva:/schema/silva-extra.xml:153
 msgid "description"
-msgstr ""
+msgstr "popis"
 
 #: Products.Silva:/schema/silva-extra.xml:154
 msgid "Description of content in this area."
-msgstr ""
+msgstr "Popips obsahu v této oblasti"
 
 #: Products.Silva:/schema/silva-extra.xml:212
 msgid "language"
-msgstr ""
+msgstr "jazyk"
 
 #: Products.Silva:/schema/silva-extra.xml:259
 msgid "Language of content in this area."
-msgstr ""
+msgstr "Jazyk obsahu v této oblasti"
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
-msgstr ""
+msgstr "komentář"
 
 #: Products.Silva:/schema/silva-extra.xml:318
 msgid "Internal comments."
-msgstr ""
+msgstr "Vnitřní komentáře."
 
 #: Products.Silva:/schema/silva-extra.xml:35
 msgid "subject"
-msgstr ""
+msgstr "předmět"
 
 #: Products.Silva:/schema/silva-extra.xml:36
 msgid "Subject of content in this area."
-msgstr ""
+msgstr "Předměto obsahu v této oblasti"
 
 #: Products.Silva:/schema/silva-extra.xml:378
 msgid "creation time"
-msgstr ""
+msgstr "datum vytvoření"
 
 #: Products.Silva:/schema/silva-extra.xml:379
 #: Products.Silva:/schema/silva-extra.xml:439
 #: Products.Silva:/schema/silva-extra.xml:496
 msgid "Automatically set."
-msgstr ""
+msgstr "Automaticky nastaveno."
 
 #: Products.Silva:/schema/silva-extra.xml:438
 msgid "modification time"
-msgstr ""
+msgstr "datum změny"
 
 #: Products.Silva:/schema/silva-extra.xml:494
 msgid "creator"
-msgstr ""
+msgstr "tvůrce"
 
 #: Products.Silva:/schema/silva-extra.xml:551
 msgid "last author"
-msgstr ""
+msgstr "poslední autor"
 
 #: Products.Silva:/schema/silva-extra.xml:553
 msgid "User who last edited this content."
-msgstr ""
+msgstr "Uživatel, který naposledy upravoval tento obsah."
 
 #: Products.Silva:/schema/silva-extra.xml:606
 msgid "Name of contact person."
-msgstr ""
+msgstr "Jméno kontaktní osoby."
 
 #: Products.Silva:/schema/silva-extra.xml:609
 msgid "contact name"
-msgstr ""
+msgstr "kontaktní jméno"
 
 #: Products.Silva:/schema/silva-extra.xml:663
 msgid "Email address of contact person."
-msgstr ""
+msgstr "Emailová adresa kontaktní osoby"
 
 #: Products.Silva:/schema/silva-extra.xml:666
 msgid "contact email"
-msgstr ""
+msgstr "kontaktní email"
 
 #: Products.Silva:/schema/silva-extra.xml:94
 msgid "keywords"
-msgstr ""
+msgstr "klíčová slova"
 
 #: Products.Silva:/schema/silva-extra.xml:95
 msgid "Keywords relating to content."
-msgstr ""
+msgstr "Klíčová slova vztahující se k obsahu."
 
 #: Products.Silva:/schema/silva-layout.xml:25
 msgid "Select skin or 'look &amp; feel' for this publication."
-msgstr ""
+msgstr "Vyberte vzhled pro tuto publikaci."
 
 #: Products.Silva:/schema/silva-layout.xml:27
 msgid "desktop skin"
-msgstr ""
+msgstr "vzhled plochy"
 
 #: Products.Silva:/schema/silva-quota.xml:34
 msgid ""
 "Maximum space allowed for this container, including sub-containers, in MB."
 msgstr ""
+"Maximální prostor pro tento kontejner, včetně jeho podkontejnerů, v MB."
 
 #: Products.Silva:/schema/silva-quota.xml:37
 msgid "quota"
-msgstr ""
+msgstr "kvóta"
 
 #: Products.Silva:/schema/silva-settings.xml:24
 msgid ""
 "If this is enabled, this content (and anything it contains!) will not show "
 "up in tables of content."
 msgstr ""
+"Pokud je toto povoleno, tento obsah (a všechno co obsahuje!) nebude zobrazen "
+"v rejstříku."
 
 #: Products.Silva:/schema/silva-settings.xml:26
 msgid "hide from tables of content"
-msgstr ""
+msgstr "skrýt z rejstříku"
 
 #: Products.Silva:/silvaxml/xmlexport.py:57
 msgid "External references"
-msgstr ""
+msgstr "Externí odkazy"
 
 #: Products.Silva:/silvaxml/xmlimport.py:53
 msgid "Missing reference path."
-msgstr ""
+msgstr "Chybí cesta odkazu."
 
 #: Products.Silva:/silvaxml/xmlimport.py:57
 msgid "Could not resolve reference path."
-msgstr ""
+msgstr "Nelze rozřešit cestu odkazu."
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
-msgstr ""
+msgstr "soubor"
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
-msgstr ""
+msgstr "Soubor který nahrát jako zdrojová data."
 
 #: Products.SilvaExternalSources:/CSVSource.py:236
 msgid "character encoding"
-msgstr ""
+msgstr "kódování znaků"
 
 #: Products.SilvaExternalSources:/CSVSource.py:237
 msgid "Character encoding of the source data."
-msgstr ""
+msgstr "Kódování znaků zdrojových dat."
 
 #: Products.SilvaExternalSources:/CSVSource.py:262
 msgid "Click the Upload button to replace the current CSV with a new one."
-msgstr ""
+msgstr "Klikněte na tlačítko nahrát pro nahrazení současného CSV novým."
 
 #: Products.SilvaExternalSources:/CodeSourceService.py:381
 msgid "Sources refreshed."
-msgstr ""
+msgstr "Zdroje obnoveny."
 
 #. Default: ""
 #: Products.SilvaExternalSources:/CodeSourceService.py:424
 msgid ""
 "Installed sources ${installed} but ${notinstalled} where already installed."
 msgstr ""
+"Instalovány zdroje ${installed} ale ${notinstalled} byly již nainstalovány."
 
 #. Default: ""
 #: Products.SilvaExternalSources:/CodeSourceService.py:430
 msgid "Installed sources ${installed}."
-msgstr ""
+msgstr "Instalovány zdroje ${installed}."
 
 #. Default: ""
 #: Products.SilvaExternalSources:/CodeSourceService.py:434
 msgid "Sources ${notinstalled} are already installed."
-msgstr ""
+msgstr "Zdroje ${notinstalled} jsou již nainstalovány."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:21
 msgid "Code sources used in this site"
-msgstr ""
+msgstr "Zdroje kódu použité na této stránce"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:25
 msgid "Currently known code sources"
-msgstr ""
+msgstr "V současnosti známé zdroje kódu"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:33
 msgid ""
 "There are currently ${count} known code sources likely to be used in this "
 "Silva site."
 msgstr ""
+"V současnosti je známo ${count} zdrojů kódů, které pravděpodobně budou "
+"použity na této stránce Silva."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:37
 msgid ""
 "Sources in red are broken and need attention. However, it is possible that "
 "other sources are broken as well and are not displayed in red."
 msgstr ""
+"Červené zdroje jsou rozbité a vyžadují pozornost. Je také ale možné, že jsou "
+"rozbity ostatní zdroje, aniž by tak byly zobrazeny."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:64
 msgid ""
 "There is no known code sources is this site. Try to find them with the "
 "actions below."
 msgstr ""
+"Na této stránce nejsou známy žádné zdroje kódu. Pokuste se je najít pomocí "
+"činností níže."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:70
 msgid "Find them"
-msgstr ""
+msgstr "Najít je"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:74
 msgid ""
@@ -1431,62 +1447,66 @@ msgid ""
 "existing code sources using this action below. This can take a really long "
 "time."
 msgstr ""
+"Pokud zde nejsou zobrazeny žádné zdroje kódu, ale některé máte vytvořeny, "
+"můžete je všechny najít pomocí činností níže. To může trvat velmi dlouho."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:82
 msgid "Find"
-msgstr ""
+msgstr "Najít"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:23
 msgid "Install new code sources"
-msgstr ""
+msgstr "Instlaovat nové zdroje kódu"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:29
 msgid "You can here install new code sources in your Silva site:"
-msgstr ""
+msgstr "Zde můžete nainstalovat nové zdroje kódu na vaší stránku Silva:"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:52
 #: silva.app.subscriptions:/service.py:352
 msgid "Install"
-msgstr ""
+msgstr "Nainstalovat"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:57
 msgid "There is no installable code sources."
-msgstr ""
+msgstr "Neexistují žádné instalovatelné zdroje kódu."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:10
 msgid "External sources errors"
-msgstr ""
+msgstr "Chyby externích zdrojů"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:14
 msgid ""
 "This screen reports the recently triggered errors by external sources during "
 "their rendering."
 msgstr ""
+"Tato obrazovka zaznamenává nedávno zachycené chyby externích zdrojů při "
+"jejich vykreslování."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:19
 msgid "There are no errors at the moment."
-msgstr ""
+msgstr "V současnosti se nevyskytly žádné chyby."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:26
 msgid "There is(are) ${count} error(s) reported."
-msgstr ""
+msgstr "Je nahlášeno ${count} chyb."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:34
 msgid "An error happened ${count} times, first seen the ${when}:"
-msgstr ""
+msgstr "Chyba se udála ${count}krát, prvně ${when}:"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:43
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:33
 msgid "Clear"
-msgstr ""
+msgstr "Vyčistit"
 
 #: Products.SilvaExternalSources:/ExternalSource.py:298
 msgid "Broken source"
-msgstr ""
+msgstr "Rozbitý zdroj"
 
 #: Products.SilvaExternalSources:/ExternalSource.py:331
 msgid "Create"
-msgstr ""
+msgstr "Vytvořit"
 
 #: Products.SilvaExternalSources:/ExternalSource.py:336
 #: Products.SilvaExternalSources:/SourceAsset.py:180
@@ -1494,145 +1514,146 @@ msgstr ""
 #: silva.ui:/rest/container/configuration.py:53
 #: zeam.form.silva:/form/smi.py:273
 msgid "Save"
-msgstr ""
+msgstr "Uložit"
 
 #: Products.SilvaExternalSources:/ExternalSource.py:351
 #: silva.core.editor:/service.py:274
 #: silva.core.smi:/settings/makers.py:172
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 #: Products.SilvaExternalSources:/SourceAsset.py:128
 msgid "Select an external source"
-msgstr ""
+msgstr "Vybrat externí zdroj"
 
 #: Products.SilvaExternalSources:/SourceAsset.py:169
 msgid "Select source"
-msgstr ""
+msgstr "Vybrat zdroj"
 
 #: Products.SilvaExternalSources:/SourceAsset.py:200
 msgid "Source Asset added."
-msgstr ""
+msgstr "Přidán zdrojový objekt."
 
 #: Products.SilvaExternalSources:/SourceAsset.py:253
 #: silva.core.editor:/text.py:117
 #: zeam.form.silva:/actions.py:51
 msgid "Changes saved."
-msgstr ""
+msgstr "Změny uloženy."
 
 #: Products.SilvaExternalSources:/SourceAsset.py:88
 msgid "Broken or missing source."
-msgstr ""
+msgstr "Rozbitý nebo chybějící zdroj."
 
 #: Products.SilvaExternalSources:/editor/templates/parameters.cpt:20
 msgid "This External Source has no adjustable settings."
-msgstr ""
+msgstr "Tento externí zdroj nemá žádná upravitelná nastavení."
 
 #: Products.SilvaExternalSources:/errors.py:102
 msgid "External Source parameters are missing."
-msgstr ""
+msgstr "Parametry externího zdroje chybí."
 
 #: Products.SilvaExternalSources:/errors.py:16
 msgid "External Source errored during the processing."
-msgstr ""
+msgstr "Při zpracování externího zdroje došlo k chybě."
 
 #. Default: ""
 #: Products.SilvaExternalSources:/errors.py:85
 msgid "External Source ${identifier} is not available."
-msgstr ""
+msgstr "Externí zdroj ${identifier} není dostupný."
 
 #: Products.SilvaExternalSources:/errors.py:94
 msgid "Error while validating the External Source parameters."
-msgstr ""
+msgstr "Chyba při ověřování parametrů externího zdroje."
 
 #: Products.SilvaExternalSources:/errors_templates/sourcerenderingerrorview.cpt:4
 msgid "A programmation error happened while rendering the source."
-msgstr ""
+msgstr "Při vykreslování zdroje došlo k programové chybě."
 
 #: silva.app.forest:/interfaces.py:30
 msgid "(No skin change)"
-msgstr ""
+msgstr "(Žádná změny vzhledu)"
 
 #: silva.app.forest:/interfaces.py:43
 msgid "Original URL path"
-msgstr ""
+msgstr "Původní cesta URL"
 
 #: silva.app.forest:/interfaces.py:46
 msgid "Zope path"
-msgstr ""
+msgstr "Cesta Zope"
 
 #: silva.app.forest:/interfaces.py:49
 msgid "Skin to apply"
-msgstr ""
+msgstr "Vzhled k použití"
 
 #: silva.app.forest:/interfaces.py:53
 msgid "Force skin"
-msgstr ""
+msgstr "Vynutit vzhled"
 
 #: silva.app.forest:/interfaces.py:60
 msgid "Virtual host URL"
-msgstr ""
+msgstr "URL virtuálního hostitele"
 
 #: silva.app.forest:/interfaces.py:63
 msgid "Virtual host aliases"
-msgstr ""
+msgstr "Přezdívky virtuálního hostitele"
 
 #: silva.app.forest:/interfaces.py:67
 msgid "Rewrites rules"
-msgstr ""
+msgstr "Pravidla přepisu"
 
 #: silva.app.forest:/interfaces.py:74
 msgid "Virtual hosts"
-msgstr ""
+msgstr "Virtuální hostitelé"
 
 #: silva.app.forest:/interfaces.py:81
 msgid "Import hosts"
-msgstr ""
+msgstr "Importovat hostitele"
 
 #: silva.app.forest:/interfaces.py:82
 msgid "Import host definition as a CSV file."
-msgstr ""
+msgstr "Importovat definice hostitelů jako souboru CSV."
 
 #: silva.app.forest:/service.py:153
 msgid "The feature is already activated for a Silva site."
-msgstr ""
+msgstr "Funkce již je na stránce SIlva aktivována."
 
 #: silva.app.forest:/service.py:163
 msgid "The feature is not activated."
-msgstr ""
+msgstr "Funkce není kativována."
 
 #: silva.app.forest:/service.py:167
 msgid "The feature is activated by an another Silva site."
-msgstr ""
+msgstr "Funkce je aktivována jinou stárnkou Silva."
 
 #: silva.app.forest:/service.py:292
 msgid "Forest Service configuration"
-msgstr ""
+msgstr "Nastavení sloužby Forest"
 
 #: silva.app.forest:/service.py:293
 msgid "Configure advanced virtual hosting in Silva."
-msgstr ""
+msgstr "Nastavit pokročilé virtuální hostování v Silva."
 
 #: silva.app.forest:/service.py:303
 msgid "Activation"
-msgstr ""
+msgstr "Aktivace"
 
 #: silva.app.forest:/service.py:304
 msgid "Activate or deactivate advanced virtual hosting for this Silva site."
 msgstr ""
+"Aktivovat nebo deaktivovat virtuální hostování na této stránce SIlva."
 
 #: silva.app.forest:/service.py:308
 #: silva.app.subscriptions:/service.py:296
 msgid "Activate"
-msgstr ""
+msgstr "Aktivovat"
 
 #: silva.app.forest:/service.py:319
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktivovat"
 
 #: silva.app.forest:/service.py:337
 msgid "Define the virtual hosts"
-msgstr ""
+msgstr "Určit virtuální hostitele"
 
 #: silva.app.forest:/service.py:338
 msgid ""
@@ -1641,60 +1662,63 @@ msgid ""
 "the possibility to set (and enforce) a specific skin for a given rewriting "
 "rule."
 msgstr ""
+"Určete použitelné virtuální hostitele HTTP hlavičkou 'X-VHM-Url' a seznam "
+"URL k přepisu, který nastane uvnitř virtuálního hostitele. Máte možnost "
+"nastavit (a vynutit) konkrétní vzhled pro dané pravidlo přepisu."
 
 #: silva.app.forest:/service.py:346
 msgid "Apply"
-msgstr ""
+msgstr "Použít"
 
 #: silva.app.forest:/service.py:366
 msgid "Import or export the virtual hosts"
-msgstr ""
+msgstr "Importovat nebo exportovat virtuální hostitele"
 
 #: silva.app.forest:/service.py:371
 #: silva.core.smi:/content/xml/import.py:66
 #: silva.core.smi:/content/xml/import.py:108
 msgid "Import"
-msgstr ""
+msgstr "Importovat"
 
 #: silva.app.forest:/service.py:381
 msgid "Virtual hosts imported."
-msgstr ""
+msgstr "Virtuální hostitele importováni."
 
 #: silva.app.forest:/service.py:384
 #: silva.core.smi:/content/xml/export.py:50
 #: silva.core.smi:/content/xml/export.py:93
 #: silva.core.smi:/content/xml/export.py:125
 msgid "Export"
-msgstr ""
+msgstr "Exportovat"
 
 #: silva.app.page:/news/blocks.py:127
 msgid "News information component added."
-msgstr ""
+msgstr "Přidána komponenta informací o novinkách."
 
 #: silva.app.page:/news/blocks.py:136
 msgid "Agenda information component added."
-msgstr ""
+msgstr "Přidána komponenta informací o agendě."
 
 #: silva.app.page:/news/blocks.py:22
 msgid "News information"
-msgstr ""
+msgstr "Informace o novinkách"
 
 #: silva.app.page:/news/blocks.py:29
 msgid "Agenda information"
-msgstr ""
+msgstr "Informace o agendě"
 
 #: silva.app.page:/news/blocks.py:68
 msgid "This component is not available in this context."
-msgstr ""
+msgstr "Tato komponenta není v tomto kontextu dostupná."
 
 #: silva.app.page:/news/blocks.py:94
 msgid "Component created."
-msgstr ""
+msgstr "Komponenta vytvořena"
 
 #: silva.app.page:/page.py:108
 #: silva.core.contentlayout:/model.py:162
 msgid "Page template"
-msgstr ""
+msgstr "Šablona stránky"
 
 #. Default: ""
 #: silva.app.page:/page.py:122
@@ -1703,168 +1727,173 @@ msgstr ""
 #: silva.core.layout:/default.py:83
 #: silva.core.contentlayout:/model.py:183
 msgid "Sorry, this ${meta_type} is not viewable."
-msgstr ""
+msgstr "Je nám líto, ale tento ${meta_type} nelze zobrazit"
 
 #: silva.app.subscriptions:/service.py:261
 msgid "From address"
-msgstr ""
+msgstr "Z adresy"
 
 #: silva.app.subscriptions:/service.py:262
 msgid "Email address used to send notification emails"
-msgstr ""
+msgstr "Emailová adresa která bude použita pro poslání oznamovacích emailů"
 
 #: silva.app.subscriptions:/service.py:265
 msgid "Service name"
-msgstr ""
+msgstr "Název služby"
 
 #: silva.app.subscriptions:/service.py:266
 msgid "Service name to report in notification emails"
-msgstr ""
+msgstr "Název služby který zaznamenat v oznamujících emailech"
 
 #: silva.app.subscriptions:/service.py:269
 msgid "Maximum confirmation delay in days"
-msgstr ""
+msgstr "Maximální prodleva potvrzení ve dnech"
 
 #: silva.app.subscriptions:/service.py:270
 msgid ""
 "When a confirmation email is sent, it must be validated within that number "
 "of days"
 msgstr ""
+"Když je je odeslán potvrzující email, musí být ověřen během tohoto počtu dní"
 
 #: silva.app.subscriptions:/service.py:282
 msgid "Service Subscriptions Configuration"
-msgstr ""
+msgstr "Nastavení odběru služby"
 
 #: silva.app.subscriptions:/service.py:290
 msgid "Activate subscriptions"
-msgstr ""
+msgstr "Aktivovat odběry"
 
 #: silva.app.subscriptions:/service.py:291
 msgid "Activate sending emails notifications"
-msgstr ""
+msgstr "Aktivovat zasílání upozornění emailem"
 
 #: silva.app.subscriptions:/service.py:299
 msgid "Subscriptions activated."
-msgstr ""
+msgstr "Odběry aktivovány"
 
 #: silva.app.subscriptions:/service.py:308
 msgid "Configure subscriptions"
-msgstr ""
+msgstr "Nastavit odběry"
 
 #: silva.app.subscriptions:/service.py:309
 msgid "Modify email notification settings"
-msgstr ""
+msgstr "Změnit nastavení oznamovacích emailů"
 
 #: silva.app.subscriptions:/service.py:320
 #: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
-msgstr ""
+msgstr "Zakázat odběry"
 
 #: silva.app.subscriptions:/service.py:321
 msgid "Disable sending emails notifications"
-msgstr ""
+msgstr "Zakázat zasílání oznámení emailem"
 
 #: silva.app.subscriptions:/service.py:326
 msgid "Disable"
-msgstr ""
+msgstr "Zakázat"
 
 #: silva.app.subscriptions:/service.py:329
 msgid "Subscriptions disabled."
-msgstr ""
+msgstr "Odběry zakázány"
 
 #: silva.app.subscriptions:/service.py:338
 msgid "Install MaildropHost"
-msgstr ""
+msgstr "Instalovat MaildropHost"
 
 #: silva.app.subscriptions:/service.py:339
 msgid "Install a MaildropHost service to send emails"
-msgstr ""
+msgstr "Instalovat službu MaildropHost k odesílání emailů"
 
 #: silva.app.subscriptions:/smi.py:30
 msgid "Acquire settings from above"
-msgstr ""
+msgstr "Nastavení získávat z vyšší úrovně"
 
 #: silva.app.subscriptions:/smi.py:32
 msgid "Enable subscriptions"
-msgstr ""
+msgstr "Povolit odběry"
 
 #: silva.app.subscriptions:/smi.py:41
 msgid "subscribable"
-msgstr ""
+msgstr "odběratelné"
 
 #: silva.app.subscriptions:/smi.py:42
 msgid ""
 "Set the subscribability for this content, or set it to acquire the "
 "subscribability from above (the default)."
 msgstr ""
+"Nastavit odběratelnost pro tento obsah, nebo nastavit tak, aby odběratelnost "
+"byla získávána z vyšší úrovně (výchozí)."
 
 #: silva.app.subscriptions:/smi.py:49
 msgid "subscribed email addresses"
-msgstr ""
+msgstr "emailové adresy odebíratelů"
 
 #: silva.app.subscriptions:/smi.py:50
 msgid ""
 "List of email addresses currently subscribed to this content at this level, "
 "one per line. "
 msgstr ""
+"Seznam emailových adres, které v současnosti odebírají tento obsah na této "
+"úrovni, jedna na řádek "
 
 #: silva.app.subscriptions:/smi.py:63
 msgid "Manage subscriptions"
-msgstr ""
+msgstr "Spravovat odběry"
 
 #: silva.app.subscriptions:/smi.py:80
 msgid "Subscriptions"
-msgstr ""
+msgstr "Odběry"
 
 #: silva.app.subscriptions:/smi.py:82
 msgid "manage subscriptions"
-msgstr ""
+msgstr "spravovat odběry"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:11
 msgid "This item can be subscribed to."
-msgstr ""
+msgstr "Tuto položku lze odebírat"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:16
 msgid "Other subscriptions"
-msgstr ""
+msgstr "Jiné odběry"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:19
 msgid "${count} subscription(s) for this item defined above."
-msgstr ""
+msgstr "${count} odběr(ů) určeno výše pro tuto položku"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:23
 msgid "No other subscriptions for this item."
-msgstr ""
+msgstr "Žádné další odběry pro tuto položku."
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:5
 msgid "Subscriptions status"
-msgstr ""
+msgstr "Stav odběru"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:7
 msgid "This item can not be subscribed to."
-msgstr ""
+msgstr "Tuto položku nelze odebírat."
 
 #: silva.app.subscriptions:/templates/confirmationpage.cpt:3
 msgid "Subscription result for ${title_or_id}"
-msgstr ""
+msgstr "Výsledek odběru pro ${title_or_id}"
 
 #: silva.app.subscriptions:/templates/confirmationpage.cpt:8
 msgid "Go to the corresponding location."
-msgstr ""
+msgstr "Přejít na odpovídající umístění."
 
 #: silva.app.subscriptions:/views.py:100
 msgid "You are not subscribed to this content."
-msgstr ""
+msgstr "Tento obsah neodebíráte."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:102
 msgid "A confirmation request for cancellation has been emailed to ${email}."
-msgstr ""
+msgstr "Žádost o potvrzení zrušení byla odeslána na ${email}."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:119
 msgid "Subscribe / Unsubscribe to ${title}"
-msgstr ""
+msgstr "Odebírat / Zrušit odběr ${title}"
 
 #: silva.app.subscriptions:/views.py:121
 msgid ""
@@ -1872,245 +1901,261 @@ msgid ""
 "whenever an update happens at this URL. You can also cancel notifications if "
 "you're already subscribed."
 msgstr ""
+"Vyplňte vaši emailovou adresu, pokud chcete oznámení emailem kdykoliv je na "
+"této URL aktualizace. Pokud již odebíráte, můžete také odběr zrušit."
 
 #: silva.app.subscriptions:/views.py:128
 #: silva.pas.base:/Membership_templates/loginpage.cpt:53
 #: silva.ui:/rest/container/configuration.py:46
 #: zeam.form.silva:/actions.py:111
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: silva.app.subscriptions:/views.py:162
 msgid "Invalid subscription confirmation."
-msgstr ""
+msgstr "Neplatné potvrzení odběru."
 
 #: silva.app.subscriptions:/views.py:166
 #: silva.app.subscriptions:/views.py:187
 msgid "Subscription no longer available."
-msgstr ""
+msgstr "Odběr již není dostupný."
 
 #: silva.app.subscriptions:/views.py:171
 msgid "Subscription failed."
-msgstr ""
+msgstr "Odběr selhal."
 
 #: silva.app.subscriptions:/views.py:173
 msgid ""
 "You have been successfully subscribed. You will now receive email "
 "notifications."
 msgstr ""
+"Úspěšně jste se přihlásili k odběru. Nyní budete dostávat upozorňující "
+"emaily."
 
 #: silva.app.subscriptions:/views.py:183
 msgid "Invalid confirmation."
-msgstr ""
+msgstr "Neplatné potvrzení."
 
 #: silva.app.subscriptions:/views.py:192
 msgid ""
 "Something went wrong in unsubscribing from this page. It might be that the "
 "link you followed expired."
 msgstr ""
+"Při rušení odběru na této stránce se něco zvrtlo. Pravděpodobně odkaz, na "
+"který jste klikli, vypršel."
 
 #: silva.app.subscriptions:/views.py:196
 msgid "You have been successfully unsubscribed."
-msgstr ""
+msgstr "Odběr byl úspěšně zrušen."
 
 #: silva.app.subscriptions:/views.py:203
 msgid "Subscribe / Unsubscribe"
-msgstr ""
+msgstr "Odebírat / Zrušit odběr"
 
 #: silva.app.subscriptions:/views.py:204
 msgid ""
 "Fill in your email address if you wish to receive email notifications "
 "whenever an update occurs. You can cancel your notifications at any time."
 msgstr ""
+"Vyplňte vaši emailovou adresu, pokud chcete oznámení emailem při "
+"aktualizacích. Pokud již odebíráte, můžete také odběr zrušit."
 
 #: silva.app.subscriptions:/views.py:27
 #: silva.core.smi:/userinfo.py:53
 msgid "Email address"
-msgstr ""
+msgstr "Emailová adresa"
 
 #: silva.app.subscriptions:/views.py:28
 msgid "Enter your email address."
-msgstr ""
+msgstr "Zadejte vaši emailovou adresu."
 
 #: silva.app.subscriptions:/views.py:32
 msgid "Captcha"
-msgstr ""
+msgstr "Captcha"
 
 #: silva.app.subscriptions:/views.py:33
 msgid ""
 "To submit please enter the characters displayed in this image. You can type "
 "them in lower case."
 msgstr ""
+"Pro odeslání prosím zadejte znaky zobrazené v tomto obrázku. Můžete je zadat "
+"malými písmeny."
 
 #: silva.app.subscriptions:/views.py:54
 msgid "Subscribe"
-msgstr ""
+msgstr "Odebírat"
 
 #: silva.app.subscriptions:/views.py:69
 #: silva.app.subscriptions:/views.py:97
 msgid "You cannot subscribe to this content."
-msgstr ""
+msgstr "Tento obsah nemůžete odebírat."
 
 #: silva.app.subscriptions:/views.py:72
 msgid "You are already subscribed to this content."
-msgstr ""
+msgstr "Tento obsah již odebíráte."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:74
 msgid "A confirmation request for subscription has been emailed to ${email}."
-msgstr ""
+msgstr "Požadavek na potvrzení odběru byl zaslán na ${email}."
 
 #: silva.app.subscriptions:/views.py:82
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Zrušit odběr"
 
 #: silva.captcha:/formulator.py:18
 msgid "Input is required but no input given."
-msgstr ""
+msgstr "Je vyžadován vstup, lae žádný nebyl zadán."
 
 #: silva.captcha:/formulator.py:19
 msgid "The verification entry is not valid."
-msgstr ""
+msgstr "Vstup ověření není platný."
 
 #: silva.captcha:/zeamform.py:42
 msgid "Invalid captcha input."
-msgstr ""
+msgstr "Neplatné zadání captcha."
 
 #: silva.captcha:/zeamform_templates/captchafieldwidget.cpt:6
 msgid "Audio version"
-msgstr ""
+msgstr "Zvuková verze"
 
 #: silva.core.conf:/interfaces.py:15
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #: silva.core.conf:/interfaces.py:16
 msgid "No spaces or special characters besides ‘_’ or ‘-’ or ‘.’"
-msgstr ""
+msgstr "Žádné mezery nebo zvláštní znaky kromě ‘_’, ‘-’ nebo ‘.’"
 
 #: silva.core.conf:/interfaces.py:25
 #: silva.core.contentlayout:/interfaces.py:433
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:36
 #: silva.ui:/rest/container/listing.py:116
 msgid "Title"
-msgstr ""
+msgstr "Název"
 
 #: silva.core.conf:/interfaces.py:26
 msgid ""
 "The title will be publicly visible, and is used for the link in indexes."
-msgstr ""
+msgstr "Název bude veřejně dostupný a je použit pro odkaz v rejstříku."
 
 #: silva.core.conf:/schema.py:109
 msgid "Invalid crop coordinates."
-msgstr ""
+msgstr "Neplatné souřadnice oříznutí."
 
 #: silva.core.contentlayout:/blocks/contents.py:123
 msgid "New site content component added."
-msgstr ""
+msgstr "Přidána nová komponenta obsahu stránky."
 
 #: silva.core.contentlayout:/blocks/contents.py:132
 msgid "Add a site content component"
-msgstr ""
+msgstr "Přidat komponentu obsahu stránky."
 
 #: silva.core.contentlayout:/blocks/contents.py:171
 msgid "Site content component modified."
-msgstr ""
+msgstr "Komponenta obsahu stránky změněna."
 
 #: silva.core.contentlayout:/blocks/contents.py:179
 msgid "Edit a site content component"
-msgstr ""
+msgstr "Upravit komponentu obsahu stránky"
 
 #: silva.core.contentlayout:/blocks/contents.py:29
 msgid "Site content"
-msgstr ""
+msgstr "Obsah stránky"
 
 #: silva.core.contentlayout:/blocks/contents.py:86
 msgid "Content reference is broken or missing."
-msgstr ""
+msgstr "Odkaz na obsah je buď poškozen nebo chybí."
 
 #: silva.core.contentlayout:/blocks/contents.py:89
 msgid "Content is not viewable."
-msgstr ""
+msgstr "Obsah nelze zobrazit."
 
 #: silva.core.contentlayout:/blocks/contents.py:96
 msgid "Content to include"
-msgstr ""
+msgstr "Který obsah zahrnout"
 
 #: silva.core.contentlayout:/blocks/slot.py:104
 msgid "Code source blacklist"
-msgstr ""
+msgstr "Černá listina zdroje kódu"
 
 #: silva.core.contentlayout:/blocks/slot.py:105
 msgid ""
 "If any code sources are selected, it will be the only ones not addable to "
 "the slot."
 msgstr ""
+"Pokud jsou zvoleny jakékoliv zdroje kódu, pak pouze tyto nebudou moct být "
+"přidány do pozice."
 
 #: silva.core.contentlayout:/blocks/slot.py:116
 #: silva.core.contentlayout:/interfaces.py:495
 #: silva.core.contentlayout:/interfaces.py:513
 msgid "Content type"
-msgstr ""
+msgstr "Typ obsahu"
 
 #: silva.core.contentlayout:/blocks/slot.py:117
 msgid ""
 "Only the selected Silva content types will be addable to the slot using the "
 "site content component."
 msgstr ""
+"Pouze zvolené typy obsahu SIlva budou moct být přidány do pozice pomocí "
+"komponenty obsahu stránky."
 
 #: silva.core.contentlayout:/blocks/slot.py:125
 msgid "Block all others"
-msgstr ""
+msgstr "Blokovat všechny ostatní"
 
 #: silva.core.contentlayout:/blocks/slot.py:126
 msgid ""
 "Any code sources or Silva content types not explicitly allowed by a previous "
 "option won't be addable to the slot if this option is checked."
 msgstr ""
+"Všechny zdroje kódu nebo typy obsahu SIlva nebudou předchozí možností "
+"výslovně povoleny/ nebudou moct být přidány do pozice."
 
 #: silva.core.contentlayout:/blocks/slot.py:252
 msgid "New slot added."
-msgstr ""
+msgstr "Je přidána nová pozice."
 
 #: silva.core.contentlayout:/blocks/slot.py:260
 msgid "Identifier required."
-msgstr ""
+msgstr "Je vyžadován identifikátor."
 
 #: silva.core.contentlayout:/blocks/slot.py:262
 msgid "Invalid identifier."
-msgstr ""
+msgstr "Neplatný identifikátor."
 
 #: silva.core.contentlayout:/blocks/slot.py:267
 msgid "A slot with that identifier already exists."
-msgstr ""
+msgstr "Pozice s identifikátorem již existuje."
 
 #: silva.core.contentlayout:/blocks/slot.py:306
 msgid "Add a sub-slot"
-msgstr ""
+msgstr "Přidat podpozici"
 
 #: silva.core.contentlayout:/blocks/slot.py:307
 msgid "You can configure slot options and restrictions here."
-msgstr ""
+msgstr "Zde můžete nastavit možnosti pozice a omezení."
 
 #: silva.core.contentlayout:/blocks/slot.py:33
 msgid "Slot"
-msgstr ""
+msgstr "Pozice"
 
 #: silva.core.contentlayout:/blocks/slot.py:356
 msgid "Slot modified."
-msgstr ""
+msgstr "Pozice změněna."
 
 #: silva.core.contentlayout:/blocks/slot.py:364
 msgid "Edit a sub-slot"
-msgstr ""
+msgstr "Upravit podpozici"
 
 #: silva.core.contentlayout:/blocks/slot.py:49
 msgid "No restriction"
-msgstr ""
+msgstr "Bez omezení"
 
 #: silva.core.contentlayout:/blocks/slot.py:71
 msgid "Slot identifier"
-msgstr ""
+msgstr "Identifikátor pozice"
 
 #: silva.core.contentlayout:/blocks/slot.py:72
 msgid ""
@@ -2118,196 +2163,205 @@ msgid ""
 "to refer the sub-slot to store components. Only letters and numbers are "
 "allowed."
 msgstr ""
+"Tento identifikátor by měl jedinečně identifikovat novou podpozici a bude "
+"použit pro odkazování na tuto pozici pro uložení komponent. Jsou povolena "
+"pouze písmena a čísla."
 
 #: silva.core.contentlayout:/blocks/slot.py:79
 msgid "HTML tag"
-msgstr ""
+msgstr "HTML značka"
 
 #: silva.core.contentlayout:/blocks/slot.py:80
 msgid "HTML tag to use to create the slot."
-msgstr ""
+msgstr "HTML značka kterou použít pro vytvoření pozice."
 
 #: silva.core.contentlayout:/blocks/slot.py:85
 msgid "CSS class(es)"
-msgstr ""
+msgstr "Třídy CSS"
 
 #: silva.core.contentlayout:/blocks/slot.py:86
 msgid "Whitespace delimited CSS classes to apply on the slot."
-msgstr ""
+msgstr "Třídy CSS vymezené mezerami, které budou použity na pozici."
 
 #: silva.core.contentlayout:/blocks/slot.py:93
 msgid "Code source whitelist"
-msgstr ""
+msgstr "Zdroj kódu mezery"
 
 #: silva.core.contentlayout:/blocks/slot.py:94
 msgid ""
 "If any code sources are selected, it will be the only ones addable to the "
 "slot."
 msgstr ""
+"Pokud jsou zvoleny nějaké zdroje kódu, pouze tyto budou moci být přidány do "
+"pozice."
 
 #: silva.core.contentlayout:/blocks/slot.py:98
 #: silva.core.contentlayout:/blocks/slot.py:109
 msgid "name"
-msgstr ""
+msgstr "název"
 
 #: silva.core.contentlayout:/blocks/source.py:127
 msgid "Added new source component"
-msgstr ""
+msgstr "Přidána nová komponenta zdroje"
 
 #. Default: ""
 #: silva.core.contentlayout:/blocks/source.py:150
 msgid "Parameters for new source ${title}"
-msgstr ""
+msgstr "Parametry pro nový zdroj ${title}"
 
 #: silva.core.contentlayout:/blocks/source.py:152
 msgid "Add a source component"
-msgstr ""
+msgstr "Přidat komponentu zdroje"
 
 #: silva.core.contentlayout:/blocks/source.py:206
 msgid "Source component modified."
-msgstr ""
+msgstr "Komponenta zdroje změněna."
 
 #: silva.core.contentlayout:/blocks/source.py:214
 #: silva.core.contentlayout:/blocks/source.py:229
 msgid "Edit a source component"
-msgstr ""
+msgstr "Upravit komponentu zdroje"
 
 #. Default: ""
 #: silva.core.contentlayout:/blocks/source.py:227
 msgid "Parameters for existing source ${title}"
-msgstr ""
+msgstr "Parametry pro existujíccí zdroje ${title}"
 
 #: silva.core.contentlayout:/blocks/source.py:249
 #: silva.core.contentlayout:/blocks/source.py:270
 #: silva.core.contentlayout:/blocks/text.py:170
 #: silva.core.contentlayout:/blocks/text.py:182
 msgid "Convert"
-msgstr ""
+msgstr "Převést"
 
 #: silva.core.contentlayout:/blocks/source.py:309
 msgid "Convert existing source component to asset"
-msgstr ""
+msgstr "Převést existující komponentu zdroje na objekt"
 
 #: silva.core.contentlayout:/blocks/source.py:310
 msgid ""
 "Create a source asset using current source parameters, and refer to it using "
 "a site content component."
 msgstr ""
+"Vytvořit objekt zdroje pomocí jeho současných parametrů a odkazovat na něj "
+"pomocí komponenty obsahu stránky."
 
 #: silva.core.contentlayout:/blocks/text.py:110
 msgid "New text added."
-msgstr ""
+msgstr "Přidán nový text."
 
 #: silva.core.contentlayout:/blocks/text.py:118
 msgid "Add some text"
-msgstr ""
+msgstr "Přidat nějaký text"
 
 #: silva.core.contentlayout:/blocks/text.py:150
 msgid "Text modified."
-msgstr ""
+msgstr "Text změněn."
 
 #: silva.core.contentlayout:/blocks/text.py:158
 msgid "Edit text"
-msgstr ""
+msgstr "Upravit text"
 
 #: silva.core.contentlayout:/blocks/text.py:221
 msgid "Convert text to a document"
-msgstr ""
+msgstr "Převést text na dokument"
 
 #: silva.core.contentlayout:/blocks/text.py:222
 msgid ""
 "Convert text to a standalone document, and refer to it using a site content "
 "component."
 msgstr ""
+"Převést text na samostatný dokument a odkazovat na něj pomocí komponenty "
+"obsahu stránky."
 
 #: silva.core.contentlayout:/blocks/text.py:29
 #: silva.core.contentlayout:/blocks/text.py:83
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: silva.core.contentlayout:/defaults/blocks.py:44
 msgid "This component is not available."
-msgstr ""
+msgstr "Tato komponenta není dostupná."
 
 #: silva.core.contentlayout:/defaults/blocks.py:66
 msgid "This document is not available."
-msgstr ""
+msgstr "Tento dokument není dostupný."
 
 #: silva.core.contentlayout:/interfaces.py:194
 msgid "Select a template for your Page."
-msgstr ""
+msgstr "Vyberte šablonu pro vaši stránku."
 
 #: silva.core.contentlayout:/interfaces.py:436
 #: silva.core.contentlayout:/smi_templates/components.cpt:1
 msgid "Components"
-msgstr ""
+msgstr "Komponenty"
 
 #: silva.core.contentlayout:/interfaces.py:438
 msgid "Component type"
-msgstr ""
+msgstr "Typ komponenty"
 
 #: silva.core.contentlayout:/interfaces.py:446
 msgid "Groups"
-msgstr ""
+msgstr "Skupiny"
 
 #: silva.core.contentlayout:/interfaces.py:460
 msgid "-- Choose a role --"
-msgstr ""
+msgstr "-- Zvolte roli --"
 
 #: silva.core.contentlayout:/interfaces.py:469
 msgid "-- Choose a content type --"
-msgstr ""
+msgstr "-- Zvolte typ obsahu --"
 
 #: silva.core.contentlayout:/interfaces.py:504
 msgid "Role"
-msgstr ""
+msgstr "Role"
 
 #: silva.core.contentlayout:/interfaces.py:523
 msgid "Restrictions"
-msgstr ""
+msgstr "Omezení"
 
 #: silva.core.contentlayout:/interfaces.py:531
 msgid "Default templates"
-msgstr ""
+msgstr "Výchozí šablony"
 
 #: silva.core.contentlayout:/interfaces.py:556
 msgid "Select a template for your Page Model."
-msgstr ""
+msgstr "Vyberte šablonu pro váš model stránky."
 
 #: silva.core.contentlayout:/interfaces.py:560
 msgid "Allowed Content Types"
-msgstr ""
+msgstr "Povolené typy obsahu"
 
 #: silva.core.contentlayout:/interfaces.py:561
 msgid ""
 "Only the selected content types will accept this Page Model as a template."
-msgstr ""
+msgstr "Pouze zvolené typy obsahu přijmou tento model stránky jako šablonu."
 
 #: silva.core.contentlayout:/interfaces.py:568
 #: silva.core.smi:/settings/access.py:307
 msgid "Minimum role"
-msgstr ""
+msgstr "Minimální role"
 
 #: silva.core.contentlayout:/interfaces.py:569
 msgid "Only users with this role can utilise this Page Model."
-msgstr ""
+msgstr "Pouze uživatelé s touto rolí mohou použít tento model stránky."
 
 #: silva.core.contentlayout:/model.py:121
 msgid "Page Model(s)"
-msgstr ""
+msgstr "Model(y) stránky"
 
 #: silva.core.contentlayout:/service.py:242
 msgid "Template Service configuration"
-msgstr ""
+msgstr "Nastavení služby šablony"
 
 #: silva.core.contentlayout:/service.py:243
 msgid "Configure restrictions and defaults for content layout tempates"
-msgstr ""
+msgstr "Nastavit omezení a výchozí hodnoty pro šablony rozvržení obsahu"
 
 #. Default: ""
 #: silva.core.contentlayout:/service.py:270
 msgid "Template ${design} is not available."
-msgstr ""
+msgstr "Šablona ${design} není dostupná."
 
 #. Default: ""
 #: silva.core.contentlayout:/service.py:276
@@ -2315,65 +2369,69 @@ msgid ""
 "Template ${design} restricts its usage to ${require} objects, however "
 "${content} do not comply."
 msgstr ""
+"Šablona ${design} omezuje své použití na objekty ${require}, ale ${content} "
+"mezi ně nepatří."
 
 #: silva.core.contentlayout:/service.py:307
 msgid "Define templates access restrictions"
-msgstr ""
+msgstr "Určit omezení přístupu k šablonám"
 
 #: silva.core.contentlayout:/service.py:334
 msgid "Define default template for content types"
-msgstr ""
+msgstr "Určit výchozí šablonu pro typy obsahu"
 
 #: silva.core.contentlayout:/service.py:368
 msgid "Component palette configuration"
-msgstr ""
+msgstr "Nastavení komponenty palety"
 
 #: silva.core.contentlayout:/service.py:369
 msgid "Sort possible components into groups."
-msgstr ""
+msgstr "Seřadit možné komponenty do skupin."
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:4
 msgid "Edit component"
-msgstr ""
+msgstr "Upravit komponentu"
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:6
 msgid "Move component"
-msgstr ""
+msgstr "Přesunout komponentu"
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:8
 msgid "Remove component"
-msgstr ""
+msgstr "Odstranit komponentu"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:14
 msgid "Remove all components"
-msgstr ""
+msgstr "Odstranit všechny komponenty"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:4
 msgid "Spare components"
-msgstr ""
+msgstr "Zbylé komponenty"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:6
 msgid ""
 "The spare components listed below are a result of switching the template. "
 "You can drag them into a new position on your page, or remove them entirely."
 msgstr ""
+"Zbylé komponenty vypsané níže jsou výsledkem změny šablony. Můžete je "
+"přetáhnout do nového umístění na vaší stránce, nebo je zcela odstranit."
 
 #: silva.core.editor:/service.py:233
 msgid "Manage CKEditor configurations"
-msgstr ""
+msgstr "Správa nastavení CKEditor"
 
 #: silva.core.editor:/service.py:234
 #: silva.core.editor:/service.py:317
 msgid "You can from here modify the WYSIYG editor settings."
-msgstr ""
+msgstr "Zde můžete měnit nastavení editoru WYSIWYG."
 
 #: silva.core.editor:/service.py:242
 msgid "Add a configuration"
-msgstr ""
+msgstr "Přidat nastavení"
 
 #: silva.core.editor:/service.py:243
 msgid "Add a specific editor configuration for a content type in Silva."
-msgstr ""
+msgstr "Přidat konkrétní nastavení editoru pro typ obsahu v Silva."
 
 #: silva.core.editor:/service.py:251
 #: silva.core.contentlayout:/blocks/contents.py:105
@@ -2383,44 +2441,45 @@ msgstr ""
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:18
 #: silva.core.smi:/content/adding.py:65
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
 #: silva.core.editor:/service.py:255
 msgid "There were errors"
-msgstr ""
+msgstr "Nastaly chyby"
 
 #: silva.core.editor:/service.py:266
 msgid "edit the selected configuration"
-msgstr ""
+msgstr "upravit zvolené nastavení"
 
 #: silva.core.editor:/service.py:275
 msgid "remove the selected configuration"
-msgstr ""
+msgstr "odstranit zvolené nastavení"
 
 #: silva.core.editor:/service.py:281
 msgid "You cannot remove the default configuration"
-msgstr ""
+msgstr "Nemůžete odstranit výchozí nastavení"
 
 #: silva.core.editor:/service.py:296
 msgid "Manage existing configurations"
-msgstr ""
+msgstr "Spravovat existující nastavení"
 
 #: silva.core.editor:/service.py:297
 msgid ""
 "Edit or remove editor configuration for the given Silva content types."
 msgstr ""
+"Upravit nebo odstranit existující nastavení pro dané typy obsahu Silva."
 
 #: silva.core.editor:/service.py:316
 msgid "CKEditor settings"
-msgstr ""
+msgstr "Nastavení CKEditor"
 
 #: silva.core.editor:/service.py:374
 msgid "Manage HTML Sanitizer"
-msgstr ""
+msgstr "Správa hlídače HTML"
 
 #: silva.core.editor:/service.py:375
 msgid "Manager allowed HTML tags and attributes allowed in editor."
-msgstr ""
+msgstr "Správa povolených značek a vlastností HTML povolených v editoru."
 
 #: silva.core.editor:/service.py:378
 #: silva.core.contentlayout:/blocks/contents.py:156
@@ -2430,96 +2489,96 @@ msgstr ""
 #: silva.core.smi:/content/metadata.py:173
 #: zeam.form.silva:/actions.py:30
 msgid "Save changes"
-msgstr ""
+msgstr "Uložit změny"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:10
 msgid "Lookup a content in Silva"
-msgstr ""
+msgstr "Hledat obsah v Silva"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:13
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:42
 msgid "Lookup"
-msgstr ""
+msgstr "Vyhledávání"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:3
 msgid "Edit content"
-msgstr ""
+msgstr "Upravit obsah"
 
 #: silva.core.editor:/transform/silvaxml/xmlexport.py:56
 #: silva.core.references:/widgets/formulator.py:154
 msgid "External reference"
-msgstr ""
+msgstr "Externí odkaz"
 
 #: silva.core.interfaces:/auth.py:110
 #: silva.core.interfaces:/auth.py:117
 msgid "select:"
-msgstr ""
+msgstr "vybrat:"
 
 #: silva.core.interfaces:/auth.py:129
 msgid "identifier"
-msgstr ""
+msgstr "identifikátor"
 
 #: silva.core.interfaces:/auth.py:133
 msgid "role defined above"
-msgstr ""
+msgstr "role zadaná výše"
 
 #: silva.core.interfaces:/auth.py:138
 msgid "role defined here"
-msgstr ""
+msgstr "role zadaná zde"
 
 #: silva.core.interfaces:/errors.py:13
 msgid "Invalid ghost target."
-msgstr ""
+msgstr "Neplatný cíl ducha."
 
 #: silva.core.interfaces:/errors.py:17
 msgid "Missing required ghost target."
-msgstr ""
+msgstr "Chybí požadovaný cíl ducha."
 
 #. Default: ""
 #: silva.core.interfaces:/errors.py:174
 msgid "Error while importing: ${path}: ${reason}"
-msgstr ""
+msgstr "Chyba při importování: ${path}: ${reason}"
 
 #: silva.core.interfaces:/errors.py:21
 msgid "Ghost target creates a circular reference."
-msgstr ""
+msgstr "Cíl ducha vytváří kruhový odkaz."
 
 #: silva.core.interfaces:/errors.py:25
 msgid "Ghost target is a ghost."
-msgstr ""
+msgstr "Cíl ducha je duch."
 
 #: silva.core.interfaces:/errors.py:29
 msgid "Ghost target should be a container."
-msgstr ""
+msgstr "Cíl ducha by měl být kontejner."
 
 #: silva.core.interfaces:/errors.py:33
 msgid "Ghost target should be a content."
-msgstr ""
+msgstr "Cíl ducha by měl být obsah."
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:102
 msgid "Origin"
-msgstr ""
+msgstr "Původ"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:16
 msgid "Interface"
-msgstr ""
+msgstr "Rozhraní"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:32
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:94
 msgid "Layer"
-msgstr ""
+msgstr "Vrstva"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:59
 msgid "Name of View"
-msgstr ""
+msgstr "Název zobrazení"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:60
 msgid "Registration Info"
-msgstr ""
+msgstr "Informace o registraci"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:80
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:84
 #: silva.core.contentlayout:/interfaces.py:193
@@ -2527,40 +2586,40 @@ msgstr ""
 #: silva.core.contentlayout:/interfaces.py:516
 #: silva.core.contentlayout:/interfaces.py:555
 msgid "Template"
-msgstr ""
+msgstr "Šablona"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:90
 msgid "Object"
-msgstr ""
+msgstr "Objekt"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:98
 msgid "Definition"
-msgstr ""
+msgstr "Definice"
 
 #: silva.core.references:/widgets/__init__.py:45
 #: silva.core.references:/widgets/zeamform.py:26
 #: silva.core.references:/widgets/zeamform.py:27
 msgid "No reference selected."
-msgstr ""
+msgstr "Nevybrán žádný odkaz."
 
 #: silva.core.references:/widgets/formulator.py:206
 msgid "No content selected."
-msgstr ""
+msgstr "Nevybrán žádný obsah."
 
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:39
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:23
 msgid "Lookup an item in Silva"
-msgstr ""
+msgstr "Vyhledat položku v Silva"
 
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:7
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:6
 msgid "Edit item"
-msgstr ""
+msgstr "Upravit položku"
 
 #: silva.core.references:/widgets/rest.py:79
 #: silva.core.references:/widgets/rest.py:80
 msgid "Missing content"
-msgstr ""
+msgstr "Chybějící obsah"
 
 #: silva.core.references:/widgets/rest_templates/referenceaddformtemplate.cpt:26
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:32
@@ -2570,519 +2629,524 @@ msgstr ""
 #: zeam.form.silva:/form/smi_templates/smisubtableformtemplate.cpt:67
 #: zeam.form.silva:/form/smi_templates/smitableformtemplate.cpt:65
 msgid "required"
-msgstr ""
+msgstr "vyžadováno"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:1
 msgid "Lookup an item"
-msgstr ""
+msgstr "Vyhledat položku"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:12
 msgid "Add a new item in Silva to refer it"
-msgstr ""
+msgstr "Přidat novou položku do Silva pro její odkazování"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:35
 #: silva.ui:/rest/container/listing.py:102
 msgid "Identifier"
-msgstr ""
+msgstr "Identifikátor"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:53
 msgid "Selected items"
-msgstr ""
+msgstr "Vybrané položky"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:8
 msgid "Select:"
-msgstr ""
+msgstr "Vybrat:"
 
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:27
 msgid "${icon} Lookup"
-msgstr ""
+msgstr "${icon} Vyhledávání"
 
 #: silva.core.smi:/content/container.py:140
 msgid "This action is not applicable on this item."
-msgstr ""
+msgstr "Tato činnost není použitelná na tuto položku."
 
 #. Default: ""
 #: silva.core.smi:/content/container.py:287
 msgid "Item moved in position ${position}."
-msgstr ""
+msgstr "Položka přesunuta do umístění ${position}."
 
 #. Default: ""
 #: silva.core.smi:/content/container.py:293
 msgid "Could not move item in position ${position}."
-msgstr ""
+msgstr "Nelze přesunout položku do umístění ${position}."
 
 #: silva.core.smi:/content/container.py:38
 msgid "Content"
-msgstr ""
+msgstr "Obsah"
 
 #: silva.core.smi:/content/metadata.py:181
 msgid ""
 "The data that was submitted did not validate properly.  Please adjust the "
 "form values and submit again."
 msgstr ""
+"Data která byla odeslána neprošla správně ověřením. Prosím upravte hodnoty "
+"formuláře a odešlete ho znova."
 
 #: silva.core.smi:/content/metadata.py:186
 msgid "Metadata saved."
-msgstr ""
+msgstr "Popisná data uložena."
 
 #: silva.core.smi:/content/metadata.py:221
 msgid "Approved version item properties"
-msgstr ""
+msgstr "Schválená verze vlastností položky"
 
 #: silva.core.smi:/content/metadata.py:236
 msgid "Public version item properties"
-msgstr ""
+msgstr "Veřejná verze vlastností položky"
 
 #: silva.core.smi:/content/metadata.py:251
 msgid "Last closed version item properties"
-msgstr ""
+msgstr "Poslední uzavřená verze vlastností položky"
 
 #: silva.core.smi:/content/metadata.py:30
 #: silva.core.smi:/content/metadata.py:37
 #: silva.ui:/rest/container/listing.py:149
 msgid "Properties"
-msgstr ""
+msgstr "Vlastnosti"
 
 #: silva.core.smi:/content/metadata.py:77
 msgid "Editable item properties"
-msgstr ""
+msgstr "Upravitelné vlastnosti položky"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:10
 msgid "No item refers to this ${content_type}."
-msgstr ""
+msgstr "Žádná položka neodkazuje na tento ${content_type}."
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:13
 msgid "This item is referenced by:"
-msgstr ""
+msgstr "Na tuto položku odkazuje:"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:16
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:19
 msgid "edit item"
-msgstr ""
+msgstr "upravit položku"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "References"
-msgstr ""
+msgstr "Odkazy"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this item"
-msgstr ""
+msgstr "Seznam obsahů které odkazují na tuto položku"
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:12
 msgid "metadata set"
-msgstr ""
+msgstr "popisn ádata nastavena"
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:37
 msgid "acquirable"
-msgstr ""
+msgstr "získatelné"
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:54
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:69
 msgid "Acquired Value:"
-msgstr ""
+msgstr "Získatelná hodnota:"
 
 #: silva.core.smi:/content/publish/__init__.py:22
 #: silva.core.smi:/content/publish/status.py:47
 msgid "Publication"
-msgstr ""
+msgstr "Zveřejnění"
 
 #: silva.core.smi:/content/publish/__init__.py:29
 #: silva.ui:/rest/container/configuration.py:148
 #: silva.ui:/rest/container/listing.py:154
 msgid "Publish"
-msgstr ""
+msgstr "Zveřejnit"
 
 #: silva.core.smi:/content/publish/container.py:31
 msgid "Approve"
-msgstr ""
+msgstr "Schválit"
 
 #: silva.core.smi:/content/publish/container.py:50
 msgid "This action is not applicable on this content."
-msgstr ""
+msgstr "Tato činnost není použitelbá na tento obsah."
 
 #: silva.core.smi:/content/publish/container.py:89
 msgid "Approve item for future"
-msgstr ""
+msgstr "Schválit položku do budoucna"
 
 #: silva.core.smi:/content/publish/container.py:90
 msgid "Approve selected item for the future"
-msgstr ""
+msgstr "Schválit zvolenou položku do budoucna"
 
 #: silva.core.smi:/content/publish/management.py:121
 #: silva.core.smi:/content/publishingactions.py:89
 msgid "Request approval"
-msgstr ""
+msgstr "Zažádat o schválení"
 
 #: silva.core.smi:/content/publish/management.py:130
 msgid "Approval requested."
-msgstr ""
+msgstr "Zažádáno o schválení."
 
 #: silva.core.smi:/content/publish/management.py:139
 msgid "Request approval for new version"
-msgstr ""
+msgstr "Zažádat o schválení nové verze"
 
 #: silva.core.smi:/content/publish/management.py:155
 #: silva.core.smi:/content/publishingactions.py:178
 msgid "Publish now"
-msgstr ""
+msgstr "Zveřejnit nyní"
 
 #: silva.core.smi:/content/publish/management.py:167
 #: silva.core.smi:/content/publishingactions.py:194
 msgid "Version published."
-msgstr ""
+msgstr "Verze zveřejněna."
 
 #: silva.core.smi:/content/publish/management.py:172
 #: silva.ui:/rest/container/configuration.py:199
 msgid "Approve for future"
-msgstr ""
+msgstr "Schválit do budoucna"
 
 #: silva.core.smi:/content/publish/management.py:184
 msgid "Version approved."
-msgstr ""
+msgstr "Verez schválena."
 
 #: silva.core.smi:/content/publish/management.py:201
 msgid "Publish new version"
-msgstr ""
+msgstr "Zveřejnit novou verzi"
 
 #: silva.core.smi:/content/publish/management.py:208
 msgid "Request publication"
-msgstr ""
+msgstr "Zažádat o zveřejnění"
 
 #: silva.core.smi:/content/publish/management.py:209
 msgid "Reject publication"
-msgstr ""
+msgstr "Zamítnout zveřejnění"
 
 #: silva.core.smi:/content/publish/management.py:210
 msgid "Withdraw publication"
-msgstr ""
+msgstr "Stáhnout zveřejnění"
 
 #: silva.core.smi:/content/publish/management.py:211
 msgid "Approve publication"
-msgstr ""
+msgstr "Schválit zveřejnění"
 
 #: silva.core.smi:/content/publish/management.py:226
 msgid "Request approval history"
-msgstr ""
+msgstr "Historie žádostí o schválení"
 
 #: silva.core.smi:/content/publish/management.py:231
 msgid "There is no history."
-msgstr ""
+msgstr "Žádná historie."
 
 #: silva.core.smi:/content/publish/management.py:259
 msgid "Message"
-msgstr ""
+msgstr "Zpráva"
 
 #: silva.core.smi:/content/publish/management.py:260
 msgid ""
 "This message will remain visible in the status screen for other authors and "
 "editors."
 msgstr ""
+"Tato zpráva zůstane zobrazená v obrazovce stavu pro ostatní autory a editory."
 
 #: silva.core.smi:/content/publish/management.py:30
 msgid "Publication time"
-msgstr ""
+msgstr "Čas zveřejnění"
 
 #: silva.core.smi:/content/publish/management.py:300
 msgid "Add message on withdrawal"
-msgstr ""
+msgstr "Přidat zprávu při stáhnutí"
 
 #: silva.core.smi:/content/publish/management.py:301
 #: silva.core.smi:/content/publish/management.py:334
 msgid "The message may be viewed by local users."
-msgstr ""
+msgstr "Zpráva může být zobrazena místními uživateli."
 
 #: silva.core.smi:/content/publish/management.py:308
 #: silva.core.smi:/content/publish/management.py:316
 msgid "Withdraw approval request"
-msgstr ""
+msgstr "Stáhnout žádost o schválení"
 
 #: silva.core.smi:/content/publish/management.py:33
 msgid "Expiration time"
-msgstr ""
+msgstr "Čas konce platnosti"
 
 #: silva.core.smi:/content/publish/management.py:333
 msgid "Add message on rejection"
-msgstr ""
+msgstr "Přidat zprávu při odmítnutí"
 
 #: silva.core.smi:/content/publish/management.py:34
 msgid "Empty indicates no expiration."
-msgstr ""
+msgstr "Prázdné znamená bez konce platnosti."
 
 #: silva.core.smi:/content/publish/management.py:343
 #: silva.core.smi:/content/publish/management.py:350
 msgid "Reject approval request"
-msgstr ""
+msgstr "Zamítnout žádost o schválení"
 
 #: silva.core.smi:/content/publish/management.py:373
 msgid "Manual close"
-msgstr ""
+msgstr "Ruční uzavření"
 
 #: silva.core.smi:/content/publish/management.py:374
 msgid ""
 "If necessary, the published version of this content can be manually closed "
 "(taken offline). It will also be removed from the public index."
 msgstr ""
+"Pokud je nutné, může být zveřejněná verze tohoto obsahu ručně uzavřena (bude "
+"offline). Bude také odstraněna z veřejného rejstříku."
 
 #: silva.core.smi:/content/publish/management.py:383
 msgid "Close published version"
-msgstr ""
+msgstr "Uazvřít zveřejněnou verzi"
 
 #: silva.core.smi:/content/publish/management.py:404
 msgid "Publish closed version"
-msgstr ""
+msgstr "Zveřejnit uzavřenou verzi"
 
 #: silva.core.smi:/content/publish/management.py:405
 msgid "Make the last closed version public."
-msgstr ""
+msgstr "Zveřejnit poslední uzavřenou verzi."
 
 #: silva.core.smi:/content/publish/management.py:42
 msgid "Expiration datetime cannot be before publication."
-msgstr ""
+msgstr "Čas konce platnosti nemůže být před zveřejněním."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:15
 msgid "Item is pending"
-msgstr ""
+msgstr "Položka čeká na rozhodnutí"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:18
 msgid "This is item has been submitted for approval and is pending."
-msgstr ""
+msgstr "Tato položka byla předložena ke schválení a čeká na rozhodnutí."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:24
 msgid "Item is approved, not published"
-msgstr ""
+msgstr "Položka je schválena, nezveřejněna"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:33
 msgid "Published version exists"
-msgstr ""
+msgstr "Existuje zveřejněná verze"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:35
 msgid "Note: an older version of this item is online."
-msgstr ""
+msgstr "Poznámka: starší verze této položky je online."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:39
 msgid "Publishing this version will replace the public version."
-msgstr ""
+msgstr "Zveřejněním této verze nahradíte veřejnou verzi."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:4
 msgid "Item is a draft and never published"
-msgstr ""
+msgstr "Položka je návrh a nikdy nebyla zveřejněna"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:48
 msgid "Item is published"
-msgstr ""
+msgstr "Položka je zveřejněna"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:49
 msgid "This item is published (online for the public)."
-msgstr ""
+msgstr "Tsto položka je zveřejněna (online pro veřejnost)"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:54
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:67
 msgid "If you wish you can make an editable copy in the ${editor}."
-msgstr ""
+msgstr "Pokud chcete, můžete vytvořit kopii pro úpravy v ${editor}."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:55
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:67
 msgid "editor"
-msgstr ""
+msgstr "editor"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:61
 msgid "Item is closed"
-msgstr ""
+msgstr "Položka je uzavřena"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:62
 msgid "This item was once published but is now closed."
-msgstr ""
+msgstr "Tato položka byla jednou zveřejněna, ale nyní je uzavřena."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:7
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:27
 msgid "Publication settings can be changed."
-msgstr ""
+msgstr "Nastavení zveřejnění byla změněna."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:76
 msgid "Publication date of the public version"
-msgstr ""
+msgstr "Datum zveřejnění veřejné verze"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:76
 msgid "Publication date"
-msgstr ""
+msgstr "Datum zveřejnění"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:83
 msgid "Expiration date of the public version"
-msgstr ""
+msgstr "Datum konce platnosti veřejné verze"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:83
 msgid "Expiration date"
-msgstr ""
+msgstr "Datum konce platnosti"
 
 #: silva.core.smi:/content/publish/status.py:107
 msgid "Copy for editing"
-msgstr ""
+msgstr "Kopírovat pro úpravy"
 
 #: silva.core.smi:/content/publish/status.py:108
 msgid "Create a new editable version of the selected old one."
-msgstr ""
+msgstr "Vytvořit novou upravitelnou verzi ze zvolené starší verze."
 
 #: silva.core.smi:/content/publish/status.py:114
 msgid "Please select one version to copy."
-msgstr ""
+msgstr "Prosím zvolte jednu verzi pro zkopírování."
 
 #: silva.core.smi:/content/publish/status.py:124
 msgid "Reverted to previous version."
-msgstr ""
+msgstr "Vráceno zpět na předchozí verzi."
 
 #: silva.core.smi:/content/publish/status.py:132
 #: silva.core.smi:/view.py:17
 msgid "View"
-msgstr ""
+msgstr "Zobrazit"
 
 #: silva.core.smi:/content/publish/status.py:133
 msgid "View this particular version."
-msgstr ""
+msgstr "Zobrazit tuto konkrétní verzi."
 
 #: silva.core.smi:/content/publish/status.py:138
 msgid "Please select one version to view it."
-msgstr ""
+msgstr "Prosím zvolte jednu verzi pro její zobrazení."
 
 #: silva.core.smi:/content/publish/status.py:177
 msgid "Compare"
-msgstr ""
+msgstr "Porovnat"
 
 #: silva.core.smi:/content/publish/status.py:178
 msgid "Select and compare two different versions."
-msgstr ""
+msgstr "Vybrat a porovnat dvě různé verze."
 
 #: silva.core.smi:/content/publish/status.py:183
 msgid "Select exactly two different versions to compare them."
-msgstr ""
+msgstr "Vyberte právě dvě různé verze pro jejich porovnání."
 
 #: silva.core.smi:/content/publish/status.py:251
 #: silva.ui:/rest/container/configuration.py:111
 msgid "Delete"
-msgstr ""
+msgstr "Smazat"
 
 #: silva.core.smi:/content/publish/status.py:252
 msgid "There's no undo."
-msgstr ""
+msgstr "Není co vrátit zpět."
 
 #: silva.core.smi:/content/publish/status.py:257
 msgid "Cannot delete all versions."
-msgstr ""
+msgstr "Nelze smazat všechny verze."
 
 #: silva.core.smi:/content/publish/status.py:262
 msgid "No version selected, nothing deleted."
-msgstr ""
+msgstr "Žádná verze není vybrána, nic není smazáno."
 
 #: silva.core.smi:/content/publish/status.py:271
 msgid "Version(s) deleted."
-msgstr ""
+msgstr "Verze smazány."
 
 #: silva.core.smi:/content/publish/status.py:304
 msgid "Manage versions"
-msgstr ""
+msgstr "Správa verzí"
 
 #: silva.core.smi:/content/publish/status.py:34
 msgid "Unapproved"
-msgstr ""
+msgstr "Neschváleno"
 
 #: silva.core.smi:/content/publish/status.py:35
 msgid "Approved"
-msgstr ""
+msgstr "Schváleno"
 
 #: silva.core.smi:/content/publish/status.py:36
 msgid "Published"
-msgstr ""
+msgstr "Zveřejněno"
 
 #: silva.core.smi:/content/publish/status.py:37
 msgid "Last closed"
-msgstr ""
+msgstr "Naposledy zavřeno"
 
 #: silva.core.smi:/content/publish/status.py:38
 msgid "Closed"
-msgstr ""
+msgstr "Zavřeno"
 
 #: silva.core.smi:/content/publish/status.py:43
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: silva.core.smi:/content/publish/status.py:45
 msgid "Modification"
-msgstr ""
+msgstr "Změna"
 
 #: silva.core.smi:/content/publish/status.py:49
 msgid "Expiration"
-msgstr ""
+msgstr "Konec platnosti"
 
 #: silva.core.smi:/content/publish/status.py:53
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: silva.core.smi:/content/publishingactions.py:107
 msgid "Approval requested for immediate publication."
-msgstr ""
+msgstr "Zažádáno o schválení pro okamžité zveřejnění."
 
 #: silva.core.smi:/content/publishingactions.py:113
 #: silva.ui:/rest/container/configuration.py:227
 msgid "Withdraw request"
-msgstr ""
+msgstr "Stáhnout žádost"
 
 #: silva.core.smi:/content/publishingactions.py:114
 msgid "Withdraw a request for approval."
-msgstr ""
+msgstr "Stáhnout žádost o schválení."
 
 #: silva.core.smi:/content/publishingactions.py:129
 msgid "Withdrew request for approval."
-msgstr ""
+msgstr "Žádost o schválení stáhnuta."
 
 #: silva.core.smi:/content/publishingactions.py:135
 #: silva.ui:/rest/container/configuration.py:213
 msgid "Reject request"
-msgstr ""
+msgstr "Zamítnout žádost"
 
 #: silva.core.smi:/content/publishingactions.py:136
 msgid "reject a request for approval"
-msgstr ""
+msgstr "zamítnout žádost o schválení"
 
 #: silva.core.smi:/content/publishingactions.py:151
 msgid "Rejected request for approval."
-msgstr ""
+msgstr "Žádost o schválení zamítnuta."
 
 #: silva.core.smi:/content/publishingactions.py:157
 #: silva.ui:/rest/container/configuration.py:241
 msgid "Revoke approval"
-msgstr ""
+msgstr "Zrušit schválení"
 
 #: silva.core.smi:/content/publishingactions.py:158
 msgid "Un-approve this version in order to edit it."
-msgstr ""
+msgstr "Zrušit schválení této verze pro její upravu."
 
 #: silva.core.smi:/content/publishingactions.py:172
 msgid "Revoked approval."
-msgstr ""
+msgstr "Schválení zrušeno."
 
 #: silva.core.smi:/content/publishingactions.py:179
 msgid "Publish now this item."
-msgstr ""
+msgstr "Zveřejnit tuto položku nyní."
 
 #: silva.core.smi:/content/publishingactions.py:67
 #: silva.ui:/rest/container/configuration.py:166
 msgid "New version"
-msgstr ""
+msgstr "Nová verze"
 
 #: silva.core.smi:/content/publishingactions.py:68
 msgid "Work on a new version while the previous stays online."
-msgstr ""
+msgstr "Pracovat na nové verzi zatímco stará zůstane offline."
 
 #: silva.core.smi:/content/publishingactions.py:83
 msgid "New version created."
-msgstr ""
+msgstr "Nová verze vytvořena."
 
 #: silva.core.smi:/content/publishingactions.py:90
 msgid "Request approval for immediate publication."
-msgstr ""
+msgstr "Zažádat o schválení pro okamzžité zveřejnění."
 
 #: silva.core.smi:/content/xml/errors.py:21
 msgid "External reference exported"
-msgstr ""
+msgstr "Externí odkaz exportován"
 
 #: silva.core.smi:/content/xml/errors_templates/externalreferenceerrorpage.cpt:15
 msgid ""
@@ -3090,111 +3154,122 @@ msgid ""
 "content ${original_content} who have a reference to the content "
 "${target_content} which is not itself contained in the exported content."
 msgstr ""
+"Pokusili jste se o export obsahu ${exported_content}, který obsahuje "
+"${original_content}, jenž odkazuje na ${target_content} a ten není obsažen v "
+"exportovaném obsahu."
 
 #: silva.core.smi:/content/xml/export.py:43
 msgid "Select an export format"
-msgstr ""
+msgstr "Vyberte formát pro export"
 
 #: silva.core.smi:/content/xml/export.py:44
 msgid "Select the format which will be used for the export."
-msgstr ""
+msgstr "Vyberte formát, který bude použit pro export."
 
 #: silva.core.smi:/content/xml/export.py:51
 msgid "export content"
-msgstr ""
+msgstr "exportovat obsah"
 
 #: silva.core.smi:/content/xml/import.py:25
 msgid "File to upload"
-msgstr ""
+msgstr "Soubor k nahrání"
 
 #: silva.core.smi:/content/xml/import.py:26
 msgid ""
 "Locate a zip file containing assets or a zip file created by a Silva full "
 "media export."
 msgstr ""
+"Nalézt soubor zip obsahující zdroje nebo soubor zip vytvořený úplným "
+"exportem médií v SIlva."
 
 #: silva.core.smi:/content/xml/import.py:30
 msgid "Title for assets"
-msgstr ""
+msgstr "Název pro zdorje"
 
 #: silva.core.smi:/content/xml/import.py:31
 msgid ""
 "Set a title for all assets created from the items of a zip file with assets."
 msgstr ""
+"Nastavit název pro všechny zdroje vytvořené z položek souboru zip se zdroji."
 
 #: silva.core.smi:/content/xml/import.py:36
 msgid "Subdirectories"
-msgstr ""
+msgstr "Podadresáře"
 
 #: silva.core.smi:/content/xml/import.py:37
 msgid ""
 "Recreate the subdirectory structure of a zip file with assets by adding "
 "folders."
 msgstr ""
+"Znovu vytvořit strukturu podadresářů přidáním složek v souboru zip se zdroji."
 
 #: silva.core.smi:/content/xml/import.py:42
 msgid "Replace items"
-msgstr ""
+msgstr "Nahradit položky"
 
 #: silva.core.smi:/content/xml/import.py:43
 msgid ""
 "Replace items with the ones from the import file when they have the same ids "
 "(Note: they will be replaced *even* when published)."
 msgstr ""
+"Nahradit položky položkami z importovaného souboru, pokud mají stejná id "
+"(Poznámka: budou nahrazeny * i když* jsou zveřejněny)."
 
 #: silva.core.smi:/content/xml/import.py:57
 msgid "Import and extract ZIP archive"
-msgstr ""
+msgstr "Imporotvat a extrahovat archiv ZIP"
 
 #: silva.core.smi:/content/xml/import.py:59
 msgid "Click the Upload button to select a file to import."
-msgstr ""
+msgstr "Klikněte na tlačítko nahrát pro zvolení souborů pro import."
 
 #: silva.core.smi:/content/xml/import.py:67
 msgid "upload and import file"
-msgstr ""
+msgstr "nahrát a importovat soubor"
 
 #. Default: ""
 #: silva.core.smi:/content/xml/import.py:88
 msgid "Invalid import file: ${error}."
-msgstr ""
+msgstr "Neplatný importovaný soubor: ${error}."
 
 #. Default: ""
 #: silva.core.smi:/content/xml/import.py:94
 msgid "Imported ${succeeded}."
-msgstr ""
+msgstr "${succeeded} importován."
 
 #. Default: ""
 #: silva.core.smi:/content/xml/import.py:99
 msgid "Could not import: ${failed}."
-msgstr ""
+msgstr "Nelze importovat: ${failed}."
 
 #: silva.core.smi:/errors/quota.py:19
 msgid "Over Quota"
-msgstr ""
+msgstr "Překročení kvóty"
 
 #: silva.core.smi:/errors/quota_templates/overquotaerror.cpt:6
 msgid ""
 "Sorry, a quota is applied to the container you are working in, and the "
 "current operation would require ${exceeding_size} more space."
 msgstr ""
+"Je nám líto, ale v kontejneru kde pracujete je vyhrazena kvóta a současná "
+"operace by vyžadovala o ${exceeding_size} více prostoru."
 
 #: silva.core.smi:/errors/references.py:31
 msgid "Broken references"
-msgstr ""
+msgstr "Rozbité odkazy"
 
 #: silva.core.smi:/errors/references.py:67
 msgid "Break references"
-msgstr ""
+msgstr "Rozbít odkazy"
 
 #: silva.core.smi:/errors/references.py:87
 msgid "References broken"
-msgstr ""
+msgstr "Odkazy rozbity"
 
 #. Default: ""
 #: silva.core.smi:/errors/references.py:89
 msgid "References to ${content} (${path}) have been broken."
-msgstr ""
+msgstr "Odkazy na ${content} (${path})  byly rozbity."
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
@@ -3202,6 +3277,9 @@ msgid ""
 "references to this one: <a target=\"_blank\" "
 "href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
+"Tuto operaci nemůžete dokončit, protože některý obsah na vaší stránce má "
+"odkazy na tento: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
 msgid ""
@@ -3209,61 +3287,66 @@ msgid ""
 "content here, including published versions, and containers of those "
 "contents. Added to that, in case of problems, you cannot undo this operation."
 msgstr ""
+"Pokud chcete, můžete tyto odkazy rozbít. To může poškodit veškerý obsah, "
+"který je zde vypsán, včetně zveřejněných verzí a kontejnerů těchto obsahů. "
+"Navíc, v případě problémů, nemůžete tuto operaci vrátit zpět."
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:19
 msgid "Those contents are:"
-msgstr ""
+msgstr "Tyto obsahy jsou:"
 
 #: silva.core.smi:/preview.py:49
 #: silva.ui:/rest/container/listing.py:146
 msgid "Preview"
-msgstr ""
+msgstr "Náhled"
 
 #: silva.core.smi:/preview.py:50
 msgid "view item while staying in the admin interface"
-msgstr ""
+msgstr "zobrazit položku ve správcovském rozhraní"
 
 #: silva.core.smi:/settings/__init__.py:35
 #: silva.core.smi:/settings/__init__.py:49
 msgid "Settings"
-msgstr ""
+msgstr "Nastavení"
 
 #: silva.core.smi:/settings/access.py:101
 msgid "No matching users were found."
-msgstr ""
+msgstr "Nebyly nalezeni žádní odpovídající uživatelé."
 
 #: silva.core.smi:/settings/access.py:114
 msgid "Lookup users"
-msgstr ""
+msgstr "Vyhledat uživatele"
 
 #: silva.core.smi:/settings/access.py:115
 msgid ""
 "Search for users to assign them roles. Enter as least two characters. "
 "Looukup entire names to limit the number of results."
 msgstr ""
+"Hledat uživatele pro přidělení rolí. Zadejte alespoň dva znaky. Hledejte "
+"celá jména pro omezení počtu výsledků."
 
 #: silva.core.smi:/settings/access.py:134
 msgid "Role to grant:"
-msgstr ""
+msgstr "Role k přidělení:"
 
 #: silva.core.smi:/settings/access.py:141
 #: silva.pas.base:/smi.py:218
 msgid "Grant role"
-msgstr ""
+msgstr "Přidělit roli"
 
 #: silva.core.smi:/settings/access.py:142
 msgid "Grant the selected role to selected users(s)"
-msgstr ""
+msgstr "Přidělit zvolenou roli ke zvoleným uživatelům"
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:159
 msgid "Role \"${role}\" granted to user \"${username}\"."
-msgstr ""
+msgstr "Role \"${role}\" přidělena uživateli  \"${username}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:164
 msgid "User \"${username}\" already has the role \"${role}\"."
-msgstr ""
+msgstr "Uživatel \"${username}\" již má roli \"${role}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:169
@@ -3271,25 +3354,27 @@ msgid ""
 "Sorry, you are not allowed to grant the role \"${role}\" to user "
 "\"${username}\": ${reason}."
 msgstr ""
+"Je nám líto, ale nemáte oprávnění přidělit roli \"${role}\" uživateli "
+"\"${username}\": ${reason}."
 
 #: silva.core.smi:/settings/access.py:181
 #: silva.pas.base:/smi.py:258
 msgid "Revoke role"
-msgstr ""
+msgstr "Odejmout roli"
 
 #: silva.core.smi:/settings/access.py:182
 msgid "Revoke the role of selected user(s)"
-msgstr ""
+msgstr "Odejmout roli od zvolených uživatelů"
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:196
 msgid "Removed role \"${role}\" from user \"${username}\"."
-msgstr ""
+msgstr "Role \"${role}\" odstraněna u uživatele \"${username}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:202
 msgid "User \"${username}\" doesn't have any local role."
-msgstr ""
+msgstr "Uživatel \"${username}\" nemá žádnou místní roli."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:207
@@ -3297,29 +3382,31 @@ msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from user "
 "\"${username}\": ${reason}."
 msgstr ""
+"Je nám líto, ale nemůžete uživateli \"${username}\" odstranit roli "
+"\"${role}\": ${reason}."
 
 #: silva.core.smi:/settings/access.py:221
 #: silva.pas.base:/smi.py:207
 msgid "Role defined above"
-msgstr ""
+msgstr "Role určená výše"
 
 #: silva.core.smi:/settings/access.py:225
 #: silva.pas.base:/smi.py:211
 msgid "Role defined here"
-msgstr ""
+msgstr "Role určená zde"
 
 #: silva.core.smi:/settings/access.py:237
 msgid "User roles"
-msgstr ""
+msgstr "Role uživatelů"
 
 #: silva.core.smi:/settings/access.py:238
 #: silva.pas.base:/smi.py:301
 msgid "No roles have been assigned."
-msgstr ""
+msgstr "Žádné role nybyly přiděleny."
 
 #: silva.core.smi:/settings/access.py:266
 msgid "User clipboard"
-msgstr ""
+msgstr "Schránka uživatele"
 
 #: silva.core.smi:/settings/access.py:267
 msgid ""
@@ -3327,128 +3414,140 @@ msgid ""
 "this user clipboard. Then assign the users roles. Any users on the clipboard "
 "will remain here when you move to other areas of the site."
 msgstr ""
+"Abyste mohli přidělit role uživatelům, nejdříve je vyhledejte, aby byli "
+"zobrazeni ve schránce uživatele. Pak jim přidělte role. Každý uživatel ve "
+"schránce v ní zůstane, i když se přesunete do jiných oblastí stránky."
 
 #: silva.core.smi:/settings/access.py:290
 #: silva.pas.base:/smi.py:348
 msgid "Clear clipboard"
-msgstr ""
+msgstr "Vyčistit schránku"
 
 #: silva.core.smi:/settings/access.py:291
 msgid "clear the user clipboard"
-msgstr ""
+msgstr "vyčistit schránku uživatele"
 
 #: silva.core.smi:/settings/access.py:304
 msgid "Is the role acquired from above?"
-msgstr ""
+msgstr "Je role získávána z vrchu?"
 
 #: silva.core.smi:/settings/access.py:308
 msgid "Minimum required role needed to access this item"
-msgstr ""
+msgstr "Minimální požadovaná role pro přístup k této položce"
 
 #: silva.core.smi:/settings/access.py:321
 msgid "Public view access restriction"
-msgstr ""
+msgstr "Omezení přístupu veřejnosti"
 
 #: silva.core.smi:/settings/access.py:322
 msgid ""
 "Setting an access restriction here affects content on this and lower levels."
 msgstr ""
+"Nastavením omezení přístupu zde ovlivní obsah v této a nižších úrovních."
 
 #: silva.core.smi:/settings/access.py:332
 msgid "Acquire restriction"
-msgstr ""
+msgstr "Získat omezení"
 
 #: silva.core.smi:/settings/access.py:333
 msgid ""
 "Set the access restriction to acquire its setting from the parent container."
 msgstr ""
+"Nastavit omezení přístupu aby získávalo své nastavení z nadřazeného "
+"kontejneru."
 
 #: silva.core.smi:/settings/access.py:34
 msgid "Manage access to content"
-msgstr ""
+msgstr "Správa přístupu k obsahu"
 
 #: silva.core.smi:/settings/access.py:341
 msgid "The minimum role setting was already acquired."
-msgstr ""
+msgstr "Nastavení minimální role již bylo získáno."
 
 #: silva.core.smi:/settings/access.py:346
 msgid "Now acquiring the minimum role setting."
-msgstr ""
+msgstr "Získávání nastavení minimální role."
 
 #: silva.core.smi:/settings/access.py:35
 msgid ""
 "This screen lets you authorize or revoke access to this item and all content "
 "it contains."
 msgstr ""
+"Tato obrazovka Vám umožňuje schválit nebo zamítnout přístup k této položce a "
+"jejího veškerého obsahu."
 
 #: silva.core.smi:/settings/access.py:351
 msgid "Set restriction"
-msgstr ""
+msgstr "Nastavit omezení"
 
 #: silva.core.smi:/settings/access.py:352
 msgid "Restrict access to this content to the selected role"
-msgstr ""
+msgstr "Omezit přístup k tomuto obsahu na zvolenou roli"
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:363
 msgid ""
 "The minimum required role to access this item has been set to \"${role}\"."
 msgstr ""
+"Minimální požadovaná role pro přístup k této položce byla nastavena na "
+"\"${role}\"."
 
 #: silva.core.smi:/settings/access.py:370
 msgid "The minimum required role to access this item is acquired."
-msgstr ""
+msgstr "Minimální požadovaná role pro přístup k této položce je získávána."
 
 #: silva.core.smi:/settings/access.py:43
 #: silva.ui:/rest/container/listing.py:161
 msgid "Access"
-msgstr ""
+msgstr "Přístup"
 
 #: silva.core.smi:/settings/access.py:48
 msgid "Lookup users..."
-msgstr ""
+msgstr "Vyhledat uživatele..."
 
 #: silva.core.smi:/settings/access.py:49
 msgid "Search for users to assign them roles"
-msgstr ""
+msgstr "Vyhledat uživatele pro přidělení rolí"
 
 #: silva.core.smi:/settings/access.py:58
 #: silva.core.smi:/settings/access.py:219
 #: silva.pas.base:/Membership_templates/loginpage.cpt:35
 msgid "Username"
-msgstr ""
+msgstr "Uživatelské jméno"
 
 #: silva.core.smi:/settings/access.py:59
 msgid "Username or part of the username to lookup"
-msgstr ""
+msgstr "Uživatelské jméno nebo jeho část pro vyhledání"
 
 #: silva.core.smi:/settings/access.py:67
 msgid "Lookup user"
-msgstr ""
+msgstr "Vyhledat uživatele"
 
 #: silva.core.smi:/settings/access.py:73
 msgid "Sorry, there were errors."
-msgstr ""
+msgstr "Bohužel se vyskytly chyby."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:95
 msgid "Found ${count} users: ${users}."
-msgstr ""
+msgstr "Nalezeno ${count} uživatelů: ${users}."
 
 #: silva.core.smi:/settings/addables.py:35
 msgid "Acquire"
-msgstr ""
+msgstr "Získávat"
 
 #: silva.core.smi:/settings/addables.py:36
 msgid ""
 "If checked, inherit the addables from above. Uncheck this to change the "
 "allowed addables below."
 msgstr ""
+"Pokud zaškrtnuto, budou přidatelné získávány z vyšších úrovní. Při "
+"odškrtnutí můžete níže změnit povolené přidatelné."
 
 #: silva.core.smi:/settings/addables.py:41
 #: silva.core.smi:/settings/addables.py:104
 msgid "Addables"
-msgstr ""
+msgstr "Přidatelné"
 
 #: silva.core.smi:/settings/addables.py:42
 msgid ""
@@ -3456,147 +3555,158 @@ msgid ""
 "in this publication. Otherwise the addables are acquired from the "
 "publication above."
 msgstr ""
+"Pokud 'Získávat' není zaškrtnuto, pak tato nastavení budou rozhodovat o "
+"povolených položkách v této publikaci. Jinak jsou přidatelné získávány z "
+"publikací výše."
 
 #: silva.core.smi:/settings/addables.py:57
 msgid "Addable settings"
-msgstr ""
+msgstr "Nastavení přidaetelných"
 
 #: silva.core.smi:/settings/addables.py:72
 msgid "Save addables settings"
-msgstr ""
+msgstr "Uložit nastavení přidatelných"
 
 #: silva.core.smi:/settings/addables.py:73
 msgid "save addable settings for this publication"
-msgstr ""
+msgstr "uložit nastavení přidatelných pro tuto publikaci"
 
 #: silva.core.smi:/settings/addables.py:82
 msgid "Addable settings have not changed and remain acquired."
-msgstr ""
+msgstr "Nastavení přidatelných nebylo změněno a je stále získáváno."
 
 #: silva.core.smi:/settings/addables.py:88
 msgid "Addable settings are now aquired."
-msgstr ""
+msgstr "Nastavení přidatelných je nyní získáváno."
 
 #: silva.core.smi:/settings/addables.py:92
 msgid "Changes to addables content types saved."
-msgstr ""
+msgstr "Změny typů obsahu přidatelných je uloženo."
 
 #: silva.core.smi:/settings/makers.py:102
 msgid "Available markers"
-msgstr ""
+msgstr "Dostupné značky"
 
 #: silva.core.smi:/settings/makers.py:122
 msgid "Interfaces in use which affect the behavior of the item"
-msgstr ""
+msgstr "Používaná rozhraní která ovlivňují chování položky"
 
 #: silva.core.smi:/settings/makers.py:135
 msgid "Add a marker to alter the behavior"
-msgstr ""
+msgstr "Přidat značku pro upravení chování"
 
 #: silva.core.smi:/settings/makers.py:143
 msgid "Add marker"
-msgstr ""
+msgstr "Přidat značku"
 
 #: silva.core.smi:/settings/makers.py:144
 msgid "mark the item with the selected marker(s)"
-msgstr ""
+msgstr "označit položku zvolenými značkami"
 
 #: silva.core.smi:/settings/makers.py:149
 #: silva.core.smi:/settings/makers.py:179
 msgid "You need to select a marker."
-msgstr ""
+msgstr "Je třeba zvolit značku."
 
 #: silva.core.smi:/settings/makers.py:155
 msgid "Marker added."
-msgstr ""
+msgstr "Značka přidána."
 
 #: silva.core.smi:/settings/makers.py:164
 msgid "Remove a marker"
-msgstr ""
+msgstr "Odstranit značku"
 
 #: silva.core.smi:/settings/makers.py:173
 msgid "remove the selected marker(s) from the item"
-msgstr ""
+msgstr "odstranit zvolené značky z položky"
 
 #: silva.core.smi:/settings/makers.py:185
 msgid "Marker removed."
-msgstr ""
+msgstr "Značka odstraněna."
 
 #: silva.core.smi:/settings/makers.py:29
 msgid "Customization markers"
-msgstr ""
+msgstr "Značky přizpůsobení"
 
 #: silva.core.smi:/settings/makers.py:30
 msgid ""
 "This screen lets you tag items with markers which can alter how content is "
 "displayed and behaves."
 msgstr ""
+"Tato obrazovka Vám umožňuje označit položky značkami, které mohou měnit "
+"chování a zobrazení obsahu."
 
 #: silva.core.smi:/settings/makers.py:38
 msgid "Customization"
-msgstr ""
+msgstr "Přizpůsobení"
 
 #: silva.core.smi:/settings/makers.py:85
 msgid "Used interfaces"
-msgstr ""
+msgstr "Použitá rozhraní"
 
 #: silva.core.smi:/settings/makers.py:94
 msgid "Used markers"
-msgstr ""
+msgstr "Použité značky"
 
 #: silva.core.smi:/settings/settings.py:102
 msgid "Container type"
-msgstr ""
+msgstr "Typ kontejneru"
 
 #: silva.core.smi:/settings/settings.py:118
 msgid ""
 "This Ghost Folder can be converted to a normal Publication or Folder. All "
 "ghosted content will be duplicated and can then be edited."
 msgstr ""
+"Tato složka ducha může být převedena na normální publikaci nebo složku. "
+"Všechen strašený obsah bude zkopírován a pak může být upraven."
 
 #: silva.core.smi:/settings/settings.py:123
 msgid ""
 "This Silva Publication is a local site. You need to remove any local "
 "service, and the local site before you can convert it to a Silva Folder."
 msgstr ""
+"Publikace Silva je místní stránka. Je nutné odstranit všechny vzdálené "
+"služby a místní stránku před jejím převedením do složky Silva."
 
 #: silva.core.smi:/settings/settings.py:126
 msgid ""
 "This Silva Publication can be converted to a Silva Folder, or can become a "
 "local site."
 msgstr ""
+"Tato publikace Silva může být převedena do složky Silva, nebo do místní "
+"stránky."
 
 #: silva.core.smi:/settings/settings.py:128
 msgid "This Silva Folder can be converted to a Publication."
-msgstr ""
+msgstr "Složka Silva může být převedena do publikace."
 
 #: silva.core.smi:/settings/settings.py:134
 msgid "Allow feeds"
-msgstr ""
+msgstr "Povolit kanály"
 
 #: silva.core.smi:/settings/settings.py:135
 msgid "Check to provide an Atom / RSS feed from this container."
-msgstr ""
+msgstr "Zaškrtněte pro zavedení kanálu Atom / RSS z tohoto kontejneru."
 
 #: silva.core.smi:/settings/settings.py:151
 msgid "Atom/rss feeds"
-msgstr ""
+msgstr "Kanály Atom/RSS"
 
 #: silva.core.smi:/settings/settings.py:158
 msgid "Change feed settings"
-msgstr ""
+msgstr "Změnit nastavení kanálu"
 
 #: silva.core.smi:/settings/settings.py:160
 msgid "change feed settings"
-msgstr ""
+msgstr "změnit nastavení kanálu"
 
 #: silva.core.smi:/settings/settings.py:166
 msgid "Feed settings saved."
-msgstr ""
+msgstr "Nastavení kanálu uloženo."
 
 #: silva.core.smi:/settings/settings.py:183
 msgid "Space used in this folder"
-msgstr ""
+msgstr "Prostor použitý v této složce"
 
 #: silva.core.smi:/settings/settings.py:204
 msgid "Used space"
@@ -4128,31 +4238,8 @@ msgstr ""
 #~ msgid "Convert all currently stored file to the current set storage"
 #~ msgstr "Převést všechny nyní uložené soubory do nyní nastaveného úložiště"
 
-#~ msgid "Click the Lookup button to select a content to haunt."
-#~ msgstr "Klikněte na tlačítko vyhledat pro zvolení obsahu ke strašení."
-
 #~ msgid "The silva object the ghost is mirroring."
 #~ msgstr "Objekt silva na který duch odkazuje."
 
 #~ msgid "The silva object the ghost is mirroring"
 #~ msgstr "Objekt silva, který duch zrcadlí"
-
-#~ msgid "Make a reference to internal content by looking it up."
-#~ msgstr "Vytvořit odkaz na vnitřní obsah jeho vyhledáním."
-
-#~ msgid ""
-#~ "Absolute link selected without URL. If the link goes to content in Silva, "
-#~ "put a checkmark in the relative link field."
-#~ msgstr ""
-#~ "Zvolen absolutní odkaz bez URL. Pokud odkaz přechází na obsah Silva, "
-#~ "zaškrtněte pole relativního odkazu."
-
-#~ msgid "Click the Lookup button to select a content to refer to."
-#~ msgstr ""
-#~ "Klikněte na tlačítko vyhledat pro zvolení obsahu, na který bude odkazováno."
-
-#~ msgid ""
-#~ "If the link goes to content in Silva, put a checkmark here and lookup the "
-#~ "target below."
-#~ msgstr ""
-#~ "Pokud odkaz přechází na obsah Silva, zde zaškrtněte a níže vyhledejte cíl."

@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-09-03 07:28+0000\n"
-"X-Generator: Launchpad (build 15890)\n"
+"X-Launchpad-Export-Date: 2012-09-25 07:00+0000\n"
+"X-Generator: Launchpad (build 16019)\n"
 "Language: el\n"
 
 #: Products.Silva:/Asset.py:136
@@ -68,15 +68,15 @@ msgstr "Αλφαβητικά"
 
 #: Products.Silva:/AutoTOC/views.py:25
 msgid "Reverse alphabetically"
-msgstr ""
+msgstr "Αντίστροφη αλφαβητική σειρά"
 
 #: Products.Silva:/AutoTOC/views.py:26
 msgid "Chronologically by modification date"
-msgstr ""
+msgstr "Χρονολογική σειρά με ημερομηνία τροποποίησης"
 
 #: Products.Silva:/AutoTOC/views.py:27
 msgid "Reverse chronologically by modification date"
-msgstr ""
+msgstr "Αντίστροφη χρονολογική σειρά με ημερομηνία τροποποίησης"
 
 #: Products.Silva:/AutoTOC/views.py:47
 msgid "Types to list"
@@ -113,6 +113,8 @@ msgid ""
 "If selected, each item displayed will include its title and metadata "
 "description, if available. "
 msgstr ""
+"Αν επιλεγεί, κάθε στοιχείο που θα εμφανίζεται θα περιλαμβάνει τον τίτλο και "
+"την περιγραφή μεταδεδομένων, εάν υπάρχουν. "
 
 #: Products.Silva:/AutoTOC/views.py:72
 msgid "Show icon"
@@ -121,6 +123,8 @@ msgstr ""
 #: Products.Silva:/AutoTOC/views.py:73
 msgid "If selected, each item displayed will include its icon. "
 msgstr ""
+"Αν επιλεγεί  , κάθε στοιχείο που εμφανίζεται θα περιλαμβάνει το εικονίδιο "
+"του "
 
 #: Products.Silva:/AutoTOC/views.py:78
 msgid "Show container link"
@@ -142,7 +146,7 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:162
 msgid "Enable"
-msgstr ""
+msgstr "Ενεργοποίηση"
 
 #: Products.Silva:/EmailMessageService.py:163
 msgid "Send emails when asked to."
@@ -150,7 +154,7 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:166
 msgid "From Address"
-msgstr ""
+msgstr "Από Διεύθυνση"
 
 #: Products.Silva:/EmailMessageService.py:167
 msgid "Email address used to send messages."
@@ -191,7 +195,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:289
 msgid "Upgrade"
-msgstr ""
+msgstr "Αναβάθμιση"
 
 #: Products.Silva:/ExtensionService.py:301
 msgid "Content upgrade succeeded. See event log for details"
@@ -217,7 +221,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:332
 msgid "Invalid path"
-msgstr ""
+msgstr "Μη έγκυρη διαδρομή"
 
 #: Products.Silva:/ExtensionService.py:334
 msgid "Partial catalog refreshed"
@@ -229,7 +233,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:349
 msgid "Catalog refreshed"
-msgstr ""
+msgstr "Ο κατάλογος ανανεώθηκε"
 
 #: Products.Silva:/ExtensionService.py:353
 msgid "Quota sub-system disabled"
@@ -249,14 +253,14 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:373
 msgid "Documentation installed"
-msgstr ""
+msgstr "Η τεκμηρίωση εγκαταστάθηκε"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:89
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:14
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:16
 msgid "${DYNAMIC_CONTENT}"
-msgstr ""
+msgstr "${DYNAMIC_CONTENT}"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:17
 msgid "Extensions management"
@@ -264,15 +268,15 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:21
 msgid "General actions"
-msgstr ""
+msgstr "Γενικές ενέργειες"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "ανανέωση όλων"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr ""
+msgstr "εγκατάσταση τεκμηρίωσης"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:32
 msgid "rebuild catalog"
@@ -292,7 +296,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:50
 msgid "upgrade content"
-msgstr ""
+msgstr "αναβάθμιση περιεχομένου"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:61
 msgid "Available extensions"
@@ -301,7 +305,7 @@ msgstr ""
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:93
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:104
 msgid "refresh"
-msgstr ""
+msgstr "ανανέωση"
 
 #: Products.Silva:/File/content.py:164
 msgid "download"
@@ -331,7 +335,7 @@ msgstr ""
 
 #: Products.Silva:/File/service.py:123
 msgid "Convert all files"
-msgstr ""
+msgstr "Μετατροπή όλων των αρχείων"
 
 #: Products.Silva:/File/service.py:127
 msgid ""
@@ -704,11 +708,11 @@ msgstr ""
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:14
 msgid "Terms"
-msgstr ""
+msgstr "Όροι"
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:18
 msgid "Links"
-msgstr ""
+msgstr "Σύνδεσμοι"
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:44
 msgid "No index items listed or found."
