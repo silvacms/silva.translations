@@ -1,22 +1,21 @@
-# Hindi translation for silva
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# Galician translation for silva
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
 # This file is distributed under the same license as the silva package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-12-11 11:07+0000\n"
-"PO-Revision-Date: 2012-06-01 11:20+0000\n"
-"Last-Translator: thisfred <eric@infrae.com>\n"
-"Language-Team: Hindi <hi@li.org>\n"
+"PO-Revision-Date: 2012-11-10 01:19+0000\n"
+"Last-Translator: ghas <Unknown>\n"
+"Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-12-11 10:21+0000\n"
+"X-Launchpad-Export-Date: 2012-12-11 10:20+0000\n"
 "X-Generator: Launchpad (build 16356)\n"
-"Language: hi\n"
 
 #: Products.Silva:/Asset.py:136
 #: Products.Silva:/GhostFolder.py:392
@@ -25,7 +24,7 @@ msgstr ""
 #: silva.core.contentlayout:/model.py:171
 #: silva.core.smi:/content/__init__.py:26
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: Products.Silva:/Asset_templates/assetpath.cpt:4
 msgid "File system path"
@@ -37,7 +36,7 @@ msgstr ""
 
 #: Products.Silva:/Asset_templates/assetsize.cpt:3
 msgid "File size"
-msgstr ""
+msgstr "Tamaño do arquivo"
 
 #: Products.Silva:/Asset_templates/assetsize.cpt:3
 msgid "Size of this asset"
@@ -60,15 +59,15 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC/views.py:26
 msgid "Silva folder order"
-msgstr "सिलवा फोलडर"
+msgstr ""
 
 #: Products.Silva:/AutoTOC/views.py:27
 msgid "Alphabetically"
-msgstr "वर्णक्रम  में"
+msgstr "Orde alfabética"
 
 #: Products.Silva:/AutoTOC/views.py:28
 msgid "Reverse alphabetically"
-msgstr "वर्णानुक्रम उल्टा"
+msgstr "Orde alfabética inversa"
 
 #: Products.Silva:/AutoTOC/views.py:29
 msgid "Chronologically by modification date"
@@ -91,7 +90,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC/views.py:60
 msgid "Depth"
-msgstr ""
+msgstr "Profundidade"
 
 #: Products.Silva:/AutoTOC/views.py:61
 msgid ""
@@ -101,7 +100,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC/views.py:69
 msgid "Display description"
-msgstr ""
+msgstr "Mostrar descrición"
 
 #: Products.Silva:/AutoTOC/views.py:70
 msgid ""
@@ -111,7 +110,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC/views.py:76
 msgid "Show icon"
-msgstr ""
+msgstr "Mostrar icono"
 
 #: Products.Silva:/AutoTOC/views.py:77
 msgid "If selected, each item displayed will include its icon. "
@@ -129,7 +128,7 @@ msgstr ""
 
 #: Products.Silva:/AutoTOC/views.py:89
 msgid "Sort order"
-msgstr ""
+msgstr "Orde de presentación"
 
 #: Products.Silva:/AutoTOC/views.py:90
 msgid "The order items in a container will be sorted"
@@ -137,19 +136,19 @@ msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:162
 msgid "Enable"
-msgstr "सक्षम करना"
+msgstr "Activar"
 
 #: Products.Silva:/EmailMessageService.py:163
 msgid "Send emails when asked to."
-msgstr "ईमेल भेजें जब करने के लिए कहा जाए"
+msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:166
 msgid "From Address"
-msgstr "प्रेषक पता"
+msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:167
 msgid "Email address used to send messages."
-msgstr "संदेश भेजने के लिए इस्तेमाल किया गया ईमेल पता"
+msgstr ""
 
 #: Products.Silva:/EmailMessageService.py:176
 msgid "Service Message Configuration"
@@ -167,11 +166,11 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:268
 msgid "Current Silva version of the object"
-msgstr "वस्तु का वर्तमान सिल्वा संस्करण"
+msgstr ""
 
 #: Products.Silva:/ExtensionService.py:278
 msgid "Upgrade site"
-msgstr ""
+msgstr "Actualizar sitio"
 
 #: Products.Silva:/ExtensionService.py:279
 msgid ""
@@ -186,11 +185,11 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:290
 msgid "Upgrade"
-msgstr "उन्नत बनाएं"
+msgstr "Actualizar"
 
 #: Products.Silva:/ExtensionService.py:302
 msgid "Content upgrade succeeded. See event log for details"
-msgstr "सामग्री उन्नयन सफल. विवरण के लिए घटना लॉग देखें"
+msgstr ""
 
 #: Products.Silva:/ExtensionService.py:309
 msgid "Absolute path to reindex"
@@ -208,11 +207,11 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:324
 msgid "Reindex"
-msgstr "पुनः अनुक्रमण"
+msgstr "Reindexar"
 
 #: Products.Silva:/ExtensionService.py:333
 msgid "Invalid path"
-msgstr "अवैध पथ"
+msgstr "Ruta non válida"
 
 #: Products.Silva:/ExtensionService.py:335
 msgid "Partial catalog refreshed"
@@ -228,11 +227,11 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:354
 msgid "Quota sub-system disabled"
-msgstr "कोटा उप-प्रणाली अक्षम"
+msgstr ""
 
 #: Products.Silva:/ExtensionService.py:358
 msgid "Quota sub-system enabled"
-msgstr "कोटा उप-प्रणाली सक्रिय"
+msgstr ""
 
 #: Products.Silva:/ExtensionService.py:363
 msgid "Old version of documents purged"
@@ -240,11 +239,11 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService.py:370
 msgid "Content upgrade succeeded. See log in Logs tab for details"
-msgstr "सामग्री नवीनीकरण सफल रह|"
+msgstr ""
 
 #: Products.Silva:/ExtensionService.py:374
 msgid "Documentation installed"
-msgstr "दस्तावेज़ीकरण स्थापित"
+msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:89
@@ -260,7 +259,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:21
 msgid "General actions"
-msgstr "सामान्य क्रिया"
+msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
@@ -268,19 +267,19 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr "दस्तावेज़ीकरण स्थापित"
+msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:32
 msgid "rebuild catalog"
-msgstr "सूची के पुनर्निर्माण"
+msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:36
 msgid "disable quota subsystem"
-msgstr "निष्क्रिय कोटा उपतंत्र"
+msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:41
 msgid "enable quota subsystem"
-msgstr "कोटा उपतंत्र सक्षम"
+msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:46
 msgid "purge old versions"
@@ -288,7 +287,7 @@ msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:50
 msgid "upgrade content"
-msgstr "सामग्री के उन्नयन"
+msgstr ""
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:61
 msgid "Available extensions"
@@ -297,11 +296,11 @@ msgstr ""
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:93
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:104
 msgid "refresh"
-msgstr "नया करना"
+msgstr "actualizar"
 
 #: Products.Silva:/File/content.py:172
 msgid "download"
-msgstr "डाउनलोड करें"
+msgstr "descargar"
 
 #: Products.Silva:/File/content.py:74
 #: Products.Silva:/Image/content.py:84
@@ -311,7 +310,7 @@ msgstr ""
 #: Products.Silva:/File/content.py:78
 #: Products.Silva:/Image/content.py:88
 msgid "Duplicate id. Please provide an explicit id."
-msgstr "Duplicate id. Please provide an explicit id."
+msgstr ""
 
 #: Products.Silva:/File/service.py:103
 msgid "Select storage"
@@ -327,7 +326,7 @@ msgstr ""
 
 #: Products.Silva:/File/service.py:123
 msgid "Convert all files"
-msgstr "सभी फ़ाइलें रूपांतरित करे"
+msgstr ""
 
 #: Products.Silva:/File/service.py:127
 msgid ""
@@ -336,7 +335,7 @@ msgstr ""
 
 #: Products.Silva:/File/service.py:95
 msgid "Configure file storage"
-msgstr "कॉन्फ़िगर फ़ाइल भंडारण"
+msgstr ""
 
 #: Products.Silva:/File/smi.py:24
 msgid "File"
@@ -554,15 +553,15 @@ msgstr ""
 
 #: Products.Silva:/Image/content.py:503
 msgid "square"
-msgstr "वर्ग"
+msgstr ""
 
 #: Products.Silva:/Image/content.py:505
 msgid "landscape"
-msgstr "आड़ा"
+msgstr ""
 
 #: Products.Silva:/Image/content.py:506
 msgid "portrait"
-msgstr "खड़ा"
+msgstr ""
 
 #: Products.Silva:/Image/smi.py:100
 msgid "Format and scaling"
@@ -663,7 +662,7 @@ msgstr ""
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:9
 msgid "unknown"
-msgstr "अग्यात"
+msgstr "descoñecido"
 
 #: Products.Silva:/Indexer/content.py:40
 msgid ""
@@ -700,15 +699,15 @@ msgstr ""
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:14
 msgid "Terms"
-msgstr "शर्तें"
+msgstr ""
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:18
 msgid "Links"
-msgstr "लिंक्स"
+msgstr "Ligazóns"
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:44
 msgid "No index items listed or found."
-msgstr "कोई अनुक्रमणिका या आइटम सूचीबद्ध नहीं पाया"
+msgstr ""
 
 #: Products.Silva:/Link.py:100
 msgid ""
@@ -893,19 +892,19 @@ msgstr ""
 
 #: Products.Silva:/Version.py:172
 msgid "public"
-msgstr ""
+msgstr "público"
 
 #: Products.Silva:/Version.py:172
 msgid "pending"
-msgstr "बकाया"
+msgstr "pendente"
 
 #: Products.Silva:/Version.py:172
 msgid "draft"
-msgstr "ड्राफ़्ट"
+msgstr "borrador"
 
 #: Products.Silva:/Version.py:172
 msgid "closed"
-msgstr "बन्द"
+msgstr "pechado"
 
 #: Products.Silva:/Version.py:73
 msgid "A version is already waiting approval."
@@ -1079,7 +1078,7 @@ msgstr ""
 
 #: Products.Silva:/roleinfo.py:33
 msgid "Anonymous"
-msgstr "अग्यात"
+msgstr ""
 
 #: Products.Silva:/roleinfo.py:34
 #: silva.core.interfaces:/auth.py:120
@@ -1089,12 +1088,12 @@ msgstr ""
 #: Products.Silva:/roleinfo.py:35
 #: silva.core.interfaces:/auth.py:105
 msgid "Manager"
-msgstr "मैनेजर"
+msgstr ""
 
 #: Products.Silva:/roleinfo.py:36
 #: silva.core.interfaces:/auth.py:98
 msgid "Viewer"
-msgstr "प्रदर्शक"
+msgstr ""
 
 #: Products.Silva:/roleinfo.py:37
 #: silva.core.interfaces:/auth.py:99
@@ -1109,24 +1108,24 @@ msgstr ""
 #: Products.Silva:/roleinfo.py:39
 #: silva.core.interfaces:/auth.py:101
 msgid "Reader"
-msgstr "रीडर"
+msgstr ""
 
 #: Products.Silva:/roleinfo.py:40
 #: silva.core.interfaces:/auth.py:102
 #: silva.core.smi:/content/publish/status.py:53
 #: silva.ui:/rest/container/listing.py:164
 msgid "Author"
-msgstr "लेखक"
+msgstr ""
 
 #: Products.Silva:/roleinfo.py:41
 #: silva.core.interfaces:/auth.py:103
 msgid "Editor"
-msgstr "संपादक"
+msgstr ""
 
 #: Products.Silva:/roleinfo.py:42
 #: silva.core.interfaces:/auth.py:104
 msgid "ChiefEditor"
-msgstr "प्रमुख संपादक"
+msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:32
 msgid "Title of content."
@@ -1134,7 +1133,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-content.xml:35
 msgid "title"
-msgstr "शीर्षक"
+msgstr "título"
 
 #: Products.Silva:/schema/silva-content.xml:89
 msgid "a.k.a. &#8216;navigation title&#8217;."
@@ -1146,7 +1145,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:153
 msgid "description"
-msgstr "वर्णन"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:154
 msgid "Description of content in this area."
@@ -1154,7 +1153,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:212
 msgid "language"
-msgstr "भाषा"
+msgstr "Lingua"
 
 #: Products.Silva:/schema/silva-extra.xml:259
 msgid "Language of content in this area."
@@ -1162,7 +1161,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
-msgstr "टिप्पणीः"
+msgstr "comentario"
 
 #: Products.Silva:/schema/silva-extra.xml:318
 msgid "Internal comments."
@@ -1170,7 +1169,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:35
 msgid "subject"
-msgstr "विषय"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:36
 msgid "Subject of content in this area."
@@ -1192,7 +1191,7 @@ msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:494
 msgid "creator"
-msgstr "निर्माता"
+msgstr ""
 
 #: Products.Silva:/schema/silva-extra.xml:551
 msgid "last author"
@@ -1275,7 +1274,7 @@ msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
-msgstr "फ़ाइल"
+msgstr "Ficheiro"
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
@@ -2281,7 +2280,7 @@ msgstr ""
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:36
 #: silva.ui:/rest/container/listing.py:136
 msgid "Title"
-msgstr "शीर्षक"
+msgstr ""
 
 #: silva.core.conf:/interfaces.py:26
 msgid ""
@@ -2327,7 +2326,7 @@ msgstr ""
 #: silva.core.contentlayout:/blocks/slot.py:101
 #: silva.core.contentlayout:/blocks/slot.py:112
 msgid "name"
-msgstr "नाम"
+msgstr ""
 
 #: silva.core.contentlayout:/blocks/slot.py:107
 msgid "Code source blacklist"
@@ -2343,7 +2342,7 @@ msgstr ""
 #: silva.core.contentlayout:/interfaces.py:498
 #: silva.core.contentlayout:/interfaces.py:516
 msgid "Content type"
-msgstr "विषय प्रकार"
+msgstr ""
 
 #: silva.core.contentlayout:/blocks/slot.py:120
 msgid ""
@@ -2749,7 +2748,7 @@ msgstr ""
 #: silva.core.interfaces:/auth.py:110
 #: silva.core.interfaces:/auth.py:117
 msgid "select:"
-msgstr "चुनें"
+msgstr ""
 
 #: silva.core.interfaces:/auth.py:129
 msgid "identifier"
@@ -2919,7 +2918,7 @@ msgstr ""
 
 #: silva.core.smi:/content/container.py:38
 msgid "Content"
-msgstr "सामग्री"
+msgstr ""
 
 #: silva.core.smi:/content/metadata.py:182
 msgid ""
@@ -3731,7 +3730,7 @@ msgstr ""
 #: silva.core.smi:/settings/access.py:221
 #: silva.pas.base:/Membership_templates/loginpage.cpt:35
 msgid "Username"
-msgstr "उपयोक्ता नाम"
+msgstr ""
 
 #: silva.core.smi:/settings/access.py:57
 msgid "Username or part of the username to lookup"
@@ -4061,7 +4060,7 @@ msgstr ""
 #: silva.pas.base:/smi.py:123
 #: silva.pas.base:/smi.py:205
 msgid "Group name"
-msgstr "समूह का नाम"
+msgstr ""
 
 #: silva.pas.base:/smi.py:124
 msgid "Group name or part of a group name to lookup"
@@ -4550,7 +4549,7 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:42
 msgid "optional minute"
-msgstr "वैकल्पिक मिनट"
+msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:42
 msgid "MM"
@@ -4601,7 +4600,4 @@ msgid "Show All Items"
 msgstr ""
 
 #~ msgid "edit content"
-#~ msgstr "सामग्री को संपादित करें"
-
-#~ msgid "Ghost Folder synchronized"
-#~ msgstr "छलावा फ़ोल्डर सिंक्रनाइज़"
+#~ msgstr "editar contido"
