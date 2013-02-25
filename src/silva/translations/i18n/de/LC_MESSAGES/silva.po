@@ -4,15 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Silva\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-11 11:07+0000\n"
-"PO-Revision-Date: 2012-11-05 12:13+0000\n"
-"Last-Translator: Marion Neuhold <marion.neuhold@wu.ac.at>\n"
+"POT-Creation-Date: 2013-02-25 17:30+0000\n"
+"PO-Revision-Date: 2013-02-15 17:50+0000\n"
+"Last-Translator: Daniel Winzen <d@winzen4.de>\n"
 "Language-Team: Name <email>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-12-11 10:20+0000\n"
-"X-Generator: Launchpad (build 16356)\n"
+"X-Launchpad-Export-Date: 2013-02-25 16:36+0000\n"
+"X-Generator: Launchpad (build 16506)\n"
 "Language-code: de\n"
 "Domain: silva\n"
 "Language: \n"
@@ -158,27 +158,27 @@ msgstr "Sortierreihenfolge"
 msgid "The order items in a container will be sorted"
 msgstr "die zu ordnenden Einheiten eines Containers werden sortiert"
 
-#: Products.Silva:/EmailMessageService.py:162
+#: Products.Silva:/EmailMessageService.py:281
 msgid "Enable"
 msgstr "Aktivieren"
 
-#: Products.Silva:/EmailMessageService.py:163
+#: Products.Silva:/EmailMessageService.py:282
 msgid "Send emails when asked to."
 msgstr "Sende E-Mails auf Anforderung."
 
-#: Products.Silva:/EmailMessageService.py:166
+#: Products.Silva:/EmailMessageService.py:285
 msgid "From Address"
 msgstr "Absenderadresse"
 
-#: Products.Silva:/EmailMessageService.py:167
+#: Products.Silva:/EmailMessageService.py:286
 msgid "Email address used to send messages."
 msgstr "E-Mail-Adresse zum Versand von Nachrichten"
 
-#: Products.Silva:/EmailMessageService.py:176
+#: Products.Silva:/EmailMessageService.py:295
 msgid "Service Message Configuration"
 msgstr "Servicenachrichtenkonfiguration"
 
-#: Products.Silva:/EmailMessageService.py:177
+#: Products.Silva:/EmailMessageService.py:296
 msgid ""
 "Configure settings for email messaging between members. The default MailHost "
 "service is used to send messages."
@@ -393,7 +393,7 @@ msgid "Edit file content"
 msgstr "Dateiinhalt bearbeiten"
 
 #: Products.Silva:/File/smi.py:60
-#: silva.core.smi:/content/xml/import.py:60
+#: silva.core.smi:/content/xml/import.py:92
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
 "Klicken Sie auf den Upload-Button um die aktuelle Datei mit einer neuen zu "
@@ -583,7 +583,7 @@ msgstr "Synchronisierung von Inhalten aus Quell- und Ghost-Folder."
 
 #: Products.Silva:/GhostFolder.py:352
 msgid "Ghost Folder synchronized."
-msgstr ""
+msgstr "Ghost Folder wurde synchronisiert."
 
 #: Products.Silva:/GhostFolder.py:355
 msgid "Ghost Folder was not synchronized, because the target is invalid."
@@ -615,13 +615,13 @@ msgstr ""
 "       Dokumente eingefügt oder direkt angezeigt werden.\n"
 "    "
 
-#: Products.Silva:/Image/content.py:337
+#: Products.Silva:/Image/content.py:342
 msgid "Low resolution image in original format is not supported"
 msgstr ""
 "Bild mit geringerer Auflösung wird im Original-Format ist nicht unterstützt"
 
 #. Default: ""
-#: Products.Silva:/Image/content.py:350
+#: Products.Silva:/Image/content.py:357
 msgid ""
 "'${scale}' is not a valid scale identifier. Probably a percent symbol is "
 "missing."
@@ -629,26 +629,26 @@ msgstr ""
 "${scale} ist kein gültiger Bezeichner. Vielleicht fehlt ein Prozentzeichen."
 
 #. Default: ""
-#: Products.Silva:/Image/content.py:367
+#: Products.Silva:/Image/content.py:374
 msgid ""
 "'${scale} is not a valid scale identifier. At least one number is required."
 msgstr ""
 "${scale} ist kein gültiger Bezeichner. Mindestens eine Zahl ist notwendig."
 
 #. Default: ""
-#: Products.Silva:/Image/content.py:389
+#: Products.Silva:/Image/content.py:396
 msgid "'${crop} is not a valid crop identifier"
 msgstr "${crop} ist kein gültiger Crop Bezeichner."
 
-#: Products.Silva:/Image/content.py:503
+#: Products.Silva:/Image/content.py:510
 msgid "square"
 msgstr "Quadrat"
 
-#: Products.Silva:/Image/content.py:505
+#: Products.Silva:/Image/content.py:512
 msgid "landscape"
 msgstr "Landschaft"
 
-#: Products.Silva:/Image/content.py:506
+#: Products.Silva:/Image/content.py:513
 msgid "portrait"
 msgstr "Portrait"
 
@@ -783,11 +783,11 @@ msgstr ""
 "veröffentlichte Dokumente indiziert).\n"
 "    "
 
-#: Products.Silva:/Indexer/views.py:35
+#: Products.Silva:/Indexer/views.py:33
 msgid "Update Silva Indexer"
 msgstr "Update Silva Indexer"
 
-#: Products.Silva:/Indexer/views.py:36
+#: Products.Silva:/Indexer/views.py:34
 msgid ""
 "An index is not editable. However, you can update the index to include "
 "recent added content."
@@ -795,15 +795,15 @@ msgstr ""
 "Der Index ist nicht editierbar. Stattdessen sollte der Index zur "
 "Berücksichtigung kürzlich hinzugefügter Dokumente aktualisiert werden."
 
-#: Products.Silva:/Indexer/views.py:45
+#: Products.Silva:/Indexer/views.py:43
 msgid "Update index"
 msgstr "Index aktualisieren"
 
-#: Products.Silva:/Indexer/views.py:48
+#: Products.Silva:/Indexer/views.py:46
 msgid "Update index to include recent added content"
 msgstr "Index aktualisieren um zuletzt hinzugefügte Inhalte einzubeziehen"
 
-#: Products.Silva:/Indexer/views.py:53
+#: Products.Silva:/Indexer/views.py:51
 msgid "Index content have been successfully updated."
 msgstr "Inhalt des Indexes wurde erfolgreich aktualisiert"
 
@@ -1155,15 +1155,33 @@ msgstr "Unterpublikationen einschließen?"
 msgid "Check to export all sub publications. "
 msgstr "Auswählen um alle Unterpublikationen zu exportieren "
 
+#: Products.Silva:/adapters/zipfileexport.py:27
+msgid "Include other contents?"
+msgstr ""
+
 #: Products.Silva:/adapters/zipfileexport.py:28
+msgid ""
+"Check to export content not providing an XML export functionality. This can "
+"cause problems."
+msgstr ""
+
+#: Products.Silva:/adapters/zipfileexport.py:33
 msgid "Export only newest versions?"
 msgstr "Nur die neueste Version exportieren?"
 
-#: Products.Silva:/adapters/zipfileexport.py:29
+#: Products.Silva:/adapters/zipfileexport.py:34
 msgid "If not checked all versions are exported."
 msgstr "Wenn nicht markiert, werden alle Versionen exportiert."
 
-#: Products.Silva:/mangle.py:306
+#: Products.Silva:/adapters/zipfileexport.py:38
+msgid "Allow content refering not exported one to be exported?"
+msgstr ""
+
+#: Products.Silva:/adapters/zipfileexport.py:39
+msgid "If checked, export content refering not exported one without error."
+msgstr ""
+
+#: Products.Silva:/mangle.py:326
 msgid ""
 "The id contains strange characters. It should only contain letters, digits "
 "and ‘_’ or ‘-’ or ‘.’ Spaces are not allowed and the id should start with a "
@@ -1174,39 +1192,39 @@ msgstr ""
 "sollte mit einem Buchstaben oder einer Zahl beginnen."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:312
+#: Products.Silva:/mangle.py:332
 msgid "ids starting with ${prefix} are reserved for internal use."
 msgstr ""
 "IDs, die mit ${prefix} beginnen, sind für den internen Gebrauch reserviert."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:316
+#: Products.Silva:/mangle.py:336
 msgid "The id ${id} is reserved for internal use."
 msgstr "Die ID ${id} ist für den internen Gebrauch reserviert."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:319
+#: Products.Silva:/mangle.py:339
 msgid "There is already an object with the id ${id} in this container."
 msgstr ""
 "Es befindet sich bereits ein Objekt mit der ID ${ID} in diesem Container."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:323
+#: Products.Silva:/mangle.py:343
 msgid "There is already an asset with the id ${id} in this container."
 msgstr "Es gibt bereits eine Datei mit der ID ${id} in diesem Container."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:326
+#: Products.Silva:/mangle.py:346
 msgid "The id ${id} ends with invalid characters."
 msgstr "Die ID ${ID} endet mit ungültigen Zeichen."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:329
+#: Products.Silva:/mangle.py:349
 msgid "The id ${id} is already in use by a Zope object."
 msgstr "Die ID ${id} wird bereits von einem Zope Objekt benutzt."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:331
+#: Products.Silva:/mangle.py:351
 msgid ""
 "(Internal Error): An invalid status ${status_code} occured while checking "
 "the id ${id}."
@@ -1406,25 +1424,9 @@ msgstr ""
 msgid "hide from tables of content"
 msgstr "Im Inhaltsverzeichnis nicht aufführen"
 
-#: Products.Silva:/silvaxml/xmlexport.py:58
-msgid "External references"
-msgstr "Externe Referenzen"
-
-#: Products.Silva:/silvaxml/xmlimport.py:408
-msgid "Invalid ghost"
-msgstr "Ungültiger Ghost"
-
-#: Products.Silva:/silvaxml/xmlimport.py:444
-msgid "Invalid ghost folder"
-msgstr "Ungültiger Ghost Folder"
-
-#: Products.Silva:/silvaxml/xmlimport.py:53
-msgid "Missing reference path."
-msgstr "Fehlender Referenz-Pfad"
-
-#: Products.Silva:/silvaxml/xmlimport.py:57
-msgid "Could not resolve reference path."
-msgstr "Der Referenz-Pfad konnte nicht aufgelöst werden."
+#: Products.Silva:/silvaxml/xmlimport.py:146
+msgid "Missing ghost target."
+msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
@@ -1567,15 +1569,15 @@ msgstr "Der Fehler tritt ${count} mal auf, das erste mal $ {when}:"
 msgid "Clear"
 msgstr "Löschen"
 
-#: Products.SilvaExternalSources:/ExternalSource.py:298
+#: Products.SilvaExternalSources:/ExternalSource.py:299
 msgid "Broken source"
 msgstr "Quelle fehlerhaft"
 
-#: Products.SilvaExternalSources:/ExternalSource.py:331
+#: Products.SilvaExternalSources:/ExternalSource.py:332
 msgid "Create"
 msgstr "Erstellen"
 
-#: Products.SilvaExternalSources:/ExternalSource.py:336
+#: Products.SilvaExternalSources:/ExternalSource.py:337
 #: Products.SilvaExternalSources:/SourceAsset.py:183
 #: Products.SilvaExternalSources:/SourceAsset.py:249
 #: silva.ui:/rest/container/configuration.py:54
@@ -1583,7 +1585,7 @@ msgstr "Erstellen"
 msgid "Save"
 msgstr "Speichern"
 
-#: Products.SilvaExternalSources:/ExternalSource.py:351
+#: Products.SilvaExternalSources:/ExternalSource.py:352
 #: silva.core.editor:/service.py:274
 #: silva.core.smi:/settings/makers.py:171
 msgid "Remove"
@@ -1615,7 +1617,11 @@ msgstr "Defekte oder fehlende Quelle"
 msgid "This External Source has no adjustable settings."
 msgstr "Diese externe Quelle hat keine anpassbaren Einstellungen."
 
-#: Products.SilvaExternalSources:/errors.py:105
+#: Products.SilvaExternalSources:/errors.py:102
+msgid "Error while validating the External Source parameters."
+msgstr "Fehler beim Bestätigen der Parameter der externen Quelle."
+
+#: Products.SilvaExternalSources:/errors.py:110
 msgid "External Source parameters are missing."
 msgstr "Die Parameter für die externe Quelle fehlen."
 
@@ -1624,31 +1630,14 @@ msgid "External Source errored during the processing."
 msgstr "Fehler während der Verarbeitung der externen Quelle."
 
 #. Default: ""
-#: Products.SilvaExternalSources:/errors.py:88
+#: Products.SilvaExternalSources:/errors.py:93
 msgid "External Source ${identifier} is not available."
 msgstr "Die externe Quelle ${identifier} ist nicht verfügbar."
-
-#: Products.SilvaExternalSources:/errors.py:97
-msgid "Error while validating the External Source parameters."
-msgstr "Fehler beim Bestätigen der Parameter der externen Quelle."
 
 #: Products.SilvaExternalSources:/errors_templates/sourcerenderingerrorview.cpt:4
 msgid "A programmation error happened while rendering the source."
 msgstr ""
 "Ein Programmfehler ist aufgetreten, während der Darstellung der Quelle."
-
-#: Products.SilvaExternalSources:/silvaxml/xmlexport.py:68
-msgid "Broken source in document"
-msgstr "Kaputte Quelle im Dokument"
-
-#: Products.SilvaExternalSources:/silvaxml/xmlimport.py:50
-msgid "Broken external source in import."
-msgstr "Kaputte externe Quelle beim Import"
-
-#. Default: ""
-#: Products.SilvaExternalSources:/silvaxml/xmlimport.py:57
-msgid "Unknown external source ${name} in import"
-msgstr "Unbekannte externe Quelle ${name} beim Import"
 
 #: silva.app.forest:/interfaces.py:29
 msgid "(No skin change)"
@@ -1753,8 +1742,8 @@ msgid "Import or export the virtual hosts"
 msgstr "Importiere oder exportiere die virtuellen Hosts"
 
 #: silva.app.forest:/service.py:397
-#: silva.core.smi:/content/xml/import.py:65
-#: silva.core.smi:/content/xml/import.py:107
+#: silva.core.smi:/content/xml/import.py:97
+#: silva.core.smi:/content/xml/import.py:151
 msgid "Import"
 msgstr "Importieren"
 
@@ -1772,167 +1761,173 @@ msgstr "Exportieren"
 #: silva.app.news:/AgendaItem/smi.py:100
 #: silva.app.news:/NewsItem/smi.py:31
 msgid "External URL"
-msgstr ""
+msgstr "Externe URL"
 
 #: silva.app.news:/AgendaItem/smi.py:101
 msgid "external URL with more information about this event."
-msgstr ""
+msgstr "Externe URL mit zusätzlicher Information über diese Veranstaltung."
 
 #: silva.app.news:/AgendaItem/smi.py:123
 msgid "Agenda item details"
-msgstr ""
+msgstr "Details zum Tagesordnungspunkt"
 
 #: silva.app.news:/AgendaItem/smi.py:29
 msgid "Timezone"
-msgstr ""
+msgstr "Zeitzone"
 
 #: silva.app.news:/AgendaItem/smi.py:30
 msgid "Defines the time zone for dates"
-msgstr ""
+msgstr "Definieren Sie die Zeitzone für Termine"
 
 #: silva.app.news:/AgendaItem/smi.py:33
 msgid "Start date/time"
-msgstr ""
+msgstr "Beginn Datum/Uhrzeit"
 
 #: silva.app.news:/AgendaItem/smi.py:36
 msgid "End date/time"
-msgstr ""
+msgstr "Ende Datum/Uhrzeit"
 
 #: silva.app.news:/AgendaItem/smi.py:39
 msgid "All day"
-msgstr ""
+msgstr "Ganztägig"
 
 #: silva.app.news:/AgendaItem/smi.py:40
 msgid "Recurrence"
-msgstr ""
+msgstr "Wiederholung"
 
 #: silva.app.news:/AgendaItem/smi.py:42
 msgid "Recurrence end date"
-msgstr ""
+msgstr "Letzter Wiederholungstermin"
 
 #: silva.app.news:/AgendaItem/smi.py:43
 msgid "Date on which the recurrence stops. Required if any recurrence is set"
 msgstr ""
+"Letzer Wiederholungstermin; erforderlich, wenn Wiederholungen festgesetzt "
+"sind."
 
 #: silva.app.news:/AgendaItem/smi.py:47
 msgid "Location"
-msgstr ""
+msgstr "Ort"
 
 #: silva.app.news:/AgendaItem/smi.py:48
 msgid "The location where the event is taking place."
-msgstr ""
+msgstr "Der Ort, an dem die Veranstaltung stattfindet."
 
 #: silva.app.news:/AgendaItem/smi.py:61
 msgid "End recurrence date must be set when recurrence is."
-msgstr ""
+msgstr "Ein Endzeitpunkt der Wiederholung muss gesetzt werden."
 
 #: silva.app.news:/AgendaItem/smi.py:70
 msgid "End date must not is before start date."
-msgstr ""
+msgstr "Ende-Datum kann nicht vor Beginn-Datum liegen."
 
 #: silva.app.news:/AgendaItem/smi.py:80
 msgid "End recurrence date must not be before start date."
-msgstr ""
+msgstr "Ende der Wiederholung kann nicht vor dem Beginn-Datum liegen."
 
 #: silva.app.news:/AgendaItem/smi.py:85
 msgid "End recurrence date must not be before end date."
-msgstr ""
+msgstr "Ende der Wiederholung kann nicht vor dem Ende-Datum liegen."
 
 #: silva.app.news:/AgendaItem/smi.py:95
 msgid "Occurrences"
-msgstr ""
+msgstr "Vorkommnisse"
 
 #: silva.app.news:/AgendaItem/smi.py:96
 msgid "When and where the event will happens."
-msgstr ""
+msgstr "Wann und wo wird die Veranstaltung stattfinden."
 
 #: silva.app.news:/NewsCategorization.py:63
 msgid "Subjects"
-msgstr ""
+msgstr "Themen"
 
 #: silva.app.news:/NewsCategorization.py:68
 msgid "Target audiences"
-msgstr ""
+msgstr "Zielgruppen"
 
 #: silva.app.news:/NewsItem/smi.py:32
 msgid "external URL with more information about this news item."
-msgstr ""
+msgstr "Externe URL mit zusätzlichen Informationen über diesen News-Beitrag."
 
 #: silva.app.news:/NewsItem/smi.py:51
 msgid "News item details"
-msgstr ""
+msgstr "Details zum News-Beitrag."
 
 #: silva.app.news:/NewsItem/smi.py:60
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: silva.app.news:/NewsItem/smi.py:82
 msgid "Display datetime"
-msgstr ""
+msgstr "Anzeige Datum/Uhrzeit"
 
 #: silva.app.news:/ServiceNewsCategorization.py:114
 msgid "subjects"
-msgstr ""
+msgstr "Themen"
 
 #: silva.app.news:/ServiceNewsCategorization.py:115
 msgid "select subjects that should appear in SMI"
-msgstr ""
+msgstr "Wählen Sie die Themen die im SMI erscheinen sollen."
 
 #: silva.app.news:/ServiceNewsCategorization.py:120
 msgid "target audiences"
-msgstr ""
+msgstr "Zielgruppen"
 
 #: silva.app.news:/ServiceNewsCategorization.py:121
 msgid "select target audiences that should appear in SMI"
-msgstr ""
+msgstr "Wählen Sie die Zielgruppen, die im SMI erscheinen sollen."
 
 #: silva.app.news:/ServiceNewsCategorization.py:130
 msgid "Restrict categories for editors"
-msgstr ""
+msgstr "Begrenzen der Kategorien für Redakteure."
 
 #: silva.app.news:/ServiceNewsCategorization.py:131
 msgid ""
 "You can from here restrict all subjects and target audiences usable for news "
 "and agenda items."
 msgstr ""
+"Ab hier können alle verfügbaren Themen und Zielgruppen für News und "
+"Tagesordnungspunkte eingeschränkt werden."
 
 #: silva.app.news:/filters/Filter.py:309
 msgid "sources"
-msgstr ""
+msgstr "Quellen"
 
 #: silva.app.news:/filters/Filter.py:310
 msgid "Use predefined sources."
-msgstr ""
+msgstr "Wählen sie vordefinierte Quellen"
 
 #. Default: ""
 #: silva.app.news:/filters/NewsFilter.py:129
 msgid "Changed exclusion settings for ${count} news item(s)."
 msgstr ""
+"Die Ausschluss-Einstellungen für ${count} News Eintrag/Einträge wurden "
+"gesetzt."
 
 #: silva.app.news:/filters/NewsFilter.py:133
 msgid "No exclusion settings changed."
-msgstr ""
+msgstr "Keine Änderung der Ausschluss-Einstellungen."
 
 #: silva.app.news:/filters/NewsFilter.py:138
 msgid "Path"
-msgstr ""
+msgstr "Pfad"
 
 #: silva.app.news:/filters/NewsFilter.py:139
 msgid "Display date"
-msgstr ""
+msgstr "Anzeige-Datum"
 
 #: silva.app.news:/filters/NewsFilter.py:185
 #: silva.app.news:/filters/NewsFilter.py:216
 msgid "Items"
-msgstr ""
+msgstr "Objekte"
 
 #: silva.app.news:/filters/NewsFilter.py:187
 msgid "Uncheck items you want to ignore."
-msgstr ""
+msgstr "Heben Sie die Auswahl der zu ignorierenden Einträge aus."
 
 #: silva.app.news:/filters/NewsFilter.py:193
 msgid "There are no items."
-msgstr ""
+msgstr "Keine Einträge vorhanden"
 
 #: silva.app.news:/filters/NewsFilter.py:197
 msgid "Update"
@@ -1940,123 +1935,123 @@ msgstr "Aktualisieren"
 
 #: silva.app.news:/filters/NewsFilter.py:97
 msgid "show agenda items"
-msgstr ""
+msgstr "Tagesordnungspunkte anzeigen"
 
 #: silva.app.news:/htmlcalendar.py:10
 msgid "January"
-msgstr ""
+msgstr "Januar"
 
 #: silva.app.news:/htmlcalendar.py:11
 msgid "February"
-msgstr ""
+msgstr "Februar"
 
 #: silva.app.news:/htmlcalendar.py:12
 msgid "March"
-msgstr ""
+msgstr "März"
 
 #: silva.app.news:/htmlcalendar.py:13
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: silva.app.news:/htmlcalendar.py:14
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: silva.app.news:/htmlcalendar.py:15
 msgid "June"
-msgstr ""
+msgstr "Juni"
 
 #: silva.app.news:/htmlcalendar.py:16
 msgid "July"
-msgstr ""
+msgstr "Juli"
 
 #: silva.app.news:/htmlcalendar.py:17
 msgid "August"
-msgstr ""
+msgstr "August"
 
 #: silva.app.news:/htmlcalendar.py:18
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #: silva.app.news:/htmlcalendar.py:19
 msgid "October"
-msgstr ""
+msgstr "Oktober"
 
 #: silva.app.news:/htmlcalendar.py:20
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: silva.app.news:/htmlcalendar.py:21
 msgid "December"
-msgstr ""
+msgstr "Dezember"
 
 #: silva.app.news:/htmlcalendar.py:23
 msgid "Mon"
-msgstr ""
+msgstr "Mo"
 
 #: silva.app.news:/htmlcalendar.py:24
 msgid "Tue"
-msgstr ""
+msgstr "Die"
 
 #: silva.app.news:/htmlcalendar.py:25
 msgid "Wed"
-msgstr ""
+msgstr "Mi"
 
 #: silva.app.news:/htmlcalendar.py:26
 msgid "Thu"
-msgstr ""
+msgstr "Do"
 
 #: silva.app.news:/htmlcalendar.py:27
 msgid "Fri"
-msgstr ""
+msgstr "Fr"
 
 #: silva.app.news:/htmlcalendar.py:28
 msgid "Sat"
-msgstr ""
+msgstr "Sa"
 
 #: silva.app.news:/htmlcalendar.py:29
 msgid "Sun"
-msgstr ""
+msgstr "So"
 
 #: silva.app.news:/interfaces.py:330
 msgid "number of days"
-msgstr ""
+msgstr "Anzahl der Tage"
 
 #: silva.app.news:/interfaces.py:331
 msgid "number of items"
-msgstr ""
+msgstr "Anzahl der Einträge"
 
 #: silva.app.news:/interfaces.py:344
 msgid "Monday"
-msgstr ""
+msgstr "Montag"
 
 #: silva.app.news:/interfaces.py:345
 msgid "Tuesday"
-msgstr ""
+msgstr "Dienstag"
 
 #: silva.app.news:/interfaces.py:346
 msgid "Wednesday"
-msgstr ""
+msgstr "Mittwoch"
 
 #: silva.app.news:/interfaces.py:347
 msgid "Thursday"
-msgstr ""
+msgstr "Donnerstag"
 
 #: silva.app.news:/interfaces.py:348
 msgid "Friday"
-msgstr ""
+msgstr "Freitag"
 
 #: silva.app.news:/interfaces.py:349
 msgid "Saturday"
-msgstr ""
+msgstr "Samstag"
 
 #: silva.app.news:/interfaces.py:350
 msgid "Sunday"
-msgstr ""
+msgstr "Sonntag"
 
 #: silva.app.news:/snn-np-settings.xml:31
 msgid "make local"
-msgstr ""
+msgstr "lokal erstellen"
 
 #: silva.app.news:/snn-np-settings.xml:33
 msgid ""
@@ -2064,67 +2059,76 @@ msgid ""
 "outside-world.  When set, the source can only be found by filters in the "
 "same subdirectory."
 msgstr ""
+"Lokal erstellte News Quellen schränken die Verfügbarkeit dieser Quelle "
+"gegenüber der Außenweilt ein. Bei lokaler Einstellung kann die Quelle nur "
+"durch Filter im selben Unterverzeichnis gefunden werden."
 
 #: silva.app.news:/viewers/NewsViewer.py:243
 msgid "filters"
-msgstr ""
+msgstr "Filter"
 
 #: silva.app.news:/viewers/NewsViewer.py:244
 msgid "Use predefined filters."
-msgstr ""
+msgstr "Verwenden Sie vordefinierte Filter."
 
 #: silva.app.news:/viewers/NewsViewer.py:248
 msgid "show"
-msgstr ""
+msgstr "anzeigen"
 
 #: silva.app.news:/viewers/NewsViewer.py:249
 msgid ""
 "Show a specific number of items, or show items from a range of days in the "
 "past."
 msgstr ""
+"Zeige eine bestimmte Anzahl Einträge oder Einträge eines bestimmten Bereichs "
+"von Tagen aus der Vergangenheit."
 
 #: silva.app.news:/viewers/NewsViewer.py:255
 msgid "days / items number"
-msgstr ""
+msgstr "Anzahl Tage/Einträge"
 
 #: silva.app.news:/viewers/NewsViewer.py:256
 msgid "Number of news items to show per page."
-msgstr ""
+msgstr "Anzahl der Newseinträge, die pro Seite angezeigt werden sollen."
 
 #: silva.app.news:/viewers/NewsViewer.py:261
 msgid "archive number"
-msgstr ""
+msgstr "Archivnummer"
 
 #: silva.app.news:/viewers/NewsViewer.py:262
 msgid "Number of archive items to show per page."
-msgstr ""
+msgstr "Anzahl der Archivelemente, die pro Seite angezeigt werden."
 
 #: silva.app.news:/viewers/NewsViewer.py:268
 msgid "timezone"
-msgstr ""
+msgstr "Zeitzone"
 
 #: silva.app.news:/viewers/NewsViewer.py:269
 msgid ""
 "Defines the time zone for the agenda and news items that will be rendered by "
 "this viewer."
 msgstr ""
+"Bestimmung der Zeitzone für Tagesordnungs- und News-Einträge, die in dieser "
+"Ansicht gezeigt werden."
 
 #: silva.app.news:/viewers/NewsViewer.py:274
 msgid "first day of the week"
-msgstr ""
+msgstr "Erster Tag der Woche"
 
 #: silva.app.news:/viewers/NewsViewer.py:276
 msgid "Define first day of the week for calendar display."
-msgstr ""
+msgstr "Bestimmung des ersten Tages der Woche für die Anzeige des Kalenders."
 
 #: silva.app.news:/viewers/RSSAggregator.py:117
 msgid "feeds"
-msgstr ""
+msgstr "Feeds"
 
 #: silva.app.news:/viewers/RSSAggregator.py:118
 msgid ""
 "List the URLs of RSS feeds (one per line) to use as sources of news items."
 msgstr ""
+"Geben Sie die URLs der RSS-Feeds (eine pro Zeile) ein, aus denen die "
+"Newseinträge erzeugt werden sollen."
 
 #: silva.app.page:/news/blocks.py:130
 msgid "News information component added."
@@ -2400,11 +2404,11 @@ msgstr ""
 #: silva.app.subscriptions:/views.py:26
 #: silva.core.smi:/userinfo.py:52
 msgid "Email address"
-msgstr "E-Mail Adresse"
+msgstr "E-Mail-Adresse"
 
 #: silva.app.subscriptions:/views.py:27
 msgid "Enter your email address."
-msgstr "Geben Sie Ihre E-Mail Adresse an."
+msgstr "Geben Sie Ihre E-Mail-Adresse ein."
 
 #: silva.app.subscriptions:/views.py:31
 msgid "Captcha"
@@ -2519,16 +2523,16 @@ msgstr "Seite kann nicht betrachtet werden"
 msgid "Content to include"
 msgstr "Inhalt zum Einfügen"
 
-#: silva.core.contentlayout:/blocks/slot.py:101
-#: silva.core.contentlayout:/blocks/slot.py:112
+#: silva.core.contentlayout:/blocks/slot.py:102
+#: silva.core.contentlayout:/blocks/slot.py:113
 msgid "name"
 msgstr "Name"
 
-#: silva.core.contentlayout:/blocks/slot.py:107
+#: silva.core.contentlayout:/blocks/slot.py:108
 msgid "Code source blacklist"
 msgstr "Code Sources Blacklist"
 
-#: silva.core.contentlayout:/blocks/slot.py:108
+#: silva.core.contentlayout:/blocks/slot.py:109
 msgid ""
 "If any code sources are selected, it will be the only ones not addable to "
 "the slot."
@@ -2536,13 +2540,13 @@ msgstr ""
 "Wenn ein zusätzliches Programm ausgewählt wird, kann es als einziges nicht "
 "der Liste beigefügt werden."
 
-#: silva.core.contentlayout:/blocks/slot.py:119
+#: silva.core.contentlayout:/blocks/slot.py:120
 #: silva.core.contentlayout:/interfaces.py:498
 #: silva.core.contentlayout:/interfaces.py:516
 msgid "Content type"
 msgstr "Inhaltsart"
 
-#: silva.core.contentlayout:/blocks/slot.py:120
+#: silva.core.contentlayout:/blocks/slot.py:121
 msgid ""
 "Only the selected Silva content types will be addable to the slot using the "
 "site content component."
@@ -2550,11 +2554,11 @@ msgstr ""
 "Nur ausgewählte Silva Content-Typen können zur Liste der Bestandteile der "
 "Webseiten-Inhalte hinzugefügt werden."
 
-#: silva.core.contentlayout:/blocks/slot.py:128
+#: silva.core.contentlayout:/blocks/slot.py:129
 msgid "Block all others"
 msgstr "Alle anderen blocken"
 
-#: silva.core.contentlayout:/blocks/slot.py:129
+#: silva.core.contentlayout:/blocks/slot.py:130
 msgid ""
 "Any code sources or Silva content types not explicitly allowed by a previous "
 "option won't be addable to the slot if this option is checked."
@@ -2564,82 +2568,87 @@ msgstr ""
 "zur Liste der Bestandteile der Webseiten-Inhalte hinzugefügt werden, wenn "
 "diese Auswahl markiert ist."
 
-#: silva.core.contentlayout:/blocks/slot.py:255
+#: silva.core.contentlayout:/blocks/slot.py:256
 msgid "New slot added."
 msgstr "Weitere Liste angelegt."
 
-#: silva.core.contentlayout:/blocks/slot.py:263
+#: silva.core.contentlayout:/blocks/slot.py:264
 msgid "Identifier required."
 msgstr "Kennung verlangt"
 
-#: silva.core.contentlayout:/blocks/slot.py:265
+#: silva.core.contentlayout:/blocks/slot.py:266
 msgid "Invalid identifier."
 msgstr "Falsche Kennung"
 
-#: silva.core.contentlayout:/blocks/slot.py:270
+#: silva.core.contentlayout:/blocks/slot.py:271
 msgid "A slot with that identifier already exists."
-msgstr ""
-
-#: silva.core.contentlayout:/blocks/slot.py:309
-msgid "Add a sub-slot"
-msgstr ""
+msgstr "Ein Bereich mit dieser Bezeichnung existiert bereits."
 
 #: silva.core.contentlayout:/blocks/slot.py:310
-msgid "You can configure slot options and restrictions here."
-msgstr ""
+msgid "Add a sub-slot"
+msgstr "Fügen Sie einen Unter-Bereich hinzu."
 
-#: silva.core.contentlayout:/blocks/slot.py:359
+#: silva.core.contentlayout:/blocks/slot.py:311
+msgid "You can configure slot options and restrictions here."
+msgstr "Konfigurieren Sie hier Optionen und Einschränkungen für Bereiche."
+
+#: silva.core.contentlayout:/blocks/slot.py:360
 msgid "Slot modified."
 msgstr "Liste modifiziert"
 
-#: silva.core.contentlayout:/blocks/slot.py:36
-msgid "Slot"
-msgstr ""
-
-#: silva.core.contentlayout:/blocks/slot.py:367
+#: silva.core.contentlayout:/blocks/slot.py:368
 msgid "Edit a sub-slot"
-msgstr ""
+msgstr "Bearbeiten eines Unter-Bereichs."
 
-#: silva.core.contentlayout:/blocks/slot.py:52
+#: silva.core.contentlayout:/blocks/slot.py:37
+msgid "Slot"
+msgstr "Bereich"
+
+#: silva.core.contentlayout:/blocks/slot.py:53
 msgid "No restriction"
 msgstr "Keine Einschränkung"
 
-#: silva.core.contentlayout:/blocks/slot.py:74
-msgid "Slot identifier"
-msgstr ""
-
 #: silva.core.contentlayout:/blocks/slot.py:75
+msgid "Slot identifier"
+msgstr "Bereichs-Bezeichnung"
+
+#: silva.core.contentlayout:/blocks/slot.py:76
 msgid ""
 "This identifier should uniquely identify the new sub-slot, and will be used "
 "to refer the sub-slot to store components. Only letters and numbers are "
 "allowed."
 msgstr ""
+"Diese Bezeichnung muss eindeutig den neuen Unter-Bereich definieren und sie "
+"wird verwendet um vom Unter-Bereich auf Speicher-Komponenten zu verweisen. "
+"Nur Buchstaben und Zahlen sind erlaubt."
 
-#: silva.core.contentlayout:/blocks/slot.py:82
+#: silva.core.contentlayout:/blocks/slot.py:83
 msgid "HTML tag"
 msgstr "HTML-Tag"
 
-#: silva.core.contentlayout:/blocks/slot.py:83
+#: silva.core.contentlayout:/blocks/slot.py:84
 msgid "HTML tag to use to create the slot."
-msgstr ""
+msgstr "HTML-Tag der verwendet wird, den Bereich anzulegen."
 
-#: silva.core.contentlayout:/blocks/slot.py:88
+#: silva.core.contentlayout:/blocks/slot.py:89
 msgid "CSS class(es)"
 msgstr "CSS Klasse(n)"
 
-#: silva.core.contentlayout:/blocks/slot.py:89
+#: silva.core.contentlayout:/blocks/slot.py:90
 msgid "Whitespace delimited CSS classes to apply on the slot."
 msgstr ""
+"Der Leerraum begrenzt CSS Klassen, die auf den Bereich angewendet werden."
 
-#: silva.core.contentlayout:/blocks/slot.py:96
+#: silva.core.contentlayout:/blocks/slot.py:97
 msgid "Code source whitelist"
 msgstr "Liste erlaubter Code sources"
 
-#: silva.core.contentlayout:/blocks/slot.py:97
+#: silva.core.contentlayout:/blocks/slot.py:98
 msgid ""
 "If any code sources are selected, it will be the only ones addable to the "
 "slot."
 msgstr ""
+"Wenn Code Sources ausgewählt sind, sind nur diese hinzufügbar zu dem Bereich."
 
 #: silva.core.contentlayout:/blocks/source.py:130
 msgid "Added new source component"
@@ -2677,13 +2686,15 @@ msgstr "Konvertieren"
 
 #: silva.core.contentlayout:/blocks/source.py:312
 msgid "Convert existing source component to asset"
-msgstr ""
+msgstr "Konvertiert bestehende Quell-Komponenten zu Objekten."
 
 #: silva.core.contentlayout:/blocks/source.py:313
 msgid ""
 "Create a source asset using current source parameters, and refer to it using "
 "a site content component."
 msgstr ""
+"Erstellung eines Quell-Objektes unter Verwendung aktueller Quell-Parameter "
+"und Bezug darauf unter Verwendung einer Komponente des Inhalts der Webseite."
 
 #: silva.core.contentlayout:/blocks/text.py:113
 msgid "New text added."
@@ -2710,6 +2721,8 @@ msgid ""
 "Convert text to a standalone document, and refer to it using a site content "
 "component."
 msgstr ""
+"Umwandeln von Text in ein unabhängiges Dokument und Bezug darauf unter "
+"Verwendung einer Komponente des Inhalts der Webseite."
 
 #: silva.core.contentlayout:/blocks/text.py:32
 #: silva.core.contentlayout:/blocks/text.py:86
@@ -2735,11 +2748,11 @@ msgstr "Bestandteile"
 
 #: silva.core.contentlayout:/interfaces.py:441
 msgid "Component type"
-msgstr ""
+msgstr "Komponenten Typ"
 
 #: silva.core.contentlayout:/interfaces.py:449
 msgid "Groups"
-msgstr ""
+msgstr "Gruppen"
 
 #: silva.core.contentlayout:/interfaces.py:463
 msgid "-- Choose a role --"
@@ -2751,7 +2764,7 @@ msgstr "-- Wählen Sie einen Kontent Typen --"
 
 #: silva.core.contentlayout:/interfaces.py:507
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 #: silva.core.contentlayout:/interfaces.py:526
 msgid "Restrictions"
@@ -2763,7 +2776,7 @@ msgstr "Standard Vorlage"
 
 #: silva.core.contentlayout:/interfaces.py:559
 msgid "Select a template for your Page Model."
-msgstr ""
+msgstr "Wählen Sie ein Template für Ihr Seiten-Modell."
 
 #: silva.core.contentlayout:/interfaces.py:563
 msgid "Allowed Content Types"
@@ -2773,6 +2786,8 @@ msgstr "Erlaubte Inhaltstypen"
 msgid ""
 "Only the selected content types will accept this Page Model as a template."
 msgstr ""
+"Nur die ausgewählten Inhaltstypen werden das Seiten-Modell als Vorlage "
+"annehmen."
 
 #: silva.core.contentlayout:/interfaces.py:571
 #: silva.core.smi:/settings/access.py:335
@@ -2781,7 +2796,7 @@ msgstr "Minimum Rolle"
 
 #: silva.core.contentlayout:/interfaces.py:572
 msgid "Only users with this role can utilise this Page Model."
-msgstr ""
+msgstr "Nur Benutzer mit dieser Rolle können dieses Seiten-Modell verwenden."
 
 #: silva.core.contentlayout:/model.py:122
 msgid "Page Model(s)"
@@ -2789,11 +2804,13 @@ msgstr "Seiten Modell"
 
 #: silva.core.contentlayout:/service.py:243
 msgid "Template Service configuration"
-msgstr ""
+msgstr "Konfiguration Vorlagen-Service"
 
 #: silva.core.contentlayout:/service.py:244
 msgid "Configure restrictions and defaults for content layout tempates"
 msgstr ""
+"Konfigurieren Sie Einschränkungen und Standards für die Layout Vorlagen für "
+"den Inhalt."
 
 #. Default: ""
 #: silva.core.contentlayout:/service.py:271
@@ -2806,83 +2823,91 @@ msgid ""
 "Template ${design} restricts its usage to ${require} objects, however "
 "${content} do not comply."
 msgstr ""
+"Die Vorlage  ${design} schränkt den Gebrauch von ${require} Objekten bei "
+"denen aber ${content} nicht den Auflagen entspricht."
 
 #: silva.core.contentlayout:/service.py:308
 msgid "Define templates access restrictions"
-msgstr ""
+msgstr "Bestimmen Sie die Zugangsrestriktionen für dieses Vorlage."
 
 #: silva.core.contentlayout:/service.py:335
 msgid "Define default template for content types"
-msgstr ""
+msgstr "Bestimmen Sie eine Standardvorlage für Inhaltstypen."
 
 #: silva.core.contentlayout:/service.py:369
 msgid "Component palette configuration"
-msgstr ""
+msgstr "Konfiguration der Komponenten-Palette"
 
 #: silva.core.contentlayout:/service.py:370
 msgid "Sort possible components into groups."
-msgstr ""
+msgstr "Sortieren Sie mögliche Komponenten in Gruppen."
 
-#: silva.core.contentlayout:/silvaxml/xmlexport.py:81
+#: silva.core.contentlayout:/silvaxml/xmlexport.py:84
 msgid "Broken source block in page"
-msgstr ""
+msgstr "Defekter Quell-Bereich in der Seite."
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:4
 msgid "Edit component"
-msgstr ""
+msgstr "Komponente bearbeiten"
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:6
 msgid "Move component"
-msgstr ""
+msgstr "Komponente verschieben"
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:8
 msgid "Remove component"
-msgstr ""
+msgstr "Komponente entfernen"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:14
 msgid "Remove all components"
-msgstr ""
+msgstr "Alle Komponenten löschen"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:4
 msgid "Spare components"
-msgstr ""
+msgstr "Komponente auslassen"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:6
 msgid ""
 "The spare components listed below are a result of switching the template. "
 "You can drag them into a new position on your page, or remove them entirely."
 msgstr ""
+"Die Liste der ausgelassenen Komponenten ist ein Resultat eines Vorlagen-"
+"Wechsels. Ziehen Sie diese in eine neue Position auf der Seite oder "
+"entfernen Sie sie endgültig."
 
 #: silva.core.editor:/service.py:233
 msgid "Manage CKEditor configurations"
-msgstr ""
+msgstr "Bearbeiten der CKEditor Konfiguration"
 
 #: silva.core.editor:/service.py:234
 #: silva.core.editor:/service.py:317
 msgid "You can from here modify the WYSIYG editor settings."
 msgstr ""
+"Von hier aus können die WYSIWYG Editor Einstellungen bearbeitet werden."
 
 #: silva.core.editor:/service.py:242
 msgid "Add a configuration"
-msgstr ""
+msgstr "Hinzufügen einer Konfiguration"
 
 #: silva.core.editor:/service.py:243
 msgid "Add a specific editor configuration for a content type in Silva."
 msgstr ""
+"Fügen Sie eine bestimmte Editor-Konfiguration für einen Objekt-Typ in Silva "
+"ein."
 
 #: silva.core.editor:/service.py:251
 #: silva.core.contentlayout:/blocks/contents.py:108
-#: silva.core.contentlayout:/blocks/slot.py:236
+#: silva.core.contentlayout:/blocks/slot.py:237
 #: silva.core.contentlayout:/blocks/source.py:101
 #: silva.core.contentlayout:/blocks/text.py:95
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:18
 #: silva.core.smi:/content/adding.py:64
 msgid "Add"
-msgstr ""
+msgstr "Hinzufügen"
 
 #: silva.core.editor:/service.py:255
 msgid "There were errors"
-msgstr ""
+msgstr "Fehler vorhanden"
 
 #: silva.core.editor:/service.py:266
 msgid "edit the selected configuration"
@@ -2904,6 +2929,8 @@ msgstr "Organisieren bestehender Konfigurationen"
 msgid ""
 "Edit or remove editor configuration for the given Silva content types."
 msgstr ""
+"Bearbeiten oder entfernen Sie Editor-Konfiguration für die vorgegebenen "
+"Silva Objekt Typen."
 
 #: silva.core.editor:/service.py:316
 msgid "CKEditor settings"
@@ -2911,43 +2938,40 @@ msgstr "CK Editor Einstellungen"
 
 #: silva.core.editor:/service.py:374
 msgid "Manage HTML Sanitizer"
-msgstr ""
+msgstr "Bearbeiten HTML Sanitizer"
 
 #: silva.core.editor:/service.py:375
 msgid "Manager allowed HTML tags and attributes allowed in editor."
-msgstr ""
+msgstr "Der Manager erlaubt HTML Tags und Attribute im Editor."
 
 #: silva.core.editor:/service.py:378
 #: silva.core.contentlayout:/blocks/contents.py:159
-#: silva.core.contentlayout:/blocks/slot.py:347
+#: silva.core.contentlayout:/blocks/slot.py:348
 #: silva.core.contentlayout:/blocks/source.py:190
 #: silva.core.contentlayout:/blocks/text.py:138
 #: silva.core.smi:/content/metadata.py:174
+#: silva.pas.base:/Membership.py:285
 #: zeam.form.silva:/actions.py:31
 msgid "Save changes"
-msgstr ""
+msgstr "Änderungen speichern"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:10
 msgid "Lookup a content in Silva"
-msgstr ""
+msgstr "Nachschlagen eines Objekts in Silva"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:13
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:42
 msgid "Lookup"
-msgstr ""
+msgstr "Nachschlagen"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:3
 msgid "Edit content"
 msgstr "Inhalt bearbeiten"
 
-#: silva.core.editor:/transform/silvaxml/xmlexport.py:56
-#: silva.core.references:/widgets/formulator.py:154
+#: silva.core.editor:/transform/silvaxml/xmlexport.py:87
+#: silva.core.references:/widgets/formulator.py:193
 msgid "External reference"
 msgstr "Externer Verweis"
-
-#: silva.core.editor:/transform/silvaxml/xmlimport.py:57
-msgid "Broken reference"
-msgstr "Kaputter Verweis"
 
 #: silva.core.interfaces:/auth.py:110
 #: silva.core.interfaces:/auth.py:117
@@ -2972,61 +2996,56 @@ msgstr "E-Mail"
 
 #: silva.core.interfaces:/auth.py:144
 msgid "email of the user, None if group."
-msgstr ""
+msgstr "E-Mail Adresse des Benutzers, keine Angabe bei Gruppen"
 
-#: silva.core.interfaces:/errors.py:13
+#: silva.core.interfaces:/errors.py:12
 msgid "Invalid ghost target."
 msgstr "Ghost Ziel ist ungültig"
 
-#: silva.core.interfaces:/errors.py:17
+#: silva.core.interfaces:/errors.py:16
 msgid "Missing required ghost target."
 msgstr "Das erforderliche Ghost Ziel fehlt."
 
-#. Default: ""
-#: silva.core.interfaces:/errors.py:176
-msgid "Error while importing `${path}`: ${reason}"
-msgstr "Fehler beim Importieren `${path}`: ${reason}"
-
-#: silva.core.interfaces:/errors.py:21
+#: silva.core.interfaces:/errors.py:20
 msgid "Ghost target creates a circular reference."
-msgstr ""
+msgstr "Das Ziel des Ghosts erzeugt eine rundumlaufende Referenz."
 
-#: silva.core.interfaces:/errors.py:25
+#: silva.core.interfaces:/errors.py:24
 msgid "Ghost target is a ghost."
-msgstr ""
+msgstr "Das Ziel des Ghosts ist ein Ghost."
 
-#: silva.core.interfaces:/errors.py:29
+#: silva.core.interfaces:/errors.py:28
 msgid "Ghost target should be a container."
-msgstr ""
+msgstr "Das Ziel des Ghosts sollte ein/e Ordner/Publikation  sein."
 
-#: silva.core.interfaces:/errors.py:33
+#: silva.core.interfaces:/errors.py:32
 msgid "Ghost target should be a content."
-msgstr ""
+msgstr "Das Ziel des Ghosts sollte ein Inhalt sein."
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:102
 msgid "Origin"
-msgstr ""
+msgstr "Ursprung"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:16
 msgid "Interface"
-msgstr ""
+msgstr "Benutzeroberfläche"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:32
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:94
 msgid "Layer"
-msgstr ""
+msgstr "Ebenen"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:59
 msgid "Name of View"
-msgstr ""
+msgstr "Name der Ansicht"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:60
 msgid "Registration Info"
-msgstr ""
+msgstr "Anmelde-Information"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:80
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:84
 #: silva.core.contentlayout:/interfaces.py:196
@@ -3034,27 +3053,28 @@ msgstr ""
 #: silva.core.contentlayout:/interfaces.py:519
 #: silva.core.contentlayout:/interfaces.py:558
 msgid "Template"
-msgstr ""
+msgstr "Vorlage"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:90
 msgid "Object"
-msgstr ""
+msgstr "Objekt"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:98
 msgid "Definition"
-msgstr ""
+msgstr "Definition"
 
 #: silva.core.references:/widgets/__init__.py:45
 #: silva.core.references:/widgets/zeamform.py:24
 #: silva.core.references:/widgets/zeamform.py:25
 msgid "No reference selected."
-msgstr ""
+msgstr "Kein Verweis ausgewählt."
 
-#: silva.core.references:/widgets/formulator.py:206
+#: silva.core.references:/widgets/formulator.py:242
 msgid "No content selected."
 msgstr "Kein Objekt wurde gewählt."
 
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:39
+#: silva.core.references:/widgets/zeamform_templates/referencemultiplewidgetinput.cpt:20
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:23
 msgid "Lookup an item in Silva"
 msgstr "Wählen Sie ein Objekt in Silva"
@@ -3078,7 +3098,7 @@ msgstr "Inhalt fehlt"
 #: zeam.form.silva:/form/smi_templates/smitableformtemplate.cpt:67
 #: zeam.form.silva:/widgets/others_templates/objectfieldwidget.cpt:13
 msgid "required"
-msgstr ""
+msgstr "erforderlich"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:1
 msgid "Lookup an item"
@@ -3092,16 +3112,17 @@ msgstr "Fügen Sei ein neues Objekt zu Silva, um sich darauf zu beziehen."
 #: silva.core.smi:/settings/access.py:219
 #: silva.ui:/rest/container/listing.py:119
 msgid "Identifier"
-msgstr ""
+msgstr "Kennung:"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:53
 msgid "Selected items"
-msgstr ""
+msgstr "Ausgewählte Elemente"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:8
 msgid "Select:"
-msgstr ""
+msgstr "Auswählen:"
 
+#: silva.core.references:/widgets/zeamform_templates/referencemultiplewidgetinput.cpt:24
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:27
 msgid "${icon} Lookup"
 msgstr "${icon} Auswählen"
@@ -3138,33 +3159,33 @@ msgstr "Metadaten gespeichert."
 
 #: silva.core.smi:/content/metadata.py:222
 msgid "Approved version item properties"
-msgstr ""
+msgstr "Genehmigte Version  Objekt-Eigenschaften"
 
 #: silva.core.smi:/content/metadata.py:237
 msgid "Public version item properties"
-msgstr ""
+msgstr "Öffentliche Version Objekt-Eigenschaften"
 
 #: silva.core.smi:/content/metadata.py:252
 msgid "Last closed version item properties"
-msgstr ""
+msgstr "Letzte geschlossene Version Objekt-Eigenschaften"
 
 #: silva.core.smi:/content/metadata.py:31
 #: silva.core.smi:/content/metadata.py:38
-#: silva.ui:/rest/container/listing.py:183
+#: silva.ui:/rest/container/listing.py:181
 msgid "Properties"
-msgstr ""
+msgstr "Eigenschaften"
 
 #: silva.core.smi:/content/metadata.py:78
 msgid "Editable item properties"
-msgstr ""
+msgstr "Bearbeitbare Objekt-Eigenschaften"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:10
 msgid "No item refers to this ${content_type}."
-msgstr ""
+msgstr "Kein Objekt bezieht sich auf diese/n ${content_type}."
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:13
 msgid "This item is referenced by:"
-msgstr ""
+msgstr "Auf dieses Objekt bezieht sich:"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:16
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:19
@@ -3173,7 +3194,7 @@ msgstr "Objekt bearbeiten"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "References"
-msgstr ""
+msgstr "Referenz"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this item"
@@ -3200,13 +3221,13 @@ msgstr "Publikation"
 #: silva.core.smi:/content/publish/__init__.py:29
 #: silva.core.smi:/content/publishingactions.py:178
 #: silva.ui:/rest/container/configuration.py:161
-#: silva.ui:/rest/container/listing.py:187
+#: silva.ui:/rest/container/listing.py:185
 msgid "Publish"
-msgstr ""
+msgstr "Veröffentlichen"
 
 #: silva.core.smi:/content/publish/container.py:31
 msgid "Approve"
-msgstr ""
+msgstr "Genehmigen"
 
 #: silva.core.smi:/content/publish/container.py:50
 msgid "This action is not applicable on this content."
@@ -3236,12 +3257,12 @@ msgstr "Bestätigung für neue Version anfragen."
 
 #: silva.core.smi:/content/publish/management.py:155
 msgid "Publish now"
-msgstr ""
+msgstr "jetzt veröffentlichen"
 
 #: silva.core.smi:/content/publish/management.py:167
 #: silva.core.smi:/content/publishingactions.py:194
 msgid "Version published."
-msgstr ""
+msgstr "Version publiziert."
 
 #: silva.core.smi:/content/publish/management.py:172
 #: silva.ui:/rest/container/configuration.py:218
@@ -3282,7 +3303,7 @@ msgstr "Es gibt keine Geschichte."
 
 #: silva.core.smi:/content/publish/management.py:259
 msgid "Message"
-msgstr ""
+msgstr "Nachricht"
 
 #: silva.core.smi:/content/publish/management.py:260
 msgid ""
@@ -3294,7 +3315,7 @@ msgstr ""
 
 #: silva.core.smi:/content/publish/management.py:30
 msgid "Publication time"
-msgstr ""
+msgstr "Veröffentlichungszeitpunkt"
 
 #: silva.core.smi:/content/publish/management.py:300
 msgid "Add message on withdrawal"
@@ -3312,7 +3333,7 @@ msgstr "Widerrufen einer Bestätigungsanfrage"
 
 #: silva.core.smi:/content/publish/management.py:33
 msgid "Expiration time"
-msgstr ""
+msgstr "Verfallszeitpunkt"
 
 #: silva.core.smi:/content/publish/management.py:333
 msgid "Add message on rejection"
@@ -3440,143 +3461,143 @@ msgstr "Kopie zum Bearbeiten"
 #: silva.core.smi:/content/publish/status.py:110
 msgid "Create a new editable version of the selected old one."
 msgstr ""
+"Erstellen Sie eine neue bearbeitbare Version des ausgewählten alten Objekts."
 
 #: silva.core.smi:/content/publish/status.py:116
 msgid "Please select one version to copy."
-msgstr ""
+msgstr "Bitte wählen Sie eine Version zum Kopieren."
 
 #: silva.core.smi:/content/publish/status.py:126
 msgid "Reverted to previous version."
 msgstr "Zur vorherigen Version zurückgekehrt."
 
 #: silva.core.smi:/content/publish/status.py:134
-#: silva.core.smi:/view.py:18
 msgid "View"
-msgstr ""
+msgstr "Ansicht"
 
 #: silva.core.smi:/content/publish/status.py:135
 msgid "View this particular version."
-msgstr ""
+msgstr "Betrachten einer bestimmten Version."
 
 #: silva.core.smi:/content/publish/status.py:140
 msgid "Please select one version to view it."
-msgstr ""
+msgstr "Bitte wählen Sie eine Version zur Betrachtung."
 
 #: silva.core.smi:/content/publish/status.py:180
 msgid "Compare"
-msgstr ""
+msgstr "Vergleichen"
 
 #: silva.core.smi:/content/publish/status.py:181
 msgid "Select and compare two different versions."
-msgstr ""
+msgstr "Wählen und vergleichen Sie zwei verschiedene Versionen."
 
 #: silva.core.smi:/content/publish/status.py:189
 msgid "Select exactly two different versions to compare them."
-msgstr ""
+msgstr "Wählen Sie genau zwei verschiedene Versionen zum Vergleich."
 
 #: silva.core.smi:/content/publish/status.py:257
 #: silva.ui:/rest/container/configuration.py:120
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: silva.core.smi:/content/publish/status.py:258
 msgid "There's no undo."
-msgstr ""
+msgstr "Keine Rückgängig-Machen Funktion."
 
 #: silva.core.smi:/content/publish/status.py:260
 msgid "Deletion is premanent. Are you sure ?"
-msgstr ""
+msgstr "Endgültig löschen. Sind Sie sicher?"
 
 #: silva.core.smi:/content/publish/status.py:270
 msgid "Cannot delete all versions."
-msgstr ""
+msgstr "Alle Versionen können nicht gelöscht werden."
 
 #: silva.core.smi:/content/publish/status.py:275
 msgid "No version selected, nothing deleted."
-msgstr ""
+msgstr "Keine Version wurde ausgewählt, nichts wurde gelöscht."
 
 #: silva.core.smi:/content/publish/status.py:284
 msgid "Version(s) deleted."
-msgstr ""
+msgstr "Version(en) gelöscht."
 
 #: silva.core.smi:/content/publish/status.py:317
 msgid "Manage versions"
-msgstr ""
+msgstr "Versionen bearbeiten"
 
 #: silva.core.smi:/content/publish/status.py:36
 msgid "Unapproved"
-msgstr ""
+msgstr "Nicht genehmigt."
 
 #: silva.core.smi:/content/publish/status.py:37
 msgid "Approved"
-msgstr ""
+msgstr "Genehmigt"
 
 #: silva.core.smi:/content/publish/status.py:38
 msgid "Published"
-msgstr ""
+msgstr "Veröffentlicht"
 
 #: silva.core.smi:/content/publish/status.py:39
 msgid "Last closed"
-msgstr ""
+msgstr "Letzte geschlossene"
 
 #: silva.core.smi:/content/publish/status.py:40
 msgid "Closed"
-msgstr ""
+msgstr "Geschlossen"
 
 #: silva.core.smi:/content/publish/status.py:45
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: silva.core.smi:/content/publish/status.py:47
 msgid "Modification"
-msgstr ""
+msgstr "Bearbeitung"
 
 #: silva.core.smi:/content/publish/status.py:51
 msgid "Expiration"
-msgstr ""
+msgstr "Ablaufdatum"
 
 #: silva.core.smi:/content/publish/status.py:55
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: silva.core.smi:/content/publishingactions.py:107
 msgid "Approval requested for immediate publication."
-msgstr ""
+msgstr "Genehmigung für sofortige Publikation benötigt."
 
 #: silva.core.smi:/content/publishingactions.py:113
 #: silva.ui:/rest/container/configuration.py:250
 msgid "Withdraw request"
-msgstr ""
+msgstr "Anfrage zurückziehen."
 
 #: silva.core.smi:/content/publishingactions.py:114
 msgid "Withdraw a request for approval."
-msgstr ""
+msgstr "Anfrage zur Genehmigung zurückziehen."
 
 #: silva.core.smi:/content/publishingactions.py:129
 msgid "Withdrew request for approval."
-msgstr ""
+msgstr "Anfrage zur Genehmigung zurückgezogen."
 
 #: silva.core.smi:/content/publishingactions.py:135
 #: silva.ui:/rest/container/configuration.py:234
 msgid "Reject request"
-msgstr ""
+msgstr "Anfrage zurückweisen."
 
 #: silva.core.smi:/content/publishingactions.py:136
 msgid "reject a request for approval"
-msgstr ""
+msgstr "Anfrage einer Genehmigung zurückweisen."
 
 #: silva.core.smi:/content/publishingactions.py:151
 msgid "Rejected request for approval."
-msgstr ""
+msgstr "Anfragen einer Genehmigung zurückgewiesen."
 
 #: silva.core.smi:/content/publishingactions.py:157
 #: silva.ui:/rest/container/configuration.py:266
 msgid "Revoke approval"
-msgstr ""
+msgstr "Genehmigung widerrufen."
 
 #: silva.core.smi:/content/publishingactions.py:158
 msgid "Un-approve this version in order to edit it."
-msgstr ""
+msgstr "Zurücknahme der Genehmigung um zu editieren."
 
 #: silva.core.smi:/content/publishingactions.py:172
 msgid "Revoked approval."
@@ -3584,16 +3605,17 @@ msgstr "Veröffentlichung zurückgezogen."
 
 #: silva.core.smi:/content/publishingactions.py:179
 msgid "Publish now this item."
-msgstr ""
+msgstr "Objekt jetzt veröffentlichen."
 
 #: silva.core.smi:/content/publishingactions.py:67
 #: silva.ui:/rest/container/configuration.py:181
 msgid "New version"
-msgstr ""
+msgstr "Neue Version"
 
 #: silva.core.smi:/content/publishingactions.py:68
 msgid "Work on a new version while the previous stays online."
 msgstr ""
+"Bearbeiten Sie eine neue Version während die vorhergehende online bleibt."
 
 #: silva.core.smi:/content/publishingactions.py:83
 msgid "New version created."
@@ -3601,11 +3623,11 @@ msgstr "Neue Version erzeugt."
 
 #: silva.core.smi:/content/publishingactions.py:90
 msgid "Request approval for immediate publication."
-msgstr ""
+msgstr "Anfrage um Genehmigung für sofortige Veröffentlichung."
 
 #: silva.core.smi:/content/xml/errors.py:21
 msgid "External reference exported"
-msgstr ""
+msgstr "Externer Bezug exportiert."
 
 #: silva.core.smi:/content/xml/errors_templates/externalreferenceerrorpage.cpt:15
 msgid ""
@@ -3616,108 +3638,127 @@ msgstr ""
 
 #: silva.core.smi:/content/xml/export.py:44
 msgid "Select an export format"
-msgstr ""
+msgstr "Wählen Sie ein Export-Format"
 
 #: silva.core.smi:/content/xml/export.py:45
 msgid "Select the format which will be used for the export."
-msgstr ""
+msgstr "Wählen Sie ein Format, das für den Export verwendet wird."
 
 #: silva.core.smi:/content/xml/export.py:52
 msgid "export content"
+msgstr "Export Content"
+
+#. Default: ""
+#: silva.core.smi:/content/xml/import.py:115
+msgid "Import is successful, but there are ${many} problem(s)."
 msgstr ""
 
-#: silva.core.smi:/content/xml/import.py:24
+#: silva.core.smi:/content/xml/import.py:121
+msgid "Import succeeded."
+msgstr ""
+
+#. Default: ""
+#: silva.core.smi:/content/xml/import.py:132
+msgid "Imported ${succeeded}."
+msgstr "${succeeded} importiert."
+
+#. Default: ""
+#: silva.core.smi:/content/xml/import.py:137
+msgid "Could not import: ${failed}."
+msgstr "${failed} konnte nicht importiert werden."
+
+#. Default: ""
+#: silva.core.smi:/content/xml/import.py:142
+msgid "Invalid import file: ${error}."
+msgstr "Ungültige Import-Datei:  ${error}"
+
+#: silva.core.smi:/content/xml/import.py:29
 msgid "File to upload"
-msgstr ""
+msgstr "hochzuladende Datei"
 
-#: silva.core.smi:/content/xml/import.py:25
+#: silva.core.smi:/content/xml/import.py:30
 msgid ""
 "Locate a zip file containing assets or a zip file created by a Silva full "
 "media export."
 msgstr ""
+"Stellen Sie den Speicherort eines zip-Files fest, das Dateien enthält oder "
+"eines zip-Files, das durch einen Silva Full Media Export entstanden ist."
 
-#: silva.core.smi:/content/xml/import.py:29
+#: silva.core.smi:/content/xml/import.py:34
 msgid "Title for assets"
-msgstr ""
+msgstr "Titel von Dateien."
 
-#: silva.core.smi:/content/xml/import.py:30
+#: silva.core.smi:/content/xml/import.py:35
 msgid ""
 "Set a title for all assets created from the items of a zip file with assets."
 msgstr ""
+"Setzt einen Titel für alle Dateien, die aus Objekten eines hochgeladenen zip-"
+"Files erstellt wurden."
 
-#: silva.core.smi:/content/xml/import.py:35
+#: silva.core.smi:/content/xml/import.py:40
 msgid "Subdirectories"
-msgstr ""
+msgstr "Unter-Verzeichnisse"
 
-#: silva.core.smi:/content/xml/import.py:36
+#: silva.core.smi:/content/xml/import.py:41
 msgid ""
 "Recreate the subdirectory structure of a zip file with assets by adding "
 "folders."
 msgstr ""
 
-#: silva.core.smi:/content/xml/import.py:41
+#: silva.core.smi:/content/xml/import.py:46
 msgid "Replace items"
-msgstr ""
+msgstr "Objekte ersetzten."
 
-#: silva.core.smi:/content/xml/import.py:42
+#: silva.core.smi:/content/xml/import.py:47
 msgid ""
 "Replace items with the ones from the import file when they have the same ids "
 "(Note: they will be replaced *even* when published)."
 msgstr ""
+"Ersetzt Objekte mit jenen des importieren Files, wenn sie die selbe ID haben "
+"(Anmerkung: diese werden auch beim Publizieren ersetzt)."
 
-#: silva.core.smi:/content/xml/import.py:56
+#: silva.core.smi:/content/xml/import.py:88
 msgid "Import and extract ZIP archive"
-msgstr ""
+msgstr "Importieren und entpacken eines ZIP Archives."
 
-#: silva.core.smi:/content/xml/import.py:58
+#: silva.core.smi:/content/xml/import.py:90
 msgid "Click the Upload button to select a file to import."
 msgstr ""
+"Klicken Sie die Schaltfläche Hochladen um eine Datei für den Import zu "
+"wählen."
 
-#: silva.core.smi:/content/xml/import.py:66
-msgid "upload and import file"
-msgstr ""
-
-#. Default: ""
-#: silva.core.smi:/content/xml/import.py:87
-msgid "Invalid import file: ${error}."
-msgstr ""
-
-#. Default: ""
-#: silva.core.smi:/content/xml/import.py:93
-msgid "Imported ${succeeded}."
-msgstr ""
-
-#. Default: ""
 #: silva.core.smi:/content/xml/import.py:98
-msgid "Could not import: ${failed}."
-msgstr ""
+msgid "upload and import file"
+msgstr "Hochladen und Importieren einer Datei"
 
 #: silva.core.smi:/errors/quota.py:18
 msgid "Over Quota"
-msgstr ""
+msgstr "Quota überschritten."
 
 #: silva.core.smi:/errors/quota_templates/overquotaerror.cpt:6
 msgid ""
 "Sorry, a quota is applied to the container you are working in, and the "
 "current operation would require ${exceeding_size} more space."
 msgstr ""
+"Leider wurde für diese/n Publikation/Ordner eine Quota definiert und der "
+"letzte Vorgang führt zu ${exceeding_size}  mehr Platzbedarf."
 
 #: silva.core.smi:/errors/references.py:31
 msgid "Broken references"
-msgstr ""
+msgstr "Verweise defekt"
 
 #: silva.core.smi:/errors/references.py:67
 msgid "Break references"
-msgstr ""
+msgstr "Zerstören von Verweisen"
 
 #: silva.core.smi:/errors/references.py:87
 msgid "References broken"
-msgstr ""
+msgstr "Verweise defekt"
 
 #. Default: ""
 #: silva.core.smi:/errors/references.py:89
 msgid "References to ${content} (${path}) have been broken."
-msgstr ""
+msgstr "Verweise zu ${content} (${path}) funktionieren nicht mehr."
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
@@ -3732,61 +3773,67 @@ msgid ""
 "content here, including published versions, and containers of those "
 "contents. Added to that, in case of problems, you cannot undo this operation."
 msgstr ""
+"Sie können, wenn dies gewünscht ist, den Verweis löschen. Das könnte den "
+"angeführten Content  inklusive der publizierten Versionen betreffen.  Hinzu "
+"kommt, dass zur Vermeidung von Problemen, dieser Schritt nicht mehr "
+"rückgängig gemacht werden kann."
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:19
 msgid "Those contents are:"
-msgstr ""
+msgstr "Diese Inhalte sind:"
 
 #: silva.core.smi:/preview.py:79
-#: silva.ui:/rest/container/listing.py:181
+#: silva.ui:/rest/container/listing.py:179
 msgid "Preview"
-msgstr ""
+msgstr "Vorschau"
 
 #: silva.core.smi:/preview.py:80
-msgid "view item while staying in the admin interface"
+msgid "Preview this item inside the management interface."
 msgstr ""
 
 #: silva.core.smi:/settings/__init__.py:18
 #: silva.core.smi:/settings/__init__.py:26
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungen"
 
 #: silva.core.smi:/settings/access.py:101
 msgid "No matching users were found."
-msgstr ""
+msgstr "Bei den Benutzern gibt es keine Übereinstimmung."
 
 #: silva.core.smi:/settings/access.py:114
 msgid "Lookup users"
-msgstr ""
+msgstr "Benutzer suchen"
 
 #: silva.core.smi:/settings/access.py:115
 msgid ""
 "Search for users to assign them roles. Enter as least two characters. "
 "Looukup entire names to limit the number of results."
 msgstr ""
+"Suche nach Benutzern um ihnen Rollen zuzuweisen. Geben Sie mindestens zwei "
+"Zeichen ein. Die Suche nach ganzen Namen reduziert das Resultat."
 
 #: silva.core.smi:/settings/access.py:134
 msgid "Role to grant:"
-msgstr ""
+msgstr "Zu genehmigende Rollen"
 
 #: silva.core.smi:/settings/access.py:141
 #: silva.pas.base:/smi.py:218
 msgid "Grant role"
-msgstr ""
+msgstr "Genehmigen einer Rolle"
 
 #: silva.core.smi:/settings/access.py:142
 msgid "Grant the selected role to selected users(s)"
-msgstr ""
+msgstr "Genehmigen einer bestimmten Rolle für ausgewählte Benutzer."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:159
 msgid "Role \"${role}\" granted to user \"${username}\"."
-msgstr ""
+msgstr "Die Rolle \"${role}\" würde für \"${username}\" genehmigt."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:164
 msgid "User \"${username}\" already has the role \"${role}\"."
-msgstr ""
+msgstr "Benutzer \"${username}\" verfügt bereits über die Rolle \"${role}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:169
@@ -3794,25 +3841,28 @@ msgid ""
 "Sorry, you are not allowed to grant the role \"${role}\" to user "
 "\"${username}\": ${reason}."
 msgstr ""
+"Leider dürfen Sie die Rolle \"${role}\" nicht für den Benutzer "
+"\"${username}\"genehmigen: ${reason}."
 
 #: silva.core.smi:/settings/access.py:181
 #: silva.pas.base:/smi.py:258
 msgid "Revoke role"
-msgstr ""
+msgstr "Aberkennen der Rolle."
 
 #: silva.core.smi:/settings/access.py:182
 msgid "Revoke the role of selected user(s)"
-msgstr ""
+msgstr "Die Rolle für wird für den/die ausgewählten Benutzer aberkannt."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:196
 msgid "Removed role \"${role}\" from user \"${username}\"."
 msgstr ""
+"Die Rolle \"${role}\" wurde für den Benutzer  \"${username}\" entfernt."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:202
 msgid "User \"${username}\" doesn't have any local role."
-msgstr ""
+msgstr "Benutzer \"${username}\" hat keine lokalen Rollen."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:207
@@ -3820,33 +3870,35 @@ msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from user "
 "\"${username}\": ${reason}."
 msgstr ""
+"Leider dürfen Sie die Rolle \"${role}\" nicht für den Benutzer "
+"\"${username}\" entfernen: ${reason}."
 
 #: silva.core.smi:/settings/access.py:223
 msgid "Email"
-msgstr ""
+msgstr "E-Mail"
 
 #: silva.core.smi:/settings/access.py:225
 #: silva.pas.base:/smi.py:207
 msgid "Role defined above"
-msgstr ""
+msgstr "Die Rolle wurde weiter oben in der Struktur bereits bestimmt."
 
 #: silva.core.smi:/settings/access.py:229
 #: silva.pas.base:/smi.py:211
 msgid "Role defined here"
-msgstr ""
+msgstr "Die Rolle wurde ab dieser Ebene bestimmt."
 
 #: silva.core.smi:/settings/access.py:252
 msgid "User roles"
-msgstr ""
+msgstr "Benutzer-Rollen"
 
 #: silva.core.smi:/settings/access.py:253
 #: silva.pas.base:/smi.py:301
 msgid "No roles have been assigned."
-msgstr ""
+msgstr "Keine Rollen wurden zugewiesen."
 
 #: silva.core.smi:/settings/access.py:294
 msgid "User clipboard"
-msgstr ""
+msgstr "Zwischenablage für Benutzer"
 
 #: silva.core.smi:/settings/access.py:295
 msgid ""
@@ -3854,51 +3906,64 @@ msgid ""
 "this user clipboard. Then assign the users roles. Any users on the clipboard "
 "will remain here when you move to other areas of the site."
 msgstr ""
+"Um Rollen an Benutzer zu erteilen müssen diese zuerst gesucht werden, damit "
+"sie in der Zwischenablage aufgelistet sind. Dann können den Benutzern Rollen "
+"zugewiesen werden. Alle bisher gesuchten Benutzer in der Zwischenablage "
+"bleiben in der Liste, auch wenn Sie in einen anderen Bereich der Site "
+"wechseln."
 
 #: silva.core.smi:/settings/access.py:318
 #: silva.pas.base:/smi.py:348
 msgid "Clear clipboard"
-msgstr ""
+msgstr "Zwischenablage löschen."
 
 #: silva.core.smi:/settings/access.py:319
 msgid "clear the user clipboard"
-msgstr ""
+msgstr "Zwischenablage mit Benutzern löschen."
 
 #: silva.core.smi:/settings/access.py:32
 msgid "Manage access to content"
-msgstr ""
+msgstr "Zugriffsrechte bearbeiten."
 
 #: silva.core.smi:/settings/access.py:33
 msgid ""
 "This screen lets you authorize or revoke access to this item and all content "
 "it contains."
 msgstr ""
+"Mit dieser Maske können Sie Zugriffsrechte zu einem Objekt und dessen "
+"gesamten Inhalt erteilen oder entfernen."
 
 #: silva.core.smi:/settings/access.py:332
 msgid "Is the role acquired from above?"
-msgstr ""
+msgstr "Wurde die Rolle vererbt?"
 
 #: silva.core.smi:/settings/access.py:336
 msgid "Minimum required role needed to access this item"
 msgstr ""
+"Mindestens erforderliche Rolle, die gebraucht wird um das Objekt zu "
+"bearbeiten."
 
 #: silva.core.smi:/settings/access.py:349
 msgid "Public view access restriction"
-msgstr ""
+msgstr "Zugriffsrecht für öffentliche Ansicht"
 
 #: silva.core.smi:/settings/access.py:350
 msgid ""
 "Setting an access restriction here affects content on this and lower levels."
 msgstr ""
+"Wenn Sie an dieser Stelle den Zugriff einschränken, betrifft dies auch "
+"dessen Inhalt in daruntergelagerten Ebenen."
 
 #: silva.core.smi:/settings/access.py:360
 msgid "Acquire restriction"
-msgstr ""
+msgstr "Erforderliche Einschränkung"
 
 #: silva.core.smi:/settings/access.py:361
 msgid ""
 "Set the access restriction to acquire its setting from the parent container."
 msgstr ""
+"Setzen Sie die Zugriffsrechte um die Einstellungen des übergeordneten "
+"Kontainers zu erwerben."
 
 #: silva.core.smi:/settings/access.py:369
 msgid "The minimum role setting was already acquired."
@@ -3910,11 +3975,11 @@ msgstr ""
 
 #: silva.core.smi:/settings/access.py:379
 msgid "Set restriction"
-msgstr ""
+msgstr "Einschränkung gesetzt."
 
 #: silva.core.smi:/settings/access.py:380
 msgid "Restrict access to this content to the selected role"
-msgstr ""
+msgstr "Beschränkter Zugriff für die ausgewählte Rolle für diesen Inhalt."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:391
@@ -3927,17 +3992,17 @@ msgid "The minimum required role to access this item is acquired."
 msgstr ""
 
 #: silva.core.smi:/settings/access.py:41
-#: silva.ui:/rest/container/listing.py:193
+#: silva.ui:/rest/container/listing.py:191
 msgid "Access"
-msgstr ""
+msgstr "Zugriff"
 
 #: silva.core.smi:/settings/access.py:46
 msgid "Lookup users..."
-msgstr ""
+msgstr "Benutzer suchen"
 
 #: silva.core.smi:/settings/access.py:47
 msgid "Search for users to assign them roles"
-msgstr ""
+msgstr "Suche nach Benutzern für die Zuweisung von Rollen."
 
 #: silva.core.smi:/settings/access.py:56
 #: silva.core.smi:/settings/access.py:221
@@ -3947,24 +4012,25 @@ msgstr "Benutzername"
 
 #: silva.core.smi:/settings/access.py:57
 msgid "Username or part of the username to lookup"
-msgstr ""
+msgstr "Name oder Teil des Namens für die Suche"
 
 #: silva.core.smi:/settings/access.py:67
 msgid "Lookup user"
-msgstr ""
+msgstr "Benutzer suchen"
 
 #: silva.core.smi:/settings/access.py:73
+#: silva.ui:/service.py:66
 msgid "Sorry, there were errors."
-msgstr ""
+msgstr "Leider sind Fehler aufgetreten."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:95
 msgid "Found ${count} users: ${users}."
-msgstr ""
+msgstr "${count} Benutzer gefunden:  ${users}."
 
 #: silva.core.smi:/settings/addables.py:36
 msgid "Acquire"
-msgstr ""
+msgstr "Erwerben"
 
 #: silva.core.smi:/settings/addables.py:37
 msgid ""
@@ -3977,7 +4043,7 @@ msgstr ""
 #: silva.core.smi:/settings/addables.py:42
 #: silva.core.smi:/settings/addables.py:105
 msgid "Addables"
-msgstr ""
+msgstr "Ergänzungen"
 
 #: silva.core.smi:/settings/addables.py:43
 msgid ""
@@ -3991,15 +4057,15 @@ msgstr ""
 
 #: silva.core.smi:/settings/addables.py:58
 msgid "Addable settings"
-msgstr ""
+msgstr "Einstellungen für Ergänzungen"
 
 #: silva.core.smi:/settings/addables.py:73
 msgid "Save addables settings"
-msgstr ""
+msgstr "Speichern  Einstellungen für  Ergänzungen"
 
 #: silva.core.smi:/settings/addables.py:74
 msgid "save addable settings for this publication"
-msgstr ""
+msgstr "Speichern der Einstellungen für Ergänzungen für diese Publikation"
 
 #: silva.core.smi:/settings/addables.py:83
 msgid "Addable settings have not changed and remain acquired."
@@ -4013,74 +4079,78 @@ msgstr ""
 
 #: silva.core.smi:/settings/addables.py:93
 msgid "Changes to addables content types saved."
-msgstr ""
+msgstr "Änderungen zu hinzugefügten Inhalts-Typen wurden gesichert."
 
 #: silva.core.smi:/settings/makers.py:101
 msgid "Available markers"
-msgstr ""
+msgstr "Verfügbare Markierungen."
 
 #: silva.core.smi:/settings/makers.py:121
 msgid "Interfaces in use which affect the behavior of the item"
 msgstr ""
+"Es sind Schnittstellen in Verwerndung die das Verhalten des Objekts "
+"beeinflussen."
 
 #: silva.core.smi:/settings/makers.py:134
 msgid "Add a marker to alter the behavior"
-msgstr ""
+msgstr "Setzen Sie eine Markierung um das Verhalten zu ändern."
 
 #: silva.core.smi:/settings/makers.py:142
 msgid "Add marker"
-msgstr ""
+msgstr "Markierung hinzufügen."
 
 #: silva.core.smi:/settings/makers.py:143
 msgid "mark the item with the selected marker(s)"
-msgstr ""
+msgstr "Kennzeichnen Sie das Objekt mit den gewählten Markierungen."
 
 #: silva.core.smi:/settings/makers.py:148
 #: silva.core.smi:/settings/makers.py:178
 msgid "You need to select a marker."
-msgstr ""
+msgstr "Sie müssen eine Markierung wählen."
 
 #: silva.core.smi:/settings/makers.py:154
 msgid "Marker added."
-msgstr ""
+msgstr "Markierung hinzugefügt."
 
 #: silva.core.smi:/settings/makers.py:163
 msgid "Remove a marker"
-msgstr ""
+msgstr "Entfernen der Markierung."
 
 #: silva.core.smi:/settings/makers.py:172
 msgid "remove the selected marker(s) from the item"
-msgstr ""
+msgstr "Entfernen Sie die gewählte/n Markierung/en vom Objekt."
 
 #: silva.core.smi:/settings/makers.py:184
 msgid "Marker removed."
-msgstr ""
+msgstr "Markierung entfernt."
 
 #: silva.core.smi:/settings/makers.py:28
 msgid "Customization markers"
-msgstr ""
+msgstr "Anpassen der Markierung."
 
 #: silva.core.smi:/settings/makers.py:29
 msgid ""
 "This screen lets you tag items with markers which can alter how content is "
 "displayed and behaves."
 msgstr ""
+"In dieser Maske können Sie Objekte mit Markierungen kennzeichnen, mit denen "
+"Sie die Darstellung oder das Verhalten von Inhalt ändern können."
 
 #: silva.core.smi:/settings/makers.py:37
 msgid "Customization"
-msgstr ""
+msgstr "Anpassung"
 
 #: silva.core.smi:/settings/makers.py:84
 msgid "Used interfaces"
-msgstr ""
+msgstr "Benutzte Schnittstelle"
 
 #: silva.core.smi:/settings/makers.py:93
 msgid "Used markers"
-msgstr ""
+msgstr "Benutzte Markierung"
 
 #: silva.core.smi:/settings/settings.py:103
 msgid "Container type"
-msgstr ""
+msgstr "Kontainer-Typ"
 
 #: silva.core.smi:/settings/settings.py:119
 msgid ""
@@ -4102,26 +4172,28 @@ msgid ""
 "This Silva Publication can be converted to a Silva Folder, or can become a "
 "local site."
 msgstr ""
+"Diese Publikation kann in einen Silva Ordner umgewandelt werden oder sie "
+"kann eine lokale Website werden."
 
 #: silva.core.smi:/settings/settings.py:129
 msgid "This Silva Folder can be converted to a Publication."
-msgstr ""
+msgstr "Dieser Ordner kann in eine Publikation umgewandelt werden."
 
 #: silva.core.smi:/settings/settings.py:135
 msgid "Allow feeds"
-msgstr ""
+msgstr "Feeds erlauben."
 
 #: silva.core.smi:/settings/settings.py:136
 msgid "Check to provide an Atom / RSS feed from this container."
-msgstr ""
+msgstr "Markieren um einen Atom/RSS Feed dieses Kontainers zu liefern."
 
 #: silva.core.smi:/settings/settings.py:152
 msgid "Atom/rss feeds"
-msgstr ""
+msgstr "Atom/RSS Feed"
 
 #: silva.core.smi:/settings/settings.py:159
 msgid "Change feed settings"
-msgstr ""
+msgstr "Ändern der Feed Einstellungen."
 
 #: silva.core.smi:/settings/settings.py:161
 msgid "change feed settings"
@@ -4133,48 +4205,48 @@ msgstr "Feed-Einstellungen gesichert."
 
 #: silva.core.smi:/settings/settings.py:184
 msgid "Space used in this folder"
-msgstr ""
+msgstr "Platz der für diesen Ordner verwendet wird."
 
 #: silva.core.smi:/settings/settings.py:205
 msgid "Used space"
-msgstr ""
+msgstr "Benutzter Speicher"
 
 #. Default: ""
 #: silva.core.smi:/settings/settings.py:214
 msgid "The quota for this area is set to ${quota} MB."
-msgstr ""
+msgstr "Die Quote für diesen Bereich wurde auf ${quota}  MB gesetzt."
 
 #: silva.core.smi:/settings/settings.py:223
 msgid "Generic Settings"
-msgstr ""
+msgstr "Allgemeine Einstellungen"
 
 #: silva.core.smi:/settings/settings.py:27
 msgid "Convert to folder"
-msgstr ""
+msgstr "Umwandeln in einen Ordner"
 
 #: silva.core.smi:/settings/settings.py:28
 msgid "Change container to a folder"
-msgstr ""
+msgstr "Ändern eines Kontainers in einen Ordner"
 
 #: silva.core.smi:/settings/settings.py:38
 msgid "Changed into folder."
-msgstr ""
+msgstr "In Folder umgewandelt."
 
 #: silva.core.smi:/settings/settings.py:43
 msgid "Convert to publication"
-msgstr ""
+msgstr "In Publikation umwandeln."
 
 #: silva.core.smi:/settings/settings.py:44
 msgid "Change container to a publication"
-msgstr ""
+msgstr "Ändern eines Kontainers in eine Publikation."
 
 #: silva.core.smi:/settings/settings.py:52
 msgid "Changed into publication."
-msgstr ""
+msgstr "In Publikation umgewandelt."
 
 #: silva.core.smi:/settings/settings.py:57
 msgid "Make local site"
-msgstr ""
+msgstr "Erstellen einer lokalen Site."
 
 #: silva.core.smi:/settings/settings.py:70
 msgid "Local site activated."
@@ -4182,7 +4254,7 @@ msgstr "Lokale Seite aktiviert."
 
 #: silva.core.smi:/settings/settings.py:76
 msgid "Remove local site"
-msgstr ""
+msgstr "Entfernen einer lokalen Site."
 
 #: silva.core.smi:/settings/settings.py:89
 msgid "Local site deactivated."
@@ -4193,10 +4265,13 @@ msgid ""
 "RSS/Atom is activated for this container. You can access the RSS feed at "
 "this ${rss_url}, and the Atom feed at this ${atom_url}."
 msgstr ""
+"RSS/Atom wurde für diesen Kontainer aktiviert. Sie können auf den RSS Feed "
+"mit dieser Adresse ${rss_url} und auf den Atom Feed mit dieser Adresse "
+"${atom_url} zugreifen."
 
 #: silva.core.smi:/settings/settings_templates/feedsinformation.cpt:5
 msgid "RSS/Atom is not activated for this container."
-msgstr ""
+msgstr "RSS/Atom ist für diesen Kontainer nicht aktiviert."
 
 #: silva.core.smi:/userinfo.py:26
 msgid "Use browser language setting"
@@ -4204,81 +4279,99 @@ msgstr "Spracheinstellung des Browsers verwenden"
 
 #: silva.core.smi:/userinfo.py:43
 msgid "User identifier"
-msgstr ""
+msgstr "Benutzer Kennung"
 
 #: silva.core.smi:/userinfo.py:44
 msgid "User identifier used to authenticate."
-msgstr ""
+msgstr "Benutzer Kennung zur Authentifizierung verwendet."
 
 #: silva.core.smi:/userinfo.py:48
 msgid "Fullname"
-msgstr ""
+msgstr "Vollständiger Name"
 
 #: silva.core.smi:/userinfo.py:49
 msgid "User full name."
-msgstr ""
+msgstr "Vollständiger Benutzername"
 
 #: silva.core.smi:/userinfo.py:53
 msgid "Contact email address for the user."
-msgstr ""
+msgstr "Kontakt-Mailadresse des Benutzers"
 
 #: silva.core.smi:/userinfo.py:56
 msgid "Preferred language"
-msgstr ""
+msgstr "Bevorzugte Sprache"
 
 #: silva.core.smi:/userinfo.py:57
 msgid "Language to use in the Silva interface."
-msgstr ""
+msgstr "Sprache für das Silva Interface"
 
 #: silva.core.smi:/userinfo.py:87
 msgid "User preferences"
+msgstr "Benutzereinstellungen"
+
+#: silva.core.smi:/view.py:18
+msgid "View..."
 msgstr ""
 
 #: silva.core.smi:/view.py:19
-msgid "view content in a new window"
+msgid "See the public view of this content in a new tab/window."
+msgstr ""
+
+#: silva.pas.base:/Membership.py:281
+msgid "Manage Member service"
+msgstr ""
+
+#: silva.pas.base:/Membership.py:282
+msgid "Configure various settings related to user sessions and permissions."
+msgstr ""
+
+#: silva.pas.base:/Membership.py:287
+msgid "Install PAS"
 msgstr ""
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:16
 msgid ""
 "The page you are trying to visit has restricted access. Please authenticate."
 msgstr ""
+"Für die Seite, die Sie besuchen wollen, bestehen Zugriffseinschränkungen. "
+"Bitte melden Sie sich an."
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:31
 msgid "Log in to the site"
-msgstr ""
+msgstr "Anmeldung auf der Seite."
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:4
 msgid "Protected area"
-msgstr ""
+msgstr "Geschützter Bereich."
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:56
 msgid "Log in"
-msgstr ""
+msgstr "Anmeldung"
 
-#: silva.pas.base:/plugins/cookie.py:286
+#: silva.pas.base:/plugins/cookie.py:291
 msgid "You need to provide a login and a password."
-msgstr ""
+msgstr "Die Eingabe einer Kennung und eines Passwortes ist erforderlich."
 
-#: silva.pas.base:/plugins/cookie.py:294
-#: silva.pas.base:/plugins/cookie.py:328
+#: silva.pas.base:/plugins/cookie.py:301
+#: silva.pas.base:/plugins/cookie.py:335
 msgid "Invalid login or password."
-msgstr ""
+msgstr "Falsche Kennung oder falsches Passwor."
 
 #: silva.pas.base:/smi.py:104
 msgid "Logged in"
-msgstr ""
+msgstr "Sie sind angemeldet."
 
 #: silva.pas.base:/smi.py:105
 msgid "You are now authenticated."
-msgstr ""
+msgstr "Sie sind jetzt angemeldet."
 
 #: silva.pas.base:/smi.py:113
 msgid "Lookup groups..."
-msgstr ""
+msgstr "Suche nach Gruppen."
 
 #: silva.pas.base:/smi.py:114
 msgid "Search for groups to assign roles"
-msgstr ""
+msgstr "Suche nach Gruppen zur Zuweisung von Rollen."
 
 #: silva.pas.base:/smi.py:123
 #: silva.pas.base:/smi.py:205
@@ -4287,48 +4380,51 @@ msgstr "Gruppenname"
 
 #: silva.pas.base:/smi.py:124
 msgid "Group name or part of a group name to lookup"
-msgstr ""
+msgstr "Name oder Teil des Namens der Gruppe für die Suche."
 
 #: silva.pas.base:/smi.py:135
 msgid "Lookup group"
-msgstr ""
+msgstr "Suche nach Gruppe"
 
 #: silva.pas.base:/smi.py:136
 msgid "Search for groups in order to assign them roles"
-msgstr ""
+msgstr "Suche nach Gruppen für die Zuweisung von Rollen."
 
 #. Default: ""
 #: silva.pas.base:/smi.py:161
 msgid "Found ${count} groups: ${groups}."
-msgstr ""
+msgstr "${count} Anzahl Gruppen: ${groups}."
 
 #: silva.pas.base:/smi.py:167
 msgid "No matching groups found."
-msgstr ""
+msgstr "Keine Übereinstimmung bei Gruppen gefunden."
 
 #: silva.pas.base:/smi.py:180
 msgid "Lookup groups"
-msgstr ""
+msgstr "Suche Gruppen"
 
 #: silva.pas.base:/smi.py:181
 msgid ""
 "Search for groups to assign them roles. Leave the field empty to get all "
 "groups (could be a long list)."
 msgstr ""
+"Suche nach Gruppen für die Zuordnung von Rollen. Bleibt das Feld leer, "
+"werden alle Gruppen angezeigt (die Liste könnte lang sein)."
 
 #: silva.pas.base:/smi.py:219
 msgid "Grant the selected role to the selected groups(s)"
-msgstr ""
+msgstr "Zuweisung einer definierten Rolle an ausgewählte Gruppe/n."
 
 #. Default: ""
 #: silva.pas.base:/smi.py:236
 msgid "Role \"${role}\" granted to group \"${groupname}\"."
-msgstr ""
+msgstr "Rolle \"${role}\" zu Gruppe \"${groupname}\" zugewiesen."
 
 #. Default: ""
 #: silva.pas.base:/smi.py:241
 msgid "Group \"${groupname}\" already has the role \"${role}\"."
 msgstr ""
+"Die Gruppe \"${groupname}\" verfügt bereits über die Rolle \"${role}\"."
 
 #. Default: ""
 #: silva.pas.base:/smi.py:246
@@ -4387,23 +4483,23 @@ msgid "You need to login with new credentials in order to continue."
 msgstr ""
 
 #: silva.ui:/interfaces.py:101
-msgid "Clicking on the identifier goes on the content edit view"
+msgid "Clicking on the identifier goes to the content/edit view."
 msgstr ""
 
 #: silva.ui:/interfaces.py:105
-msgid "Clicking on the title shows the content preview"
+msgid "Clicking on the title shows the preview."
 msgstr ""
 
 #: silva.ui:/interfaces.py:109
-msgid "Clicking on the modification time goes on the content metadata"
+msgid "Clicking on the modification time goes to properties."
 msgstr ""
 
 #: silva.ui:/interfaces.py:113
-msgid "Clicking on the author goes on the content publication information"
+msgid "Clicking on the author name goes to settings."
 msgstr ""
 
 #: silva.ui:/interfaces.py:117
-msgid "Enable goto menu"
+msgid "Enable goto menu."
 msgstr ""
 
 #: silva.ui:/interfaces.py:126
@@ -4411,7 +4507,7 @@ msgid "Site name"
 msgstr ""
 
 #: silva.ui:/interfaces.py:127
-msgid "Appears in the title tag of the SMI."
+msgid "Appears in the HTML title tag of the SMI."
 msgstr ""
 
 #: silva.ui:/interfaces.py:131
@@ -4419,7 +4515,7 @@ msgid "Logo"
 msgstr ""
 
 #: silva.ui:/interfaces.py:132
-msgid "Logo that appear at the top left of the SMI."
+msgid "Logo that appears at the top left of the SMI."
 msgstr ""
 
 #: silva.ui:/interfaces.py:135
@@ -4465,15 +4561,15 @@ msgid "Disable access to the UI and display the specified HTML."
 msgstr ""
 
 #: silva.ui:/interfaces.py:92
-msgid "Clicking on the icon goes on content edit view"
+msgid "Clicking on the icon goes to the content/edit view."
 msgstr ""
 
 #: silva.ui:/interfaces.py:96
-msgid "Enable content preview when hovering the icon"
+msgid "Enable content preview when hovering over the icon."
 msgstr ""
 
 #: silva.ui:/interfaces.py:97
-msgid "This can be disabled in case of performance issue."
+msgid "This can be disabled in case of performance issues."
 msgstr ""
 
 #: silva.ui:/rest/container/configuration.py:106
@@ -4573,7 +4669,7 @@ msgid "Published: this item is published and viewable by the public."
 msgstr ""
 
 #: silva.ui:/rest/container/listing.py:105
-msgid "Closed: this item is not accessible to the public."
+msgid "Closed: this item is no longer accessible to the public."
 msgstr ""
 
 #: silva.ui:/rest/container/listing.py:107
@@ -4592,38 +4688,42 @@ msgstr ""
 msgid "Modified"
 msgstr ""
 
-#: silva.ui:/rest/container/listing.py:178
+#: silva.ui:/rest/container/listing.py:176
 msgid "Go to"
 msgstr ""
 
-#: silva.ui:/rest/container/listing.py:239
-msgid "Structural content"
+#: silva.ui:/rest/container/listing.py:237
+msgid "Structural items"
 msgstr ""
 
-#: silva.ui:/rest/container/listing.py:267
+#: silva.ui:/rest/container/listing.py:265
 msgid "Assets"
 msgstr ""
 
 #. Default: ""
-#: silva.ui:/rest/container/notifier.py:51
+#: silva.ui:/rest/container/notifier.py:53
 msgid "${count} contents"
 msgstr ""
 
 #. Default: ""
-#: silva.ui:/rest/container/notifier.py:55
+#: silva.ui:/rest/container/notifier.py:57
 msgid "${contents} and ${content}"
 msgstr ""
 
+#: silva.ui:/rest/container/serializer.py:107
+msgid "Broken content"
+msgstr ""
+
 #: silva.ui:/rest/container/templates/listing.cpt:11
-msgid "Loading folder content ..."
+msgid "Loading folder content..."
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listing.cpt:21
-msgid "${icon} ${count} item(s) in the clipboard"
+msgid "${icon} ${count} item(s) on the clipboard"
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listing.cpt:29
-msgid "${count} structural(s) content(s),"
+msgid "${count} structural item(s),"
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listing.cpt:35
@@ -4635,23 +4735,19 @@ msgid "Filter ..."
 msgstr ""
 
 #: silva.ui:/service.py:108
-msgid "UI Folder settings"
+msgid "UI Folder Settings"
 msgstr ""
 
 #: silva.ui:/service.py:109
-msgid "You can from here modify settings for folder listings."
+msgid "Here you can modify the settings for folder listings."
 msgstr ""
 
 #: silva.ui:/service.py:57
-msgid "UI Generic settings"
+msgid "UI Generic Settings"
 msgstr ""
 
 #: silva.ui:/service.py:58
-msgid "You can from here modify generic SMI settings."
-msgstr ""
-
-#: silva.ui:/service.py:66
-msgid "There were errors."
+msgid "Here you can modify the generic SMI settings."
 msgstr ""
 
 #: silva.ui:/service.py:98
@@ -4678,11 +4774,11 @@ msgstr ""
 msgid "Go one level up."
 msgstr ""
 
-#: silva.ui:/smi_templates/smitemplate.cpt:80
+#: silva.ui:/smi_templates/smitemplate.cpt:81
 msgid "Switch to fullscreen mode."
 msgstr ""
 
-#: silva.ui:/smi_templates/smitemplate.cpt:94
+#: silva.ui:/smi_templates/smitemplate.cpt:95
 msgid "Loading..."
 msgstr ""
 
@@ -4927,6 +5023,15 @@ msgstr "Alle Elemente anzeigen"
 #~ msgid "The silva object the ghost is mirroring."
 #~ msgstr "Das Silva-Objekt, das der Ghost spiegelt."
 
+#~ msgid "Missing reference path."
+#~ msgstr "Fehlender Referenz-Pfad"
+
+#~ msgid "External references"
+#~ msgstr "Externe Referenzen"
+
+#~ msgid "Could not resolve reference path."
+#~ msgstr "Der Referenz-Pfad konnte nicht aufgelöst werden."
+
 #~ msgid "subscription result to ${title_or_id}"
 #~ msgstr "Ergebnis des Abonnements für ${title_or_id}"
 
@@ -4945,3 +5050,30 @@ msgstr "Alle Elemente anzeigen"
 #~ msgid "Confirmation request for cancellation has been emailed to ${email}."
 #~ msgstr ""
 #~ "Bestätigungsanforderung für die Stornierung wurde an ${email} gesendet."
+
+#~ msgid "Broken external source in import."
+#~ msgstr "Kaputte externe Quelle beim Import"
+
+#~ msgid "Invalid ghost"
+#~ msgstr "Ungültiger Ghost"
+
+#~ msgid "Invalid ghost folder"
+#~ msgstr "Ungültiger Ghost Folder"
+
+#~ msgid "Broken source in document"
+#~ msgstr "Kaputte Quelle im Dokument"
+
+#~ msgid "Unknown external source ${name} in import"
+#~ msgstr "Unbekannte externe Quelle ${name} beim Import"
+
+#~ msgid "Broken reference"
+#~ msgstr "Kaputter Verweis"
+
+#~ msgid "Error while importing `${path}`: ${reason}"
+#~ msgstr "Fehler beim Importieren `${path}`: ${reason}"
+
+#~ msgid "view item while staying in the admin interface"
+#~ msgstr "Blick auf ein Objekt ohne das Admin-Interface zu verlassen."
+
+#~ msgid "view content in a new window"
+#~ msgstr "Betrachten des Inhalts in einem neuen Fenster."

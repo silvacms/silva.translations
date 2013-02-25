@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-12-11 11:07+0000\n"
-"PO-Revision-Date: 2012-06-01 11:47+0000\n"
-"Last-Translator: Sylvain Viollon <sylvain@infrae.com>\n"
+"POT-Creation-Date: 2013-02-25 17:30+0000\n"
+"PO-Revision-Date: 2013-02-11 21:26+0000\n"
+"Last-Translator: Mikael Hiort af Ornäs <lakritslemmel@hotmail.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-12-11 10:21+0000\n"
-"X-Generator: Launchpad (build 16356)\n"
+"X-Launchpad-Export-Date: 2013-02-25 16:36+0000\n"
+"X-Generator: Launchpad (build 16506)\n"
 "Language: sv\n"
 "X-Rosetta-Version: 0.1\n"
 
@@ -26,23 +26,23 @@ msgstr ""
 #: silva.core.contentlayout:/model.py:171
 #: silva.core.smi:/content/__init__.py:26
 msgid "Edit"
-msgstr ""
+msgstr "Redigera"
 
 #: Products.Silva:/Asset_templates/assetpath.cpt:4
 msgid "File system path"
-msgstr ""
+msgstr "Filsystemssökväg"
 
 #: Products.Silva:/Asset_templates/assetpath.cpt:4
 msgid "File system path to this asset on the server"
-msgstr ""
+msgstr "Filsystemssökväg till denna tillgång på servern"
 
 #: Products.Silva:/Asset_templates/assetsize.cpt:3
 msgid "File size"
-msgstr ""
+msgstr "Filstorlek"
 
 #: Products.Silva:/Asset_templates/assetsize.cpt:3
 msgid "Size of this asset"
-msgstr ""
+msgstr "Storlek på denna tillgång"
 
 #: Products.Silva:/AutoTOC/content.py:23
 msgid ""
@@ -58,30 +58,43 @@ msgid ""
 "    methods.\n"
 "    "
 msgstr ""
+"Det här är en specialdokumenttyp som automatiskt genererar\n"
+"    en innehållsförteckning (TOC). Vanligtvis används den som "
+"\"indexdokument\"\n"
+"     för en mapp. Då visar den överordnade mappen en innehållsförteckning "
+"när\n"
+"    den används (t.ex. http://www.x.yz/silva/minMapp). AutoTOC kan "
+"konfigureras:\n"
+"    det kan visa vilket urval du önskar av Silva-innehåll, inklusive "
+"tillgångar,\n"
+"     inkluderade beskrivningar eller ikoner, fås att stanna vid ett "
+"specifikt djup,\n"
+"    och använda olika sorteringsmetoder.\n"
+"    "
 
 #: Products.Silva:/AutoTOC/views.py:26
 msgid "Silva folder order"
-msgstr ""
+msgstr "Mappordning i Silva"
 
 #: Products.Silva:/AutoTOC/views.py:27
 msgid "Alphabetically"
-msgstr ""
+msgstr "Alfabetiskt"
 
 #: Products.Silva:/AutoTOC/views.py:28
 msgid "Reverse alphabetically"
-msgstr ""
+msgstr "Omvänd alfabetisk"
 
 #: Products.Silva:/AutoTOC/views.py:29
 msgid "Chronologically by modification date"
-msgstr ""
+msgstr "Kronologisk efter ändringsdatum"
 
 #: Products.Silva:/AutoTOC/views.py:30
 msgid "Reverse chronologically by modification date"
-msgstr ""
+msgstr "Omvänd kronologisk efter ändringsdatum"
 
 #: Products.Silva:/AutoTOC/views.py:50
 msgid "Types to list"
-msgstr ""
+msgstr "Typer i listan"
 
 #: Products.Silva:/AutoTOC/views.py:51
 msgid ""
@@ -89,90 +102,102 @@ msgid ""
 "need to selected container types (e.g. Folder and Publication) in order for "
 "the TOC to display their contents."
 msgstr ""
+"Välj de innehållstyper som du vill skall visas i innehållsförteckningen. Du "
+"måste ha valt behållartyper (t.ex. Mapp och Publikation) för att "
+"innehållsförteckningen skall ta upp deras innehåll."
 
 #: Products.Silva:/AutoTOC/views.py:60
 msgid "Depth"
-msgstr ""
+msgstr "Djup"
 
 #: Products.Silva:/AutoTOC/views.py:61
 msgid ""
 "The depth to which the Table of Contents will be rendered (-1 means "
 "unlimited depth.)"
 msgstr ""
+"Det djup till vilket innehållsförteckningen kommer att renderas (-1 innebär "
+"obegränsat djup)."
 
 #: Products.Silva:/AutoTOC/views.py:69
 msgid "Display description"
-msgstr ""
+msgstr "Visa beskrivning"
 
 #: Products.Silva:/AutoTOC/views.py:70
 msgid ""
 "If selected, each item displayed will include its title and metadata "
 "description, if available. "
 msgstr ""
+"Om detta alternativ markeras visas titel och metadatabeskrivning för varje "
+"objekt, om tillgängligt. "
 
 #: Products.Silva:/AutoTOC/views.py:76
 msgid "Show icon"
-msgstr ""
+msgstr "Visa ikon"
 
 #: Products.Silva:/AutoTOC/views.py:77
 msgid "If selected, each item displayed will include its icon. "
 msgstr ""
+"Om detta alternativ markeras, kommer varje objekt att ha en egen ikon. "
 
 #: Products.Silva:/AutoTOC/views.py:82
 msgid "Show container link"
-msgstr ""
+msgstr "Visa länk till behållare"
 
 #: Products.Silva:/AutoTOC/views.py:83
 msgid ""
 "If selected, there will be a link to the container (as an H3) before the TOC "
 "list."
 msgstr ""
+"Om detta alternativ markeras, visas en länk till behållaren (som en H3) före "
+"innehållsförteckningens lista."
 
 #: Products.Silva:/AutoTOC/views.py:89
 msgid "Sort order"
-msgstr ""
+msgstr "Sorteringsordning"
 
 #: Products.Silva:/AutoTOC/views.py:90
 msgid "The order items in a container will be sorted"
-msgstr ""
+msgstr "Den ordning i vilken objekt i en behållare kommer att sorteras"
 
-#: Products.Silva:/EmailMessageService.py:162
+#: Products.Silva:/EmailMessageService.py:281
 msgid "Enable"
-msgstr ""
+msgstr "Aktivera"
 
-#: Products.Silva:/EmailMessageService.py:163
+#: Products.Silva:/EmailMessageService.py:282
 msgid "Send emails when asked to."
-msgstr ""
+msgstr "Skicka e-brev vid förfrågan."
 
-#: Products.Silva:/EmailMessageService.py:166
+#: Products.Silva:/EmailMessageService.py:285
 msgid "From Address"
-msgstr ""
+msgstr "Avsändaradress"
 
-#: Products.Silva:/EmailMessageService.py:167
+#: Products.Silva:/EmailMessageService.py:286
 msgid "Email address used to send messages."
-msgstr ""
+msgstr "E-postadress som används för att skicka meddelanden."
 
-#: Products.Silva:/EmailMessageService.py:176
+#: Products.Silva:/EmailMessageService.py:295
 msgid "Service Message Configuration"
-msgstr ""
+msgstr "Konfiguration av tjänstmeddelande"
 
-#: Products.Silva:/EmailMessageService.py:177
+#: Products.Silva:/EmailMessageService.py:296
 msgid ""
 "Configure settings for email messaging between members. The default MailHost "
 "service is used to send messages."
 msgstr ""
+"Konfigurera inställningar för e-postsändning mellan medlemmar. "
+"Standardvärdtjänsten för e-post används för att skicka meddelanden."
 
 #: Products.Silva:/ExtensionService.py:265
 msgid "Absolute path to object to upgrade"
-msgstr ""
+msgstr "Absolut sökväg till objekt som skall uppgraderas"
 
 #: Products.Silva:/ExtensionService.py:268
 msgid "Current Silva version of the object"
-msgstr ""
+msgstr "Aktuell Silva-version för objektet"
 
 #: Products.Silva:/ExtensionService.py:278
 msgid "Upgrade site"
-msgstr ""
+msgstr "Uppgraderingsplats"
 
 #: Products.Silva:/ExtensionService.py:279
 msgid ""
@@ -184,68 +209,79 @@ msgid ""
 "upgrade on an object may fail and may even (in some situations) cause the "
 "object to become unusable."
 msgstr ""
+"Härnedan hittar du ett formulär som låter dig ange ett objekt att uppgradera "
+"och vilken version objektet har för närvarande. När du skrivit in värden i "
+"de fälten och klickar på knappen \"Uppgradera\", så kommer Silva att försöka "
+"uppgradera objektet så att det korresponderar med den aktuella versionen av "
+"Silva. Observera att den här funktionen är experimentell och att det "
+"tidigare har hänt att delvisa uppgraderingar av objekt har misslyckats, och "
+"att objektet i vissa situationer t.o.m. har gjorts oanvändbart."
 
 #: Products.Silva:/ExtensionService.py:290
 msgid "Upgrade"
-msgstr ""
+msgstr "Uppgradera"
 
 #: Products.Silva:/ExtensionService.py:302
 msgid "Content upgrade succeeded. See event log for details"
-msgstr ""
+msgstr "Innehållet har uppgraderats. Se händelseloggen för närmare detaljer."
 
 #: Products.Silva:/ExtensionService.py:309
 msgid "Absolute path to reindex"
-msgstr ""
+msgstr "Absolut sökväg att indexera om"
 
 #: Products.Silva:/ExtensionService.py:320
 msgid "Reindex site"
-msgstr ""
+msgstr "Indexera om plats"
 
 #: Products.Silva:/ExtensionService.py:321
 msgid ""
 "Reindex a subtree of the site in the Silva Catalog.For big trees this may "
 "take a long time."
 msgstr ""
+"Indexera om ett underträd av platsen i Silvakatalogen. För stora träd kan "
+"det här ta lång tid."
 
 #: Products.Silva:/ExtensionService.py:324
 msgid "Reindex"
-msgstr ""
+msgstr "Indexera om"
 
 #: Products.Silva:/ExtensionService.py:333
 msgid "Invalid path"
-msgstr ""
+msgstr "Ogiltig sökväg"
 
 #: Products.Silva:/ExtensionService.py:335
 msgid "Partial catalog refreshed"
-msgstr ""
+msgstr "Ofullständig katalogiseringuppdatering"
 
 #: Products.Silva:/ExtensionService.py:346
 msgid "Silva and all installed extensions have been refreshed"
-msgstr ""
+msgstr "Silva och alla installerade tillägg har uppdaterats"
 
 #: Products.Silva:/ExtensionService.py:350
 msgid "Catalog refreshed"
-msgstr ""
+msgstr "Katalogen har uppdaterats"
 
 #: Products.Silva:/ExtensionService.py:354
 msgid "Quota sub-system disabled"
-msgstr ""
+msgstr "Underkvotsystem inaktiverat"
 
 #: Products.Silva:/ExtensionService.py:358
 msgid "Quota sub-system enabled"
-msgstr ""
+msgstr "Underkvotsystem aktiverat"
 
 #: Products.Silva:/ExtensionService.py:363
 msgid "Old version of documents purged"
-msgstr ""
+msgstr "Äldre version av dokumentet togs bort"
 
 #: Products.Silva:/ExtensionService.py:370
 msgid "Content upgrade succeeded. See log in Logs tab for details"
 msgstr ""
+"Innehållet har uppgraderats. Se logg under fliken Loggar för närmare "
+"information"
 
 #: Products.Silva:/ExtensionService.py:374
 msgid "Documentation installed"
-msgstr ""
+msgstr "Dokumentation installerades"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:10
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:89
@@ -253,141 +289,146 @@ msgstr ""
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:16
 #: silva.app.news:/ServiceNews_templates/manageservicenews.pt:10
 msgid "${DYNAMIC_CONTENT}"
-msgstr ""
+msgstr "${DYNAMIC_CONTENT}"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:17
 msgid "Extensions management"
-msgstr ""
+msgstr "Tilläggshantering"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:21
 msgid "General actions"
-msgstr ""
+msgstr "Allmänna åtgärder"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:25
 msgid "refresh all"
-msgstr ""
+msgstr "uppdatera alla"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:27
 msgid "install documentation"
-msgstr ""
+msgstr "installera dokumentation"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:32
 msgid "rebuild catalog"
-msgstr ""
+msgstr "återskapa katalog"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:36
 msgid "disable quota subsystem"
-msgstr ""
+msgstr "inaktivera underkvotsystem"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:41
 msgid "enable quota subsystem"
-msgstr ""
+msgstr "aktivera underkvotsystem"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:46
 msgid "purge old versions"
-msgstr ""
+msgstr "rensa äldre versioner"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:50
 msgid "upgrade content"
-msgstr ""
+msgstr "uppgradera innehåll"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:61
 msgid "Available extensions"
-msgstr ""
+msgstr "Tillgängliga tillägg"
 
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:93
 #: Products.Silva:/ExtensionService_templates/manageextensions.pt:104
 msgid "refresh"
-msgstr ""
+msgstr "uppdatera"
 
 #: Products.Silva:/File/content.py:172
 msgid "download"
-msgstr "ladda ner"
+msgstr "hämta"
 
 #: Products.Silva:/File/content.py:74
 #: Products.Silva:/Image/content.py:84
 msgid "Invalid computed identifier."
-msgstr ""
+msgstr "Ogiltig beräknad identifierare."
 
 #: Products.Silva:/File/content.py:78
 #: Products.Silva:/Image/content.py:88
 msgid "Duplicate id. Please provide an explicit id."
-msgstr ""
+msgstr "Dubblett-ID. Var vänlig ange ett unikt ID."
 
 #: Products.Silva:/File/service.py:103
 msgid "Select storage"
-msgstr ""
+msgstr "Välj lagring"
 
 #: Products.Silva:/File/service.py:114
 msgid "Convert stored files"
-msgstr ""
+msgstr "Konvertera lagrade filer"
 
 #: Products.Silva:/File/service.py:115
 msgid "Convert all currently stored file to the current set storage."
 msgstr ""
+"Konvertera alla för närvarande lagrade filer till den aktuella angivna "
+"lagringen."
 
 #: Products.Silva:/File/service.py:123
 msgid "Convert all files"
-msgstr ""
+msgstr "Konvertera alla filer"
 
 #: Products.Silva:/File/service.py:127
 msgid ""
 "Storage for Silva Files and Images converted. Check the log for more details."
 msgstr ""
+"Lagring för Silva-filer och -bilder har konverterats. Se loggen för närmare "
+"information."
 
 #: Products.Silva:/File/service.py:95
 msgid "Configure file storage"
-msgstr ""
+msgstr "Konfigurera fillagring"
 
 #: Products.Silva:/File/smi.py:24
 msgid "File"
-msgstr ""
+msgstr "Fil"
 
 #: Products.Silva:/File/smi.py:36
 msgid "Click the Upload button to select a file."
-msgstr ""
+msgstr "Klicka på knappen Överför för att välja en fil."
 
 #: Products.Silva:/File/smi.py:54
 #: Products.SilvaExternalSources:/CSVSource.py:257
 msgid "Edit file content"
-msgstr ""
+msgstr "Redigera filinnehåll"
 
 #: Products.Silva:/File/smi.py:60
-#: silva.core.smi:/content/xml/import.py:60
+#: silva.core.smi:/content/xml/import.py:92
 msgid "Click the Upload button to replace the current file with a new file."
 msgstr ""
+"Klicka på knappen Överför för att ersätta den aktuella filen med en ny fil."
 
 #: Products.Silva:/File/smi.py:69
 msgid "Text content"
-msgstr ""
+msgstr "Textinnehåll"
 
 #: Products.Silva:/File/smi.py:70
 msgid "Text contained in the file"
-msgstr ""
+msgstr "Text som ingår i filen."
 
 #: Products.Silva:/File/smi.py:81
 msgid "Edit text content"
-msgstr ""
+msgstr "Redigera textinnehåll"
 
 #: Products.Silva:/File/smi_templates/infoportlet.cpt:13
 msgid "Link to file"
-msgstr ""
+msgstr "Länk till fil"
 
 #: Products.Silva:/File/smi_templates/infoportlet.cpt:15
 msgid "Download"
-msgstr ""
+msgstr "Hämta"
 
 #: Products.Silva:/File/smi_templates/infoportlet.cpt:4
 msgid "File mime type"
-msgstr ""
+msgstr "Filens MIME-typ"
 
 #: Products.Silva:/File/smi_templates/infoportlet.cpt:9
 msgid "File encoding"
-msgstr ""
+msgstr "Filkodning"
 
 #: Products.Silva:/Folder/content.py:176
 msgid "You cannot convert a folder into a folder."
-msgstr ""
+msgstr "Du kan inte konvertera en mapp till en mapp."
 
 #: Products.Silva:/Folder/content.py:43
 msgid ""
@@ -400,35 +441,45 @@ msgid ""
 "       screen.\n"
 "    "
 msgstr ""
+"Presentationen av informationen i en\n"
+"       publikation struktureras m.h.a. mappar. De bestämmer den visuella\n"
+"       hierarki som en Gäst ser. Mappar på den översta nivån\n"
+"       definierar avsnitt i publikation, undermappar definierar kapitel, "
+"o.s.v.\n"
+"       Observera att, i motsats till publikationer, är mappar transparenta, "
+"d.v.s. du\n"
+"       kan se igenom dem i sidopanelens trädnavigering och i Publicerings-\n"
+"       fönstret.\n"
+"    "
 
 #: Products.Silva:/Folder/management.py:102
 #: Products.Silva:/Folder/management.py:121
 msgid "You cannot add this content type in this container."
-msgstr ""
+msgstr "Du kan inte lägga till denna innehållstyp i denna behållare."
 
 #: Products.Silva:/Folder/management.py:113
 msgid "You are unauthorized to move this content."
-msgstr ""
+msgstr "Du har inte behörighet att flytta detta innehåll."
 
 #: Products.Silva:/Folder/management.py:117
 msgid "You cannot move this content to this container."
-msgstr ""
+msgstr "Du kan inte flytta detta innehåll till denna behållare."
 
 #: Products.Silva:/Folder/management.py:171
 msgid "Content already in the target container."
-msgstr ""
+msgstr "Innehåller finns redan i målbehållaren."
 
 #: Products.Silva:/Folder/management.py:212
 msgid "There is no editable version to set the title on."
-msgstr ""
+msgstr "Det finns ingen redigerbar version som du kan ge den titeln."
 
 #: Products.Silva:/Folder/management.py:270
 msgid "Cannot delete content."
-msgstr ""
+msgstr "Det går inte att ta bort innehåll."
 
 #: Products.Silva:/Folder/management.py:98
 msgid "You are unauthorized to copy this content."
-msgstr ""
+msgstr "Du har inte behörighet att kopiera detta innehåll."
 
 #: Products.Silva:/Folder/views.py:36
 msgid "First item"
@@ -436,11 +487,11 @@ msgstr "Första objektet"
 
 #: Products.Silva:/Folder/views.py:37
 msgid "Choose an item to be created within the container."
-msgstr ""
+msgstr "Välj ett objekt som skall skapas inne i behållaren."
 
 #: Products.Silva:/Folder/views.py:66
 msgid "This container has no index."
-msgstr ""
+msgstr "Denna behållare saknar index."
 
 #: Products.Silva:/Ghost.py:176
 msgid ""
@@ -453,34 +504,45 @@ msgid ""
 "       and stylesheets).\n"
 "    "
 msgstr ""
+"Ett spöke är ett specialdokument som fungerar som en\n"
+"       platshållare för ett objekt på en annan plats (som ett alias,\n"
+"       en symbolisk länk, en genväg).  motsats till en hyperlänk, som tar\n"
+"       Gästen till en annan plats, håller ett spökobjekt kvar Gästen i den\n"
+"       aktuella publikationen och visar innehållet i objektet det speglar.\n"
+"       Spöket ärver egenskaper från sin plats (t.ex. layouten\n"
+"       och formatmallar).\n"
+"    "
 
 #: Products.Silva:/Ghost.py:249
 #: Products.Silva:/GhostFolder.py:335
 msgid "Target"
-msgstr ""
+msgstr "Mål"
 
 #: Products.Silva:/Ghost.py:250
 msgid "The internal item the ghost is mirroring."
-msgstr ""
+msgstr "Det interna objekt som spöket speglar."
 
 #: Products.Silva:/Ghost.py:290
 msgid "Click the Lookup button to select an item to haunt."
 msgstr ""
+"Klicka på knappen Hitta för att välja ett objekt att skapa ett spöke för."
 
 #: Products.Silva:/Ghost.py:313
 msgid "This 'ghost' is unavailable. Please inform the site manager."
 msgstr ""
+"Detta \"spöke\" är inte tillgängligt. Var vänlig informera "
+"platsadministratören."
 
 #: Products.Silva:/Ghost.py:85
 msgid "A ghost title is immutable."
-msgstr ""
+msgstr "Ett spökes titel kan inte ändras."
 
 #: Products.Silva:/Ghost.py:96
 #: Products.Silva:/Ghost.py:106
 #: Products.Silva:/Ghost.py:116
 #: Products.Silva:/Ghost.py:126
 msgid "Ghost target is broken"
-msgstr ""
+msgstr "Spökets mållänk är bruten"
 
 #: Products.Silva:/GhostFolder.py:160
 msgid ""
@@ -494,35 +556,45 @@ msgid ""
 "       ghosted, assets &#8211; such as Images and Files &#8211; are copied\n"
 "       (physically duplicated) while documents are ghosted."
 msgstr ""
+"Spökmappar liknar spöken, men istället för att vara en\n"
+"       platshållare för ett dokument, skapar de platshållare och/eller "
+"kopior av allt\n"
+"       innehåll i &#8216;originalmappen&#8217;. Fördelen med spökmappar\n"
+"       är att innehåller synkroniseras med originalet, genom manuell eller\n"
+"       automatisk synkronisering. Observera att när en mapp\n"
+"       spökspeglas, så kopieras tillgångar &#8211; såsom bilder och filer "
+"&#8211;\n"
+"       (dupliceras rent fysiskt) medan dokument speglas."
 
 #: Products.Silva:/GhostFolder.py:336
 msgid "The internal folder the ghost is mirroring"
-msgstr ""
+msgstr "Den interna mapp som spöket speglar"
 
 #: Products.Silva:/GhostFolder.py:341
 msgid "Synchronize target and ghost folder content"
-msgstr ""
+msgstr "Synkronisera innehåll i mål- och spökmapparna"
 
 #: Products.Silva:/GhostFolder.py:352
 msgid "Ghost Folder synchronized."
-msgstr ""
+msgstr "Spökmappen har synkroniserats."
 
 #: Products.Silva:/GhostFolder.py:355
 msgid "Ghost Folder was not synchronized, because the target is invalid."
-msgstr ""
+msgstr "Spökmappen synkroniserades inte eftersom målet är ogiltigt."
 
 #: Products.Silva:/GhostFolder.py:366
 msgid "Click the Lookup button to select a container to haunt."
 msgstr ""
+"Klicka på knappen Hitta för att välja en behållare att skapa ett spöke för."
 
 #: Products.Silva:/GhostFolder.py:386
 msgid "Synchronize"
-msgstr ""
+msgstr "Synkronisera"
 
 #. Default: ""
 #: Products.Silva:/Image/content.py:187
 msgid "'${crop}' defines an impossible cropping for the current image"
-msgstr ""
+msgstr "\"${crop}\" anger en omöjlig beskärning av den aktuella bilden"
 
 #: Products.Silva:/Image/content.py:233
 msgid ""
@@ -530,137 +602,148 @@ msgid ""
 "       documents, or used as viewable assets.\n"
 "    "
 msgstr ""
+"Webbgrafik (gif, jpg, png) kan överföras och infogas i\n"
+"       dokument eller användas som visningsbara tillgångar.\n"
+"    "
 
-#: Products.Silva:/Image/content.py:337
+#: Products.Silva:/Image/content.py:342
 msgid "Low resolution image in original format is not supported"
-msgstr ""
+msgstr "Lågupplöst bild i originalformat stöds inte"
 
 #. Default: ""
-#: Products.Silva:/Image/content.py:350
+#: Products.Silva:/Image/content.py:357
 msgid ""
 "'${scale}' is not a valid scale identifier. Probably a percent symbol is "
 "missing."
 msgstr ""
+"\"${scale}\" är inte en giltig skalidentifierare. Det saknas antagligen ett "
+"procenttecken."
 
 #. Default: ""
-#: Products.Silva:/Image/content.py:367
+#: Products.Silva:/Image/content.py:374
 msgid ""
 "'${scale} is not a valid scale identifier. At least one number is required."
 msgstr ""
+"\"${scale}\" är inte en giltig skalidentifierare. Åtminstone ett tal krävs."
 
 #. Default: ""
-#: Products.Silva:/Image/content.py:389
+#: Products.Silva:/Image/content.py:396
 msgid "'${crop} is not a valid crop identifier"
-msgstr ""
+msgstr "\"${crop}\" är inte en giltig beskärningsidentifierare"
 
-#: Products.Silva:/Image/content.py:503
+#: Products.Silva:/Image/content.py:510
 msgid "square"
 msgstr "kvadrat"
 
-#: Products.Silva:/Image/content.py:505
+#: Products.Silva:/Image/content.py:512
 msgid "landscape"
-msgstr "landskap"
+msgstr "liggande"
 
-#: Products.Silva:/Image/content.py:506
+#: Products.Silva:/Image/content.py:513
 msgid "portrait"
-msgstr "Porträtt"
+msgstr "stående"
 
 #: Products.Silva:/Image/smi.py:100
 msgid "Format and scaling"
-msgstr ""
+msgstr "Format och skalning"
 
 #: Products.Silva:/Image/smi.py:107
 msgid "Change"
-msgstr ""
+msgstr "Ändra"
 
 #: Products.Silva:/Image/smi.py:108
 msgid "Scale and/or crop the image with the new settings"
-msgstr ""
+msgstr "Skala och/eller beskär bilden med de nya inställningarna"
 
 #: Products.Silva:/Image/smi.py:124
 msgid "Scaling and/or format changed."
-msgstr ""
+msgstr "Skalning och/eller format har ändrats."
 
 #: Products.Silva:/Image/smi.py:27
 msgid "Image"
-msgstr ""
+msgstr "Bild"
 
 #: Products.Silva:/Image/smi.py:38
 msgid "Click the Upload button to select an image."
-msgstr ""
+msgstr "Klicka på knappen Överför för att välja en bild."
 
 #: Products.Silva:/Image/smi.py:60
 msgid ""
 "Click the Upload button to replace the current image with a new image."
 msgstr ""
+"Klicka på knappen Överför för att ersätta den aktuella bilden med en ny bild."
 
 #: Products.Silva:/Image/smi.py:73
 msgid "Web format"
-msgstr ""
+msgstr "Webbformat"
 
 #: Products.Silva:/Image/smi.py:74
 msgid "Image format for web."
-msgstr "bild format för web"
+msgstr "Bildformat för webben."
 
 #: Products.Silva:/Image/smi.py:76
 msgid "Scaling"
-msgstr ""
+msgstr "Skalning"
 
 #: Products.Silva:/Image/smi.py:77
 msgid ""
 "Image scaling for web: use width x  height in pixels, or one axis length, or "
 "a percentage (100x200, 100x*, *x200, 40%)."
 msgstr ""
+"Bildskalning för webben: använd bredd x höjd i pixlar (100x200), eller en "
+"axellängd (100x*, *x200), eller ett procenttal (40%)."
 
 #: Products.Silva:/Image/smi.py:82
 msgid "Cropping"
-msgstr ""
+msgstr "Beskärning"
 
 #: Products.Silva:/Image/smi.py:83
 msgid ""
 "Image cropping for web: use the ‘set crop coordinates’ button, or enter "
 "X1xY1-X2xY2 to define the cropping box."
 msgstr ""
+"Bildbeskärning för webben: använd knappen \"Ange beskärningskoordinater\", "
+"eller ange X1xY1-X2xY2 för att definiera beskärningsrutan."
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:16
 msgid "${width}x${DYNAMIC_CONTENT} pixels"
-msgstr ""
+msgstr "${width}x${DYNAMIC_CONTENT} pixlar"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:17
 msgid "scaled to ${width}x${DYNAMIC_CONTENT} pixels"
-msgstr ""
+msgstr "skalad till ${width}x${DYNAMIC_CONTENT} pixlar"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:21
 msgid "Thumbnail"
-msgstr ""
+msgstr "Miniatyrbild"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:27
 msgid "Original"
-msgstr ""
+msgstr "Original"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:29
 msgid "View the original image"
-msgstr ""
+msgstr "Visa originalbilden"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:3
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:33
 msgid "View unscaled image"
-msgstr ""
+msgstr "Visa ej skalad bild"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:37
 msgid "Orientation"
-msgstr ""
+msgstr "Orientering"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:5
 msgid "${format} image"
-msgstr ""
+msgstr "${format}-bild"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:8
 msgid "Dimensions"
-msgstr ""
+msgstr "Bildstorlek"
 
 #: Products.Silva:/Image/smi_templates/infoportlet.cpt:9
 msgid "unknown"
@@ -676,79 +759,100 @@ msgid ""
 "       documents that are published).\n"
 "    "
 msgstr ""
+"Index kan skapas för att fungera som som registret i slutet\n"
+"       av en bok. Referenser måste först märkas genom att placera "
+"indexkoder\n"
+"       i texten (dessa koder följer med vid export till olika "
+"utskriftsformat).\n"
+"       Indexerare söker uppifrån och ner, och indexerar alla indexobjekt i "
+"aktuella\n"
+"       och underordnade mappar och publikationer (observera att att de "
+"endast\n"
+"       indexerar redan publicerade dokument).\n"
+"    "
 
-#: Products.Silva:/Indexer/views.py:35
+#: Products.Silva:/Indexer/views.py:33
 msgid "Update Silva Indexer"
-msgstr ""
+msgstr "Uppdatera Silvas indexerare"
 
-#: Products.Silva:/Indexer/views.py:36
+#: Products.Silva:/Indexer/views.py:34
 msgid ""
 "An index is not editable. However, you can update the index to include "
 "recent added content."
 msgstr ""
+"Ett index är inte redigerbart. Emellertid kan du uppdatera indexet så att "
+"det inkluderar nyligen tillagt innehåll."
 
-#: Products.Silva:/Indexer/views.py:45
+#: Products.Silva:/Indexer/views.py:43
 msgid "Update index"
-msgstr ""
+msgstr "Uppdatera index"
 
-#: Products.Silva:/Indexer/views.py:48
+#: Products.Silva:/Indexer/views.py:46
 msgid "Update index to include recent added content"
-msgstr ""
+msgstr "Uppdatera index så att det inkluderar nyligen tillagt innehåll"
 
-#: Products.Silva:/Indexer/views.py:53
+#: Products.Silva:/Indexer/views.py:51
 msgid "Index content have been successfully updated."
-msgstr ""
+msgstr "Indexinnehållet har uppdaterats."
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:14
 msgid "Terms"
-msgstr ""
+msgstr "Villkor"
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:18
 msgid "Links"
-msgstr ""
+msgstr "Länkar"
 
 #: Products.Silva:/Indexer/views_templates/indexerview.cpt:44
 msgid "No index items listed or found."
-msgstr ""
+msgstr "Inga indexobjekt fanns listade eller kunde hittas."
 
 #: Products.Silva:/Link.py:100
 msgid ""
 "If the link goes to an external resource, fill in the location, including "
 "the protocol, e.g. 'http://'."
 msgstr ""
+"Om länken går till en extern resurs, ange dess plats inklusive protokollet "
+"(t.ex. \"http://\")."
 
 #: Products.Silva:/Link.py:106
 msgid "Relative link"
-msgstr ""
+msgstr "Relativ länk"
 
 #: Products.Silva:/Link.py:107
 msgid ""
 "If the link goes to an internal item in Silva, put a checkmark here and "
 "lookup the target below."
 msgstr ""
+"Om länken går till ett intern objekt i Silva, markera den här kryssrutan och "
+"sök efter målet nedan."
 
 #: Products.Silva:/Link.py:114
 msgid "Target of relative link"
-msgstr ""
+msgstr "Mål för relativ länk"
 
 #: Products.Silva:/Link.py:115
 msgid "Make a reference to an internal item by looking it up."
 msgstr ""
+"Skapa en refererens till ett internt objekt genom att söka efter det."
 
 #: Products.Silva:/Link.py:123
 msgid "Relative link selected without target."
-msgstr ""
+msgstr "Den markerade relativa länken saknar mål."
 
 #: Products.Silva:/Link.py:126
 msgid ""
 "Absolute link selected without URL. If the link goes to an internal item in "
 "Silva, put a checkmark in the relative link field."
 msgstr ""
+"Den markerade absoluta länken saknar URL. Om länken går till ett internt "
+"objekt i Silva, markera kryssrutan för relativ länk."
 
 #: Products.Silva:/Link.py:138
 #: Products.Silva:/Link.py:148
 msgid "Click the Lookup button to select an item to refer to."
 msgstr ""
+"Klicka på knappen \"Hitta\" för att välja ett objekt att referera till."
 
 #: Products.Silva:/Link.py:33
 msgid ""
@@ -759,10 +863,17 @@ msgid ""
 "    within Silva.\n"
 "    "
 msgstr ""
+"En Silva-länk gör det möjligt att skapa länkar som visas\n"
+"    i navigeringsfältet eller en innehållsförteckning. Länkar kan vara "
+"absoluta\n"
+"     eller relativa. Absoluta länkar går till externa platser, medan "
+"relativa\n"
+"    länkar går till innehåll inom Silva.\n"
+"    "
 
 #: Products.Silva:/Link.py:99
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: Products.Silva:/Publication/content.py:33
 msgid ""
@@ -777,128 +888,140 @@ msgid ""
 "       complex sites, sub-publications can be nested.\n"
 "    "
 msgstr ""
+"Publikationer är specialmappar. De fungerar som de viktigaste\n"
+"       organisationsenheterna på en Silva-plats. De kan jämföras med\n"
+"       pärmar och kan innehålla mappar, dokument och tillgångar.\n"
+"       Publikationer är ogenomskinliga. De begränsar läsvyerna genom att\n"
+"       endast visa innehållet i den aktuella publikationen. Det håller "
+"översikts-\n"
+"       fönstren hanterbara. Publikationer har konfigurationsinställningar "
+"som\n"
+"       avgör vilka kärn- och anslutningsbara objekt som är tillgängliga. "
+"För\n"
+"       komplexa platser kan underpublikationer kapslas.\n"
+"    "
 
 #: Products.Silva:/Publication/content.py:94
 msgid "You cannot convert a publication into a publication."
-msgstr ""
+msgstr "Du kan inte konvertera en publikation till en publikation."
 
 #: Products.Silva:/Publication/localsite.py:21
 msgid "Already a local site."
-msgstr ""
+msgstr "Redan en lokal plats."
 
 #: Products.Silva:/Publication/localsite.py:26
 msgid "Not a local site."
-msgstr ""
+msgstr "Inte en lokal plats."
 
 #: Products.Silva:/Publication/localsite.py:28
 msgid "Can't disable local site on Silva Root."
-msgstr ""
+msgstr "Det går inte att inaktivera lokala platser vid Silvas rot."
 
 #: Products.Silva:/Publication/localsite.py:31
 msgid "Still have registered customizations."
-msgstr ""
+msgstr "Har fortfarande registrerade anpassningar."
 
 #: Products.Silva:/Publication/localsite.py:33
 msgid "Still have registered services."
-msgstr ""
+msgstr "Har fortfarande registrerade tjänster."
 
 #: Products.Silva:/Root.py:147
 msgid "Root cannot be converted to folder."
-msgstr ""
+msgstr "Roten kan inte konverteras till en mapp."
 
 #: Products.Silva:/Root.py:155
 msgid "Root cannot be converted to publication."
-msgstr ""
+msgstr "Roten kan inte konverteras till en publikation."
 
 #: Products.Silva:/Root.py:44
 msgid "Site identifier"
-msgstr ""
+msgstr "Platsidentifierare"
 
 #: Products.Silva:/Root.py:47
 msgid "Site title"
-msgstr ""
+msgstr "Platsrubrik"
 
 #: Products.Silva:/Root.py:50
 msgid "Add search functionality?"
-msgstr ""
+msgstr "Lägg till sökfunktion?"
 
 #: Products.Silva:/Root.py:54
 msgid "Add user documentation?"
-msgstr ""
+msgstr "Lägg till användardokumentation?"
 
 #: Products.Silva:/Root.py:75
 msgid "Authenticate first to add a new site"
-msgstr ""
+msgstr "Autentisera först för att lägga till en ny plats"
 
 #: Products.Silva:/Root.py:82
 msgid "Add a new site"
-msgstr ""
+msgstr "Lägg till en ny plats"
 
 #. Default: ""
 #: Products.Silva:/Root.py:94
 msgid "New Silva site ${identifier} added."
-msgstr ""
+msgstr "Ny ${identifier} för Silva-plats lades till."
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:16
 msgid "Welcome to Silva ${version}"
-msgstr ""
+msgstr "Välkommen till Silva ${version}"
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:46
 msgid "Add a new Silva site"
-msgstr ""
+msgstr "Lägg till en ny Silva-plats"
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:89
 msgid "Zope is running in development mode."
-msgstr ""
+msgstr "Zope körs i utvecklingsläge."
 
 #: Products.Silva:/Root_templates/zopewelcomepage.pt:92
 msgid "Zope is running in production mode."
-msgstr ""
+msgstr "Zope körs i produktionsläge."
 
 #: Products.Silva:/Security/management.py:168
 msgid "You cannot revoke your own role"
-msgstr ""
+msgstr "Du kan inte återkalla din egen roll"
 
 #: Products.Silva:/Security/management.py:173
 msgid "You must have at least the role you are trying to revoke"
-msgstr ""
+msgstr "Du måste inneha åtminstone samma rollnivå som du försöker återkalla."
 
 #: Products.Silva:/Security/management.py:192
 msgid "You must have at least the role you are trying to grant"
-msgstr ""
+msgstr "Du måste inneha åtminstone samma rollnivå som du försöker bevilja."
 
 #: Products.Silva:/Security/management.py:196
 msgid "This role cannot be granted in this context"
-msgstr ""
+msgstr "Denna roll kan inte beviljas i den här kontexten"
 
 #: Products.Silva:/SimpleMembership.py:164
 msgid "The search input is too short. Please enter two or more characters."
-msgstr ""
+msgstr "Söksträngen är för kort. Ange två eller fler tecken."
 
 #. Default: ""
 #: Products.Silva:/Version.py:166
 msgid "No such version ${version}"
-msgstr ""
+msgstr "Det finns ingen version ${version}"
 
 #: Products.Silva:/Version.py:171
 msgid "approved"
-msgstr "Godkänd"
+msgstr "godkänd"
 
 #: Products.Silva:/Version.py:171
 msgid "last_closed"
-msgstr ""
+msgstr "senast_stängda"
 
 #: Products.Silva:/Version.py:171
 msgid "unapproved"
-msgstr "Inte godkänd"
+msgstr "icke godkänd"
 
 #: Products.Silva:/Version.py:172
 msgid "public"
-msgstr "publik"
+msgstr "offentlig"
 
 #: Products.Silva:/Version.py:172
 msgid "pending"
-msgstr "väntar"
+msgstr "under handläggning"
 
 #: Products.Silva:/Version.py:172
 msgid "draft"
@@ -906,33 +1029,33 @@ msgstr "utkast"
 
 #: Products.Silva:/Version.py:172
 msgid "closed"
-msgstr "stängt"
+msgstr "stängd"
 
 #: Products.Silva:/Version.py:73
 msgid "A version is already waiting approval."
-msgstr ""
+msgstr "En version väntar redan på godkännande."
 
 #: Products.Silva:/Version.py:92
 msgid "Version is approved."
-msgstr ""
+msgstr "Versionen är godkänd."
 
 #: Products.Silva:/Version.py:97
 msgid "Version is published."
-msgstr ""
+msgstr "Versionen är publicerad."
 
 #: Products.Silva:/VersionedContent/content.py:159
 msgid "Content is published."
-msgstr ""
+msgstr "Innehållet är publicerat."
 
 #: Products.Silva:/VersionedContent/content.py:163
 msgid "Content is approved."
-msgstr ""
+msgstr "Innehållet är godkänt."
 
 #: Products.Silva:/VersionedContent/management.py:62
 #: Products.Silva:/VersionedContent/management.py:80
 #: Products.Silva:/Versioning.py:111
 msgid "There is no unapproved version to approve."
-msgstr ""
+msgstr "Det finns ingen icke godkänd version att godkänna."
 
 #: Products.Silva:/Versioning.py:116
 msgid "There already is an approved version."
@@ -940,66 +1063,68 @@ msgstr "Det finns redan en godkänd version."
 
 #: Products.Silva:/Versioning.py:121
 msgid "Cannot approve version without publication datetime."
-msgstr "Kan inte godkänna version utan tid och datum för publicering"
+msgstr "Kan inte godkänna version utan datum och tid för publicering."
 
 #: Products.Silva:/Versioning.py:144
 msgid "This content is not approved."
-msgstr ""
+msgstr "Innehållet är inte godkänt."
 
 #: Products.Silva:/Versioning.py:149
 msgid ""
 "Should never happen: unapproved version ${unapproved} found while approved "
 "version ${approved} exists at the same time."
 msgstr ""
+"Bör aldrig ske: icke godkända versionen ${unapproved} hittades samtidigt som "
+"godkända versionen ${approved} finns."
 
 #: Products.Silva:/Versioning.py:169
 msgid "There is no public version to close."
-msgstr ""
+msgstr "Det finns ingen offentlig version att stänga."
 
 #: Products.Silva:/Versioning.py:187
 msgid "An approvaed version is already available."
-msgstr ""
+msgstr "En godkänd version finns redan tillgänglig."
 
 #: Products.Silva:/Versioning.py:191
 msgid "An new version is already available."
-msgstr ""
+msgstr "En ny version finns redan tillgänglig."
 
 #: Products.Silva:/Versioning.py:205
 msgid "There is no version to create a version form."
-msgstr ""
+msgstr "Det finns ingen version att skapa ett versionsformulär ur."
 
 #: Products.Silva:/Versioning.py:239
 #: Products.Silva:/Versioning.py:263
 #: Products.Silva:/Versioning.py:287
 msgid "This content doesn't require approval."
-msgstr ""
+msgstr "Detta innehåll behöver inte godkännas."
 
 #: Products.Silva:/Versioning.py:246
 msgid "The version is already requested for approval."
-msgstr "Denna version har redan begärts till godkännande"
+msgstr "Denna version har redan en begäran om godkännande."
 
 #: Products.Silva:/Versioning.py:270
 #: Products.Silva:/Versioning.py:294
 msgid "No request for approval is pending for this content."
-msgstr ""
+msgstr "Ingen obehandlad begäran om godkännande finns för detta innehåll."
 
 #: Products.Silva:/Versioning.py:307
 #: Products.Silva:/Versioning.py:319
 msgid "No unapproved version."
-msgstr "Ingen icke godkännd version."
+msgstr "Ingen icke godkänd version."
 
 #: Products.Silva:/Versioning.py:331
 #: Products.Silva:/Versioning.py:348
 msgid "No approved version."
-msgstr "Ingen godkännd version."
+msgstr "Ingen godkänd version."
 
 #: Products.Silva:/Versioning.py:334
 msgid "Must specify publication datetime."
-msgstr ""
+msgstr "Du måste ange datum och tid för publicering."
 
 #: Products.Silva:/Versioning.py:362
 msgid "No public version."
-msgstr "Ingen publik version."
+msgstr "Ingen offentlig version."
 
 #: Products.Silva:/Versioning.py:385
 #: Products.Silva:/Versioning.py:401
@@ -1008,75 +1133,98 @@ msgstr "Ingen nyare version"
 
 #: Products.Silva:/adapters/zipfileexport.py:22
 msgid "Include sub publications?"
-msgstr ""
+msgstr "Inkludera underpublikationer?"
 
 #: Products.Silva:/adapters/zipfileexport.py:23
 msgid "Check to export all sub publications. "
+msgstr "Markera för att exportera alla underpublikationer. "
+
+#: Products.Silva:/adapters/zipfileexport.py:27
+msgid "Include other contents?"
 msgstr ""
 
 #: Products.Silva:/adapters/zipfileexport.py:28
+msgid ""
+"Check to export content not providing an XML export functionality. This can "
+"cause problems."
+msgstr ""
+
+#: Products.Silva:/adapters/zipfileexport.py:33
 msgid "Export only newest versions?"
-msgstr ""
+msgstr "Exportera endast de nyaste versionerna?"
 
-#: Products.Silva:/adapters/zipfileexport.py:29
+#: Products.Silva:/adapters/zipfileexport.py:34
 msgid "If not checked all versions are exported."
+msgstr "Om alternativet inte markeras exporteras alla versioner."
+
+#: Products.Silva:/adapters/zipfileexport.py:38
+msgid "Allow content refering not exported one to be exported?"
 msgstr ""
 
-#: Products.Silva:/mangle.py:306
+#: Products.Silva:/adapters/zipfileexport.py:39
+msgid "If checked, export content refering not exported one without error."
+msgstr ""
+
+#: Products.Silva:/mangle.py:326
 msgid ""
 "The id contains strange characters. It should only contain letters, digits "
 "and ‘_’ or ‘-’ or ‘.’ Spaces are not allowed and the id should start with a "
 "letter or digit."
 msgstr ""
+"ID:t innehåller ogiltiga tecken. Det får endast bestå av bokstäver, siffror, "
+"understreck ( _ ), bindestreck ( - ) eller punkt ( . ). Blanksteg tillåts "
+"inte och ID:t skall inledas med en bokstav eller siffra."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:312
+#: Products.Silva:/mangle.py:332
 msgid "ids starting with ${prefix} are reserved for internal use."
-msgstr ""
+msgstr "ID:n som inleds med ${prefix} är reserverade för internt bruk."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:316
+#: Products.Silva:/mangle.py:336
 msgid "The id ${id} is reserved for internal use."
-msgstr ""
+msgstr "ID:t ${id} är reserverat för internt bruk."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:319
+#: Products.Silva:/mangle.py:339
 msgid "There is already an object with the id ${id} in this container."
-msgstr ""
+msgstr "Det finns redan ett objekt med ID:t ${id} i denna behållare."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:323
+#: Products.Silva:/mangle.py:343
 msgid "There is already an asset with the id ${id} in this container."
-msgstr ""
+msgstr "Det finns redan en tillgång med ID:t ${id} i denna behållare."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:326
+#: Products.Silva:/mangle.py:346
 msgid "The id ${id} ends with invalid characters."
-msgstr ""
+msgstr "ID:t ${id} avslutas med ogiltiga tecken."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:329
+#: Products.Silva:/mangle.py:349
 msgid "The id ${id} is already in use by a Zope object."
-msgstr ""
+msgstr "ID:t ${id} används redan av ett Zope-objekt."
 
 #. Default: ""
-#: Products.Silva:/mangle.py:331
+#: Products.Silva:/mangle.py:351
 msgid ""
 "(Internal Error): An invalid status ${status_code} occured while checking "
 "the id ${id}."
 msgstr ""
+"(Internt fel): En ogiltig status ${status_code} inträffade under kontroll av "
+"ID:t ${id}."
 
 #: Products.Silva:/roleinfo.py:30
 msgid "zope roles"
-msgstr "zope roller"
+msgstr "zoperoller"
 
 #: Products.Silva:/roleinfo.py:31
 msgid "silva roles"
-msgstr "silva roller"
+msgstr "silvaroller"
 
 #: Products.Silva:/roleinfo.py:32
 msgid "public silva roles"
-msgstr "publika silva roller"
+msgstr "offentliga silvaroller"
 
 #: Products.Silva:/roleinfo.py:33
 msgid "Anonymous"
@@ -1085,7 +1233,7 @@ msgstr "Anonym"
 #: Products.Silva:/roleinfo.py:34
 #: silva.core.interfaces:/auth.py:120
 msgid "Authenticated"
-msgstr ""
+msgstr "Autentiserad"
 
 #: Products.Silva:/roleinfo.py:35
 #: silva.core.interfaces:/auth.py:105
@@ -1095,17 +1243,17 @@ msgstr "Administratör"
 #: Products.Silva:/roleinfo.py:36
 #: silva.core.interfaces:/auth.py:98
 msgid "Viewer"
-msgstr "Visare"
+msgstr "Granskare"
 
 #: Products.Silva:/roleinfo.py:37
 #: silva.core.interfaces:/auth.py:99
 msgid "Viewer +"
-msgstr ""
+msgstr "Granskare +"
 
 #: Products.Silva:/roleinfo.py:38
 #: silva.core.interfaces:/auth.py:100
 msgid "Viewer ++"
-msgstr ""
+msgstr "Granskare ++"
 
 #: Products.Silva:/roleinfo.py:39
 #: silva.core.interfaces:/auth.py:101
@@ -1117,33 +1265,33 @@ msgstr "Läsare"
 #: silva.core.smi:/content/publish/status.py:53
 #: silva.ui:/rest/container/listing.py:164
 msgid "Author"
-msgstr "Författare"
+msgstr "Skribent"
 
 #: Products.Silva:/roleinfo.py:41
 #: silva.core.interfaces:/auth.py:103
 msgid "Editor"
-msgstr "Texteditor"
+msgstr "Redaktör"
 
 #: Products.Silva:/roleinfo.py:42
 #: silva.core.interfaces:/auth.py:104
 msgid "ChiefEditor"
-msgstr ""
+msgstr "Chefredaktör"
 
 #: Products.Silva:/schema/silva-content.xml:32
 msgid "Title of content."
-msgstr ""
+msgstr "Innehållsrubrik."
 
 #: Products.Silva:/schema/silva-content.xml:35
 msgid "title"
-msgstr ""
+msgstr "titel"
 
 #: Products.Silva:/schema/silva-content.xml:89
 msgid "a.k.a. &#8216;navigation title&#8217;."
-msgstr ""
+msgstr "alias &#8216;navigeringsrubrik&#8217;."
 
 #: Products.Silva:/schema/silva-content.xml:92
 msgid "short title"
-msgstr "Kort titel"
+msgstr "kort rubrik"
 
 #: Products.Silva:/schema/silva-extra.xml:153
 msgid "description"
@@ -1151,7 +1299,7 @@ msgstr "beskrivning"
 
 #: Products.Silva:/schema/silva-extra.xml:154
 msgid "Description of content in this area."
-msgstr ""
+msgstr "Beskrivning av innehållet i detta område."
 
 #: Products.Silva:/schema/silva-extra.xml:212
 msgid "language"
@@ -1159,15 +1307,15 @@ msgstr "språk"
 
 #: Products.Silva:/schema/silva-extra.xml:259
 msgid "Language of content in this area."
-msgstr ""
+msgstr "Innehållets språk i detta område."
 
 #: Products.Silva:/schema/silva-extra.xml:317
 msgid "comment"
-msgstr "Kommentarer"
+msgstr "kommentar"
 
 #: Products.Silva:/schema/silva-extra.xml:318
 msgid "Internal comments."
-msgstr ""
+msgstr "Interna kommentarer."
 
 #: Products.Silva:/schema/silva-extra.xml:35
 msgid "subject"
@@ -1175,21 +1323,21 @@ msgstr "ämne"
 
 #: Products.Silva:/schema/silva-extra.xml:36
 msgid "Subject of content in this area."
-msgstr ""
+msgstr "Ämne för innehållet i detta område."
 
 #: Products.Silva:/schema/silva-extra.xml:378
 msgid "creation time"
-msgstr ""
+msgstr "skapelsetid"
 
 #: Products.Silva:/schema/silva-extra.xml:379
 #: Products.Silva:/schema/silva-extra.xml:439
 #: Products.Silva:/schema/silva-extra.xml:496
 msgid "Automatically set."
-msgstr ""
+msgstr "Anges automatiskt."
 
 #: Products.Silva:/schema/silva-extra.xml:438
 msgid "modification time"
-msgstr ""
+msgstr "ändringstid"
 
 #: Products.Silva:/schema/silva-extra.xml:494
 msgid "creator"
@@ -1197,81 +1345,68 @@ msgstr "skapare"
 
 #: Products.Silva:/schema/silva-extra.xml:551
 msgid "last author"
-msgstr ""
+msgstr "senaste skribent"
 
 #: Products.Silva:/schema/silva-extra.xml:553
 msgid "User who last edited this content."
-msgstr "Användare som senast editerade innehållet"
+msgstr "Användare som senast redigerade innehållet"
 
 #: Products.Silva:/schema/silva-extra.xml:606
 msgid "Name of contact person."
-msgstr "Namn på kontakt person"
+msgstr "Namn på kontaktperson"
 
 #: Products.Silva:/schema/silva-extra.xml:609
 msgid "contact name"
-msgstr "Kontakt namn"
+msgstr "namn på kontakt"
 
 #: Products.Silva:/schema/silva-extra.xml:663
 msgid "Email address of contact person."
-msgstr "Epost adress till kontakt person."
+msgstr "E-postadress till kontaktperson."
 
 #: Products.Silva:/schema/silva-extra.xml:666
 msgid "contact email"
-msgstr "Kontakt epostadress"
+msgstr "e-postadress till kontakt"
 
 #: Products.Silva:/schema/silva-extra.xml:94
 msgid "keywords"
-msgstr ""
+msgstr "nyckelord"
 
 #: Products.Silva:/schema/silva-extra.xml:95
 msgid "Keywords relating to content."
-msgstr ""
+msgstr "Nyckelord relaterade till innehållet."
 
 #: Products.Silva:/schema/silva-layout.xml:25
 msgid "Select skin or 'look &amp; feel' for this publication."
-msgstr ""
+msgstr "Välj skal eller \"titta och prova\" för denna publikation."
 
 #: Products.Silva:/schema/silva-layout.xml:27
 msgid "desktop skin"
-msgstr ""
+msgstr "skrivbordsskal"
 
 #: Products.Silva:/schema/silva-quota.xml:34
 msgid ""
 "Maximum space allowed for this container, including sub-containers, in MB."
 msgstr ""
+"Största tillåtna utrymme för denna behållare, inklusive underbehållare (MB)."
 
 #: Products.Silva:/schema/silva-quota.xml:37
 msgid "quota"
-msgstr ""
+msgstr "kvot"
 
 #: Products.Silva:/schema/silva-settings.xml:24
 msgid ""
 "If this is enabled, this content (and anything it contains!) will not show "
 "up in tables of content."
 msgstr ""
+"Om detta alternativ är aktiverat kommer inte detta innehåll (eller någon del "
+"av det) att visas i innehållsförteckningen."
 
 #: Products.Silva:/schema/silva-settings.xml:26
 msgid "hide from tables of content"
-msgstr ""
+msgstr "dölj från innehållsförteckningen"
 
-#: Products.Silva:/silvaxml/xmlexport.py:58
-msgid "External references"
-msgstr ""
-
-#: Products.Silva:/silvaxml/xmlimport.py:408
-msgid "Invalid ghost"
-msgstr ""
-
-#: Products.Silva:/silvaxml/xmlimport.py:444
-msgid "Invalid ghost folder"
-msgstr ""
-
-#: Products.Silva:/silvaxml/xmlimport.py:53
-msgid "Missing reference path."
-msgstr ""
-
-#: Products.Silva:/silvaxml/xmlimport.py:57
-msgid "Could not resolve reference path."
+#: Products.Silva:/silvaxml/xmlimport.py:146
+msgid "Missing ghost target."
 msgstr ""
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
@@ -1280,69 +1415,78 @@ msgstr "fil"
 
 #: Products.SilvaExternalSources:/CSVSource.py:233
 msgid "File to upload as source data."
-msgstr ""
+msgstr "Fil att överföra som källdata."
 
 #: Products.SilvaExternalSources:/CSVSource.py:236
 msgid "character encoding"
-msgstr ""
+msgstr "teckenkodning"
 
 #: Products.SilvaExternalSources:/CSVSource.py:237
 msgid "Character encoding of the source data."
-msgstr ""
+msgstr "Källdatans teckenkodning."
 
 #: Products.SilvaExternalSources:/CSVSource.py:262
 msgid "Click the Upload button to replace the current CSV with a new one."
 msgstr ""
+"Klicka på knappen Överför för att ersätta den aktuella CSV-filen med en ny."
 
 #: Products.SilvaExternalSources:/CodeSourceService.py:386
 msgid "Sources refreshed."
-msgstr ""
+msgstr "Källorna har uppdaterats."
 
 #. Default: ""
 #: Products.SilvaExternalSources:/CodeSourceService.py:429
 msgid ""
 "Installed sources ${installed} but ${notinstalled} where already installed."
 msgstr ""
+"Installerade källorna ${installed}, men ${notinstalled} hade redan "
+"installerats."
 
 #. Default: ""
 #: Products.SilvaExternalSources:/CodeSourceService.py:435
 msgid "Installed sources ${installed}."
-msgstr ""
+msgstr "Installerade källorna ${installed}."
 
 #. Default: ""
 #: Products.SilvaExternalSources:/CodeSourceService.py:439
 msgid "Sources ${notinstalled} are already installed."
-msgstr ""
+msgstr "Källorna ${notinstalled} har redan installerats."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:21
 msgid "Code sources used in this site"
-msgstr ""
+msgstr "Kodkällor som används på den här platsen"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:25
 msgid "Currently known code sources"
-msgstr ""
+msgstr "Kända kodkällor"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:33
 msgid ""
 "There are currently ${count} known code sources likely to be used in this "
 "Silva site."
 msgstr ""
+"Det finns för närvarande ${count} kända kodkällor som antagligen används på "
+"denna Silva-plats."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:37
 msgid ""
 "Sources in red are broken and need attention. However, it is possible that "
 "other sources are broken as well and are not displayed in red."
 msgstr ""
+"Källor i rött är felaktiga och behöver ses över. Emellertid är det möjligt "
+"att andra källor också är felaktiga, men inte visas i rött."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:64
 msgid ""
 "There is no known code sources is this site. Try to find them with the "
 "actions below."
 msgstr ""
+"Det finns inga kända kodkällor på denna plats. Försök att hitta dem m.h.a. "
+"åtgärderna nedan."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:70
 msgid "Find them"
-msgstr ""
+msgstr "Hitta dem"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:74
 msgid ""
@@ -1350,221 +1494,217 @@ msgid ""
 "existing code sources using this action below. This can take a really long "
 "time."
 msgstr ""
+"Om inga kodkällor visas här, trots att du har skapat några, så kan du hitta "
+"alla befintliga kodkällor m.h.a. åtgärden nedan. Det här kan ta mycket lång "
+"tid."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageexistingcodesources.pt:82
 msgid "Find"
-msgstr ""
+msgstr "Sök"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:23
 msgid "Install new code sources"
-msgstr ""
+msgstr "Installera nya kodkällor"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:29
 msgid "You can here install new code sources in your Silva site:"
-msgstr ""
+msgstr "Här kan du installera nya kodkällor på din Silva-plats:"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:52
 #: silva.app.subscriptions:/service.py:352
 msgid "Install"
-msgstr ""
+msgstr "Installera"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/manageinstallcodesources.pt:57
 msgid "There is no installable code sources."
-msgstr ""
+msgstr "Det finns inga installerbara kodkällor."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:10
 msgid "External sources errors"
-msgstr ""
+msgstr "Fel orsakade av externa källor"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:14
 msgid ""
 "This screen reports the recently triggered errors by external sources during "
 "their rendering."
 msgstr ""
+"Detta fönster rapporterar nyligen utlösta fel orsakade av externa källor "
+"under rendering."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:19
 msgid "There are no errors at the moment."
-msgstr ""
+msgstr "Det finns för tillfället inga fel."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:26
 msgid "There is(are) ${count} error(s) reported."
-msgstr ""
+msgstr "Det finns ${count} rapporterade fel."
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:34
 msgid "An error happened ${count} times, first seen the ${when}:"
 msgstr ""
+"Ett fel inträffade ${count} gånger, första tillfället var den ${when}:"
 
 #: Products.SilvaExternalSources:/CodeSourceService_templates/managesourceserrors.pt:43
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:35
 msgid "Clear"
-msgstr ""
+msgstr "Rensa"
 
-#: Products.SilvaExternalSources:/ExternalSource.py:298
+#: Products.SilvaExternalSources:/ExternalSource.py:299
 msgid "Broken source"
-msgstr ""
+msgstr "Felaktiga källor"
 
-#: Products.SilvaExternalSources:/ExternalSource.py:331
+#: Products.SilvaExternalSources:/ExternalSource.py:332
 msgid "Create"
-msgstr ""
+msgstr "Skapa"
 
-#: Products.SilvaExternalSources:/ExternalSource.py:336
+#: Products.SilvaExternalSources:/ExternalSource.py:337
 #: Products.SilvaExternalSources:/SourceAsset.py:183
 #: Products.SilvaExternalSources:/SourceAsset.py:249
 #: silva.ui:/rest/container/configuration.py:54
 #: zeam.form.silva:/form/smi.py:295
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
-#: Products.SilvaExternalSources:/ExternalSource.py:351
+#: Products.SilvaExternalSources:/ExternalSource.py:352
 #: silva.core.editor:/service.py:274
 #: silva.core.smi:/settings/makers.py:171
 msgid "Remove"
-msgstr ""
+msgstr "Ta bort"
 
 #: Products.SilvaExternalSources:/SourceAsset.py:131
 msgid "Select an external source"
-msgstr ""
+msgstr "Välj en extern källa"
 
 #: Products.SilvaExternalSources:/SourceAsset.py:172
 msgid "Select source"
-msgstr ""
+msgstr "Välj källa"
 
 #: Products.SilvaExternalSources:/SourceAsset.py:203
 msgid "Source Asset added."
-msgstr ""
+msgstr "Källtillgången har lagts till."
 
 #: Products.SilvaExternalSources:/SourceAsset.py:256
 #: silva.core.editor:/text.py:117
 #: zeam.form.silva:/actions.py:49
 msgid "Changes saved."
-msgstr ""
+msgstr "Ändringarna har sparats."
 
 #: Products.SilvaExternalSources:/SourceAsset.py:91
 msgid "Broken or missing source."
-msgstr ""
+msgstr "Felaktig eller saknad källa."
 
 #: Products.SilvaExternalSources:/editor/templates/parameters.cpt:20
 msgid "This External Source has no adjustable settings."
-msgstr ""
+msgstr "Denna externa källa saknar anpassningsbara inställningar."
 
-#: Products.SilvaExternalSources:/errors.py:105
-msgid "External Source parameters are missing."
+#: Products.SilvaExternalSources:/errors.py:102
+msgid "Error while validating the External Source parameters."
 msgstr ""
+"Ett fel inträffade under validering av parametrarna för den externa källan."
+
+#: Products.SilvaExternalSources:/errors.py:110
+msgid "External Source parameters are missing."
+msgstr "Parametrar för extern källa saknas."
 
 #: Products.SilvaExternalSources:/errors.py:19
 msgid "External Source errored during the processing."
-msgstr ""
+msgstr "Ett fel inträffade när den externa källan skulle bearbetas."
 
 #. Default: ""
-#: Products.SilvaExternalSources:/errors.py:88
+#: Products.SilvaExternalSources:/errors.py:93
 msgid "External Source ${identifier} is not available."
-msgstr ""
-
-#: Products.SilvaExternalSources:/errors.py:97
-msgid "Error while validating the External Source parameters."
-msgstr ""
+msgstr "Den externa källan ${identifier} är inte tillgänglig."
 
 #: Products.SilvaExternalSources:/errors_templates/sourcerenderingerrorview.cpt:4
 msgid "A programmation error happened while rendering the source."
-msgstr ""
-
-#: Products.SilvaExternalSources:/silvaxml/xmlexport.py:68
-msgid "Broken source in document"
-msgstr ""
-
-#: Products.SilvaExternalSources:/silvaxml/xmlimport.py:50
-msgid "Broken external source in import."
-msgstr ""
-
-#. Default: ""
-#: Products.SilvaExternalSources:/silvaxml/xmlimport.py:57
-msgid "Unknown external source ${name} in import"
-msgstr ""
+msgstr "Ett programmeringsfel inträffade under rendering av källan."
 
 #: silva.app.forest:/interfaces.py:29
 msgid "(No skin change)"
-msgstr ""
+msgstr "(Inget skalbyte)"
 
 #: silva.app.forest:/interfaces.py:42
 msgid "Original URL path"
-msgstr ""
+msgstr "Originalsökväg för URL"
 
 #: silva.app.forest:/interfaces.py:45
 msgid "Zope path"
-msgstr ""
+msgstr "Zope-sökväg"
 
 #: silva.app.forest:/interfaces.py:48
 msgid "Skin to apply"
-msgstr ""
+msgstr "Skal som skall tillämpas"
 
 #: silva.app.forest:/interfaces.py:52
 msgid "Force skin"
-msgstr ""
+msgstr "Tvinga skal"
 
 #: silva.app.forest:/interfaces.py:59
 msgid "Virtual host URL"
-msgstr ""
+msgstr "URL för virtuell värd"
 
 #: silva.app.forest:/interfaces.py:62
 msgid "Virtual host aliases"
-msgstr ""
+msgstr "Alias för virtuell värd"
 
 #: silva.app.forest:/interfaces.py:66
 msgid "Rewrites rules"
-msgstr ""
+msgstr "Adresskonverteringsregler"
 
 #: silva.app.forest:/interfaces.py:73
 msgid "Virtual hosts"
-msgstr ""
+msgstr "Virtuella värdar"
 
 #: silva.app.forest:/interfaces.py:80
 msgid "Import hosts"
-msgstr ""
+msgstr "Importera värdar"
 
 #: silva.app.forest:/interfaces.py:81
 msgid "Import host definition as a CSV file."
-msgstr ""
+msgstr "Importera värddefinition som en CSV-fil."
 
 #: silva.app.forest:/service.py:156
 msgid "The feature is already activated for a Silva site."
-msgstr ""
+msgstr "Funktionen har redan aktiverats för en Silva-plats."
 
 #: silva.app.forest:/service.py:169
 msgid "The feature is not activated."
-msgstr ""
+msgstr "Funktionen är inte aktiverad."
 
 #: silva.app.forest:/service.py:173
 msgid "The feature is activated by an another Silva site."
-msgstr ""
+msgstr "Funktionen har redan aktiverats av en annan Silva-plats."
 
 #: silva.app.forest:/service.py:318
 msgid "Forest Service configuration"
-msgstr ""
+msgstr "Konfiguration för Forest-tjänst"
 
 #: silva.app.forest:/service.py:319
 msgid "Configure advanced virtual hosting in Silva."
-msgstr ""
+msgstr "Konfigurera avancerade virtuella värdtjänster i Silva."
 
 #: silva.app.forest:/service.py:329
 msgid "Activation"
-msgstr ""
+msgstr "Aktivering"
 
 #: silva.app.forest:/service.py:330
 msgid "Activate or deactivate advanced virtual hosting for this Silva site."
 msgstr ""
+"Aktivera eller inaktivera avancerade virtuella värdtjänster för denna Silva-"
+"plats."
 
 #: silva.app.forest:/service.py:334
 #: silva.app.subscriptions:/service.py:296
 msgid "Activate"
-msgstr ""
+msgstr "Aktivera"
 
 #: silva.app.forest:/service.py:345
 msgid "Deactivate"
-msgstr ""
+msgstr "Inaktivera"
 
 #: silva.app.forest:/service.py:363
 msgid "Define the virtual hosts"
-msgstr ""
+msgstr "Definiera de virtuella värdarna"
 
 #: silva.app.forest:/service.py:364
 msgid ""
@@ -1573,320 +1713,328 @@ msgid ""
 "the possibility to set (and enforce) a specific skin for a given rewriting "
 "rule."
 msgstr ""
+"Definiera användbara virtuella värdar via HTTP-huvudet \"X-VHM-Url\" och "
+"listan över de URL-konverteringar som kommer att utföras inom denna "
+"virtuella värd. Du har en möjlighet att ange (och tvinga) ett visst skal för "
+"en viss adresskonverteringsregel."
 
 #: silva.app.forest:/service.py:372
 msgid "Apply"
-msgstr ""
+msgstr "Verkställ"
 
 #: silva.app.forest:/service.py:392
 msgid "Import or export the virtual hosts"
-msgstr ""
+msgstr "Importera eller exportera de virtuella värdarna"
 
 #: silva.app.forest:/service.py:397
-#: silva.core.smi:/content/xml/import.py:65
-#: silva.core.smi:/content/xml/import.py:107
+#: silva.core.smi:/content/xml/import.py:97
+#: silva.core.smi:/content/xml/import.py:151
 msgid "Import"
-msgstr ""
+msgstr "Importera"
 
 #: silva.app.forest:/service.py:407
 msgid "Virtual hosts imported."
-msgstr ""
+msgstr "Virtuella värdar har importerats."
 
 #: silva.app.forest:/service.py:410
 #: silva.core.smi:/content/xml/export.py:51
 #: silva.core.smi:/content/xml/export.py:94
 #: silva.core.smi:/content/xml/export.py:126
 msgid "Export"
-msgstr ""
+msgstr "Exportera"
 
 #: silva.app.news:/AgendaItem/smi.py:100
 #: silva.app.news:/NewsItem/smi.py:31
 msgid "External URL"
-msgstr ""
+msgstr "Extern URL"
 
 #: silva.app.news:/AgendaItem/smi.py:101
 msgid "external URL with more information about this event."
-msgstr ""
+msgstr "extern URL med mer information om denna händelse."
 
 #: silva.app.news:/AgendaItem/smi.py:123
 msgid "Agenda item details"
-msgstr ""
+msgstr "Information om dagordningsobjekt"
 
 #: silva.app.news:/AgendaItem/smi.py:29
 msgid "Timezone"
-msgstr ""
+msgstr "Tidszon"
 
 #: silva.app.news:/AgendaItem/smi.py:30
 msgid "Defines the time zone for dates"
-msgstr ""
+msgstr "Definierar tidszonen för datum"
 
 #: silva.app.news:/AgendaItem/smi.py:33
 msgid "Start date/time"
-msgstr ""
+msgstr "Startdatum/-tid"
 
 #: silva.app.news:/AgendaItem/smi.py:36
 msgid "End date/time"
-msgstr ""
+msgstr "Slutdatum/-tid"
 
 #: silva.app.news:/AgendaItem/smi.py:39
 msgid "All day"
-msgstr ""
+msgstr "Hela dagen"
 
 #: silva.app.news:/AgendaItem/smi.py:40
 msgid "Recurrence"
-msgstr ""
+msgstr "Upprepning"
 
 #: silva.app.news:/AgendaItem/smi.py:42
 msgid "Recurrence end date"
-msgstr ""
+msgstr "Slutdatum för upprepning"
 
 #: silva.app.news:/AgendaItem/smi.py:43
 msgid "Date on which the recurrence stops. Required if any recurrence is set"
 msgstr ""
+"Det datum när upprepningen slutar. Krävs vid all användning av upprepning."
 
 #: silva.app.news:/AgendaItem/smi.py:47
 msgid "Location"
-msgstr ""
+msgstr "Plats"
 
 #: silva.app.news:/AgendaItem/smi.py:48
 msgid "The location where the event is taking place."
-msgstr ""
+msgstr "Den plats där händelsen äger rum."
 
 #: silva.app.news:/AgendaItem/smi.py:61
 msgid "End recurrence date must be set when recurrence is."
-msgstr ""
+msgstr "Slutdatum för upprepning måste anges när upprepning används."
 
 #: silva.app.news:/AgendaItem/smi.py:70
 msgid "End date must not is before start date."
-msgstr ""
+msgstr "Slutdatumet får inte inträffa före startdatumet."
 
 #: silva.app.news:/AgendaItem/smi.py:80
 msgid "End recurrence date must not be before start date."
-msgstr ""
+msgstr "Slutdatumet för upprepning får inte inträffa före startdatumet."
 
 #: silva.app.news:/AgendaItem/smi.py:85
 msgid "End recurrence date must not be before end date."
 msgstr ""
+"Slutdatumet för upprepning får inte inträffa före händelsens slutdatum."
 
 #: silva.app.news:/AgendaItem/smi.py:95
 msgid "Occurrences"
-msgstr ""
+msgstr "Tillfällen"
 
 #: silva.app.news:/AgendaItem/smi.py:96
 msgid "When and where the event will happens."
-msgstr ""
+msgstr "När och var händelsen kommer att gå av stapeln."
 
 #: silva.app.news:/NewsCategorization.py:63
 msgid "Subjects"
-msgstr ""
+msgstr "Ämnen"
 
 #: silva.app.news:/NewsCategorization.py:68
 msgid "Target audiences"
-msgstr ""
+msgstr "Målgrupper"
 
 #: silva.app.news:/NewsItem/smi.py:32
 msgid "external URL with more information about this news item."
-msgstr ""
+msgstr "extern URL med mer information om detta nyhetsobjekt."
 
 #: silva.app.news:/NewsItem/smi.py:51
 msgid "News item details"
-msgstr ""
+msgstr "Information om nyhetsobjekt"
 
 #: silva.app.news:/NewsItem/smi.py:60
 msgid "Details"
-msgstr ""
+msgstr "Information"
 
 #: silva.app.news:/NewsItem/smi.py:82
 msgid "Display datetime"
-msgstr ""
+msgstr "Visa datum och tid"
 
 #: silva.app.news:/ServiceNewsCategorization.py:114
 msgid "subjects"
-msgstr ""
+msgstr "ämnen"
 
 #: silva.app.news:/ServiceNewsCategorization.py:115
 msgid "select subjects that should appear in SMI"
-msgstr ""
+msgstr "välj de ämnen som skall visas i SMI:t"
 
 #: silva.app.news:/ServiceNewsCategorization.py:120
 msgid "target audiences"
-msgstr ""
+msgstr "målgrupper"
 
 #: silva.app.news:/ServiceNewsCategorization.py:121
 msgid "select target audiences that should appear in SMI"
-msgstr ""
+msgstr "välj målgrupper som skall visas i SMI:t"
 
 #: silva.app.news:/ServiceNewsCategorization.py:130
 msgid "Restrict categories for editors"
-msgstr ""
+msgstr "Begränsa kategorier för redaktörer"
 
 #: silva.app.news:/ServiceNewsCategorization.py:131
 msgid ""
 "You can from here restrict all subjects and target audiences usable for news "
 "and agenda items."
 msgstr ""
+"Här kan du begränsa vilka ämnen och målgrupper som kan användas för nyhets- "
+"och dagordningsobjekt."
 
 #: silva.app.news:/filters/Filter.py:309
 msgid "sources"
-msgstr ""
+msgstr "källor"
 
 #: silva.app.news:/filters/Filter.py:310
 msgid "Use predefined sources."
-msgstr ""
+msgstr "Använd fördefinierade källor."
 
 #. Default: ""
 #: silva.app.news:/filters/NewsFilter.py:129
 msgid "Changed exclusion settings for ${count} news item(s)."
-msgstr ""
+msgstr "Undantagsinställningarna för ${count} nyhetsobjekt har ändrats."
 
 #: silva.app.news:/filters/NewsFilter.py:133
 msgid "No exclusion settings changed."
-msgstr ""
+msgstr "Inga undantagsinställningar har ändrats."
 
 #: silva.app.news:/filters/NewsFilter.py:138
 msgid "Path"
-msgstr ""
+msgstr "Sökväg"
 
 #: silva.app.news:/filters/NewsFilter.py:139
 msgid "Display date"
-msgstr ""
+msgstr "Visningsdatum"
 
 #: silva.app.news:/filters/NewsFilter.py:185
 #: silva.app.news:/filters/NewsFilter.py:216
 msgid "Items"
-msgstr ""
+msgstr "Objekt"
 
 #: silva.app.news:/filters/NewsFilter.py:187
 msgid "Uncheck items you want to ignore."
-msgstr ""
+msgstr "Avmarkera objekt som du vill ignorera."
 
 #: silva.app.news:/filters/NewsFilter.py:193
 msgid "There are no items."
-msgstr ""
+msgstr "Det finns inga objekt."
 
 #: silva.app.news:/filters/NewsFilter.py:197
 msgid "Update"
-msgstr ""
+msgstr "Uppdatera"
 
 #: silva.app.news:/filters/NewsFilter.py:97
 msgid "show agenda items"
-msgstr ""
+msgstr "visa dagordningsobjekt"
 
 #: silva.app.news:/htmlcalendar.py:10
 msgid "January"
-msgstr ""
+msgstr "januari"
 
 #: silva.app.news:/htmlcalendar.py:11
 msgid "February"
-msgstr ""
+msgstr "februari"
 
 #: silva.app.news:/htmlcalendar.py:12
 msgid "March"
-msgstr ""
+msgstr "mars"
 
 #: silva.app.news:/htmlcalendar.py:13
 msgid "April"
-msgstr ""
+msgstr "april"
 
 #: silva.app.news:/htmlcalendar.py:14
 msgid "May"
-msgstr ""
+msgstr "maj"
 
 #: silva.app.news:/htmlcalendar.py:15
 msgid "June"
-msgstr ""
+msgstr "juni"
 
 #: silva.app.news:/htmlcalendar.py:16
 msgid "July"
-msgstr ""
+msgstr "juli"
 
 #: silva.app.news:/htmlcalendar.py:17
 msgid "August"
-msgstr ""
+msgstr "augusti"
 
 #: silva.app.news:/htmlcalendar.py:18
 msgid "September"
-msgstr ""
+msgstr "september"
 
 #: silva.app.news:/htmlcalendar.py:19
 msgid "October"
-msgstr ""
+msgstr "oktober"
 
 #: silva.app.news:/htmlcalendar.py:20
 msgid "November"
-msgstr ""
+msgstr "november"
 
 #: silva.app.news:/htmlcalendar.py:21
 msgid "December"
-msgstr ""
+msgstr "december"
 
 #: silva.app.news:/htmlcalendar.py:23
 msgid "Mon"
-msgstr ""
+msgstr "mån"
 
 #: silva.app.news:/htmlcalendar.py:24
 msgid "Tue"
-msgstr ""
+msgstr "tis"
 
 #: silva.app.news:/htmlcalendar.py:25
 msgid "Wed"
-msgstr ""
+msgstr "ons"
 
 #: silva.app.news:/htmlcalendar.py:26
 msgid "Thu"
-msgstr ""
+msgstr "tor"
 
 #: silva.app.news:/htmlcalendar.py:27
 msgid "Fri"
-msgstr ""
+msgstr "fre"
 
 #: silva.app.news:/htmlcalendar.py:28
 msgid "Sat"
-msgstr ""
+msgstr "lör"
 
 #: silva.app.news:/htmlcalendar.py:29
 msgid "Sun"
-msgstr ""
+msgstr "sön"
 
 #: silva.app.news:/interfaces.py:330
 msgid "number of days"
-msgstr ""
+msgstr "antal dagar"
 
 #: silva.app.news:/interfaces.py:331
 msgid "number of items"
-msgstr ""
+msgstr "antal objekt"
 
 #: silva.app.news:/interfaces.py:344
 msgid "Monday"
-msgstr ""
+msgstr "måndag"
 
 #: silva.app.news:/interfaces.py:345
 msgid "Tuesday"
-msgstr ""
+msgstr "tisdag"
 
 #: silva.app.news:/interfaces.py:346
 msgid "Wednesday"
-msgstr ""
+msgstr "onsdag"
 
 #: silva.app.news:/interfaces.py:347
 msgid "Thursday"
-msgstr ""
+msgstr "torsdag"
 
 #: silva.app.news:/interfaces.py:348
 msgid "Friday"
-msgstr ""
+msgstr "fredag"
 
 #: silva.app.news:/interfaces.py:349
 msgid "Saturday"
-msgstr ""
+msgstr "lördag"
 
 #: silva.app.news:/interfaces.py:350
 msgid "Sunday"
-msgstr ""
+msgstr "söndag"
 
 #: silva.app.news:/snn-np-settings.xml:31
 msgid "make local"
-msgstr ""
+msgstr "märk som lokal"
 
 #: silva.app.news:/snn-np-settings.xml:33
 msgid ""
@@ -1894,96 +2042,105 @@ msgid ""
 "outside-world.  When set, the source can only be found by filters in the "
 "same subdirectory."
 msgstr ""
+"Att göra nyhetskällan lokal begränsar tillgängligheten till källan för "
+"utomstående. När alternativet har valts kan källan endast hittas via filter "
+"i samma underkatalog."
 
 #: silva.app.news:/viewers/NewsViewer.py:243
 msgid "filters"
-msgstr ""
+msgstr "filter"
 
 #: silva.app.news:/viewers/NewsViewer.py:244
 msgid "Use predefined filters."
-msgstr ""
+msgstr "Använd fördefinierade filter."
 
 #: silva.app.news:/viewers/NewsViewer.py:248
 msgid "show"
-msgstr ""
+msgstr "visa"
 
 #: silva.app.news:/viewers/NewsViewer.py:249
 msgid ""
 "Show a specific number of items, or show items from a range of days in the "
 "past."
 msgstr ""
+"Visa ett visst antal objekt, eller visa objekt från ett visst antal tidigare "
+"dagar."
 
 #: silva.app.news:/viewers/NewsViewer.py:255
 msgid "days / items number"
-msgstr ""
+msgstr "dagar / objektnummer"
 
 #: silva.app.news:/viewers/NewsViewer.py:256
 msgid "Number of news items to show per page."
-msgstr ""
+msgstr "Antal nyhetsobjekt som skall visas per sida."
 
 #: silva.app.news:/viewers/NewsViewer.py:261
 msgid "archive number"
-msgstr ""
+msgstr "arkivnummer"
 
 #: silva.app.news:/viewers/NewsViewer.py:262
 msgid "Number of archive items to show per page."
-msgstr ""
+msgstr "Antal arkivobjekt som skall visas per sida."
 
 #: silva.app.news:/viewers/NewsViewer.py:268
 msgid "timezone"
-msgstr ""
+msgstr "tidszon"
 
 #: silva.app.news:/viewers/NewsViewer.py:269
 msgid ""
 "Defines the time zone for the agenda and news items that will be rendered by "
 "this viewer."
 msgstr ""
+"Anger tidszonen för de dagordnings- och nyhetsobjekt som kommer att renderas "
+"av denna granskare."
 
 #: silva.app.news:/viewers/NewsViewer.py:274
 msgid "first day of the week"
-msgstr ""
+msgstr "första dagen i veckan"
 
 #: silva.app.news:/viewers/NewsViewer.py:276
 msgid "Define first day of the week for calendar display."
-msgstr ""
+msgstr "Ange den första dagen i veckan för kalendervisning."
 
 #: silva.app.news:/viewers/RSSAggregator.py:117
 msgid "feeds"
-msgstr ""
+msgstr "flöden"
 
 #: silva.app.news:/viewers/RSSAggregator.py:118
 msgid ""
 "List the URLs of RSS feeds (one per line) to use as sources of news items."
 msgstr ""
+"Lista URL:erna (en per rad) för de RSS-flöden som skall användas som källor "
+"för nyhetsobjekt."
 
 #: silva.app.page:/news/blocks.py:130
 msgid "News information component added."
-msgstr ""
+msgstr "Nyhetsinformationkomponent har lagts till."
 
 #: silva.app.page:/news/blocks.py:139
 msgid "Agenda information component added."
-msgstr ""
+msgstr "Komponent för dagordningsinformation har lagts till."
 
 #: silva.app.page:/news/blocks.py:25
 msgid "News information"
-msgstr ""
+msgstr "Nyhetsinformation"
 
 #: silva.app.page:/news/blocks.py:32
 msgid "Agenda information"
-msgstr ""
+msgstr "Dagordningsinformation"
 
 #: silva.app.page:/news/blocks.py:71
 msgid "This component is not available in this context."
-msgstr ""
+msgstr "Den här komponenten är inte tillgänglig i denna kontext."
 
 #: silva.app.page:/news/blocks.py:97
 msgid "Component created."
-msgstr ""
+msgstr "Komponenten har skapats."
 
 #: silva.app.page:/page.py:111
 #: silva.core.contentlayout:/model.py:163
 msgid "Page template"
-msgstr ""
+msgstr "Sidmall"
 
 #. Default: ""
 #: silva.app.page:/page.py:125
@@ -1992,164 +2149,170 @@ msgstr ""
 #: silva.core.layout:/default.py:83
 #: silva.core.contentlayout:/model.py:184
 msgid "Sorry, this ${meta_type} is not viewable."
-msgstr ""
+msgstr "Ledsen, denna ${meta_type} är inte visningsbar."
 
 #: silva.app.subscriptions:/service.py:261
 msgid "From address"
-msgstr ""
+msgstr "Avsändaradress"
 
 #: silva.app.subscriptions:/service.py:262
 msgid "Email address used to send notification emails"
-msgstr ""
+msgstr "E-postadress som används för att skicka informationsmeddelanden"
 
 #: silva.app.subscriptions:/service.py:265
 msgid "Service name"
-msgstr ""
+msgstr "Tjänstens namn"
 
 #: silva.app.subscriptions:/service.py:266
 msgid "Service name to report in notification emails"
-msgstr ""
+msgstr "Namn på tjänsten som skall rapporteras i informationsmeddelanden"
 
 #: silva.app.subscriptions:/service.py:269
 msgid "Maximum confirmation delay in days"
-msgstr ""
+msgstr "Längsta tillåtna fördröjning av bekräftelse (dagar)"
 
 #: silva.app.subscriptions:/service.py:270
 msgid ""
 "When a confirmation email is sent, it must be validated within that number "
 "of days"
 msgstr ""
+"När ett bekräftelsemeddelande har skickats, måste det valideras inom det "
+"angivna antalet dagar"
 
 #: silva.app.subscriptions:/service.py:282
 msgid "Service Subscriptions Configuration"
-msgstr ""
+msgstr "Konfiguration av tjänsteprenumerationer"
 
 #: silva.app.subscriptions:/service.py:290
 msgid "Activate subscriptions"
-msgstr ""
+msgstr "Aktivera prenumerationer"
 
 #: silva.app.subscriptions:/service.py:291
 msgid "Activate sending emails notifications"
-msgstr ""
+msgstr "Aktivera sändning av informationsmeddelanden"
 
 #: silva.app.subscriptions:/service.py:299
 msgid "Subscriptions activated."
-msgstr ""
+msgstr "Prenumerationerna har aktiverats."
 
 #: silva.app.subscriptions:/service.py:308
 msgid "Configure subscriptions"
-msgstr ""
+msgstr "Konfigurera prenumerationer"
 
 #: silva.app.subscriptions:/service.py:309
 msgid "Modify email notification settings"
-msgstr ""
+msgstr "Ändra inställningarna för e-postmeddelanden"
 
 #: silva.app.subscriptions:/service.py:320
 #: silva.app.subscriptions:/smi.py:30
 msgid "Disable subscriptions"
-msgstr ""
+msgstr "Inaktivera prenumerationer"
 
 #: silva.app.subscriptions:/service.py:321
 msgid "Disable sending emails notifications"
-msgstr ""
+msgstr "Inaktivera sändning av informationsmeddelanden"
 
 #: silva.app.subscriptions:/service.py:326
 msgid "Disable"
-msgstr ""
+msgstr "Inaktivera"
 
 #: silva.app.subscriptions:/service.py:329
 msgid "Subscriptions disabled."
-msgstr ""
+msgstr "Prenumerationerna har inaktiverats."
 
 #: silva.app.subscriptions:/service.py:338
 msgid "Install MaildropHost"
-msgstr ""
+msgstr "Installera MaildropHost"
 
 #: silva.app.subscriptions:/service.py:339
 msgid "Install a MaildropHost service to send emails"
-msgstr ""
+msgstr "Installera en MaildropHost-tjänst för att skicka e-brev"
 
 #: silva.app.subscriptions:/smi.py:29
 msgid "Acquire settings from above"
-msgstr ""
+msgstr "Hämta inställningar från överordnad nivå"
 
 #: silva.app.subscriptions:/smi.py:31
 msgid "Enable subscriptions"
-msgstr ""
+msgstr "Aktivera prenumerationer"
 
 #: silva.app.subscriptions:/smi.py:40
 msgid "subscribable"
-msgstr ""
+msgstr "kan prenumereras"
 
 #: silva.app.subscriptions:/smi.py:41
 msgid ""
 "Set the subscribability for this content, or set it to acquire the "
 "subscribability from above (the default)."
 msgstr ""
+"Ange om innehållet kan prenumereras eller ange att det skall hämta "
+"prenumerationsinställningar från överordnad nivå (standard)."
 
 #: silva.app.subscriptions:/smi.py:48
 msgid "subscribed email addresses"
-msgstr ""
+msgstr "prenumererande e-postadresser"
 
 #: silva.app.subscriptions:/smi.py:49
 msgid ""
 "List of email addresses currently subscribed to this content at this level, "
 "one per line. "
 msgstr ""
+"Lista över e-postadresser som för närvarande prenumererar på detta innehåll "
+"på denna nivå, en per rad. "
 
 #: silva.app.subscriptions:/smi.py:62
 msgid "Manage subscriptions"
-msgstr ""
+msgstr "Hantera prenumerationer"
 
 #: silva.app.subscriptions:/smi.py:79
 msgid "Subscriptions"
-msgstr ""
+msgstr "Prenumerationer"
 
 #: silva.app.subscriptions:/smi.py:81
 msgid "manage subscriptions"
-msgstr ""
+msgstr "hantera prenumerationer"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:11
 msgid "This item can be subscribed to."
-msgstr ""
+msgstr "Detta objekt kan prenumereras."
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:16
 msgid "Other subscriptions"
-msgstr ""
+msgstr "Övriga prenumerationer"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:19
 msgid "${count} subscription(s) for this item defined above."
-msgstr ""
+msgstr "${count} prenumeration(er) för objektet som anges ovan."
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:23
 msgid "No other subscriptions for this item."
-msgstr ""
+msgstr "Inga övriga prenumerationer för detta objekt."
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:5
 msgid "Subscriptions status"
-msgstr ""
+msgstr "Prenumerationsstatus"
 
 #: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:7
 msgid "This item can not be subscribed to."
-msgstr ""
+msgstr "Detta objekt kan inte prenumereras."
 
 #: silva.app.subscriptions:/templates/confirmationpage.cpt:3
 msgid "Subscription result for ${title_or_id}"
-msgstr ""
+msgstr "Prenumerationsresultat för ${title_or_id}"
 
 #: silva.app.subscriptions:/templates/confirmationpage.cpt:8
 msgid "Go to the corresponding location."
-msgstr ""
+msgstr "Gå till den anknutna platsen."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:101
 msgid "A confirmation request for cancellation has been emailed to ${email}."
-msgstr ""
+msgstr "En bekräftelsebegäran om uppsägning har skickats till ${email}."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:118
 msgid "Subscribe / Unsubscribe to ${title}"
-msgstr ""
+msgstr "Prenumerera på/Säg upp prenumeration av ${title}"
 
 #: silva.app.subscriptions:/views.py:120
 msgid ""
@@ -2157,446 +2320,480 @@ msgid ""
 "whenever an update happens at this URL. You can also cancel notifications if "
 "you're already subscribed."
 msgstr ""
+"Fyll i din e-postadress om du önskar ta emot informationsmeddelanden när "
+"innehållet på denna URL uppdateras. Om du redan är prenumerant kan du "
+"istället välja att sluta ta emot meddelanden."
 
 #: silva.app.subscriptions:/views.py:127
 #: silva.pas.base:/Membership_templates/loginpage.cpt:53
 #: silva.ui:/rest/container/configuration.py:45
 #: zeam.form.silva:/actions.py:109
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: silva.app.subscriptions:/views.py:161
 msgid "Invalid subscription confirmation."
-msgstr ""
+msgstr "Ogiltig prenumerationsbekräftelse."
 
 #: silva.app.subscriptions:/views.py:165
 #: silva.app.subscriptions:/views.py:186
 msgid "Subscription no longer available."
-msgstr ""
+msgstr "Prenumeration är inte längre tillgänglig."
 
 #: silva.app.subscriptions:/views.py:170
 msgid "Subscription failed."
-msgstr ""
+msgstr "Det gick inte att registrera prenumerationen."
 
 #: silva.app.subscriptions:/views.py:172
 msgid ""
 "You have been successfully subscribed. You will now receive email "
 "notifications."
 msgstr ""
+"Din prenumeration har registrerats. Du kommer nu att börja ta emot "
+"informationsmeddelanden."
 
 #: silva.app.subscriptions:/views.py:182
 msgid "Invalid confirmation."
-msgstr ""
+msgstr "Ogiltig bekräftelse."
 
 #: silva.app.subscriptions:/views.py:191
 msgid ""
 "Something went wrong in unsubscribing from this page. It might be that the "
 "link you followed expired."
 msgstr ""
+"Något gick fel när du skulle säga upp din prenumeration av denna sida. Det "
+"kan vara så att länken du använde inte längre gäller."
 
 #: silva.app.subscriptions:/views.py:195
 msgid "You have been successfully unsubscribed."
-msgstr ""
+msgstr "Din prenumeration har sagts upp."
 
 #: silva.app.subscriptions:/views.py:202
 msgid "Subscribe / Unsubscribe"
-msgstr ""
+msgstr "Prenumerera / Säg upp prenumeration"
 
 #: silva.app.subscriptions:/views.py:203
 msgid ""
 "Fill in your email address if you wish to receive email notifications "
 "whenever an update occurs. You can cancel your notifications at any time."
 msgstr ""
+"Fyll i din e-postadress om du önskar ta emot informationsmeddelanden när en "
+"uppdatering sker. Du kan närsomhelst välja att sluta ta emot dessa "
+"meddelanden."
 
 #: silva.app.subscriptions:/views.py:26
 #: silva.core.smi:/userinfo.py:52
 msgid "Email address"
-msgstr ""
+msgstr "E-postadress"
 
 #: silva.app.subscriptions:/views.py:27
 msgid "Enter your email address."
-msgstr ""
+msgstr "Ange din e-postadress."
 
 #: silva.app.subscriptions:/views.py:31
 msgid "Captcha"
-msgstr ""
+msgstr "Robotfilter"
 
 #: silva.app.subscriptions:/views.py:32
 msgid ""
 "To submit please enter the characters displayed in this image. You can type "
 "them in lower case."
 msgstr ""
+"För att slutföra sändningen ber vi dig att skriva in de tecken som visas i "
+"den här bilden. Du kan använda små bokstäver."
 
 #: silva.app.subscriptions:/views.py:53
 msgid "Subscribe"
-msgstr ""
+msgstr "Prenumerera"
 
 #: silva.app.subscriptions:/views.py:68
 #: silva.app.subscriptions:/views.py:96
 msgid "You cannot subscribe to this content."
-msgstr ""
+msgstr "Du kan inte prenumerera på detta innehåll."
 
 #: silva.app.subscriptions:/views.py:71
 msgid "You are already subscribed to this content."
-msgstr ""
+msgstr "Du prenumererar redan på detta innehåll."
 
 #. Default: ""
 #: silva.app.subscriptions:/views.py:73
 msgid "A confirmation request for subscription has been emailed to ${email}."
-msgstr ""
+msgstr "En bekräftelsebegäran om prenumeration har skickats till ${email}."
 
 #: silva.app.subscriptions:/views.py:81
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Säg upp prenumeration"
 
 #: silva.app.subscriptions:/views.py:99
 msgid "You are not subscribed to this content."
-msgstr ""
+msgstr "Du prenumererar inte på detta innehåll."
 
 #: silva.captcha:/formulator.py:18
 msgid "Input is required but no input given."
-msgstr ""
+msgstr "Indata krävs, men ingen indata har angivits."
 
 #: silva.captcha:/formulator.py:19
 msgid "The verification entry is not valid."
-msgstr ""
+msgstr "Bekräftelseinformationen är ogiltig."
 
 #: silva.captcha:/zeamform.py:42
 msgid "Invalid captcha input."
-msgstr ""
+msgstr "Felaktig robotfilterindata."
 
 #: silva.captcha:/zeamform_templates/captchafieldwidget.cpt:6
 msgid "Audio version"
-msgstr ""
+msgstr "Ljudversion"
 
 #: silva.core.conf:/interfaces.py:15
 msgid "Id"
-msgstr ""
+msgstr "ID"
 
 #: silva.core.conf:/interfaces.py:16
 msgid "No spaces or special characters besides ‘_’ or ‘-’ or ‘.’"
 msgstr ""
+"Inga blanksteg eller specialtecken, förutom understreck ( _ ), bindestreck ( "
+"- ) eller punkt ( . )"
 
 #: silva.core.conf:/interfaces.py:25
 #: silva.core.contentlayout:/interfaces.py:436
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:36
 #: silva.ui:/rest/container/listing.py:136
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: silva.core.conf:/interfaces.py:26
 msgid ""
 "The title will be publicly visible, and is used for the link in indexes."
-msgstr ""
+msgstr "Titeln kommer att vara offentlig och används till länken i index."
 
 #: silva.core.conf:/schema.py:110
 msgid "Invalid crop coordinates."
-msgstr ""
+msgstr "Ogiltiga beskärningskoordinater."
 
 #: silva.core.contentlayout:/blocks/contents.py:126
 msgid "New site content component added."
-msgstr ""
+msgstr "Ny platsinnehållskomponent har lagts till."
 
 #: silva.core.contentlayout:/blocks/contents.py:135
 msgid "Add a site content component"
-msgstr ""
+msgstr "Lägg till en platsinnehållskomponent"
 
 #: silva.core.contentlayout:/blocks/contents.py:174
 msgid "Site content component modified."
-msgstr ""
+msgstr "Platsinnehållskomponenten har ändrats."
 
 #: silva.core.contentlayout:/blocks/contents.py:182
 msgid "Edit a site content component"
-msgstr ""
+msgstr "Redigera en platsinnehållskomponent"
 
 #: silva.core.contentlayout:/blocks/contents.py:32
 msgid "Site content"
-msgstr ""
+msgstr "Platsinnehåll"
 
 #: silva.core.contentlayout:/blocks/contents.py:89
 msgid "Content reference is broken or missing."
-msgstr ""
+msgstr "Innehållsreferens är felaktig eller saknas."
 
 #: silva.core.contentlayout:/blocks/contents.py:92
 msgid "Content is not viewable."
-msgstr ""
+msgstr "Innehållet är inte granskningsbart."
 
 #: silva.core.contentlayout:/blocks/contents.py:99
 msgid "Content to include"
-msgstr ""
+msgstr "Innehåll att inkludera"
 
-#: silva.core.contentlayout:/blocks/slot.py:101
-#: silva.core.contentlayout:/blocks/slot.py:112
+#: silva.core.contentlayout:/blocks/slot.py:102
+#: silva.core.contentlayout:/blocks/slot.py:113
 msgid "name"
 msgstr "namn"
 
-#: silva.core.contentlayout:/blocks/slot.py:107
-msgid "Code source blacklist"
-msgstr ""
-
 #: silva.core.contentlayout:/blocks/slot.py:108
+msgid "Code source blacklist"
+msgstr "Blockerade kodkällor"
+
+#: silva.core.contentlayout:/blocks/slot.py:109
 msgid ""
 "If any code sources are selected, it will be the only ones not addable to "
 "the slot."
 msgstr ""
+"Kodkällor som väljs ur den här listan kommer inte att kunna läggas till i "
+"facket."
 
-#: silva.core.contentlayout:/blocks/slot.py:119
+#: silva.core.contentlayout:/blocks/slot.py:120
 #: silva.core.contentlayout:/interfaces.py:498
 #: silva.core.contentlayout:/interfaces.py:516
 msgid "Content type"
-msgstr ""
+msgstr "Innehållstyp"
 
-#: silva.core.contentlayout:/blocks/slot.py:120
+#: silva.core.contentlayout:/blocks/slot.py:121
 msgid ""
 "Only the selected Silva content types will be addable to the slot using the "
 "site content component."
 msgstr ""
-
-#: silva.core.contentlayout:/blocks/slot.py:128
-msgid "Block all others"
-msgstr ""
+"Endast de markerade Silva-innehållstyperna kommer att kunna läggas till i "
+"facket m.h.a. platsinnehållskomponenten."
 
 #: silva.core.contentlayout:/blocks/slot.py:129
+msgid "Block all others"
+msgstr "Blockera alla övriga"
+
+#: silva.core.contentlayout:/blocks/slot.py:130
 msgid ""
 "Any code sources or Silva content types not explicitly allowed by a previous "
 "option won't be addable to the slot if this option is checked."
 msgstr ""
+"Kodkällor eller Silva-innehållstyper som inte uttryckligen har godkänts i "
+"ett tidigare inställningsalternativ, kommer inte att kunna läggas till i "
+"facket."
 
-#: silva.core.contentlayout:/blocks/slot.py:255
+#: silva.core.contentlayout:/blocks/slot.py:256
 msgid "New slot added."
-msgstr ""
+msgstr "Ett nytt fack har lagts till."
 
-#: silva.core.contentlayout:/blocks/slot.py:263
+#: silva.core.contentlayout:/blocks/slot.py:264
 msgid "Identifier required."
-msgstr ""
+msgstr "Identifierare krävs."
 
-#: silva.core.contentlayout:/blocks/slot.py:265
+#: silva.core.contentlayout:/blocks/slot.py:266
 msgid "Invalid identifier."
-msgstr ""
+msgstr "Ogiltig identifierare."
 
-#: silva.core.contentlayout:/blocks/slot.py:270
+#: silva.core.contentlayout:/blocks/slot.py:271
 msgid "A slot with that identifier already exists."
-msgstr ""
-
-#: silva.core.contentlayout:/blocks/slot.py:309
-msgid "Add a sub-slot"
-msgstr ""
+msgstr "Ett fack med samma identifierare finns redan."
 
 #: silva.core.contentlayout:/blocks/slot.py:310
+msgid "Add a sub-slot"
+msgstr "Lägg till ett underfack"
+
+#: silva.core.contentlayout:/blocks/slot.py:311
 msgid "You can configure slot options and restrictions here."
-msgstr ""
+msgstr "Här kan du konfigurera fackalternativ och -begränsningar."
 
-#: silva.core.contentlayout:/blocks/slot.py:359
+#: silva.core.contentlayout:/blocks/slot.py:360
 msgid "Slot modified."
-msgstr ""
+msgstr "Facket har ändrats."
 
-#: silva.core.contentlayout:/blocks/slot.py:36
-msgid "Slot"
-msgstr ""
-
-#: silva.core.contentlayout:/blocks/slot.py:367
+#: silva.core.contentlayout:/blocks/slot.py:368
 msgid "Edit a sub-slot"
-msgstr ""
+msgstr "Redigera ett underfack"
 
-#: silva.core.contentlayout:/blocks/slot.py:52
+#: silva.core.contentlayout:/blocks/slot.py:37
+msgid "Slot"
+msgstr "Fack"
+
+#: silva.core.contentlayout:/blocks/slot.py:53
 msgid "No restriction"
-msgstr ""
-
-#: silva.core.contentlayout:/blocks/slot.py:74
-msgid "Slot identifier"
-msgstr ""
+msgstr "Inga begränsningar"
 
 #: silva.core.contentlayout:/blocks/slot.py:75
+msgid "Slot identifier"
+msgstr "Fackidentifierare"
+
+#: silva.core.contentlayout:/blocks/slot.py:76
 msgid ""
 "This identifier should uniquely identify the new sub-slot, and will be used "
 "to refer the sub-slot to store components. Only letters and numbers are "
 "allowed."
 msgstr ""
-
-#: silva.core.contentlayout:/blocks/slot.py:82
-msgid "HTML tag"
-msgstr ""
+"Denna identifierare skall vara unik för det nya underfacket och kommer att "
+"användas som referens till underfacket för lagring av komponenter. Endast "
+"bokstäver och siffror är tillåtna."
 
 #: silva.core.contentlayout:/blocks/slot.py:83
-msgid "HTML tag to use to create the slot."
-msgstr ""
+msgid "HTML tag"
+msgstr "HTML-tagg"
 
-#: silva.core.contentlayout:/blocks/slot.py:88
-msgid "CSS class(es)"
-msgstr ""
+#: silva.core.contentlayout:/blocks/slot.py:84
+msgid "HTML tag to use to create the slot."
+msgstr "HTML-tagg som används för att skapa facket."
 
 #: silva.core.contentlayout:/blocks/slot.py:89
-msgid "Whitespace delimited CSS classes to apply on the slot."
-msgstr ""
+msgid "CSS class(es)"
+msgstr "CSS-klass(er)"
 
-#: silva.core.contentlayout:/blocks/slot.py:96
-msgid "Code source whitelist"
-msgstr ""
+#: silva.core.contentlayout:/blocks/slot.py:90
+msgid "Whitespace delimited CSS classes to apply on the slot."
+msgstr "CSS-klasser som skall tillämpas på facket, avgränsade med blanksteg."
 
 #: silva.core.contentlayout:/blocks/slot.py:97
+msgid "Code source whitelist"
+msgstr "Betrodda kodkällor"
+
+#: silva.core.contentlayout:/blocks/slot.py:98
 msgid ""
 "If any code sources are selected, it will be the only ones addable to the "
 "slot."
 msgstr ""
+"Kodkällor som väljs ur den här listan kommer att vara de enda som kan läggas "
+"till i facket."
 
 #: silva.core.contentlayout:/blocks/source.py:130
 msgid "Added new source component"
-msgstr ""
+msgstr "Tillagd ny källkomponent"
 
 #. Default: ""
 #: silva.core.contentlayout:/blocks/source.py:153
 msgid "Parameters for new source ${title}"
-msgstr ""
+msgstr "Parametrar för den nya källan ${title}"
 
 #: silva.core.contentlayout:/blocks/source.py:155
 msgid "Add a source component"
-msgstr ""
+msgstr "Lägg till källkomponent"
 
 #: silva.core.contentlayout:/blocks/source.py:209
 msgid "Source component modified."
-msgstr ""
+msgstr "En källkomponent har ändrats."
 
 #: silva.core.contentlayout:/blocks/source.py:217
 #: silva.core.contentlayout:/blocks/source.py:232
 msgid "Edit a source component"
-msgstr ""
+msgstr "Redigera en källkomponent"
 
 #. Default: ""
 #: silva.core.contentlayout:/blocks/source.py:230
 msgid "Parameters for existing source ${title}"
-msgstr ""
+msgstr "Parametrar för den befintliga källan ${title}"
 
 #: silva.core.contentlayout:/blocks/source.py:252
 #: silva.core.contentlayout:/blocks/source.py:273
 #: silva.core.contentlayout:/blocks/text.py:173
 #: silva.core.contentlayout:/blocks/text.py:185
 msgid "Convert"
-msgstr ""
+msgstr "Konvertera"
 
 #: silva.core.contentlayout:/blocks/source.py:312
 msgid "Convert existing source component to asset"
-msgstr ""
+msgstr "Konvertera befintlig källkomponent till tillgång"
 
 #: silva.core.contentlayout:/blocks/source.py:313
 msgid ""
 "Create a source asset using current source parameters, and refer to it using "
 "a site content component."
 msgstr ""
+"Skapa en källtillgång från de aktuella källparametrarna och referera till "
+"den m.h.a. en platsinnehållskomponent."
 
 #: silva.core.contentlayout:/blocks/text.py:113
 msgid "New text added."
-msgstr ""
+msgstr "Ny text har lagts till."
 
 #: silva.core.contentlayout:/blocks/text.py:121
 msgid "Add some text"
-msgstr ""
+msgstr "Lägg till text"
 
 #: silva.core.contentlayout:/blocks/text.py:153
 msgid "Text modified."
-msgstr ""
+msgstr "Texten har ändrats."
 
 #: silva.core.contentlayout:/blocks/text.py:161
 msgid "Edit text"
-msgstr ""
+msgstr "Redigera text"
 
 #: silva.core.contentlayout:/blocks/text.py:224
 msgid "Convert text to a document"
-msgstr ""
+msgstr "Konvertera text till ett dokument"
 
 #: silva.core.contentlayout:/blocks/text.py:225
 msgid ""
 "Convert text to a standalone document, and refer to it using a site content "
 "component."
 msgstr ""
+"Konvertera text till ett fristående dokument och referera till det m.h.a. en "
+"platsinnehållskomponent."
 
 #: silva.core.contentlayout:/blocks/text.py:32
 #: silva.core.contentlayout:/blocks/text.py:86
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: silva.core.contentlayout:/defaults/blocks.py:47
 msgid "This component is not available."
-msgstr ""
+msgstr "Denna komponent är inte tillgänglig."
 
 #: silva.core.contentlayout:/defaults/blocks.py:69
 msgid "This document is not available."
-msgstr ""
+msgstr "Detta dokument är inte tillgängligt."
 
 #: silva.core.contentlayout:/interfaces.py:197
 msgid "Select a template for your Page."
-msgstr ""
+msgstr "Välj en mall för din sida."
 
 #: silva.core.contentlayout:/interfaces.py:439
 #: silva.core.contentlayout:/smi_templates/components.cpt:1
 msgid "Components"
-msgstr ""
+msgstr "Komponenter"
 
 #: silva.core.contentlayout:/interfaces.py:441
 msgid "Component type"
-msgstr ""
+msgstr "Komponenttyp"
 
 #: silva.core.contentlayout:/interfaces.py:449
 msgid "Groups"
-msgstr ""
+msgstr "Grupper"
 
 #: silva.core.contentlayout:/interfaces.py:463
 msgid "-- Choose a role --"
-msgstr ""
+msgstr "-- Välj en roll --"
 
 #: silva.core.contentlayout:/interfaces.py:472
 msgid "-- Choose a content type --"
-msgstr ""
+msgstr "-- Välj en innehållstyp --"
 
 #: silva.core.contentlayout:/interfaces.py:507
 msgid "Role"
-msgstr ""
+msgstr "Roll"
 
 #: silva.core.contentlayout:/interfaces.py:526
 msgid "Restrictions"
-msgstr ""
+msgstr "Begränsningar"
 
 #: silva.core.contentlayout:/interfaces.py:534
 msgid "Default templates"
-msgstr ""
+msgstr "Standardmallar"
 
 #: silva.core.contentlayout:/interfaces.py:559
 msgid "Select a template for your Page Model."
-msgstr ""
+msgstr "Välj en mall för din sidmodell."
 
 #: silva.core.contentlayout:/interfaces.py:563
 msgid "Allowed Content Types"
-msgstr ""
+msgstr "Tillåtna innehållstyper"
 
 #: silva.core.contentlayout:/interfaces.py:564
 msgid ""
 "Only the selected content types will accept this Page Model as a template."
 msgstr ""
+"Endast de markerade innehållstyperna kommer att acceptera denna sidmodell "
+"som en mall."
 
 #: silva.core.contentlayout:/interfaces.py:571
 #: silva.core.smi:/settings/access.py:335
 msgid "Minimum role"
-msgstr ""
+msgstr "Lägsta tillåtna rollnivå"
 
 #: silva.core.contentlayout:/interfaces.py:572
 msgid "Only users with this role can utilise this Page Model."
 msgstr ""
+"Endast användare med denna roll, eller högre rollnivåer, kan använda denna "
+"sidmodell."
 
 #: silva.core.contentlayout:/model.py:122
 msgid "Page Model(s)"
-msgstr ""
+msgstr "Sidmodell(er)"
 
 #: silva.core.contentlayout:/service.py:243
 msgid "Template Service configuration"
-msgstr ""
+msgstr "Konfiguration av malltjänst"
 
 #: silva.core.contentlayout:/service.py:244
 msgid "Configure restrictions and defaults for content layout tempates"
-msgstr ""
+msgstr "Konfigurera begränsningar och standarder för innehållslayoutmallar."
 
 #. Default: ""
 #: silva.core.contentlayout:/service.py:271
 msgid "Template ${design} is not available."
-msgstr ""
+msgstr "Mallen ${design} är inte tillgänglig."
 
 #. Default: ""
 #: silva.core.contentlayout:/service.py:277
@@ -2604,227 +2801,229 @@ msgid ""
 "Template ${design} restricts its usage to ${require} objects, however "
 "${content} do not comply."
 msgstr ""
+"Användningen av mallen ${design} är begränsad till ${require}-objekt, men "
+"${content} saknar trots det kompatibilitet."
 
 #: silva.core.contentlayout:/service.py:308
 msgid "Define templates access restrictions"
-msgstr ""
+msgstr "Definiera åtkomstbegränsningar för mallar"
 
 #: silva.core.contentlayout:/service.py:335
 msgid "Define default template for content types"
-msgstr ""
+msgstr "Definiera standardmall för innehållstyper"
 
 #: silva.core.contentlayout:/service.py:369
 msgid "Component palette configuration"
-msgstr ""
+msgstr "Konfiguration av komponentpaletten"
 
 #: silva.core.contentlayout:/service.py:370
 msgid "Sort possible components into groups."
-msgstr ""
+msgstr "Sortera användningsbara komponenter i grupper."
 
-#: silva.core.contentlayout:/silvaxml/xmlexport.py:81
+#: silva.core.contentlayout:/silvaxml/xmlexport.py:84
 msgid "Broken source block in page"
-msgstr ""
+msgstr "Felaktigt källblock på sida"
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:4
 msgid "Edit component"
-msgstr ""
+msgstr "Redigera komponent"
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:6
 msgid "Move component"
-msgstr ""
+msgstr "Flytta komponent"
 
 #: silva.core.contentlayout:/smi_templates/layer.cpt:8
 msgid "Remove component"
-msgstr ""
+msgstr "Ta bort komponent"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:14
 msgid "Remove all components"
-msgstr ""
+msgstr "Ta bort alla komponenter"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:4
 msgid "Spare components"
-msgstr ""
+msgstr "Överblivna komponenter"
 
 #: silva.core.contentlayout:/smi_templates/missing.cpt:6
 msgid ""
 "The spare components listed below are a result of switching the template. "
 "You can drag them into a new position on your page, or remove them entirely."
 msgstr ""
+"De överblivna komponenterna som listas nedan finns där som ett resultat av "
+"mallbytet. Du kan dra dem till en ny position på din sida eller ta bort dem "
+"helt och hållet."
 
 #: silva.core.editor:/service.py:233
 msgid "Manage CKEditor configurations"
-msgstr ""
+msgstr "Hantera inställningar för CKEditor"
 
 #: silva.core.editor:/service.py:234
 #: silva.core.editor:/service.py:317
 msgid "You can from here modify the WYSIYG editor settings."
-msgstr ""
+msgstr "Här kan du ändra inställningarna för WYSIYG-redigeraren."
 
 #: silva.core.editor:/service.py:242
 msgid "Add a configuration"
-msgstr ""
+msgstr "Lägg till en konfiguration"
 
 #: silva.core.editor:/service.py:243
 msgid "Add a specific editor configuration for a content type in Silva."
 msgstr ""
+"Lägg till en viss redigerarkonfiguration för en innehållstyp i Silva."
 
 #: silva.core.editor:/service.py:251
 #: silva.core.contentlayout:/blocks/contents.py:108
-#: silva.core.contentlayout:/blocks/slot.py:236
+#: silva.core.contentlayout:/blocks/slot.py:237
 #: silva.core.contentlayout:/blocks/source.py:101
 #: silva.core.contentlayout:/blocks/text.py:95
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:18
 #: silva.core.smi:/content/adding.py:64
 msgid "Add"
-msgstr ""
+msgstr "Lägg till"
 
 #: silva.core.editor:/service.py:255
 msgid "There were errors"
-msgstr ""
+msgstr "Fel har uppstått"
 
 #: silva.core.editor:/service.py:266
 msgid "edit the selected configuration"
-msgstr ""
+msgstr "redigera den markerade konfigurationen"
 
 #: silva.core.editor:/service.py:275
 msgid "remove the selected configuration"
-msgstr ""
+msgstr "ta bort den markerade konfigurationen"
 
 #: silva.core.editor:/service.py:281
 msgid "You cannot remove the default configuration"
-msgstr ""
+msgstr "Du kan inte ta bort standardkonfigurationen"
 
 #: silva.core.editor:/service.py:296
 msgid "Manage existing configurations"
-msgstr ""
+msgstr "Hantera befintliga konfigurationer"
 
 #: silva.core.editor:/service.py:297
 msgid ""
 "Edit or remove editor configuration for the given Silva content types."
 msgstr ""
+"Redigera eller ta bort redigerarkonfiguration för de angivna "
+"innehållstyperna i Silva."
 
 #: silva.core.editor:/service.py:316
 msgid "CKEditor settings"
-msgstr ""
+msgstr "Inställningar för CKEditor"
 
 #: silva.core.editor:/service.py:374
 msgid "Manage HTML Sanitizer"
-msgstr ""
+msgstr "Hantera HTML-saneraren"
 
 #: silva.core.editor:/service.py:375
 msgid "Manager allowed HTML tags and attributes allowed in editor."
 msgstr ""
+"Administratörsgodkända HTML-taggar och -attribut som kan användas i "
+"redigeraren."
 
 #: silva.core.editor:/service.py:378
 #: silva.core.contentlayout:/blocks/contents.py:159
-#: silva.core.contentlayout:/blocks/slot.py:347
+#: silva.core.contentlayout:/blocks/slot.py:348
 #: silva.core.contentlayout:/blocks/source.py:190
 #: silva.core.contentlayout:/blocks/text.py:138
 #: silva.core.smi:/content/metadata.py:174
+#: silva.pas.base:/Membership.py:285
 #: zeam.form.silva:/actions.py:31
 msgid "Save changes"
-msgstr ""
+msgstr "Spara ändringar"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:10
 msgid "Lookup a content in Silva"
-msgstr ""
+msgstr "Sök efter en innehållspost i Silva"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:13
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:42
 msgid "Lookup"
-msgstr ""
+msgstr "Hitta"
 
 #: silva.core.editor:/templates/ckeditorrestreference.pt:3
 msgid "Edit content"
-msgstr ""
+msgstr "Redigera innehåll"
 
-#: silva.core.editor:/transform/silvaxml/xmlexport.py:56
-#: silva.core.references:/widgets/formulator.py:154
+#: silva.core.editor:/transform/silvaxml/xmlexport.py:87
+#: silva.core.references:/widgets/formulator.py:193
 msgid "External reference"
-msgstr ""
-
-#: silva.core.editor:/transform/silvaxml/xmlimport.py:57
-msgid "Broken reference"
-msgstr ""
+msgstr "Extern referens"
 
 #: silva.core.interfaces:/auth.py:110
 #: silva.core.interfaces:/auth.py:117
 msgid "select:"
-msgstr ""
+msgstr "välj:"
 
 #: silva.core.interfaces:/auth.py:129
 msgid "identifier"
-msgstr ""
+msgstr "identifierare"
 
 #: silva.core.interfaces:/auth.py:133
 msgid "role defined above"
-msgstr ""
+msgstr "roll definierad på överordnad nivå"
 
 #: silva.core.interfaces:/auth.py:138
 msgid "role defined here"
-msgstr ""
+msgstr "roll definierad här"
 
 #: silva.core.interfaces:/auth.py:143
 msgid "email"
-msgstr ""
+msgstr "e-post"
 
 #: silva.core.interfaces:/auth.py:144
 msgid "email of the user, None if group."
-msgstr ""
+msgstr "användarens e-postadress, Ingen om grupp"
 
-#: silva.core.interfaces:/errors.py:13
+#: silva.core.interfaces:/errors.py:12
 msgid "Invalid ghost target."
-msgstr ""
+msgstr "Ogiltigt spökmål."
 
-#: silva.core.interfaces:/errors.py:17
+#: silva.core.interfaces:/errors.py:16
 msgid "Missing required ghost target."
-msgstr ""
+msgstr "Nödvändigt spökmål saknas."
 
-#. Default: ""
-#: silva.core.interfaces:/errors.py:176
-msgid "Error while importing `${path}`: ${reason}"
-msgstr ""
-
-#: silva.core.interfaces:/errors.py:21
+#: silva.core.interfaces:/errors.py:20
 msgid "Ghost target creates a circular reference."
-msgstr ""
+msgstr "Spökmålet skapar en cirkelreferens."
 
-#: silva.core.interfaces:/errors.py:25
+#: silva.core.interfaces:/errors.py:24
 msgid "Ghost target is a ghost."
-msgstr ""
+msgstr "Spökmålet är ett spöke."
 
-#: silva.core.interfaces:/errors.py:29
+#: silva.core.interfaces:/errors.py:28
 msgid "Ghost target should be a container."
-msgstr ""
+msgstr "Spökmålet skall vara en behållare."
 
-#: silva.core.interfaces:/errors.py:33
+#: silva.core.interfaces:/errors.py:32
 msgid "Ghost target should be a content."
-msgstr ""
+msgstr "Spökmålet skall vara ett innehåll."
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:102
 msgid "Origin"
-msgstr ""
+msgstr "Ursprung"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:16
 msgid "Interface"
-msgstr ""
+msgstr "Gränssnitt"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:32
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:94
 msgid "Layer"
-msgstr ""
+msgstr "Lager"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:59
 msgid "Name of View"
-msgstr ""
+msgstr "Vyns namn"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:60
 msgid "Registration Info"
-msgstr ""
+msgstr "Registreringsinformation"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:80
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:84
 #: silva.core.contentlayout:/interfaces.py:196
@@ -2832,40 +3031,41 @@ msgstr ""
 #: silva.core.contentlayout:/interfaces.py:519
 #: silva.core.contentlayout:/interfaces.py:558
 msgid "Template"
-msgstr ""
+msgstr "Mall"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:90
 msgid "Object"
-msgstr ""
+msgstr "Objekt"
 
 #: silva.core.layout:/customization_templates/managecustomtemplates.pt:98
 msgid "Definition"
-msgstr ""
+msgstr "Definition"
 
 #: silva.core.references:/widgets/__init__.py:45
 #: silva.core.references:/widgets/zeamform.py:24
 #: silva.core.references:/widgets/zeamform.py:25
 msgid "No reference selected."
-msgstr ""
+msgstr "Ingen referens har valts."
 
-#: silva.core.references:/widgets/formulator.py:206
+#: silva.core.references:/widgets/formulator.py:242
 msgid "No content selected."
-msgstr ""
+msgstr "Inget innehåll har valts."
 
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:39
+#: silva.core.references:/widgets/zeamform_templates/referencemultiplewidgetinput.cpt:20
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:23
 msgid "Lookup an item in Silva"
-msgstr ""
+msgstr "Sök efter ett objekt i Silva"
 
 #: silva.core.references:/widgets/formulator_templates/reference_input.cpt:7
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:6
 msgid "Edit item"
-msgstr ""
+msgstr "Redigera objekt"
 
 #: silva.core.references:/widgets/rest.py:79
 #: silva.core.references:/widgets/rest.py:80
 msgid "Missing content"
-msgstr ""
+msgstr "Innehåll som saknas"
 
 #: silva.core.references:/widgets/rest_templates/referenceaddformtemplate.cpt:26
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:34
@@ -2876,525 +3076,534 @@ msgstr ""
 #: zeam.form.silva:/form/smi_templates/smitableformtemplate.cpt:67
 #: zeam.form.silva:/widgets/others_templates/objectfieldwidget.cpt:13
 msgid "required"
-msgstr ""
+msgstr "nödvändig"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:1
 msgid "Lookup an item"
-msgstr ""
+msgstr "Sök efter en innehållspost i Silva"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:12
 msgid "Add a new item in Silva to refer it"
-msgstr ""
+msgstr "Lägg till ett nytt objekt i Silva för att referera det"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:35
 #: silva.core.smi:/settings/access.py:219
 #: silva.ui:/rest/container/listing.py:119
 msgid "Identifier"
-msgstr ""
+msgstr "Identifierare"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:53
 msgid "Selected items"
-msgstr ""
+msgstr "Markerade objekt"
 
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:8
 msgid "Select:"
-msgstr ""
+msgstr "Välj:"
 
+#: silva.core.references:/widgets/zeamform_templates/referencemultiplewidgetinput.cpt:24
 #: silva.core.references:/widgets/zeamform_templates/referencewidgetinput.cpt:27
 msgid "${icon} Lookup"
-msgstr ""
+msgstr "${icon} Hitta"
 
 #: silva.core.smi:/content/container.py:140
 msgid "This action is not applicable on this item."
-msgstr ""
+msgstr "Denna åtgärd kan inte tillämpas på detta objekt."
 
 #. Default: ""
 #: silva.core.smi:/content/container.py:287
 msgid "Item moved in position ${position}."
-msgstr ""
+msgstr "Objektet har flyttats till positionen ${position}."
 
 #. Default: ""
 #: silva.core.smi:/content/container.py:293
 msgid "Could not move item in position ${position}."
-msgstr ""
+msgstr "Det gick inte att flytta objektet till positionen ${position}."
 
 #: silva.core.smi:/content/container.py:38
 msgid "Content"
-msgstr ""
+msgstr "Innehåll"
 
 #: silva.core.smi:/content/metadata.py:182
 msgid ""
 "The data that was submitted did not validate properly.  Please adjust the "
 "form values and submit again."
 msgstr ""
+"Den data som skickades in kunde inte valideras. Justera formulärvärdena och "
+"försök sedan att skicka igen."
 
 #: silva.core.smi:/content/metadata.py:187
 msgid "Metadata saved."
-msgstr ""
+msgstr "Metadata har sparats."
 
 #: silva.core.smi:/content/metadata.py:222
 msgid "Approved version item properties"
-msgstr ""
+msgstr "Objektsegenskaper för godkänd version"
 
 #: silva.core.smi:/content/metadata.py:237
 msgid "Public version item properties"
-msgstr ""
+msgstr "Objektsegenskaper för offentlig version"
 
 #: silva.core.smi:/content/metadata.py:252
 msgid "Last closed version item properties"
-msgstr ""
+msgstr "Objektsegenskaper för senast stängda version"
 
 #: silva.core.smi:/content/metadata.py:31
 #: silva.core.smi:/content/metadata.py:38
-#: silva.ui:/rest/container/listing.py:183
+#: silva.ui:/rest/container/listing.py:181
 msgid "Properties"
-msgstr ""
+msgstr "Egenskaper"
 
 #: silva.core.smi:/content/metadata.py:78
 msgid "Editable item properties"
-msgstr ""
+msgstr "Redigerbara objektsegenskaper"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:10
 msgid "No item refers to this ${content_type}."
-msgstr ""
+msgstr "Inget objekt refererar till denna ${content_type}."
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:13
 msgid "This item is referenced by:"
-msgstr ""
+msgstr "Detta objekt refereras av:"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:16
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:19
 msgid "edit item"
-msgstr ""
+msgstr "redigera objekt"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "References"
-msgstr ""
+msgstr "Referenser"
 
 #: silva.core.smi:/content/metadata_templates/contentreferencedby.cpt:2
 msgid "List of contents that refer to this item"
-msgstr ""
+msgstr "Lista över innehåll som refererar till detta objekt"
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:14
 msgid "metadata set"
-msgstr ""
+msgstr "metadataset"
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:39
 msgid "acquirable"
-msgstr ""
+msgstr "hämtningsbar"
 
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:56
 #: silva.core.smi:/content/metadata_templates/metadataform.cpt:71
 msgid "Acquired Value:"
-msgstr ""
+msgstr "Hämtat värde:"
 
 #: silva.core.smi:/content/publish/__init__.py:22
 #: silva.core.smi:/content/publish/status.py:49
 msgid "Publication"
-msgstr ""
+msgstr "Publikation"
 
 #: silva.core.smi:/content/publish/__init__.py:29
 #: silva.core.smi:/content/publishingactions.py:178
 #: silva.ui:/rest/container/configuration.py:161
-#: silva.ui:/rest/container/listing.py:187
+#: silva.ui:/rest/container/listing.py:185
 msgid "Publish"
-msgstr ""
+msgstr "Publicera"
 
 #: silva.core.smi:/content/publish/container.py:31
 msgid "Approve"
-msgstr ""
+msgstr "Godkänn"
 
 #: silva.core.smi:/content/publish/container.py:50
 msgid "This action is not applicable on this content."
-msgstr ""
+msgstr "Denna åtgärd kan inte tillämpas på detta innehåll."
 
 #: silva.core.smi:/content/publish/container.py:89
 msgid "Approve item for future"
-msgstr ""
+msgstr "Godkänn objekt för framtida bruk"
 
 #: silva.core.smi:/content/publish/container.py:90
 msgid "Approve selected item for the future"
-msgstr ""
+msgstr "Godkänn markerat objekt för framtida bruk"
 
 #: silva.core.smi:/content/publish/management.py:121
 #: silva.core.smi:/content/publishingactions.py:89
 #: silva.ui:/rest/container/configuration.py:202
 msgid "Request approval"
-msgstr ""
+msgstr "Begär godkännande"
 
 #: silva.core.smi:/content/publish/management.py:130
 msgid "Approval requested."
-msgstr ""
+msgstr "Godkännande har begärts."
 
 #: silva.core.smi:/content/publish/management.py:139
 msgid "Request approval for new version"
-msgstr ""
+msgstr "Begär godkännande av ny version"
 
 #: silva.core.smi:/content/publish/management.py:155
 msgid "Publish now"
-msgstr ""
+msgstr "Publicera nu"
 
 #: silva.core.smi:/content/publish/management.py:167
 #: silva.core.smi:/content/publishingactions.py:194
 msgid "Version published."
-msgstr ""
+msgstr "Versionen har publicerats."
 
 #: silva.core.smi:/content/publish/management.py:172
 #: silva.ui:/rest/container/configuration.py:218
 msgid "Approve for future"
-msgstr ""
+msgstr "Godkänn för framtida bruk"
 
 #: silva.core.smi:/content/publish/management.py:184
 msgid "Version approved."
-msgstr ""
+msgstr "Versionen har godkänts."
 
 #: silva.core.smi:/content/publish/management.py:201
 msgid "Publish new version"
-msgstr ""
+msgstr "Publicera ny version"
 
 #: silva.core.smi:/content/publish/management.py:208
 msgid "Request publication"
-msgstr ""
+msgstr "Begär publicering"
 
 #: silva.core.smi:/content/publish/management.py:209
 msgid "Reject publication"
-msgstr ""
+msgstr "Avslå publiceringsbegäran"
 
 #: silva.core.smi:/content/publish/management.py:210
 msgid "Withdraw publication"
-msgstr ""
+msgstr "Dra tillbaka publiceringsbegäran"
 
 #: silva.core.smi:/content/publish/management.py:211
 msgid "Approve publication"
-msgstr ""
+msgstr "Godkänn publicering"
 
 #: silva.core.smi:/content/publish/management.py:226
 msgid "Request approval history"
-msgstr ""
+msgstr "Historik över godkännande av begäran"
 
 #: silva.core.smi:/content/publish/management.py:231
 msgid "There is no history."
-msgstr ""
+msgstr "Det finns ingen historik."
 
 #: silva.core.smi:/content/publish/management.py:259
 msgid "Message"
-msgstr ""
+msgstr "Meddelande"
 
 #: silva.core.smi:/content/publish/management.py:260
 msgid ""
 "This message will remain visible in the status screen for other authors and "
 "editors."
 msgstr ""
+"Detta meddelande kommer fortsätta att vara synligt i statusrutan, för andra "
+"skribenter och redaktörer."
 
 #: silva.core.smi:/content/publish/management.py:30
 msgid "Publication time"
-msgstr ""
+msgstr "Publiceringsdatum"
 
 #: silva.core.smi:/content/publish/management.py:300
 msgid "Add message on withdrawal"
-msgstr ""
+msgstr "Lägg till ett meddelande vid tillbakadragande"
 
 #: silva.core.smi:/content/publish/management.py:301
 #: silva.core.smi:/content/publish/management.py:334
 msgid "The message may be viewed by local users."
-msgstr ""
+msgstr "Meddelandet kan läsas av lokala användare."
 
 #: silva.core.smi:/content/publish/management.py:308
 #: silva.core.smi:/content/publish/management.py:316
 msgid "Withdraw approval request"
-msgstr ""
+msgstr "Dra tillbaka begäran om godkännande"
 
 #: silva.core.smi:/content/publish/management.py:33
 msgid "Expiration time"
-msgstr ""
+msgstr "Förfallodatum"
 
 #: silva.core.smi:/content/publish/management.py:333
 msgid "Add message on rejection"
-msgstr ""
+msgstr "Lägg till meddelande vid avslag"
 
 #: silva.core.smi:/content/publish/management.py:34
 msgid "Empty indicates no expiration."
-msgstr ""
+msgstr "Lämna tomt för \"inget förfallodatum\"."
 
 #: silva.core.smi:/content/publish/management.py:343
 #: silva.core.smi:/content/publish/management.py:350
 msgid "Reject approval request"
-msgstr ""
+msgstr "Avslå begäran om godkännande"
 
 #: silva.core.smi:/content/publish/management.py:373
 msgid "Manual close"
-msgstr ""
+msgstr "Stäng manuellt"
 
 #: silva.core.smi:/content/publish/management.py:374
 msgid ""
 "If necessary, the published version of this content can be manually closed "
 "(taken offline). It will also be removed from the public index."
 msgstr ""
+"Om så krävs, kan den publicerade versionen av detta innehåll stängas "
+"manuellt (sparas offline). Den kommer då även att tas bort från det "
+"offentliga indexet."
 
 #: silva.core.smi:/content/publish/management.py:383
 msgid "Close published version"
-msgstr ""
+msgstr "Stäng publicerad version"
 
 #: silva.core.smi:/content/publish/management.py:405
 msgid "Publish closed version"
-msgstr ""
+msgstr "Publicera stängd version"
 
 #: silva.core.smi:/content/publish/management.py:406
 msgid "Make the last closed version public."
-msgstr ""
+msgstr "Gör den senast stängda versionen offentlig."
 
 #: silva.core.smi:/content/publish/management.py:42
 msgid "Expiration datetime cannot be before publication."
-msgstr ""
+msgstr "Förfallodatum kan inte infalla före publiceringsdatum."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:15
 msgid "Item is pending"
-msgstr ""
+msgstr "Objektet väntar på beslut"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:18
 msgid "This is item has been submitted for approval and is pending."
-msgstr ""
+msgstr "Detta objekt har skickats in för godkännande och väntar på beslut."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:24
 msgid "Item is approved, not published"
-msgstr ""
+msgstr "Objektet är godkänt, inte publicerat"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:33
 msgid "Published version exists"
-msgstr ""
+msgstr "En publicerad version finns"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:35
 msgid "Note: an older version of this item is online."
-msgstr ""
+msgstr "Obs: en äldre version av detta objekt finns på webben."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:39
 msgid "Publishing this version will replace the public version."
-msgstr ""
+msgstr "Vid publicering ersätter denna version den offentliga versionen."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:4
 msgid "Item is a draft and never published"
-msgstr ""
+msgstr "Objektet är ett utkast och har aldrig publicerats"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:48
 msgid "Item is published"
-msgstr ""
+msgstr "Objektet är publicerat"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:49
 msgid "This item is published (online for the public)."
 msgstr ""
+"Detta objekt har publicerats (tillgängligt för allmänheten på webben)."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:54
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:67
 msgid "If you wish you can make an editable copy in the ${editor}."
-msgstr ""
+msgstr "Om du så önskar, kan du skapa ett redigerbart exemplar i ${editor}."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:55
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:67
 msgid "editor"
-msgstr ""
+msgstr "redaktör"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:61
 msgid "Item is closed"
-msgstr ""
+msgstr "Objektet är stängt"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:62
 msgid "This item was once published but is now closed."
-msgstr ""
+msgstr "Detta objekt var tidigare publicerat, men är numera stängt."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:7
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:27
 msgid "Publication settings can be changed."
-msgstr ""
+msgstr "Publiceringsinställningarna kan ändras."
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:76
 msgid "Publication date of the public version"
-msgstr ""
+msgstr "Publiceringsdatum för den offentliga versionen"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:76
 msgid "Publication date"
-msgstr ""
+msgstr "Publiceringsdatum"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:83
 msgid "Expiration date"
-msgstr ""
+msgstr "Förfallodatum"
 
 #: silva.core.smi:/content/publish/portlet_templates/publicationinfo.cpt:83
 msgid "Expiration date of the public version"
-msgstr ""
+msgstr "Förfallodatum för den offentliga versionen"
 
 #: silva.core.smi:/content/publish/status.py:109
 msgid "Copy for editing"
-msgstr ""
+msgstr "Kopiera för redigering"
 
 #: silva.core.smi:/content/publish/status.py:110
 msgid "Create a new editable version of the selected old one."
-msgstr ""
+msgstr "Skapa en ny, redigerbar version av den valda, äldre versionen."
 
 #: silva.core.smi:/content/publish/status.py:116
 msgid "Please select one version to copy."
-msgstr ""
+msgstr "Välj en version att kopiera."
 
 #: silva.core.smi:/content/publish/status.py:126
 msgid "Reverted to previous version."
-msgstr ""
+msgstr "Återställ till föregående version."
 
 #: silva.core.smi:/content/publish/status.py:134
-#: silva.core.smi:/view.py:18
 msgid "View"
-msgstr ""
+msgstr "Visa"
 
 #: silva.core.smi:/content/publish/status.py:135
 msgid "View this particular version."
-msgstr ""
+msgstr "Visa just denna version."
 
 #: silva.core.smi:/content/publish/status.py:140
 msgid "Please select one version to view it."
-msgstr ""
+msgstr "Välj en version för att visa den."
 
 #: silva.core.smi:/content/publish/status.py:180
 msgid "Compare"
-msgstr ""
+msgstr "Jämför"
 
 #: silva.core.smi:/content/publish/status.py:181
 msgid "Select and compare two different versions."
-msgstr ""
+msgstr "Välj och jämför två olika versioner."
 
 #: silva.core.smi:/content/publish/status.py:189
 msgid "Select exactly two different versions to compare them."
-msgstr ""
+msgstr "Välj exakt två olika versioner för att jämföra dem."
 
 #: silva.core.smi:/content/publish/status.py:257
 #: silva.ui:/rest/container/configuration.py:120
 msgid "Delete"
-msgstr ""
+msgstr "Ta bort"
 
 #: silva.core.smi:/content/publish/status.py:258
 msgid "There's no undo."
-msgstr ""
+msgstr "Du kan inte ångra åtgärden."
 
 #: silva.core.smi:/content/publish/status.py:260
 msgid "Deletion is premanent. Are you sure ?"
-msgstr ""
+msgstr "Borttagningen är permanent. Är du säker på att du vill göra det här?"
 
 #: silva.core.smi:/content/publish/status.py:270
 msgid "Cannot delete all versions."
-msgstr ""
+msgstr "Det går inte att ta bort alla versioner."
 
 #: silva.core.smi:/content/publish/status.py:275
 msgid "No version selected, nothing deleted."
-msgstr ""
+msgstr "Ingen version har valts, ingenting togs bort."
 
 #: silva.core.smi:/content/publish/status.py:284
 msgid "Version(s) deleted."
-msgstr ""
+msgstr "Versionen/versionerna har tagits bort."
 
 #: silva.core.smi:/content/publish/status.py:317
 msgid "Manage versions"
-msgstr ""
+msgstr "Hantera versioner"
 
 #: silva.core.smi:/content/publish/status.py:36
 msgid "Unapproved"
-msgstr ""
+msgstr "För godkännande"
 
 #: silva.core.smi:/content/publish/status.py:37
 msgid "Approved"
-msgstr ""
+msgstr "Godkänd"
 
 #: silva.core.smi:/content/publish/status.py:38
 msgid "Published"
-msgstr ""
+msgstr "Publicerad"
 
 #: silva.core.smi:/content/publish/status.py:39
 msgid "Last closed"
-msgstr ""
+msgstr "Senast stängd"
 
 #: silva.core.smi:/content/publish/status.py:40
 msgid "Closed"
-msgstr ""
+msgstr "Stängd"
 
 #: silva.core.smi:/content/publish/status.py:45
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: silva.core.smi:/content/publish/status.py:47
 msgid "Modification"
-msgstr ""
+msgstr "Ändring"
 
 #: silva.core.smi:/content/publish/status.py:51
 msgid "Expiration"
-msgstr ""
+msgstr "Förfaller"
 
 #: silva.core.smi:/content/publish/status.py:55
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: silva.core.smi:/content/publishingactions.py:107
 msgid "Approval requested for immediate publication."
-msgstr ""
+msgstr "Godkännande om omedelbar publicering har begärts."
 
 #: silva.core.smi:/content/publishingactions.py:113
 #: silva.ui:/rest/container/configuration.py:250
 msgid "Withdraw request"
-msgstr ""
+msgstr "Dra tillbaka begäran"
 
 #: silva.core.smi:/content/publishingactions.py:114
 msgid "Withdraw a request for approval."
-msgstr ""
+msgstr "Dra tillbaka en begäran om godkännande."
 
 #: silva.core.smi:/content/publishingactions.py:129
 msgid "Withdrew request for approval."
-msgstr ""
+msgstr "Begäran om godkännande har tagits bort."
 
 #: silva.core.smi:/content/publishingactions.py:135
 #: silva.ui:/rest/container/configuration.py:234
 msgid "Reject request"
-msgstr ""
+msgstr "Avslå begäran"
 
 #: silva.core.smi:/content/publishingactions.py:136
 msgid "reject a request for approval"
-msgstr ""
+msgstr "avslå en begäran om godkännande"
 
 #: silva.core.smi:/content/publishingactions.py:151
 msgid "Rejected request for approval."
-msgstr ""
+msgstr "Begäran om godkännande har avslagits."
 
 #: silva.core.smi:/content/publishingactions.py:157
 #: silva.ui:/rest/container/configuration.py:266
 msgid "Revoke approval"
-msgstr ""
+msgstr "Återkalla godkännande"
 
 #: silva.core.smi:/content/publishingactions.py:158
 msgid "Un-approve this version in order to edit it."
-msgstr ""
+msgstr "Återkalla godkännandet för denna version för att kunna redigera den."
 
 #: silva.core.smi:/content/publishingactions.py:172
 msgid "Revoked approval."
-msgstr ""
+msgstr "Godkännandet har återkallats."
 
 #: silva.core.smi:/content/publishingactions.py:179
 msgid "Publish now this item."
-msgstr ""
+msgstr "Publicera detta objekt nu."
 
 #: silva.core.smi:/content/publishingactions.py:67
 #: silva.ui:/rest/container/configuration.py:181
 msgid "New version"
-msgstr ""
+msgstr "Ny version"
 
 #: silva.core.smi:/content/publishingactions.py:68
 msgid "Work on a new version while the previous stays online."
 msgstr ""
+"Arbeta på en ny version medan den föregående versionen blir kvar på webben."
 
 #: silva.core.smi:/content/publishingactions.py:83
 msgid "New version created."
-msgstr ""
+msgstr "En ny version har skapats."
 
 #: silva.core.smi:/content/publishingactions.py:90
 msgid "Request approval for immediate publication."
-msgstr ""
+msgstr "Begär godkännande om omedelbar publicering."
 
 #: silva.core.smi:/content/xml/errors.py:21
 msgid "External reference exported"
-msgstr ""
+msgstr "Den externa referensen har exporterats"
 
 #: silva.core.smi:/content/xml/errors_templates/externalreferenceerrorpage.cpt:15
 msgid ""
@@ -3402,111 +3611,134 @@ msgid ""
 "content ${original_content} who have a reference to the content "
 "${target_content} which is not itself contained in the exported content."
 msgstr ""
+"Du försökte exportera innehållet ${exported_content}. Det innefattar "
+"innehållet ${original_content}, i vilket det finns en referens till "
+"innehållet ${target_content}, som i sin tur inte finns medtaget i det "
+"exporterade innehållet."
 
 #: silva.core.smi:/content/xml/export.py:44
 msgid "Select an export format"
-msgstr ""
+msgstr "Välj exportformat"
 
 #: silva.core.smi:/content/xml/export.py:45
 msgid "Select the format which will be used for the export."
-msgstr ""
+msgstr "Välj det format som skall användas för exporten."
 
 #: silva.core.smi:/content/xml/export.py:52
 msgid "export content"
+msgstr "exportera innehåll"
+
+#. Default: ""
+#: silva.core.smi:/content/xml/import.py:115
+msgid "Import is successful, but there are ${many} problem(s)."
 msgstr ""
 
-#: silva.core.smi:/content/xml/import.py:24
+#: silva.core.smi:/content/xml/import.py:121
+msgid "Import succeeded."
+msgstr ""
+
+#. Default: ""
+#: silva.core.smi:/content/xml/import.py:132
+msgid "Imported ${succeeded}."
+msgstr "${succeeded} har importerats."
+
+#. Default: ""
+#: silva.core.smi:/content/xml/import.py:137
+msgid "Could not import: ${failed}."
+msgstr "Det gick inte att importera: ${failed}."
+
+#. Default: ""
+#: silva.core.smi:/content/xml/import.py:142
+msgid "Invalid import file: ${error}."
+msgstr "Ogiltig importfil: ${error}."
+
+#: silva.core.smi:/content/xml/import.py:29
 msgid "File to upload"
-msgstr ""
+msgstr "Fil att överföra"
 
-#: silva.core.smi:/content/xml/import.py:25
+#: silva.core.smi:/content/xml/import.py:30
 msgid ""
 "Locate a zip file containing assets or a zip file created by a Silva full "
 "media export."
 msgstr ""
+"Sök efter en ZIP-fil som innehåller tillgångar eller en ZIP-fil skapad vid "
+"en fullständig medieexport i Silva."
 
-#: silva.core.smi:/content/xml/import.py:29
+#: silva.core.smi:/content/xml/import.py:34
 msgid "Title for assets"
-msgstr ""
+msgstr "Titel för tillgångar"
 
-#: silva.core.smi:/content/xml/import.py:30
+#: silva.core.smi:/content/xml/import.py:35
 msgid ""
 "Set a title for all assets created from the items of a zip file with assets."
 msgstr ""
+"Ange en titel för alla tillgångar hämtade från en ZIP-fil som innehåller "
+"tillgångsobjekt."
 
-#: silva.core.smi:/content/xml/import.py:35
+#: silva.core.smi:/content/xml/import.py:40
 msgid "Subdirectories"
-msgstr ""
+msgstr "Underkataloger"
 
-#: silva.core.smi:/content/xml/import.py:36
+#: silva.core.smi:/content/xml/import.py:41
 msgid ""
 "Recreate the subdirectory structure of a zip file with assets by adding "
 "folders."
 msgstr ""
+"Återskapa underkatalogstrukturen i en ZIP-fil som innehåller tillgångar "
+"genom att lägga till mappar."
 
-#: silva.core.smi:/content/xml/import.py:41
+#: silva.core.smi:/content/xml/import.py:46
 msgid "Replace items"
-msgstr ""
+msgstr "Ersätt objekt"
 
-#: silva.core.smi:/content/xml/import.py:42
+#: silva.core.smi:/content/xml/import.py:47
 msgid ""
 "Replace items with the ones from the import file when they have the same ids "
 "(Note: they will be replaced *even* when published)."
 msgstr ""
+"Ersätt ett objekt med objektet i importfilen om de båda har samma ID. (Obs: "
+"de kommer även att ersättas i en redan publicerad publikation.)"
 
-#: silva.core.smi:/content/xml/import.py:56
+#: silva.core.smi:/content/xml/import.py:88
 msgid "Import and extract ZIP archive"
-msgstr ""
+msgstr "Importera och packa upp ZIP-arkiv"
 
-#: silva.core.smi:/content/xml/import.py:58
+#: silva.core.smi:/content/xml/import.py:90
 msgid "Click the Upload button to select a file to import."
-msgstr ""
+msgstr "Klicka på knappen Överför för att välja en fil att importera."
 
-#: silva.core.smi:/content/xml/import.py:66
-msgid "upload and import file"
-msgstr ""
-
-#. Default: ""
-#: silva.core.smi:/content/xml/import.py:87
-msgid "Invalid import file: ${error}."
-msgstr ""
-
-#. Default: ""
-#: silva.core.smi:/content/xml/import.py:93
-msgid "Imported ${succeeded}."
-msgstr ""
-
-#. Default: ""
 #: silva.core.smi:/content/xml/import.py:98
-msgid "Could not import: ${failed}."
-msgstr ""
+msgid "upload and import file"
+msgstr "överför och importera fil"
 
 #: silva.core.smi:/errors/quota.py:18
 msgid "Over Quota"
-msgstr ""
+msgstr "Kvoten överskriden"
 
 #: silva.core.smi:/errors/quota_templates/overquotaerror.cpt:6
 msgid ""
 "Sorry, a quota is applied to the container you are working in, and the "
 "current operation would require ${exceeding_size} more space."
 msgstr ""
+"Ledsen, en kvot tillämpas på behållaren som du arbetar i och den aktuella "
+"åtgärden skulle kräva ytterligare ${exceeding_size} i utrymme."
 
 #: silva.core.smi:/errors/references.py:31
 msgid "Broken references"
-msgstr ""
+msgstr "Felaktiga referenser"
 
 #: silva.core.smi:/errors/references.py:67
 msgid "Break references"
-msgstr ""
+msgstr "Ta bort referenser"
 
 #: silva.core.smi:/errors/references.py:87
 msgid "References broken"
-msgstr ""
+msgstr "Referenser har tagits bort"
 
 #. Default: ""
 #: silva.core.smi:/errors/references.py:89
 msgid "References to ${content} (${path}) have been broken."
-msgstr ""
+msgstr "Referenserna till ${content} (${path}) har tagits bort."
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:10
 msgid ""
@@ -3514,6 +3746,9 @@ msgid ""
 "references to this one: <a target=\"_blank\" "
 "href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})"
 msgstr ""
+"Du kan inte slutföra denna åtgärd eftersom innehåll på din plats refererar "
+"till följande: <a target=\"_blank\" "
+"href=\"${DYNAMIC_CONTENT}\">${DYNAMIC_CONTENT}</a> (${DYNAMIC_CONTENT})."
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:12
 msgid ""
@@ -3521,61 +3756,67 @@ msgid ""
 "content here, including published versions, and containers of those "
 "contents. Added to that, in case of problems, you cannot undo this operation."
 msgstr ""
+"Om du vill kan du ta bort de referenserna. Det kan potentiellt avreferera "
+"allt innehåll som listas här, inklusive publicerade versioner och behållare "
+"för sådant innehåll. Dessutom kan du inte ångra den här åtgärden om problem "
+"skulle uppstå."
 
 #: silva.core.smi:/errors/references_templates/break_references.cpt:19
 msgid "Those contents are:"
-msgstr ""
+msgstr "Dessa innehåll är:"
 
 #: silva.core.smi:/preview.py:79
-#: silva.ui:/rest/container/listing.py:181
+#: silva.ui:/rest/container/listing.py:179
 msgid "Preview"
-msgstr ""
+msgstr "Förhandsgranskning"
 
 #: silva.core.smi:/preview.py:80
-msgid "view item while staying in the admin interface"
+msgid "Preview this item inside the management interface."
 msgstr ""
 
 #: silva.core.smi:/settings/__init__.py:18
 #: silva.core.smi:/settings/__init__.py:26
 msgid "Settings"
-msgstr ""
+msgstr "Inställningar"
 
 #: silva.core.smi:/settings/access.py:101
 msgid "No matching users were found."
-msgstr ""
+msgstr "Det gick inte att hitta några matchande användare."
 
 #: silva.core.smi:/settings/access.py:114
 msgid "Lookup users"
-msgstr ""
+msgstr "Sök efter användare"
 
 #: silva.core.smi:/settings/access.py:115
 msgid ""
 "Search for users to assign them roles. Enter as least two characters. "
 "Looukup entire names to limit the number of results."
 msgstr ""
+"Sök efter användare för att tilldela dem roller. Ange åtminstone två tecken. "
+"Sök efter fullständiga namn för att begränsa antalet sökträffar."
 
 #: silva.core.smi:/settings/access.py:134
 msgid "Role to grant:"
-msgstr ""
+msgstr "Roll att bevilja:"
 
 #: silva.core.smi:/settings/access.py:141
 #: silva.pas.base:/smi.py:218
 msgid "Grant role"
-msgstr ""
+msgstr "Bevilja roll"
 
 #: silva.core.smi:/settings/access.py:142
 msgid "Grant the selected role to selected users(s)"
-msgstr ""
+msgstr "Bevilja markerad(e) användare den valda rollen"
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:159
 msgid "Role \"${role}\" granted to user \"${username}\"."
-msgstr ""
+msgstr "Rollen \"${role}\" har beviljats användaren \"${username}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:164
 msgid "User \"${username}\" already has the role \"${role}\"."
-msgstr ""
+msgstr "Användaren \"${username}\" har redan rollen \"${role}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:169
@@ -3583,25 +3824,27 @@ msgid ""
 "Sorry, you are not allowed to grant the role \"${role}\" to user "
 "\"${username}\": ${reason}."
 msgstr ""
+"Ledsen, du har inte behörighet att bevilja användaren \"${username}\" rollen "
+"\"${role}\": ${reason}."
 
 #: silva.core.smi:/settings/access.py:181
 #: silva.pas.base:/smi.py:258
 msgid "Revoke role"
-msgstr ""
+msgstr "Återkalla roll"
 
 #: silva.core.smi:/settings/access.py:182
 msgid "Revoke the role of selected user(s)"
-msgstr ""
+msgstr "Återkalla rollen för markerad(e) användare"
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:196
 msgid "Removed role \"${role}\" from user \"${username}\"."
-msgstr ""
+msgstr "Rollen \"${role}\" togs bort från användaren \"${username}\"."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:202
 msgid "User \"${username}\" doesn't have any local role."
-msgstr ""
+msgstr "Användaren \"${username}\" har ingen lokal roll."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:207
@@ -3609,33 +3852,35 @@ msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from user "
 "\"${username}\": ${reason}."
 msgstr ""
+"Ledsen, du har inte behörighet att ta bort rollen \"${role}\" från "
+"användaren \"${username}\": ${reason}."
 
 #: silva.core.smi:/settings/access.py:223
 msgid "Email"
-msgstr ""
+msgstr "E-post"
 
 #: silva.core.smi:/settings/access.py:225
 #: silva.pas.base:/smi.py:207
 msgid "Role defined above"
-msgstr ""
+msgstr "Roll definierad på överordnad nivå"
 
 #: silva.core.smi:/settings/access.py:229
 #: silva.pas.base:/smi.py:211
 msgid "Role defined here"
-msgstr ""
+msgstr "Roll definierad här"
 
 #: silva.core.smi:/settings/access.py:252
 msgid "User roles"
-msgstr ""
+msgstr "Användarroller"
 
 #: silva.core.smi:/settings/access.py:253
 #: silva.pas.base:/smi.py:301
 msgid "No roles have been assigned."
-msgstr ""
+msgstr "Inga roller har tilldelats."
 
 #: silva.core.smi:/settings/access.py:294
 msgid "User clipboard"
-msgstr ""
+msgstr "Användarurklipp"
 
 #: silva.core.smi:/settings/access.py:295
 msgid ""
@@ -3643,90 +3888,103 @@ msgid ""
 "this user clipboard. Then assign the users roles. Any users on the clipboard "
 "will remain here when you move to other areas of the site."
 msgstr ""
+"För att kunna tilldela användare roller söker du först efter användare, så "
+"att de listas i den här användarurklippsvisaren. Tilldela därefter "
+"användarna deras roller. Alla användare i arbetsytan förblir här om du går "
+"till andra delar av platsen."
 
 #: silva.core.smi:/settings/access.py:318
 #: silva.pas.base:/smi.py:348
 msgid "Clear clipboard"
-msgstr ""
+msgstr "Rensa urklipp"
 
 #: silva.core.smi:/settings/access.py:319
 msgid "clear the user clipboard"
-msgstr ""
+msgstr "rensa användarurklipp"
 
 #: silva.core.smi:/settings/access.py:32
 msgid "Manage access to content"
-msgstr ""
+msgstr "Hantera åtkomst till innehåll"
 
 #: silva.core.smi:/settings/access.py:33
 msgid ""
 "This screen lets you authorize or revoke access to this item and all content "
 "it contains."
 msgstr ""
+"Detta fönster låter dig bevilja eller återkalla åtkomsten till detta objekt "
+"och allt dess innehåll."
 
 #: silva.core.smi:/settings/access.py:332
 msgid "Is the role acquired from above?"
-msgstr ""
+msgstr "Hämtas rollen från överordnad nivå?"
 
 #: silva.core.smi:/settings/access.py:336
 msgid "Minimum required role needed to access this item"
-msgstr ""
+msgstr "Lägsta rollnivå som krävs för åtkomst till detta objekt"
 
 #: silva.core.smi:/settings/access.py:349
 msgid "Public view access restriction"
-msgstr ""
+msgstr "Begränsning av allmän visningsåtkomst"
 
 #: silva.core.smi:/settings/access.py:350
 msgid ""
 "Setting an access restriction here affects content on this and lower levels."
 msgstr ""
+"Att ange en åtkomstbegränsning här påverkar innehållet på denna och lägre "
+"nivåer."
 
 #: silva.core.smi:/settings/access.py:360
 msgid "Acquire restriction"
-msgstr ""
+msgstr "Hämta begränsning"
 
 #: silva.core.smi:/settings/access.py:361
 msgid ""
 "Set the access restriction to acquire its setting from the parent container."
 msgstr ""
+"Ange den åtkomstbegränsning som skall hämta sina inställningar från den "
+"överordnade behållaren."
 
 #: silva.core.smi:/settings/access.py:369
 msgid "The minimum role setting was already acquired."
-msgstr ""
+msgstr "Inställningen för lägsta rollnivå har redan hämtats."
 
 #: silva.core.smi:/settings/access.py:374
 msgid "Now acquiring the minimum role setting."
-msgstr ""
+msgstr "Hämtar inställningen för lägsta rollnivå …"
 
 #: silva.core.smi:/settings/access.py:379
 msgid "Set restriction"
-msgstr ""
+msgstr "Ange begränsning"
 
 #: silva.core.smi:/settings/access.py:380
 msgid "Restrict access to this content to the selected role"
-msgstr ""
+msgstr "Begränsa åtkomst till detta innehåll till den markerade rollen"
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:391
 msgid ""
 "The minimum required role to access this item has been set to \"${role}\"."
 msgstr ""
+"Den lägsta rollnivå som krävs för åtkomst till detta objekt har angivits "
+"till \"${role}\"."
 
 #: silva.core.smi:/settings/access.py:398
 msgid "The minimum required role to access this item is acquired."
 msgstr ""
+"Den lägsta rollnivå som krävs för åtkomst till detta objekt har hämtats."
 
 #: silva.core.smi:/settings/access.py:41
-#: silva.ui:/rest/container/listing.py:193
+#: silva.ui:/rest/container/listing.py:191
 msgid "Access"
-msgstr ""
+msgstr "Åtkomst"
 
 #: silva.core.smi:/settings/access.py:46
 msgid "Lookup users..."
-msgstr ""
+msgstr "Sök efter användare …"
 
 #: silva.core.smi:/settings/access.py:47
 msgid "Search for users to assign them roles"
-msgstr ""
+msgstr "Sök efter användare för att tilldela dem roller"
 
 #: silva.core.smi:/settings/access.py:56
 #: silva.core.smi:/settings/access.py:221
@@ -3736,35 +3994,38 @@ msgstr "Användarnamn"
 
 #: silva.core.smi:/settings/access.py:57
 msgid "Username or part of the username to lookup"
-msgstr ""
+msgstr "Användarnamn eller del av användarnamn att söka efter"
 
 #: silva.core.smi:/settings/access.py:67
 msgid "Lookup user"
-msgstr ""
+msgstr "Sök efter en användare"
 
 #: silva.core.smi:/settings/access.py:73
+#: silva.ui:/service.py:66
 msgid "Sorry, there were errors."
-msgstr ""
+msgstr "Ledsen, det uppstod fel."
 
 #. Default: ""
 #: silva.core.smi:/settings/access.py:95
 msgid "Found ${count} users: ${users}."
-msgstr ""
+msgstr "Hittade ${count} användare: ${users}."
 
 #: silva.core.smi:/settings/addables.py:36
 msgid "Acquire"
-msgstr ""
+msgstr "Hämta"
 
 #: silva.core.smi:/settings/addables.py:37
 msgid ""
 "If checked, inherit the addables from above. Uncheck this to change the "
 "allowed addables below."
 msgstr ""
+"Om alternativet är markerat ärvs tilläggsbara objekt från överordnad nivå. "
+"Avmarkera för att ändra tillåtna tilläggsbara objekt nedan."
 
 #: silva.core.smi:/settings/addables.py:42
 #: silva.core.smi:/settings/addables.py:105
 msgid "Addables"
-msgstr ""
+msgstr "Tilläggsbara objekt"
 
 #: silva.core.smi:/settings/addables.py:43
 msgid ""
@@ -3772,292 +4033,328 @@ msgid ""
 "in this publication. Otherwise the addables are acquired from the "
 "publication above."
 msgstr ""
+"Om \"Hämta\" inte är markerat, så bestämmer dessa inställningar vilka objekt "
+"som tillåts i denna publikation. I annat fall hämtas tilläggsbara objekt "
+"från den överordnade publikationen."
 
 #: silva.core.smi:/settings/addables.py:58
 msgid "Addable settings"
-msgstr ""
+msgstr "Inställningar för tilläggsbara objekt"
 
 #: silva.core.smi:/settings/addables.py:73
 msgid "Save addables settings"
-msgstr ""
+msgstr "Spara inställningar för tilläggsbara objekt"
 
 #: silva.core.smi:/settings/addables.py:74
 msgid "save addable settings for this publication"
-msgstr ""
+msgstr "spara inställningarna för tilläggsbara objekt för denna publikation"
 
 #: silva.core.smi:/settings/addables.py:83
 msgid "Addable settings have not changed and remain acquired."
 msgstr ""
+"Inställningarna för tilläggsbara objekt har inte ändrats och förblir därför "
+"hämtade."
 
 #: silva.core.smi:/settings/addables.py:89
 msgid "Addable settings are now aquired."
 msgstr ""
+"Inställningarna för tilläggsbara objekt kommer i fortsättningen att hämtas."
 
 #: silva.core.smi:/settings/addables.py:93
 msgid "Changes to addables content types saved."
-msgstr ""
+msgstr "Ändringarna av innehållstyper för tilläggsbara objekt har sparats."
 
 #: silva.core.smi:/settings/makers.py:101
 msgid "Available markers"
-msgstr ""
+msgstr "Tillgängliga markörer"
 
 #: silva.core.smi:/settings/makers.py:121
 msgid "Interfaces in use which affect the behavior of the item"
-msgstr ""
+msgstr "Gränssnitt som används och som påverkar objektets beteende"
 
 #: silva.core.smi:/settings/makers.py:134
 msgid "Add a marker to alter the behavior"
-msgstr ""
+msgstr "Lägg till en markör för att förändra beteendet"
 
 #: silva.core.smi:/settings/makers.py:142
 msgid "Add marker"
-msgstr ""
+msgstr "Lägg till markör"
 
 #: silva.core.smi:/settings/makers.py:143
 msgid "mark the item with the selected marker(s)"
-msgstr ""
+msgstr "märk objektet med de valda markörerna"
 
 #: silva.core.smi:/settings/makers.py:148
 #: silva.core.smi:/settings/makers.py:178
 msgid "You need to select a marker."
-msgstr ""
+msgstr "Du måste välja en markör."
 
 #: silva.core.smi:/settings/makers.py:154
 msgid "Marker added."
-msgstr ""
+msgstr "Markören har lagts till."
 
 #: silva.core.smi:/settings/makers.py:163
 msgid "Remove a marker"
-msgstr ""
+msgstr "Ta bort markör"
 
 #: silva.core.smi:/settings/makers.py:172
 msgid "remove the selected marker(s) from the item"
-msgstr ""
+msgstr "ta bort de valda markörerna från objektet"
 
 #: silva.core.smi:/settings/makers.py:184
 msgid "Marker removed."
-msgstr ""
+msgstr "Markören har tagits bort."
 
 #: silva.core.smi:/settings/makers.py:28
 msgid "Customization markers"
-msgstr ""
+msgstr "Anpassningsmarkörer"
 
 #: silva.core.smi:/settings/makers.py:29
 msgid ""
 "This screen lets you tag items with markers which can alter how content is "
 "displayed and behaves."
 msgstr ""
+"Detta fönster låter dig tagga objekt med markörer som kan förändra hur "
+"innehåll visas och beter sig."
 
 #: silva.core.smi:/settings/makers.py:37
 msgid "Customization"
-msgstr ""
+msgstr "Anpassning"
 
 #: silva.core.smi:/settings/makers.py:84
 msgid "Used interfaces"
-msgstr ""
+msgstr "Gränssnitt som används"
 
 #: silva.core.smi:/settings/makers.py:93
 msgid "Used markers"
-msgstr ""
+msgstr "Markörer som används"
 
 #: silva.core.smi:/settings/settings.py:103
 msgid "Container type"
-msgstr ""
+msgstr "Typ av behållare"
 
 #: silva.core.smi:/settings/settings.py:119
 msgid ""
 "This Ghost Folder can be converted to a normal Publication or Folder. All "
 "ghosted content will be duplicated and can then be edited."
 msgstr ""
+"Denna spökmapp kan konverteras till en normal publikation eller mapp. Allt "
+"spökinnehåll kommer att dupliceras och kan därefter redigeras."
 
 #: silva.core.smi:/settings/settings.py:124
 msgid ""
 "This Silva Publication is a local site. You need to remove any local "
 "service, and the local site before you can convert it to a Silva Folder."
 msgstr ""
+"Denna Silva-publikation är en lokal plats. Du måste ta bort alla lokala "
+"tjänster och den lokala platsen innan du kan konvertera den till en Silva-"
+"mapp."
 
 #: silva.core.smi:/settings/settings.py:127
 msgid ""
 "This Silva Publication can be converted to a Silva Folder, or can become a "
 "local site."
 msgstr ""
+"Denna Silva-publikation kan konverteras till en Silva-mapp eller kan bli en "
+"lokal plats."
 
 #: silva.core.smi:/settings/settings.py:129
 msgid "This Silva Folder can be converted to a Publication."
-msgstr ""
+msgstr "Denna Silva-mapp kan konverteras till en publikation."
 
 #: silva.core.smi:/settings/settings.py:135
 msgid "Allow feeds"
-msgstr ""
+msgstr "Tillåt flöden"
 
 #: silva.core.smi:/settings/settings.py:136
 msgid "Check to provide an Atom / RSS feed from this container."
 msgstr ""
+"Markera för att tillhandahålla ett Atom-/RSS-flöde från denna behållare."
 
 #: silva.core.smi:/settings/settings.py:152
 msgid "Atom/rss feeds"
-msgstr ""
+msgstr "Atom-/RSS-flöden"
 
 #: silva.core.smi:/settings/settings.py:159
 msgid "Change feed settings"
-msgstr ""
+msgstr "Ändra flödesinställningar"
 
 #: silva.core.smi:/settings/settings.py:161
 msgid "change feed settings"
-msgstr ""
+msgstr "ändra flödesinställningar"
 
 #: silva.core.smi:/settings/settings.py:167
 msgid "Feed settings saved."
-msgstr ""
+msgstr "Flödesinställningarna har sparats."
 
 #: silva.core.smi:/settings/settings.py:184
 msgid "Space used in this folder"
-msgstr ""
+msgstr "Utrymme som används i denna mapp"
 
 #: silva.core.smi:/settings/settings.py:205
 msgid "Used space"
-msgstr ""
+msgstr "Använt utrymme"
 
 #. Default: ""
 #: silva.core.smi:/settings/settings.py:214
 msgid "The quota for this area is set to ${quota} MB."
-msgstr ""
+msgstr "Kvoten för detta område är angiven till ${quota} MB."
 
 #: silva.core.smi:/settings/settings.py:223
 msgid "Generic Settings"
-msgstr ""
+msgstr "Generiska inställningar"
 
 #: silva.core.smi:/settings/settings.py:27
 msgid "Convert to folder"
-msgstr ""
+msgstr "Konvertera till mapp"
 
 #: silva.core.smi:/settings/settings.py:28
 msgid "Change container to a folder"
-msgstr ""
+msgstr "Ändra behållare till en mapp"
 
 #: silva.core.smi:/settings/settings.py:38
 msgid "Changed into folder."
-msgstr ""
+msgstr "Har ändrats till mapp."
 
 #: silva.core.smi:/settings/settings.py:43
 msgid "Convert to publication"
-msgstr ""
+msgstr "Konvertera till publikation"
 
 #: silva.core.smi:/settings/settings.py:44
 msgid "Change container to a publication"
-msgstr ""
+msgstr "Ändra behållare till en publikation"
 
 #: silva.core.smi:/settings/settings.py:52
 msgid "Changed into publication."
-msgstr ""
+msgstr "Har ändrats till publikation."
 
 #: silva.core.smi:/settings/settings.py:57
 msgid "Make local site"
-msgstr ""
+msgstr "Gör till lokal plats"
 
 #: silva.core.smi:/settings/settings.py:70
 msgid "Local site activated."
-msgstr ""
+msgstr "Den lokala platsen har aktiverats."
 
 #: silva.core.smi:/settings/settings.py:76
 msgid "Remove local site"
-msgstr ""
+msgstr "Ta bort lokal plats"
 
 #: silva.core.smi:/settings/settings.py:89
 msgid "Local site deactivated."
-msgstr ""
+msgstr "Den lokala platsen har inaktiverats."
 
 #: silva.core.smi:/settings/settings_templates/feedsinformation.cpt:14
 msgid ""
 "RSS/Atom is activated for this container. You can access the RSS feed at "
 "this ${rss_url}, and the Atom feed at this ${atom_url}."
 msgstr ""
+"Atom/RSS har aktiverats för denna behållare. Du kan komma åt Atom-flödet på "
+"${atom_url} och RSS-flödet på ${rss_url}."
 
 #: silva.core.smi:/settings/settings_templates/feedsinformation.cpt:5
 msgid "RSS/Atom is not activated for this container."
-msgstr ""
+msgstr "Atom/RSS har inte aktiverats för denna behållare."
 
 #: silva.core.smi:/userinfo.py:26
 msgid "Use browser language setting"
-msgstr ""
+msgstr "Använd webbläsarens språkinställningar"
 
 #: silva.core.smi:/userinfo.py:43
 msgid "User identifier"
-msgstr ""
+msgstr "Användaridentifierare"
 
 #: silva.core.smi:/userinfo.py:44
 msgid "User identifier used to authenticate."
-msgstr ""
+msgstr "Användaridentifierare som används för autentisering."
 
 #: silva.core.smi:/userinfo.py:48
 msgid "Fullname"
-msgstr ""
+msgstr "Fullständigt namn"
 
 #: silva.core.smi:/userinfo.py:49
 msgid "User full name."
-msgstr ""
+msgstr "Användarens fullständiga namn."
 
 #: silva.core.smi:/userinfo.py:53
 msgid "Contact email address for the user."
-msgstr ""
+msgstr "Användarens e-postadress för kontakt."
 
 #: silva.core.smi:/userinfo.py:56
 msgid "Preferred language"
-msgstr ""
+msgstr "Önskat språk"
 
 #: silva.core.smi:/userinfo.py:57
 msgid "Language to use in the Silva interface."
-msgstr ""
+msgstr "Språk som skall användas i Silvas gränssnitt."
 
 #: silva.core.smi:/userinfo.py:87
 msgid "User preferences"
+msgstr "Användarinställningar"
+
+#: silva.core.smi:/view.py:18
+msgid "View..."
 msgstr ""
 
 #: silva.core.smi:/view.py:19
-msgid "view content in a new window"
+msgid "See the public view of this content in a new tab/window."
+msgstr ""
+
+#: silva.pas.base:/Membership.py:281
+msgid "Manage Member service"
+msgstr ""
+
+#: silva.pas.base:/Membership.py:282
+msgid "Configure various settings related to user sessions and permissions."
+msgstr ""
+
+#: silva.pas.base:/Membership.py:287
+msgid "Install PAS"
 msgstr ""
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:16
 msgid ""
 "The page you are trying to visit has restricted access. Please authenticate."
 msgstr ""
+"Sidan som du försöker gå till har begränsad åtkomst. Ange "
+"autentiseringsinformation."
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:31
 msgid "Log in to the site"
-msgstr ""
+msgstr "Logga in på platsen"
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:4
 msgid "Protected area"
-msgstr ""
+msgstr "Skyddat område"
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:56
 msgid "Log in"
-msgstr ""
+msgstr "Logga in"
 
-#: silva.pas.base:/plugins/cookie.py:286
+#: silva.pas.base:/plugins/cookie.py:291
 msgid "You need to provide a login and a password."
-msgstr ""
+msgstr "Du måste ange ett användarnamn och ett lösenord."
 
-#: silva.pas.base:/plugins/cookie.py:294
-#: silva.pas.base:/plugins/cookie.py:328
+#: silva.pas.base:/plugins/cookie.py:301
+#: silva.pas.base:/plugins/cookie.py:335
 msgid "Invalid login or password."
-msgstr ""
+msgstr "Ogiltigt användarnamn och/eller lösenord."
 
 #: silva.pas.base:/smi.py:104
 msgid "Logged in"
-msgstr ""
+msgstr "Inloggad"
 
 #: silva.pas.base:/smi.py:105
 msgid "You are now authenticated."
-msgstr ""
+msgstr "Du är autentiserad."
 
 #: silva.pas.base:/smi.py:113
 msgid "Lookup groups..."
-msgstr ""
+msgstr "Sök efter grupper …"
 
 #: silva.pas.base:/smi.py:114
 msgid "Search for groups to assign roles"
-msgstr ""
+msgstr "Sök efter grupper för att tilldela roller"
 
 #: silva.pas.base:/smi.py:123
 #: silva.pas.base:/smi.py:205
@@ -4066,48 +4363,50 @@ msgstr "Gruppnamn"
 
 #: silva.pas.base:/smi.py:124
 msgid "Group name or part of a group name to lookup"
-msgstr ""
+msgstr "Gruppnamn eller del av gruppnamn att söka efter"
 
 #: silva.pas.base:/smi.py:135
 msgid "Lookup group"
-msgstr ""
+msgstr "Sök efter grupp"
 
 #: silva.pas.base:/smi.py:136
 msgid "Search for groups in order to assign them roles"
-msgstr ""
+msgstr "Sök efter grupper för att kunna tilldela dem roller"
 
 #. Default: ""
 #: silva.pas.base:/smi.py:161
 msgid "Found ${count} groups: ${groups}."
-msgstr ""
+msgstr "Hittade ${count} grupper: ${groups}."
 
 #: silva.pas.base:/smi.py:167
 msgid "No matching groups found."
-msgstr ""
+msgstr "Det gick inte att hitta några matchande grupper."
 
 #: silva.pas.base:/smi.py:180
 msgid "Lookup groups"
-msgstr ""
+msgstr "Sök efter grupper"
 
 #: silva.pas.base:/smi.py:181
 msgid ""
 "Search for groups to assign them roles. Leave the field empty to get all "
 "groups (could be a long list)."
 msgstr ""
+"Sök efter grupper för att tilldela dem roller. Lämna fältet tomt för att "
+"hämta alla grupper (det kan bli en lång lista)."
 
 #: silva.pas.base:/smi.py:219
 msgid "Grant the selected role to the selected groups(s)"
-msgstr ""
+msgstr "Bevilja markerad(e) grupper den valda rollen"
 
 #. Default: ""
 #: silva.pas.base:/smi.py:236
 msgid "Role \"${role}\" granted to group \"${groupname}\"."
-msgstr ""
+msgstr "Gruppen \"${groupname}\" beviljades rollen \"${role}\"."
 
 #. Default: ""
 #: silva.pas.base:/smi.py:241
 msgid "Group \"${groupname}\" already has the role \"${role}\"."
-msgstr ""
+msgstr "Gruppen \"${groupname}\" har redan rollen \"${role}\"."
 
 #. Default: ""
 #: silva.pas.base:/smi.py:246
@@ -4116,106 +4415,109 @@ msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
 msgstr ""
+"Ledsen, du har inte behörighet att ta bort rollen \"${role}\" från gruppen "
+"\"${groupid}\": ${reason}."
 
 #: silva.pas.base:/smi.py:259
 msgid "Revoke the role of selected group(s)"
-msgstr ""
+msgstr "Återkalla rollen för markerade grupper"
 
 #. Default: ""
 #: silva.pas.base:/smi.py:273
 msgid "Removed role \"${role}\" from group \"${groupname}\"."
-msgstr ""
+msgstr "Rollen \"${role}\" har tagits bort från gruppen \"${groupname}\"."
 
 #. Default: ""
 #: silva.pas.base:/smi.py:279
 msgid "Group \"${groupname}\" doesn't have any local role."
-msgstr ""
+msgstr "Gruppen \"${groupname}\" har ingen lokal roll."
 
 #: silva.pas.base:/smi.py:30
 #: silva.pas.base:/smi.py:74
 msgid "Login"
-msgstr ""
+msgstr "Inloggning"
 
 #: silva.pas.base:/smi.py:300
 msgid "Group roles"
-msgstr ""
+msgstr "Grupproller"
 
 #: silva.pas.base:/smi.py:328
 msgid "Group clipboard"
-msgstr ""
+msgstr "Gruppurklipp"
 
 #: silva.pas.base:/smi.py:329
 msgid "Search for groups to assign them roles."
-msgstr ""
+msgstr "Sök efter grupper för att tilldela dem roller."
 
 #: silva.pas.base:/smi.py:33
 #: silva.pas.base:/Membership_templates/loginpage.cpt:44
 msgid "Password"
-msgstr ""
+msgstr "Lösenord"
 
 #: silva.pas.base:/smi.py:349
 msgid "Remove the group lookup results"
-msgstr ""
+msgstr "Ta bort gruppsökresultaten"
 
 #: silva.pas.base:/smi.py:63
 msgid "Restricted access"
-msgstr ""
+msgstr "Begränsad åtkomst"
 
 #: silva.pas.base:/smi.py:64
 msgid "You need to login with new credentials in order to continue."
 msgstr ""
+"Du måste logga in med nya autentiseringsuppgifter för att kunna fortsätta."
 
 #: silva.ui:/interfaces.py:101
-msgid "Clicking on the identifier goes on the content edit view"
+msgid "Clicking on the identifier goes to the content/edit view."
 msgstr ""
 
 #: silva.ui:/interfaces.py:105
-msgid "Clicking on the title shows the content preview"
+msgid "Clicking on the title shows the preview."
 msgstr ""
 
 #: silva.ui:/interfaces.py:109
-msgid "Clicking on the modification time goes on the content metadata"
+msgid "Clicking on the modification time goes to properties."
 msgstr ""
 
 #: silva.ui:/interfaces.py:113
-msgid "Clicking on the author goes on the content publication information"
+msgid "Clicking on the author name goes to settings."
 msgstr ""
 
 #: silva.ui:/interfaces.py:117
-msgid "Enable goto menu"
+msgid "Enable goto menu."
 msgstr ""
 
 #: silva.ui:/interfaces.py:126
 msgid "Site name"
-msgstr ""
+msgstr "Platsens namn"
 
 #: silva.ui:/interfaces.py:127
-msgid "Appears in the title tag of the SMI."
+msgid "Appears in the HTML title tag of the SMI."
 msgstr ""
 
 #: silva.ui:/interfaces.py:131
 msgid "Logo"
-msgstr ""
+msgstr "Logotyp"
 
 #: silva.ui:/interfaces.py:132
-msgid "Logo that appear at the top left of the SMI."
+msgid "Logo that appears at the top left of the SMI."
 msgstr ""
 
 #: silva.ui:/interfaces.py:135
 msgid "Background color"
-msgstr ""
+msgstr "Bakgrundsfärg"
 
 #: silva.ui:/interfaces.py:138
 msgid "Public site URL"
-msgstr ""
+msgstr "Offentlig platsadress (URL)"
 
 #: silva.ui:/interfaces.py:139
 msgid "Public site URL to use for view mode in the SMI."
-msgstr ""
+msgstr "Offentlig platsadress (URL) för användning i SMI:ts visningsläge."
 
 #: silva.ui:/interfaces.py:142
 msgid "Preview site URL"
-msgstr ""
+msgstr "Platsadress (URL) för förhandsgranskning"
 
 #: silva.ui:/interfaces.py:143
 msgid ""
@@ -4223,10 +4525,14 @@ msgid ""
 "required to access the preview mode, so users should be able to authenticate "
 "on this site URL."
 msgstr ""
+"Platsadress (URL) för förhandsgranskning för användning i SMI:ts "
+"förhandsgranskningsläge. Autentisering krävs för åtkomst till "
+"förhandsgranskningsläget, så användare bör kunna autentisera på denna "
+"platsadress."
 
 #: silva.ui:/interfaces.py:149
 msgid "SMI access Silva root"
-msgstr ""
+msgstr "SMI-åtkomst till Silvas rot"
 
 #: silva.ui:/interfaces.py:150
 msgid ""
@@ -4234,369 +4540,474 @@ msgid ""
 "host root. You might choose to load it so you can edit content in the Silva "
 "root instead."
 msgstr ""
+"Som standard läses SMI:t in, så att du kan redigera innehåll i den aktuella "
+"virtuella värdens rot. Du kan välja att läsa in det så att du kan redigera "
+"innehåll i Silvas rot istället."
 
 #: silva.ui:/interfaces.py:157
 msgid "Maintenance UI message"
-msgstr ""
+msgstr "Underhållsmeddelande om användargränssnittet"
 
 #: silva.ui:/interfaces.py:158
 msgid "Disable access to the UI and display the specified HTML."
 msgstr ""
+"Inaktivera åtkomst till användargränssnittet och visa den angivna HTML:en."
 
 #: silva.ui:/interfaces.py:92
-msgid "Clicking on the icon goes on content edit view"
+msgid "Clicking on the icon goes to the content/edit view."
 msgstr ""
 
 #: silva.ui:/interfaces.py:96
-msgid "Enable content preview when hovering the icon"
+msgid "Enable content preview when hovering over the icon."
 msgstr ""
 
 #: silva.ui:/interfaces.py:97
-msgid "This can be disabled in case of performance issue."
+msgid "This can be disabled in case of performance issues."
 msgstr ""
 
 #: silva.ui:/rest/container/configuration.py:106
 msgid "Paste as Ghost"
-msgstr ""
+msgstr "Klistra in som spöke"
 
 #: silva.ui:/rest/container/configuration.py:108
 msgid "Paste the items held on the clipboard as Ghosts."
-msgstr ""
+msgstr "Klistra in objekten från urklippsvisaren som spöken."
 
 #: silva.ui:/rest/container/configuration.py:122
 msgid "Remove the selected items permanently."
-msgstr ""
+msgstr "Ta bort markerade objekt permanent."
 
 #: silva.ui:/rest/container/configuration.py:131
 msgid "Confirm deletion"
-msgstr ""
+msgstr "Bekräfta borttagning"
 
 #: silva.ui:/rest/container/configuration.py:132
 msgid "Do you reeally want to delete the selected content?"
-msgstr ""
+msgstr "Vill du verkligen ta bort det markerade innehållet?"
 
 #: silva.ui:/rest/container/configuration.py:139
 msgid "Rename"
-msgstr ""
+msgstr "Byt namn"
 
 #: silva.ui:/rest/container/configuration.py:141
 msgid "Change the name and/or titles of the selected items."
-msgstr ""
+msgstr "Byt namn och/eller titel på de markerade objekten."
 
 #: silva.ui:/rest/container/configuration.py:163
 msgid "Make the selected items available to the public."
-msgstr ""
+msgstr "Gör de markerade objekten tillgängliga för allmänheten."
 
 #: silva.ui:/rest/container/configuration.py:183
 msgid "Create an editable version of the selected items."
-msgstr ""
+msgstr "Skapa redigerbara versioner av de markerade objekten."
 
 #: silva.ui:/rest/container/configuration.py:204
 msgid "Change the status of the selected items to ready to review."
 msgstr ""
+"Ändra statusen för de markerade objekten till \"klara för granskning\"."
 
 #: silva.ui:/rest/container/configuration.py:220
 msgid "Approve the selected items with a publication date in the future."
-msgstr ""
+msgstr "Godkänn de markerade objekten med ett framtida publiceringsdatum."
 
 #: silva.ui:/rest/container/configuration.py:236
 #: silva.ui:/rest/container/configuration.py:252
 #: silva.ui:/rest/container/configuration.py:268
 msgid "Change the status of the selected items back to draft."
-msgstr ""
+msgstr "Ändra tillbaka statusen för de markerade objekten till \"utkast\"."
 
 #: silva.ui:/rest/container/configuration.py:282
 msgid "Close"
-msgstr ""
+msgstr "Stäng"
 
 #: silva.ui:/rest/container/configuration.py:284
 msgid "Unpublish the selected items."
-msgstr ""
+msgstr "Upphäv publiceringen av de markerade objekten."
 
 #: silva.ui:/rest/container/configuration.py:47
 msgid "Do not proceed with this action."
-msgstr ""
+msgstr "Fortsätt inte med den här åtgärden."
 
 #: silva.ui:/rest/container/configuration.py:64
 msgid "Cut"
-msgstr ""
+msgstr "Klipp ut"
 
 #: silva.ui:/rest/container/configuration.py:66
 msgid "Cut the selected items onto the clipboard."
-msgstr ""
+msgstr "Klipp ut de markerade objekten till urklippsvisaren."
 
 #: silva.ui:/rest/container/configuration.py:77
 msgid "Copy"
-msgstr ""
+msgstr "Kopiera"
 
 #: silva.ui:/rest/container/configuration.py:79
 msgid "Copy the selected items onto the clipboard."
-msgstr ""
+msgstr "Kopiera de markerade objekten till urklippsvisaren."
 
 #: silva.ui:/rest/container/configuration.py:94
 msgid "Paste"
-msgstr ""
+msgstr "Klistra in"
 
 #: silva.ui:/rest/container/configuration.py:96
 msgid "Paste the items held on the clipboard."
-msgstr ""
+msgstr "Klistra in objekten från urklippsvisaren."
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:43
 msgid ""
 "${count} contents could not be found (they probably have been deleted)."
 msgstr ""
+"Det gick inte att hitta ${count} innehållsposter (de har antagligen tagits "
+"bort)."
 
 #: silva.ui:/rest/container/listing.py:103
 msgid "Published: this item is published and viewable by the public."
-msgstr ""
+msgstr "Publicerat: detta objekt är publicerat och kan läsas offentligt."
 
 #: silva.ui:/rest/container/listing.py:105
-msgid "Closed: this item is not accessible to the public."
+msgid "Closed: this item is no longer accessible to the public."
 msgstr ""
 
 #: silva.ui:/rest/container/listing.py:107
 msgid "Pending: this item is waiting for approval."
-msgstr ""
+msgstr "Väntar: detta objekt väntar på godkännande."
 
 #: silva.ui:/rest/container/listing.py:109
 msgid "Draft: this item is a working copy."
-msgstr ""
+msgstr "Utkast: detta objekt är en arbetskopia."
 
 #: silva.ui:/rest/container/listing.py:111
 msgid "Approved: this item is approved for publication at a later time."
 msgstr ""
+"Godkänt: detta objekt har godkänts för publicering vid ett senare tillfälle."
 
 #: silva.ui:/rest/container/listing.py:155
 msgid "Modified"
-msgstr ""
+msgstr "Ändrad"
 
-#: silva.ui:/rest/container/listing.py:178
+#: silva.ui:/rest/container/listing.py:176
 msgid "Go to"
+msgstr "Gå till"
+
+#: silva.ui:/rest/container/listing.py:237
+msgid "Structural items"
 msgstr ""
 
-#: silva.ui:/rest/container/listing.py:239
-msgid "Structural content"
-msgstr ""
-
-#: silva.ui:/rest/container/listing.py:267
+#: silva.ui:/rest/container/listing.py:265
 msgid "Assets"
-msgstr ""
+msgstr "Tillgångar"
 
 #. Default: ""
-#: silva.ui:/rest/container/notifier.py:51
+#: silva.ui:/rest/container/notifier.py:53
 msgid "${count} contents"
-msgstr ""
+msgstr "${count} innehållsposter"
 
 #. Default: ""
-#: silva.ui:/rest/container/notifier.py:55
+#: silva.ui:/rest/container/notifier.py:57
 msgid "${contents} and ${content}"
+msgstr "${contents} och ${content}"
+
+#: silva.ui:/rest/container/serializer.py:107
+msgid "Broken content"
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listing.cpt:11
-msgid "Loading folder content ..."
+msgid "Loading folder content..."
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listing.cpt:21
-msgid "${icon} ${count} item(s) in the clipboard"
+msgid "${icon} ${count} item(s) on the clipboard"
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listing.cpt:29
-msgid "${count} structural(s) content(s),"
+msgid "${count} structural item(s),"
 msgstr ""
 
 #: silva.ui:/rest/container/templates/listing.cpt:35
 msgid "${count} asset(s)."
-msgstr ""
+msgstr "${count} tillgång(ar)."
 
 #: silva.ui:/rest/container/templates/listingtoolbar.cpt:3
 msgid "Filter ..."
-msgstr ""
+msgstr "Filter …"
 
 #: silva.ui:/service.py:108
-msgid "UI Folder settings"
+msgid "UI Folder Settings"
 msgstr ""
 
 #: silva.ui:/service.py:109
-msgid "You can from here modify settings for folder listings."
+msgid "Here you can modify the settings for folder listings."
 msgstr ""
 
 #: silva.ui:/service.py:57
-msgid "UI Generic settings"
+msgid "UI Generic Settings"
 msgstr ""
 
 #: silva.ui:/service.py:58
-msgid "You can from here modify generic SMI settings."
-msgstr ""
-
-#: silva.ui:/service.py:66
-msgid "There were errors."
+msgid "Here you can modify the generic SMI settings."
 msgstr ""
 
 #: silva.ui:/service.py:98
 msgid "Modification saved."
-msgstr ""
+msgstr "Ändringarna har sparats."
 
 #: silva.ui:/smi_templates/smitemplate.cpt:24
 msgid "Loading data from server"
-msgstr ""
+msgstr "Läser in data från server …"
 
 #: silva.ui:/smi_templates/smitemplate.cpt:48
 msgid "Logout"
-msgstr ""
+msgstr "Logga ut"
 
 #: silva.ui:/smi_templates/smitemplate.cpt:53
 msgid "Manage"
-msgstr ""
+msgstr "Hantera"
 
 #: silva.ui:/smi_templates/smitemplate.cpt:59
 msgid "Preferences"
-msgstr ""
+msgstr "Inställningar"
 
 #: silva.ui:/smi_templates/smitemplate.cpt:73
 msgid "Go one level up."
-msgstr ""
+msgstr "Gå upp en nivå."
 
-#: silva.ui:/smi_templates/smitemplate.cpt:80
+#: silva.ui:/smi_templates/smitemplate.cpt:81
 msgid "Switch to fullscreen mode."
-msgstr ""
+msgstr "Växla till helskärmsläge."
 
-#: silva.ui:/smi_templates/smitemplate.cpt:94
+#: silva.ui:/smi_templates/smitemplate.cpt:95
 msgid "Loading..."
-msgstr ""
+msgstr "Läser in …"
 
 #: zeam.form.silva:/actions.py:110
 msgid "Go back to the previous screen"
-msgstr ""
+msgstr "Gå tillbaka till föregående fönster"
 
 #: zeam.form.silva:/actions.py:124
 msgid "Go back to the folder view without adding the item"
-msgstr ""
+msgstr "Gå tillbaka till mappvyn utan att lägga till objektet"
 
 #: zeam.form.silva:/actions.py:131
 msgid "Back"
-msgstr ""
+msgstr "Tillbaka"
 
 #: zeam.form.silva:/actions.py:132
 msgid "Go back to the folder view"
-msgstr ""
+msgstr "Gå tillbaka till mappvyn"
 
 #: zeam.form.silva:/actions.py:32
 msgid "Save modifications on the item"
-msgstr ""
+msgstr "Spara ändringarna av objektet"
 
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:259
 msgid "Add a ${content_type}"
-msgstr ""
+msgstr "Lägg till ${content_type}"
 
 #: zeam.form.silva:/form/smi.py:296
 msgid "Create a new content"
-msgstr ""
+msgstr "Skapa nytt innehåll"
 
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:307
 msgid "Added ${meta_type}."
-msgstr ""
+msgstr "${meta_type} har lagts till."
 
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:332
 msgid "Edit a ${content_type}"
-msgstr ""
+msgstr "Redigera ${content_type}"
 
 #: zeam.form.silva:/form/smi_templates/smiformportlets.cpt:3
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: zeam.form.silva:/form/smi_templates/smisubtableformtemplate.cpt:21
 #: zeam.form.silva:/form/smi_templates/smitableformtemplate.cpt:18
 msgid "select all"
-msgstr ""
+msgstr "markera alla"
 
 #: zeam.form.silva:/widgets/cropping_templates/cropimageinputwidget.cpt:13
 msgid "keep proportions"
-msgstr ""
+msgstr "behåll proportioner"
 
 #: zeam.form.silva:/widgets/cropping_templates/cropimageinputwidget.cpt:25
 msgid "Visually select new crop coordinates"
-msgstr ""
+msgstr "Välj nya beskärningskoordinater visuellt"
 
 #: zeam.form.silva:/widgets/cropping_templates/cropimageinputwidget.cpt:29
 msgid "${icon} Set crop coordinates..."
-msgstr ""
+msgstr "${icon} Ange beskärningskoordinater …"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:14
 msgid "mm"
-msgstr ""
+msgstr "mm"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:14
 msgid "month of year"
-msgstr ""
+msgstr "månad på året"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:23
 msgid "year"
-msgstr ""
+msgstr "år"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:23
 msgid "yyyy"
-msgstr ""
+msgstr "åååå"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
 msgid "HH"
-msgstr ""
+msgstr "HH"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
 msgid "optional hour in 24h format"
-msgstr ""
+msgstr "timmar i 24-timmarsformat (valfritt)"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:42
 msgid "optional minute"
-msgstr ""
+msgstr "minuter (valfritt)"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:42
 msgid "MM"
-msgstr ""
+msgstr "MM"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:5
 msgid "dd"
-msgstr ""
+msgstr "dd"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:5
 msgid "day of month"
-msgstr ""
+msgstr "dag i månaden"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:53
 msgid "remove the non-required date"
-msgstr ""
+msgstr "ta bort icke-obligatoriskt datum"
 
 #: zeam.form.silva:/widgets/file.py:42
 msgid "Current file."
-msgstr ""
+msgstr "Aktuell fil."
 
 #: zeam.form.silva:/widgets/file.py:43
 msgid "Not set, please upload a file."
-msgstr ""
+msgstr "Inte angiven, var vänlig överför en fil."
 
 #: zeam.form.silva:/widgets/file_templates/basicfilewidgetinput.cpt:16
 msgid "Keep the current file"
-msgstr ""
+msgstr "Behåll den aktuella filen"
 
 #: zeam.form.silva:/widgets/file_templates/basicfilewidgetinput.cpt:24
 msgid "Remove the current file"
-msgstr ""
+msgstr "Ta bort den aktuella filen"
 
 #: zeam.form.silva:/widgets/file_templates/basicfilewidgetinput.cpt:9
 msgid "Upload a new file"
-msgstr ""
+msgstr "Överför en ny fil"
 
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:25
 msgid "Upload a new file in Silva"
-msgstr ""
+msgstr "Överför en ny fil i Silva"
 
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:30
 msgid "Upload"
-msgstr ""
+msgstr "Överför"
 
 #: zeam.form.silva:/widgets/others_templates/comboboxfieldwidget.cpt:5
 msgid "Show All Items"
-msgstr ""
+msgstr "Visa alla objekt"
+
+#~ msgid "Missing reference path."
+#~ msgstr "Referenssökväg saknas."
+
+#~ msgid "External references"
+#~ msgstr "Externa referenser"
+
+#~ msgid "Could not resolve reference path."
+#~ msgstr "Det gick inte att matcha referenssökvägen."
+
+#~ msgid "Invalid ghost"
+#~ msgstr "Ogiltigt spöke"
+
+#~ msgid "Invalid ghost folder"
+#~ msgstr "Ogiltig spökmapp"
+
+#~ msgid "Broken source in document"
+#~ msgstr "Dokumentet innehåller en felaktig källa."
+
+#~ msgid "Broken external source in import."
+#~ msgstr "Importen innehåller en felaktig extern källa."
+
+#~ msgid "Unknown external source ${name} in import"
+#~ msgstr "Importen innehåller en okänd extern källa: ${name}"
+
+#~ msgid "Broken reference"
+#~ msgstr "Felaktig referens"
+
+#~ msgid "Error while importing `${path}`: ${reason}"
+#~ msgstr "Fel under import av  \"${path}\": ${reason}"
+
+#~ msgid "view item while staying in the admin interface"
+#~ msgstr "visa objekt och stanna kvar i administratörsgränssnittet"
+
+#~ msgid "${icon} ${count} item(s) in the clipboard"
+#~ msgstr "${icon} ${count} objekt i urklippsvisaren"
+
+#~ msgid "view content in a new window"
+#~ msgstr "visa innehåll i ett nytt fönster"
+
+#~ msgid "Clicking on the modification time goes on the content metadata"
+#~ msgstr "Klicka på på ändringsdatumet för att gå till innehållets metadata"
+
+#~ msgid "Clicking on the title shows the content preview"
+#~ msgstr "Klicka på titeln för att visa en förhandsgranskning av innehållet"
+
+#~ msgid "Enable goto menu"
+#~ msgstr "Aktivera menyn \"Gå till\""
+
+#~ msgid "Clicking on the identifier goes on the content edit view"
+#~ msgstr "Klicka på identifieraren för att gå till innehållsredigeringsvyn"
+
+#~ msgid "Logo that appear at the top left of the SMI."
+#~ msgstr "logotyp som visas överst till vänster i SMI:t."
+
+#~ msgid "Appears in the title tag of the SMI."
+#~ msgstr "Visas i titeltaggen för SMI:t."
+
+#~ msgid "You can from here modify generic SMI settings."
+#~ msgstr "Härifrån kan du ändra de generiska SMI-inställningarna."
+
+#~ msgid "This can be disabled in case of performance issue."
+#~ msgstr "Detta kan inaktiveras vid prestandaproblem."
+
+#~ msgid "Clicking on the icon goes on content edit view"
+#~ msgstr "Klicka på ikonen för att gå till innehållsredigeringsvyn"
+
+#~ msgid "Enable content preview when hovering the icon"
+#~ msgstr "Aktivera förhandsgranskning av innehåll vid mushovring över ikonen"
+
+#~ msgid "Clicking on the author goes on the content publication information"
+#~ msgstr ""
+#~ "Klicka på skribenten för att gå till innehållets publiceringsinformation"
+
+#~ msgid "Structural content"
+#~ msgstr "Strukturellt innehåll"
+
+#~ msgid "Closed: this item is not accessible to the public."
+#~ msgstr "Stängt: detta objekt är inte åtkomligt för allmänheten."
+
+#~ msgid "You can from here modify settings for folder listings."
+#~ msgstr "Här kan du ändra inställningarna för mapplistor."
+
+#~ msgid "Loading folder content ..."
+#~ msgstr "Läser in mappinnehåll …"
+
+#~ msgid "${count} structural(s) content(s),"
+#~ msgstr "${count} strukturell(a) innehållspost(er),"
+
+#~ msgid "There were errors."
+#~ msgstr "Det har uppstått fel."
+
+#~ msgid "UI Folder settings"
+#~ msgstr "Användargränssnittsinställningar för mappar"
+
+#~ msgid "UI Generic settings"
+#~ msgstr "Generiska användargränssnittsinställningar"
