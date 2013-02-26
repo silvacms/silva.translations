@@ -5,13 +5,13 @@ msgstr ""
 "Project-Id-Version: Silva\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-25 17:30+0000\n"
-"PO-Revision-Date: 2013-02-15 17:50+0000\n"
-"Last-Translator: Daniel Winzen <d@winzen4.de>\n"
+"PO-Revision-Date: 2013-02-26 13:39+0000\n"
+"Last-Translator: Marion Neuhold <marion.neuhold@wu.ac.at>\n"
 "Language-Team: Name <email>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-02-25 16:36+0000\n"
+"X-Launchpad-Export-Date: 2013-02-26 14:28+0000\n"
 "X-Generator: Launchpad (build 16506)\n"
 "Language-code: de\n"
 "Domain: silva\n"
@@ -1157,13 +1157,15 @@ msgstr "Auswählen um alle Unterpublikationen zu exportieren "
 
 #: Products.Silva:/adapters/zipfileexport.py:27
 msgid "Include other contents?"
-msgstr ""
+msgstr "Andere Inhalte einbeziehen?"
 
 #: Products.Silva:/adapters/zipfileexport.py:28
 msgid ""
 "Check to export content not providing an XML export functionality. This can "
 "cause problems."
 msgstr ""
+"Auswählen um Inhalte zu exportieren, die keine XML Export-Funktionalität "
+"bieten. Dies kann zu Problemen führen."
 
 #: Products.Silva:/adapters/zipfileexport.py:33
 msgid "Export only newest versions?"
@@ -1426,7 +1428,7 @@ msgstr "Im Inhaltsverzeichnis nicht aufführen"
 
 #: Products.Silva:/silvaxml/xmlimport.py:146
 msgid "Missing ghost target."
-msgstr ""
+msgstr "Zielobjekt für den Ghost fehlt."
 
 #: Products.SilvaExternalSources:/CSVSource.py:232
 msgid "file"
@@ -3651,11 +3653,11 @@ msgstr "Export Content"
 #. Default: ""
 #: silva.core.smi:/content/xml/import.py:115
 msgid "Import is successful, but there are ${many} problem(s)."
-msgstr ""
+msgstr "Erfolgreicher Import, aber es gibt ${many} Probleme."
 
 #: silva.core.smi:/content/xml/import.py:121
 msgid "Import succeeded."
-msgstr ""
+msgstr "Import war erfolgreich."
 
 #. Default: ""
 #: silva.core.smi:/content/xml/import.py:132
@@ -3789,7 +3791,7 @@ msgstr "Vorschau"
 
 #: silva.core.smi:/preview.py:80
 msgid "Preview this item inside the management interface."
-msgstr ""
+msgstr "Vorschau auf dieses Objekt innerhalb des Management Interface."
 
 #: silva.core.smi:/settings/__init__.py:18
 #: silva.core.smi:/settings/__init__.py:26
@@ -3967,7 +3969,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/access.py:369
 msgid "The minimum role setting was already acquired."
-msgstr ""
+msgstr "Die mindeste Zugriffsrolle wurde bereits vererbt."
 
 #: silva.core.smi:/settings/access.py:374
 msgid "Now acquiring the minimum role setting."
@@ -3986,10 +3988,13 @@ msgstr "Beschränkter Zugriff für die ausgewählte Rolle für diesen Inhalt."
 msgid ""
 "The minimum required role to access this item has been set to \"${role}\"."
 msgstr ""
+"Die kleinste erforderliche Rolle um auf dieses Objekt zuzugreifen wurde für  "
+"\"${role}\" gesetzt."
 
 #: silva.core.smi:/settings/access.py:398
 msgid "The minimum required role to access this item is acquired."
 msgstr ""
+"Die mindeste Zugriffsrolle für die Bearbeitung dieses Objektes wurde vererbt."
 
 #: silva.core.smi:/settings/access.py:41
 #: silva.ui:/rest/container/listing.py:191
@@ -4075,7 +4080,7 @@ msgstr ""
 
 #: silva.core.smi:/settings/addables.py:89
 msgid "Addable settings are now aquired."
-msgstr ""
+msgstr "Hinzufügbare Einstellungen wurden jetzt erworben."
 
 #: silva.core.smi:/settings/addables.py:93
 msgid "Changes to addables content types saved."
@@ -4166,6 +4171,9 @@ msgid ""
 "This Silva Publication is a local site. You need to remove any local "
 "service, and the local site before you can convert it to a Silva Folder."
 msgstr ""
+"Diese Silva Publikation ist eine lokale Site. Sie müssen alle lokalen "
+"Services und die lokale Site entfernen um die Publikation in einen Silva "
+"Folder umwandeln zu können."
 
 #: silva.core.smi:/settings/settings.py:127
 msgid ""
@@ -4311,23 +4319,26 @@ msgstr "Benutzereinstellungen"
 
 #: silva.core.smi:/view.py:18
 msgid "View..."
-msgstr ""
+msgstr "Anzeigen..."
 
 #: silva.core.smi:/view.py:19
 msgid "See the public view of this content in a new tab/window."
 msgstr ""
+"Öffentliche Version des Inhaltes in einem neuen Tab/Fenster betrachten"
 
 #: silva.pas.base:/Membership.py:281
 msgid "Manage Member service"
-msgstr ""
+msgstr "Bearbeiten des Member Dienstes"
 
 #: silva.pas.base:/Membership.py:282
 msgid "Configure various settings related to user sessions and permissions."
 msgstr ""
+"Konfiguration verschiedener Einstellungen im Zusammenhang mit Benutzer-"
+"Sitzungen und Zugriffsrechten."
 
 #: silva.pas.base:/Membership.py:287
 msgid "Install PAS"
-msgstr ""
+msgstr "Installation von PAS"
 
 #: silva.pas.base:/Membership_templates/loginpage.cpt:16
 msgid ""
@@ -4433,106 +4444,110 @@ msgid ""
 "Sorry, you are not allowed to remove the role \"${role}\" from group "
 "\"${groupid}\": ${reason}."
 msgstr ""
+"Leider ist es Ihnen nicht erlaubt die Rolle \"${role}\" von der Gruppe "
+"\"${groupid}\" zu entfernen: ${reason}."
 
 #: silva.pas.base:/smi.py:259
 msgid "Revoke the role of selected group(s)"
-msgstr ""
+msgstr "Widerruf der Rolle der ausgewählten Gruppe"
 
 #. Default: ""
 #: silva.pas.base:/smi.py:273
 msgid "Removed role \"${role}\" from group \"${groupname}\"."
 msgstr ""
+"Die Rolle \"${role}\" wurde von der Gruppe \"${groupname}\" entfernt."
 
 #. Default: ""
 #: silva.pas.base:/smi.py:279
 msgid "Group \"${groupname}\" doesn't have any local role."
-msgstr ""
+msgstr "Die Gruppe \"${groupname}\" hat keine lokale Rolle."
 
 #: silva.pas.base:/smi.py:30
 #: silva.pas.base:/smi.py:74
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 #: silva.pas.base:/smi.py:300
 msgid "Group roles"
-msgstr ""
+msgstr "Gruppen Rollen"
 
 #: silva.pas.base:/smi.py:328
 msgid "Group clipboard"
-msgstr ""
+msgstr "Gruppen Zwischenablage"
 
 #: silva.pas.base:/smi.py:329
 msgid "Search for groups to assign them roles."
-msgstr ""
+msgstr "Suche nach Gruppen um Rollen zuzuordnen."
 
 #: silva.pas.base:/smi.py:33
 #: silva.pas.base:/Membership_templates/loginpage.cpt:44
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #: silva.pas.base:/smi.py:349
 msgid "Remove the group lookup results"
-msgstr ""
+msgstr "Entfernen der Suchergebnisse für Gruppen"
 
 #: silva.pas.base:/smi.py:63
 msgid "Restricted access"
-msgstr ""
+msgstr "Eingeschränkter Zugriff"
 
 #: silva.pas.base:/smi.py:64
 msgid "You need to login with new credentials in order to continue."
 msgstr ""
+"Sie müssen sich, um fortsetzen zu können, mit neuen Login-Daten anmelden."
 
 #: silva.ui:/interfaces.py:101
 msgid "Clicking on the identifier goes to the content/edit view."
-msgstr ""
+msgstr "Klick auf die Kennung führt zur Inhalt/Bearbeiten Ansicht."
 
 #: silva.ui:/interfaces.py:105
 msgid "Clicking on the title shows the preview."
-msgstr ""
+msgstr "Klick auf den Titel zeigt eine Vorschau."
 
 #: silva.ui:/interfaces.py:109
 msgid "Clicking on the modification time goes to properties."
-msgstr ""
+msgstr "Klick auf die Bearbeitungszeit führt zu den Eigenschaften."
 
 #: silva.ui:/interfaces.py:113
 msgid "Clicking on the author name goes to settings."
-msgstr ""
+msgstr "Klick auf den Namen des Autors führt zu den Einstellungen."
 
 #: silva.ui:/interfaces.py:117
 msgid "Enable goto menu."
-msgstr ""
+msgstr "Wechsel zum Menü freischalten"
 
 #: silva.ui:/interfaces.py:126
 msgid "Site name"
-msgstr ""
+msgstr "Site-Name"
 
 #: silva.ui:/interfaces.py:127
 msgid "Appears in the HTML title tag of the SMI."
-msgstr ""
+msgstr "Erscheint im HTML Titel-Kennzeichnung im Silva Management Interface"
 
 #: silva.ui:/interfaces.py:131
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: silva.ui:/interfaces.py:132
 msgid "Logo that appears at the top left of the SMI."
-msgstr ""
+msgstr "Logo das links oben im SMI erscheint"
 
 #: silva.ui:/interfaces.py:135
 msgid "Background color"
-msgstr ""
+msgstr "Hintergrundfarbe"
 
 #: silva.ui:/interfaces.py:138
 msgid "Public site URL"
-msgstr ""
+msgstr "URL der öffentlichen Seite"
 
 #: silva.ui:/interfaces.py:139
 msgid "Public site URL to use for view mode in the SMI."
-msgstr ""
+msgstr "URL der öffentlichen Version wird für die Vorschau im SMI verwendet."
 
 #: silva.ui:/interfaces.py:142
 msgid "Preview site URL"
-msgstr ""
+msgstr "URL der Vorschau"
 
 #: silva.ui:/interfaces.py:143
 msgid ""
@@ -4543,7 +4558,7 @@ msgstr ""
 
 #: silva.ui:/interfaces.py:149
 msgid "SMI access Silva root"
-msgstr ""
+msgstr "SMI Zugriff Silva root"
 
 #: silva.ui:/interfaces.py:150
 msgid ""
@@ -4554,262 +4569,272 @@ msgstr ""
 
 #: silva.ui:/interfaces.py:157
 msgid "Maintenance UI message"
-msgstr ""
+msgstr "UI-Wartungsnachricht"
 
 #: silva.ui:/interfaces.py:158
 msgid "Disable access to the UI and display the specified HTML."
-msgstr ""
+msgstr "Deaktivieren des Zugriffs zum UI und Anzeige des festgelegten HTML"
 
 #: silva.ui:/interfaces.py:92
 msgid "Clicking on the icon goes to the content/edit view."
-msgstr ""
+msgstr "Klick auf das Icon führt zur Inhalt/Bearbeiten Ansicht"
 
 #: silva.ui:/interfaces.py:96
 msgid "Enable content preview when hovering over the icon."
-msgstr ""
+msgstr "Inhaltsvorschau bei Mouse-over aktivieren."
 
 #: silva.ui:/interfaces.py:97
 msgid "This can be disabled in case of performance issues."
-msgstr ""
+msgstr "Dies kann bei Performance Problemen deaktiviert werden."
 
 #: silva.ui:/rest/container/configuration.py:106
 msgid "Paste as Ghost"
-msgstr ""
+msgstr "Einfügen eines Ghost."
 
 #: silva.ui:/rest/container/configuration.py:108
 msgid "Paste the items held on the clipboard as Ghosts."
 msgstr ""
+"Einfügen von Objekten, die in der Zwischenablage als Ghosts gespeichert sind."
 
 #: silva.ui:/rest/container/configuration.py:122
 msgid "Remove the selected items permanently."
-msgstr ""
+msgstr "Endgültiges Entfernen der ausgwählten Objekte."
 
 #: silva.ui:/rest/container/configuration.py:131
 msgid "Confirm deletion"
-msgstr ""
+msgstr "Löschen bestätigen"
 
 #: silva.ui:/rest/container/configuration.py:132
 msgid "Do you reeally want to delete the selected content?"
-msgstr ""
+msgstr "Soll der gewählte Inhalt wirklich gelöscht werden?"
 
 #: silva.ui:/rest/container/configuration.py:139
 msgid "Rename"
-msgstr ""
+msgstr "Umbenennen"
 
 #: silva.ui:/rest/container/configuration.py:141
 msgid "Change the name and/or titles of the selected items."
-msgstr ""
+msgstr "Ändern des Namens und/oder des Titels der ausgewählten Objekte."
 
 #: silva.ui:/rest/container/configuration.py:163
 msgid "Make the selected items available to the public."
-msgstr ""
+msgstr "Bereitstellen der ausgewählten Objekte für die Öffentlichkeit."
 
 #: silva.ui:/rest/container/configuration.py:183
 msgid "Create an editable version of the selected items."
-msgstr ""
+msgstr "Erstellen einer bearbeitbaren Version der ausgewählten Objekte."
 
 #: silva.ui:/rest/container/configuration.py:204
 msgid "Change the status of the selected items to ready to review."
-msgstr ""
+msgstr "Ändern des Status der gewählten Obejkte als bereit zur Überprüfung."
 
 #: silva.ui:/rest/container/configuration.py:220
 msgid "Approve the selected items with a publication date in the future."
 msgstr ""
+"Genehmigen der gewählten Objekte mit einem zukünftigen Publikationsdatum."
 
 #: silva.ui:/rest/container/configuration.py:236
 #: silva.ui:/rest/container/configuration.py:252
 #: silva.ui:/rest/container/configuration.py:268
 msgid "Change the status of the selected items back to draft."
-msgstr ""
+msgstr "Wechseln des Status der gewählten Objekte zurück zum Entwurf."
 
 #: silva.ui:/rest/container/configuration.py:282
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: silva.ui:/rest/container/configuration.py:284
 msgid "Unpublish the selected items."
-msgstr ""
+msgstr "Schließen der gewählten Objekte."
 
 #: silva.ui:/rest/container/configuration.py:47
 msgid "Do not proceed with this action."
-msgstr ""
+msgstr "Aktion nicht fortsetzen."
 
 #: silva.ui:/rest/container/configuration.py:64
 msgid "Cut"
-msgstr ""
+msgstr "Ausschneiden"
 
 #: silva.ui:/rest/container/configuration.py:66
 msgid "Cut the selected items onto the clipboard."
-msgstr ""
+msgstr "Gewählte Objekte aus der Zwischenablage ausschneiden."
 
 #: silva.ui:/rest/container/configuration.py:77
 msgid "Copy"
-msgstr ""
+msgstr "Kopieren"
 
 #: silva.ui:/rest/container/configuration.py:79
 msgid "Copy the selected items onto the clipboard."
-msgstr ""
+msgstr "Gewählte Objekte aus der Zwischenablage kopieren."
 
 #: silva.ui:/rest/container/configuration.py:94
 msgid "Paste"
-msgstr ""
+msgstr "Einfügen"
 
 #: silva.ui:/rest/container/configuration.py:96
 msgid "Paste the items held on the clipboard."
-msgstr ""
+msgstr "Objete aus der Zwischenablage einfügen."
 
 #. Default: ""
 #: silva.ui:/rest/container/generator.py:43
 msgid ""
 "${count} contents could not be found (they probably have been deleted)."
 msgstr ""
+"${count} Inhalte konnten nicht gefunden werden (sie wurden möglicherweise "
+"gelöscht)."
 
 #: silva.ui:/rest/container/listing.py:103
 msgid "Published: this item is published and viewable by the public."
 msgstr ""
+"Veröffentlicht: dieses Objekt wurde veröffentlicht und ist jetzt öffentlich "
+"sichtbar."
 
 #: silva.ui:/rest/container/listing.py:105
 msgid "Closed: this item is no longer accessible to the public."
 msgstr ""
+"Geschlossen: dieses Objekt kann nicht mehr öffentlich gesehen werden."
 
 #: silva.ui:/rest/container/listing.py:107
 msgid "Pending: this item is waiting for approval."
-msgstr ""
+msgstr "Unerledigt: dieses Objekt wartet auf Bestätigung."
 
 #: silva.ui:/rest/container/listing.py:109
 msgid "Draft: this item is a working copy."
-msgstr ""
+msgstr "Entwurf: dieses Objekt ist eine Bearbeitungskopie."
 
 #: silva.ui:/rest/container/listing.py:111
 msgid "Approved: this item is approved for publication at a later time."
 msgstr ""
+"Bestätigt: dieses Objekt kann zu einem späteren Zeitpunkt veröffentlicht "
+"werden."
 
 #: silva.ui:/rest/container/listing.py:155
 msgid "Modified"
-msgstr ""
+msgstr "Geändert"
 
 #: silva.ui:/rest/container/listing.py:176
 msgid "Go to"
-msgstr ""
+msgstr "Gehe zu"
 
 #: silva.ui:/rest/container/listing.py:237
 msgid "Structural items"
-msgstr ""
+msgstr "Strukturbedingte Objekte"
 
 #: silva.ui:/rest/container/listing.py:265
 msgid "Assets"
-msgstr ""
+msgstr "Ressourcen"
 
 #. Default: ""
 #: silva.ui:/rest/container/notifier.py:53
 msgid "${count} contents"
-msgstr ""
+msgstr "${count} Inhalte"
 
 #. Default: ""
 #: silva.ui:/rest/container/notifier.py:57
 msgid "${contents} and ${content}"
-msgstr ""
+msgstr "${contents} und ${content}"
 
 #: silva.ui:/rest/container/serializer.py:107
 msgid "Broken content"
-msgstr ""
+msgstr "Kaputter Inhalt"
 
 #: silva.ui:/rest/container/templates/listing.cpt:11
 msgid "Loading folder content..."
-msgstr ""
+msgstr "Laden des Inhalts eines Ordners...."
 
 #: silva.ui:/rest/container/templates/listing.cpt:21
 msgid "${icon} ${count} item(s) on the clipboard"
-msgstr ""
+msgstr "${icon} ${count} Objekt(e) in der Zwischenablage"
 
 #: silva.ui:/rest/container/templates/listing.cpt:29
 msgid "${count} structural item(s),"
-msgstr ""
+msgstr "${count} strukturbedingte Objekt(e),"
 
 #: silva.ui:/rest/container/templates/listing.cpt:35
 msgid "${count} asset(s)."
-msgstr ""
+msgstr "${count} Ressource(n)."
 
 #: silva.ui:/rest/container/templates/listingtoolbar.cpt:3
 msgid "Filter ..."
-msgstr ""
+msgstr "Filter..."
 
 #: silva.ui:/service.py:108
 msgid "UI Folder Settings"
-msgstr ""
+msgstr "UI Ordner Einstellungen"
 
 #: silva.ui:/service.py:109
 msgid "Here you can modify the settings for folder listings."
 msgstr ""
+"An dieser Stelle können die Einstellungen der Ordnerliste angepasst werden."
 
 #: silva.ui:/service.py:57
 msgid "UI Generic Settings"
-msgstr ""
+msgstr "Allgemeine UI Einstellungen"
 
 #: silva.ui:/service.py:58
 msgid "Here you can modify the generic SMI settings."
-msgstr ""
+msgstr "Hier können die allgemeinen SMI Einstellungen angepasst werden."
 
 #: silva.ui:/service.py:98
 msgid "Modification saved."
-msgstr ""
+msgstr "Anpassungen gespeichert."
 
 #: silva.ui:/smi_templates/smitemplate.cpt:24
 msgid "Loading data from server"
-msgstr ""
+msgstr "Daten werden vom Server geladen."
 
 #: silva.ui:/smi_templates/smitemplate.cpt:48
 msgid "Logout"
-msgstr ""
+msgstr "Abmelden"
 
 #: silva.ui:/smi_templates/smitemplate.cpt:53
 msgid "Manage"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: silva.ui:/smi_templates/smitemplate.cpt:59
 msgid "Preferences"
-msgstr ""
+msgstr "Eigenschaften"
 
 #: silva.ui:/smi_templates/smitemplate.cpt:73
 msgid "Go one level up."
-msgstr ""
+msgstr "Eine Ebene nach oben wechseln."
 
 #: silva.ui:/smi_templates/smitemplate.cpt:81
 msgid "Switch to fullscreen mode."
-msgstr ""
+msgstr "Auf Fullscreen Modus wechseln."
 
 #: silva.ui:/smi_templates/smitemplate.cpt:95
 msgid "Loading..."
-msgstr ""
+msgstr "Lade..."
 
 #: zeam.form.silva:/actions.py:110
 msgid "Go back to the previous screen"
-msgstr ""
+msgstr "Zum vorhergehenden Schirm wechseln."
 
 #: zeam.form.silva:/actions.py:124
 msgid "Go back to the folder view without adding the item"
-msgstr ""
+msgstr "Zurück zur Ordneransicht ohne das Objekt hinzuzufügen."
 
 #: zeam.form.silva:/actions.py:131
 msgid "Back"
-msgstr ""
+msgstr "Zurück"
 
 #: zeam.form.silva:/actions.py:132
 msgid "Go back to the folder view"
-msgstr ""
+msgstr "Zurück zur Ordner-Ansicht"
 
 #: zeam.form.silva:/actions.py:32
 msgid "Save modifications on the item"
-msgstr ""
+msgstr "Speichere Anpassungen des Objektes."
 
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:259
 msgid "Add a ${content_type}"
-msgstr ""
+msgstr "Hinzufügen eines  ${content_type}"
 
 #: zeam.form.silva:/form/smi.py:296
 msgid "Create a new content"
-msgstr ""
+msgstr "Anlegen eines neuen Inhalts."
 
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:307
@@ -4819,11 +4844,11 @@ msgstr "${meta_type} hinzugefügt."
 #. Default: ""
 #: zeam.form.silva:/form/smi.py:332
 msgid "Edit a ${content_type}"
-msgstr ""
+msgstr "Bearbeiten eines  ${content_type}"
 
 #: zeam.form.silva:/form/smi_templates/smiformportlets.cpt:3
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: zeam.form.silva:/form/smi_templates/smisubtableformtemplate.cpt:21
 #: zeam.form.silva:/form/smi_templates/smitableformtemplate.cpt:18
@@ -4832,23 +4857,23 @@ msgstr "alles auswählen"
 
 #: zeam.form.silva:/widgets/cropping_templates/cropimageinputwidget.cpt:13
 msgid "keep proportions"
-msgstr ""
+msgstr "Verhältnis beibehalten"
 
 #: zeam.form.silva:/widgets/cropping_templates/cropimageinputwidget.cpt:25
 msgid "Visually select new crop coordinates"
-msgstr ""
+msgstr "Sichtbare Auswahl neuer Zuschnitt-Koordinaten"
 
 #: zeam.form.silva:/widgets/cropping_templates/cropimageinputwidget.cpt:29
 msgid "${icon} Set crop coordinates..."
-msgstr ""
+msgstr "${icon} Zuschnitt-Koordinaten setzen."
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:14
 msgid "mm"
-msgstr ""
+msgstr "MM"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:14
 msgid "month of year"
-msgstr ""
+msgstr "Monat des Jahres"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:23
 msgid "year"
@@ -4856,15 +4881,15 @@ msgstr "Jahr"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:23
 msgid "yyyy"
-msgstr ""
+msgstr "JJJJ"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
 msgid "HH"
-msgstr ""
+msgstr "HH"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:32
 msgid "optional hour in 24h format"
-msgstr ""
+msgstr "24 Stunden Format wählbar"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:42
 msgid "optional minute"
@@ -4872,15 +4897,15 @@ msgstr "Optionale Minute"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:42
 msgid "MM"
-msgstr ""
+msgstr "MM"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:5
 msgid "dd"
-msgstr ""
+msgstr "TT"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:5
 msgid "day of month"
-msgstr ""
+msgstr "Tag des Monats"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:53
 msgid "remove the non-required date"
@@ -4908,7 +4933,7 @@ msgstr "Eine neue Datei hochladen"
 
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:25
 msgid "Upload a new file in Silva"
-msgstr ""
+msgstr "Hochladen einer neuen Datei in Silva"
 
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:30
 msgid "Upload"

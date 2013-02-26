@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: silva\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-02-25 17:30+0000\n"
-"PO-Revision-Date: 2012-07-29 00:05+0000\n"
-"Last-Translator: Mhayk Whandson da Silva Lima <mhayk@m2smart.com.br>\n"
+"PO-Revision-Date: 2013-02-25 18:57+0000\n"
+"Last-Translator: Cristian Martins <cristian.martins20@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-02-25 16:36+0000\n"
+"X-Launchpad-Export-Date: 2013-02-26 14:28+0000\n"
 "X-Generator: Launchpad (build 16506)\n"
 "Language: \n"
 
@@ -4674,15 +4674,15 @@ msgstr ""
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:5
 msgid "day of month"
-msgstr ""
+msgstr "dia do mês"
 
 #: zeam.form.silva:/widgets/datetime_templates/datetimefieldwidget.cpt:53
 msgid "remove the non-required date"
-msgstr ""
+msgstr "remova a data não exigida"
 
 #: zeam.form.silva:/widgets/file.py:42
 msgid "Current file."
-msgstr ""
+msgstr "Arquivo atual"
 
 #: zeam.form.silva:/widgets/file.py:43
 msgid "Not set, please upload a file."
@@ -4690,19 +4690,19 @@ msgstr "Não definido. Por favor, envie um arquivo."
 
 #: zeam.form.silva:/widgets/file_templates/basicfilewidgetinput.cpt:16
 msgid "Keep the current file"
-msgstr ""
+msgstr "Manter o arquivo atual"
 
 #: zeam.form.silva:/widgets/file_templates/basicfilewidgetinput.cpt:24
 msgid "Remove the current file"
-msgstr ""
+msgstr "Remova o arquivo atual"
 
 #: zeam.form.silva:/widgets/file_templates/basicfilewidgetinput.cpt:9
 msgid "Upload a new file"
-msgstr ""
+msgstr "Carregar um novo arquivo"
 
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:25
 msgid "Upload a new file in Silva"
-msgstr ""
+msgstr "Carregar um novo arquivo em Silva"
 
 #: zeam.form.silva:/widgets/file_templates/filewidgetinput.cpt:30
 msgid "Upload"
@@ -4710,7 +4710,7 @@ msgstr "Enviar"
 
 #: zeam.form.silva:/widgets/others_templates/comboboxfieldwidget.cpt:5
 msgid "Show All Items"
-msgstr ""
+msgstr "Mostrar Todos os Itens"
 
 #~ msgid "Content is approved, not published"
 #~ msgstr "Conteúdo está aprovado, não publicado"
