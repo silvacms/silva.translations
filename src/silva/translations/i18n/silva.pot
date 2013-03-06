@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Feb 25 17:30:53 2013\n"
+"POT-Creation-Date: Wed Mar  6 17:57:34 2013\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -1406,47 +1406,47 @@ msgstr ""
 msgid "A programmation error happened while rendering the source."
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:29
+#: silva.app.forest:/interfaces.py:30
 msgid "(No skin change)"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:42
+#: silva.app.forest:/interfaces.py:48
 msgid "Original URL path"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:45
+#: silva.app.forest:/interfaces.py:51
 msgid "Zope path"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:48
+#: silva.app.forest:/interfaces.py:54
 msgid "Skin to apply"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:52
+#: silva.app.forest:/interfaces.py:58
 msgid "Force skin"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:59
+#: silva.app.forest:/interfaces.py:65
 msgid "Virtual host URL"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:62
+#: silva.app.forest:/interfaces.py:68
 msgid "Virtual host aliases"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:66
+#: silva.app.forest:/interfaces.py:72
 msgid "Rewrites rules"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:73
+#: silva.app.forest:/interfaces.py:79
 msgid "Virtual hosts"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:80
+#: silva.app.forest:/interfaces.py:86
 msgid "Import hosts"
 msgstr ""
 
-#: silva.app.forest:/interfaces.py:81
+#: silva.app.forest:/interfaces.py:87
 msgid "Import host definition as a CSV file."
 msgstr ""
 
@@ -1891,12 +1891,12 @@ msgstr ""
 msgid "Component created."
 msgstr ""
 
-#: silva.app.page:/page.py:111
+#: silva.app.page:/page.py:110
 #: silva.core.contentlayout:/model.py:163
 msgid "Page template"
 msgstr ""
 
-#: silva.app.page:/page.py:125
+#: silva.app.page:/page.py:124
 #: silva.core.layout:/default.py:46
 #: silva.core.layout:/default.py:63
 #: silva.core.layout:/default.py:83
@@ -1954,7 +1954,7 @@ msgid "Modify email notification settings"
 msgstr ""
 
 #: silva.app.subscriptions:/service.py:320
-#: silva.app.subscriptions:/smi.py:30
+#: silva.app.subscriptions:/smi.py:31
 msgid "Disable subscriptions"
 msgstr ""
 
@@ -1978,55 +1978,59 @@ msgstr ""
 msgid "Install a MaildropHost service to send emails"
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:29
+#: silva.app.subscriptions:/smi.py:30
 msgid "Acquire settings from above"
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:31
+#: silva.app.subscriptions:/smi.py:32
 msgid "Enable subscriptions"
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:40
+#: silva.app.subscriptions:/smi.py:41
 msgid "subscribable"
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:41
+#: silva.app.subscriptions:/smi.py:42
 msgid "Set the subscribability for this content, or set it to acquire the subscribability from above (the default)."
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:48
+#: silva.app.subscriptions:/smi.py:49
 msgid "subscribed email addresses"
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:49
+#: silva.app.subscriptions:/smi.py:50
 msgid "List of email addresses currently subscribed to this content at this level, one per line. "
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:62
+#: silva.app.subscriptions:/smi.py:63
 msgid "Manage subscriptions"
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:79
+#: silva.app.subscriptions:/smi.py:80
 msgid "Subscriptions"
 msgstr ""
 
-#: silva.app.subscriptions:/smi.py:81
+#: silva.app.subscriptions:/smi.py:82
 msgid "manage subscriptions"
 msgstr ""
 
-#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:11
+#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:12
 msgid "This item can be subscribed to."
 msgstr ""
 
-#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:16
+#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:17
+msgid "You can use this ${URL} to publicly subscribe or unsubscribe to the item."
+msgstr ""
+
+#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:21
 msgid "Other subscriptions"
 msgstr ""
 
-#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:19
+#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:24
 msgid "${count} subscription(s) for this item defined above."
 msgstr ""
 
-#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:23
+#: silva.app.subscriptions:/smi_templates/subscriptionportlet.cpt:28
 msgid "No other subscriptions for this item."
 msgstr ""
 
@@ -2321,45 +2325,45 @@ msgstr ""
 msgid "If any code sources are selected, it will be the only ones addable to the slot."
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:130
+#: silva.core.contentlayout:/blocks/source.py:132
 msgid "Added new source component"
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:153
+#: silva.core.contentlayout:/blocks/source.py:155
 #. Default: ""
 msgid "Parameters for new source ${title}"
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:155
+#: silva.core.contentlayout:/blocks/source.py:157
 msgid "Add a source component"
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:209
+#: silva.core.contentlayout:/blocks/source.py:211
 msgid "Source component modified."
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:217
-#: silva.core.contentlayout:/blocks/source.py:232
+#: silva.core.contentlayout:/blocks/source.py:219
+#: silva.core.contentlayout:/blocks/source.py:234
 msgid "Edit a source component"
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:230
+#: silva.core.contentlayout:/blocks/source.py:232
 #. Default: ""
 msgid "Parameters for existing source ${title}"
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:252
-#: silva.core.contentlayout:/blocks/source.py:273
+#: silva.core.contentlayout:/blocks/source.py:254
+#: silva.core.contentlayout:/blocks/source.py:275
 #: silva.core.contentlayout:/blocks/text.py:173
 #: silva.core.contentlayout:/blocks/text.py:185
 msgid "Convert"
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:312
+#: silva.core.contentlayout:/blocks/source.py:314
 msgid "Convert existing source component to asset"
 msgstr ""
 
-#: silva.core.contentlayout:/blocks/source.py:313
+#: silva.core.contentlayout:/blocks/source.py:315
 msgid "Create a source asset using current source parameters, and refer to it using a site content component."
 msgstr ""
 
@@ -2544,7 +2548,7 @@ msgstr ""
 #: silva.core.editor:/service.py:251
 #: silva.core.contentlayout:/blocks/contents.py:108
 #: silva.core.contentlayout:/blocks/slot.py:237
-#: silva.core.contentlayout:/blocks/source.py:101
+#: silva.core.contentlayout:/blocks/source.py:103
 #: silva.core.contentlayout:/blocks/text.py:95
 #: silva.core.references:/widgets/rest_templates/referencelookup.cpt:18
 #: silva.core.smi:/content/adding.py:64
@@ -2590,7 +2594,7 @@ msgstr ""
 #: silva.core.editor:/service.py:378
 #: silva.core.contentlayout:/blocks/contents.py:159
 #: silva.core.contentlayout:/blocks/slot.py:348
-#: silva.core.contentlayout:/blocks/source.py:190
+#: silva.core.contentlayout:/blocks/source.py:192
 #: silva.core.contentlayout:/blocks/text.py:138
 #: silva.core.smi:/content/metadata.py:174
 #: silva.pas.base:/Membership.py:285
@@ -3132,22 +3136,26 @@ msgid "There's no undo."
 msgstr ""
 
 #: silva.core.smi:/content/publish/status.py:260
+msgid "Delete a version"
+msgstr ""
+
+#: silva.core.smi:/content/publish/status.py:262
 msgid "Deletion is premanent. Are you sure ?"
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:270
+#: silva.core.smi:/content/publish/status.py:272
 msgid "Cannot delete all versions."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:275
+#: silva.core.smi:/content/publish/status.py:277
 msgid "No version selected, nothing deleted."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:284
+#: silva.core.smi:/content/publish/status.py:286
 msgid "Version(s) deleted."
 msgstr ""
 
-#: silva.core.smi:/content/publish/status.py:317
+#: silva.core.smi:/content/publish/status.py:319
 msgid "Manage versions"
 msgstr ""
 
