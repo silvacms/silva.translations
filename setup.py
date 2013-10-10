@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '3.0.2'
+version = '3.0.3dev'
 
 setup(name='silva.translations',
       version=version,
