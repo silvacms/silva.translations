@@ -17,5 +17,5 @@ You can find the code of this extension in Mercurial:
 https://hg.infrae.com/silva.translations/.
 
 
-.. _Silva: http://infrae.com/products/silva
+.. _Silva: http://silvacms.org
 
